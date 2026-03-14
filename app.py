@@ -20,7 +20,7 @@ st.markdown("""
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
-    /* 移除原生元件多餘間距 */
+    /* 讓選單列變細，不佔空間 */
     .stSelectbox, .stNumberInput { margin-bottom: 0px !important; }
     </style>
     """, unsafe_allow_html=True)
@@ -54,10 +54,7 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
 df = load_data()
 
 if df is not None:
-    # 頂部：火箭大標題
-    st.markdown("<h1 style='text-align:center; color:#1d4ed8; margin-bottom:10px;'>🚀 考前60天衝刺</h1>", unsafe_allow_html=True)
-
-    # 控制列：單純放選單跟頁碼
+    # 頂部控制列：純數據選擇
     c1, c2 = st.columns([3, 1])
     unit_list = df['Day'].tolist()
     with c1:
@@ -66,7 +63,7 @@ if df is not None:
     with c2:
         target_page = st.number_input("頁碼", min_value=1, value=1, label_visibility="collapsed")
 
-    # 準備資料
+    # 準備檔案路徑
     local_pdf_path = "notes.pdf"
     pdf_b64 = get_pdf_page_as_base64(local_pdf_path, target_page - 1)
     audio_path = str(row['Audio_Path']).strip().lstrip('/')
@@ -77,7 +74,7 @@ if df is not None:
         res_json = requests.get(json_url)
         script_json_data = res_json.text if res_json.status_code == 200 else "[]"
 
-        # --- 🔥 終極大一統：把所有東西都包在一個 HTML 裡 🔥 ---
+        # --- 🔥 旗艦大整合 HTML 🔥 ---
         full_html = f"""
         <!DOCTYPE html>
         <html>
@@ -85,72 +82,87 @@ if df is not None:
         <style>
             body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; }}
             
-            /* 播放列：跟 PDF 緊連在一起 */
-            .top-bar {{
-                display: flex; justify-content: flex-end; padding: 10px 0;
+            /* 1. 標題與播放鍵並排列 */
+            .header-container {{
+                display: flex; align-items: center; justify-content: space-between;
+                padding: 10px 0; margin-bottom: 5px;
             }}
-            .play-btn {{
+            .title-text {{
+                color: #1d4ed8; font-size: 32px; font-weight: bold; margin: 0;
+                display: flex; align-items: center; gap: 10px;
+            }}
+            .play-capsule {{
                 background: linear-gradient(135deg, #2b58db, #1d4ed8);
-                color: white; padding: 8px 18px; border-radius: 50px;
-                display: flex; align-items: center; gap: 8px;
-                font-weight: bold; font-size: 15px; cursor: pointer;
-                box-shadow: 0 4px 10px rgba(29, 78, 216, 0.3); border: none;
+                color: white; padding: 8px 22px; border-radius: 50px;
+                display: flex; align-items: center; gap: 10px;
+                font-weight: bold; font-size: 16px; cursor: pointer;
+                box-shadow: 0 4px 12px rgba(29, 78, 216, 0.4); border: none;
+                transition: transform 0.2s;
             }}
+            .play-capsule:active {{ transform: scale(0.95); }}
 
-            .pdf-view {{ width: 100%; border-radius: 8px; border: 1px solid #eee; overflow: hidden; }}
+            /* 2. PDF 區域 */
+            .pdf-view {{ width: 100%; border-radius: 12px; border: 1px solid #eee; overflow: hidden; }}
             .pdf-img {{ width: 100%; display: block; }}
             
-            .seek-row {{ width: 100%; padding: 12px 0; display: flex; align-items: center; gap: 10px; }}
+            /* 3. 進度條 */
+            .seek-area {{ width: 100%; padding: 15px 0; display: flex; align-items: center; gap: 10px; }}
             input[type=range] {{ flex: 1; accent-color: #1d4ed8; cursor: pointer; }}
-            .time-txt {{ font-size: 12px; color: #64748b; min-width: 80px; text-align: right; }}
+            .time-label {{ font-size: 13px; color: #64748b; min-width: 85px; text-align: right; }}
 
-            /* 字幕舞台 */
-            .chat-stage {{ width: 100%; min-height: 120px; display: flex; flex-direction: column; padding: 10px 0; }}
-            .bubble {{
-                max-width: 80%; padding: 15px 20px; border-radius: 18px;
-                box-shadow: 0 5px 15px rgba(0,0,0,0.08); font-size: 19px; line-height: 1.5;
-                opacity: 0; transition: all 0.3s ease;
+            /* 4. 分離式左右字幕泡泡 */
+            .subtitle-stage {{
+                width: 100%; min-height: 110px; display: flex; flex-direction: column; padding-top: 5px;
             }}
-            .yanjun {{ align-self: flex-start; background: #e3f2fd; color: #0d47a1; border: 2px solid #bbdefb; border-bottom-left-radius: 2px; }}
-            .xiaozhen {{ align-self: flex-end; background: #fef2f2; color: #991b1b; border: 2px solid #fecaca; border-bottom-right-radius: 2px; }}
-            .name {{ font-size: 12px; font-weight: bold; margin-bottom: 4px; opacity: 0.8; }}
+            .bubble {{
+                max-width: 75%; padding: 14px 18px; border-radius: 18px;
+                box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+                font-size: 20px; line-height: 1.5; opacity: 0;
+                transition: all 0.3s ease;
+            }}
+            .yanjun {{
+                align-self: flex-start;
+                background-color: #e3f2fd; color: #0d47a1;
+                border: 2px solid #bbdefb; border-bottom-left-radius: 2px;
+            }}
+            .xiaozhen {{
+                align-self: flex-end;
+                background-color: #fef2f2; color: #991b1b;
+                border: 2px solid #fecaca; border-bottom-right-radius: 2px;
+            }}
+            .speaker-name {{ font-size: 12px; font-weight: bold; margin-bottom: 4px; opacity: 0.8; }}
         </style>
         </head>
         <body>
-            <div class="top-bar">
-                <button id="playBtn" class="play-btn">▶️ 開始衝刺</button>
+            <div class="header-container">
+                <div class="title-text">🚀 考前60天衝刺</div>
+                <button id="mainPlayBtn" class="play-capsule">▶️ 收聽快報</button>
             </div>
 
-            <audio id="audio" src="{audio_url}"></audio>
+            <audio id="coreAudio" src="{audio_url}"></audio>
 
-            <div class="pdf-view"><img src="data:image/png;base64,{pdf_b64}" class="pdf-img"></div>
+            <div class="pdf-view">
+                <img src="data:image/png;base64,{pdf_b64}" class="pdf-img">
+            </div>
             
-            <div class="seek-row">
-                <input type="range" id="seek" value="0" step="0.1">
-                <div class="time-txt"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
+            <div class="seek-area">
+                <input type="range" id="seekSlider" value="0" step="0.1">
+                <div class="time-label"><span id="curTime">0:00</span> / <span id="durTime">0:00</span></div>
             </div>
 
-            <div class="chat-stage">
-                <div id="bubble" class="bubble yanjun">
-                    <div id="spk" class="name"></div>
-                    <div id="msg"></div>
+            <div class="subtitle-stage">
+                <div id="bubbleWrap" class="bubble yanjun">
+                    <div id="spkLabel" class="speaker-name"></div>
+                    <div id="msgText"></div>
                 </div>
             </div>
 
             <script>
-                const audio = document.getElementById('audio');
-                const btn = document.getElementById('playBtn');
-                const seek = document.getElementById('seek');
-                const bubble = document.getElementById('bubble');
+                const audio = document.getElementById('coreAudio');
+                const btn = document.getElementById('mainPlayBtn');
+                const seek = document.getElementById('seekSlider');
+                const bubble = document.getElementById('bubbleWrap');
                 const script = {script_json_data};
-
-                btn.onclick = () => {{
-                    if (audio.paused) {{
-                        audio.play(); btn.innerText = "⏸️ 暫停";
-                    }} else {{
-                        audio.pause(); btn.innerText = "▶️ 繼續";
-                    }}
-                }};
 
                 function fmt(s) {{
                     const m = Math.floor(s/60);
@@ -158,20 +170,30 @@ if df is not None:
                     return m + ":" + (sec < 10 ? "0" : "") + sec;
                 }}
 
+                btn.onclick = () => {{
+                    if (audio.paused) {{
+                        audio.play();
+                        btn.innerText = "⏸️ 暫停衝刺";
+                    }} else {{
+                        audio.pause();
+                        btn.innerText = "▶️ 繼續衝刺";
+                    }}
+                }};
+
                 audio.onloadedmetadata = () => {{
-                    document.getElementById('dur').innerText = fmt(audio.duration);
+                    document.getElementById('durTime').innerText = fmt(audio.duration);
                     seek.max = audio.duration;
                 }};
 
                 audio.ontimeupdate = () => {{
                     const t = audio.currentTime;
-                    document.getElementById('cur').innerText = fmt(t);
+                    document.getElementById('curTime').innerText = fmt(t);
                     seek.value = t;
                     let hit = false;
                     for (let s of script) {{
                         if (t >= s.start && t <= s.end) {{
-                            document.getElementById('spk').innerText = (s.speaker === "彥君" ? "👨‍🏫 彥君老師" : "👩‍🔬 曉臻助教");
-                            document.getElementById('msg').innerText = s.text;
+                            document.getElementById('spkLabel').innerText = (s.speaker === "彥君" ? "👨‍🏫 彥君老師" : "👩‍🔬 曉臻助教");
+                            document.getElementById('msgText').innerText = s.text;
                             bubble.className = "bubble " + (s.speaker === "彥君" ? "yanjun" : "xiaozhen");
                             bubble.style.opacity = 1;
                             hit = true; break;
@@ -184,7 +206,8 @@ if df is not None:
         </body>
         </html>
         """
-        components.html(full_html, height=1300)
+        # 渲染：這次直接一步到位
+        components.html(full_html, height=1250)
 
     except Exception as e:
-        st.error(f"⚠️ 載入錯誤：{e}")
+        st.error(f"連線異常：{e}")
