@@ -133,7 +133,7 @@ if df is not None:
         <body>
             <div class="header-bar">
                 <div class="title">🚀 考考前60天衝刺</div>
-                <button id="pBtn" class="play-btn">▶️ 收聽快報</button>
+                <button id="pBtn" class="play-btn">▶️ 立刻收聽</button>
             </div>
 
             <audio id="aud" src="{audio_url}"></audio>
