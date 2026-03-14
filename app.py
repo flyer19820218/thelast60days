@@ -18,12 +18,25 @@ def load_data():
     SHEET_URL = "https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv"
     return pd.read_csv(SHEET_URL)
 
-# --- 3. PDF 顯示功能 (修正版：使用 Google 服務跳板) ---
+# --- 3. PDF 顯示功能 (終極 Base64 內嵌版) ---
 def display_pdf(url):
-    # 利用 Google Drive PDF Viewer 繞過 GitHub 的嵌入限制
-    google_view_url = f"https://docs.google.com/viewer?url={url}&embedded=true"
-    pdf_display = f'<iframe src="{google_view_url}" width="100%" height="800" style="border: none;"></iframe>'
-    st.markdown(pdf_display, unsafe_allow_html=True)
+    try:
+        # 直接把 PDF 檔案抓下來
+        response = requests.get(url)
+        response.raise_for_status() # 檢查有沒有抓取失敗
+        
+        # 轉換成 Base64 編碼
+        base64_pdf = base64.b64encode(response.content).decode('utf-8')
+        
+        # 直接把資料塞進 iframe 裡，不靠任何外部 Viewer
+        pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="100%" height="800" type="application/pdf"></iframe>'
+        st.markdown(pdf_display, unsafe_allow_html=True)
+    except Exception as e:
+        st.error(f"⚠️ PDF 載入失敗，請確認檔案是否存在。錯誤訊息: {e}")
+
+# --- 主程式呼叫方式不變 ---
+# pdf_raw_url = f"https://raw.githubusercontent.com/{USER}/{REPO}/main/notes.pdf"
+# display_pdf(pdf_raw_url)
 
 # --- 4. 主程式 ---
 st.title("🎧 自然科學真理 PODCAST")
