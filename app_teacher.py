@@ -14,7 +14,7 @@ st.set_page_config(page_title="會考自然-旗艦教學版", layout="wide")
 
 st.markdown("""
     <style>
-    #MainMenu, footer, header {visibility: hidden;}
+    footer {visibility: hidden;}
     .stApp { background-color: #ffffff; }
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
@@ -52,33 +52,29 @@ if df is not None and not df.empty:
 
     total_items = len(df)
     
-    # 🌟 新增邏輯：每 10 個分一組
+    # 每 10 個分一組
     group_size = 10
     num_groups = math.ceil(total_items / group_size)
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
     
-    # 計算目前在哪一個群組
     current_group_idx = st.session_state.page_idx // group_size
 
-    # --- 頂部控制列 (加入群組選單) ---
-    c_group, c_unit, c_prev, c_next, c_page = st.columns([1.5, 2.5, 0.5, 0.5, 1])
+    # --- 頂部控制列 (拿掉進度條，重新分配比例) ---
+    c_group, c_unit, c_prev, c_next = st.columns([1.5, 3.5, 0.5, 0.5])
     
     with c_group:
         selected_group = st.selectbox("範圍", group_labels, index=current_group_idx, label_visibility="collapsed")
         new_group_idx = group_labels.index(selected_group)
-        # 如果切換了群組，自動跳到該群組的第一頁
         if new_group_idx != current_group_idx:
             st.session_state.page_idx = new_group_idx * group_size
             st.rerun()
 
     with c_unit:
-        # 根據選定的群組，抽出那 10 堂課
         start_idx = new_group_idx * group_size
         end_idx = min(start_idx + group_size, total_items)
         sub_df = df.iloc[start_idx:end_idx]
         unit_list = sub_df['Title'].tolist()
         
-        # 換算在子選單中的相對位置 (0~9)
         local_idx = st.session_state.page_idx - start_idx
         
         selected_day = st.selectbox("單元", unit_list, index=local_idx, label_visibility="collapsed")
@@ -96,8 +92,6 @@ if df is not None and not df.empty:
         if st.button("➡️"):
             st.session_state.page_idx = min(total_items - 1, st.session_state.page_idx + 1)
             st.rerun()
-    with c_page:
-        st.info(f"📍 總進度: {st.session_state.page_idx + 1} / {total_items}")
 
     main_container = st.empty()
 
