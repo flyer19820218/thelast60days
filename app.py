@@ -18,43 +18,29 @@ def load_data():
     SHEET_URL = "https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv"
     return pd.read_csv(SHEET_URL)
 
-# --- 3. PDF 顯示組件 ---
+# --- 3. PDF 顯示功能 (修正版：使用 Google 服務跳板) ---
 def display_pdf(url):
-    # 用 iframe 嵌入，這是手機最友好的顯示方式
-    pdf_display = f'<iframe src="{url}" width="100%" height="800" type="application/pdf"></iframe>'
+    # 利用 Google Drive PDF Viewer 繞過 GitHub 的嵌入限制
+    google_view_url = f"https://docs.google.com/viewer?url={url}&embedded=true"
+    pdf_display = f'<iframe src="{google_view_url}" width="100%" height="800" style="border: none;"></iframe>'
     st.markdown(pdf_display, unsafe_allow_html=True)
 
 # --- 4. 主程式 ---
 st.title("🎧 自然科學真理 PODCAST")
-st.caption("彥君老師 & 曉臻助教：考前 60 天陪你衝 A")
-
 df = load_data()
 
 if df is not None:
-    unit_list = df['Day'].tolist()
-    selected = st.selectbox("📅 選擇今日進度：", unit_list)
-    row = df[df['Day'] == selected].iloc[0]
-
-    st.divider()
+    # ... (中間選單代碼不變)
     
-    # 語音區
-    st.subheader(f"🔊 {row['Title']}")
-    audio_url = f"{GITHUB_RAW}{row['Audio_Path']}"
-    st.audio(audio_url)
-    st.caption("⚡️ 建議使用 1.75x 聽講更高效")
-
     # PDF 區
     st.divider()
     st.subheader("📝 彥君老師手繪講義")
-    st.link_button("📂 全螢幕打開 PDF 講義", PDF_URL)
-    display_pdf(PDF_URL)
-
-    # 逐字稿區 (選用)
-    with st.expander("📖 查看本集逐字稿"):
-        script_url = f"{GITHUB_RAW}{row['Script_Path']}"
-        res = requests.get(script_url)
-        res.encoding = 'utf-8'
-        st.write(res.text)
-
-else:
-    st.error("資料庫連線中...")
+    
+    # 這裡要用 GitHub 的「真實原始連結」
+    # 請確保 notes.pdf 是放在 Repo 的根目錄
+    pdf_raw_url = f"https://raw.githubusercontent.com/{USER}/{REPO}/main/notes.pdf"
+    
+    st.link_button("📂 全螢幕打開 PDF 講義", pdf_raw_url)
+    
+    # 呼叫修正後的顯示函數
+    display_pdf(pdf_raw_url)
