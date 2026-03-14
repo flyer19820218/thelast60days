@@ -18,13 +18,13 @@ st.markdown("""
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
-    /* 🌟 精準定位：讓選擇框完美嵌入導航列 */
+    /* 🌟 精準定位修正版 */
     .stSelectbox {
-        margin-bottom: -72px !important; 
+        margin-bottom: -74px !important; 
         position: relative;
         z-index: 101;
-        width: 25% !important;
-        margin-left: 240px !important; /* 配合標題長度調整位置 */
+        width: 22% !important; /* 寬度稍微縮減更精緻 */
+        margin-left: 300px !important; /* 往右移一點，避開長標題 */
     }
     .stSelectbox label { display: none !important; } 
 </style>
@@ -89,7 +89,7 @@ if df is not None:
             }}
             .nav-left {{ display: flex; align-items: center; }}
             .nav-title {{ color: #1e40af; font-size: 32px; font-weight: 900; white-space: nowrap; }}
-            .spacer {{ width: 28%; }} 
+            .spacer {{ width: 25%; }} 
             .play-btn {{ 
                 background: #1e40af; color: white; padding: 10px 30px; border-radius: 50px; 
                 border: none; font-size: 22px; font-weight: bold; cursor: pointer;
