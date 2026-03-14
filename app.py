@@ -18,12 +18,10 @@ st.markdown("""
     header {visibility: hidden;}
     .stApp { background-color: #f8f9fa; }
     
-    /* 強制字體 */
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
     
-    /* 選單區美化 */
     .menu-box {
         background-color: white;
         padding: 20px;
@@ -67,7 +65,6 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
 df = load_data()
 
 if df is not None:
-    # --- 頂部選單區 (捨棄 expander 防止亂碼) ---
     st.markdown('<div class="menu-box">', unsafe_allow_html=True)
     c1, c2 = st.columns([2, 1])
     unit_list = df['Day'].tolist()
@@ -76,7 +73,6 @@ if df is not None:
     target_page = c2.number_input("📄 講義頁碼", min_value=1, value=1)
     st.markdown('</div>', unsafe_allow_html=True)
 
-    # --- 處理 PDF 圖片 ---
     local_pdf_path = "notes.pdf"
     pdf_b64 = get_pdf_page_as_base64(local_pdf_path, target_page - 1)
 
@@ -90,14 +86,13 @@ if df is not None:
             res_json.raise_for_status()
             script_json_data = res_json.text
 
-            # --- 🔥 下方字幕區分離佈局 🔥 ---
+            # --- 🔥 下方字幕區分離佈局 (修正括號問題) 🔥 ---
             html_content = f"""
             <!DOCTYPE html>
             <html>
             <head>
             <style>
                 body {{ font-family: 'PingFang TC', sans-serif; margin: 0; padding: 0; background: #f8f9fa; }}
-                
                 .pdf-view {{
                     width: 100%;
                     max-width: 800px;
@@ -108,20 +103,15 @@ if df is not None:
                     overflow: hidden;
                 }}
                 .pdf-img {{ width: 100%; display: block; }}
-
-                /* 專屬字幕舞台 (在 PDF 下方) */
                 .subtitle-stage {{
                     width: 100%;
                     max-width: 800px;
                     margin: 20px auto;
                     height: 180px;
-                    position: relative;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                 }}
-
-                /* 泡泡設計 */
                 .bubble {{
                     padding: 20px 25px;
                     border-radius: 25px;
@@ -136,8 +126,6 @@ if df is not None:
                 .yanjun {{ background-color: #e3f2fd; color: #0d47a1; border: 2px solid #bbdefb; }}
                 .xiaozhen {{ background-color: #fff3e0; color: #e65100; border: 2px solid #ffe0b2; }}
                 .name-tag {{ font-size: 14px; font-weight: bold; margin-bottom: 8px; }}
-
-                /* 固定在右下角的膠囊按鈕 */
                 .btn-fixed {{
                     position: fixed;
                     bottom: 30px;
@@ -153,30 +141,24 @@ if df is not None:
                     font-weight: bold;
                     cursor: pointer;
                     box-shadow: 0 5px 20px rgba(29, 78, 216, 0.5);
-                    user-select: none;
                     transition: transform 0.2s;
                 }}
-                .btn-fixed:active {{ transform: scale(0.9); }}
             </style>
             </head>
             <body>
                 <div class="pdf-view">
                     <img src="data:image/png;base64,{pdf_b64}" class="pdf-img">
                 </div>
-
                 <div class="subtitle-stage">
                     <div id="bubble" class="bubble yanjun">
                         <div id="speaker" class="name-tag">👨‍🏫 彥君老師</div>
-                        <div id="txt">準備好了嗎？點擊右下角按鈕開始衝刺！</div>
+                        <div id="txt">點擊右下角按鈕開始衝刺！</div>
                     </div>
                 </div>
-
                 <audio id="player"><source src="{audio_url}" type="audio/mpeg"></audio>
-
                 <div id="btn" class="btn-fixed">
                     <span id="ico">▶️</span> <span id="lbl">收聽快報</span>
                 </div>
-
                 <script>
                     const audio = document.getElementById('player');
                     const btn = document.getElementById('btn');
@@ -204,23 +186,22 @@ if df is not None:
                                 if (s.speaker === "彥君") {{
                                     document.getElementById('speaker').innerText = "👨‍🏫 彥君老師";
                                     bubble.className = "bubble yanjun";
-                                } else {{
+                                }} else {{
                                     document.getElementById('speaker').innerText = "👩‍🔬 曉臻助教";
                                     bubble.className = "bubble xiaozhen";
                                 }}
                                 bubble.style.opacity = 1;
-                                found = true; break;
+                                found = true;
+                                break;
                             }}
                         }}
-                        if (!found) bubble.style.opacity = 0;
+                        if (!found) {{ bubble.style.opacity = 0; }}
                     }};
                     bubble.style.opacity = 1;
                 </script>
             </body>
             </html>
             """
-            # 調整高度以適應新的佈局
             components.html(html_content, height=1200, scrolling=True)
-
         except Exception as e:
             st.error(f"字幕同步失敗：{e}")
