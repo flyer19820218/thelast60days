@@ -15,7 +15,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# 快取 5 秒，確保你改 Google Sheet 網頁馬上能跟上
 @st.cache_data(ttl=5) 
 def load_data_raw():
     url = "https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv"
@@ -40,30 +39,36 @@ def get_pdf_page_64(pdf_page_index):
 df = load_data_raw()
 
 if df is not None and not df.empty:
+    # --- 🌟 1. 絕對不卡死的狀態管理 ---
     if 'page_idx' not in st.session_state:
         st.session_state.page_idx = 0
 
-    # 🌟 原生、絕對不會卡死的 Streamlit 選單
     options = [f"第 {row['頁碼']} 頁 - {row['Title']}" for _, row in df.iterrows()]
     
+    # 這是強制更新畫面的 Callback 函數
+    def change_page():
+        selected = st.session_state.course_dropdown
+        st.session_state.page_idx = options.index(selected)
+
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-        selected_option = st.selectbox("🚀 選擇課程單元：", options, index=st.session_state.page_idx)
-        new_idx = options.index(selected_option)
-        # 一旦選單改變，立刻換頁重整
-        if new_idx != st.session_state.page_idx:
-            st.session_state.page_idx = new_idx
-            st.rerun()
+        st.selectbox(
+            "🚀 選擇課程單元：", 
+            options, 
+            index=st.session_state.page_idx, 
+            key="course_dropdown", 
+            on_change=change_page  # 只要選單一動，立刻強制執行換頁！
+        )
 
-    # 取得目前頁面資料
+    # --- 🌟 2. 取得對應資料 ---
     row = df.iloc[st.session_state.page_idx]
     
-    # 🌟 直球對決的頁碼換算：如果有錯直接噴紅字，不藏私！
+    # 強制把 A 欄的 'p' 清除（以防萬一），並轉為數字
     try:
-        pdf_page_index = int(str(row['頁碼']).strip()) - 1
+        page_val = str(row['頁碼']).lower().replace('p', '').strip()
+        pdf_page_index = int(page_val) - 1
         if pdf_page_index < 0: pdf_page_index = 0
-    except ValueError:
-        st.error(f"⚠️ 頁碼錯誤！請確認 Google Sheet 的 A 欄是純數字（目前讀到：{row['頁碼']}）")
+    except:
         pdf_page_index = 0
 
     audio_file = str(row['Audio_Path']).strip().lstrip('/')
@@ -80,7 +85,10 @@ if df is not None and not df.empty:
     res_json = requests.get(json_url)
     script_data = res_json.text if res_json.status_code == 200 else "[]"
 
-    # HTML 播放器
+    # --- 🌟 3. 系統偵測雷達 (給我們看除錯用的) ---
+    st.info(f"🔧 系統偵測：目前正在讀取 `{audio_file}`，準備顯示 PDF 第 `{pdf_page_index + 1}` 頁")
+
+    # --- 🌟 4. HTML 播放器 ---
     full_html = f"""
     <!DOCTYPE html>
     <html>
