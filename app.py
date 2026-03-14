@@ -13,31 +13,23 @@ st.set_page_config(page_title="國中自然60天逆襲", layout="centered")
 
 st.markdown("""
     <style>
-    /* 1. 隱藏 Streamlit 原生垃圾元件 */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     header {visibility: hidden;}
-    .stApp { background-color: white; }
+    .stApp { background-color: #f8f9fa; }
     
-    /* 2. 徹底重寫選單容器，解決亂碼問題 */
-    .stSelectbox, .stNumberInput {
-        margin-bottom: 10px;
-    }
-    
-    /* 隱藏那個會產生亂碼圖示的 expander header icon */
-    [data-testid="stExpander"] svg {
-        display: none;
-    }
-    
-    [data-testid="stExpander"] p {
-        font-size: 18px;
-        font-weight: bold;
-        color: #2b58db;
-    }
-
-    /* 3. 全域字體強制執行 */
+    /* 強制字體 */
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
+    }
+    
+    /* 選單區美化 */
+    .menu-box {
+        background-color: white;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        margin-bottom: 20px;
     }
     </style>
     """, unsafe_allow_html=True)
@@ -62,8 +54,7 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
             doc.close()
             return "PAGE_OUT_OF_RANGE"
         page = doc.load_page(page_index)
-        # 提高倍率至 2.5 確保超清晰
-        pix = page.get_pixmap(matrix=fitz.Matrix(2.5, 2.5)) 
+        pix = page.get_pixmap(matrix=fitz.Matrix(2.0, 2.0)) 
         img_data = pix.tobytes("png")
         doc.close()
         return base64.b64encode(img_data).decode('utf-8')
@@ -76,14 +67,14 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
 df = load_data()
 
 if df is not None:
-    # --- 頂部控制面板 ---
-    # 使用簡潔的標題，不再放 icon 避免編碼錯誤
-    with st.expander("課程進度與講義翻頁", expanded=False):
-        unit_list = df['Day'].tolist()
-        selected = st.selectbox("📅 選擇今日進度", unit_list)
-        row = df[df['Day'] == selected].iloc[0]
-        st.info(f"📍 目前單元：{row['Title']}")
-        target_page = st.number_input("📄 翻閱講義頁碼", min_value=1, value=1)
+    # --- 頂部選單區 (捨棄 expander 防止亂碼) ---
+    st.markdown('<div class="menu-box">', unsafe_allow_html=True)
+    c1, c2 = st.columns([2, 1])
+    unit_list = df['Day'].tolist()
+    selected = c1.selectbox("📅 選擇今日進度", unit_list)
+    row = df[df['Day'] == selected].iloc[0]
+    target_page = c2.number_input("📄 講義頁碼", min_value=1, value=1)
+    st.markdown('</div>', unsafe_allow_html=True)
 
     # --- 處理 PDF 圖片 ---
     local_pdf_path = "notes.pdf"
@@ -99,80 +90,91 @@ if df is not None:
             res_json.raise_for_status()
             script_json_data = res_json.text
 
-            # --- 🔥 HTML/JS 視覺引擎 (優化佈局寬度) 🔥 ---
+            # --- 🔥 下方字幕區分離佈局 🔥 ---
             html_content = f"""
             <!DOCTYPE html>
             <html>
             <head>
             <style>
-                body {{ font-family: 'PingFang TC', sans-serif; margin: 0; padding: 0; background: white; }}
-                .wrapper {{ 
-                    position: relative; 
-                    width: 100%; 
-                    max-width: 750px; /* 稍微縮小寬度，避免手機版破圖 */
-                    margin: 0 auto; 
+                body {{ font-family: 'PingFang TC', sans-serif; margin: 0; padding: 0; background: #f8f9fa; }}
+                
+                .pdf-view {{
+                    width: 100%;
+                    max-width: 800px;
+                    margin: 0 auto;
+                    background: white;
+                    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+                    border-radius: 8px;
+                    overflow: hidden;
                 }}
                 .pdf-img {{ width: 100%; display: block; }}
-                
-                .overlay {{
-                    position: absolute;
-                    bottom: 30px;
-                    right: 20px;
+
+                /* 專屬字幕舞台 (在 PDF 下方) */
+                .subtitle-stage {{
+                    width: 100%;
+                    max-width: 800px;
+                    margin: 20px auto;
+                    height: 180px;
+                    position: relative;
                     display: flex;
-                    flex-direction: column;
-                    align-items: flex-end;
-                    gap: 15px;
+                    align-items: center;
+                    justify-content: center;
                 }}
 
-                .play-btn {{
+                /* 泡泡設計 */
+                .bubble {{
+                    padding: 20px 25px;
+                    border-radius: 25px;
+                    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+                    font-size: 20px;
+                    line-height: 1.6;
+                    opacity: 0;
+                    transition: all 0.3s ease;
+                    width: 85%;
+                    text-align: center;
+                }}
+                .yanjun {{ background-color: #e3f2fd; color: #0d47a1; border: 2px solid #bbdefb; }}
+                .xiaozhen {{ background-color: #fff3e0; color: #e65100; border: 2px solid #ffe0b2; }}
+                .name-tag {{ font-size: 14px; font-weight: bold; margin-bottom: 8px; }}
+
+                /* 固定在右下角的膠囊按鈕 */
+                .btn-fixed {{
+                    position: fixed;
+                    bottom: 30px;
+                    right: 30px;
+                    z-index: 1000;
                     background: linear-gradient(135deg, #2b58db 0%, #1d4ed8 100%);
                     color: white;
-                    padding: 12px 26px;
+                    padding: 12px 25px;
                     border-radius: 50px;
                     display: flex;
                     align-items: center;
                     gap: 10px;
                     font-weight: bold;
-                    font-size: 17px;
                     cursor: pointer;
-                    box-shadow: 0 6px 20px rgba(29, 78, 216, 0.4);
-                    border: 1px solid rgba(255,255,255,0.3);
-                    transition: all 0.2s ease;
+                    box-shadow: 0 5px 20px rgba(29, 78, 216, 0.5);
                     user-select: none;
+                    transition: transform 0.2s;
                 }}
-                .play-btn:active {{ transform: scale(0.95); }}
-
-                .bubble-container {{ width: 280px; pointer-events: none; }}
-                .bubble {{
-                    padding: 15px 18px;
-                    border-radius: 18px;
-                    box-shadow: 0 10px 40px rgba(0,0,0,0.12);
-                    font-size: 17px;
-                    line-height: 1.6;
-                    opacity: 0;
-                    transition: opacity 0.3s ease;
-                }}
-                .yanjun {{ background-color: rgba(227, 242, 253, 0.98); color: #0d47a1; }}
-                .xiaozhen {{ background-color: rgba(255, 243, 224, 0.98); color: #e65100; }}
-                .name-tag {{ font-size: 12px; font-weight: bold; margin-bottom: 4px; opacity: 0.7; }}
+                .btn-fixed:active {{ transform: scale(0.9); }}
             </style>
             </head>
             <body>
-                <div class="wrapper">
+                <div class="pdf-view">
                     <img src="data:image/png;base64,{pdf_b64}" class="pdf-img">
-                    <audio id="player"><source src="{audio_url}" type="audio/mpeg"></audio>
+                </div>
 
-                    <div class="overlay">
-                        <div class="bubble-container">
-                            <div id="bubble" class="bubble yanjun">
-                                <div id="speaker" class="name-tag">👨‍🏫 彥君老師</div>
-                                <div id="txt">準備好了嗎？點擊按鈕開始！</div>
-                            </div>
-                        </div>
-                        <div id="btn" class="play-btn">
-                            <span id="ico">▶️</span> <span id="lbl">收聽快報</span>
-                        </div>
+                <div class="subtitle-stage">
+                    <div id="bubble" class="bubble yanjun">
+                        <div id="speaker" class="name-tag">👨‍🏫 彥君老師</div>
+                        <div id="txt">準備好了嗎？點擊右下角按鈕開始衝刺！</div>
                     </div>
+                </div>
+
+                <audio id="player"><source src="{audio_url}" type="audio/mpeg"></audio>
+
+                <div id="btn" class="btn-fixed">
+                    <span id="ico">▶️</span> <span id="lbl">收聽快報</span>
                 </div>
 
                 <script>
@@ -202,7 +204,7 @@ if df is not None:
                                 if (s.speaker === "彥君") {{
                                     document.getElementById('speaker').innerText = "👨‍🏫 彥君老師";
                                     bubble.className = "bubble yanjun";
-                                }} else {{
+                                } else {{
                                     document.getElementById('speaker').innerText = "👩‍🔬 曉臻助教";
                                     bubble.className = "bubble xiaozhen";
                                 }}
@@ -217,12 +219,8 @@ if df is not None:
             </body>
             </html>
             """
-            # 高度設定 800，scrolling 關閉，讓畫面更像原生 App
-            components.html(html_content, height=800, scrolling=False)
+            # 調整高度以適應新的佈局
+            components.html(html_content, height=1200, scrolling=True)
 
         except Exception as e:
-            st.error(f"⚠️ 字幕同步失敗：{e}")
-    else:
-        st.error("❌ 講義圖片生成失敗")
-else:
-    st.error("❌ 無法連接雲端資料庫")
+            st.error(f"字幕同步失敗：{e}")
