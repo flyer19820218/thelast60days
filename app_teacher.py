@@ -6,22 +6,18 @@ import streamlit.components.v1 as components
 import base64
 import time
 
-# ==========================================
-# 1. 頁面設定
-# ==========================================
 st.set_page_config(page_title="會考自然-考前60天衝刺", layout="wide")
 
 st.markdown("""
 <style>
     #MainMenu, footer, header {visibility: hidden;}
     .stApp { background: #f8fafc; }
-    /* 讓選單文字大一點 */
     div[data-baseweb="select"] { font-size: 20px !important; }
 </style>
 """, unsafe_allow_html=True)
 
-# 加入 cache 避免一直瘋狂讀取表單，但保留 ttl 讓它能定時更新
-@st.cache_data(ttl=60)
+# 🌟 設定快取 10 秒，讓試算表更新能立刻生效！
+@st.cache_data(ttl=10) 
 def load_data_raw():
     url = "https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv"
     try:
@@ -42,56 +38,49 @@ def get_pdf_page_64(pdf_page_index):
     except:
         return ""
 
-# ==========================================
-# 2. 佈局實作：完全依賴試算表
-# ==========================================
 df = load_data_raw()
 
 if df is not None and not df.empty:
     if 'page_idx' not in st.session_state:
         st.session_state.page_idx = 0
 
-    # 🌟 動態生成選單：讀取試算表的「頁碼」與「Title」
+    # 🌟 動態生成原生選單
     page_labels = [f"第 {row['頁碼']} 頁 - {row['Title']}" for _, row in df.iterrows()]
     
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-        selected_label = st.selectbox("👉 請選擇課程：", page_labels, index=st.session_state.page_idx)
+        st.markdown("### 🔽 選擇單元 (由 Google Sheet 自動同步)")
+        selected_label = st.selectbox("", page_labels, index=st.session_state.page_idx)
         new_idx = page_labels.index(selected_label)
         
-        # 只要選單變動，立刻更新並重新載入
         if new_idx != st.session_state.page_idx:
             st.session_state.page_idx = new_idx
             st.rerun()
 
     try:
-        # 取得目前選中的「那一列」資料
         row = df.iloc[st.session_state.page_idx]
         
-        # 🌟 換算 PDF 頁碼：因為 PDF 是從 0 開始算的，所以 頁碼 - 1
+        # 計算 PDF 頁數 (頁碼減 1)
         try:
             pdf_page_index = int(row['頁碼']) - 1
+            if pdf_page_index < 0: pdf_page_index = 0
         except:
             pdf_page_index = 0
 
-        # 🌟 讀取試算表中的路徑 (例如: audio/p1.mp3)
         audio_file = str(row['Audio_Path']).strip().lstrip('/')
         json_file = audio_file.replace('.mp3', '_script.json')
         title_text = str(row['Title'])
         
         ts = int(time.time() * 1000)
-        # 這裡的 base_url 不加 /audio，因為你的表單已經寫了 audio/p1.mp3
         base_url = "https://raw.githubusercontent.com/flyer19820218/thelast60days/main"
         
         audio_url = f"{base_url}/{audio_file}?v={ts}"
         json_url = f"{base_url}/{json_file}?v={ts}"
-
         pdf_b64 = get_pdf_page_64(pdf_page_index)
-        
+
         res_json = requests.get(json_url)
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
-        # HTML 播放器
         full_html = f"""
         <!DOCTYPE html>
         <html>
