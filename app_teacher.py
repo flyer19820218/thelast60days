@@ -7,7 +7,7 @@ import base64
 import time
 
 # ==========================================
-# 1. 頁面設定
+# 1. 頁面設定 (視覺旗艦化)
 # ==========================================
 st.set_page_config(page_title="會考自然-考前60天衝刺", layout="wide")
 
@@ -18,14 +18,22 @@ st.markdown("""
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
-    /* 🌟 滿分微調：像素級定位 */
+    
+    /* 🌟 核心修正：將頁碼框往後移、字體放大 */
     .stSelectbox {
-        margin-bottom: -76px !important; 
+        margin-bottom: -78px !important; 
         position: relative;
         z-index: 101;
-        width: 22% !important;
-        margin-left: 280px !important; 
+        width: 18% !important; /* 縮小寬度更精煉 */
+        margin-left: 450px !important; /* 🚀 往後拉開很大一段距離 */
     }
+    
+    /* 放大 Streamlit 選擇框內的文字 */
+    .stSelectbox div[data-baseweb="select"] {
+        font-size: 24px !important;
+        font-weight: bold !important;
+    }
+
     .stSelectbox label { display: none !important; } 
 </style>
 """, unsafe_allow_html=True)
@@ -84,23 +92,24 @@ if df is not None:
             body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; }}
             .nav-bar {{ 
                 display: flex; align-items: center; justify-content: space-between; 
-                padding: 10px 30px; background: #f8fafc; border-bottom: 4px solid #1e40af;
-                height: 85px; box-sizing: border-box;
+                padding: 10px 40px; background: #f8fafc; border-bottom: 5px solid #1e40af;
+                height: 95px; box-sizing: border-box;
             }}
             .nav-left {{ display: flex; align-items: center; }}
-            .nav-title {{ color: #1e40af; font-size: 32px; font-weight: 900; white-space: nowrap; }}
-            .spacer {{ width: 25%; }} 
+            .nav-title {{ color: #1e40af; font-size: 38px; font-weight: 950; white-space: nowrap; }}
+            .spacer {{ width: 35%; }} 
             .play-btn {{ 
-                background: #1e40af; color: white; padding: 10px 30px; border-radius: 50px; 
-                border: none; font-size: 22px; font-weight: bold; cursor: pointer;
+                background: #1e40af; color: white; padding: 12px 40px; border-radius: 50px; 
+                border: none; font-size: 26px; font-weight: bold; cursor: pointer;
+                box-shadow: 0 4px 15px rgba(30,64,175,0.3);
             }}
             .pdf-view {{ width: 100%; }}
             .pdf-img {{ width: 100%; display: block; }}
-            .seek-panel {{ width: 100%; background: #f1f5f9; padding: 20px 30px; display: flex; align-items: center; gap: 20px; box-sizing: border-box; }}
-            input[type=range] {{ flex: 1; accent-color: #1e40af; height: 18px; }}
-            .time-box {{ font-size: 20px; color: #1e293b; min-width: 120px; text-align: right; font-family: monospace; font-weight: bold; }}
-            .subtitle-stage {{ width: 100%; min-height: 220px; display: flex; flex-direction: column; padding: 30px; box-sizing: border-box; }}
-            .bubble {{ max-width: 85%; padding: 25px; border-radius: 25px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); font-size: 32px; line-height: 1.5; opacity: 0; transition: 0.2s ease; }}
+            .seek-panel {{ width: 100%; background: #f1f5f9; padding: 25px 40px; display: flex; align-items: center; gap: 20px; box-sizing: border-box; }}
+            input[type=range] {{ flex: 1; accent-color: #1e40af; height: 22px; }}
+            .time-box {{ font-size: 24px; color: #1e293b; min-width: 140px; text-align: right; font-family: monospace; font-weight: bold; }}
+            .subtitle-stage {{ width: 100%; min-height: 240px; display: flex; flex-direction: column; padding: 40px; box-sizing: border-box; }}
+            .bubble {{ max-width: 85%; padding: 30px; border-radius: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); font-size: 36px; line-height: 1.5; opacity: 0; transition: 0.2s ease; }}
             .yj {{ align-self: flex-start; background: #e0f2fe; color: #0369a1; border: 2px solid #bae6fd; }}
             .xz {{ align-self: flex-end; background: #fff1f2; color: #be123c; border: 2px solid #fecdd3; }}
         </style>
@@ -157,7 +166,7 @@ if df is not None:
         </body>
         </html>
         """
-        components.html(full_html, height=2200, scrolling=True)
+        components.html(full_html, height=2300, scrolling=True)
 
     except Exception as e:
         st.error(f"系統異常：{e}")
