@@ -25,7 +25,8 @@ st.markdown("""
 def load_data_fresh():
     SHEET_URL = "https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv"
     try:
-        return pd.read_csv(SHEET_URL)
+        # 加上 timestamp 參數在讀取時稍微打破快取
+        return pd.read_csv(f"{SHEET_URL}&t={time.time()}")
     except:
         return None
 
@@ -41,7 +42,7 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
         return ""
 
 # ==========================================
-# 2. 佈局實作
+# 2. 佈局與邏輯
 # ==========================================
 df = load_data_fresh()
 
@@ -71,13 +72,10 @@ if df is not None:
     with c_page:
         st.info(f"📍 頁碼: {st.session_state.page_idx + 1}")
 
-    # 建立一個動態容器
-    main_container = st.empty()
-
     try:
         row = df.iloc[st.session_state.page_idx]
         audio_path = str(row['Audio_Path']).strip().lstrip('/')
-        # 加上時間戳記強迫瀏覽器抓新檔
+        # 加上動態參數強制抓取新錄音
         audio_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path}?t={time.time()}"
         json_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path.replace('.mp3', '_script.json')}?t={time.time()}"
         
@@ -86,6 +84,7 @@ if df is not None:
         res_json = requests.get(json_url)
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
+        # --- HTML 字串構建 ---
         full_html = f"""
         <!DOCTYPE html>
         <html>
@@ -160,10 +159,10 @@ if df is not None:
         </body>
         </html>
         """
-        # 使用容器渲染，不使用 key
-        main_container.html(full_html, height=1800, scrolling=True)
+        # 使用標準 components.html 呼叫，不再使用容器物件呼叫，解決參數錯誤
+        components.html(full_html, height=1800, scrolling=True)
 
     except Exception as e:
-        st.error(f"系統錯誤：{e}")
+        st.error(f"⚠️ 讀取錯誤：{e}")
 else:
     st.error("Google Sheet 資料連線失敗。")
