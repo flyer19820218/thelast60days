@@ -65,10 +65,23 @@ if df is not None:
     with st.expander("💡 本集 AI 核心圖解概念"):
         st.write(row['Image_Prompt'])
     
-    # --- 5. Podcast 播放器 ---
-    audio_full_url = f"{GITHUB_RAW}{row['Audio_Path']}"
-    st.audio(audio_full_url)
-    st.info("點擊上方播放鍵開始聽講")
+# ==========================================
+# 區塊 5：Podcast 語音播放 (除錯版)
+# ==========================================
+st.markdown('<div class="podcast-card"><b>🎙️ 點擊播放衝刺音頻</b></div>', unsafe_allow_html=True)
+
+# 確保路徑拼接沒有多餘或缺少的斜槓
+audio_path = row['Audio_Path'].strip()
+if audio_path.startswith('/'):
+    audio_path = audio_path[1:]
+
+audio_full_url = f"{GITHUB_RAW}{audio_path}"
+
+# --- 除錯用 (成功後可刪除) ---
+# st.write(f"目前嘗試連線的音檔網址為： {audio_full_url}") 
+# -------------------------
+
+st.audio(audio_full_url)
 
     # --- 6. 打字機文字稿 ---
     st.divider()
