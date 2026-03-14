@@ -7,7 +7,7 @@ import base64
 import time
 
 # ==========================================
-# 1. 頁面設定 (移除所有會干擾點擊的 CSS)
+# 1. 頁面設定
 # ==========================================
 st.set_page_config(page_title="會考自然-考前60天衝刺", layout="wide")
 
@@ -15,66 +15,83 @@ st.markdown("""
 <style>
     #MainMenu, footer, header {visibility: hidden;}
     .stApp { background: #f8fafc; }
+    /* 讓選單文字大一點 */
+    div[data-baseweb="select"] { font-size: 20px !important; }
 </style>
 """, unsafe_allow_html=True)
 
+# 加入 cache 避免一直瘋狂讀取表單，但保留 ttl 讓它能定時更新
+@st.cache_data(ttl=60)
 def load_data_raw():
     url = "https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv"
     try:
-        r = requests.get(f"{url}&nocache={time.time()}")
-        from io import StringIO
-        return pd.read_csv(StringIO(r.text))
+        r = requests.get(url, timeout=5)
+        if r.status_code == 200:
+            from io import StringIO
+            return pd.read_csv(StringIO(r.text))
+        return None
     except:
         return None
 
-def get_pdf_page_64(page_idx):
+def get_pdf_page_64(pdf_page_index):
     try:
         doc = fitz.open("notes.pdf")
-        page = doc.load_page(page_idx)
+        page = doc.load_page(pdf_page_index)
         pix = page.get_pixmap(matrix=fitz.Matrix(3.0, 3.0)) 
         return base64.b64encode(pix.tobytes("png")).decode('utf-8')
     except:
         return ""
 
 # ==========================================
-# 2. 佈局實作
+# 2. 佈局實作：完全依賴試算表
 # ==========================================
 df = load_data_raw()
 
-if df is not None:
+if df is not None and not df.empty:
     if 'page_idx' not in st.session_state:
         st.session_state.page_idx = 0
 
-    # === 這是最穩定的原生 Streamlit 選單，絕對能點擊！ ===
+    # 🌟 動態生成選單：讀取試算表的「頁碼」與「Title」
+    page_labels = [f"第 {row['頁碼']} 頁 - {row['Title']}" for _, row in df.iterrows()]
+    
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-        page_labels = [f"第 {i+1} 頁" for i in range(len(df))]
-        selected_label = st.selectbox("👉 請選擇要前往的頁面：", page_labels, index=st.session_state.page_idx)
+        selected_label = st.selectbox("👉 請選擇課程：", page_labels, index=st.session_state.page_idx)
         new_idx = page_labels.index(selected_label)
         
-        # 只要頁碼變動，立刻重新載入
+        # 只要選單變動，立刻更新並重新載入
         if new_idx != st.session_state.page_idx:
             st.session_state.page_idx = new_idx
             st.rerun()
-    # ====================================================
 
     try:
-        # 路徑依舊鎖定在 audio/ 資料夾
-        current_page_num = st.session_state.page_idx + 1
-        audio_filename = f"p{current_page_num}.mp3"
-        json_filename = f"p{current_page_num}_script.json"
+        # 取得目前選中的「那一列」資料
+        row = df.iloc[st.session_state.page_idx]
+        
+        # 🌟 換算 PDF 頁碼：因為 PDF 是從 0 開始算的，所以 頁碼 - 1
+        try:
+            pdf_page_index = int(row['頁碼']) - 1
+        except:
+            pdf_page_index = 0
+
+        # 🌟 讀取試算表中的路徑 (例如: audio/p1.mp3)
+        audio_file = str(row['Audio_Path']).strip().lstrip('/')
+        json_file = audio_file.replace('.mp3', '_script.json')
+        title_text = str(row['Title'])
         
         ts = int(time.time() * 1000)
-        base_url = "https://raw.githubusercontent.com/flyer19820218/thelast60days/main/audio"
+        # 這裡的 base_url 不加 /audio，因為你的表單已經寫了 audio/p1.mp3
+        base_url = "https://raw.githubusercontent.com/flyer19820218/thelast60days/main"
         
-        audio_url = f"{base_url}/{audio_filename}?v={ts}"
-        json_url = f"{base_url}/{json_filename}?v={ts}"
+        audio_url = f"{base_url}/{audio_file}?v={ts}"
+        json_url = f"{base_url}/{json_file}?v={ts}"
 
-        pdf_b64 = get_pdf_page_64(st.session_state.page_idx)
+        pdf_b64 = get_pdf_page_64(pdf_page_index)
+        
         res_json = requests.get(json_url)
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
-        # 乾淨的 HTML 播放器
+        # HTML 播放器
         full_html = f"""
         <!DOCTYPE html>
         <html>
@@ -82,7 +99,7 @@ if df is not None:
         <style>
             body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; }}
             .top-bar {{ display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; background: #1e40af; color: white; border-radius: 10px 10px 0 0; }}
-            .title {{ font-size: 32px; font-weight: bold; }}
+            .title {{ font-size: 30px; font-weight: bold; }}
             .play-btn {{ background: white; color: #1e40af; padding: 10px 30px; border-radius: 30px; border: none; font-size: 24px; font-weight: bold; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }}
             .pdf-view {{ width: 100%; border-left: 2px solid #e2e8f0; border-right: 2px solid #e2e8f0; }}
             .pdf-img {{ width: 100%; display: block; }}
@@ -97,7 +114,7 @@ if df is not None:
         </head>
         <body>
             <div class="top-bar">
-                <div class="title">🚀 第 {current_page_num} 頁：重點講解</div>
+                <div class="title">📖 {title_text}</div>
                 <button id="pBtn" class="play-btn">▶️ 開始講解</button>
             </div>
             <audio id="aud" src="{audio_url}" preload="auto"></audio>
@@ -148,3 +165,5 @@ if df is not None:
 
     except Exception as e:
         st.error(f"系統異常：{e}")
+else:
+    st.error("⚠️ 無法載入 Google 試算表資料，請檢查網路或是試算表的公開權限。")
