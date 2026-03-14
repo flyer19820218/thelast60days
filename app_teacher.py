@@ -7,38 +7,14 @@ import base64
 import time
 
 # ==========================================
-# 1. 頁面設定
+# 1. 頁面設定 (移除所有會干擾點擊的 CSS)
 # ==========================================
 st.set_page_config(page_title="會考自然-考前60天衝刺", layout="wide")
 
 st.markdown("""
 <style>
     #MainMenu, footer, header {visibility: hidden;}
-    .stApp { background: #ffffff; }
-    html, body, [class*="css"], p, span, div, b {
-        font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
-    }
-    
-    /* 🌟 恢復原生選單，並把它定在畫面上方正中間 */
-    .stSelectbox {
-        position: absolute !important;
-        top: 25px !important;
-        left: 50% !important;
-        transform: translateX(-50%) !important;
-        width: 180px !important;
-        z-index: 99999 !important;
-    }
-    .stSelectbox div[data-baseweb="select"] {
-        font-size: 24px !important;
-        font-weight: bold !important;
-        border: 3px solid #1e40af !important;
-        border-radius: 12px !important;
-        background-color: white !important;
-        color: #1e40af !important;
-        height: 50px !important;
-        cursor: pointer !important;
-    }
-    .stSelectbox label { display: none !important; } 
+    .stApp { background: #f8fafc; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -69,16 +45,21 @@ if df is not None:
     if 'page_idx' not in st.session_state:
         st.session_state.page_idx = 0
 
-    # 🌟 恢復原來點了就會動的選單機制！
-    page_labels = [f"第 {i+1} 頁" for i in range(len(df))]
-    selected_label = st.selectbox("選擇頁面", page_labels, index=st.session_state.page_idx)
-    
-    if page_labels.index(selected_label) != st.session_state.page_idx:
-        st.session_state.page_idx = page_labels.index(selected_label)
-        st.rerun()
+    # === 這是最穩定的原生 Streamlit 選單，絕對能點擊！ ===
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col2:
+        page_labels = [f"第 {i+1} 頁" for i in range(len(df))]
+        selected_label = st.selectbox("👉 請選擇要前往的頁面：", page_labels, index=st.session_state.page_idx)
+        new_idx = page_labels.index(selected_label)
+        
+        # 只要頁碼變動，立刻重新載入
+        if new_idx != st.session_state.page_idx:
+            st.session_state.page_idx = new_idx
+            st.rerun()
+    # ====================================================
 
     try:
-        # 🌟 這裡一樣保持去 audio/ 抓檔的路徑
+        # 路徑依舊鎖定在 audio/ 資料夾
         current_page_num = st.session_state.page_idx + 1
         audio_filename = f"p{current_page_num}.mp3"
         json_filename = f"p{current_page_num}_script.json"
@@ -93,45 +74,32 @@ if df is not None:
         res_json = requests.get(json_url)
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
+        # 乾淨的 HTML 播放器
         full_html = f"""
         <!DOCTYPE html>
         <html>
         <head>
         <style>
-            body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; overflow-x: hidden; }}
-            .nav-bar {{ 
-                display: flex; align-items: center; justify-content: space-between; 
-                padding: 0 40px; background: #f8fafc; border-bottom: 5px solid #1e40af;
-                height: 100px; box-sizing: border-box;
-            }}
-            .nav-title {{ color: #1e40af; font-size: 38px; font-weight: 950; white-space: nowrap; flex: 1; }}
-            .nav-center {{ flex: 1; }} /* 中間留空給 Streamlit 的選單浮上來 */
-            .nav-right {{ flex: 1; display: flex; justify-content: flex-end; }}
-            .play-btn {{ 
-                background: #1e40af; color: white; padding: 12px 40px; border-radius: 50px; 
-                border: none; font-size: 26px; font-weight: bold; cursor: pointer;
-                box-shadow: 0 4px 15px rgba(30,64,175,0.3);
-            }}
-            .pdf-view {{ width: 100%; }}
+            body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; }}
+            .top-bar {{ display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; background: #1e40af; color: white; border-radius: 10px 10px 0 0; }}
+            .title {{ font-size: 32px; font-weight: bold; }}
+            .play-btn {{ background: white; color: #1e40af; padding: 10px 30px; border-radius: 30px; border: none; font-size: 24px; font-weight: bold; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }}
+            .pdf-view {{ width: 100%; border-left: 2px solid #e2e8f0; border-right: 2px solid #e2e8f0; }}
             .pdf-img {{ width: 100%; display: block; }}
-            .seek-panel {{ width: 100%; background: #f1f5f9; padding: 25px 40px; display: flex; align-items: center; gap: 20px; box-sizing: border-box; }}
-            input[type=range] {{ flex: 1; accent-color: #1e40af; height: 22px; }}
+            .seek-panel {{ width: 100%; background: #f1f5f9; padding: 25px 40px; display: flex; align-items: center; gap: 20px; box-sizing: border-box; border-left: 2px solid #e2e8f0; border-right: 2px solid #e2e8f0; }}
+            input[type=range] {{ flex: 1; accent-color: #1e40af; height: 22px; cursor: pointer; }}
             .time-box {{ font-size: 24px; color: #1e293b; min-width: 140px; text-align: right; font-family: monospace; font-weight: bold; }}
-            .subtitle-stage {{ width: 100%; min-height: 240px; display: flex; flex-direction: column; padding: 40px; box-sizing: border-box; }}
+            .subtitle-stage {{ width: 100%; min-height: 240px; display: flex; flex-direction: column; padding: 40px; box-sizing: border-box; border: 2px solid #e2e8f0; border-top: none; border-radius: 0 0 10px 10px; background: #fafafa; }}
             .bubble {{ max-width: 85%; padding: 30px; border-radius: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); font-size: 36px; line-height: 1.5; opacity: 0; transition: 0.2s ease; }}
             .yj {{ align-self: flex-start; background: #e0f2fe; color: #0369a1; border: 2px solid #bae6fd; }}
             .xz {{ align-self: flex-end; background: #fff1f2; color: #be123c; border: 2px solid #fecdd3; }}
         </style>
         </head>
         <body>
-            <div class="nav-bar">
-                <div class="nav-title">🚀 考前60天衝刺</div>
-                <div class="nav-center"></div>
-                <div class="nav-right">
-                    <button id="pBtn" class="play-btn">▶️ 開始講解</button>
-                </div>
+            <div class="top-bar">
+                <div class="title">🚀 第 {current_page_num} 頁：重點講解</div>
+                <button id="pBtn" class="play-btn">▶️ 開始講解</button>
             </div>
-
             <audio id="aud" src="{audio_url}" preload="auto"></audio>
             <div class="pdf-view"><img src="data:image/png;base64,{pdf_b64}" class="pdf-img"></div>
             <div class="seek-panel">
@@ -176,7 +144,7 @@ if df is not None:
         </body>
         </html>
         """
-        components.html(full_html, height=2300, scrolling=True)
+        components.html(full_html, height=2200, scrolling=True)
 
     except Exception as e:
         st.error(f"系統異常：{e}")
