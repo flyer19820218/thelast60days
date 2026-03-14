@@ -30,6 +30,9 @@ SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOW
 # 你的 GitHub 基礎路徑 (結尾務必有斜槓)
 GITHUB_RAW = "https://raw.githubusercontent.com/你的GitHub帳號/thelast60days/main/"
 
+# --- 🔑 在這裡填入你的 API KEY ---
+GEMINI_API_KEY = "AIzaSyCrcKESi4rF0_VSdV3Bsica_dem612c3F4"
+
 @st.cache_data(ttl=300) # 每 5 分鐘快取更新一次
 def load_data():
     try:
