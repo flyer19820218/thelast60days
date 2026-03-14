@@ -20,7 +20,8 @@ st.markdown("""
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
-    div[data-testid="column"] { display: flex; align-items: center; justify-content: center; }
+    /* 移除原生元件多餘間距 */
+    .stSelectbox, .stNumberInput { margin-bottom: 0px !important; }
     </style>
     """, unsafe_allow_html=True)
 
@@ -53,16 +54,19 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
 df = load_data()
 
 if df is not None:
-    st.markdown("<h1 style='text-align:center; color:#1d4ed8; margin-top:0;'>🚀 考前60天衝刺</h1>", unsafe_allow_html=True)
+    # 頂部：火箭大標題
+    st.markdown("<h1 style='text-align:center; color:#1d4ed8; margin-bottom:10px;'>🚀 考前60天衝刺</h1>", unsafe_allow_html=True)
 
-    col1, col2, col3 = st.columns([2, 0.8, 1.2])
+    # 控制列：單純放選單跟頁碼
+    c1, c2 = st.columns([3, 1])
     unit_list = df['Day'].tolist()
-    with col1:
+    with c1:
         selected = st.selectbox("進度", unit_list, label_visibility="collapsed")
         row = df[df['Day'] == selected].iloc[0]
-    with col2:
+    with c2:
         target_page = st.number_input("頁碼", min_value=1, value=1, label_visibility="collapsed")
 
+    # 準備資料
     local_pdf_path = "notes.pdf"
     pdf_b64 = get_pdf_page_as_base64(local_pdf_path, target_page - 1)
     audio_path = str(row['Audio_Path']).strip().lstrip('/')
@@ -73,7 +77,7 @@ if df is not None:
         res_json = requests.get(json_url)
         script_json_data = res_json.text if res_json.status_code == 200 else "[]"
 
-        # --- 🔥 分層連鎖版 HTML 🔥 ---
+        # --- 🔥 終極大一統：把所有東西都包在一個 HTML 裡 🔥 ---
         full_html = f"""
         <!DOCTYPE html>
         <html>
@@ -81,64 +85,46 @@ if df is not None:
         <style>
             body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; }}
             
-            /* 按鈕容器 */
-            .btn-container {{ display: flex; justify-content: flex-end; padding-bottom: 10px; margin-top: -45px; }}
+            /* 播放列：跟 PDF 緊連在一起 */
+            .top-bar {{
+                display: flex; justify-content: flex-end; padding: 10px 0;
+            }}
             .play-btn {{
                 background: linear-gradient(135deg, #2b58db, #1d4ed8);
-                color: white; padding: 8px 15px; border-radius: 50px;
+                color: white; padding: 8px 18px; border-radius: 50px;
                 display: flex; align-items: center; gap: 8px;
                 font-weight: bold; font-size: 15px; cursor: pointer;
                 box-shadow: 0 4px 10px rgba(29, 78, 216, 0.3); border: none;
             }}
 
-            /* 1. 上方：講義顯示區 */
-            .pdf-container {{ width: 100%; border-radius: 8px; border: 1px solid #eee; overflow: hidden; }}
+            .pdf-view {{ width: 100%; border-radius: 8px; border: 1px solid #eee; overflow: hidden; }}
             .pdf-img {{ width: 100%; display: block; }}
             
-            /* 2. 中間：進度條區 */
             .seek-row {{ width: 100%; padding: 12px 0; display: flex; align-items: center; gap: 10px; }}
             input[type=range] {{ flex: 1; accent-color: #1d4ed8; cursor: pointer; }}
             .time-txt {{ font-size: 12px; color: #64748b; min-width: 80px; text-align: right; }}
 
-            /* 3. 下方：專屬字幕舞台 (不重疊 PDF) */
-            .chat-stage {{
-                width: 100%; min-height: 120px; display: flex; flex-direction: column; padding: 10px 0;
-            }}
+            /* 字幕舞台 */
+            .chat-stage {{ width: 100%; min-height: 120px; display: flex; flex-direction: column; padding: 10px 0; }}
             .bubble {{
                 max-width: 80%; padding: 15px 20px; border-radius: 18px;
-                box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-                font-size: 19px; line-height: 1.5; opacity: 0;
-                transition: all 0.3s ease; position: relative;
-                margin-bottom: 10px;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.08); font-size: 19px; line-height: 1.5;
+                opacity: 0; transition: all 0.3s ease;
             }}
-            /* 彥君老師靠左 (藍色) */
-            .yanjun {{
-                align-self: flex-start;
-                background-color: #e3f2fd; color: #0d47a1;
-                border: 2px solid #bbdefb; border-bottom-left-radius: 2px;
-            }}
-            /* 曉臻助教靠右 (紅色) */
-            .xiaozhen {{
-                align-self: flex-end;
-                background-color: #fef2f2; color: #991b1b;
-                border: 2px solid #fecaca; border-bottom-right-radius: 2px;
-            }}
-            .name-tag {{ font-size: 13px; font-weight: bold; margin-bottom: 5px; }}
+            .yanjun {{ align-self: flex-start; background: #e3f2fd; color: #0d47a1; border: 2px solid #bbdefb; border-bottom-left-radius: 2px; }}
+            .xiaozhen {{ align-self: flex-end; background: #fef2f2; color: #991b1b; border: 2px solid #fecaca; border-bottom-right-radius: 2px; }}
+            .name {{ font-size: 12px; font-weight: bold; margin-bottom: 4px; opacity: 0.8; }}
         </style>
         </head>
         <body>
-            <div class="btn-container">
-                <div id="playBtn" class="play-btn">
-                    <span id="ico">▶️</span> <span id="lbl">收聽快報</span>
-                </div>
+            <div class="top-bar">
+                <button id="playBtn" class="play-btn">▶️ 開始衝刺</button>
             </div>
 
             <audio id="audio" src="{audio_url}"></audio>
 
-            <div class="pdf-container">
-                <img src="data:image/png;base64,{pdf_b64}" class="pdf-img">
-            </div>
-
+            <div class="pdf-view"><img src="data:image/png;base64,{pdf_b64}" class="pdf-img"></div>
+            
             <div class="seek-row">
                 <input type="range" id="seek" value="0" step="0.1">
                 <div class="time-txt"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
@@ -146,7 +132,7 @@ if df is not None:
 
             <div class="chat-stage">
                 <div id="bubble" class="bubble yanjun">
-                    <div id="spk" class="name-tag"></div>
+                    <div id="spk" class="name"></div>
                     <div id="msg"></div>
                 </div>
             </div>
@@ -156,27 +142,21 @@ if df is not None:
                 const btn = document.getElementById('playBtn');
                 const seek = document.getElementById('seek');
                 const bubble = document.getElementById('bubble');
-                const spk = document.getElementById('spk');
-                const msg = document.getElementById('msg');
                 const script = {script_json_data};
+
+                btn.onclick = () => {{
+                    if (audio.paused) {{
+                        audio.play(); btn.innerText = "⏸️ 暫停";
+                    }} else {{
+                        audio.pause(); btn.innerText = "▶️ 繼續";
+                    }}
+                }};
 
                 function fmt(s) {{
                     const m = Math.floor(s/60);
                     const sec = Math.floor(s%60);
                     return m + ":" + (sec < 10 ? "0" : "") + sec;
                 }}
-
-                btn.onclick = () => {{
-                    if (audio.paused) {{
-                        audio.play();
-                        document.getElementById('lbl').innerText = "衝刺中";
-                        document.getElementById('ico').innerText = "⏸️";
-                    }} else {{
-                        audio.pause();
-                        document.getElementById('lbl').innerText = "繼續衝刺";
-                        document.getElementById('ico').innerText = "▶️";
-                    }}
-                }};
 
                 audio.onloadedmetadata = () => {{
                     document.getElementById('dur').innerText = fmt(audio.duration);
@@ -190,8 +170,8 @@ if df is not None:
                     let hit = false;
                     for (let s of script) {{
                         if (t >= s.start && t <= s.end) {{
-                            spk.innerText = (s.speaker === "彥君" ? "👨‍🏫 彥君老師" : "👩‍🔬 曉臻助教");
-                            msg.innerText = s.text;
+                            document.getElementById('spk').innerText = (s.speaker === "彥君" ? "👨‍🏫 彥君老師" : "👩‍🔬 曉臻助教");
+                            document.getElementById('msg').innerText = s.text;
                             bubble.className = "bubble " + (s.speaker === "彥君" ? "yanjun" : "xiaozhen");
                             bubble.style.opacity = 1;
                             hit = true; break;
@@ -204,8 +184,7 @@ if df is not None:
         </body>
         </html>
         """
-        with col3: st.empty()
         components.html(full_html, height=1300)
 
     except Exception as e:
-        st.error(f"連線異常：{e}")
+        st.error(f"⚠️ 載入錯誤：{e}")
