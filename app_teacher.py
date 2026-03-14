@@ -7,21 +7,19 @@ import json
 import base64
 
 # ==========================================
-# 1. 頁面設定 (iPad Pro 寬螢幕極大化)
+# 1. 頁面設定 (iPad Pro 究極教學版)
 # ==========================================
-st.set_page_config(page_title="會考自然-左右護法版", layout="wide")
+st.set_page_config(page_title="會考自然-旗艦護法版", layout="wide")
 
 st.markdown("""
     <style>
     #MainMenu, footer, header {visibility: hidden;}
     .stApp { background-color: #ffffff; }
     
-    /* iPad 字體優化 */
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
     
-    /* 縮減選單間距 */
     .stSelectbox, .stNumberInput { margin-bottom: 0px !important; }
     div[data-testid="column"] { display: flex; align-items: center; justify-content: center; }
     </style>
@@ -39,7 +37,6 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
     try:
         doc = fitz.open(local_pdf_path)
         page = doc.load_page(page_index)
-        # 3.0 倍率確保在 iPad Pro 視網膜螢幕上清晰無比
         pix = page.get_pixmap(matrix=fitz.Matrix(3.0, 3.0)) 
         img_data = pix.tobytes("png")
         doc.close()
@@ -48,12 +45,11 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
         return ""
 
 # ==========================================
-# 2. 數據與佈局
+# 2. 佈局實作
 # ==========================================
 df = load_data()
 
 if df is not None:
-    # 頂部選單數據
     unit_list = df['Day'].tolist()
     c_left, c_right = st.columns([3, 1])
     with c_left:
@@ -62,7 +58,6 @@ if df is not None:
     with c_right:
         target_page = st.number_input("頁碼", min_value=1, value=1, label_visibility="collapsed")
 
-    # 準備 PDF 與音檔
     pdf_b64 = get_pdf_page_as_base64("notes.pdf", target_page - 1)
     audio_path = str(row['Audio_Path']).strip().lstrip('/')
     audio_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path}"
@@ -72,8 +67,7 @@ if df is not None:
         res_json = requests.get(json_url)
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
-        # --- 🔥 究極左右護法 HTML 🔥 ---
-        # 標題與按鈕並排 + PDF 居中 + 字幕分居左右
+        # --- 🔥 究極合體 HTML 🔥 ---
         full_html = f"""
         <!DOCTYPE html>
         <html>
@@ -81,7 +75,7 @@ if df is not None:
         <style>
             body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; overflow: hidden; }}
             
-            /* 1. 標題與按鈕：橫向一體化 (復刻旗艦感) */
+            /* 1. 頂部列 */
             .header-bar {{
                 display: flex; align-items: center; justify-content: space-between;
                 padding: 10px 20px; border-bottom: 1px solid #f0f0f0;
@@ -95,48 +89,49 @@ if df is not None:
                 box-shadow: 0 4px 15px rgba(29, 78, 216, 0.4); border: none;
             }}
 
-            /* 2. 三欄式佈局：左字幕 | 中PDF | 右字幕 */
+            /* 2. 主舞台佈局 */
             .main-stage {{
                 display: flex; align-items: flex-start; justify-content: center;
-                width: 100%; height: 80vh; padding-top: 10px; position: relative;
+                width: 100%; height: 85vh; padding-top: 15px; position: relative;
             }}
             
-            .pdf-center {{
-                flex: 0 0 auto; width: 65%; /* 講義寬度 */
-                background: white; border-radius: 12px;
+            /* 講義核心 */
+            .center-column {{
+                flex: 0 0 auto; width: 65%;
+                display: flex; flex-direction: column; align-items: center;
+            }}
+            
+            .pdf-view {{ 
+                width: 100%; background: white; border-radius: 12px 12px 0 0; 
                 box-shadow: 0 10px 40px rgba(0,0,0,0.1); overflow: hidden;
+                border: 1px solid #eee; border-bottom: none;
             }}
             .pdf-img {{ width: 100%; display: block; }}
 
-            /* 3. 左右字幕盒 */
+            /* 緊連 PDF 的進度條區 */
+            .progress-panel {{
+                width: 100%; background: #f8fafc; padding: 10px 15px;
+                border: 1px solid #eee; border-radius: 0 0 12px 12px;
+                display: flex; align-items: center; gap: 15px; box-sizing: border-box;
+            }}
+            input[type=range] {{ flex: 1; accent-color: #1d4ed8; cursor: pointer; height: 8px; }}
+            .time-box {{ font-size: 13px; color: #64748b; min-width: 85px; text-align: right; font-family: monospace; }}
+
+            /* 3. 左右護法 (位置微調) */
             .side-box {{
                 flex: 1; height: 100%; display: flex; flex-direction: column;
-                justify-content: center; padding: 0 20px; box-sizing: border-box;
+                justify-content: flex-start; padding: 60px 20px 0 20px; box-sizing: border-box;
             }}
 
             .bubble {{
                 padding: 20px; border-radius: 20px;
                 box-shadow: 0 8px 25px rgba(0,0,0,0.1);
                 font-size: 22px; line-height: 1.5; opacity: 0;
-                transition: all 0.3s ease; transform: scale(0.9);
+                transition: all 0.3s ease; transform: translateY(10px);
             }}
-            .yanjun {{
-                background-color: #e3f2fd; color: #0d47a1;
-                border: 2px solid #bbdefb; border-bottom-left-radius: 2px;
-            }}
-            .xiaozhen {{
-                background-color: #fef2f2; color: #991b1b;
-                border: 2px solid #fecaca; border-bottom-right-radius: 2px;
-            }}
-            .name-tag {{ font-size: 14px; font-weight: bold; margin-bottom: 8px; }}
-
-            /* 4. 進度條 (放在 PDF 正下方) */
-            .progress-row {{
-                position: absolute; bottom: 20px; width: 65%;
-                display: flex; align-items: center; gap: 15px;
-            }}
-            input[type=range] {{ flex: 1; accent-color: #1d4ed8; cursor: pointer; }}
-            .time {{ font-size: 14px; color: #64748b; min-width: 90px; text-align: right; }}
+            .yanjun {{ background-color: #e3f2fd; color: #0d47a1; border: 2px solid #bbdefb; }}
+            .xiaozhen {{ background-color: #fef2f2; color: #991b1b; border: 2px solid #fecaca; }}
+            .name {{ font-size: 14px; font-weight: bold; margin-bottom: 8px; }}
         </style>
         </head>
         <body>
@@ -149,26 +144,27 @@ if df is not None:
 
             <div class="main-stage">
                 <div class="side-box">
-                    <div id="yanjunBubble" class="bubble yanjun">
-                        <div class="name-tag">👨‍🏫 彥君老師</div>
-                        <div id="yanjunTxt"></div>
+                    <div id="yjB" class="bubble yanjun">
+                        <div class="name">👨‍🏫 彥君老師</div>
+                        <div id="yjT"></div>
                     </div>
                 </div>
 
-                <div class="pdf-center">
-                    <img src="data:image/png;base64,{pdf_b64}" class="pdf-img">
+                <div class="center-column">
+                    <div class="pdf-view">
+                        <img src="data:image/png;base64,{pdf_b64}" class="pdf-img">
+                    </div>
+                    <div class="progress-panel">
+                        <input type="range" id="sk" value="0" step="0.1">
+                        <div class="time-box"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
+                    </div>
                 </div>
 
                 <div class="side-box">
-                    <div id="xiaozhenBubble" class="bubble xiaozhen">
-                        <div class="name-tag">👩‍🔬 曉臻助教</div>
-                        <div id="xiaozhenTxt"></div>
+                    <div id="xzB" class="bubble xiaozhen">
+                        <div class="name">👩‍🔬 曉臻助教</div>
+                        <div id="xzT"></div>
                     </div>
-                </div>
-
-                <div class="progress-row">
-                    <input type="range" id="sk" value="0" step="0.1">
-                    <div class="time"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
                 </div>
             </div>
 
@@ -176,10 +172,8 @@ if df is not None:
                 const aud = document.getElementById('aud');
                 const pBtn = document.getElementById('pBtn');
                 const sk = document.getElementById('sk');
-                const yjB = document.getElementById('yanjunBubble');
-                const xzB = document.getElementById('xiaozhenBubble');
-                const yjT = document.getElementById('yanjunTxt');
-                const xzT = document.getElementById('xiaozhenTxt');
+                const yjB = document.getElementById('yjB'), xzB = document.getElementById('xzB');
+                const yjT = document.getElementById('yjT'), xzT = document.getElementById('xzT');
                 const script = {script_data};
 
                 pBtn.onclick = () => {{
@@ -196,26 +190,16 @@ if df is not None:
                     const t = aud.currentTime;
                     document.getElementById('cur').innerText = fmt(t);
                     sk.value = t;
-                    let yjHit = false, xzHit = false;
-
+                    let yH = false, xH = false;
                     for(let i=0; i<script.length; i++) {{
                         const s = script[i];
                         if(t >= s.start && t <= s.end) {{
-                            if(s.speaker === '彥君') {{
-                                yjT.innerText = s.text;
-                                yjB.style.opacity = 1;
-                                yjB.style.transform = "scale(1)";
-                                yjHit = true;
-                            }} else {{
-                                xzT.innerText = s.text;
-                                xzB.style.opacity = 1;
-                                xzB.style.transform = "scale(1)";
-                                xzHit = true;
-                            }}
+                            if(s.speaker === '彥君') {{ yjT.innerText = s.text; yjB.style.opacity = 1; yjB.style.transform = "translateY(0)"; yH = true; }}
+                            else {{ xzT.innerText = s.text; xzB.style.opacity = 1; xzB.style.transform = "translateY(0)"; xH = true; }}
                         }}
                     }}
-                    if(!yjHit) {{ yjB.style.opacity = 0; yjB.style.transform = "scale(0.9)"; }}
-                    if(!xzHit) {{ xzB.style.opacity = 0; xzB.style.transform = "scale(0.9)"; }}
+                    if(!yH) {{ yjB.style.opacity = 0; yjB.style.transform = "translateY(10px)"; }}
+                    if(!xH) {{ xzB.style.opacity = 0; xzB.style.transform = "translateY(10px)"; }}
                 }};
 
                 sk.oninput = () => aud.currentTime = sk.value;
@@ -224,7 +208,6 @@ if df is not None:
         </body>
         </html>
         """
-        # iPad 高度優化
         components.html(full_html, height=1100)
 
     except Exception as e:
