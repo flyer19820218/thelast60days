@@ -18,7 +18,23 @@ st.markdown("""
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
-    .stSelectbox { display: none !important; }
+    .stSelectbox {
+        margin-bottom: -79px !important; 
+        position: relative;
+        z-index: 101;
+        width: 18% !important;
+        margin-left: 450px !important; 
+        top: -2px; 
+    }
+    .stSelectbox div[data-baseweb="select"] {
+        font-size: 24px !important;
+        font-weight: bold !important;
+        height: 45px !important;
+        line-height: 45px !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+    .stSelectbox label { display: none !important; } 
 </style>
 """, unsafe_allow_html=True)
 
@@ -49,63 +65,49 @@ if df is not None:
     if 'page_idx' not in st.session_state:
         st.session_state.page_idx = 0
 
-    # 接收來自 HTML 的換頁訊息 (含手動輸入數字)
-    if "change_page" in st.query_params:
-        try:
-            new_p = int(st.query_params["change_page"])
-            # 確保輸入範圍合法
-            new_p = max(0, min(new_p, len(df) - 1))
-            if new_p != st.session_state.page_idx:
-                st.session_state.page_idx = new_p
-                st.query_params.clear()
-                st.rerun()
-        except:
-            pass
-
     try:
-        row = df.iloc[st.session_state.page_idx]
-        audio_file = str(row['Audio_Path']).strip().lstrip('/')
+        # 🌟 路徑校準：強制去 audio/ 資料夾找檔案
+        current_page_num = st.session_state.page_idx + 1
+        audio_filename = f"p{current_page_num}.mp3"
+        json_filename = f"p{current_page_num}_script.json"
+        
         ts = int(time.time() * 1000)
-        audio_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_file}?v={ts}"
-        json_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_file.replace('.mp3', '_script.json')}?v={ts}"
+        # 這裡路徑加上了 /audio/
+        base_url = "https://raw.githubusercontent.com/flyer19820218/thelast60days/main/audio"
+        
+        audio_url = f"{base_url}/{audio_filename}?v={ts}"
+        json_url = f"{base_url}/{json_filename}?v={ts}"
+        
         pdf_b64 = get_pdf_page_64(st.session_state.page_idx)
         res_json = requests.get(json_url)
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
-        # --- 🎨 支援手動輸入的 HTML ---
+        page_labels = [f"第 {i+1} 頁" for i in range(len(df))]
+        selected_label = st.selectbox("", page_labels, index=st.session_state.page_idx)
+        
+        if page_labels.index(selected_label) != st.session_state.page_idx:
+            st.session_state.page_idx = page_labels.index(selected_label)
+            st.rerun()
+
         full_html = f"""
         <!DOCTYPE html>
         <html>
         <head>
         <style>
-            body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; overflow-x: hidden; }}
+            body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; }}
             .nav-bar {{ 
                 display: flex; align-items: center; justify-content: space-between; 
-                padding: 0 40px; background: #f8fafc; border-bottom: 5px solid #1e40af;
-                height: 100px; box-sizing: border-box;
+                padding: 10px 40px; background: #f8fafc; border-bottom: 5px solid #1e40af;
+                height: 95px; box-sizing: border-box;
             }}
-            .nav-title {{ color: #1e40af; font-size: 38px; font-weight: 950; white-space: nowrap; flex: 1; }}
-            
-            .nav-center {{ flex: 1; display: flex; justify-content: center; align-items: center; gap: 10px; }}
-            
-            /* 🌟 改良：手動輸入框與標籤 */
-            .input-group {{
-                display: flex; align-items: center; background: white;
-                border: 3px solid #1e40af; border-radius: 12px; padding: 5px 15px;
-            }}
-            .input-label {{ font-size: 24px; font-weight: bold; color: #1e40af; }}
-            .page-input {{ 
-                font-size: 26px; font-weight: bold; color: #1e40af; 
-                width: 70px; border: none; text-align: center; outline: none;
-            }}
-            
-            .nav-right {{ flex: 1; display: flex; justify-content: flex-end; }}
+            .nav-left {{ display: flex; align-items: center; }}
+            .nav-title {{ color: #1e40af; font-size: 38px; font-weight: 950; white-space: nowrap; }}
+            .spacer {{ width: 35%; }} 
             .play-btn {{ 
                 background: #1e40af; color: white; padding: 12px 40px; border-radius: 50px; 
                 border: none; font-size: 26px; font-weight: bold; cursor: pointer;
                 box-shadow: 0 4px 15px rgba(30,64,175,0.3);
             }}
-
             .pdf-view {{ width: 100%; }}
             .pdf-img {{ width: 100%; display: block; }}
             .seek-panel {{ width: 100%; background: #f1f5f9; padding: 25px 40px; display: flex; align-items: center; gap: 20px; box-sizing: border-box; }}
@@ -119,21 +121,12 @@ if df is not None:
         </head>
         <body>
             <div class="nav-bar">
-                <div class="nav-title">🚀 考前60天衝刺</div>
-                <div class="nav-center">
-                    <div class="input-group">
-                        <span class="input-label">第</span>
-                        <input type="number" class="page-input" id="pIdx" 
-                               value="{st.session_state.page_idx + 1}" 
-                               onchange="goToPage(this.value)">
-                        <span class="input-label">頁</span>
-                    </div>
+                <div class="nav-left">
+                    <span class="nav-title">🚀 考前60天衝刺</span>
                 </div>
-                <div class="nav-right">
-                    <button id="pBtn" class="play-btn">▶️ 開始講解</button>
-                </div>
+                <div class="spacer"></div>
+                <button id="pBtn" class="play-btn">▶️ 開始講解</button>
             </div>
-
             <audio id="aud" src="{audio_url}" preload="auto"></audio>
             <div class="pdf-view"><img src="data:image/png;base64,{pdf_b64}" class="pdf-img"></div>
             <div class="seek-panel">
@@ -141,22 +134,12 @@ if df is not None:
                 <div class="time-box"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
             </div>
             <div class="subtitle-stage"><div id="bb" class="bubble yj"></div></div>
-
             <script>
-                function goToPage(val) {{
-                    // 將顯示頁碼 (1-based) 轉回索引 (0-based)
-                    const targetIdx = parseInt(val) - 1;
-                    const url = new URL(window.parent.location.href);
-                    url.searchParams.set("change_page", targetIdx);
-                    window.parent.location.href = url.href;
-                }}
-
                 const aud = document.getElementById('aud');
                 const pBtn = document.getElementById('pBtn');
                 const sk = document.getElementById('sk');
                 const bb = document.getElementById('bb');
                 const script = {script_data};
-
                 pBtn.onclick = () => {{
                     if(aud.paused) {{ aud.play(); pBtn.innerText = "⏸️ 暫停"; }}
                     else {{ aud.pause(); pBtn.innerText = "▶️ 繼續"; }}
