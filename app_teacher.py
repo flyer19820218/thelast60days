@@ -19,12 +19,12 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# 徹底打碎 Cache 的資料讀取
+# 資料讀取 (移除 cache_data，每次點擊都重新執行)
 def load_data_raw():
-    # 加上隨機數，確保 Google Sheet 每次都給新 CSV
-    url = f"https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv&cb={time.time()}"
+    url = "https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv"
     try:
-        r = requests.get(url)
+        # 在網址後加個變數，讓伺服器每次都吐新的
+        r = requests.get(f"{url}&nocache={time.time()}")
         from io import StringIO
         return pd.read_csv(StringIO(r.text), encoding='utf-8')
     except:
@@ -47,38 +47,35 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
 df = load_data_raw()
 
 if df is not None:
-    # 頂部控制列
-    c1, c2, c3 = st.columns([1.5, 1, 1.5])
+    c1, c2 = st.columns([2, 1])
     
     with c1:
         total_rows = len(df)
         page_list = [f"第 {i+1} 頁" for i in range(total_rows)]
-        # 這裡不設預選，強迫使用者動手
-        selected_page_str = st.selectbox("🎯 選擇教學頁碼", page_list, index=0)
+        selected_page_str = st.selectbox("🎯 選擇教學頁碼", page_list)
         page_idx = page_list.index(selected_page_str)
     
     with c2:
-        # 強制同步按鈕：這會讓整個 Session 清空
-        if st.button("🔄 同步 GitHub 新檔", use_container_width=True):
+        # 用一個大按鈕來強行重整頁面
+        if st.button("🔄 同步 GitHub 最新檔案", use_container_width=True):
             st.rerun()
 
     # 抓取該頁資料
     row = df.iloc[page_idx]
     audio_file = str(row['Audio_Path']).strip().lstrip('/')
     
-    # 這裡就是關鍵：每次生成的網址都帶有當下時間戳記，GitHub CDN 絕對擋不住
+    # 打破 GitHub CDN 快取
     ts = int(time.time() * 1000)
     audio_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_file}?v={ts}"
     json_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_file.replace('.mp3', '_script.json')}?v={ts}"
     
     pdf_b64 = get_pdf_page_as_base64("notes.pdf", page_idx)
     
-    # 取得字幕
+    # 字幕讀取
     res_json = requests.get(json_url)
     script_data = res_json.text if res_json.status_code == 200 else "[]"
 
-    # --- HTML 渲染 ---
-    # 💡 這裡加上 key={ts} 是一個大招，只要時間變了，Streamlit 就會重新渲染整塊 HTML
+    # --- HTML 渲染 (移除 key 避免 TypeError) ---
     full_html = f"""
     <!DOCTYPE html>
     <html>
@@ -93,7 +90,7 @@ if df is not None:
         .seek-panel {{ width: 100%; background: #f1f5f9; padding: 15px 25px; display: flex; align-items: center; gap: 20px; box-sizing: border-box; }}
         input[type=range] {{ flex: 1; accent-color: #1d4ed8; cursor: pointer; height: 12px; }}
         .time-box {{ font-size: 16px; color: #475569; min-width: 100px; text-align: right; font-weight: bold; }}
-        .subtitle-stage {{ width: 100%; min-height: 180px; display: flex; flex-direction: column; padding: 25px; box-sizing: border-box; }}
+        .subtitle-stage {{ width: 100%; min-height: 200px; display: flex; flex-direction: column; padding: 25px; box-sizing: border-box; }}
         .bubble {{ max-width: 80%; padding: 22px; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); font-size: 28px; line-height: 1.6; opacity: 0; transition: all 0.2s ease; }}
         .yanjun {{ align-self: flex-start; background: #e0f2fe; color: #0369a1; border: 2px solid #bae6fd; }}
         .xiaozhen {{ align-self: flex-end; background: #fff1f2; color: #be123c; border: 2px solid #fecdd3; }}
@@ -102,20 +99,32 @@ if df is not None:
     </head>
     <body>
         <div class="header-bar">
-            <div class="title">📖 {selected_page_str} 教學模式</div>
-            <button id="pBtn" class="play-btn">▶️ 開始講解</button>
+            <div class="title">📖 {selected_page_str} 教學</div>
+            <button id="pBtn" class="play-btn">▶️ 開始播放</button>
         </div>
-        <audio id="aud" src="{audio_url}" preload="auto"></audio>
+        
+        <div id="audio-box"></div>
+        
         <div class="pdf-view"><img src="data:image/png;base64,{pdf_b64}" class="pdf-img"></div>
+        
         <div class="seek-panel">
             <input type="range" id="sk" value="0" step="0.1">
             <div class="time-box"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
         </div>
+        
         <div class="subtitle-stage">
             <div id="bubble" class="bubble yanjun"><div id="spk" class="name"></div><div id="msg"></div></div>
         </div>
+
         <script>
-            const aud = document.getElementById('aud');
+            // 用 JS 動態生成 Audio 標籤，徹底殺掉快取
+            const box = document.getElementById('audio-box');
+            const aud = document.createElement('audio');
+            aud.src = "{audio_url}";
+            aud.id = "main_audio";
+            aud.preload = "auto";
+            box.appendChild(aud);
+
             const pBtn = document.getElementById('pBtn');
             const sk = document.getElementById('sk');
             const bubble = document.getElementById('bubble');
@@ -127,10 +136,12 @@ if df is not None:
                 if(aud.paused) {{ aud.play(); pBtn.innerText = "⏸️ 暫停"; }}
                 else {{ aud.pause(); pBtn.innerText = "▶️ 繼續"; }}
             }};
+
             aud.onloadedmetadata = () => {{
                 document.getElementById('dur').innerText = fmt(aud.duration);
                 sk.max = aud.duration;
             }};
+
             aud.ontimeupdate = () => {{
                 const t = aud.currentTime;
                 document.getElementById('cur').innerText = fmt(t);
@@ -147,14 +158,15 @@ if df is not None:
                 }}
                 if(!hit) bubble.style.opacity = 0;
             }};
+
             sk.oninput = () => aud.currentTime = sk.value;
             function fmt(s) {{ return Math.floor(s/60) + ":" + String(Math.floor(s%60)).padStart(2,'0'); }}
         </script>
     </body>
     </html>
     """
-    # ✨ 核心修正：加入唯一的 key
-    components.html(full_html, height=1800, scrolling=True, key=f"v5_{page_idx}_{ts}")
+    # 這裡絕對不加 key，避免 TypeError
+    components.html(full_html, height=1800, scrolling=True)
 
 else:
-    st.error("❌ 無法載入 Google Sheet，請確認網址正確。")
+    st.error("❌ 無法連線至 Google Sheet，請檢查網路。")
