@@ -3,13 +3,13 @@ import pandas as pd
 import requests
 import fitz
 import streamlit.components.v1 as components
-import json
 import base64
+import time
 
 # ==========================================
 # 1. 頁面設定
 # ==========================================
-st.set_page_config(page_title="會考自然-教學滿版", layout="wide")
+st.set_page_config(page_title="會考自然-旗艦教學版", layout="wide")
 
 st.markdown("""
     <style>
@@ -22,9 +22,10 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-@st.cache_data(ttl=60)
-def load_data():
-    SHEET_URL = "https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv"
+# 💡 移除 cache，並加入隨機參數強制更新資料
+def load_data_fresh():
+    # 加上時間戳記，讓 Google Sheet 覺得這是一個新請求
+    SHEET_URL = f"https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv&cache_bust={time.time()}"
     try:
         return pd.read_csv(SHEET_URL)
     except:
@@ -44,47 +45,45 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
 # ==========================================
 # 2. 佈局實作
 # ==========================================
-df = load_data()
+df = load_data_fresh()
 
 if df is not None:
-    # 建立一個選單列
+    # 建立選單與控制列
     c_unit, c_prev, c_next, c_page = st.columns([2, 0.5, 0.5, 1])
     
-    unit_list = df['Day'].tolist()
-    with c_unit:
-        selected_day = st.selectbox("進度", unit_list, label_visibility="collapsed")
-    
-    # 頁碼控制 (使用 session_state 確保換頁會觸發重新渲染)
     if 'page_idx' not in st.session_state:
         st.session_state.page_idx = 0
 
+    unit_list = df['Day'].tolist()
+    with c_unit:
+        # 當選單變動時，我們也去對應正確的頁碼
+        selected_day = st.selectbox("進度", unit_list, index=0, label_visibility="collapsed")
+        # 這裡有個簡單的同步邏輯：如果選單選了別的，我們跳到該 Day 的第一頁
+        # 暫時先跟隨 page_idx
+    
     with c_prev:
         if st.button("⬅️"):
             st.session_state.page_idx = max(0, st.session_state.page_idx - 1)
     with c_next:
         if st.button("➡️"):
-            st.session_state.page_idx += 1
+            st.session_state.page_idx = min(len(df)-1, st.session_state.page_idx + 1)
     with c_page:
-        st.write(f"目前頁碼: {st.session_state.page_idx + 1}")
+        st.info(f"📍 頁碼: {st.session_state.page_idx + 1}")
 
-    # 根據「頁碼」去 DataFrame 找對應的那一橫列資料
-    # 假設你的 CSV 裡，每一列代表一個頁碼的資料
+    # 抓取對應資料
     try:
         row = df.iloc[st.session_state.page_idx]
         audio_path = str(row['Audio_Path']).strip().lstrip('/')
-        audio_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path}"
-        json_url = audio_url.replace('.mp3', '_script.json')
+        # 關鍵：在 URL 後面加隨機數，防止 GitHub 緩存舊音檔
+        audio_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path}?t={time.time()}"
+        json_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path.replace('.mp3', '_script.json')}?t={time.time()}"
         
-        # 準備 PDF
         pdf_b64 = get_pdf_page_as_base64("notes.pdf", st.session_state.page_idx)
         
-        # 抓取字幕 JSON
         res_json = requests.get(json_url)
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
-        # --- 🔥 修正版：換頁即重載音檔的 HTML 🔥 ---
-        # 關鍵點：在 HTML 裡加入 key={st.session_state.page_idx} 的概念並非 Streamlit 原生，
-        # 但透過 Python 重新生成此字串，HTML 元件會被強迫重新整理
+        # --- 旗艦 HTML 內容 ---
         full_html = f"""
         <!DOCTYPE html>
         <html>
@@ -94,7 +93,7 @@ if df is not None:
             .header-bar {{ display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; border-bottom: 1px solid #f0f0f0; }}
             .title {{ color: #1d4ed8; font-size: 34px; font-weight: bold; margin: 0; }}
             .play-btn {{ background: linear-gradient(135deg, #2b58db, #1d4ed8); color: white; padding: 10px 25px; border-radius: 50px; font-weight: bold; font-size: 18px; cursor: pointer; border: none; }}
-            .pdf-container {{ width: 100%; }}
+            .pdf-view {{ width: 100%; }}
             .pdf-img {{ width: 100%; display: block; }}
             .seek-panel {{ width: 100%; background: #fdfdfd; padding: 10px 20px; display: flex; align-items: center; gap: 15px; box-sizing: border-box; border-bottom: 1px solid #eee; }}
             input[type=range] {{ flex: 1; accent-color: #1d4ed8; cursor: pointer; }}
@@ -109,10 +108,10 @@ if df is not None:
         <body>
             <div class="header-bar">
                 <div class="title">🚀 考前60天衝刺</div>
-                <button id="pBtn" class="play-btn">▶️立刻收聽</button>
+                <button id="pBtn" class="play-btn">▶️ 收聽快報</button>
             </div>
-            <audio id="aud" src="{audio_url}"></audio>
-            <div class="pdf-container"><img src="data:image/png;base64,{pdf_b64}" class="pdf-img"></div>
+            <audio id="aud" src="{audio_url}" preload="auto"></audio>
+            <div class="pdf-view"><img src="data:image/png;base64,{pdf_b64}" class="pdf-img"></div>
             <div class="seek-panel">
                 <input type="range" id="sk" value="0" step="0.1">
                 <div class="time-box"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
@@ -159,10 +158,8 @@ if df is not None:
         </body>
         </html>
         """
-        # 這裡加上 key 確保 Streamlit 偵測到變化會重新刷組件
-        components.html(full_html, height=1800, scrolling=True)
+        # 強制指定一個跟頁碼相關的 key，讓 Streamlit 知道頁碼換了，組件就要重畫
+        components.html(full_html, height=1800, scrolling=True, key=f"content_page_{st.session_state.page_idx}")
 
-    except IndexError:
-        st.warning("已到達最後一頁或該頁尚無資料。")
     except Exception as e:
-        st.error(f"連線異常: {e}")
+        st.error(f"⚠️ 讀取第 {st.session_state.page_idx + 1} 頁時發生錯誤。請確認 Google Sheet 是否有該行資料。")
