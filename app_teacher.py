@@ -7,7 +7,7 @@ import base64
 import time
 
 # ==========================================
-# 1. 頁面設定 (視覺旗艦化)
+# 1. 頁面設定
 # ==========================================
 st.set_page_config(page_title="會考自然-考前60天衝刺", layout="wide")
 
@@ -18,23 +18,8 @@ st.markdown("""
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
-    
-    /* 🌟 核心修正：將頁碼框往後移、字體放大 */
-    .stSelectbox {
-        margin-bottom: -78px !important; 
-        position: relative;
-        z-index: 101;
-        width: 18% !important; /* 縮小寬度更精煉 */
-        margin-left: 450px !important; /* 🚀 往後拉開很大一段距離 */
-    }
-    
-    /* 放大 Streamlit 選擇框內的文字 */
-    .stSelectbox div[data-baseweb="select"] {
-        font-size: 24px !important;
-        font-weight: bold !important;
-    }
-
-    .stSelectbox label { display: none !important; } 
+    /* 隱藏 Streamlit 原本笨重的介面，改由 HTML 控制 */
+    .stSelectbox { display: none !important; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -65,6 +50,15 @@ if df is not None:
     if 'page_idx' not in st.session_state:
         st.session_state.page_idx = 0
 
+    # 接收來自 HTML 的換頁訊息
+    if "change_page" in st.query_params:
+        new_p = int(st.query_params["change_page"])
+        if new_p != st.session_state.page_idx:
+            st.session_state.page_idx = new_p
+            # 清除參數並重啟
+            st.query_params.clear()
+            st.rerun()
+
     try:
         row = df.iloc[st.session_state.page_idx]
         audio_file = str(row['Audio_Path']).strip().lstrip('/')
@@ -75,34 +69,41 @@ if df is not None:
         res_json = requests.get(json_url)
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
-        # --- 🌟 Python 選擇器 ---
-        page_labels = [f"第 {i+1} 頁" for i in range(len(df))]
-        selected_label = st.selectbox("", page_labels, index=st.session_state.page_idx)
-        
-        if page_labels.index(selected_label) != st.session_state.page_idx:
-            st.session_state.page_idx = page_labels.index(selected_label)
-            st.rerun()
+        # 生成頁碼選項
+        page_options_html = "".join([
+            f'<option value="{i}" {"selected" if i==st.session_state.page_idx else ""}>第 {i+1} 頁</option>'
+            for i in range(len(df))
+        ])
 
-        # --- 🎨 HTML 導航列與內容 ---
+        # --- 🎨 完美置中 HTML ---
         full_html = f"""
         <!DOCTYPE html>
         <html>
         <head>
         <style>
-            body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; }}
+            body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; overflow-x: hidden; }}
             .nav-bar {{ 
                 display: flex; align-items: center; justify-content: space-between; 
-                padding: 10px 40px; background: #f8fafc; border-bottom: 5px solid #1e40af;
-                height: 95px; box-sizing: border-box;
+                padding: 0 40px; background: #f8fafc; border-bottom: 5px solid #1e40af;
+                height: 100px; box-sizing: border-box;
             }}
-            .nav-left {{ display: flex; align-items: center; }}
-            .nav-title {{ color: #1e40af; font-size: 38px; font-weight: 950; white-space: nowrap; }}
-            .spacer {{ width: 35%; }} 
+            .nav-title {{ color: #1e40af; font-size: 38px; font-weight: 950; white-space: nowrap; flex: 1; }}
+            
+            /* 🌟 真正的置中容器 */
+            .nav-center {{ flex: 1; display: flex; justify-content: center; }}
+            .page-select {{ 
+                font-size: 26px; font-weight: bold; color: #1e40af; 
+                padding: 10px 20px; border: 3px solid #1e40af; border-radius: 12px;
+                background: white; cursor: pointer; outline: none;
+            }}
+            
+            .nav-right {{ flex: 1; display: flex; justify-content: flex-end; }}
             .play-btn {{ 
                 background: #1e40af; color: white; padding: 12px 40px; border-radius: 50px; 
                 border: none; font-size: 26px; font-weight: bold; cursor: pointer;
                 box-shadow: 0 4px 15px rgba(30,64,175,0.3);
             }}
+
             .pdf-view {{ width: 100%; }}
             .pdf-img {{ width: 100%; display: block; }}
             .seek-panel {{ width: 100%; background: #f1f5f9; padding: 25px 40px; display: flex; align-items: center; gap: 20px; box-sizing: border-box; }}
@@ -116,35 +117,53 @@ if df is not None:
         </head>
         <body>
             <div class="nav-bar">
-                <div class="nav-left">
-                    <span class="nav-title">🚀 考前60天衝刺</span>
+                <div class="nav-title">🚀 考前60天衝刺</div>
+                <div class="nav-center">
+                    <select class="page-select" onchange="changePage(this.value)">
+                        {page_options_html}
+                    </select>
                 </div>
-                <div class="spacer"></div>
-                <button id="pBtn" class="play-btn">▶️ 開始講解</button>
+                <div class="nav-right">
+                    <button id="pBtn" class="play-btn">▶️ 開始講解</button>
+                </div>
             </div>
+
             <audio id="aud" src="{audio_url}" preload="auto"></audio>
             <div class="pdf-view"><img src="data:image/png;base64,{pdf_b64}" class="pdf-img"></div>
+            
             <div class="seek-panel">
                 <input type="range" id="sk" value="0" step="0.1">
                 <div class="time-box"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
             </div>
+            
             <div class="subtitle-stage">
                 <div id="bb" class="bubble yj"></div>
             </div>
+
             <script>
+                function changePage(val) {{
+                    // 透過 URL 參數告訴 Python 要換頁
+                    const url = new URL(window.parent.location.href);
+                    url.searchParams.set("change_page", val);
+                    window.parent.location.href = url.href;
+                }}
+
                 const aud = document.getElementById('aud');
                 const pBtn = document.getElementById('pBtn');
                 const sk = document.getElementById('sk');
                 const bb = document.getElementById('bb');
                 const script = {script_data};
+
                 pBtn.onclick = () => {{
                     if(aud.paused) {{ aud.play(); pBtn.innerText = "⏸️ 暫停"; }}
                     else {{ aud.pause(); pBtn.innerText = "▶️ 繼續"; }}
                 }};
+
                 aud.onloadedmetadata = () => {{
                     document.getElementById('dur').innerText = fmt(aud.duration);
                     sk.max = aud.duration;
                 }};
+
                 aud.ontimeupdate = () => {{
                     const t = aud.currentTime;
                     document.getElementById('cur').innerText = fmt(t);
@@ -160,6 +179,7 @@ if df is not None:
                     }}
                     if(!hit) bb.style.opacity = 0;
                 }};
+
                 sk.oninput = () => aud.currentTime = sk.value;
                 function fmt(s) {{ return Math.floor(s/60) + ":" + String(Math.floor(s%60)).padStart(2,'0'); }}
             </script>
