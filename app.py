@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import requests
-import time
 import fitz  # PyMuPDF 轉圖神器
 
 # ==========================================
@@ -35,26 +34,27 @@ def load_data():
         return None
 
 # ==========================================
-# 3. 抄回你的絕招：PDF 轉圖片顯示 (保證不破圖)
+# 3. 終極光速版：直接讀取本地 PDF (免網路下載)
 # ==========================================
 @st.cache_data(ttl=3600)
-def get_pdf_page_image(pdf_url, page_index):
+def get_pdf_page_image(local_pdf_path, page_index):
     try:
-        # 1. 把 PDF 從 GitHub 下載到暫存檔
-        response = requests.get(pdf_url)
-        response.raise_for_status()
-        with open("temp_notes.pdf", "wb") as f:
-            f.write(response.content)
+        # 檔案就在旁邊，直接打開就好！不需要去網路下載
+        doc = fitz.open(local_pdf_path)
         
-        # 2. 使用 fitz 轉成清晰的圖片 (矩陣放大切換高畫質)
-        doc = fitz.open("temp_notes.pdf")
+        # 防呆：檢查頁數
+        if page_index >= doc.page_count:
+            doc.close()
+            return "PAGE_OUT_OF_RANGE"
+            
+        # 轉換高畫質圖片
         page = doc.load_page(page_index)
         pix = page.get_pixmap(matrix=fitz.Matrix(2.0, 2.0)) 
         img_data = pix.tobytes("png")
         doc.close()
         return img_data
     except Exception as e:
-        return None
+        return str(e) # 顯示真實錯誤原因
 
 # ==========================================
 # 4. 學生前台主介面
@@ -84,18 +84,20 @@ if df is not None:
     st.divider()
     st.subheader("📝 彥君老師手繪講義")
     
-    # 讓學生選擇要看講義的第幾頁 (預設為第 1 頁)
     target_page = st.number_input("翻閱講義頁碼：", min_value=1, value=1)
-    pdf_raw_url = f"{GITHUB_RAW}notes.pdf"
     
-    with st.spinner("⏳ 載入講義圖檔中..."):
-        # 注意：fitz 的 page_index 是從 0 開始算，所以 target_page 要減 1
-        page_img = get_pdf_page_image(pdf_raw_url, target_page - 1)
+    # 直接指定檔名，不使用網址
+    local_pdf_path = "notes.pdf" 
+    
+    with st.spinner("⏳ 光速載入講義圖檔中..."):
+        result = get_pdf_page_image(local_pdf_path, target_page - 1)
         
-        if page_img:
-            st.image(page_img, use_container_width=True, caption=f"講義第 {target_page} 頁")
+        if result == "PAGE_OUT_OF_RANGE":
+            st.warning(f"⚠️ 彥君老師提醒：這份講義沒有第 {target_page} 頁喔！請把頁碼調小。")
+        elif isinstance(result, bytes): 
+            st.image(result, use_container_width=True, caption=f"講義第 {target_page} 頁")
         else:
-            st.error("⚠️ 圖檔轉換失敗，請確認 notes.pdf 是否存在於 GitHub 根目錄。")
+            st.error(f"⚠️ 讀取失敗。系統回報：{result}")
 
     # --- 文字區：Spotify 劇本字幕模式 ---
     st.divider()
