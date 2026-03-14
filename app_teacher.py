@@ -5,6 +5,7 @@ import fitz
 import streamlit.components.v1 as components
 import base64
 import time
+import math
 
 # ==========================================
 # 1. 頁面設定
@@ -45,20 +46,46 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
 # ==========================================
 df = load_data_fresh()
 
-if df is not None:
+if df is not None and not df.empty:
     if 'page_idx' not in st.session_state:
         st.session_state.page_idx = 0
 
-    # --- 頂部控制列 ---
-    c_unit, c_prev, c_next, c_page = st.columns([2, 0.5, 0.5, 1])
+    total_items = len(df)
     
-    # 🌟 修正 1：把原本的 'Day' 改成對應新表單的 'Title'
-    unit_list = df['Title'].tolist()
+    # 🌟 新增邏輯：每 10 個分一組
+    group_size = 10
+    num_groups = math.ceil(total_items / group_size)
+    group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
+    
+    # 計算目前在哪一個群組
+    current_group_idx = st.session_state.page_idx // group_size
+
+    # --- 頂部控制列 (加入群組選單) ---
+    c_group, c_unit, c_prev, c_next, c_page = st.columns([1.5, 2.5, 0.5, 0.5, 1])
+    
+    with c_group:
+        selected_group = st.selectbox("範圍", group_labels, index=current_group_idx, label_visibility="collapsed")
+        new_group_idx = group_labels.index(selected_group)
+        # 如果切換了群組，自動跳到該群組的第一頁
+        if new_group_idx != current_group_idx:
+            st.session_state.page_idx = new_group_idx * group_size
+            st.rerun()
+
     with c_unit:
-        selected_day = st.selectbox("進度", unit_list, index=st.session_state.page_idx, label_visibility="collapsed")
-        new_idx = unit_list.index(selected_day)
-        if new_idx != st.session_state.page_idx:
-            st.session_state.page_idx = new_idx
+        # 根據選定的群組，抽出那 10 堂課
+        start_idx = new_group_idx * group_size
+        end_idx = min(start_idx + group_size, total_items)
+        sub_df = df.iloc[start_idx:end_idx]
+        unit_list = sub_df['Title'].tolist()
+        
+        # 換算在子選單中的相對位置 (0~9)
+        local_idx = st.session_state.page_idx - start_idx
+        
+        selected_day = st.selectbox("單元", unit_list, index=local_idx, label_visibility="collapsed")
+        new_local_idx = unit_list.index(selected_day)
+        
+        if new_local_idx != local_idx:
+            st.session_state.page_idx = start_idx + new_local_idx
             st.rerun()
     
     with c_prev:
@@ -67,17 +94,16 @@ if df is not None:
             st.rerun()
     with c_next:
         if st.button("➡️"):
-            st.session_state.page_idx = min(len(df)-1, st.session_state.page_idx + 1)
+            st.session_state.page_idx = min(total_items - 1, st.session_state.page_idx + 1)
             st.rerun()
     with c_page:
-        st.info(f"📍 單元: {st.session_state.page_idx + 1}")
+        st.info(f"📍 總進度: {st.session_state.page_idx + 1} / {total_items}")
 
     main_container = st.empty()
 
     try:
         row = df.iloc[st.session_state.page_idx]
         
-        # 🌟 修正 2：讀取 A 欄的 '頁碼' 來決定 PDF 翻頁 (並扣掉 1 轉成電腦的索引值)
         try:
             pdf_page_idx = int(str(row['頁碼']).strip()) - 1
             if pdf_page_idx < 0: pdf_page_idx = 0
@@ -85,11 +111,9 @@ if df is not None:
             pdf_page_idx = 0
 
         audio_path = str(row['Audio_Path']).strip().lstrip('/')
-        # 加上時間戳記強迫瀏覽器抓新檔
         audio_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path}?t={time.time()}"
         json_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path.replace('.mp3', '_script.json')}?t={time.time()}"
         
-        # 🌟 修正 3：把原本的 st.session_state.page_idx 換成算出來的 pdf_page_idx
         pdf_b64 = get_pdf_page_as_base64("notes.pdf", pdf_page_idx)
         
         res_json = requests.get(json_url)
@@ -170,7 +194,6 @@ if df is not None:
         </html>
         """
         
-        # 🌟 確保組件能正確渲染
         with main_container:
             components.html(full_html, height=1800, scrolling=True)
 
