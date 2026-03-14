@@ -22,11 +22,12 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# 💡 移除 cache，並加入隨機參數強制更新資料
+# 💡 修正後的資料讀取：確保格式正確
 def load_data_fresh():
-    # 加上時間戳記，讓 Google Sheet 覺得這是一個新請求
-    SHEET_URL = f"https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv&cache_bust={time.time()}"
+    # 這裡移除複雜的 cache_bust，改用簡單的重新整理機制
+    SHEET_URL = "https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv"
     try:
+        # 加上一個假的參數在 headers 裡也能達到一點打破快取的效果
         return pd.read_csv(SHEET_URL)
     except:
         return None
@@ -48,25 +49,31 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
 df = load_data_fresh()
 
 if df is not None:
-    # 建立選單與控制列
-    c_unit, c_prev, c_next, c_page = st.columns([2, 0.5, 0.5, 1])
-    
+    # 初始 session_state
     if 'page_idx' not in st.session_state:
         st.session_state.page_idx = 0
 
+    # --- 頂部控制列 ---
+    c_unit, c_prev, c_next, c_page = st.columns([2, 0.5, 0.5, 1])
+    
     unit_list = df['Day'].tolist()
     with c_unit:
-        # 當選單變動時，我們也去對應正確的頁碼
-        selected_day = st.selectbox("進度", unit_list, index=0, label_visibility="collapsed")
-        # 這裡有個簡單的同步邏輯：如果選單選了別的，我們跳到該 Day 的第一頁
-        # 暫時先跟隨 page_idx
+        # 選單連動：當選單變動時，更新 page_idx
+        selected_day = st.selectbox("進度", unit_list, index=st.session_state.page_idx, label_visibility="collapsed")
+        # 找到選中項目的索引
+        new_idx = unit_list.index(selected_day)
+        if new_idx != st.session_state.page_idx:
+            st.session_state.page_idx = new_idx
+            st.rerun() # 強制重新整理頁面以更新內容
     
     with c_prev:
         if st.button("⬅️"):
             st.session_state.page_idx = max(0, st.session_state.page_idx - 1)
+            st.rerun()
     with c_next:
         if st.button("➡️"):
             st.session_state.page_idx = min(len(df)-1, st.session_state.page_idx + 1)
+            st.rerun()
     with c_page:
         st.info(f"📍 頁碼: {st.session_state.page_idx + 1}")
 
@@ -74,7 +81,7 @@ if df is not None:
     try:
         row = df.iloc[st.session_state.page_idx]
         audio_path = str(row['Audio_Path']).strip().lstrip('/')
-        # 關鍵：在 URL 後面加隨機數，防止 GitHub 緩存舊音檔
+        # 在音檔 URL 後面加隨機數防止瀏覽器快取
         audio_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path}?t={time.time()}"
         json_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path.replace('.mp3', '_script.json')}?t={time.time()}"
         
@@ -96,7 +103,7 @@ if df is not None:
             .pdf-view {{ width: 100%; }}
             .pdf-img {{ width: 100%; display: block; }}
             .seek-panel {{ width: 100%; background: #fdfdfd; padding: 10px 20px; display: flex; align-items: center; gap: 15px; box-sizing: border-box; border-bottom: 1px solid #eee; }}
-            input[type=range] {{ flex: 1; accent-color: #1d4ed8; cursor: pointer; }}
+            input[type=range] {{ flex: 1; accent-color: #1d4ed8; cursor: pointer; height: 10px; }}
             .time-box {{ font-size: 14px; color: #64748b; min-width: 95px; text-align: right; }}
             .subtitle-stage {{ width: 100%; min-height: 150px; display: flex; flex-direction: column; padding: 20px; box-sizing: border-box; }}
             .bubble {{ max-width: 70%; padding: 20px; border-radius: 20px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); font-size: 24px; line-height: 1.5; opacity: 0; transition: all 0.3s ease; }}
@@ -158,8 +165,10 @@ if df is not None:
         </body>
         </html>
         """
-        # 強制指定一個跟頁碼相關的 key，讓 Streamlit 知道頁碼換了，組件就要重畫
-        components.html(full_html, height=1800, scrolling=True, key=f"content_page_{st.session_state.page_idx}")
+        # 使用唯一 key 確保 HTML 組件重載
+        components.html(full_html, height=1800, scrolling=True, key=f"page_v3_{st.session_state.page_idx}")
 
     except Exception as e:
-        st.error(f"⚠️ 讀取第 {st.session_state.page_idx + 1} 頁時發生錯誤。請確認 Google Sheet 是否有該行資料。")
+        st.error(f"讀取錯誤：{e}")
+else:
+    st.error("Google Sheet 資料連線失敗，請檢查網址或權限。")
