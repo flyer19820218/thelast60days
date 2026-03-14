@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import requests
 import fitz  # PyMuPDF 轉圖神器
+import streamlit.components.v1 as components # 💡 氣泡對話框無敵防護罩
 
 # ==========================================
 # 1. 頁面與基礎設定
@@ -11,10 +12,6 @@ st.set_page_config(page_title="國中自然60天逆襲", layout="centered")
 st.markdown("""
     <style>
     .main { background-color: #f9f9f9; }
-    .typing-text { 
-        font-family: 'PingFang TC', sans-serif; line-height: 1.8; color: #2c3e50; 
-        background-color: #ffffff; padding: 20px; border-radius: 10px; border: 1px solid #eee;
-    }
     </style>
     """, unsafe_allow_html=True)
 
@@ -34,27 +31,23 @@ def load_data():
         return None
 
 # ==========================================
-# 3. 終極光速版：直接讀取本地 PDF (免網路下載)
+# 3. 本地 PDF 光速讀取
 # ==========================================
 @st.cache_data(ttl=3600)
 def get_pdf_page_image(local_pdf_path, page_index):
     try:
-        # 檔案就在旁邊，直接打開就好！不需要去網路下載
         doc = fitz.open(local_pdf_path)
-        
-        # 防呆：檢查頁數
         if page_index >= doc.page_count:
             doc.close()
             return "PAGE_OUT_OF_RANGE"
             
-        # 轉換高畫質圖片
         page = doc.load_page(page_index)
         pix = page.get_pixmap(matrix=fitz.Matrix(2.0, 2.0)) 
         img_data = pix.tobytes("png")
         doc.close()
         return img_data
     except Exception as e:
-        return str(e) # 顯示真實錯誤原因
+        return str(e)
 
 # ==========================================
 # 4. 學生前台主介面
@@ -73,20 +66,18 @@ if df is not None:
     st.divider()
     st.header(f"📍 {row['Title']}")
 
-    # --- 聽覺區：播放預錄好的 MP3 ---
+    # --- 聽覺區 ---
     st.subheader("🔊 聽講區 (1.75x 衝刺音頻)")
     audio_path = str(row['Audio_Path']).strip()
     if audio_path.startswith('/'): audio_path = audio_path[1:]
     audio_url = f"{GITHUB_RAW}{audio_path}"
     st.audio(audio_url)
 
-    # --- 視覺區：PDF 轉圖片顯示 ---
+    # --- 視覺區 ---
     st.divider()
     st.subheader("📝 彥君老師手繪講義")
     
     target_page = st.number_input("翻閱講義頁碼：", min_value=1, value=1)
-    
-    # 直接指定檔名，不使用網址
     local_pdf_path = "notes.pdf" 
     
     with st.spinner("⏳ 光速載入講義圖檔中..."):
@@ -99,7 +90,7 @@ if df is not None:
         else:
             st.error(f"⚠️ 讀取失敗。系統回報：{result}")
 
-   # --- 文字區：Spotify 劇本字幕模式 ---
+    # --- 💡 終極無敵氣泡對話框 ---
     st.divider()
     st.subheader("💬 衝刺劇本 (對話字幕)")
     
@@ -112,29 +103,60 @@ if df is not None:
         res.encoding = 'utf-8'
         lines = res.text.split('\n')
         
-        # 建立一個有高度限制、可手動滾動的字幕視窗
-        chat_html = '<div style="height: 400px; overflow-y: auto; padding: 15px; background-color: #f4f6f9; border-radius: 10px; border: 1px solid #ddd;">'
+        # 使用原生 HTML/CSS 寫法，保證不會被破壞
+        chat_html = """
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <style>
+            body { font-family: 'PingFang TC', sans-serif; background-color: #f4f6f9; padding: 15px; margin: 0; }
+            .chat-container { display: flex; flex-direction: column; gap: 15px; }
+            .bubble-left { align-self: flex-start; background-color: #e3f2fd; padding: 12px 18px; border-radius: 15px 15px 15px 0; max-width: 85%; box-shadow: 1px 1px 3px rgba(0,0,0,0.1); color: #000; line-height: 1.6; }
+            .bubble-right { align-self: flex-end; background-color: #ffe0b2; padding: 12px 18px; border-radius: 15px 15px 0 15px; max-width: 85%; box-shadow: 1px 1px 3px rgba(0,0,0,0.1); color: #000; line-height: 1.6; }
+            .system-msg { text-align: center; color: #888; font-size: 0.9em; margin: 10px 0; }
+            .name-tag { font-weight: bold; margin-bottom: 5px; font-size: 0.9em; color: #555;}
+        </style>
+        </head>
+        <body>
+        <div class="chat-container">
+        """
         
+        current_speaker = None
         for line in lines:
             line = line.strip()
-            if not line:
-                continue
-                
-            # 💡 關鍵修正：HTML 標籤全部寫在同一行，絕對不准縮排！
-            if "彥君老師：" in line:
-                content = line.replace("彥君老師：", "").strip()
-                chat_html += f'<div style="margin-bottom: 15px; text-align: left;"><span style="background-color: #e3f2fd; padding: 10px 15px; border-radius: 15px; display: inline-block; max-width: 85%; color: #000; box-shadow: 1px 1px 3px rgba(0,0,0,0.1);"><b>👨‍🏫 彥君老師</b><br>{content}</span></div>'
-            elif "曉臻助教：" in line:
-                content = line.replace("曉臻助教：", "").strip()
-                chat_html += f'<div style="margin-bottom: 15px; text-align: right;"><span style="background-color: #ffe0b2; padding: 10px 15px; border-radius: 15px; display: inline-block; max-width: 85%; text-align: left; color: #000; box-shadow: 1px 1px 3px rgba(0,0,0,0.1);"><b>👩‍🔬 曉臻助教</b><br>{content}</span></div>'
+            if not line: continue
+            
+            # 支援「同一行」寫法 (彥君老師：內容)
+            if "：" in line and len(line.split("：", 1)[0]) < 10:
+                speaker, content = line.split("：", 1)
+                if "彥君老師" in speaker:
+                    chat_html += f'<div class="bubble-left"><div class="name-tag">👨‍🏫 彥君老師</div>{content}</div>'
+                elif "曉臻助教" in speaker:
+                    chat_html += f'<div class="bubble-right"><div class="name-tag">👩‍🔬 曉臻助教</div>{content}</div>'
+                else:
+                    chat_html += f'<div class="system-msg">{line}</div>'
+            # 支援「上下換行」寫法 (你的截圖寫法)
             else:
-                # 其他旁白或標題
-                chat_html += f'<div style="text-align: center; color: #888; font-size: 0.9em; margin: 10px 0;">{line}</div>'
-                
-        chat_html += '</div>'
+                if "彥君老師" in line and len(line) < 15:
+                    current_speaker = "彥君老師"
+                elif "曉臻助教" in line and len(line) < 15:
+                    current_speaker = "曉臻助教"
+                elif line.startswith("【") or line.startswith("<") or "字數" in line or "目標" in line or "角色" in line:
+                    chat_html += f'<div class="system-msg">{line}</div>'
+                else:
+                    if current_speaker == "彥君老師":
+                        chat_html += f'<div class="bubble-left"><div class="name-tag">👨‍🏫 彥君老師</div>{line}</div>'
+                        current_speaker = None # 講完一句重置
+                    elif current_speaker == "曉臻助教":
+                        chat_html += f'<div class="bubble-right"><div class="name-tag">👩‍🔬 曉臻助教</div>{line}</div>'
+                        current_speaker = None
+                    else:
+                        chat_html += f'<div class="system-msg">{line}</div>'
+                        
+        chat_html += "</div></body></html>"
         
-        # 顯示對話框
-        st.markdown(chat_html, unsafe_allow_html=True)
+        # 🛡️ 開啟無敵防護罩，獨立網頁渲染！
+        components.html(chat_html, height=450, scrolling=True)
             
     except Exception as e:
         st.error(f"劇本載入失敗。請檢查 {script_url} 是否存在。")
