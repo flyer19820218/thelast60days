@@ -22,12 +22,9 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# 💡 修正後的資料讀取：確保格式正確
 def load_data_fresh():
-    # 這裡移除複雜的 cache_bust，改用簡單的重新整理機制
     SHEET_URL = "https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv"
     try:
-        # 加上一個假的參數在 headers 裡也能達到一點打破快取的效果
         return pd.read_csv(SHEET_URL)
     except:
         return None
@@ -49,7 +46,6 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
 df = load_data_fresh()
 
 if df is not None:
-    # 初始 session_state
     if 'page_idx' not in st.session_state:
         st.session_state.page_idx = 0
 
@@ -58,13 +54,11 @@ if df is not None:
     
     unit_list = df['Day'].tolist()
     with c_unit:
-        # 選單連動：當選單變動時，更新 page_idx
         selected_day = st.selectbox("進度", unit_list, index=st.session_state.page_idx, label_visibility="collapsed")
-        # 找到選中項目的索引
         new_idx = unit_list.index(selected_day)
         if new_idx != st.session_state.page_idx:
             st.session_state.page_idx = new_idx
-            st.rerun() # 強制重新整理頁面以更新內容
+            st.rerun()
     
     with c_prev:
         if st.button("⬅️"):
@@ -77,11 +71,13 @@ if df is not None:
     with c_page:
         st.info(f"📍 頁碼: {st.session_state.page_idx + 1}")
 
-    # 抓取對應資料
+    # 建立一個動態容器
+    main_container = st.empty()
+
     try:
         row = df.iloc[st.session_state.page_idx]
         audio_path = str(row['Audio_Path']).strip().lstrip('/')
-        # 在音檔 URL 後面加隨機數防止瀏覽器快取
+        # 加上時間戳記強迫瀏覽器抓新檔
         audio_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path}?t={time.time()}"
         json_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path.replace('.mp3', '_script.json')}?t={time.time()}"
         
@@ -90,7 +86,6 @@ if df is not None:
         res_json = requests.get(json_url)
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
-        # --- 旗艦 HTML 內容 ---
         full_html = f"""
         <!DOCTYPE html>
         <html>
@@ -165,10 +160,10 @@ if df is not None:
         </body>
         </html>
         """
-        # 使用唯一 key 確保 HTML 組件重載
-        components.html(full_html, height=1800, scrolling=True, key=f"page_v3_{st.session_state.page_idx}")
+        # 使用容器渲染，不使用 key
+        main_container.html(full_html, height=1800, scrolling=True)
 
     except Exception as e:
-        st.error(f"讀取錯誤：{e}")
+        st.error(f"系統錯誤：{e}")
 else:
-    st.error("Google Sheet 資料連線失敗，請檢查網址或權限。")
+    st.error("Google Sheet 資料連線失敗。")
