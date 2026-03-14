@@ -4,7 +4,7 @@ import requests
 import time
 
 # --- 1. 頁面設定 (手機優先排版) ---
-st.set_page_config(page_title="考前60天衝次", layout="centered")
+st.set_page_config(page_title="考前60天衝刺", layout="centered")
 
 # 自定義 CSS 美化
 st.markdown("""
@@ -12,7 +12,7 @@ st.markdown("""
     .main { background-color: #f9f9f9; }
     .stAudio { width: 100%; }
     .typing-text { 
-        font-family: 'Courier New', Courier, monospace; 
+        font-family: 'PingFang TC', 'Microsoft JhengHei', sans-serif; 
         line-height: 1.8; 
         color: #2c3e50; 
         background-color: #ffffff;
@@ -20,20 +20,24 @@ st.markdown("""
         border-radius: 10px;
         border: 1px solid #eee;
     }
+    .podcast-card {
+        background-color: #ffffff; padding: 15px; border-radius: 15px;
+        border-left: 5px solid #4CAF50; box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        margin-bottom: 10px;
+    }
     </style>
     """, unsafe_allow_html=True)
 
 # --- 2. 數據庫與路徑設定 ---
-# 你的 Google Sheet CSV 直連連結
 SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv"
 
-# 你的 GitHub 基礎路徑 (結尾務必有斜槓)
+# ⚠️ 請記得修改下方為你的 GitHub 帳號 ⚠️
 GITHUB_RAW = "https://raw.githubusercontent.com/你的GitHub帳號/thelast60days/main/"
 
-# --- 🔑 在這裡填入你的 API KEY ---
+# 🔑 API KEY
 GEMINI_API_KEY = "AIzaSyCrcKESi4rF0_VSdV3Bsica_dem612c3F4"
 
-@st.cache_data(ttl=300) # 每 5 分鐘快取更新一次
+@st.cache_data(ttl=60) # 衝刺期設定 1 分鐘更新一次
 def load_data():
     try:
         df = pd.read_csv(SHEET_CSV_URL)
@@ -42,46 +46,53 @@ def load_data():
         st.error(f"數據庫讀取失敗: {e}")
         return None
 
-# --- 3. 側邊欄與標題 ---
+# --- AI 繪圖函數 ---
+def generate_nature_image(prompt):
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-image:generateImages?key={GEMINI_API_KEY}"
+    payload = {
+        "instances": [{"prompt": f"Professional scientific illustration, white background: {prompt}"}]
+    }
+    try:
+        # 這裡目前回傳佔位圖，串接正式 API 後可替換為真實 Base64 轉換邏輯
+        return f"https://via.placeholder.com/600x400.png?text={prompt}"
+    except:
+        return None
+
+# --- 3. 標題與選單 ---
 st.title("🎧 自然科學真理 PODCAST")
 st.caption("會考 60 天衝刺 - 彥君老師 & 曉臻助教")
 
 df = load_data()
 
 if df is not None:
-    # 選擇單元 (對應 Google Sheet 的 Day 欄位)
+    # 選擇單元
     unit_options = df['Day'].tolist()
     selected_unit = st.selectbox("📅 選擇今日衝刺進度：", unit_options)
     
-    # 取得選中單元的整行資料
+    # 取得資料
     row = df[df['Day'] == selected_unit].iloc[0]
     
     st.divider()
-    
-    # --- 4. 內容顯示區 ---
     st.subheader(f"📍 {row['Title']}")
     
-    # AI 提示詞區域 (可視化參考)
+    # --- 4. AI 內容顯示區 ---
     with st.expander("💡 本集 AI 核心圖解概念"):
         st.write(row['Image_Prompt'])
     
-# ==========================================
-# 區塊 5：Podcast 語音播放 (除錯版)
-# ==========================================
-st.markdown('<div class="podcast-card"><b>🎙️ 點擊播放衝刺音頻</b></div>', unsafe_allow_html=True)
+    # 顯示 AI 生成圖片
+    img_result = generate_nature_image(row['Image_Prompt'])
+    if img_result:
+        st.image(img_result, caption="彥君老師的重點示意圖")
 
-# 確保路徑拼接沒有多餘或缺少的斜槓
-audio_path = row['Audio_Path'].strip()
-if audio_path.startswith('/'):
-    audio_path = audio_path[1:]
-
-audio_full_url = f"{GITHUB_RAW}{audio_path}"
-
-# --- 除錯用 (成功後可刪除) ---
-# st.write(f"目前嘗試連線的音檔網址為： {audio_full_url}") 
-# -------------------------
-
-st.audio(audio_full_url)
+    # --- 5. Podcast 語音播放 ---
+    st.markdown('<div class="podcast-card"><b>🎙️ 點擊播放衝刺音頻</b></div>', unsafe_allow_html=True)
+    
+    audio_path = str(row['Audio_Path']).strip()
+    if audio_path.startswith('/'):
+        audio_path = audio_path[1:]
+    
+    audio_full_url = f"{GITHUB_RAW}{audio_path}"
+    st.audio(audio_full_url)
 
     # --- 6. 打字機文字稿 ---
     st.divider()
@@ -91,24 +102,22 @@ st.audio(audio_full_url)
         script_url = f"{GITHUB_RAW}{row['Script_Path']}"
         try:
             response = requests.get(script_url)
-            response.encoding = 'utf-8' # 強制編碼避免亂碼
+            response.encoding = 'utf-8'
             full_text = response.text
             
-            # 使用 Streamlit 內建 write_stream 達成打字機效果
-            def stream_data():
-                for word in full_text:
-                    yield word
-                    time.sleep(0.01) # 調整打字速度
-            
-            st.write_stream(stream_data)
-            
+            placeholder = st.empty()
+            typed_text = ""
+            for char in full_text:
+                typed_text += char
+                placeholder.markdown(f'<div class="typing-text">{typed_text}</div>', unsafe_allow_html=True)
+                time.sleep(0.01)
+                
         except Exception as e:
             st.error(f"無法讀取文字稿：{e}")
-            st.warning("請確認 GitHub Repository 是否設為 Public (公開)，且路徑正確。")
+
+    # --- 7. 腳註 ---
+    st.divider()
+    st.caption("💪 彥君老師提醒：聽完記得站起來動一動，活化你的大腦多巴胺！")
 
 else:
     st.warning("請檢查 Google Sheet 連結與權限。")
-
-# --- 7. 腳註 ---
-st.divider()
-st.caption("💪 彥君老師提醒：聽完記得站起來動一動，活化你的大腦多巴胺！")
