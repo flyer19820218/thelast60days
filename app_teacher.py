@@ -18,21 +18,25 @@ st.markdown("""
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
+    
+    /* 🌟 恢復原生選單，並把它定在畫面上方正中間 */
     .stSelectbox {
-        margin-bottom: -79px !important; 
-        position: relative;
-        z-index: 101;
-        width: 18% !important;
-        margin-left: 450px !important; 
-        top: -2px; 
+        position: absolute !important;
+        top: 25px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        width: 180px !important;
+        z-index: 99999 !important;
     }
     .stSelectbox div[data-baseweb="select"] {
         font-size: 24px !important;
         font-weight: bold !important;
-        height: 45px !important;
-        line-height: 45px !important;
-        display: flex !important;
-        align-items: center !important;
+        border: 3px solid #1e40af !important;
+        border-radius: 12px !important;
+        background-color: white !important;
+        color: #1e40af !important;
+        height: 50px !important;
+        cursor: pointer !important;
     }
     .stSelectbox label { display: none !important; } 
 </style>
@@ -65,44 +69,44 @@ if df is not None:
     if 'page_idx' not in st.session_state:
         st.session_state.page_idx = 0
 
+    # 🌟 恢復原來點了就會動的選單機制！
+    page_labels = [f"第 {i+1} 頁" for i in range(len(df))]
+    selected_label = st.selectbox("選擇頁面", page_labels, index=st.session_state.page_idx)
+    
+    if page_labels.index(selected_label) != st.session_state.page_idx:
+        st.session_state.page_idx = page_labels.index(selected_label)
+        st.rerun()
+
     try:
-        # 🌟 路徑校準：強制去 audio/ 資料夾找檔案
+        # 🌟 這裡一樣保持去 audio/ 抓檔的路徑
         current_page_num = st.session_state.page_idx + 1
         audio_filename = f"p{current_page_num}.mp3"
         json_filename = f"p{current_page_num}_script.json"
         
         ts = int(time.time() * 1000)
-        # 這裡路徑加上了 /audio/
         base_url = "https://raw.githubusercontent.com/flyer19820218/thelast60days/main/audio"
         
         audio_url = f"{base_url}/{audio_filename}?v={ts}"
         json_url = f"{base_url}/{json_filename}?v={ts}"
-        
+
         pdf_b64 = get_pdf_page_64(st.session_state.page_idx)
         res_json = requests.get(json_url)
         script_data = res_json.text if res_json.status_code == 200 else "[]"
-
-        page_labels = [f"第 {i+1} 頁" for i in range(len(df))]
-        selected_label = st.selectbox("", page_labels, index=st.session_state.page_idx)
-        
-        if page_labels.index(selected_label) != st.session_state.page_idx:
-            st.session_state.page_idx = page_labels.index(selected_label)
-            st.rerun()
 
         full_html = f"""
         <!DOCTYPE html>
         <html>
         <head>
         <style>
-            body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; }}
+            body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; overflow-x: hidden; }}
             .nav-bar {{ 
                 display: flex; align-items: center; justify-content: space-between; 
-                padding: 10px 40px; background: #f8fafc; border-bottom: 5px solid #1e40af;
-                height: 95px; box-sizing: border-box;
+                padding: 0 40px; background: #f8fafc; border-bottom: 5px solid #1e40af;
+                height: 100px; box-sizing: border-box;
             }}
-            .nav-left {{ display: flex; align-items: center; }}
-            .nav-title {{ color: #1e40af; font-size: 38px; font-weight: 950; white-space: nowrap; }}
-            .spacer {{ width: 35%; }} 
+            .nav-title {{ color: #1e40af; font-size: 38px; font-weight: 950; white-space: nowrap; flex: 1; }}
+            .nav-center {{ flex: 1; }} /* 中間留空給 Streamlit 的選單浮上來 */
+            .nav-right {{ flex: 1; display: flex; justify-content: flex-end; }}
             .play-btn {{ 
                 background: #1e40af; color: white; padding: 12px 40px; border-radius: 50px; 
                 border: none; font-size: 26px; font-weight: bold; cursor: pointer;
@@ -121,12 +125,13 @@ if df is not None:
         </head>
         <body>
             <div class="nav-bar">
-                <div class="nav-left">
-                    <span class="nav-title">🚀 考前60天衝刺</span>
+                <div class="nav-title">🚀 考前60天衝刺</div>
+                <div class="nav-center"></div>
+                <div class="nav-right">
+                    <button id="pBtn" class="play-btn">▶️ 開始講解</button>
                 </div>
-                <div class="spacer"></div>
-                <button id="pBtn" class="play-btn">▶️ 開始講解</button>
             </div>
+
             <audio id="aud" src="{audio_url}" preload="auto"></audio>
             <div class="pdf-view"><img src="data:image/png;base64,{pdf_b64}" class="pdf-img"></div>
             <div class="seek-panel">
@@ -134,12 +139,14 @@ if df is not None:
                 <div class="time-box"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
             </div>
             <div class="subtitle-stage"><div id="bb" class="bubble yj"></div></div>
+
             <script>
                 const aud = document.getElementById('aud');
                 const pBtn = document.getElementById('pBtn');
                 const sk = document.getElementById('sk');
                 const bb = document.getElementById('bb');
                 const script = {script_data};
+
                 pBtn.onclick = () => {{
                     if(aud.paused) {{ aud.play(); pBtn.innerText = "⏸️ 暫停"; }}
                     else {{ aud.pause(); pBtn.innerText = "▶️ 繼續"; }}
