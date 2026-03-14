@@ -45,7 +45,7 @@ if df is not None:
     st.markdown("---")
     audio_url = f"{GITHUB_RAW}{row['Audio_Path']}"
     st.audio(audio_url)
-    st.caption("🔊 建議開啟 1.75x 語速衝刺")
+    st.caption("🔊 可以請調整語速喔")
 
     # --- 6. 文字稿 ---
     if st.button(f"📖 展開文字講義"):
