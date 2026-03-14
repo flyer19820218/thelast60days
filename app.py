@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import requests
-import base64
 import time
+import fitz  # PyMuPDF 轉圖神器
 
 # ==========================================
 # 1. 頁面與基礎設定
@@ -12,11 +12,6 @@ st.set_page_config(page_title="國中自然60天逆襲", layout="centered")
 st.markdown("""
     <style>
     .main { background-color: #f9f9f9; }
-    .podcast-card {
-        background-color: #ffffff; padding: 15px; border-radius: 15px;
-        border-left: 5px solid #4CAF50; box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-        margin-bottom: 20px;
-    }
     .typing-text { 
         font-family: 'PingFang TC', sans-serif; line-height: 1.8; color: #2c3e50; 
         background-color: #ffffff; padding: 20px; border-radius: 10px; border: 1px solid #eee;
@@ -25,7 +20,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # ==========================================
-# 2. 資料庫與路徑設定 (替換為你的帳號)
+# 2. 資料庫與路徑設定
 # ==========================================
 USER = "flyer19820218"
 REPO = "thelast60days"
@@ -40,23 +35,32 @@ def load_data():
         return None
 
 # ==========================================
-# 3. PDF 終極內嵌顯示器 (防破圖)
+# 3. 抄回你的絕招：PDF 轉圖片顯示 (保證不破圖)
 # ==========================================
-@st.cache_data(ttl=3600) # 快取 PDF，避免學生每次切換都要重新下載
-def get_pdf_display(pdf_url):
+@st.cache_data(ttl=3600)
+def get_pdf_page_image(pdf_url, page_index):
     try:
+        # 1. 把 PDF 從 GitHub 下載到暫存檔
         response = requests.get(pdf_url)
         response.raise_for_status()
-        base64_pdf = base64.b64encode(response.content).decode('utf-8')
-        return f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="100%" height="600" type="application/pdf" style="border:none; border-radius:10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"></iframe>'
-    except:
-        return "<p style='color:red;'>⚠️ PDF 講義載入失敗，請確認 GitHub 檔案路徑。</p>"
+        with open("temp_notes.pdf", "wb") as f:
+            f.write(response.content)
+        
+        # 2. 使用 fitz 轉成清晰的圖片 (矩陣放大切換高畫質)
+        doc = fitz.open("temp_notes.pdf")
+        page = doc.load_page(page_index)
+        pix = page.get_pixmap(matrix=fitz.Matrix(2.0, 2.0)) 
+        img_data = pix.tobytes("png")
+        doc.close()
+        return img_data
+    except Exception as e:
+        return None
 
 # ==========================================
 # 4. 學生前台主介面
 # ==========================================
 st.title("🎧 自然科學真理 PODCAST")
-st.caption("彥君老師 & 曉臻助教：免登入、免 API，直接開啟衝刺模式！")
+st.caption("免登入、免 API，直接開啟衝刺模式！")
 
 df = load_data()
 
@@ -70,22 +74,28 @@ if df is not None:
     st.header(f"📍 {row['Title']}")
 
     # --- 聽覺區：播放預錄好的 MP3 ---
-    st.markdown('<div class="podcast-card"><b>🔊 點擊播放 (1.75x 衝刺音頻)</b></div>', unsafe_allow_html=True)
+    st.subheader("🔊 聽講區 (1.75x 衝刺音頻)")
     audio_path = str(row['Audio_Path']).strip()
     if audio_path.startswith('/'): audio_path = audio_path[1:]
     audio_url = f"{GITHUB_RAW}{audio_path}"
     st.audio(audio_url)
 
-    # --- 視覺區：顯示 PDF 講義 ---
+    # --- 視覺區：PDF 轉圖片顯示 ---
     st.divider()
     st.subheader("📝 彥君老師手繪講義")
+    
+    # 讓學生選擇要看講義的第幾頁 (預設為第 1 頁)
+    target_page = st.number_input("翻閱講義頁碼：", min_value=1, value=1)
     pdf_raw_url = f"{GITHUB_RAW}notes.pdf"
     
-    # 全螢幕下載按鈕 (給手機瀏覽器備用)
-    st.link_button("📂 若畫面太小，點此全螢幕打開 PDF", pdf_raw_url)
-    
-    # 直接在畫面中顯示 PDF
-    st.markdown(get_pdf_display(pdf_raw_url), unsafe_allow_html=True)
+    with st.spinner("⏳ 載入講義圖檔中..."):
+        # 注意：fitz 的 page_index 是從 0 開始算，所以 target_page 要減 1
+        page_img = get_pdf_page_image(pdf_raw_url, target_page - 1)
+        
+        if page_img:
+            st.image(page_img, use_container_width=True, caption=f"講義第 {target_page} 頁")
+        else:
+            st.error("⚠️ 圖檔轉換失敗，請確認 notes.pdf 是否存在於 GitHub 根目錄。")
 
     # --- 文字區：逐字稿打字機 ---
     st.divider()
@@ -103,7 +113,7 @@ if df is not None:
             for char in res.text:
                 typed_text += char
                 placeholder.markdown(f'<div class="typing-text">{typed_text}</div>', unsafe_allow_html=True)
-                time.sleep(0.005) # 極速打字機
+                time.sleep(0.005)
         except:
             st.error("逐字稿載入失敗。")
 
