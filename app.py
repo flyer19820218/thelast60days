@@ -1,5 +1,4 @@
 import streamlit as st
-import pd as pd # 修正：建議還是用標準 import pandas as pd
 import pandas as pd
 import requests
 import fitz  # PyMuPDF
@@ -14,20 +13,20 @@ st.set_page_config(page_title="國中自然60天逆襲", layout="centered")
 
 st.markdown("""
     <style>
-    /* 隱藏原生多餘元件 */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     header {visibility: hidden;}
     .stApp { background-color: white; }
     
-    /* 修正頂部 Expander 擠壓問題 */
+    /* 確保頂部選單有足夠的呼吸空間，不與下方 PDF 碰撞 */
     .stExpander {
-        margin-top: 20px;
-        border: 1px solid #e0e0e0;
-        border-radius: 10px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        border: 1px solid #ebf0f5;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
 
-    /* 字體 */
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
@@ -67,16 +66,15 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
 df = load_data()
 
 if df is not None:
-    # 這裡加上一個容器隔離選單
-    with st.container():
-        with st.expander("📂 進度與講義翻頁控制", expanded=False):
-            unit_list = df['Day'].tolist()
-            selected = st.selectbox("📅 選擇今日進度", unit_list)
-            row = df[df['Day'] == selected].iloc[0]
-            st.info(f"📍 目前單元：{row['Title']}")
-            target_page = st.number_input("翻閱講義頁碼 (PDF 頁數)", min_value=1, value=1)
+    # 頂部控制區
+    with st.expander("📂 課程進度與講義翻頁", expanded=False):
+        unit_list = df['Day'].tolist()
+        selected = st.selectbox("📅 選擇今日進度", unit_list)
+        row = df[df['Day'] == selected].iloc[0]
+        st.write(f"📖 **目前單元**：{row['Title']}")
+        target_page = st.number_input("📄 翻閱講義頁碼", min_value=1, value=1)
 
-    # 準備 PDF
+    # 處理 PDF 講義
     local_pdf_path = "notes.pdf"
     pdf_b64 = get_pdf_page_as_base64(local_pdf_path, target_page - 1)
 
@@ -90,149 +88,124 @@ if df is not None:
             res_json.raise_for_status()
             script_json_data = res_json.text
 
-            # --- 🔥 HTML 佈局優化 🔥 ---
+            # --- 🔥 HTML/CSS 終極佈局 🔥 ---
             html_content = f"""
             <!DOCTYPE html>
             <html>
             <head>
             <style>
                 body {{ font-family: 'PingFang TC', sans-serif; margin: 0; padding: 0; background: white; }}
+                .wrapper {{ position: relative; width: 100%; max-width: 800px; margin: 0 auto; }}
+                .pdf-img {{ width: 100%; display: block; border-radius: 4px; }}
                 
-                .pdf-container {{
-                    position: relative;
-                    width: 100%;
-                    max-width: 800px;
-                    margin: 0 auto;
-                }}
-                
-                .pdf-img {{
-                    width: 100%;
-                    display: block;
-                }}
-
-                .overlay-controls {{
+                .overlay {{
                     position: absolute;
                     bottom: 40px;
-                    right: 20px;
+                    right: 25px;
                     display: flex;
                     flex-direction: column;
                     align-items: flex-end;
                     gap: 15px;
-                    z-index: 100;
                 }}
 
                 .play-btn {{
                     background: linear-gradient(135deg, #2b58db 0%, #1d4ed8 100%);
                     color: white;
-                    padding: 14px 30px;
+                    padding: 12px 28px;
                     border-radius: 50px;
                     display: flex;
                     align-items: center;
-                    gap: 12px;
+                    gap: 10px;
                     font-weight: bold;
                     font-size: 18px;
                     cursor: pointer;
-                    box-shadow: 0 6px 25px rgba(29, 78, 216, 0.4);
-                    border: 2px solid rgba(255,255,255,0.3);
-                    transition: all 0.2s ease;
+                    box-shadow: 0 6px 20px rgba(29, 78, 216, 0.4);
+                    border: 2px solid rgba(255,255,255,0.2);
+                    transition: all 0.2s;
                     user-select: none;
                 }}
                 .play-btn:active {{ transform: scale(0.95); }}
 
-                .bubble-box {{
-                    width: 320px;
-                    pointer-events: none;
-                }}
+                .bubble-container {{ width: 300px; pointer-events: none; }}
                 .bubble {{
                     padding: 15px 20px;
                     border-radius: 20px;
                     box-shadow: 0 10px 40px rgba(0,0,0,0.15);
                     font-size: 18px;
-                    line-height: 1.6;
+                    line-height: 1.5;
                     opacity: 0;
                     transition: opacity 0.3s ease;
-                    border: 1px solid rgba(255,255,255,0.9);
                 }}
                 .yanjun {{ background-color: rgba(227, 242, 253, 0.98); color: #0d47a1; }}
                 .xiaozhen {{ background-color: rgba(255, 243, 224, 0.98); color: #e65100; }}
-                .speaker-label {{ font-size: 13px; font-weight: bold; margin-bottom: 5px; opacity: 0.8; }}
+                .name-tag {{ font-size: 13px; font-weight: bold; margin-bottom: 4px; opacity: 0.8; }}
             </style>
             </head>
             <body>
-                <div class="pdf-container">
+                <div class="wrapper">
                     <img src="data:image/png;base64,{pdf_b64}" class="pdf-img">
-                    
-                    <audio id="audioTrack"><source src="{audio_url}" type="audio/mpeg"></audio>
+                    <audio id="player"><source src="{audio_url}" type="audio/mpeg"></audio>
 
-                    <div class="overlay-controls">
-                        <div class="bubble-box">
+                    <div class="overlay">
+                        <div class="bubble-container">
                             <div id="bubble" class="bubble yanjun">
-                                <div id="speaker" class="speaker-label">👨‍🏫 彥君老師</div>
-                                <div id="text">準備好了嗎？點擊按鈕開始！</div>
+                                <div id="speaker" class="name-tag">👨‍🏫 彥君老師</div>
+                                <div id="txt">準備好了嗎？點擊按鈕開始！</div>
                             </div>
                         </div>
-
-                        <div id="ctrlBtn" class="play-btn">
-                            <span id="icon">▶️</span>
-                            <span id="label">收聽快報</span>
+                        <div id="btn" class="play-btn">
+                            <span id="ico">▶️</span> <span id="lbl">收聽快報</span>
                         </div>
                     </div>
                 </div>
 
                 <script>
-                    const audio = document.getElementById('audioTrack');
-                    const btn = document.getElementById('ctrlBtn');
-                    const icon = document.getElementById('icon');
-                    const label = document.getElementById('label');
+                    const audio = document.getElementById('player');
+                    const btn = document.getElementById('btn');
                     const bubble = document.getElementById('bubble');
-                    const speaker = document.getElementById('speaker');
-                    const text = document.getElementById('text');
-                    
-                    const data = {script_json_data};
+                    const script = {script_json_data};
 
                     btn.onclick = () => {{
                         if (audio.paused) {{
                             audio.play();
-                            label.innerText = "播放中";
-                            icon.innerText = "⏸️";
+                            document.getElementById('lbl').innerText = "播放中";
+                            document.getElementById('ico').innerText = "⏸️";
                         }} else {{
                             audio.pause();
-                            label.innerText = "繼續收聽";
-                            icon.innerText = "▶️";
+                            document.getElementById('lbl').innerText = "繼續收聽";
+                            document.getElementById('ico').innerText = "▶️";
                         }}
                     }};
 
                     audio.ontimeupdate = () => {{
-                        const now = audio.currentTime;
-                        let hit = false;
-                        for (let item of data) {{
-                            if (now >= item.start && now <= item.end) {{
-                                text.innerText = item.text;
-                                if (item.speaker === "彥君") {{
-                                    speaker.innerText = "👨‍🏫 彥君老師";
+                        const t = audio.currentTime;
+                        let found = false;
+                        for (let s of script) {{
+                            if (t >= s.start && t <= s.end) {{
+                                document.getElementById('txt').innerText = s.text;
+                                if (s.speaker === "彥君") {{
+                                    document.getElementById('speaker').innerText = "👨‍🏫 彥君老師";
                                     bubble.className = "bubble yanjun";
                                 }} else {{
-                                    speaker.innerText = "👩‍🔬 曉臻助教";
+                                    document.getElementById('speaker').innerText = "👩‍🔬 曉臻助教";
                                     bubble.className = "bubble xiaozhen";
                                 }}
                                 bubble.style.opacity = 1;
-                                hit = true;
-                                break;
+                                found = true; break;
                             }}
                         }}
-                        if (!hit) bubble.style.opacity = 0;
+                        if (!found) bubble.style.opacity = 0;
                     }};
                     bubble.style.opacity = 1;
                 </script>
             </body>
             </html>
             """
-            # 增加一些高度緩衝
             components.html(html_content, height=850, scrolling=False)
 
         except Exception as e:
-            st.error(f"❌ 載入失敗：{e}")
+            st.error(f"字幕同步失敗：{e}")
     else:
-        st.error("❌ PDF 載入失敗")
+        st.error("講義圖片讀取失敗")
 else:
-    st.error("❌ 資料庫載入失敗")
+    st.error("Google Sheet 連線失敗")
