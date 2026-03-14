@@ -2,16 +2,19 @@ import streamlit as st
 import pandas as pd
 import requests
 import fitz  # PyMuPDF 轉圖神器
-import streamlit.components.v1 as components # 💡 氣泡對話框無敵防護罩
 
 # ==========================================
-# 1. 頁面與基礎設定
+# 1. 頁面與基礎設定 (維持漂亮的字體)
 # ==========================================
 st.set_page_config(page_title="國中自然60天逆襲", layout="centered")
 
 st.markdown("""
     <style>
     .main { background-color: #f9f9f9; }
+    /* 強制全局字體，讓所有元件都套用漂亮的字體 */
+    html, body, [class*="css"] {
+        font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
+    }
     </style>
     """, unsafe_allow_html=True)
 
@@ -58,7 +61,6 @@ st.caption("免登入、免 API，直接開啟衝刺模式！")
 df = load_data()
 
 if df is not None:
-    # 導航選單
     unit_list = df['Day'].tolist()
     selected = st.selectbox("📅 選擇今日進度：", unit_list)
     row = df[df['Day'] == selected].iloc[0]
@@ -90,7 +92,7 @@ if df is not None:
         else:
             st.error(f"⚠️ 讀取失敗。系統回報：{result}")
 
-    # --- 💡 終極無敵氣泡對話框 ---
+    # --- 💡 終極聰明對話框 (無縮排防呆版) ---
     st.divider()
     st.subheader("💬 衝刺劇本 (對話字幕)")
     
@@ -103,60 +105,52 @@ if df is not None:
         res.encoding = 'utf-8'
         lines = res.text.split('\n')
         
-        # 使用原生 HTML/CSS 寫法，保證不會被破壞
-        chat_html = """
-        <!DOCTYPE html>
-        <html>
-        <head>
-        <style>
-            body { font-family: 'PingFang TC', sans-serif; background-color: #f4f6f9; padding: 15px; margin: 0; }
-            .chat-container { display: flex; flex-direction: column; gap: 15px; }
-            .bubble-left { align-self: flex-start; background-color: #e3f2fd; padding: 12px 18px; border-radius: 15px 15px 15px 0; max-width: 85%; box-shadow: 1px 1px 3px rgba(0,0,0,0.1); color: #000; line-height: 1.6; }
-            .bubble-right { align-self: flex-end; background-color: #ffe0b2; padding: 12px 18px; border-radius: 15px 15px 0 15px; max-width: 85%; box-shadow: 1px 1px 3px rgba(0,0,0,0.1); color: #000; line-height: 1.6; }
-            .system-msg { text-align: center; color: #888; font-size: 0.9em; margin: 10px 0; }
-            .name-tag { font-weight: bold; margin-bottom: 5px; font-size: 0.9em; color: #555;}
-        </style>
-        </head>
-        <body>
-        <div class="chat-container">
-        """
+        # HTML 外框，絕對不加任何縮排，避免 Streamlit 判斷錯誤
+        chat_html = '<div style="height:500px; overflow-y:auto; padding:15px; background-color:#f9f9f9; border-radius:10px; border:1px solid #ddd; margin-bottom:20px;">'
         
-        current_speaker = None
+        current_speaker = "system"
+        buffer = []
+        
+        # 負責把累積的文字打包成泡泡的函數
+        def push_bubble():
+            nonlocal chat_html, current_speaker, buffer
+            if not buffer: return
+            text_content = "<br>".join(buffer)
+            if current_speaker == "彥君":
+                chat_html += f'<div style="margin-bottom:15px; text-align:left;"><div style="display:inline-block; max-width:85%; background-color:#e3f2fd; padding:12px 18px; border-radius:15px 15px 15px 0; color:#000; text-align:left; box-shadow:1px 1px 3px rgba(0,0,0,0.1);"><b style="color:#1565c0;">👨‍🏫 彥君老師</b><br><span style="font-size:1.1em; line-height:1.6;">{text_content}</span></div></div>'
+            elif current_speaker == "曉臻":
+                chat_html += f'<div style="margin-bottom:15px; text-align:right;"><div style="display:inline-block; max-width:85%; background-color:#ffe0b2; padding:12px 18px; border-radius:15px 15px 0 15px; color:#000; text-align:left; box-shadow:1px 1px 3px rgba(0,0,0,0.1);"><b style="color:#e65100;">👩‍🔬 曉臻助教</b><br><span style="font-size:1.1em; line-height:1.6;">{text_content}</span></div></div>'
+            else:
+                chat_html += f'<div style="text-align:center; color:#888; font-size:0.9em; margin:10px 0;">{text_content}</div>'
+            buffer.clear()
+
+        # 一行一行讀取
         for line in lines:
             line = line.strip()
             if not line: continue
             
-            # 支援「同一行」寫法 (彥君老師：內容)
-            if "：" in line and len(line.split("：", 1)[0]) < 10:
+            # 判斷是不是換人講話了
+            if "彥君老師" in line and len(line) <= 15:
+                push_bubble() # 把上一人的話發送出去
+                current_speaker = "彥君"
+            elif "曉臻助教" in line and len(line) <= 15:
+                push_bubble()
+                current_speaker = "曉臻"
+            # 如果是傳統的「彥君老師：今天天氣很好」寫法
+            elif "：" in line and ("彥君老師" in line or "曉臻助教" in line) and len(line.split("：")[0]) <= 12:
+                push_bubble()
                 speaker, content = line.split("：", 1)
-                if "彥君老師" in speaker:
-                    chat_html += f'<div class="bubble-left"><div class="name-tag">👨‍🏫 彥君老師</div>{content}</div>'
-                elif "曉臻助教" in speaker:
-                    chat_html += f'<div class="bubble-right"><div class="name-tag">👩‍🔬 曉臻助教</div>{content}</div>'
-                else:
-                    chat_html += f'<div class="system-msg">{line}</div>'
-            # 支援「上下換行」寫法 (你的截圖寫法)
+                current_speaker = "彥君" if "彥君" in speaker else "曉臻"
+                buffer.append(content)
+                push_bubble()
+                current_speaker = "system"
             else:
-                if "彥君老師" in line and len(line) < 15:
-                    current_speaker = "彥君老師"
-                elif "曉臻助教" in line and len(line) < 15:
-                    current_speaker = "曉臻助教"
-                elif line.startswith("【") or line.startswith("<") or "字數" in line or "目標" in line or "角色" in line:
-                    chat_html += f'<div class="system-msg">{line}</div>'
-                else:
-                    if current_speaker == "彥君老師":
-                        chat_html += f'<div class="bubble-left"><div class="name-tag">👨‍🏫 彥君老師</div>{line}</div>'
-                        current_speaker = None # 講完一句重置
-                    elif current_speaker == "曉臻助教":
-                        chat_html += f'<div class="bubble-right"><div class="name-tag">👩‍🔬 曉臻助教</div>{line}</div>'
-                        current_speaker = None
-                    else:
-                        chat_html += f'<div class="system-msg">{line}</div>'
-                        
-        chat_html += "</div></body></html>"
+                buffer.append(line) # 如果都不是，就把字加進累積區
+                
+        push_bubble() # 迴圈結束，把最後一句話發送出去
+        chat_html += '</div>'
         
-        # 🛡️ 開啟無敵防護罩，獨立網頁渲染！
-        components.html(chat_html, height=450, scrolling=True)
+        st.markdown(chat_html, unsafe_allow_html=True)
             
     except Exception as e:
         st.error(f"劇本載入失敗。請檢查 {script_url} 是否存在。")
