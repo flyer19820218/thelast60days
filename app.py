@@ -22,15 +22,24 @@ st.markdown("""
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
 
-    /* 頂部選單優化 */
-    [data-testid="stVerticalBlock"] > div:first-child {
+    /* 控制面板外框：做成淺色背景長條 */
+    .control-panel {
         background: #f1f5f9;
-        padding: 15px;
-        border-radius: 15px;
-        margin-bottom: 0px;
+        padding: 10px 15px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
     }
     
-    /* 移除原生元件的多餘間距 */
+    /* 讓 Streamlit 的 columns 內部垂直居中 */
+    [data-testid="column"] {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* 移除輸入框多餘的空白 */
     .stSelectbox, .stNumberInput { margin-bottom: 0px !important; }
     </style>
     """, unsafe_allow_html=True)
@@ -63,20 +72,23 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
         return str(e)
 
 # ==========================================
-# 2. 主介面
+# 2. 主控制面板 (一行三格)
 # ==========================================
 df = load_data()
 
 if df is not None:
-    # 建立一個隱形的容器來處理頂部與 HTML 的銜接
-    unit_list = df['Day'].tolist()
+    # 建立橫向三格
+    col1, col2, col3 = st.columns([2, 0.8, 1.2])
     
-    # 這裡是關鍵：將「進度、頁碼」跟下方的「播放器」在邏輯上切分開
-    c1, c2 = st.columns([3, 1])
-    selected = c1.selectbox("今日進度", unit_list, label_visibility="collapsed")
-    row = df[df['Day'] == selected].iloc[0]
-    target_page = c2.number_input("頁碼", min_value=1, value=1, label_visibility="collapsed")
+    unit_list = df['Day'].tolist()
+    with col1:
+        selected = st.selectbox("進度", unit_list, label_visibility="collapsed")
+        row = df[df['Day'] == selected].iloc[0]
+    
+    with col2:
+        target_page = st.number_input("頁碼", min_value=1, value=1, label_visibility="collapsed")
 
+    # 準備 PDF 圖片
     local_pdf_path = "notes.pdf"
     pdf_b64 = get_pdf_page_as_base64(local_pdf_path, target_page - 1)
 
@@ -90,169 +102,156 @@ if df is not None:
             res_json.raise_for_status()
             script_json_data = res_json.text
 
-            # --- 🔥 極致互動介面 (播放鍵整合在頂部控制區感覺) 🔥 ---
-            html_content = f"""
+            # --- 🔥 HTML/JS 輕量化控制按鈕 (放在第三格) 🔥 ---
+            btn_html = f"""
+            <div id="playBtn" style="
+                background: linear-gradient(135deg, #2b58db 0%, #1d4ed8 100%);
+                color: white;
+                padding: 8px 15px;
+                border-radius: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                font-family: sans-serif;
+                font-weight: bold;
+                font-size: 15px;
+                cursor: pointer;
+                box-shadow: 0 4px 10px rgba(29, 78, 216, 0.3);
+                user-select: none;
+                white-space: nowrap;
+            ">
+                <span id="ico">▶️</span> <span id="lbl">收聽快報</span>
+            </div>
+            <audio id="audio"><source src="{audio_url}" type="audio/mpeg"></audio>
+            
+            <script>
+                const audio = document.getElementById('audio');
+                const btn = document.getElementById('playBtn');
+                
+                // 這裡我們需要一個機制讓 HTML 跟 Streamlit 的進度條溝通，但因為是三格並行，
+                // 我們先把播放控制寫在這裡，進度條放在 PDF 下方。
+                btn.onclick = () => {{
+                    if (audio.paused) {{ 
+                        audio.play(); 
+                        document.getElementById('lbl').innerText="播放中";
+                        document.getElementById('ico').innerText="⏸️";
+                    }} else {{ 
+                        audio.pause(); 
+                        document.getElementById('lbl').innerText="收聽快報";
+                        document.getElementById('ico').innerText="▶️";
+                    }}
+                }};
+                
+                // 將 audio 對象暴露給 window，讓下方的腳本能讀到它
+                window.parent.audioObj = audio;
+            </script>
+            """
+            with col3:
+                components.html(btn_html, height=50)
+
+            # --- 🔥 下方主顯示區 (PDF + 進度條 + 字幕) 🔥 ---
+            main_display_html = f"""
             <!DOCTYPE html>
             <html>
             <head>
             <style>
                 body {{ font-family: 'PingFang TC', sans-serif; margin: 0; padding: 0; background: white; }}
-                
-                .main-layout {{ width: 100%; max-width: 800px; margin: 0 auto; }}
-
-                /* 頂部播放按鈕區 (對齊 Streamlit 的頁碼) */
-                .top-control {{
-                    background: #f1f5f9;
-                    padding: 0 15px 15px 15px;
-                    border-radius: 0 0 15px 15px;
-                    display: flex;
-                    justify-content: flex-end;
-                    align-items: center;
-                    gap: 15px;
-                    margin-bottom: 10px;
-                }}
-
-                .play-capsule {{
-                    background: linear-gradient(135deg, #2b58db 0%, #1d4ed8 100%);
-                    color: white;
-                    padding: 8px 25px;
-                    border-radius: 50px;
-                    display: flex;
-                    align-items: center;
-                    gap: 8px;
-                    font-weight: bold;
-                    cursor: pointer;
-                    box-shadow: 0 4px 12px rgba(29, 78, 216, 0.3);
-                    user-select: none;
-                }}
-
-                .pdf-view {{
-                    width: 100%;
-                    background: white;
-                    border: 1px solid #eee;
-                    border-radius: 8px;
-                    overflow: hidden;
-                }}
+                .pdf-view {{ width: 100%; border-radius: 8px; overflow: hidden; border: 1px solid #eee; }}
                 .pdf-img {{ width: 100%; display: block; }}
-
-                /* 進度條拉桿 */
-                .seek-container {{
+                
+                .seek-bar-container {{
                     width: 100%;
-                    padding: 15px 0;
+                    padding: 10px 0;
                     display: flex;
                     align-items: center;
                     gap: 10px;
                 }}
-                input[type=range] {{
-                    flex: 1;
-                    accent-color: #1d4ed8;
-                    cursor: pointer;
-                }}
-                .time-box {{ font-size: 13px; color: #475569; min-width: 80px; text-align: right; }}
+                input[type=range] {{ flex: 1; accent-color: #1d4ed8; cursor: pointer; }}
+                .time-box {{ font-size: 12px; color: #64748b; min-width: 70px; text-align: right; }}
 
-                /* 字幕區塊 */
-                .subtitle-box {{
+                .bubble-box {{
                     background: #fff9f0;
                     border: 2px dashed #fed7aa;
-                    border-radius: 20px;
-                    padding: 20px;
-                    min-height: 80px;
+                    border-radius: 15px;
+                    padding: 15px;
+                    min-height: 60px;
                     display: flex;
-                    align-items: center;
+                    flex-direction: column;
                     justify-content: center;
-                    margin-top: 10px;
+                    align-items: center;
+                    margin-top: 5px;
                 }}
-                .bubble-text {{
-                    font-size: 20px;
-                    line-height: 1.6;
-                    color: #1e293b;
-                    text-align: center;
-                    opacity: 0;
-                    transition: opacity 0.2s;
-                }}
-                .name-tag {{ font-weight: bold; margin-bottom: 5px; font-size: 14px; color: #ea580c; }}
+                .text {{ font-size: 19px; color: #1e293b; text-align: center; opacity: 0; transition: opacity 0.2s; }}
+                .tag {{ font-weight: bold; font-size: 13px; color: #ea580c; margin-bottom: 3px; }}
             </style>
             </head>
             <body>
-                <div class="main-layout">
-                    <div class="top-control">
-                        <div id="playBtn" class="play-capsule">
-                            <span id="ico">▶️</span> <span id="lbl">收聽快報</span>
-                        </div>
-                    </div>
+                <div class="pdf-view"><img src="data:image/png;base64,{pdf_b64}" class="pdf-img"></div>
+                
+                <div class="seek-bar-container">
+                    <input type="range" id="seek" value="0" step="0.1">
+                    <div class="time-box"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
+                </div>
 
-                    <div class="pdf-view">
-                        <img src="data:image/png;base64,{pdf_b64}" class="pdf-img">
-                    </div>
-
-                    <div class="seek-container">
-                        <input type="range" id="seek" value="0" step="0.1">
-                        <div class="time-box"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
-                    </div>
-
-                    <div class="subtitle-box">
-                        <div id="bubble" class="bubble-text">
-                            <div id="spk" class="name-tag"></div>
-                            <div id="msg"></div>
-                        </div>
+                <div class="bubble-box">
+                    <div id="bubble" class="text">
+                        <div id="spk" class="tag"></div>
+                        <div id="msg"></div>
                     </div>
                 </div>
 
-                <audio id="audio"><source src="{audio_url}" type="audio/mpeg"></audio>
-
                 <script>
-                    const audio = document.getElementById('audio');
-                    const playBtn = document.getElementById('playBtn');
                     const seek = document.getElementById('seek');
                     const bubble = document.getElementById('bubble');
                     const script = {script_json_data};
+                    
+                    // 關鍵：從 window.parent 抓取上面那個組件的 audio 對象
+                    let audio;
+                    const checkAudio = setInterval(() => {{
+                        audio = window.parent.document.querySelector('audio');
+                        if (audio) {{
+                            setupAudio();
+                            clearInterval(checkAudio);
+                        }}
+                    }}, 500);
 
-                    function fmtT(s) {{
+                    function fmt(s) {{
                         const m = Math.floor(s/60);
                         const sec = Math.floor(s%60);
                         return m + ":" + (sec < 10 ? "0":"") + sec;
                     }}
 
-                    playBtn.onclick = () => {{
-                        if (audio.paused) {{ 
-                            audio.play(); 
-                            document.getElementById('lbl').innerText="正在播放";
-                            document.getElementById('ico').innerText="⏸️";
-                        }} else {{ 
-                            audio.pause(); 
-                            document.getElementById('lbl').innerText="收聽快報";
-                            document.getElementById('ico').innerText="▶️";
-                        }}
-                    }};
+                    function setupAudio() {{
+                        audio.onloadedmetadata = () => {{
+                            document.getElementById('dur').innerText = fmt(audio.duration);
+                            seek.max = audio.duration;
+                        }};
 
-                    audio.onloadedmetadata = () => {{
-                        document.getElementById('dur').innerText = fmtT(audio.duration);
-                        seek.max = audio.duration;
-                    }};
+                        audio.ontimeupdate = () => {{
+                            const t = audio.currentTime;
+                            document.getElementById('cur').innerText = fmt(t);
+                            seek.value = t;
 
-                    audio.ontimeupdate = () => {{
-                        const t = audio.currentTime;
-                        document.getElementById('cur').innerText = fmtT(t);
-                        seek.value = t;
-
-                        let found = false;
-                        for (let s of script) {{
-                            if (t >= s.start && t <= s.end) {{
-                                document.getElementById('spk').innerText = (s.speaker === "彥君" ? "👨‍🏫 彥君老師" : "👩‍🔬 曉臻助教");
-                                document.getElementById('msg').innerText = s.text;
-                                bubble.style.opacity = 1;
-                                found = true; break;
+                            let hit = false;
+                            for (let s of script) {{
+                                if (t >= s.start && t <= s.end) {{
+                                    document.getElementById('spk').innerText = (s.speaker === "彥君" ? "👨‍🏫 彥君老師" : "👩‍🔬 曉臻助教");
+                                    document.getElementById('msg').innerText = s.text;
+                                    bubble.style.opacity = 1;
+                                    hit = true; break;
+                                }
                             }}
-                        }}
-                        if (!found) bubble.style.opacity = 0;
-                    }};
+                            if (!hit) bubble.style.opacity = 0;
+                        }};
 
-                    seek.oninput = () => {{ audio.currentTime = seek.value; }};
+                        seek.oninput = () => {{ audio.currentTime = seek.value; }};
+                    }}
                 </script>
             </body>
             </html>
             """
-            components.html(html_content, height=1200)
+            components.html(main_display_html, height=1000)
 
         except Exception as e:
             st.error(f"連線異常: {e}")
