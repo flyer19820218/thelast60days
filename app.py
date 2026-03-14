@@ -1,75 +1,98 @@
 import streamlit as st
+import pandas as pd
+import requests
 import time
-import base64
 
-# --- 1. 頁面設定 (強制手機視覺寬度) ---
-st.set_page_config(page_title="自然科學的真理 PODCAST", layout="centered")
+# --- 1. 頁面設定 (手機優先排版) ---
+st.set_page_config(page_title="自然科學的真理", layout="centered")
 
-# 自定義 CSS：讓介面更像手機 App，並美化播放器
+# 自定義 CSS 美化
 st.markdown("""
     <style>
-    .main { background-color: #f0f2f6; }
-    .stButton>button { width: 100%; border-radius: 20px; height: 3em; background-color: #4CAF50; color: white; }
-    .podcast-container { background-color: white; padding: 20px; border-radius: 15px; shadow: 2px 2px 10px rgba(0,0,0,0.1); }
-    .typing-text { font-family: 'Courier New', Courier, monospace; line-height: 1.6; color: #333; }
+    .main { background-color: #f9f9f9; }
+    .stAudio { width: 100%; }
+    .typing-text { 
+        font-family: 'Courier New', Courier, monospace; 
+        line-height: 1.8; 
+        color: #2c3e50; 
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid #eee;
+    }
     </style>
     """, unsafe_allow_html=True)
 
-# --- 2. 考前 60 天日期選擇 (橫向捲動選單) ---
-st.title("🏃‍♂️ 國中自然 60 天逆襲")
-days = [f"Day {i}" for i in range(1, 61)]
-selected_day = st.select_slider("滑動選擇衝刺進度：", options=days)
+# --- 2. 數據庫與路徑設定 ---
+# 你的 Google Sheet CSV 直連連結
+SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv"
 
-# 模擬資料庫 (未來可移至 Excel 或 Google Sheets)
-content_map = {
-    "Day 1": {"unit": "1-1 生命的起源與細胞", "audio": "day1.mp3", "img_prompt": "植物細胞與動物細胞結構對比圖"},
-    "Day 2": {"unit": "1-2 養分與能量", "audio": "day2.mp3", "img_prompt": "人體消化系統構造圖"},
-}
+# 你的 GitHub 基礎路徑 (結尾務必有斜槓)
+GITHUB_RAW = "https://raw.githubusercontent.com/你的GitHub帳號/thelast60days/main/"
 
-current_data = content_map.get(selected_day, {"unit": "內容準備中...", "audio": "", "img_prompt": ""})
+@st.cache_data(ttl=300) # 每 5 分鐘快取更新一次
+def load_data():
+    try:
+        df = pd.read_csv(SHEET_CSV_URL)
+        return df
+    except Exception as e:
+        st.error(f"數據庫讀取失敗: {e}")
+        return None
 
-# --- 3. 顯示單元主題與 AI 圖卡 ---
-st.header(f"📍 當日進度：{current_data['unit']}")
+# --- 3. 側邊欄與標題 ---
+st.title("🎧 自然科學真理 PODCAST")
+st.caption("會考 60 天衝刺 - 彥君老師 & 曉臻助教")
 
-# 這裡預留 AI 繪圖顯示區塊 (可以使用 Nano Banana 2 串接，或是預存圖)
-st.info("💡 AI 複習圖卡：")
-st.image("https://via.placeholder.com/600x400.png?text=AI+Cell+Structure+Image", 
-         caption=f"AI 自動生成：{current_data['img_prompt']}")
+df = load_data()
 
-# --- 4. Podcast 語音播放區 ---
-st.subheader("🎧 課程 Podcast 監聽")
-# 假設音檔放在 Google Cloud 或 GitHub 上的公開 URL
-audio_url = f"https://your-cloud-storage.com/{current_data['audio']}" 
-st.audio(audio_url, format="audio/mp3")
+if df is not None:
+    # 選擇單元 (對應 Google Sheet 的 Day 欄位)
+    unit_options = df['Day'].tolist()
+    selected_unit = st.selectbox("📅 選擇今日衝刺進度：", unit_options)
+    
+    # 取得選中單元的整行資料
+    row = df[df['Day'] == selected_unit].iloc[0]
+    
+    st.divider()
+    
+    # --- 4. 內容顯示區 ---
+    st.subheader(f"📍 {row['Title']}")
+    
+    # AI 提示詞區域 (可視化參考)
+    with st.expander("💡 本集 AI 核心圖解概念"):
+        st.write(row['Image_Prompt'])
+    
+    # --- 5. Podcast 播放器 ---
+    audio_full_url = f"{GITHUB_RAW}{row['Audio_Path']}"
+    st.audio(audio_full_url)
+    st.info("點擊上方播放鍵開始聽講")
 
-# --- 5. 打字機文字稿 (核心功能) ---
+    # --- 6. 打字機文字稿 ---
+    st.divider()
+    st.write("📝 **逐字衝刺講義**")
+    
+    if st.button(f"🚀 開始/重新閱讀 {selected_unit} 文字稿"):
+        script_url = f"{GITHUB_RAW}{row['Script_Path']}"
+        try:
+            response = requests.get(script_url)
+            response.encoding = 'utf-8' # 強制編碼避免亂碼
+            full_text = response.text
+            
+            # 使用 Streamlit 內建 write_stream 達成打字機效果
+            def stream_data():
+                for word in full_text:
+                    yield word
+                    time.sleep(0.01) # 調整打字速度
+            
+            st.write_stream(stream_data)
+            
+        except Exception as e:
+            st.error(f"無法讀取文字稿：{e}")
+            st.warning("請確認 GitHub Repository 是否設為 Public (公開)，且路徑正確。")
+
+else:
+    st.warning("請檢查 Google Sheet 連結與權限。")
+
+# --- 7. 腳註 ---
 st.divider()
-st.subheader("📝 逐字講義 (文字稿)")
-
-def typewriter(text):
-    container = st.empty()
-    full_text = ""
-    for char in text:
-        full_text += char
-        container.markdown(f'<div class="typing-text">{full_text}</div>', unsafe_allow_html=True)
-        time.sleep(0.02)  # 調整打字速度
-
-# 這裡放入我們產出的 3000 字腳本 (範例縮減版)
-script_content = f"""
-**大強老師：** 嘿！各位 Day {selected_day} 的戰友們，今天運動了嗎？...
-**小美老師：** 沒錯，趕快放下手機，聽完這 8 分鐘再去操場跑兩圈！...
-(這裡會是 2500-3000 字的完整腳本內容)
-"""
-
-if st.button("📖 展開/開始打字機閱讀"):
-    typewriter(script_content)
-
-# --- 6. 隨堂練習區 ---
-st.divider()
-with st.expander("📝 隨堂小測驗 (大強老師出題)"):
-    q1 = st.radio("下列哪個構造是植物細胞有，但動物細胞沒有的？", ["細胞核", "粒線體", "細胞壁", "細胞膜"])
-    if st.button("檢查答案"):
-        if q1 == "細胞壁":
-            st.success("正解！看來你今天多巴胺分泌很足夠喔！")
-        else:
-            st.error("哎呀，再去聽一次 Podcast 第 4 分鐘！")
+st.caption("💪 彥君老師提醒：聽完記得站起來動一動，活化你的大腦多巴胺！")
