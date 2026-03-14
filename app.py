@@ -4,22 +4,25 @@ import requests
 import fitz  # PyMuPDF
 import streamlit.components.v1 as components
 import json
+import base64
 
 # ==========================================
-# 1. 頁面與基礎設定
+# 1. 頁面基礎設定與視覺隱藏
 # ==========================================
 st.set_page_config(page_title="國中自然60天逆襲", layout="centered")
 
-# 魔改 CSS：讓整個頁面看起來乾淨，並且設定字體
 st.markdown("""
     <style>
-    .main { background-color: white; }
-    html, body, [class*="css"], p, span, div, b {
-        font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
-    }
+    /* 隱藏 Streamlit 原生多餘元件 */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     header {visibility: hidden;}
+    .stApp { background-color: white; }
+    
+    /* 強制全域字體 */
+    html, body, [class*="css"], p, span, div, b {
+        font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
+    }
     </style>
     """, unsafe_allow_html=True)
 
@@ -27,70 +30,65 @@ USER = "flyer19820218"
 REPO = "thelast60days"
 GITHUB_RAW = f"https://raw.githubusercontent.com/{USER}/{REPO}/main/"
 
+# ==========================================
+# 2. 資料載入與 PDF 轉 Base64 圖檔
+# ==========================================
 @st.cache_data(ttl=60)
 def load_data():
     SHEET_URL = "https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv"
     try:
-        df = pd.read_csv(SHEET_URL)
-        return df
+        return pd.read_csv(SHEET_URL)
     except:
         return None
 
 @st.cache_data(ttl=3600)
-def get_pdf_page_image(local_pdf_path, page_index):
+def get_pdf_page_as_base64(local_pdf_path, page_index):
     try:
         doc = fitz.open(local_pdf_path)
         if page_index >= doc.page_count:
             doc.close()
             return "PAGE_OUT_OF_RANGE"
         page = doc.load_page(page_index)
+        # 高解析度渲染
         pix = page.get_pixmap(matrix=fitz.Matrix(2.0, 2.0)) 
         img_data = pix.tobytes("png")
-        import base64
-        # 轉成 base64 讓 CSS 可以直接讀取
-        img_base64 = base64.b64encode(img_data).decode('utf-8')
         doc.close()
-        return img_base64
+        return base64.b64encode(img_data).decode('utf-8')
     except Exception as e:
         return str(e)
 
 # ==========================================
-# 主介面
+# 3. 主介面邏輯
 # ==========================================
-# 控制台區域 (隱藏一點，讓視覺集中在 PDF)
-with st.expander("🛠️ 進度與講義控制", expanded=False):
-    df = load_data()
-    if df is not None:
+df = load_data()
+
+if df is not None:
+    # 控制台 (收納起來，讓畫面主體是 PDF)
+    with st.expander("🛠️ 進度與講義翻頁控制", expanded=False):
         unit_list = df['Day'].tolist()
         selected = st.selectbox("📅 選擇今日進度", unit_list)
         row = df[df['Day'] == selected].iloc[0]
-        st.caption(f"📍 {row['Title']}")
-        target_page = st.number_input("翻閱講義頁碼", min_value=1, value=1)
-    else:
-        st.error("資料載入失敗")
-        st.stop()
+        st.info(f"📍 目前單元：{row['Title']}")
+        target_page = st.number_input("翻閱講義頁碼 (PDF 頁數)", min_value=1, value=1)
 
-# --- 💡 終極魔法：疊羅漢互動區 ---
-local_pdf_path = "notes.pdf" 
-with st.spinner("⏳ 光速載入講義互動中..."):
-    pdf_img_base64 = get_pdf_page_image(local_pdf_path, target_page - 1)
-    
-    if isinstance(pdf_img_base64, str) and len(pdf_img_base64) > 100:
-        # 抓取音檔與 JSON 檔的網址
-        audio_path = str(row['Audio_Path']).strip()
-        if audio_path.startswith('/'): audio_path = audio_path[1:]
+    # 準備 PDF 背景圖
+    local_pdf_path = "notes.pdf"
+    pdf_b64 = get_pdf_page_as_base64(local_pdf_path, target_page - 1)
+
+    if len(pdf_b64) > 500: # 確保有抓到圖
+        # 準備音訊與字幕路徑
+        audio_path = str(row['Audio_Path']).strip().lstrip('/')
         audio_url = f"{GITHUB_RAW}{audio_path}"
         json_url = f"{GITHUB_RAW}{audio_path.replace('.mp3', '_script.json')}"
-        
+
         try:
-            # 下載 JSON 時間軸資料
+            # 抓取 JSON 時間軸
             res_json = requests.get(json_url)
             res_json.raise_for_status()
-            script_data_str = res_json.text
-            
-            # 🔥 HTML + CSS + JS 疊羅漢播放器 🔥
-            # 這個 HTML 會把 PDF 當背景，把播放器跟字幕浮在上面！
-            html_player = f"""
+            script_json_data = res_json.text
+
+            # --- 🔥 終極疊羅漢 HTML 播放器 🔥 ---
+            html_content = f"""
             <!DOCTYPE html>
             <html>
             <head>
@@ -98,144 +96,152 @@ with st.spinner("⏳ 光速載入講義互動中..."):
                 body {{ font-family: 'PingFang TC', sans-serif; margin: 0; padding: 0; overflow: hidden; }}
                 
                 /* PDF 背景容器 */
-                .pdf-background {{
+                .container {{
                     position: relative;
                     width: 100%;
-                    /* 這裡會根據 PDF 圖片自動撐開高度 */
-                    background-image: url('data:image/png;base64,{pdf_img_base64}');
+                    background-image: url('data:image/png;base64,{pdf_b64}');
                     background-size: contain;
                     background-repeat: no-repeat;
                     background-position: center top;
                 }}
                 
-                /* 為了讓容器有高度，我們放一個透明圖片來撐開 */
-                .pdf-spacer {{
-                    width: 100%;
-                    display: block;
-                    visibility: hidden;
-                }}
+                /* 透明撐開圖層 */
+                .spacer {{ width: 100%; display: block; visibility: hidden; }}
 
-                /* 互動元素容器 (浮在 PDF 下半部) */
-                .interaction-overlay {{
+                /* 右下角控制層 */
+                .overlay {{
                     position: absolute;
-                    bottom: 0;
-                    left: 0;
+                    bottom: 30px;
+                    right: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    gap: 15px;
                     width: 100%;
-                    # background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.9) 30%); /* 底部加一點白色漸層，保證播放器清晰 */
-                    padding: 20px 0;
-                    box-sizing: border-box;
+                }}
+
+                /* 藍色膠囊播放鍵 */
+                .play-btn {{
+                    background: linear-gradient(135deg, #2b58db 0%, #1d4ed8 100%);
+                    color: white;
+                    padding: 12px 28px;
+                    border-radius: 50px;
                     display: flex;
-                    flex-direction: column;
                     align-items: center;
+                    gap: 10px;
+                    font-weight: bold;
+                    font-size: 18px;
+                    cursor: pointer;
+                    box-shadow: 0 6px 20px rgba(29, 78, 216, 0.4);
+                    border: 2px solid rgba(255,255,255,0.3);
+                    transition: all 0.2s;
+                    user-select: none;
+                    margin-right: 30px;
                 }}
+                .play-btn:hover {{ transform: scale(1.05); filter: brightness(1.1); }}
+                .play-btn:active {{ transform: scale(0.95); }}
 
-                /* 播放器本體 (帶有半透明) */
-                audio {{
-                    width: 80%;
-                    margin-bottom: 20px;
-                    opacity: 0.7; /* 半透明 */
-                    transition: opacity 0.3s;
-                }}
-                audio:hover {{ opacity: 1; }} /* 滑鼠移上去變不透明 */
-
-                /* 泡泡顯示區 */
-                .bubble-container {{
-                    width: 90%;
-                    min-height: 100px;
+                /* 浮動字幕泡泡 */
+                .bubble-box {{
+                    width: 320px;
+                    margin-right: 30px;
                     display: flex;
                     flex-direction: column;
-                    justify-content: center;
                 }}
                 .bubble {{
                     padding: 15px 20px;
                     border-radius: 20px;
-                    max-width: 80%;
-                    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+                    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
                     font-size: 18px;
                     line-height: 1.5;
                     opacity: 0;
-                    transition: opacity 0.3s ease-in-out;
+                    transition: opacity 0.3s ease;
+                    border: 1px solid rgba(255,255,255,0.8);
                 }}
-                .yanjun {{
-                    background-color: rgba(227, 242, 253, 0.85); /* 半透明藍 */
-                    color: #0d47a1;
-                    border-bottom-left-radius: 5px;
-                    align-self: flex-start;
-                }}
-                .xiaozhen {{
-                    background-color: rgba(255, 243, 224, 0.85); /* 半透明橘 */
-                    color: #e65100;
-                    border-bottom-right-radius: 5px;
-                    align-self: flex-end;
-                }}
-                .speaker-name {{ font-size: 14px; font-weight: bold; margin-bottom: 5px; opacity: 0.8; }}
+                .yanjun {{ background-color: rgba(227, 242, 253, 0.96); color: #0d47a1; }}
+                .xiaozhen {{ background-color: rgba(255, 243, 224, 0.96); color: #e65100; }}
+                .speaker-label {{ font-size: 13px; font-weight: bold; margin-bottom: 4px; opacity: 0.7; }}
             </style>
             </head>
             <body>
-                <div class="pdf-background">
-                    <img src="data:image/png;base64,{pdf_img_base64}" class="pdf-spacer">
+                <div class="container">
+                    <img src="data:image/png;base64,{pdf_b64}" class="spacer">
+                    
+                    <audio id="audioTrack"><source src="{audio_url}" type="audio/mpeg"></audio>
 
-                    <div class="interaction-overlay">
-                        <audio id="podcastAudio" controls>
-                            <source src="{audio_url}" type="audio/mpeg">
-                        </audio>
-
-                        <div class="bubble-container">
-                            <div id="bubbleContent" class="bubble yanjun">
-                                <div id="speakerName" class="speaker-name">👨‍🏫 準備中...</div>
-                                <div id="chatText">點擊播放鍵，衝刺劇本即將彈出！</div>
+                    <div class="overlay">
+                        <div class="bubble-box">
+                            <div id="bubble" class="bubble yanjun">
+                                <div id="speaker" class="speaker-label">👨‍🏫 彥君老師</div>
+                                <div id="text">點擊右下方按鈕開始衝刺！</div>
                             </div>
+                        </div>
+
+                        <div id="ctrlBtn" class="play-btn">
+                            <span id="icon">▶️</span>
+                            <span id="label">收聽快報</span>
                         </div>
                     </div>
                 </div>
 
                 <script>
-                    const audio = document.getElementById('podcastAudio');
-                    const bubbleContent = document.getElementById('bubbleContent');
-                    const speakerName = document.getElementById('speakerName');
-                    const chatText = document.getElementById('chatText');
+                    const audio = document.getElementById('audioTrack');
+                    const btn = document.getElementById('ctrlBtn');
+                    const icon = document.getElementById('icon');
+                    const label = document.getElementById('label');
+                    const bubble = document.getElementById('bubble');
+                    const speaker = document.getElementById('speaker');
+                    const text = document.getElementById('text');
                     
-                    // 接收 JSON 時間軸
-                    const scriptData = {script_data_str};
+                    const data = {script_json_data};
 
-                    audio.addEventListener('timeupdate', () => {{
+                    // 播放控制
+                    btn.onclick = () => {{
+                        if (audio.paused) {{
+                            audio.play();
+                            label.innerText = "播放中";
+                            icon.innerText = "⏸️";
+                        }} else {{
+                            audio.pause();
+                            label.innerText = "繼續收聽";
+                            icon.innerText = "▶️";
+                        }}
+                    }};
+
+                    // 時間軸同步
+                    audio.ontimeupdate = () => {{
                         const now = audio.currentTime;
-                        let isTalking = false;
-
-                        for (let i = 0; i < scriptData.length; i++) {{
-                            if (now >= scriptData[i].start && now <= scriptData[i].end) {{
-                                chatText.innerText = scriptData[i].text;
-                                
-                                if (scriptData[i].speaker === "彥君") {{
-                                    speakerName.innerText = "👨‍🏫 彥君老師";
-                                    bubbleContent.className = "bubble yanjun";
+                        let hit = false;
+                        for (let item of data) {{
+                            if (now >= item.start && now <= item.end) {{
+                                text.innerText = item.text;
+                                if (item.speaker === "彥君") {{
+                                    speaker.innerText = "👨‍🏫 彥君老師";
+                                    bubble.className = "bubble yanjun";
                                 }} else {{
-                                    speakerName.innerText = "👩‍🔬 曉臻助教";
-                                    bubbleContent.className = "bubble xiaozhen";
+                                    speaker.innerText = "👩‍🔬 曉臻助教";
+                                    bubble.className = "bubble xiaozhen";
                                 }}
-                                
-                                bubbleContent.style.opacity = 1;
-                                isTalking = true;
+                                bubble.style.opacity = 1;
+                                hit = true;
                                 break;
                             }}
                         }}
-
-                        if (!isTalking) {{
-                            bubbleContent.style.opacity = 0;
-                        }}
-                    }});
+                        if (!hit) bubble.style.opacity = 0;
+                    }};
                     
-                    // 顯示初始提示
-                    bubbleContent.style.opacity = 1;
+                    // 初始化顯示
+                    bubble.style.opacity = 1;
                 </script>
             </body>
             </html>
             """
-            
-            # 計算 HTML 元件的高度，這裡需要根據 PDF 的長寬比調整，先預設一個大高度
-            components.html(html_player, height=900)
+            # 設定一個較大的高度，確保 PDF 完整顯示
+            components.html(html_content, height=1000)
 
         except Exception as e:
-            st.error(f"⚠️ 字幕載入失敗，請檢查 {json_url}。(錯誤: {e})")
+            st.error(f"❌ 字幕同步檔載入失敗，請確認 GitHub 上的 JSON 是否正確。({e})")
     else:
-        st.error(f"講義圖檔載入失敗: {pdf_img_base64}")
+        st.error("❌ PDF 講義渲染失敗，請確認 notes.pdf 是否存在。")
+else:
+    st.error("❌ 無法讀取 Google Sheet 資料。")
