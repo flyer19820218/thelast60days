@@ -14,7 +14,8 @@ st.set_page_config(page_title="會考自然-旗艦教學版", layout="wide")
 
 st.markdown("""
     <style>
-    footer {visibility: hidden;}
+    /* 🌟 聽你的，把右上角選單、頂部標頭、底部浮水印全部隱藏！ */
+    #MainMenu, header, footer {visibility: hidden;}
     .stApp { background-color: #ffffff; }
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
@@ -59,7 +60,7 @@ if df is not None and not df.empty:
     
     current_group_idx = st.session_state.page_idx // group_size
 
-    # --- 頂部控制列 (拿掉進度條，重新分配比例) ---
+    # --- 頂部控制列 ---
     c_group, c_unit, c_prev, c_next = st.columns([1.5, 3.5, 0.5, 0.5])
     
     with c_group:
