@@ -4,7 +4,7 @@ import requests
 import time
 
 # --- 1. 頁面設定 (手機優先排版) ---
-st.set_page_config(page_title="自然科學的真理", layout="centered")
+st.set_page_config(page_title="考前60天衝次", layout="centered")
 
 # 自定義 CSS 美化
 st.markdown("""
