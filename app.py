@@ -20,9 +20,8 @@ st.markdown("""
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
-    /* 頂部控制面板樣式 */
+    /* 調整元件間距 */
     .stSelectbox, .stNumberInput { margin-bottom: 0px !important; }
-    div[data-testid="column"] { display: flex; align-items: center; justify-content: center; }
     </style>
     """, unsafe_allow_html=True)
 
@@ -59,16 +58,21 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
 df = load_data()
 
 if df is not None:
-    # 頂部選單 (只有兩格)
-    col1, col2 = st.columns([3, 1])
+    # --- 第一列：大標題 + 播放按鈕 ---
+    t_col1, t_col2 = st.columns([3, 1])
+    with t_col1:
+        st.markdown("<h2 style='margin:0; color:#1d4ed8;'>🚀 考前60天衝刺</h2>", unsafe_allow_html=True)
+    
+    # --- 第二列：進度選單 + 頁碼 ---
+    m_col1, m_col2 = st.columns([3, 1])
     unit_list = df['Day'].tolist()
-    with col1:
+    with m_col1:
         selected = st.selectbox("進度", unit_list, label_visibility="collapsed")
         row = df[df['Day'] == selected].iloc[0]
-    with col2:
+    with m_col2:
         target_page = st.number_input("頁碼", min_value=1, value=1, label_visibility="collapsed")
 
-    # 準備檔案
+    # 準備講義
     local_pdf_path = "notes.pdf"
     pdf_b64 = get_pdf_page_as_base64(local_pdf_path, target_page - 1)
 
@@ -82,60 +86,60 @@ if df is not None:
             res_json.raise_for_status()
             script_json_data = res_json.text
 
-            # --- 🔥 究極穩定版：PDF + 控制列 + 拉桿 + 字幕 全整合 🔥 ---
-            html_final = f"""
+            # --- 🔥 究極整合 HTML 🔥 ---
+            # 播放按鈕會浮動到上面 t_col2 的位置
+            full_html = f"""
             <!DOCTYPE html>
             <html>
             <head>
             <style>
                 body {{ font-family: 'PingFang TC', sans-serif; margin: 0; padding: 0; background: white; }}
-                .container {{ max-width: 800px; margin: 0 auto; }}
-                .pdf-view {{ width: 100%; border-radius: 8px; border: 1px solid #eee; overflow: hidden; }}
-                .pdf-img {{ width: 100%; display: block; }}
                 
-                /* 播放控制列 (緊接 PDF) */
-                .control-bar {{
-                    display: flex; align-items: center; gap: 15px; padding: 15px 0; border-bottom: 1px solid #eee;
+                /* 把按鈕強制定位到 Streamlit 的標題旁邊 */
+                .btn-anchor {{
+                    position: fixed; top: -110px; right: 0; width: 25%; z-index: 9999;
+                    display: flex; justify-content: flex-end;
                 }}
                 .play-btn {{
                     background: linear-gradient(135deg, #2b58db, #1d4ed8);
-                    color: white; padding: 10px 20px; border-radius: 50px;
+                    color: white; padding: 8px 15px; border-radius: 50px;
                     display: flex; align-items: center; gap: 8px;
-                    font-weight: bold; font-size: 16px; cursor: pointer;
+                    font-weight: bold; font-size: 15px; cursor: pointer;
                     box-shadow: 0 4px 10px rgba(29, 78, 216, 0.3); white-space: nowrap;
                 }}
-                input[type=range] {{ flex: 1; accent-color: #1d4ed8; cursor: pointer; }}
-                .time-box {{ font-size: 13px; color: #64748b; min-width: 80px; text-align: right; font-family: monospace; }}
 
-                /* 字幕區 */
-                .bubble-box {{
-                    background: #fff9f0; border: 2px dashed #fed7aa; border-radius: 15px;
-                    padding: 20px; min-height: 80px; margin-top: 15px;
-                    display: flex; flex-direction: column; justify-content: center; align-items: center;
-                }}
-                .text {{ font-size: 20px; color: #1e293b; text-align: center; opacity: 0; transition: opacity 0.2s; }}
-                .tag {{ font-weight: bold; font-size: 14px; color: #ea580c; margin-bottom: 5px; }}
+                .pdf-view {{ width: 100%; border-radius: 8px; border: 1px solid #eee; overflow: hidden; margin-top: 10px; }}
+                .pdf-img {{ width: 100%; display: block; }}
+                
+                .seek-container {{ width: 100%; padding: 10px 0; display: flex; align-items: center; gap: 10px; }}
+                input[type=range] {{ flex: 1; accent-color: #1d4ed8; cursor: pointer; }}
+                .time-box {{ font-size: 12px; color: #64748b; min-width: 80px; text-align: right; }}
+
+                .bubble-box {{ background: #fff9f0; border: 2px dashed #fed7aa; border-radius: 15px; padding: 15px; min-height: 60px; display: flex; flex-direction: column; justify-content: center; align-items: center; }}
+                .text {{ font-size: 19px; color: #1e293b; text-align: center; opacity: 0; transition: opacity 0.2s; }}
+                .tag {{ font-weight: bold; font-size: 13px; color: #ea580c; margin-bottom: 3px; }}
             </style>
             </head>
             <body>
-                <div class="container">
-                    <div class="pdf-view"><img src="data:image/png;base64,{pdf_b64}" class="pdf-img"></div>
-                    
-                    <audio id="audio" src="{audio_url}"></audio>
-
-                    <div class="control-bar">
-                        <div id="playBtn" class="play-btn">
-                            <span id="ico">▶️</span> <span id="lbl">收聽快報</span>
-                        </div>
-                        <input type="range" id="seek" value="0" step="0.1">
-                        <div class="time-box"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
+                <div class="btn-anchor">
+                    <div id="playBtn" class="play-btn">
+                        <span id="ico">▶️</span> <span id="lbl">開始衝刺</span>
                     </div>
+                </div>
 
-                    <div class="bubble-box">
-                        <div id="bubble" class="text">
-                            <div id="spk" class="tag"></div>
-                            <div id="msg"></div>
-                        </div>
+                <audio id="audio" src="{audio_url}"></audio>
+
+                <div class="pdf-view"><img src="data:image/png;base64,{pdf_b64}" class="pdf-img"></div>
+                
+                <div class="seek-container">
+                    <input type="range" id="seek" value="0" step="0.1">
+                    <div class="time-box"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
+                </div>
+
+                <div class="bubble-box">
+                    <div id="bubble" class="text">
+                        <div id="spk" class="tag"></div>
+                        <div id="msg"></div>
                     </div>
                 </div>
 
@@ -155,11 +159,11 @@ if df is not None:
                     btn.onclick = () => {{
                         if (audio.paused) {{
                             audio.play();
-                            document.getElementById('lbl').innerText = "正在播放";
+                            document.getElementById('lbl').innerText = "衝刺中";
                             document.getElementById('ico').innerText = "⏸️";
                         }} else {{
                             audio.pause();
-                            document.getElementById('lbl').innerText = "繼續收聽";
+                            document.getElementById('lbl').innerText = "繼續衝刺";
                             document.getElementById('ico').innerText = "▶️";
                         }}
                     }};
@@ -190,7 +194,7 @@ if df is not None:
             </body>
             </html>
             """
-            components.html(html_final, height=1200)
+            components.html(full_html, height=1200)
 
         except Exception as e:
             st.error(f"⚠️ 解析錯誤：{e}")
