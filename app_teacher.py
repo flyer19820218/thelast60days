@@ -7,7 +7,7 @@ import json
 import base64
 
 # ==========================================
-# 1. 頁面設定 (寬螢幕教學模式)
+# 1. 頁面設定 (旗艦白金版)
 # ==========================================
 st.set_page_config(page_title="會考自然-旗艦教學版", layout="wide")
 
@@ -16,12 +16,10 @@ st.markdown("""
     #MainMenu, footer, header {visibility: hidden;}
     .stApp { background-color: #f0f2f6; }
     
-    /* 強制字體 */
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
     
-    /* 頂部控制列 */
     .control-row {
         background: white;
         padding: 15px;
@@ -32,13 +30,12 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# 資料載入
 @st.cache_data(ttl=60)
 def load_data():
     SHEET_URL = "https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv"
     try:
         return pd.read_csv(SHEET_URL)
-    except:
+    except Exception as e:
         return None
 
 def get_pdf_page_as_base64(local_pdf_path, page_index):
@@ -66,12 +63,15 @@ if df is not None:
     selected_day = t1.selectbox("今日進度", unit_list, label_visibility="collapsed")
     row = df[df['Day'] == selected_day].iloc[0]
     
-    if 'page_num' not in st.session_state: st.session_state.page_num = 1
+    if 'page_num' not in st.session_state: 
+        st.session_state.page_num = 1
     
     with t2:
-        if st.button("⬅️ 上一頁"): st.session_state.page_num = max(1, st.session_state.page_num - 1)
+        if st.button("⬅️ 上一頁"): 
+            st.session_state.page_num = max(1, st.session_state.page_num - 1)
     with t3:
-        if st.button("下一頁 ➡️"): st.session_state.page_num += 1
+        if st.button("下一頁 ➡️"): 
+            st.session_state.page_num += 1
     with t4:
         st.info(f"📍 目前頁碼: {st.session_state.page_num}")
     st.markdown('</div>', unsafe_allow_html=True)
@@ -84,9 +84,13 @@ if df is not None:
 
     try:
         res_json = requests.get(json_url)
-        script_data = res_json.text if res_json.status_code == 200 else "[]"
+        # 這裡要正確處理 script_data
+        if res_json.status_code == 200:
+            script_data_str = res_json.text
+        else:
+            script_data_str = "[]"
 
-        # --- 🔥 旗艦白金版教學介面 🔥 ---
+        # --- 🔥 旗艦白金版教學介面 (修復 JavaScript 括號問題) 🔥 ---
         full_html = f"""
         <!DOCTYPE html>
         <html>
@@ -94,36 +98,22 @@ if df is not None:
         <style>
             body {{ font-family: sans-serif; margin: 0; padding: 0; background: #f0f2f6; overflow: hidden; }}
             .main-layout {{ display: flex; height: 85vh; gap: 20px; padding: 10px; }}
-            
-            /* 左側：大講義 */
             .left-panel {{ flex: 2.5; background: white; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); overflow: hidden; display: flex; align-items: center; justify-content: center; }}
             .pdf-img {{ max-height: 100%; max-width: 100%; object-fit: contain; }}
-
-            /* 右側：控制與字幕 */
             .right-panel {{ flex: 1; display: flex; flex-direction: column; gap: 20px; }}
-            
             .player-card {{ background: white; padding: 20px; border-radius: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }}
             .play-btn {{ background: #2b58db; color: white; border: none; padding: 15px; width: 100%; border-radius: 50px; font-weight: bold; font-size: 18px; cursor: pointer; }}
-            
-            .subtitle-card {{ 
-                background: white; flex-grow: 1; padding: 25px; border-radius: 20px; 
-                box-shadow: 0 4px 15px rgba(0,0,0,0.05); display: flex; flex-direction: column; 
-                justify-content: center; position: relative;
-            }}
+            .subtitle-card {{ background: white; flex-grow: 1; padding: 25px; border-radius: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: center; position: relative; }}
             .bubble {{ font-size: 26px; line-height: 1.6; text-align: center; opacity: 0; transition: all 0.3s; }}
             .name {{ font-size: 16px; font-weight: bold; margin-bottom: 10px; border-radius: 5px; padding: 5px 10px; display: inline-block; }}
             .yanjun-name {{ background: #e3f2fd; color: #0d47a1; }}
             .xiaozhen-name {{ background: #fef2f2; color: #991b1b; }}
-            
-            .seek-bar {{ width: 100%; margin-top: 15px; accent-color: #2b58db; }}
+            .seek-bar {{ width: 100%; margin-top: 15px; accent-color: #2b58db; cursor: pointer; }}
         </style>
         </head>
         <body>
             <div class="main-layout">
-                <div class="left-panel">
-                    <img src="data:image/png;base64,{pdf_b64}" class="pdf-img">
-                </div>
-                
+                <div class="left-panel"><img src="data:image/png;base64,{pdf_b64}" class="pdf-img"></div>
                 <div class="right-panel">
                     <div class="player-card">
                         <button id="pBtn" class="play-btn">▶️ 開始教學演示</button>
@@ -132,23 +122,20 @@ if df is not None:
                             <span id="cur">0:00</span><span id="dur">0:00</span>
                         </div>
                     </div>
-
                     <div class="subtitle-card">
                         <div id="spkBox" style="text-align:center;"></div>
                         <div id="msg" class="bubble">點擊播放鍵，同步字幕將在此呈現。</div>
                     </div>
                 </div>
             </div>
-
             <audio id="aud" src="{audio_url}"></audio>
-
             <script>
                 const aud = document.getElementById('aud');
                 const pBtn = document.getElementById('pBtn');
                 const sk = document.getElementById('sk');
                 const msg = document.getElementById('msg');
                 const spkBox = document.getElementById('spkBox');
-                const script = {script_data};
+                const script = {script_data_str};
 
                 pBtn.onclick = () => {{
                     if(aud.paused) {{ aud.play(); pBtn.innerText = "⏸️ 暫停演示"; }}
@@ -165,9 +152,12 @@ if df is not None:
                     document.getElementById('cur').innerText = fmt(t);
                     sk.value = t;
                     let hit = false;
-                    for(let s of script) {{
+                    for(let i=0; i<script.length; i++) {{
+                        const s = script[i];
                         if(t >= s.start && t <= s.end) {{
-                            spkBox.innerHTML = `<span class="${{s.speaker === '彥君' ? 'name yanjun-name' : 'name xiaozhen-name'}}">${{s.speaker === '彥君' ? '👨‍🏫 彥君老師' : '👩‍🔬 曉臻助教'}}</span>`;
+                            const nameClass = s.speaker === '彥君' ? 'yanjun-name' : 'xiaozhen-name';
+                            const nameText = s.speaker === '彥君' ? '👨‍🏫 彥君老師' : '👩‍🔬 曉臻助教';
+                            spkBox.innerHTML = '<span class="name ' + nameClass + '">' + nameText + '</span>';
                             msg.innerText = s.text;
                             msg.style.opacity = 1;
                             hit = true; break;
@@ -175,7 +165,6 @@ if df is not None:
                     }}
                     if(!hit) msg.style.opacity = 0;
                 }};
-
                 sk.oninput = () => aud.currentTime = sk.value;
                 function fmt(s) {{ return Math.floor(s/60) + ":" + String(Math.floor(s%60)).padStart(2,'0'); }}
             </script>
@@ -183,3 +172,8 @@ if df is not None:
         </html>
         """
         components.html(full_html, height=850)
+        
+    except Exception as e:
+        st.error(f"⚠️ 資料解析出錯: {e}")
+else:
+    st.error("❌ Google Sheet 資料載入失敗，請檢查連線。")
