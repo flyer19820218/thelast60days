@@ -18,13 +18,13 @@ st.markdown("""
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
-    /* 🌟 精準定位修正版 */
+    /* 🌟 滿分微調：像素級定位 */
     .stSelectbox {
-        margin-bottom: -74px !important; 
+        margin-bottom: -76px !important; 
         position: relative;
         z-index: 101;
-        width: 22% !important; /* 寬度稍微縮減更精緻 */
-        margin-left: 300px !important; /* 往右移一點，避開長標題 */
+        width: 22% !important;
+        margin-left: 280px !important; 
     }
     .stSelectbox label { display: none !important; } 
 </style>
