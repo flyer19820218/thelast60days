@@ -11,7 +11,7 @@ st.set_page_config(page_title="國中自然60天逆襲", layout="centered")
 st.markdown("""
     <style>
     .main { background-color: #f9f9f9; }
-    /* 強制全局字體，讓所有元件都套用漂亮的字體 */
+    /* 強制全局字體 */
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
@@ -53,54 +53,7 @@ def get_pdf_page_image(local_pdf_path, page_index):
         return str(e)
 
 # ==========================================
-# 4. 聰明劇本解析器 (解決 nonlocal 錯誤)
-# ==========================================
-def generate_chat_html(lines):
-    html = '<div style="height:500px; overflow-y:auto; padding:15px; background-color:#f9f9f9; border-radius:10px; border:1px solid #ddd; margin-bottom:20px;">'
-    current_speaker = "system"
-    buffer = []
-
-    def flush():
-        nonlocal html, current_speaker, buffer
-        if not buffer: return
-        text_content = "<br>".join(buffer)
-        
-        if current_speaker == "彥君":
-            html += f'<div style="margin-bottom:15px; text-align:left;"><div style="display:inline-block; max-width:85%; background-color:#e3f2fd; padding:12px 18px; border-radius:15px 15px 15px 0; box-shadow:1px 1px 3px rgba(0,0,0,0.1);"><b style="color:#1565c0;">👨‍🏫 彥君老師</b><br><span style="font-size:1.1em; line-height:1.6; color:#000;">{text_content}</span></div></div>'
-        elif current_speaker == "曉臻":
-            html += f'<div style="margin-bottom:15px; display:flex; justify-content:flex-end;"><div style="display:inline-block; max-width:85%; background-color:#ffe0b2; padding:12px 18px; border-radius:15px 15px 0 15px; box-shadow:1px 1px 3px rgba(0,0,0,0.1); text-align:left;"><b style="color:#e65100;">👩‍🔬 曉臻助教</b><br><span style="font-size:1.1em; line-height:1.6; color:#000;">{text_content}</span></div></div>'
-        else:
-            html += f'<div style="text-align:center; color:#888; font-size:0.9em; margin:10px 0;">{text_content}</div>'
-        buffer.clear()
-
-    for line in lines:
-        line = line.strip()
-        if not line: continue
-        
-        # 判斷是不是名字 (截圖中上下換行的寫法)
-        if ("彥君老師" in line or "彥君" in line) and len(line) <= 15 and "：" not in line:
-            flush()
-            current_speaker = "彥君"
-        elif ("曉臻助教" in line or "曉臻" in line) and len(line) <= 15 and "：" not in line:
-            flush()
-            current_speaker = "曉臻"
-        # 判斷是不是傳統寫法 (彥君老師：內容)
-        elif "：" in line and ("彥君" in line or "曉臻" in line) and len(line.split("：")[0]) <= 15:
-            flush()
-            speaker, content = line.split("：", 1)
-            current_speaker = "彥君" if "彥君" in speaker else "曉臻"
-            buffer.append(content)
-            flush()
-            current_speaker = "system"
-        else:
-            buffer.append(line)
-            
-    flush()
-    html += '</div>'
-    return html
-
-# ==========================================
-# 5. 學生前台主介面
+# 4. 學生前台主介面
 # ==========================================
 st.title("🎧 自然科學真理 PODCAST")
 st.caption("免登入、免 API，直接開啟衝刺模式！")
@@ -139,7 +92,7 @@ if df is not None:
         else:
             st.error(f"⚠️ 讀取失敗。系統回報：{result}")
 
-    # --- 💡 終極聰明對話框 ---
+    # --- 💡 原生超穩定對話框 ---
     st.divider()
     st.subheader("💬 衝刺劇本 (對話字幕)")
     
@@ -152,11 +105,57 @@ if df is not None:
         res.encoding = 'utf-8'
         lines = res.text.split('\n')
         
-        # 呼叫我們寫好的強力產生器
-        chat_html = generate_chat_html(lines)
-        st.markdown(chat_html, unsafe_allow_html=True)
+        # 1. 解析腳本
+        chat_data = []
+        current_speaker = "system"
+        buffer = []
+        
+        def flush_buffer():
+            if buffer:
+                # 把陣列裡的字串組合起來，用 Markdown 的換行格式
+                chat_data.append({"role": current_speaker, "content": "  \n".join(buffer)})
+                buffer.clear()
+                
+        for line in lines:
+            line = line.strip()
+            if not line: continue
+            
+            # 略過單純介紹角色的那行
+            if "角色" in line and "彥君" in line:
+                buffer.append(line)
+                continue
+
+            # 抓取說話者 (相容你有加 Emoji 的寫法)
+            if "彥君" in line and len(line) <= 20 and "：" not in line:
+                flush_buffer()
+                current_speaker = "彥君"
+            elif "曉臻" in line and len(line) <= 20 and "：" not in line:
+                flush_buffer()
+                current_speaker = "曉臻"
+            elif "：" in line and ("彥君" in line.split("：")[0] or "曉臻" in line.split("：")[0]):
+                flush_buffer()
+                speaker, content = line.split("：", 1)
+                current_speaker = "彥君" if "彥君" in speaker else "曉臻"
+                buffer.append(content)
+                flush_buffer()
+                current_speaker = "system"
+            else:
+                buffer.append(line)
+        flush_buffer()
+        
+        # 2. 原生渲染 (保證出現，而且自帶滾動條)
+        with st.container(height=500):
+            for msg in chat_data:
+                if msg["role"] == "彥君":
+                    with st.chat_message("user", avatar="👨‍🏫"):
+                        st.markdown(f"**彥君老師** \n{msg['content']}")
+                elif msg["role"] == "曉臻":
+                    with st.chat_message("assistant", avatar="👩‍🔬"):
+                        st.markdown(f"**曉臻助教** \n{msg['content']}")
+                else:
+                    st.markdown(f"<div style='text-align:center; color:#888; font-size:0.9em; margin:10px 0;'>{msg['content']}</div>", unsafe_allow_html=True)
             
     except Exception as e:
-        st.error(f"劇本載入失敗。請檢查 {script_url} 是否存在。")
+        st.error(f"劇本載入失敗。系統回報：{e}")
 else:
     st.error("資料庫連線中...請稍後再試。")
