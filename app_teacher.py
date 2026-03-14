@@ -9,7 +9,7 @@ import time
 # ==========================================
 # 1. 頁面設定
 # ==========================================
-st.set_page_config(page_title="會考自然-旗艦教學戰車", layout="wide")
+st.set_page_config(page_title="會考自然-考前60天衝刺", layout="wide")
 
 st.markdown("""
 <style>
@@ -18,15 +18,15 @@ st.markdown("""
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
-    /* 🌟 魔術補丁：讓選擇框看起來像導航列的一部分 */
+    /* 🌟 精準定位：讓選擇框完美嵌入導航列 */
     .stSelectbox {
-        margin-bottom: -70px !important; 
+        margin-bottom: -72px !important; 
         position: relative;
         z-index: 101;
-        width: 30% !important;
-        margin-left: 150px !important;
+        width: 25% !important;
+        margin-left: 240px !important; /* 配合標題長度調整位置 */
     }
-    .stSelectbox label { display: none !important; } /* 隱藏標籤 */
+    .stSelectbox label { display: none !important; } 
 </style>
 """, unsafe_allow_html=True)
 
@@ -57,7 +57,6 @@ if df is not None:
     if 'page_idx' not in st.session_state:
         st.session_state.page_idx = 0
 
-    # 1. 抓取資料
     try:
         row = df.iloc[st.session_state.page_idx]
         audio_file = str(row['Audio_Path']).strip().lstrip('/')
@@ -68,40 +67,33 @@ if df is not None:
         res_json = requests.get(json_url)
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
-        # 2. Python 選擇器 (透過 CSS 定位到導航列中間)
+        # --- 🌟 Python 選擇器 ---
         page_labels = [f"第 {i+1} 頁" for i in range(len(df))]
         selected_label = st.selectbox("", page_labels, index=st.session_state.page_idx)
         
-        new_idx = page_labels.index(selected_label)
-        if new_idx != st.session_state.page_idx:
-            st.session_state.page_idx = new_idx
+        if page_labels.index(selected_label) != st.session_state.page_idx:
+            st.session_state.page_idx = page_labels.index(selected_label)
             st.rerun()
 
-        # 3. HTML 導航列與內容
+        # --- 🎨 HTML 導航列與內容 ---
         full_html = f"""
         <!DOCTYPE html>
         <html>
         <head>
         <style>
             body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; }}
-            
             .nav-bar {{ 
                 display: flex; align-items: center; justify-content: space-between; 
                 padding: 10px 30px; background: #f8fafc; border-bottom: 4px solid #1e40af;
-                height: 80px; box-sizing: border-box;
+                height: 85px; box-sizing: border-box;
             }}
-            
-            .nav-left {{ display: flex; align-items: center; gap: 10px; }}
-            .nav-title {{ color: #1e40af; font-size: 26px; font-weight: 900; white-space: nowrap; }}
-            
-            /* 預留空間給 Python Selectbox */
-            .spacer {{ width: 32%; }} 
-
+            .nav-left {{ display: flex; align-items: center; }}
+            .nav-title {{ color: #1e40af; font-size: 32px; font-weight: 900; white-space: nowrap; }}
+            .spacer {{ width: 28%; }} 
             .play-btn {{ 
                 background: #1e40af; color: white; padding: 10px 30px; border-radius: 50px; 
                 border: none; font-size: 22px; font-weight: bold; cursor: pointer;
             }}
-
             .pdf-view {{ width: 100%; }}
             .pdf-img {{ width: 100%; display: block; }}
             .seek-panel {{ width: 100%; background: #f1f5f9; padding: 20px 30px; display: flex; align-items: center; gap: 20px; box-sizing: border-box; }}
@@ -116,11 +108,11 @@ if df is not None:
         <body>
             <div class="nav-bar">
                 <div class="nav-left">
-                    <span class="nav-title">🚀 教學模式</span>
+                    <span class="nav-title">🚀 考前60天衝刺</span>
                 </div>
-                <div class="spacer"></div> <button id="pBtn" class="play-btn">▶️ 開始講解</button>
+                <div class="spacer"></div>
+                <button id="pBtn" class="play-btn">▶️ 開始講解</button>
             </div>
-
             <audio id="aud" src="{audio_url}" preload="auto"></audio>
             <div class="pdf-view"><img src="data:image/png;base64,{pdf_b64}" class="pdf-img"></div>
             <div class="seek-panel">
@@ -130,14 +122,12 @@ if df is not None:
             <div class="subtitle-stage">
                 <div id="bb" class="bubble yj"></div>
             </div>
-
             <script>
                 const aud = document.getElementById('aud');
                 const pBtn = document.getElementById('pBtn');
                 const sk = document.getElementById('sk');
                 const bb = document.getElementById('bb');
                 const script = {script_data};
-
                 pBtn.onclick = () => {{
                     if(aud.paused) {{ aud.play(); pBtn.innerText = "⏸️ 暫停"; }}
                     else {{ aud.pause(); pBtn.innerText = "▶️ 繼續"; }}
@@ -167,7 +157,6 @@ if df is not None:
         </body>
         </html>
         """
-
         components.html(full_html, height=2200, scrolling=True)
 
     except Exception as e:
