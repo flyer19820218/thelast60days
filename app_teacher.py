@@ -8,11 +8,11 @@ import time
 import math
 
 # ==========================================
-# 1. 基礎設定與快取
+# 1. 頁面設定與隱藏介面
 # ==========================================
 st.set_page_config(page_title="會考自然-旗艦教學版", layout="wide")
 
-# 隱藏預設介面
+# 🌟 隱藏 Streamlit 預設介面，並設定自訂字體
 st.markdown("""
     <style>
     #MainMenu, header, footer {visibility: hidden;}
@@ -23,6 +23,9 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
+# ==========================================
+# 2. 資料與 PDF 處理快取
+# ==========================================
 @st.cache_data(ttl=3600)
 def load_data_fresh():
     SHEET_URL = "https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv"
@@ -35,7 +38,8 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
     try:
         doc = fitz.open(local_pdf_path)
         page = doc.load_page(page_index)
-        pix = page.get_pixmap(matrix=fitz.Matrix(3.0, 3.0)) 
+        # 🌟 修正點：將 Matrix(3.0, 3.0) 降為 (2.0, 2.0)，避免 PDF 過大超過螢幕
+        pix = page.get_pixmap(matrix=fitz.Matrix(2.0, 2.0)) 
         img_data = pix.tobytes("png")
         doc.close()
         return base64.b64encode(img_data).decode('utf-8')
@@ -43,7 +47,7 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
         return ""
 
 # ==========================================
-# 2. 資料讀取
+# 3. 佈局實作
 # ==========================================
 df = load_data_fresh()
 
@@ -52,9 +56,12 @@ if df is not None and not df.empty:
         st.session_state.page_idx = 0
 
     total_items = len(df)
+    
+    # 每 10 個分一組
     group_size = 10
     num_groups = math.ceil(total_items / group_size)
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
+    
     current_group_idx = st.session_state.page_idx // group_size
 
     # --- 頂部控制列 ---
@@ -77,7 +84,7 @@ if df is not None and not df.empty:
         new_local_idx = unit_list.index(selected_day)
         if new_local_idx != local_idx:
             st.session_state.page_idx = start_idx + new_local_idx
-            st.rerun()
+            st.rerun()Subtitles
             
     with c_speed:
         speed_options = {"正常 1.0x": 1.0, "微快 1.25x": 1.25, "衝刺 1.5x": 1.5, "超光速 2.0x": 2.0}
@@ -94,9 +101,10 @@ if df is not None and not df.empty:
             st.rerun()
 
     # ==========================================
-    # 3. 核心畫面處理
+    # 4. 核心畫面處理與字幕樣式
     # ==========================================
     row = df.iloc[st.session_state.page_idx]
+    
     try:
         pdf_page_idx = int(str(row['頁碼']).strip()) - 1
         if pdf_page_idx < 0: pdf_page_idx = 0
@@ -111,7 +119,7 @@ if df is not None and not df.empty:
     res_json = requests.get(json_url)
     script_data = res_json.text if res_json.status_code == 200 else "[]"
 
-    # 🌟 注入 YouTuber 字幕樣式
+    # 🌟 注入融合了 YouTuber 與對話泡泡感的樣式
     st.markdown("""
         <style>
         .header-bar { position: fixed; top: 0; width: 100%; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; background: rgba(255,255,255,0.9); box-shadow: 0 2px 10px rgba(0,0,0,0.3); }
@@ -122,8 +130,10 @@ if df is not None and not df.empty:
         .bottom-console { position: fixed; bottom: 0; width: 100%; background: rgba(0, 0, 0, 0.9); color: white; padding: 15px 0; z-index: 100; display: flex; flex-direction: column; align-items: center; min-height: 120px; }
         .seek-panel { width: 90%; display: flex; align-items: center; gap: 15px; margin-bottom: 10px; }
         input[type=range] { flex: 1; accent-color: #ff0000; cursor: pointer; }
+        /* YouTuber 質感字幕，文字加粗並帶陰影 */
         .subtitle-text { font-size: 32px; font-weight: bold; text-align: center; min-height: 50px; text-shadow: 2px 2px 4px rgba(0,0,0,1); padding: 0 20px; line-height: 1.4; }
         .speaker-label { font-size: 18px; color: #ffff00; margin-bottom: 5px; font-weight: bold; }
+        /* 關鍵字亮黃色 (腳本內有 『』 時 JS 會處理) */
         .highlight { color: #ffff00; }
         </style>
         """, unsafe_allow_html=True)
@@ -134,8 +144,8 @@ if df is not None and not df.empty:
     <html>
     <body>
         <div class="header-bar">
-            <div class="title">🎬 考前60天：@TITLE@</div>
-            <button id="pBtn" class="play-btn">▶️ 播放影片</button>
+            <div class="title">🎬 考前60天衝刺：@TITLE@</div>
+            <button id="pBtn" class="play-btn">▶️ 立刻收聽</button>
         </div>
         <audio id="aud" src="@AUDIO_URL@" preload="auto"></audio>
         <div class="pdf-container">
@@ -173,6 +183,7 @@ if df is not None and not df.empty:
                 for(let s of script) {
                     if(t >= s.start && t <= s.end) {
                         spk.innerText = (s.speaker === '彥君' ? '👨‍🏫 彥君老師' : '👩‍🔬 曉臻助教');
+                        // 將腳本中的 『 』 轉換為亮黃色 span
                         let processedText = s.text.replace(/『/g, '<span class="highlight">').replace(/』/g, '</span>');
                         msg.innerHTML = processedText;
                         hit = true; break;
@@ -187,6 +198,7 @@ if df is not None and not df.empty:
     </html>
     """
     
+    # 🌟 執行最終替換 (戰士這招最穩！)
     full_html = html_template.replace("@TITLE@", row['Title']) \
                              .replace("@AUDIO_URL@", audio_url) \
                              .replace("@PDF_B64@", pdf_b64) \
