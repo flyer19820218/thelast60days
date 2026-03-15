@@ -1,5 +1,5 @@
 # ==========================================
-# 調整後的 HTML/CSS (YouTuber 置底字幕版)
+# 修正後的 HTML/CSS (解決 NameError)
 # ==========================================
 
 full_html = f"""
@@ -11,10 +11,9 @@ full_html = f"""
         font-family: 'Microsoft JhengHei', sans-serif; 
         margin: 0; 
         padding: 0; 
-        background: #1a1a1a; /* 深色背景更有電影感 */
+        background: #1a1a1a; 
         overflow-x: hidden;
     }}
-    /* 頂部導覽列 */
     .header-bar {{ 
         position: fixed; top: 0; width: 100%; z-index: 100;
         display: flex; align-items: center; justify-content: space-between; 
@@ -26,48 +25,42 @@ full_html = f"""
         background: #ff0000; color: white; padding: 8px 20px; 
         border-radius: 5px; font-weight: bold; cursor: pointer; border: none; 
     }}
-
-    /* PDF 主視區 */
     .pdf-container {{ 
         margin-top: 60px; 
-        margin-bottom: 120px; /* 預留給置底字幕的空間 */
+        margin-bottom: 150px; 
         width: 100%; 
     }}
     .pdf-img {{ width: 100%; display: block; }}
-
-    /* 置底控制與字幕區 */
     .bottom-console {{
         position: fixed; bottom: 0; width: 100%; 
-        background: rgba(0, 0, 0, 0.85); /* 半透明黑 */
+        background: rgba(0, 0, 0, 0.85); 
         color: white; padding: 15px 0; z-index: 100;
         display: flex; flex-direction: column; align-items: center;
+        min-height: 120px;
     }}
     .seek-panel {{ 
         width: 90%; display: flex; align-items: center; gap: 15px; margin-bottom: 10px;
     }}
     input[type=range] {{ flex: 1; accent-color: #ff0000; cursor: pointer; }}
-
-    /* YouTube 標誌性字幕 */
     .subtitle-text {{
-        font-size: 28px; /* 學校電視建議大字 */
+        font-size: 32px; 
         font-weight: bold;
         text-align: center;
-        min-height: 40px;
+        min-height: 50px;
         text-shadow: 2px 2px 4px rgba(0,0,0,1);
         padding: 0 20px;
         line-height: 1.4;
     }}
     .speaker-label {{
-        font-size: 16px; color: #aaaaaa; margin-bottom: 5px;
+        font-size: 18px; color: #ffff00; margin-bottom: 5px; font-weight: bold;
     }}
-    /* 關鍵字亮黃色 (腳本內有 『』 時 JS 會處理) */
     .highlight {{ color: #ffff00; }} 
 </style>
 </head>
 <body>
     <div class="header-bar">
         <div class="title">🎬 考前60天衝刺：{row['Title']}</div>
-        <button id="pBtn" class="play-btn">▶️立刻收聽</button>
+        <button id="pBtn" class="play-btn">▶️ 播放影片</button>
     </div>
 
     <audio id="aud" src="{audio_url}" preload="auto"></audio>
@@ -79,10 +72,10 @@ full_html = f"""
     <div class="bottom-console">
         <div class="seek-panel">
             <input type="range" id="sk" value="0" step="0.1">
-            <div style="font-size:12px;"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
+            <div style="font-size:14px;"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
         </div>
         <div id="spk" class="speaker-label"></div>
-        <div id="msg" class="subtitle-text">準備開始...</div>
+        <div id="msg" class="subtitle-text"></div>
     </div>
 
     <script>
@@ -112,8 +105,7 @@ full_html = f"""
             let hit = false;
             for(let s of script) {{
                 if(t >= s.start && t <= s.end) {{
-                    spk.innerText = (s.speaker === '彥君' ? '【 彥君老師 】' : '【 曉臻助教 】');
-                    // 將腳本中的 『 』 轉換為亮黃色 span
+                    spk.innerText = (s.speaker === '彥君' ? '👨‍🏫 彥君老師' : '👩‍🔬 曉臻助教');
                     let processedText = s.text.replace(/『/g, '<span class="highlight">').replace(/』/g, '</span>');
                     msg.innerHTML = processedText;
                     hit = true; break;
