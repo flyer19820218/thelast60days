@@ -67,7 +67,7 @@ full_html = f"""
 <body>
     <div class="header-bar">
         <div class="title">🎬 考前60天衝刺：{row['Title']}</div>
-        <button id="pBtn" class="play-btn">▶️ 播放影片</button>
+        <button id="pBtn" class="play-btn">▶️立刻收聽</button>
     </div>
 
     <audio id="aud" src="{audio_url}" preload="auto"></audio>
