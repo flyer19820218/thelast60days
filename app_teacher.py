@@ -24,6 +24,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
+@st.cache_data(ttl=3600)
 def load_data_fresh():
     SHEET_URL = "https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv"
     try:
@@ -35,7 +36,7 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
     try:
         doc = fitz.open(local_pdf_path)
         page = doc.load_page(page_index)
-        # 🌟 唯一微調：將 3.0 降為 1.5，確保平板不會爆框
+        # 🌟 微調至 1.5，確保平板不會爆框
         pix = page.get_pixmap(matrix=fitz.Matrix(1.5, 1.5)) 
         img_data = pix.tobytes("png")
         doc.close()
@@ -121,7 +122,7 @@ if df is not None and not df.empty:
         res_json = requests.get(json_url)
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
-        # 🌟 這裡只改 HTML/CSS，把泡泡往上拉進圖片裡
+        # 🌟 結合浮動泡泡與全螢幕按鈕的 HTML
         full_html = f"""
         <!DOCTYPE html>
         <html>
@@ -130,7 +131,12 @@ if df is not None and not df.empty:
             body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; }}
             .header-bar {{ display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; border-bottom: 1px solid #f0f0f0; }}
             .title {{ color: #1d4ed8; font-size: 34px; font-weight: bold; margin: 0; }}
+            
+            /* 🌟 按鈕群組 */
+            .btn-group {{ display: flex; gap: 10px; }}
             .play-btn {{ background: linear-gradient(135deg, #2b58db, #1d4ed8); color: white; padding: 10px 25px; border-radius: 50px; font-weight: bold; font-size: 18px; cursor: pointer; border: none; }}
+            .fs-btn {{ background: #475569; color: white; padding: 10px 20px; border-radius: 50px; font-weight: bold; font-size: 18px; cursor: pointer; border: none; transition: 0.3s; }}
+            .fs-btn:hover {{ background: #334155; }}
             
             /* 🌟 讓 PDF 容器變成定位基準 */
             .pdf-view {{ position: relative; width: 100%; }}
@@ -172,7 +178,10 @@ if df is not None and not df.empty:
         <body>
             <div class="header-bar">
                 <div class="title">🚀 考前60天衝刺</div>
-                <button id="pBtn" class="play-btn">▶️立刻收聽</button>
+                <div class="btn-group">
+                    <button id="fsBtn" class="fs-btn">🔲 全螢幕</button>
+                    <button id="pBtn" class="play-btn">▶️立刻收聽</button>
+                </div>
             </div>
             <audio id="aud" src="{audio_url}" preload="auto"></audio>
             
@@ -191,6 +200,7 @@ if df is not None and not df.empty:
             <script>
                 const aud = document.getElementById('aud');
                 const pBtn = document.getElementById('pBtn');
+                const fsBtn = document.getElementById('fsBtn'); // 🌟 全螢幕按鈕綁定
                 const sk = document.getElementById('sk');
                 const bubble = document.getElementById('bubble');
                 const spk = document.getElementById('spk');
@@ -203,6 +213,20 @@ if df is not None and not df.empty:
                     if(aud.paused) {{ aud.play(); pBtn.innerText = "⏸️ 暫停"; }}
                     else {{ aud.pause(); pBtn.innerText = "▶️ 繼續"; }}
                 }};
+
+                // 🌟 全螢幕觸發邏輯
+                fsBtn.onclick = () => {{
+                    if (!document.fullscreenElement) {{
+                        document.documentElement.requestFullscreen().catch(err => {{
+                            console.log(`Error: ${{err.message}}`);
+                        }});
+                        fsBtn.innerText = "✖️ 退出螢幕";
+                    }} else {{
+                        document.exitFullscreen();
+                        fsBtn.innerText = "🔲 全螢幕";
+                    }}
+                }};
+
                 aud.onloadedmetadata = () => {{
                     document.getElementById('dur').innerText = fmt(aud.duration);
                     sk.max = aud.duration;
@@ -231,7 +255,6 @@ if df is not None and not df.empty:
         """
         
         with main_container:
-            # 🌟 因為泡泡浮在圖片上，不再佔用底部空間，高度可以縮減
             components.html(full_html, height=1400, scrolling=True)
 
     except Exception as e:
