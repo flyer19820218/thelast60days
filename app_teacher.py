@@ -14,13 +14,12 @@ st.set_page_config(page_title="會考自然-旗艦教學版", layout="wide")
 
 st.markdown("""
     <style>
-    /* 🌟 隱藏 Streamlit 預設介面 */
+    /* 🌟 徹底隱藏 Streamlit 多餘元素 */
     #MainMenu, header, footer {visibility: hidden;}
     .stApp { background-color: #ffffff; }
-    html, body, p, span, div, b {
-        font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
-    }
-    .block-container { padding: 0rem !important; }
+    /* 🌟 緊湊控制列，不佔空間 */
+    .block-container { padding: 0.5rem !important; }
+    iframe { border: none !important; }
     </style>
     """, unsafe_allow_html=True)
 
@@ -36,8 +35,8 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
     try:
         doc = fitz.open(local_pdf_path)
         page = doc.load_page(page_index)
-        # 🌟 平板投影建議使用 1.5 倍率，平衡清晰度與螢幕適配
-        pix = page.get_pixmap(matrix=fitz.Matrix(1.5, 1.5)) 
+        # 🌟 微調至 1.1，避免圖片過寬撐開平板視窗
+        pix = page.get_pixmap(matrix=fitz.Matrix(1.1, 1.1)) 
         img_data = pix.tobytes("png")
         doc.close()
         return base64.b64encode(img_data).decode('utf-8')
@@ -56,8 +55,8 @@ if df is not None and not df.empty:
     total_items = len(df)
     row = df.iloc[st.session_state.page_idx]
 
-    # --- 頂部控制列 ---
-    c_group, c_unit, c_speed, c_prev, c_next = st.columns([1.5, 3.5, 1.0, 0.5, 0.5])
+    # --- 頂部控制列 (精簡化) ---
+    c_unit, c_speed, c_prev, c_next = st.columns([5.0, 1.0, 0.5, 0.5])
     
     with c_unit:
         unit_list = df['Title'].tolist()
@@ -68,8 +67,8 @@ if df is not None and not df.empty:
             st.rerun()
             
     with c_speed:
-        speed_options = {"正常 1.0x": 1.0, "微快 1.25x": 1.25, "衝刺 1.5x": 1.5, "超光速 2.0x": 2.0}
-        selected_speed_label = st.selectbox("語速", list(speed_options.keys()), index=0, label_visibility="collapsed")
+        speed_options = {"1.0x": 1.0, "1.25x": 1.25, "1.5x": 1.5, "2.0x": 2.0}
+        selected_speed_label = st.selectbox("速", list(speed_options.keys()), index=0, label_visibility="collapsed")
         play_speed = speed_options[selected_speed_label]
     
     with c_prev:
@@ -81,7 +80,7 @@ if df is not None and not df.empty:
             st.session_state.page_idx = min(total_items - 1, st.session_state.page_idx + 1)
             st.rerun()
 
-    # 資料準備
+    # 資料處理
     try:
         pdf_page_idx = int(str(row['頁碼']).strip()) - 1
         if pdf_page_idx < 0: pdf_page_idx = 0
@@ -96,39 +95,31 @@ if df is not None and not df.empty:
     res_json = requests.get(json_url)
     script_data = res_json.text if res_json.status_code == 200 else "[]"
 
-    # ==========================================
-    # 3. HTML/JS 模板 (泡泡浮貼版)
-    # ==========================================
-    full_html = f"""
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <style>
-        body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; }}
-        .header-bar {{ display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; border-bottom: 1px solid #f0f0f0; background: white; }}
-        .title {{ color: #1d4ed8; font-size: 28px; font-weight: bold; margin: 0; }}
-        .play-btn {{ background: linear-gradient(135deg, #2b58db, #1d4ed8); color: white; padding: 10px 25px; border-radius: 50px; font-weight: bold; font-size: 18px; cursor: pointer; border: none; }}
+    # 🌟 注入 CSS (優化平板投影比例)
+    st.markdown("""
+        <style>
+        .header-bar { position: absolute; top: 10px; right: 20px; z-index: 100; }
+        .play-btn { background: linear-gradient(135deg, #2b58db, #1d4ed8); color: white; padding: 10px 20px; border-radius: 50px; font-weight: bold; font-size: 16px; border: none; cursor: pointer; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
         
-        /* 🌟 PDF 視區設定為相對定位 */
-        .pdf-view {{ position: relative; width: 100%; }}
-        .pdf-img {{ width: 100%; display: block; }}
+        /* 🌟 PDF 容器：設定為相對定位，並確保寬度不爆框 */
+        .pdf-view { position: relative; width: 100%; text-align: center; background: white; }
+        .pdf-img { width: 100%; max-width: 100%; height: auto; display: block; }
         
-        .seek-panel {{ width: 100%; background: #fdfdfd; padding: 10px 20px; display: flex; align-items: center; gap: 15px; box-sizing: border-box; border-bottom: 1px solid #eee; }}
-        input[type=range] {{ flex: 1; accent-color: #1d4ed8; cursor: pointer; height: 10px; }}
-        .time-box {{ font-size: 14px; color: #64748b; min-width: 95px; text-align: right; }}
+        .seek-panel { width: 100%; background: #fdfdfd; padding: 10px 20px; display: flex; align-items: center; gap: 15px; box-sizing: border-box; border-top: 1px solid #eee; }
+        input[type=range] { flex: 1; accent-color: #1d4ed8; cursor: pointer; }
 
-        /* 🌟 字幕舞台：浮貼在圖片底部 */
-        .subtitle-stage {{ 
+        /* 🌟 字幕舞台：浮貼在圖片底部 10% */
+        .subtitle-stage { 
             position: absolute; 
-            bottom: 30px; 
+            bottom: 40px; 
             width: 100%; 
             display: flex; 
             flex-direction: column; 
             padding: 0 40px; 
             box-sizing: border-box; 
             z-index: 10;
-        }}
-        .bubble {{ 
+        }
+        .bubble { 
             max-width: 85%; 
             padding: 15px 25px; 
             border-radius: 20px; 
@@ -138,19 +129,24 @@ if df is not None and not df.empty:
             opacity: 0; 
             transition: all 0.3s ease; 
             backdrop-filter: blur(8px);
-        }}
-        .yanjun {{ align-self: flex-start; background-color: rgba(227, 242, 253, 0.9); color: #0d47a1; border: 2px solid #bbdefb; border-bottom-left-radius: 2px; }}
-        .xiaozhen {{ align-self: flex-end; background-color: rgba(254, 242, 242, 0.9); color: #991b1b; border: 2px solid #fecaca; border-bottom-right-radius: 2px; }}
-        .name {{ font-size: 16px; font-weight: bold; margin-bottom: 5px; }}
+        }
+        .yanjun { align-self: flex-start; background-color: rgba(227, 242, 253, 0.9); color: #0d47a1; border: 2px solid #bbdefb; border-bottom-left-radius: 2px; }
+        .xiaozhen { align-self: flex-end; background-color: rgba(254, 242, 242, 0.9); color: #991b1b; border: 2px solid #fecaca; border-bottom-right-radius: 2px; }
+        .name { font-size: 16px; font-weight: bold; margin-bottom: 5px; }
     </style>
-    </head>
-    <body>
-        <div class="header-bar">
-            <div class="title">🚀 考前60天衝刺</div>
-            <button id="pBtn" class="play-btn">▶️立刻收聽</button>
-        </div>
+    """, unsafe_allow_html=True)
+
+    full_html = f"""
+    <!DOCTYPE html>
+    <html>
+    <head></head>
+    <body style="margin:0;">
         <audio id="aud" src="{audio_url}" preload="auto"></audio>
         
+        <div class="header-bar">
+            <button id="pBtn" class="play-btn">▶️ 立刻播放</button>
+        </div>
+
         <div class="pdf-view">
             <img src="data:image/png;base64,{pdf_b64}" class="pdf-img">
             <div class="subtitle-stage">
@@ -160,7 +156,7 @@ if df is not None and not df.empty:
 
         <div class="seek-panel">
             <input type="range" id="sk" value="0" step="0.1">
-            <div class="time-box"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
+            <div style="font-size: 12px; color: #64748b; min-width: 80px; text-align: right;"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
         </div>
 
         <script>
@@ -175,17 +171,13 @@ if df is not None and not df.empty:
             aud.playbackRate = {play_speed};
 
             pBtn.onclick = () => {{
-                if(aud.paused) {{ aud.play(); pBtn.innerText = "⏸️ 暫停"; }}
-                else {{ aud.pause(); pBtn.innerText = "▶️ 繼續"; }}
+                if(aud.paused) {{ aud.play(); pBtn.innerText = "⏸ 暫停"; }}
+                else {{ aud.pause(); pBtn.innerText = "▶ 繼續"; }}
             }};
-            aud.onloadedmetadata = () => {{
-                document.getElementById('dur').innerText = fmt(aud.duration);
-                sk.max = aud.duration;
-            }};
+            aud.onloadedmetadata = () => {{ sk.max = aud.duration; document.getElementById('dur').innerText = fmt(aud.duration); }};
             aud.ontimeupdate = () => {{
                 const t = aud.currentTime;
-                document.getElementById('cur').innerText = fmt(t);
-                sk.value = t;
+                sk.value = t; document.getElementById('cur').innerText = fmt(t);
                 let hit = false;
                 for(let s of script) {{
                     if(t >= s.start && t <= s.end) {{
@@ -205,7 +197,7 @@ if df is not None and not df.empty:
     </html>
     """
     
-    components.html(full_html, height=1500, scrolling=True)
+    components.html(full_html, height=1200, scrolling=True)
 
 else:
-    st.error("Google Sheet 資料連線失敗。")
+    st.error("資料連線失敗。")
