@@ -148,7 +148,7 @@ if df is not None and not df.empty:
         <body>
             <div class="header-bar">
                 <div class="title">🚀 考前60天衝刺</div>
-                <button id="pBtn" class="play-btn">▶️ 收聽快報</button>
+                <button id="pBtn" class="play-btn">▶️立刻收聽</button>
             </div>
             <audio id="aud" src="{audio_url}" preload="auto"></audio>
             <div class="pdf-view"><img src="data:image/png;base64,{pdf_b64}" class="pdf-img"></div>
