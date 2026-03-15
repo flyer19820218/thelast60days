@@ -14,7 +14,7 @@ st.set_page_config(page_title="會考自然-旗艦教學版", layout="wide")
 
 st.markdown("""
     <style>
-    /* 🌟 聽你的，把右上角選單、頂部標頭、底部浮水印全部隱藏！ */
+    /* 🌟 隱藏 Streamlit 預設介面 */
     #MainMenu, header, footer {visibility: hidden;}
     .stApp { background-color: #ffffff; }
     html, body, [class*="css"], p, span, div, b {
@@ -60,8 +60,8 @@ if df is not None and not df.empty:
     
     current_group_idx = st.session_state.page_idx // group_size
 
-    # --- 頂部控制列 ---
-    c_group, c_unit, c_prev, c_next = st.columns([1.5, 3.5, 0.5, 0.5])
+    # --- 頂部控制列 (加入變速選項) ---
+    c_group, c_unit, c_speed, c_prev, c_next = st.columns([1.5, 3.5, 1.0, 0.5, 0.5])
     
     with c_group:
         selected_group = st.selectbox("範圍", group_labels, index=current_group_idx, label_visibility="collapsed")
@@ -84,6 +84,12 @@ if df is not None and not df.empty:
         if new_local_idx != local_idx:
             st.session_state.page_idx = start_idx + new_local_idx
             st.rerun()
+            
+    # 🌟 戰士要求的播放速度選擇
+    with c_speed:
+        speed_options = {"正常 1.0x": 1.0, "微快 1.25x": 1.25, "衝刺 1.5x": 1.5, "超光速 2.0x": 2.0}
+        selected_speed_label = st.selectbox("語速", list(speed_options.keys()), index=0, label_visibility="collapsed")
+        play_speed = speed_options[selected_speed_label]
     
     with c_prev:
         if st.button("⬅️"):
@@ -114,6 +120,10 @@ if df is not None and not df.empty:
         res_json = requests.get(json_url)
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
+        # 🌟 修正點：
+        # 1. 字幕框 (max-width) 從 70% 增加到 85%
+        # 2. 字體大小 (font-size) 從 24px 降到 22px
+        # 3. 把 Python 變數 play_speed 傳給 JS
         full_html = f"""
         <!DOCTYPE html>
         <html>
@@ -129,7 +139,7 @@ if df is not None and not df.empty:
             input[type=range] {{ flex: 1; accent-color: #1d4ed8; cursor: pointer; height: 10px; }}
             .time-box {{ font-size: 14px; color: #64748b; min-width: 95px; text-align: right; }}
             .subtitle-stage {{ width: 100%; min-height: 150px; display: flex; flex-direction: column; padding: 20px; box-sizing: border-box; }}
-            .bubble {{ max-width: 70%; padding: 20px; border-radius: 20px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); font-size: 24px; line-height: 1.5; opacity: 0; transition: all 0.3s ease; }}
+            .bubble {{ max-width: 85%; padding: 20px; border-radius: 20px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); font-size: 22px; line-height: 1.5; opacity: 0; transition: all 0.3s ease; }}
             .yanjun {{ align-self: flex-start; background-color: #e3f2fd; color: #0d47a1; border: 2px solid #bbdefb; border-bottom-left-radius: 2px; }}
             .xiaozhen {{ align-self: flex-end; background-color: #fef2f2; color: #991b1b; border: 2px solid #fecaca; border-bottom-right-radius: 2px; }}
             .name {{ font-size: 14px; font-weight: bold; margin-bottom: 8px; }}
@@ -157,6 +167,9 @@ if df is not None and not df.empty:
                 const spk = document.getElementById('spk');
                 const msg = document.getElementById('msg');
                 const script = {script_data};
+                
+                // 🌟 套用使用者選擇的播放速度
+                aud.playbackRate = {play_speed};
 
                 pBtn.onclick = () => {{
                     if(aud.paused) {{ aud.play(); pBtn.innerText = "⏸️ 暫停"; }}
