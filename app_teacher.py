@@ -8,7 +8,7 @@ import time
 import math
 
 # ==========================================
-# 1. 頁面設定與隱藏介面
+# 1. 頁面設定
 # ==========================================
 st.set_page_config(page_title="會考自然-旗艦教學版", layout="wide")
 
@@ -19,6 +19,8 @@ st.markdown("""
     html, body, p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
+    /* 🌟 強制讓 Streamlit 內容區滿版，不留白邊 */
+    .block-container { padding-top: 1rem; padding-bottom: 0rem; padding-left: 1rem; padding-right: 1rem; }
     </style>
     """, unsafe_allow_html=True)
 
@@ -37,8 +39,8 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
     try:
         doc = fitz.open(local_pdf_path)
         page = doc.load_page(page_index)
-        # 🌟 調整至 1.8，確保在電視上完美滿版不爆框
-        pix = page.get_pixmap(matrix=fitz.Matrix(1.8, 1.8)) 
+        # 🌟 關鍵修正：將倍率降回 1.4，這在 1080p 電視上最接近滿版 A4
+        pix = page.get_pixmap(matrix=fitz.Matrix(1.4, 1.4)) 
         img_data = pix.tobytes("png")
         doc.close()
         return base64.b64encode(img_data).decode('utf-8')
@@ -46,7 +48,7 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
         return ""
 
 # ==========================================
-# 3. 佈局實作
+# 3. 佈局與邏輯
 # ==========================================
 df = load_data_fresh()
 
@@ -60,7 +62,7 @@ if df is not None and not df.empty:
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
     current_group_idx = st.session_state.page_idx // group_size
 
-    # --- 頂部控制列 ---
+    # 控制列
     c_group, c_unit, c_speed, c_prev, c_next = st.columns([1.5, 3.5, 1.0, 0.5, 0.5])
     
     with c_group:
@@ -80,7 +82,7 @@ if df is not None and not df.empty:
         new_local_idx = unit_list.index(selected_day)
         if new_local_idx != local_idx:
             st.session_state.page_idx = start_idx + new_local_idx
-            st.rerun() # 🌟 已移除多餘單字
+            st.rerun()
             
     with c_speed:
         speed_options = {"正常 1.0x": 1.0, "微快 1.25x": 1.25, "衝刺 1.5x": 1.5, "超光速 2.0x": 2.0}
@@ -96,50 +98,50 @@ if df is not None and not df.empty:
             st.session_state.page_idx = min(total_items - 1, st.session_state.page_idx + 1)
             st.rerun()
 
-    # ==========================================
-    # 4. 核心畫面與樣式
-    # ==========================================
+    # 資料讀取
     row = df.iloc[st.session_state.page_idx]
-    try:
-        pdf_page_idx = int(str(row['頁碼']).strip()) - 1
-        if pdf_page_idx < 0: pdf_page_idx = 0
-    except:
-        pdf_page_idx = 0
-
+    pdf_page_idx = int(str(row['頁碼']).strip()) - 1 if '頁碼' in row else 0
     audio_path = str(row['Audio_Path']).strip().lstrip('/')
     audio_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path}?t={time.time()}"
     json_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path.replace('.mp3', '_script.json')}?t={time.time()}"
     
-    pdf_b64 = get_pdf_page_as_base64("notes.pdf", pdf_page_idx)
+    pdf_b64 = get_pdf_page_as_base64("notes.pdf", max(0, pdf_page_idx))
     res_json = requests.get(json_url)
     script_data = res_json.text if res_json.status_code == 200 else "[]"
 
+    # 🌟 注入 CSS (控制圖片不爆框)
     st.markdown("""
         <style>
-        .header-bar { position: fixed; top: 0; width: 100%; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; background: rgba(255,255,255,0.9); box-shadow: 0 2px 10px rgba(0,0,0,0.3); }
+        .header-bar { position: fixed; top: 0; width: 100%; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; background: rgba(255,255,255,0.95); box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         .title { color: #1d4ed8; font-size: 24px; font-weight: bold; margin: 0; }
         .play-btn { background: #ff0000; color: white; padding: 8px 20px; border-radius: 5px; font-weight: bold; cursor: pointer; border: none; }
-        .pdf-container { margin-top: 60px; margin-bottom: 150px; width: 100%; text-align: center; }
-        .pdf-img { width: 100%; max-width: 1200px; display: inline-block; }
-        .bottom-console { position: fixed; bottom: 0; width: 100%; background: rgba(0, 0, 0, 0.9); color: white; padding: 15px 0; z-index: 100; display: flex; flex-direction: column; align-items: center; min-height: 120px; }
-        .seek-panel { width: 90%; display: flex; align-items: center; gap: 15px; margin-bottom: 10px; }
+        
+        /* 🌟 圖片容器優化：強行限制最大寬度為視窗寬度 */
+        .pdf-container { margin-top: 60px; margin-bottom: 140px; width: 100%; text-align: center; overflow: hidden; }
+        .pdf-img { width: 100%; max-width: 100vw; height: auto; display: block; }
+        
+        .bottom-console { position: fixed; bottom: 0; left: 0; width: 100%; background: rgba(0, 0, 0, 0.9); color: white; padding: 15px 0; z-index: 100; display: flex; flex-direction: column; align-items: center; }
+        .seek-panel { width: 95%; display: flex; align-items: center; gap: 15px; margin-bottom: 5px; }
         input[type=range] { flex: 1; accent-color: #ff0000; cursor: pointer; }
-        .subtitle-text { font-size: 32px; font-weight: bold; text-align: center; min-height: 50px; text-shadow: 2px 2px 4px rgba(0,0,0,1); padding: 0 20px; line-height: 1.4; }
+        .subtitle-text { font-size: 32px; font-weight: bold; text-align: center; min-height: 50px; text-shadow: 2px 2px 4px rgba(0,0,0,1); padding: 0 40px; line-height: 1.4; color: white; }
         .speaker-label { font-size: 18px; color: #ffff00; margin-bottom: 5px; font-weight: bold; }
         .highlight { color: #ffff00; }
         </style>
         """, unsafe_allow_html=True)
 
+    # HTML Template
     html_template = """
     <!DOCTYPE html>
     <html>
-    <body>
+    <body style="margin:0;">
         <div class="header-bar">
-            <div class="title">🎬 考前60天衝刺：@TITLE@</div>
-            <button id="pBtn" class="play-btn">▶️ 立刻播放</button>
+            <div class="title">🎬 @TITLE@</div>
+            <button id="pBtn" class="play-btn">▶️ 點擊收聽</button>
         </div>
         <audio id="aud" src="@AUDIO_URL@" preload="auto"></audio>
-        <div class="pdf-container"><img src="data:image/png;base64,@PDF_B64@" class="pdf-img"></div>
+        <div class="pdf-container">
+            <img src="data:image/png;base64,@PDF_B64@" class="pdf-img">
+        </div>
         <div class="bottom-console">
             <div class="seek-panel">
                 <input type="range" id="sk" value="0" step="0.1">
