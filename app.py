@@ -22,26 +22,11 @@ st.markdown("""
     }
     .stSelectbox, .stNumberInput { margin-bottom: 0px !important; }
     
-    /* 🌟 戰士專屬：強制放大頂部控制列 (下拉選單與按鈕) */
-    /* 1. 放大選單顯示框與字體 */
-    div[data-baseweb="select"] {
-        font-size: 24px !important;
-    }
-    div[data-baseweb="select"] > div {
-        min-height: 55px !important; /* 加高選單，更好點擊 */
-    }
-    /* 2. 放大點開後的下拉清單選項 */
-    ul[data-baseweb="menu"] li {
-        font-size: 22px !important;
-        padding-top: 15px !important;
-        padding-bottom: 15px !important;
-    }
-    /* 3. 放大左右切換按鈕 */
-    .stButton > button {
-        font-size: 24px !important;
-        min-height: 55px !important;
-        width: 100% !important;
-    }
+    /* 🌟 強制放大頂部控制列，方便點擊 */
+    div[data-baseweb="select"] { font-size: 24px !important; }
+    div[data-baseweb="select"] > div { min-height: 55px !important; }
+    ul[data-baseweb="menu"] li { font-size: 22px !important; padding-top: 15px !important; padding-bottom: 15px !important; }
+    .stButton > button { font-size: 24px !important; min-height: 55px !important; width: 100% !important; }
     </style>
     """, unsafe_allow_html=True)
 
@@ -57,7 +42,6 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
     try:
         doc = fitz.open(local_pdf_path)
         page = doc.load_page(page_index)
-        # 🌟 微調至 1.5，確保平板與大電視都有良好的清晰度
         pix = page.get_pixmap(matrix=fitz.Matrix(1.5, 1.5)) 
         img_data = pix.tobytes("png")
         doc.close()
@@ -66,7 +50,7 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
         return ""
 
 # ==========================================
-# 2. 佈局實作
+# 2. 佈局實作 (加入字幕大小選單)
 # ==========================================
 df = load_data_fresh()
 
@@ -82,8 +66,8 @@ if df is not None and not df.empty:
     
     current_group_idx = st.session_state.page_idx // group_size
 
-    # --- 頂部控制列 ---
-    c_group, c_unit, c_speed, c_prev, c_next = st.columns([1.5, 3.5, 1.0, 0.5, 0.5])
+    # --- 🌟 頂部控制列：新增字幕大小 (c_size) ---
+    c_group, c_unit, c_speed, c_size, c_prev, c_next = st.columns([1.5, 2.5, 1.0, 1.0, 0.5, 0.5])
     
     with c_group:
         selected_group = st.selectbox("範圍", group_labels, index=current_group_idx, label_visibility="collapsed")
@@ -110,6 +94,18 @@ if df is not None and not df.empty:
         speed_options = {"正常 1.0x": 1.0, "微快 1.25x": 1.25, "衝刺 1.5x": 1.5, "超光速 2.0x": 2.0}
         selected_speed_label = st.selectbox("語速", list(speed_options.keys()), index=0, label_visibility="collapsed")
         play_speed = speed_options[selected_speed_label]
+        
+    # 🌟 致敬 YouTube：新增字幕大小切換
+    with c_size:
+        size_options = {
+            "自動 (YouTube高度)": {"bubble": "clamp(20px, 4.5vh, 60px)", "name": "clamp(14px, 2.5vh, 35px)"},
+            "適中 (32吋/平板)": {"bubble": "24px", "name": "16px"},
+            "偏大 (65吋電視)": {"bubble": "36px", "name": "20px"},
+            "特大 (100吋電視)": {"bubble": "48px", "name": "24px"}
+        }
+        selected_size_label = st.selectbox("字幕", list(size_options.keys()), index=0, label_visibility="collapsed")
+        bubble_fs = size_options[selected_size_label]["bubble"]
+        name_fs = size_options[selected_size_label]["name"]
     
     with c_prev:
         if st.button("⬅️"):
@@ -139,7 +135,7 @@ if df is not None and not df.empty:
         res_json = requests.get(json_url)
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
-        # 🌟 HTML 模板：毛玻璃半透明泡泡 + 藍色全螢幕
+        # 🌟 HTML 模板：植入 Python 變數控制字體大小
         full_html = f"""
         <!DOCTYPE html>
         <html>
@@ -162,10 +158,7 @@ if df is not None and not df.empty:
                 transition: 0.3s ease;
                 box-shadow: 0 4px 10px rgba(29, 78, 216, 0.2);
             }}
-            .play-btn:hover, .fs-btn:hover {{ 
-                background: linear-gradient(135deg, #1e40af, #1d4ed8); 
-                box-shadow: 0 6px 15px rgba(29, 78, 216, 0.3);
-            }}
+            .play-btn:hover, .fs-btn:hover {{ background: linear-gradient(135deg, #1e40af, #1d4ed8); box-shadow: 0 6px 15px rgba(29, 78, 216, 0.3); }}
             
             .pdf-view {{ position: relative; width: 100%; }}
             .pdf-img {{ width: 100%; display: block; }}
@@ -186,23 +179,25 @@ if df is not None and not df.empty:
                 pointer-events: none; 
             }}
             
+            /* 🌟 字體大小由使用者的選擇動態注入 ({bubble_fs}) */
             .bubble {{ 
                 max-width: 85%; 
-                padding: clamp(15px, 2.5vw, 40px); 
+                padding: clamp(15px, 3vh, 35px); /* 內距也改為高度相依 */
                 border-radius: 20px; 
-                box-shadow: 0 8px 25px rgba(0,0,0,0.15); 
-                font-size: clamp(30px, 4.5vw, 90px); 
+                box-shadow: 0 8px 30px rgba(0,0,0,0.1); 
+                font-size: {bubble_fs}; 
                 line-height: 1.5; 
                 opacity: 0; 
                 transition: all 0.3s ease; 
-                backdrop-filter: blur(8px); 
+                backdrop-filter: blur(12px); 
                 pointer-events: auto;
             }}
             
-            .yanjun {{ align-self: flex-start; background-color: rgba(227, 242, 253, 0.75); color: #0d47a1; border: 2px solid rgba(187, 222, 251, 0.8); border-bottom-left-radius: 2px; }}
-            .xiaozhen {{ align-self: flex-end; background-color: rgba(254, 242, 242, 0.75); color: #991b1b; border: 2px solid rgba(254, 202, 202, 0.8); border-bottom-right-radius: 2px; }}
+            /* 🌟 高透毛玻璃 (透明度 0.35) */
+            .yanjun {{ align-self: flex-start; background-color: rgba(227, 242, 253, 0.35); color: #0d47a1; border: 2px solid rgba(187, 222, 251, 0.4); border-bottom-left-radius: 2px; }}
+            .xiaozhen {{ align-self: flex-end; background-color: rgba(254, 242, 242, 0.35); color: #991b1b; border: 2px solid rgba(254, 202, 202, 0.4); border-bottom-right-radius: 2px; }}
             
-            .name {{ font-size: clamp(16px, 2.5vw, 45px); font-weight: bold; margin-bottom: 8px; }}
+            .name {{ font-size: {name_fs}; font-weight: bold; margin-bottom: 8px; }}
         </style>
         </head>
         <body>
