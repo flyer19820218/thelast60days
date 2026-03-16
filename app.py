@@ -8,7 +8,7 @@ import time
 import math
 
 # ==========================================
-# 【編號 1】頁面設定與 RWD 響應式 CSS (加入無邊框破壁設定)
+# 【編號 1】頁面設定與 RWD 響應式 CSS
 # ==========================================
 st.set_page_config(page_title="會考自然-旗艦教學版", layout="wide")
 
@@ -22,7 +22,7 @@ st.markdown("""
     }
     .stSelectbox, .stNumberInput { margin-bottom: 0px !important; }
     
-    /* 🌟 終極解法：移除 Streamlit 手機版的所有邊距，讓畫面「貼齊螢幕邊緣」 */
+    /* 🌟 移除 Streamlit 邊距，讓畫面貼齊螢幕邊緣 */
     .block-container {
         padding-top: 1rem !important;
         padding-left: 0rem !important;
@@ -39,7 +39,7 @@ st.markdown("""
     
     /* 📺【大電視霸氣模式】 */
     @media (min-width: 1024px) {
-        .block-container { padding-left: 2rem !important; padding-right: 2rem !important; } /* 電視保留一點邊界才好看 */
+        .block-container { padding-left: 2rem !important; padding-right: 2rem !important; } 
         div[data-baseweb="select"] { font-size: 24px !important; }
         div[data-baseweb="select"] > div { min-height: 55px !important; }
         ul[data-baseweb="menu"] li { font-size: 22px !important; padding-top: 15px !important; padding-bottom: 15px !important; }
@@ -112,9 +112,10 @@ if df is not None and not df.empty:
         play_speed = speed_options[selected_speed_label]
         
     with c_size:
+        # 🌟 字幕大小換成了 vmin (螢幕最小邊)，解決直立手機暴走問題！
         size_options = {
-            "自動 (跨裝置)": "clamp(18px, 4vh, 50px)",
-            "偏小 (手機)": "18px",
+            "自動 (跨裝置)": "clamp(16px, 3.5vmin, 50px)",
+            "偏小 (手機)": "16px",
             "適中 (平板)": "24px",
             "偏大 (電視)": "36px"
         }
@@ -152,7 +153,7 @@ if df is not None and not df.empty:
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
 # ==========================================
-# 【編號 5】HTML 骨架與 CSS 樣式 (加入蘋果劇院模式)
+# 【編號 5】HTML 骨架與 CSS 樣式 (加入手機專屬泡泡瘦身)
 # ==========================================
         full_html = f"""
         <!DOCTYPE html>
@@ -180,12 +181,13 @@ if df is not None and not df.empty:
             .time-box {{ font-size: 14px; color: #64748b; min-width: 95px; text-align: right; }}
             
             .subtitle-stage {{ 
-                position: absolute; bottom: 10%; width: 100%; display: flex; flex-direction: column; padding: 0 clamp(15px, 4vw, 40px); box-sizing: border-box; z-index: 10; pointer-events: none; 
+                position: absolute; bottom: 8%; width: 100%; display: flex; flex-direction: column; padding: 0 clamp(15px, 4vw, 40px); box-sizing: border-box; z-index: 10; pointer-events: none; 
             }}
             
+            /* 🌟 泡泡本體樣式：內距也改用 vmin 智慧縮放 */
             .bubble {{ 
                 max-width: 90%; 
-                padding: clamp(10px, 2.5vh, 30px); 
+                padding: clamp(10px, 2.5vmin, 30px); 
                 border-radius: 20px; 
                 box-shadow: 0 8px 30px rgba(0,0,0,0.08); 
                 font-size: {bubble_fs}; 
@@ -200,6 +202,16 @@ if df is not None and not df.empty:
             
             .yanjun {{ align-self: flex-start; background-color: rgba(227, 242, 253, 0.2); color: #0d47a1; border: 1px solid rgba(187, 222, 251, 0.5); border-bottom-left-radius: 2px; }}
             .xiaozhen {{ align-self: flex-end; background-color: rgba(254, 242, 242, 0.2); color: #991b1b; border: 1px solid rgba(254, 202, 202, 0.5); border-bottom-right-radius: 2px; }}
+
+            /* 🌟 手機版專屬泡泡瘦身 (當螢幕寬度小於 768px 時觸發) */
+            @media (max-width: 768px) {{
+                .subtitle-stage {{ bottom: 3% !important; padding: 0 10px !important; }}
+                .bubble {{ 
+                    padding: 8px 12px !important; 
+                    border-radius: 12px !important; 
+                    max-width: 95% !important; 
+                }}
+            }}
 
             /* 🌟 蘋果 iPhone 專屬「劇院模式」CSS */
             body.theater {{ background-color: #000; }}
@@ -252,29 +264,21 @@ if df is not None and not df.empty:
                 fsBtn.onclick = () => {{
                     const docElm = document.documentElement;
                     
-                    // 1. 如果尚未進入全螢幕/劇院
                     if (!document.fullscreenElement && !document.webkitFullscreenElement && !isTheater) {{
                         let req = docElm.requestFullscreen || docElm.webkitRequestFullscreen;
-                        
                         if (req) {{
                             let promise = req.call(docElm);
                             if (promise) {{
-                                promise.catch(err => {{
-                                    // 蘋果 iOS 阻擋了！立刻切換成「劇院模式」
-                                    enableTheater();
-                                }});
+                                promise.catch(err => {{ enableTheater(); }});
                             }} else {{
-                                // 舊版瀏覽器防呆
                                 setTimeout(() => {{
                                     if (!document.fullscreenElement && !document.webkitFullscreenElement) enableTheater();
                                 }}, 200);
                             }}
                         }} else {{
-                            // 完全不支援 Fullscreen API (例如部分 iPhone 瀏覽器)，啟動劇院模式
                             enableTheater();
                         }}
                     }} else {{
-                        // 2. 退出全螢幕/劇院
                         if (document.exitFullscreen && document.fullscreenElement) document.exitFullscreen();
                         else if (document.webkitExitFullscreen && document.webkitFullscreenElement) document.webkitExitFullscreen();
                         disableTheater();
@@ -286,14 +290,12 @@ if df is not None and not df.empty:
                     document.body.classList.add('theater');
                     fsBtn.innerText = "✖️ 退出劇院";
                     
-                    // 彈出貼心提示框教學生怎麼做
                     let toast = document.createElement('div');
                     toast.id = 'ios-toast';
-                    toast.style.cssText = "position:absolute; top:30%; left:50%; transform:translateX(-50%); background:rgba(0,100,255,0.9); color:white; padding:15px 25px; border-radius:10px; font-size:18px; z-index:9999; text-align:center; font-weight:bold; box-shadow:0 10px 30px rgba(0,0,0,0.5);";
+                    toast.style.cssText = "position:absolute; top:30%; left:50%; transform:translateX(-50%); background:rgba(0,100,255,0.9); color:white; padding:15px 25px; border-radius:10px; font-size:18px; z-index:9999; text-align:center; font-weight:bold; box-shadow:0 10px 30px rgba(0,0,0,0.5); width: 80%; max-width: 300px;";
                     toast.innerHTML = "📱 已啟動【劇院模式】<br><span style='font-size:14px; font-weight:normal;'>蘋果設備請將手機轉為「橫向」觀看</span>";
                     document.querySelector('.pdf-view').appendChild(toast);
                     
-                    // 3 秒後自動消失
                     setTimeout(() => {{ if(document.getElementById('ios-toast')) document.getElementById('ios-toast').remove(); }}, 3500);
                 }}
 
