@@ -1,36 +1,31 @@
 import streamlit as st
 import pandas as pd
 import requests
-import fitz  # PyMuPDF
+import fitz
 import streamlit.components.v1 as components
-import json
 import base64
+import time
+import math
 
 # ==========================================
-# 1. 頁面基礎設定
+# 1. 頁面設定 (針對 16:9 大螢幕優化)
 # ==========================================
-st.set_page_config(page_title="國中自然60天逆襲", layout="centered")
+st.set_page_config(page_title="會考自然-80吋電視旗艦版", layout="wide")
 
 st.markdown("""
     <style>
-    #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
-    header {visibility: hidden;}
-    .stApp { background-color: #ffffff; }
-    html, body, [class*="css"], p, span, div, b {
+    #MainMenu, header, footer {visibility: hidden;}
+    .stApp { background-color: #000000; } /* 電視版用深色背景，減少眼睛疲勞 */
+    html, body, p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
-    /* 讓選單列變細，不佔空間 */
-    .stSelectbox, .stNumberInput { margin-bottom: 0px !important; }
+    /* 讓內容區完全滿版 */
+    .block-container { padding: 0rem !important; }
     </style>
     """, unsafe_allow_html=True)
 
-USER = "flyer19820218"
-REPO = "thelast60days"
-GITHUB_RAW = f"https://raw.githubusercontent.com/{USER}/{REPO}/main/"
-
-@st.cache_data(ttl=60)
-def load_data():
+@st.cache_data(ttl=3600)
+def load_data_fresh():
     SHEET_URL = "https://docs.google.com/spreadsheets/d/1qcWBnMUgHVHO5XrN79NhVOWSnExzc8Mnc5wf4uUXbw4/export?format=csv"
     try:
         return pd.read_csv(SHEET_URL)
@@ -41,7 +36,8 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
     try:
         doc = fitz.open(local_pdf_path)
         page = doc.load_page(page_index)
-        pix = page.get_pixmap(matrix=fitz.Matrix(2.0, 2.0)) 
+        # 🌟 電視版 Matrix 設為 1.2，兼顧清晰度與投影比例
+        pix = page.get_pixmap(matrix=fitz.Matrix(1.2, 1.2)) 
         img_data = pix.tobytes("png")
         doc.close()
         return base64.b64encode(img_data).decode('utf-8')
@@ -51,163 +47,154 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
 # ==========================================
 # 2. 佈局實作
 # ==========================================
-df = load_data()
+df = load_data_fresh()
 
-if df is not None:
-    # 頂部控制列：純數據選擇
-    c1, c2 = st.columns([3, 1])
-    unit_list = df['Day'].tolist()
-    with c1:
-        selected = st.selectbox("進度", unit_list, label_visibility="collapsed")
-        row = df[df['Day'] == selected].iloc[0]
-    with c2:
-        target_page = st.number_input("頁碼", min_value=1, value=1, label_visibility="collapsed")
+if df is not None and not df.empty:
+    if 'page_idx' not in st.session_state:
+        st.session_state.page_idx = 0
 
-    # 準備檔案路徑
-    local_pdf_path = "notes.pdf"
-    pdf_b64 = get_pdf_page_as_base64(local_pdf_path, target_page - 1)
+    total_items = len(df)
+    row = df.iloc[st.session_state.page_idx]
+
+    # --- 頂部控制列 (改為深色調，適應大螢幕) ---
+    c_unit, c_speed, c_prev, c_next = st.columns([5.0, 1.0, 0.5, 0.5])
+    
+    with c_unit:
+        unit_list = df['Title'].tolist()
+        selected_day = st.selectbox("單元", unit_list, index=st.session_state.page_idx, label_visibility="collapsed")
+        new_idx = unit_list.index(selected_day)
+        if new_idx != st.session_state.page_idx:
+            st.session_state.page_idx = new_idx
+            st.rerun()
+            
+    with c_speed:
+        speed_options = {"1.0x": 1.0, "1.25x": 1.25, "1.5x": 1.5, "2.0x": 2.0}
+        selected_speed_label = st.selectbox("速度", list(speed_options.keys()), index=0, label_visibility="collapsed")
+        play_speed = speed_options[selected_speed_label]
+    
+    with c_prev:
+        if st.button("⬅️"):
+            st.session_state.page_idx = max(0, st.session_state.page_idx - 1)
+            st.rerun()
+    with c_next:
+        if st.button("➡️"):
+            st.session_state.page_idx = min(total_items - 1, st.session_state.page_idx + 1)
+            st.rerun()
+
+    # 資料處理
+    pdf_page_idx = int(str(row['頁碼']).strip()) - 1 if '頁碼' in row else 0
     audio_path = str(row['Audio_Path']).strip().lstrip('/')
-    audio_url = f"{GITHUB_RAW}{audio_path}"
-    json_url = f"{GITHUB_RAW}{audio_path.replace('.mp3', '_script.json')}"
+    audio_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path}?t={time.time()}"
+    json_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path.replace('.mp3', '_script.json')}?t={time.time()}"
+    
+    pdf_b64 = get_pdf_page_as_base64("notes.pdf", max(0, pdf_page_idx))
+    res_json = requests.get(json_url)
+    script_data = res_json.text if res_json.status_code == 200 else "[]"
 
-    try:
-        res_json = requests.get(json_url)
-        script_json_data = res_json.text if res_json.status_code == 200 else "[]"
-
-        # --- 🔥 旗艦大整合 HTML 🔥 ---
-        full_html = f"""
-        <!DOCTYPE html>
-        <html>
-        <head>
+    # 🌟 核心：80吋電視專用 CSS
+    st.markdown("""
         <style>
-            body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; }}
-            
-            /* 1. 標題與播放鍵並排列 */
-            .header-container {{
-                display: flex; align-items: center; justify-content: space-between;
-                padding: 10px 0; margin-bottom: 5px;
-            }}
-            .title-text {{
-                color: #1d4ed8; font-size: 32px; font-weight: bold; margin: 0;
-                display: flex; align-items: center; gap: 10px;
-            }}
-            .play-capsule {{
-                background: linear-gradient(135deg, #2b58db, #1d4ed8);
-                color: white; padding: 8px 22px; border-radius: 50px;
-                display: flex; align-items: center; gap: 10px;
-                font-weight: bold; font-size: 16px; cursor: pointer;
-                box-shadow: 0 4px 12px rgba(29, 78, 216, 0.4); border: none;
-                transition: transform 0.2s;
-            }}
-            .play-capsule:active {{ transform: scale(0.95); }}
-
-            /* 2. PDF 區域 */
-            .pdf-view {{ width: 100%; border-radius: 12px; border: 1px solid #eee; overflow: hidden; }}
-            .pdf-img {{ width: 100%; display: block; }}
-            
-            /* 3. 進度條 */
-            .seek-area {{ width: 100%; padding: 15px 0; display: flex; align-items: center; gap: 10px; }}
-            input[type=range] {{ flex: 1; accent-color: #1d4ed8; cursor: pointer; }}
-            .time-label {{ font-size: 13px; color: #64748b; min-width: 85px; text-align: right; }}
-
-            /* 4. 分離式左右字幕泡泡 */
-            .subtitle-stage {{
-                width: 100%; min-height: 110px; display: flex; flex-direction: column; padding-top: 5px;
-            }}
-            .bubble {{
-                max-width: 75%; padding: 14px 18px; border-radius: 18px;
-                box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-                font-size: 20px; line-height: 1.5; opacity: 0;
-                transition: all 0.3s ease;
-            }}
-            .yanjun {{
-                align-self: flex-start;
-                background-color: #e3f2fd; color: #0d47a1;
-                border: 2px solid #bbdefb; border-bottom-left-radius: 2px;
-            }}
-            .xiaozhen {{
-                align-self: flex-end;
-                background-color: #fef2f2; color: #991b1b;
-                border: 2px solid #fecaca; border-bottom-right-radius: 2px;
-            }}
-            .speaker-name {{ font-size: 12px; font-weight: bold; margin-bottom: 4px; opacity: 0.8; }}
+        /* 播放按鈕 */
+        .play-btn { background: #ff0000; color: white; padding: 12px 30px; border-radius: 5px; font-weight: bold; font-size: 20px; cursor: pointer; border: none; }
+        
+        /* PDF 顯示區：固定比例，不讓它爆開 */
+        .pdf-view { position: relative; width: 100%; text-align: center; background: #000; padding-top: 50px; }
+        .pdf-img { height: 80vh; max-width: 100%; margin: 0 auto; display: block; }
+        
+        /* 🌟 電視專用置底字幕條 (YouTube 質感) */
+        .sub-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            padding: 20px 0;
+            z-index: 1000;
+            text-align: center;
+            border-top: 2px solid #333;
+        }
+        .subtitle-text {
+            font-size: 36px; /* 80吋電視一定要大字 */
+            font-weight: bold;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px #000;
+            line-height: 1.4;
+            padding: 0 50px;
+        }
+        .highlight { color: #ffff00; } /* 亮黃色重點 */
+        .speaker { font-size: 18px; color: #aaaaaa; margin-bottom: 5px; }
+        
+        /* 進度控制條 */
+        .seek-container { width: 90%; margin: 0 auto; display: flex; align-items: center; gap: 15px; margin-bottom: 10px; }
+        input[type=range] { flex: 1; accent-color: #ff0000; cursor: pointer; }
         </style>
-        </head>
-        <body>
-            <div class="header-container">
-                <div class="title-text">🚀 考前60天衝刺</div>
-                <button id="mainPlayBtn" class="play-capsule">▶️ 收聽快報</button>
-            </div>
+        """, unsafe_allow_html=True)
 
-            <audio id="coreAudio" src="{audio_url}"></audio>
-
-            <div class="pdf-view">
-                <img src="data:image/png;base64,{pdf_b64}" class="pdf-img">
+    html_template = """
+    <!DOCTYPE html>
+    <html>
+    <body style="margin:0; background: black; overflow: hidden;">
+        <audio id="aud" src="@AUDIO_URL@" preload="auto"></audio>
+        
+        <div class="pdf-view">
+            <div style="position: absolute; top: 10px; right: 20px; z-index: 1001;">
+                <button id="pBtn" class="play-btn">▶️ 播放單元</button>
             </div>
-            
-            <div class="seek-area">
-                <input type="range" id="seekSlider" value="0" step="0.1">
-                <div class="time-label"><span id="curTime">0:00</span> / <span id="durTime">0:00</span></div>
-            </div>
+            <img src="data:image/png;base64,@PDF_B64@" class="pdf-img">
+        </div>
 
-            <div class="subtitle-stage">
-                <div id="bubbleWrap" class="bubble yanjun">
-                    <div id="spkLabel" class="speaker-name"></div>
-                    <div id="msgText"></div>
+        <div class="sub-bar">
+            <div class="seek-container">
+                <input type="range" id="sk" value="0" step="0.1">
+                <div style="color: white; font-size: 14px; min-width: 100px;">
+                    <span id="cur">0:00</span> / <span id="dur">0:00</span>
                 </div>
             </div>
+            <div id="spk" class="speaker"></div>
+            <div id="msg" class="subtitle-text">準備就緒...</div>
+        </div>
 
-            <script>
-                const audio = document.getElementById('coreAudio');
-                const btn = document.getElementById('mainPlayBtn');
-                const seek = document.getElementById('seekSlider');
-                const bubble = document.getElementById('bubbleWrap');
-                const script = {script_json_data};
+        <script>
+            const aud = document.getElementById('aud');
+            const pBtn = document.getElementById('pBtn');
+            const sk = document.getElementById('sk');
+            const spk = document.getElementById('spk');
+            const msg = document.getElementById('msg');
+            const script = @SCRIPT_DATA@;
+            
+            aud.playbackRate = @PLAY_SPEED@;
 
-                function fmt(s) {{
-                    const m = Math.floor(s/60);
-                    const sec = Math.floor(s%60);
-                    return m + ":" + (sec < 10 ? "0" : "") + sec;
-                }}
+            pBtn.onclick = () => {
+                if(aud.paused) { aud.play(); pBtn.innerText = "⏸ 暫停"; }
+                else { aud.pause(); pBtn.innerText = "▶ 繼續"; }
+            };
+            
+            aud.onloadedmetadata = () => { sk.max = aud.duration; document.getElementById('dur').innerText = fmt(aud.duration); };
+            
+            aud.ontimeupdate = () => {
+                const t = aud.currentTime;
+                sk.value = t; document.getElementById('cur').innerText = fmt(t);
+                let hit = false;
+                for(let s of script) {
+                    if(t >= s.start && t <= s.end) {
+                        spk.innerText = s.speaker === '彥君' ? '【 彥君老師 】' : '【 曉臻助教 】';
+                        msg.innerHTML = s.text.replace(/『/g, '<span class="highlight">').replace(/』/g, '</span>');
+                        hit = true; break;
+                    }
+                }
+                if(!hit) { msg.innerText = ""; spk.innerText = ""; }
+            };
+            
+            sk.oninput = () => aud.currentTime = sk.value;
+            function fmt(s) { return Math.floor(s/60) + ":" + String(Math.floor(s%60)).padStart(2,'0'); }
+        </script>
+    </body>
+    </html>
+    """
+    
+    full_html = html_template.replace("@TITLE@", row['Title']).replace("@AUDIO_URL@", audio_url).replace("@PDF_B64@", pdf_b64).replace("@SCRIPT_DATA@", script_data).replace("@PLAY_SPEED@", str(play_speed))
 
-                btn.onclick = () => {{
-                    if (audio.paused) {{
-                        audio.play();
-                        btn.innerText = "⏸️ 暫停衝刺";
-                    }} else {{
-                        audio.pause();
-                        btn.innerText = "▶️ 繼續衝刺";
-                    }}
-                }};
+    components.html(full_html, height=1080, scrolling=False)
 
-                audio.onloadedmetadata = () => {{
-                    document.getElementById('durTime').innerText = fmt(audio.duration);
-                    seek.max = audio.duration;
-                }};
-
-                audio.ontimeupdate = () => {{
-                    const t = audio.currentTime;
-                    document.getElementById('curTime').innerText = fmt(t);
-                    seek.value = t;
-                    let hit = false;
-                    for (let s of script) {{
-                        if (t >= s.start && t <= s.end) {{
-                            document.getElementById('spkLabel').innerText = (s.speaker === "彥君" ? "👨‍🏫 彥君老師" : "👩‍🔬 曉臻助教");
-                            document.getElementById('msgText').innerText = s.text;
-                            bubble.className = "bubble " + (s.speaker === "彥君" ? "yanjun" : "xiaozhen");
-                            bubble.style.opacity = 1;
-                            hit = true; break;
-                        }}
-                    }}
-                    if (!hit) bubble.style.opacity = 0;
-                }};
-                seek.oninput = () => {{ audio.currentTime = seek.value; }};
-            </script>
-        </body>
-        </html>
-        """
-        # 渲染：這次直接一步到位
-        components.html(full_html, height=1250)
-
-    except Exception as e:
-        st.error(f"連線異常：{e}")
+else:
+    st.error("資料讀取失敗，戰士請重新整理。")
