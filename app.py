@@ -181,7 +181,7 @@ if df is not None and not df.empty:
             
             .yanjun {{ 
                 align-self: flex-start; 
-                background-color: rgba(227, 242, 253, 0.35); 
+                background-color: rgba(227, 242, 253, 0.15); 
                 color: #0d47a1; 
                 border: 2px solid rgba(187, 222, 251, 0.4); 
                 border-bottom-left-radius: 2px; 
@@ -189,7 +189,7 @@ if df is not None and not df.empty:
             
             .xiaozhen {{ 
                 align-self: flex-end; 
-                background-color: rgba(254, 242, 242, 0.35); 
+                background-color: rgba(254, 242, 242, 0.15); 
                 color: #991b1b; 
                 border: 2px solid rgba(254, 202, 202, 0.4); 
                 border-bottom-right-radius: 2px; 
