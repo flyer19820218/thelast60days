@@ -8,7 +8,7 @@ import time
 import math
 
 # ==========================================
-# 【編號 1】頁面設定與 RWD 響應式 CSS (跨裝置通吃)
+# 【編號 1】頁面設定與 RWD 響應式 CSS 
 # ==========================================
 st.set_page_config(page_title="會考自然-旗艦教學版", layout="wide")
 
@@ -22,13 +22,13 @@ st.markdown("""
     }
     .stSelectbox, .stNumberInput { margin-bottom: 0px !important; }
     
-    /* 📱【手機/平板預設模式】(小螢幕精緻比例) */
+    /* 📱【手機/平板預設模式】 */
     div[data-baseweb="select"] { font-size: 16px !important; }
     div[data-baseweb="select"] > div { min-height: 40px !important; }
     ul[data-baseweb="menu"] li { font-size: 16px !important; padding: 10px !important; }
     .stButton > button { font-size: 16px !important; min-height: 40px !important; width: 100% !important; padding: 5px !important; }
     
-    /* 📺【大電視霸氣模式】(螢幕寬度 >= 1024px 自動觸發) */
+    /* 📺【大電視霸氣模式】 */
     @media (min-width: 1024px) {
         div[data-baseweb="select"] { font-size: 24px !important; }
         div[data-baseweb="select"] > div { min-height: 55px !important; }
@@ -143,7 +143,7 @@ if df is not None and not df.empty:
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
 # ==========================================
-# 【編號 5】HTML 骨架與 CSS 樣式 (修復透視感)
+# 【編號 5】HTML 骨架與 CSS 樣式
 # ==========================================
         full_html = f"""
         <!DOCTYPE html>
@@ -174,7 +174,6 @@ if df is not None and not df.empty:
                 position: absolute; bottom: 10%; width: 100%; display: flex; flex-direction: column; padding: 0 clamp(15px, 4vw, 40px); box-sizing: border-box; z-index: 10; pointer-events: none; 
             }}
             
-            /* 🌟 泡泡本體樣式：降模糊、保透視 */
             .bubble {{ 
                 max-width: 90%; 
                 padding: clamp(10px, 2.5vh, 30px); 
@@ -184,13 +183,12 @@ if df is not None and not df.empty:
                 line-height: 1.5; 
                 opacity: 0; 
                 transition: all 0.3s ease; 
-                backdrop-filter: blur(4px); /* 🌟 關鍵修復：從 12px 砍到 4px，背後的字就不會被糊成實心牆！ */
-                -webkit-backdrop-filter: blur(4px); /* 支援蘋果系統的 Safari 瀏覽器 */
+                backdrop-filter: blur(4px); 
+                -webkit-backdrop-filter: blur(4px); 
                 pointer-events: auto;
                 font-weight: bold; 
             }}
             
-            /* 🌟 極度透亮的背景顏色 (透明度 0.2) */
             .yanjun {{ 
                 align-self: flex-start; 
                 background-color: rgba(227, 242, 253, 0.2); 
@@ -246,14 +244,27 @@ if df is not None and not df.empty:
                     else {{ aud.pause(); pBtn.innerText = "▶️ 繼續"; }}
                 }};
 
+                // 🌟 【全螢幕終極武裝版】：加入 WebKit 支援與防呆警示
                 fsBtn.onclick = () => {{
-                    if (!document.fullscreenElement) {{
-                        document.documentElement.requestFullscreen().catch(err => {{
-                            console.log(`Error: ${{err.message}}`);
-                        }});
-                        fsBtn.innerText = "✖️ 退出"; /* 縮短字數，適應手機 */
+                    const docElm = document.documentElement;
+                    // 判斷目前是否為全螢幕狀態
+                    if (!document.fullscreenElement && !document.webkitFullscreenElement) {{
+                        if (docElm.requestFullscreen) {{
+                            docElm.requestFullscreen().catch(err => {{
+                                alert("【系統提示】您的手機瀏覽器安全機制阻擋了全螢幕功能！\\n\\n💡 替代戰術：請將手機「橫放」，雙指放大螢幕即可完美觀看！");
+                            }});
+                        }} else if (docElm.webkitRequestFullscreen) {{ /* Safari 與手機版 Chrome 支援 */
+                            docElm.webkitRequestFullscreen();
+                        }} else {{
+                            alert("【系統提示】您的設備不支援網頁全螢幕功能，請將手機橫放觀看。");
+                        }}
+                        fsBtn.innerText = "✖️ 退出";
                     }} else {{
-                        document.exitFullscreen();
+                        if (document.exitFullscreen) {{
+                            document.exitFullscreen();
+                        }} else if (document.webkitExitFullscreen) {{
+                            document.webkitExitFullscreen();
+                        }}
                         fsBtn.innerText = "🔲 全螢幕";
                     }}
                 }};
