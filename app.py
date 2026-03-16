@@ -8,7 +8,7 @@ import time
 import math
 
 # ==========================================
-# 1. 頁面設定
+# 1. 頁面設定 80~100吋電視專用
 # ==========================================
 st.set_page_config(page_title="會考自然-旗艦教學版", layout="wide")
 
@@ -36,7 +36,7 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
     try:
         doc = fitz.open(local_pdf_path)
         page = doc.load_page(page_index)
-        # 🌟 微調至 1.5，確保平板不會爆框
+        # 🌟 微調至 1.5，確保平板與大電視都有良好的清晰度
         pix = page.get_pixmap(matrix=fitz.Matrix(1.5, 1.5)) 
         img_data = pix.tobytes("png")
         doc.close()
@@ -45,7 +45,7 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
         return ""
 
 # ==========================================
-# 2. 佈局實作 (100% 保留你的原始排版)
+# 2. 佈局實作
 # ==========================================
 df = load_data_fresh()
 
@@ -55,14 +55,13 @@ if df is not None and not df.empty:
 
     total_items = len(df)
     
-    # 每 10 個分一組
     group_size = 10
     num_groups = math.ceil(total_items / group_size)
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
     
     current_group_idx = st.session_state.page_idx // group_size
 
-    # --- 頂部控制列 (加入變速選項) ---
+    # --- 頂部控制列 ---
     c_group, c_unit, c_speed, c_prev, c_next = st.columns([1.5, 3.5, 1.0, 0.5, 0.5])
     
     with c_group:
@@ -79,7 +78,6 @@ if df is not None and not df.empty:
         unit_list = sub_df['Title'].tolist()
         
         local_idx = st.session_state.page_idx - start_idx
-        
         selected_day = st.selectbox("單元", unit_list, index=local_idx, label_visibility="collapsed")
         new_local_idx = unit_list.index(selected_day)
         
@@ -87,7 +85,6 @@ if df is not None and not df.empty:
             st.session_state.page_idx = start_idx + new_local_idx
             st.rerun()
             
-    # 🌟 戰士要求的播放速度選擇
     with c_speed:
         speed_options = {"正常 1.0x": 1.0, "微快 1.25x": 1.25, "衝刺 1.5x": 1.5, "超光速 2.0x": 2.0}
         selected_speed_label = st.selectbox("語速", list(speed_options.keys()), index=0, label_visibility="collapsed")
@@ -118,11 +115,10 @@ if df is not None and not df.empty:
         json_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path.replace('.mp3', '_script.json')}?t={time.time()}"
         
         pdf_b64 = get_pdf_page_as_base64("notes.pdf", pdf_page_idx)
-        
         res_json = requests.get(json_url)
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
-        # 🌟 結合浮動泡泡與全螢幕按鈕的 HTML
+        # 🌟 HTML 模板：全螢幕藍色武裝版
         full_html = f"""
         <!DOCTYPE html>
         <html>
@@ -132,13 +128,26 @@ if df is not None and not df.empty:
             .header-bar {{ display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; border-bottom: 1px solid #f0f0f0; }}
             .title {{ color: #1d4ed8; font-size: 34px; font-weight: bold; margin: 0; }}
             
-            /* 🌟 按鈕群組 */
             .btn-group {{ display: flex; gap: 10px; }}
-            .play-btn {{ background: linear-gradient(135deg, #2b58db, #1d4ed8); color: white; padding: 10px 25px; border-radius: 50px; font-weight: bold; font-size: 18px; cursor: pointer; border: none; }}
-            .fs-btn {{ background: #475569; color: white; padding: 10px 20px; border-radius: 50px; font-weight: bold; font-size: 18px; cursor: pointer; border: none; transition: 0.3s; }}
-            .fs-btn:hover {{ background: #334155; }}
+            /* 🌟 統一按鈕樣式 (使用漸層藍) */
+            .play-btn, .fs-btn {{ 
+                background: linear-gradient(135deg, #2b58db, #1d4ed8); 
+                color: white; 
+                padding: 10px 25px; 
+                border-radius: 50px; 
+                font-weight: bold; 
+                font-size: 18px; 
+                cursor: pointer; 
+                border: none; 
+                transition: 0.3s ease;
+                box-shadow: 0 4px 10px rgba(29, 78, 216, 0.2);
+            }}
+            /* 🌟 懸停時稍微加深 */
+            .play-btn:hover, .fs-btn:hover {{ 
+                background: linear-gradient(135deg, #1e40af, #1d4ed8); 
+                box-shadow: 0 6px 15px rgba(29, 78, 216, 0.3);
+            }}
             
-            /* 🌟 讓 PDF 容器變成定位基準 */
             .pdf-view {{ position: relative; width: 100%; }}
             .pdf-img {{ width: 100%; display: block; }}
             
@@ -146,7 +155,6 @@ if df is not None and not df.empty:
             input[type=range] {{ flex: 1; accent-color: #1d4ed8; cursor: pointer; height: 10px; }}
             .time-box {{ font-size: 14px; color: #64748b; min-width: 95px; text-align: right; }}
             
-            /* 🌟 泡泡絕對定位：改為 bottom: 10%，往上拉高 */
             .subtitle-stage {{ 
                 position: absolute; 
                 bottom: 10%; 
@@ -156,23 +164,24 @@ if df is not None and not df.empty:
                 padding: 0 40px; 
                 box-sizing: border-box; 
                 z-index: 10;
-                pointer-events: none; /* 讓點擊可以穿透到後面的圖片 */
+                pointer-events: none; 
             }}
+            
             .bubble {{ 
                 max-width: 85%; 
-                padding: 20px; 
+                padding: clamp(15px, 2.5vw, 40px); 
                 border-radius: 20px; 
                 box-shadow: 0 8px 25px rgba(0,0,0,0.15); 
-                font-size: 26px; /* 字體微調，配合平板 */
+                font-size: clamp(30px, 4.5vw, 90px); 
                 line-height: 1.5; 
                 opacity: 0; 
                 transition: all 0.3s ease; 
-                backdrop-filter: blur(5px); /* 毛玻璃質感 */
+                backdrop-filter: blur(5px); 
                 pointer-events: auto;
             }}
             .yanjun {{ align-self: flex-start; background-color: rgba(227, 242, 253, 0.95); color: #0d47a1; border: 2px solid #bbdefb; border-bottom-left-radius: 2px; }}
             .xiaozhen {{ align-self: flex-end; background-color: rgba(254, 242, 242, 0.95); color: #991b1b; border: 2px solid #fecaca; border-bottom-right-radius: 2px; }}
-            .name {{ font-size: 14px; font-weight: bold; margin-bottom: 8px; }}
+            .name {{ font-size: clamp(16px, 2.5vw, 45px); font-weight: bold; margin-bottom: 8px; }}
         </style>
         </head>
         <body>
@@ -200,7 +209,7 @@ if df is not None and not df.empty:
             <script>
                 const aud = document.getElementById('aud');
                 const pBtn = document.getElementById('pBtn');
-                const fsBtn = document.getElementById('fsBtn'); // 🌟 全螢幕按鈕綁定
+                const fsBtn = document.getElementById('fsBtn'); 
                 const sk = document.getElementById('sk');
                 const bubble = document.getElementById('bubble');
                 const spk = document.getElementById('spk');
@@ -214,7 +223,6 @@ if df is not None and not df.empty:
                     else {{ aud.pause(); pBtn.innerText = "▶️ 繼續"; }}
                 }};
 
-                // 🌟 全螢幕觸發邏輯
                 fsBtn.onclick = () => {{
                     if (!document.fullscreenElement) {{
                         document.documentElement.requestFullscreen().catch(err => {{
