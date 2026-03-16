@@ -8,7 +8,7 @@ import time
 import math
 
 # ==========================================
-# 【編號 1】頁面設定與 RWD 響應式 CSS 
+# 【編號 1】頁面設定與 RWD 響應式 CSS (加入無邊框破壁設定)
 # ==========================================
 st.set_page_config(page_title="會考自然-旗艦教學版", layout="wide")
 
@@ -22,6 +22,15 @@ st.markdown("""
     }
     .stSelectbox, .stNumberInput { margin-bottom: 0px !important; }
     
+    /* 🌟 終極解法：移除 Streamlit 手機版的所有邊距，讓畫面「貼齊螢幕邊緣」 */
+    .block-container {
+        padding-top: 1rem !important;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+        padding-bottom: 0rem !important;
+        max-width: 100% !important;
+    }
+    
     /* 📱【手機/平板預設模式】 */
     div[data-baseweb="select"] { font-size: 16px !important; }
     div[data-baseweb="select"] > div { min-height: 40px !important; }
@@ -30,6 +39,7 @@ st.markdown("""
     
     /* 📺【大電視霸氣模式】 */
     @media (min-width: 1024px) {
+        .block-container { padding-left: 2rem !important; padding-right: 2rem !important; } /* 電視保留一點邊界才好看 */
         div[data-baseweb="select"] { font-size: 24px !important; }
         div[data-baseweb="select"] > div { min-height: 55px !important; }
         ul[data-baseweb="menu"] li { font-size: 22px !important; padding-top: 15px !important; padding-bottom: 15px !important; }
@@ -103,11 +113,10 @@ if df is not None and not df.empty:
         
     with c_size:
         size_options = {
-            "自動 (跨裝置適應)": "clamp(18px, 4vh, 50px)",
-            "偏小 (手機專用)": "18px",
-            "適中 (平板/電腦)": "24px",
-            "偏大 (教室電視)": "36px",
-            "特大 (巨無霸)": "48px"
+            "自動 (跨裝置)": "clamp(18px, 4vh, 50px)",
+            "偏小 (手機)": "18px",
+            "適中 (平板)": "24px",
+            "偏大 (電視)": "36px"
         }
         selected_size_label = st.selectbox("字幕", list(size_options.keys()), index=0, label_visibility="collapsed")
         bubble_fs = size_options[selected_size_label]
@@ -143,16 +152,16 @@ if df is not None and not df.empty:
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
 # ==========================================
-# 【編號 5】HTML 骨架與 CSS 樣式
+# 【編號 5】HTML 骨架與 CSS 樣式 (加入蘋果劇院模式)
 # ==========================================
         full_html = f"""
         <!DOCTYPE html>
         <html>
         <head>
         <style>
-            body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; }}
-            .header-bar {{ display: flex; align-items: center; justify-content: space-between; padding: clamp(5px, 1.5vh, 10px) 20px; border-bottom: 1px solid #f0f0f0; }}
-            .title {{ color: #1d4ed8; font-size: clamp(20px, 3.5vw, 34px); font-weight: bold; margin: 0; }}
+            body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; transition: background 0.3s; }}
+            .header-bar {{ display: flex; align-items: center; justify-content: space-between; padding: clamp(5px, 1.5vh, 10px) 20px; border-bottom: 1px solid #f0f0f0; transition: 0.3s; }}
+            .title {{ color: #1d4ed8; font-size: clamp(20px, 3.5vw, 34px); font-weight: bold; margin: 0; transition: 0.3s; }}
             
             .btn-group {{ display: flex; gap: 8px; }}
             .play-btn, .fs-btn {{ 
@@ -166,7 +175,7 @@ if df is not None and not df.empty:
             .pdf-view {{ position: relative; width: 100%; }}
             .pdf-img {{ width: 100%; display: block; }}
             
-            .seek-panel {{ width: 100%; background: #fdfdfd; padding: 10px 20px; display: flex; align-items: center; gap: 15px; box-sizing: border-box; border-bottom: 1px solid #eee; }}
+            .seek-panel {{ width: 100%; background: #fdfdfd; padding: 10px 20px; display: flex; align-items: center; gap: 15px; box-sizing: border-box; border-bottom: 1px solid #eee; transition: 0.3s; }}
             input[type=range] {{ flex: 1; accent-color: #1d4ed8; cursor: pointer; height: 10px; }}
             .time-box {{ font-size: 14px; color: #64748b; min-width: 95px; text-align: right; }}
             
@@ -189,21 +198,15 @@ if df is not None and not df.empty:
                 font-weight: bold; 
             }}
             
-            .yanjun {{ 
-                align-self: flex-start; 
-                background-color: rgba(227, 242, 253, 0.2); 
-                color: #0d47a1; 
-                border: 1px solid rgba(187, 222, 251, 0.5); 
-                border-bottom-left-radius: 2px; 
-            }}
-            
-            .xiaozhen {{ 
-                align-self: flex-end; 
-                background-color: rgba(254, 242, 242, 0.2); 
-                color: #991b1b; 
-                border: 1px solid rgba(254, 202, 202, 0.5); 
-                border-bottom-right-radius: 2px; 
-            }}
+            .yanjun {{ align-self: flex-start; background-color: rgba(227, 242, 253, 0.2); color: #0d47a1; border: 1px solid rgba(187, 222, 251, 0.5); border-bottom-left-radius: 2px; }}
+            .xiaozhen {{ align-self: flex-end; background-color: rgba(254, 242, 242, 0.2); color: #991b1b; border: 1px solid rgba(254, 202, 202, 0.5); border-bottom-right-radius: 2px; }}
+
+            /* 🌟 蘋果 iPhone 專屬「劇院模式」CSS */
+            body.theater {{ background-color: #000; }}
+            body.theater .header-bar {{ background-color: #111; border-bottom: 1px solid #333; }}
+            body.theater .title {{ color: #ccc; }}
+            body.theater .seek-panel {{ background-color: #111; border-bottom: none; border-top: 1px solid #333; }}
+            body.theater .time-box {{ color: #aaa; }}
         </style>
         </head>
         <body>
@@ -244,30 +247,62 @@ if df is not None and not df.empty:
                     else {{ aud.pause(); pBtn.innerText = "▶️ 繼續"; }}
                 }};
 
-                // 🌟 【全螢幕終極武裝版】：加入 WebKit 支援與防呆警示
+                // 🌟 智慧判斷機制：真全螢幕 vs 蘋果劇院模式
+                let isTheater = false;
                 fsBtn.onclick = () => {{
                     const docElm = document.documentElement;
-                    // 判斷目前是否為全螢幕狀態
-                    if (!document.fullscreenElement && !document.webkitFullscreenElement) {{
-                        if (docElm.requestFullscreen) {{
-                            docElm.requestFullscreen().catch(err => {{
-                                alert("【系統提示】您的手機瀏覽器安全機制阻擋了全螢幕功能！\\n\\n💡 替代戰術：請將手機「橫放」，雙指放大螢幕即可完美觀看！");
-                            }});
-                        }} else if (docElm.webkitRequestFullscreen) {{ /* Safari 與手機版 Chrome 支援 */
-                            docElm.webkitRequestFullscreen();
+                    
+                    // 1. 如果尚未進入全螢幕/劇院
+                    if (!document.fullscreenElement && !document.webkitFullscreenElement && !isTheater) {{
+                        let req = docElm.requestFullscreen || docElm.webkitRequestFullscreen;
+                        
+                        if (req) {{
+                            let promise = req.call(docElm);
+                            if (promise) {{
+                                promise.catch(err => {{
+                                    // 蘋果 iOS 阻擋了！立刻切換成「劇院模式」
+                                    enableTheater();
+                                }});
+                            }} else {{
+                                // 舊版瀏覽器防呆
+                                setTimeout(() => {{
+                                    if (!document.fullscreenElement && !document.webkitFullscreenElement) enableTheater();
+                                }}, 200);
+                            }}
                         }} else {{
-                            alert("【系統提示】您的設備不支援網頁全螢幕功能，請將手機橫放觀看。");
+                            // 完全不支援 Fullscreen API (例如部分 iPhone 瀏覽器)，啟動劇院模式
+                            enableTheater();
                         }}
-                        fsBtn.innerText = "✖️ 退出";
                     }} else {{
-                        if (document.exitFullscreen) {{
-                            document.exitFullscreen();
-                        }} else if (document.webkitExitFullscreen) {{
-                            document.webkitExitFullscreen();
-                        }}
-                        fsBtn.innerText = "🔲 全螢幕";
+                        // 2. 退出全螢幕/劇院
+                        if (document.exitFullscreen && document.fullscreenElement) document.exitFullscreen();
+                        else if (document.webkitExitFullscreen && document.webkitFullscreenElement) document.webkitExitFullscreen();
+                        disableTheater();
                     }}
                 }};
+
+                function enableTheater() {{
+                    isTheater = true;
+                    document.body.classList.add('theater');
+                    fsBtn.innerText = "✖️ 退出劇院";
+                    
+                    // 彈出貼心提示框教學生怎麼做
+                    let toast = document.createElement('div');
+                    toast.id = 'ios-toast';
+                    toast.style.cssText = "position:absolute; top:30%; left:50%; transform:translateX(-50%); background:rgba(0,100,255,0.9); color:white; padding:15px 25px; border-radius:10px; font-size:18px; z-index:9999; text-align:center; font-weight:bold; box-shadow:0 10px 30px rgba(0,0,0,0.5);";
+                    toast.innerHTML = "📱 已啟動【劇院模式】<br><span style='font-size:14px; font-weight:normal;'>蘋果設備請將手機轉為「橫向」觀看</span>";
+                    document.querySelector('.pdf-view').appendChild(toast);
+                    
+                    // 3 秒後自動消失
+                    setTimeout(() => {{ if(document.getElementById('ios-toast')) document.getElementById('ios-toast').remove(); }}, 3500);
+                }}
+
+                function disableTheater() {{
+                    isTheater = false;
+                    document.body.classList.remove('theater');
+                    fsBtn.innerText = "🔲 全螢幕";
+                    if(document.getElementById('ios-toast')) document.getElementById('ios-toast').remove();
+                }}
 
                 aud.onloadedmetadata = () => {{
                     document.getElementById('dur').innerText = fmt(aud.duration);
@@ -283,7 +318,6 @@ if df is not None and not df.empty:
                         if(t >= s.start && t <= s.end) {{
                             let avatar = (s.speaker === '彥君') ? '👨‍🏫 ' : '👩‍🔬 ';
                             msg.innerText = avatar + s.text;
-                            
                             bubble.className = "bubble " + (s.speaker === '彥君' ? 'yanjun' : 'xiaozhen');
                             bubble.style.opacity = 1;
                             hit = true; break;
