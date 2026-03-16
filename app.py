@@ -8,7 +8,7 @@ import time
 import math
 
 # ==========================================
-# 【編號 1】頁面設定與全域 CSS
+# 【編號 1】頁面設定與 RWD 響應式 CSS (跨裝置通吃)
 # ==========================================
 st.set_page_config(page_title="會考自然-旗艦教學版", layout="wide")
 
@@ -22,11 +22,19 @@ st.markdown("""
     }
     .stSelectbox, .stNumberInput { margin-bottom: 0px !important; }
     
-    /* 強制放大頂部控制列 */
-    div[data-baseweb="select"] { font-size: 24px !important; }
-    div[data-baseweb="select"] > div { min-height: 55px !important; }
-    ul[data-baseweb="menu"] li { font-size: 22px !important; padding-top: 15px !important; padding-bottom: 15px !important; }
-    .stButton > button { font-size: 24px !important; min-height: 55px !important; width: 100% !important; }
+    /* 📱【手機/平板預設模式】(小螢幕精緻比例) */
+    div[data-baseweb="select"] { font-size: 16px !important; }
+    div[data-baseweb="select"] > div { min-height: 40px !important; }
+    ul[data-baseweb="menu"] li { font-size: 16px !important; padding: 10px !important; }
+    .stButton > button { font-size: 16px !important; min-height: 40px !important; width: 100% !important; padding: 5px !important; }
+    
+    /* 📺【大電視霸氣模式】(螢幕寬度 >= 1024px 自動觸發) */
+    @media (min-width: 1024px) {
+        div[data-baseweb="select"] { font-size: 24px !important; }
+        div[data-baseweb="select"] > div { min-height: 55px !important; }
+        ul[data-baseweb="menu"] li { font-size: 22px !important; padding-top: 15px !important; padding-bottom: 15px !important; }
+        .stButton > button { font-size: 24px !important; min-height: 55px !important; }
+    }
     </style>
     """, unsafe_allow_html=True)
 
@@ -94,12 +102,12 @@ if df is not None and not df.empty:
         play_speed = speed_options[selected_speed_label]
         
     with c_size:
-        # 🌟 字幕大小選項 (移除了名字的字體設定，因為名字取消了)
         size_options = {
-            "自動 (YouTube高度)": "clamp(20px, 4.5vh, 60px)",
-            "適中 (32吋/平板)": "24px",
-            "偏大 (65吋電視)": "36px",
-            "特大 (100吋電視)": "48px"
+            "自動 (跨裝置適應)": "clamp(18px, 4vh, 50px)",
+            "偏小 (手機專用)": "18px",
+            "適中 (平板/電腦)": "24px",
+            "偏大 (教室電視)": "36px",
+            "特大 (巨無霸)": "48px"
         }
         selected_size_label = st.selectbox("字幕", list(size_options.keys()), index=0, label_visibility="collapsed")
         bubble_fs = size_options[selected_size_label]
@@ -135,7 +143,7 @@ if df is not None and not df.empty:
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
 # ==========================================
-# 【編號 5】HTML 骨架與 CSS 樣式
+# 【編號 5】HTML 骨架與 CSS 樣式 (修復透視感)
 # ==========================================
         full_html = f"""
         <!DOCTYPE html>
@@ -143,13 +151,15 @@ if df is not None and not df.empty:
         <head>
         <style>
             body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; }}
-            .header-bar {{ display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; border-bottom: 1px solid #f0f0f0; }}
-            .title {{ color: #1d4ed8; font-size: 34px; font-weight: bold; margin: 0; }}
+            .header-bar {{ display: flex; align-items: center; justify-content: space-between; padding: clamp(5px, 1.5vh, 10px) 20px; border-bottom: 1px solid #f0f0f0; }}
+            .title {{ color: #1d4ed8; font-size: clamp(20px, 3.5vw, 34px); font-weight: bold; margin: 0; }}
             
-            .btn-group {{ display: flex; gap: 10px; }}
+            .btn-group {{ display: flex; gap: 8px; }}
             .play-btn, .fs-btn {{ 
                 background: linear-gradient(135deg, #2b58db, #1d4ed8); 
-                color: white; padding: 10px 25px; border-radius: 50px; font-weight: bold; font-size: 18px; cursor: pointer; border: none; transition: 0.3s ease; box-shadow: 0 4px 10px rgba(29, 78, 216, 0.2);
+                color: white; padding: clamp(8px, 1.5vh, 10px) clamp(12px, 2vw, 25px); 
+                border-radius: 50px; font-weight: bold; font-size: clamp(14px, 2vw, 18px); 
+                cursor: pointer; border: none; transition: 0.3s ease; box-shadow: 0 4px 10px rgba(29, 78, 216, 0.2);
             }}
             .play-btn:hover, .fs-btn:hover {{ background: linear-gradient(135deg, #1e40af, #1d4ed8); box-shadow: 0 6px 15px rgba(29, 78, 216, 0.3); }}
             
@@ -161,37 +171,39 @@ if df is not None and not df.empty:
             .time-box {{ font-size: 14px; color: #64748b; min-width: 95px; text-align: right; }}
             
             .subtitle-stage {{ 
-                position: absolute; bottom: 10%; width: 100%; display: flex; flex-direction: column; padding: 0 40px; box-sizing: border-box; z-index: 10; pointer-events: none; 
+                position: absolute; bottom: 10%; width: 100%; display: flex; flex-direction: column; padding: 0 clamp(15px, 4vw, 40px); box-sizing: border-box; z-index: 10; pointer-events: none; 
             }}
             
-            /* 🌟 泡泡本體樣式 (極簡乾淨版) */
+            /* 🌟 泡泡本體樣式：降模糊、保透視 */
             .bubble {{ 
-                max-width: 85%; 
-                padding: clamp(15px, 3vh, 35px); 
+                max-width: 90%; 
+                padding: clamp(10px, 2.5vh, 30px); 
                 border-radius: 20px; 
-                box-shadow: 0 8px 30px rgba(0,0,0,0.1); 
-                font-size: {bubble_fs}; /* 使用者選擇的字體大小 */
+                box-shadow: 0 8px 30px rgba(0,0,0,0.08); 
+                font-size: {bubble_fs}; 
                 line-height: 1.5; 
                 opacity: 0; 
                 transition: all 0.3s ease; 
-                backdrop-filter: blur(12px); 
+                backdrop-filter: blur(4px); /* 🌟 關鍵修復：從 12px 砍到 4px，背後的字就不會被糊成實心牆！ */
+                -webkit-backdrop-filter: blur(4px); /* 支援蘋果系統的 Safari 瀏覽器 */
                 pointer-events: auto;
-                font-weight: bold; /* 讓字幕字體加粗，更好閱讀 */
+                font-weight: bold; 
             }}
             
+            /* 🌟 極度透亮的背景顏色 (透明度 0.2) */
             .yanjun {{ 
                 align-self: flex-start; 
-                background-color: rgba(227, 242, 253, 0.15); 
+                background-color: rgba(227, 242, 253, 0.2); 
                 color: #0d47a1; 
-                border: 2px solid rgba(187, 222, 251, 0.4); 
+                border: 1px solid rgba(187, 222, 251, 0.5); 
                 border-bottom-left-radius: 2px; 
             }}
             
             .xiaozhen {{ 
                 align-self: flex-end; 
-                background-color: rgba(254, 242, 242, 0.15); 
+                background-color: rgba(254, 242, 242, 0.2); 
                 color: #991b1b; 
-                border: 2px solid rgba(254, 202, 202, 0.4); 
+                border: 1px solid rgba(254, 202, 202, 0.5); 
                 border-bottom-right-radius: 2px; 
             }}
         </style>
@@ -201,7 +213,7 @@ if df is not None and not df.empty:
                 <div class="title">🚀 考前60天衝刺</div>
                 <div class="btn-group">
                     <button id="fsBtn" class="fs-btn">🔲 全螢幕</button>
-                    <button id="pBtn" class="play-btn">▶️立刻收聽</button>
+                    <button id="pBtn" class="play-btn">▶️ 立刻收聽</button>
                 </div>
             </div>
             <audio id="aud" src="{audio_url}" preload="auto"></audio>
@@ -239,7 +251,7 @@ if df is not None and not df.empty:
                         document.documentElement.requestFullscreen().catch(err => {{
                             console.log(`Error: ${{err.message}}`);
                         }});
-                        fsBtn.innerText = "✖️ 退出螢幕";
+                        fsBtn.innerText = "✖️ 退出"; /* 縮短字數，適應手機 */
                     }} else {{
                         document.exitFullscreen();
                         fsBtn.innerText = "🔲 全螢幕";
@@ -258,7 +270,6 @@ if df is not None and not df.empty:
                     let hit = false;
                     for(let s of script) {{
                         if(t >= s.start && t <= s.end) {{
-                            // 🌟 將頭像與字幕結合，直接塞進同一行
                             let avatar = (s.speaker === '彥君') ? '👨‍🏫 ' : '👩‍🔬 ';
                             msg.innerText = avatar + s.text;
                             
