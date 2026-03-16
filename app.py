@@ -8,7 +8,7 @@ import time
 import math
 
 # ==========================================
-# 1. 頁面設定 80~100吋電視專用
+# 1. 頁面設定與全域 CSS
 # ==========================================
 st.set_page_config(page_title="會考自然-旗艦教學版", layout="wide")
 
@@ -21,6 +21,27 @@ st.markdown("""
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
     .stSelectbox, .stNumberInput { margin-bottom: 0px !important; }
+    
+    /* 🌟 戰士專屬：強制放大頂部控制列 (下拉選單與按鈕) */
+    /* 1. 放大選單顯示框與字體 */
+    div[data-baseweb="select"] {
+        font-size: 24px !important;
+    }
+    div[data-baseweb="select"] > div {
+        min-height: 55px !important; /* 加高選單，更好點擊 */
+    }
+    /* 2. 放大點開後的下拉清單選項 */
+    ul[data-baseweb="menu"] li {
+        font-size: 22px !important;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+    /* 3. 放大左右切換按鈕 */
+    .stButton > button {
+        font-size: 24px !important;
+        min-height: 55px !important;
+        width: 100% !important;
+    }
     </style>
     """, unsafe_allow_html=True)
 
@@ -118,7 +139,7 @@ if df is not None and not df.empty:
         res_json = requests.get(json_url)
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
-        # 🌟 HTML 模板：全螢幕藍色武裝版
+        # 🌟 HTML 模板：毛玻璃半透明泡泡 + 藍色全螢幕
         full_html = f"""
         <!DOCTYPE html>
         <html>
@@ -129,7 +150,6 @@ if df is not None and not df.empty:
             .title {{ color: #1d4ed8; font-size: 34px; font-weight: bold; margin: 0; }}
             
             .btn-group {{ display: flex; gap: 10px; }}
-            /* 🌟 統一按鈕樣式 (使用漸層藍) */
             .play-btn, .fs-btn {{ 
                 background: linear-gradient(135deg, #2b58db, #1d4ed8); 
                 color: white; 
@@ -142,7 +162,6 @@ if df is not None and not df.empty:
                 transition: 0.3s ease;
                 box-shadow: 0 4px 10px rgba(29, 78, 216, 0.2);
             }}
-            /* 🌟 懸停時稍微加深 */
             .play-btn:hover, .fs-btn:hover {{ 
                 background: linear-gradient(135deg, #1e40af, #1d4ed8); 
                 box-shadow: 0 6px 15px rgba(29, 78, 216, 0.3);
@@ -176,11 +195,13 @@ if df is not None and not df.empty:
                 line-height: 1.5; 
                 opacity: 0; 
                 transition: all 0.3s ease; 
-                backdrop-filter: blur(5px); 
+                backdrop-filter: blur(8px); 
                 pointer-events: auto;
             }}
-            .yanjun {{ align-self: flex-start; background-color: rgba(227, 242, 253, 0.95); color: #0d47a1; border: 2px solid #bbdefb; border-bottom-left-radius: 2px; }}
-            .xiaozhen {{ align-self: flex-end; background-color: rgba(254, 242, 242, 0.95); color: #991b1b; border: 2px solid #fecaca; border-bottom-right-radius: 2px; }}
+            
+            .yanjun {{ align-self: flex-start; background-color: rgba(227, 242, 253, 0.75); color: #0d47a1; border: 2px solid rgba(187, 222, 251, 0.8); border-bottom-left-radius: 2px; }}
+            .xiaozhen {{ align-self: flex-end; background-color: rgba(254, 242, 242, 0.75); color: #991b1b; border: 2px solid rgba(254, 202, 202, 0.8); border-bottom-right-radius: 2px; }}
+            
             .name {{ font-size: clamp(16px, 2.5vw, 45px); font-weight: bold; margin-bottom: 8px; }}
         </style>
         </head>
