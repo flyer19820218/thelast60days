@@ -8,13 +8,13 @@ import time
 import math
 
 # ==========================================
-# 【編號 1】頁面設定與全域 CSS (控制頂部選單大小)
+# 【編號 1】頁面設定與全域 CSS
 # ==========================================
 st.set_page_config(page_title="會考自然-旗艦教學版", layout="wide")
 
 st.markdown("""
     <style>
-    /* 隱藏 Streamlit 預設的右上角選單與底部浮水印 */
+    /* 隱藏 Streamlit 預設介面 */
     #MainMenu, header, footer {visibility: hidden;}
     .stApp { background-color: #ffffff; }
     html, body, [class*="css"], p, span, div, b {
@@ -22,7 +22,7 @@ st.markdown("""
     }
     .stSelectbox, .stNumberInput { margin-bottom: 0px !important; }
     
-    /* 強制放大頂部控制列，方便點擊 */
+    /* 強制放大頂部控制列 */
     div[data-baseweb="select"] { font-size: 24px !important; }
     div[data-baseweb="select"] > div { min-height: 55px !important; }
     ul[data-baseweb="menu"] li { font-size: 22px !important; padding-top: 15px !important; padding-bottom: 15px !important; }
@@ -31,7 +31,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # ==========================================
-# 【編號 2】資料讀取與 PDF 轉檔功能
+# 【編號 2】資料讀取與 PDF 轉檔
 # ==========================================
 @st.cache_data(ttl=3600)
 def load_data_fresh():
@@ -45,7 +45,6 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
     try:
         doc = fitz.open(local_pdf_path)
         page = doc.load_page(page_index)
-        # 調整 Matrix 數值可改變 PDF 清晰度與大小 (目前為 1.5)
         pix = page.get_pixmap(matrix=fitz.Matrix(1.5, 1.5)) 
         img_data = pix.tobytes("png")
         doc.close()
@@ -54,7 +53,7 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
         return ""
 
 # ==========================================
-# 【編號 3】佈局實作 (頂部選單控制邏輯)
+# 【編號 3】佈局實作 (控制列邏輯)
 # ==========================================
 df = load_data_fresh()
 
@@ -68,7 +67,6 @@ if df is not None and not df.empty:
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
     current_group_idx = st.session_state.page_idx // group_size
 
-    # 控制列欄位比例設定
     c_group, c_unit, c_speed, c_size, c_prev, c_next = st.columns([1.5, 2.5, 1.0, 1.0, 0.5, 0.5])
     
     with c_group:
@@ -96,16 +94,15 @@ if df is not None and not df.empty:
         play_speed = speed_options[selected_speed_label]
         
     with c_size:
-        # 字幕大小選項：左邊為名稱，右邊為對應的 CSS font-size
+        # 🌟 字幕大小選項 (移除了名字的字體設定，因為名字取消了)
         size_options = {
-            "自動 (YouTube高度)": {"bubble": "clamp(20px, 4.5vh, 60px)", "name": "clamp(14px, 2.5vh, 35px)"},
-            "適中 (32吋/平板)": {"bubble": "24px", "name": "16px"},
-            "偏大 (65吋電視)": {"bubble": "36px", "name": "20px"},
-            "特大 (100吋電視)": {"bubble": "48px", "name": "24px"}
+            "自動 (YouTube高度)": "clamp(20px, 4.5vh, 60px)",
+            "適中 (32吋/平板)": "24px",
+            "偏大 (65吋電視)": "36px",
+            "特大 (100吋電視)": "48px"
         }
         selected_size_label = st.selectbox("字幕", list(size_options.keys()), index=0, label_visibility="collapsed")
-        bubble_fs = size_options[selected_size_label]["bubble"]
-        name_fs = size_options[selected_size_label]["name"]
+        bubble_fs = size_options[selected_size_label]
     
     with c_prev:
         if st.button("⬅️"):
@@ -138,7 +135,7 @@ if df is not None and not df.empty:
         script_data = res_json.text if res_json.status_code == 200 else "[]"
 
 # ==========================================
-# 【編號 5】HTML 與 CSS 核心模板
+# 【編號 5】HTML 骨架與 CSS 樣式
 # ==========================================
         full_html = f"""
         <!DOCTYPE html>
@@ -149,7 +146,6 @@ if df is not None and not df.empty:
             .header-bar {{ display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; border-bottom: 1px solid #f0f0f0; }}
             .title {{ color: #1d4ed8; font-size: 34px; font-weight: bold; margin: 0; }}
             
-            /* 按鈕群組 (播放與全螢幕) */
             .btn-group {{ display: flex; gap: 10px; }}
             .play-btn, .fs-btn {{ 
                 background: linear-gradient(135deg, #2b58db, #1d4ed8); 
@@ -157,37 +153,32 @@ if df is not None and not df.empty:
             }}
             .play-btn:hover, .fs-btn:hover {{ background: linear-gradient(135deg, #1e40af, #1d4ed8); box-shadow: 0 6px 15px rgba(29, 78, 216, 0.3); }}
             
-            /* 圖片容器 */
             .pdf-view {{ position: relative; width: 100%; }}
             .pdf-img {{ width: 100%; display: block; }}
             
-            /* 底部進度條 */
             .seek-panel {{ width: 100%; background: #fdfdfd; padding: 10px 20px; display: flex; align-items: center; gap: 15px; box-sizing: border-box; border-bottom: 1px solid #eee; }}
             input[type=range] {{ flex: 1; accent-color: #1d4ed8; cursor: pointer; height: 10px; }}
             .time-box {{ font-size: 14px; color: #64748b; min-width: 95px; text-align: right; }}
             
-            /* 字幕舞台定位 (修改 bottom 數值可改變泡泡高低) */
             .subtitle-stage {{ 
                 position: absolute; bottom: 10%; width: 100%; display: flex; flex-direction: column; padding: 0 40px; box-sizing: border-box; z-index: 10; pointer-events: none; 
             }}
             
-# ==========================================
-# 【編號 6】泡泡外觀設定 (透明度與模糊度修改區)
-# ==========================================
+            /* 🌟 泡泡本體樣式 (極簡乾淨版) */
             .bubble {{ 
                 max-width: 85%; 
                 padding: clamp(15px, 3vh, 35px); 
                 border-radius: 20px; 
                 box-shadow: 0 8px 30px rgba(0,0,0,0.1); 
-                font-size: {bubble_fs}; /* 這裡吃 Python 變數，勿動 */
+                font-size: {bubble_fs}; /* 使用者選擇的字體大小 */
                 line-height: 1.5; 
                 opacity: 0; 
                 transition: all 0.3s ease; 
-                backdrop-filter: blur(12px); /* 🌟 毛玻璃模糊程度 (數值越大越糊) */
+                backdrop-filter: blur(12px); 
                 pointer-events: auto;
+                font-weight: bold; /* 讓字幕字體加粗，更好閱讀 */
             }}
             
-            /* 🌟 彥君老師泡泡：修改最後一個 0.35 可調整背景透明度 */
             .yanjun {{ 
                 align-self: flex-start; 
                 background-color: rgba(227, 242, 253, 0.35); 
@@ -196,7 +187,6 @@ if df is not None and not df.empty:
                 border-bottom-left-radius: 2px; 
             }}
             
-            /* 🌟 曉臻助教泡泡：修改最後一個 0.35 可調整背景透明度 */
             .xiaozhen {{ 
                 align-self: flex-end; 
                 background-color: rgba(254, 242, 242, 0.35); 
@@ -204,13 +194,8 @@ if df is not None and not df.empty:
                 border: 2px solid rgba(254, 202, 202, 0.4); 
                 border-bottom-right-radius: 2px; 
             }}
-            
-            .name {{ font-size: {name_fs}; font-weight: bold; margin-bottom: 8px; }}
         </style>
         </head>
-# ==========================================
-# 【編號 7】HTML 骨架與 JavaScript 互動邏輯
-# ==========================================
         <body>
             <div class="header-bar">
                 <div class="title">🚀 考前60天衝刺</div>
@@ -224,7 +209,7 @@ if df is not None and not df.empty:
             <div class="pdf-view">
                 <img src="data:image/png;base64,{pdf_b64}" class="pdf-img">
                 <div class="subtitle-stage">
-                    <div id="bubble" class="bubble yanjun"><div id="spk" class="name"></div><div id="msg"></div></div>
+                    <div id="bubble" class="bubble yanjun"><span id="msg"></span></div>
                 </div>
             </div>
             
@@ -239,7 +224,6 @@ if df is not None and not df.empty:
                 const fsBtn = document.getElementById('fsBtn'); 
                 const sk = document.getElementById('sk');
                 const bubble = document.getElementById('bubble');
-                const spk = document.getElementById('spk');
                 const msg = document.getElementById('msg');
                 const script = {script_data};
                 
@@ -274,8 +258,10 @@ if df is not None and not df.empty:
                     let hit = false;
                     for(let s of script) {{
                         if(t >= s.start && t <= s.end) {{
-                            spk.innerText = (s.speaker === '彥君' ? '👨‍🏫 彥君老師' : '👩‍🔬 曉臻助教');
-                            msg.innerText = s.text;
+                            // 🌟 將頭像與字幕結合，直接塞進同一行
+                            let avatar = (s.speaker === '彥君') ? '👨‍🏫 ' : '👩‍🔬 ';
+                            msg.innerText = avatar + s.text;
+                            
                             bubble.className = "bubble " + (s.speaker === '彥君' ? 'yanjun' : 'xiaozhen');
                             bubble.style.opacity = 1;
                             hit = true; break;
@@ -291,7 +277,7 @@ if df is not None and not df.empty:
         """
         
 # ==========================================
-# 【編號 8】渲染區塊
+# 【編號 6】渲染區塊
 # ==========================================
         with main_container:
             components.html(full_html, height=1400, scrolling=True)
