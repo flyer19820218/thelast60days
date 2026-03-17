@@ -112,14 +112,14 @@ if df is not None and not df.empty:
         play_speed = speed_options[selected_speed_label]
         
     with c_size:
-        # 🌟 教官戰術調校：檔次拉開，預設 index=0 直接進入「電視霸氣模式」
+        # 🌟 教官戰術調校： 全面改用 vw (視窗寬度比例) 與 clamp 動態縮放
         size_options = {
-            "電視霸氣 (後排看清楚)": "54px",        # 🚀 攻佔教室最後一排
-            "標準教學 (大螢幕首選)": "48px",        # 🚀 平時教學舒服比例
-            "手機隨身 (近距離讀)": "36px",          # 🚀 手機看也不吃力
-            "自動適配 (系統計算)": "clamp(24px, 4.5vmin, 65px)" 
+            "電視霸氣 (後排看清楚)": "clamp(32px, 5vw, 100px)",    # 🚀 遇大電視會瘋狂長大， 最大可達 100px
+            "標準教學 (大螢幕首選)": "clamp(24px, 3.5vw, 65px)",   # 🚀 適合一般單槍投影機
+            "手機隨身 (近距離讀)": "clamp(18px, 5vmin, 36px)",      # 🚀 手機看剛好， 不會爆框
+            "自動適配 (系統計算)": "clamp(20px, 4vw, 70px)" 
         }
-        # 這裡我把 index 改為 0，這樣教官一打開就是最大的字體，省去手動切換！
+        # 預設 index=0 直接進入「電視霸氣模式」
         selected_size_label = st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")
         bubble_fs = size_options[selected_size_label]
 
