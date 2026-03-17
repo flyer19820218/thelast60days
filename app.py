@@ -112,22 +112,25 @@ if df is not None and not df.empty:
         play_speed = speed_options[selected_speed_label]
         
     with c_size:
-        # 🌟 教官精準打擊：字幕全面放大 20% (為後排戰士量身打造！)
+        # 🌟 教官戰術調校：檔次拉開，預設 index=0 直接進入「電視霸氣模式」
         size_options = {
-            "自動 (跨裝置)": "clamp(20px, 4.2vmin, 60px)",
-            "偏小 (手機)": "20px",
-            "適中 (平板)": "29px",
-            "偏大 (電視)": "44px"
+            "電視霸氣 (後排看清楚)": "48px",        # 🚀 攻佔教室最後一排
+            "標準教學 (大螢幕首選)": "36px",        # 🚀 平時教學舒服比例
+            "手機隨身 (近距離讀)": "22px",          # 🚀 手機看也不吃力
+            "自動適配 (系統計算)": "clamp(24px, 4.5vmin, 65px)" 
         }
-        selected_size_label = st.selectbox("字幕", list(size_options.keys()), index=0, label_visibility="collapsed")
+        # 這裡我把 index 改為 0，這樣教官一打開就是最大的字體，省去手動切換！
+        selected_size_label = st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")
         bubble_fs = size_options[selected_size_label]
     
     with c_prev:
-        if st.button("⬅️"):
+        # 加一個 use_container_width=True 讓按鈕在小格子裡撐滿，更好按！
+        if st.button("⬅️", use_container_width=True):
             st.session_state.page_idx = max(0, st.session_state.page_idx - 1)
             st.rerun()
+            
     with c_next:
-        if st.button("➡️"):
+        if st.button("➡️", use_container_width=True):
             st.session_state.page_idx = min(total_items - 1, st.session_state.page_idx + 1)
             st.rerun()
 
