@@ -10,7 +10,7 @@ import math
 # ==========================================
 # 【編號 1】頁面設定與 RWD 響應式 CSS
 # ==========================================
-st.set_page_config(page_title="會考自然-旗艦教學版", layout="wide")
+st.set_page_config(page_title="會考自然-旗艦教學版", page_icon="📚", layout="wide")
 
 st.markdown("""
     <style>
