@@ -85,7 +85,7 @@ if df is not None and not df.empty:
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
     current_group_idx = st.session_state.page_idx // group_size
 
-    c_group, c_unit, c_speed, c_size, c_prev, c_next = st.columns([1.5, 2.5, 1.0, 1.0, 0.5, 0.5])
+    c_group, c_unit, c_speed, c_size, c_prev, c_next = st.columns([1.5, 1.5, 1.0, 1.5, 0.5, 0.5])
     
     with c_group:
         selected_group = st.selectbox("範圍", group_labels, index=current_group_idx, label_visibility="collapsed")
