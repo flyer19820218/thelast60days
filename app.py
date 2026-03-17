@@ -112,12 +112,12 @@ if df is not None and not df.empty:
         play_speed = speed_options[selected_speed_label]
         
     with c_size:
-        # 🌟 字幕大小換成了 vmin (螢幕最小邊)，解決直立手機暴走問題！
+        # 🌟 教官精準打擊：字幕全面放大 20% (為後排戰士量身打造！)
         size_options = {
-            "自動 (跨裝置)": "clamp(16px, 3.5vmin, 50px)",
-            "偏小 (手機)": "16px",
-            "適中 (平板)": "24px",
-            "偏大 (電視)": "36px"
+            "自動 (跨裝置)": "clamp(20px, 4.2vmin, 60px)",
+            "偏小 (手機)": "20px",
+            "適中 (平板)": "29px",
+            "偏大 (電視)": "44px"
         }
         selected_size_label = st.selectbox("字幕", list(size_options.keys()), index=0, label_visibility="collapsed")
         bubble_fs = size_options[selected_size_label]
