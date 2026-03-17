@@ -22,7 +22,7 @@ st.markdown("""
     }
     .stSelectbox, .stNumberInput { margin-bottom: 0px !important; }
     
-    /* 🌟 移除 Streamlit 邊距，讓畫面貼齊螢幕邊緣 */
+    /* 🌟 移除 Streamlit 邊距， 讓畫面貼齊螢幕邊緣 */
     .block-container {
         padding-top: 1rem !important;
         padding-left: 0rem !important;
@@ -49,7 +49,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # ==========================================
-# 【編號 2】資料讀取與 PDF 轉檔
+# 【編號 2】資料讀取與 PDF 轉檔 (加入加速快取)
 # ==========================================
 @st.cache_data(ttl=3600)
 def load_data_fresh():
@@ -59,6 +59,8 @@ def load_data_fresh():
     except:
         return None
 
+# 🌟 加上快取， 換字體時不用重新轉檔 PDF
+@st.cache_data(show_spinner=False)
 def get_pdf_page_as_base64(local_pdf_path, page_index):
     try:
         doc = fitz.open(local_pdf_path)
@@ -69,6 +71,17 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
         return base64.b64encode(img_data).decode('utf-8')
     except:
         return ""
+
+# 🌟 新增抓字幕 JSON 的快取函數， 避免一直連線
+@st.cache_data(show_spinner=False)
+def get_script_json(json_url):
+    try:
+        res = requests.get(json_url, timeout=5)
+        if res.status_code == 200:
+            return res.text
+    except:
+        pass
+    return "[]"
 
 # ==========================================
 # 【編號 3】佈局實作 (控制列邏輯)
@@ -85,7 +98,8 @@ if df is not None and not df.empty:
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
     current_group_idx = st.session_state.page_idx // group_size
 
-    c_group, c_unit, c_speed, c_size, c_prev, c_next = st.columns([1.5, 1.5, 1.0, 1.5, 0.5, 0.5])
+    # 🌟 完美比例切分： 移除沒有用到的按鈕， 將空間還給選單
+    c_group, c_unit, c_speed, c_size = st.columns([1.5, 1.7, 1.0, 1.8])
     
     with c_group:
         selected_group = st.selectbox("範圍", group_labels, index=current_group_idx, label_visibility="collapsed")
@@ -112,14 +126,13 @@ if df is not None and not df.empty:
         play_speed = speed_options[selected_speed_label]
         
     with c_size:
-        # 🌟 教官戰術調校： 全面改用 vw (視窗寬度比例) 與 clamp 動態縮放
+        # 🌟 教官戰術調校： 全面改用 vw 與 clamp 動態縮放
         size_options = {
-            "電視霸氣 (後排看清楚)": "clamp(32px, 5vw, 100px)",    # 🚀 遇大電視會瘋狂長大， 最大可達 100px
-            "標準教學 (大螢幕首選)": "clamp(24px, 3.5vw, 65px)",   # 🚀 適合一般單槍投影機
-            "手機隨身 (近距離讀)": "clamp(18px, 5vmin, 36px)",      # 🚀 手機看剛好， 不會爆框
+            "電視霸氣 (後排看清楚)": "clamp(32px, 5vw, 100px)",
+            "標準教學 (大螢幕首選)": "clamp(24px, 3.5vw, 65px)",
+            "手機隨身 (近距離讀)": "clamp(18px, 5vmin, 36px)",
             "自動適配 (系統計算)": "clamp(20px, 4vw, 70px)" 
         }
-        # 預設 index=0 直接進入「電視霸氣模式」
         selected_size_label = st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")
         bubble_fs = size_options[selected_size_label]
 
@@ -137,15 +150,17 @@ if df is not None and not df.empty:
             pdf_page_idx = 0
 
         audio_path = str(row['Audio_Path']).strip().lstrip('/')
-        audio_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path}?t={time.time()}"
-        json_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path.replace('.mp3', '_script.json')}?t={time.time()}"
         
+        # 🌟 移除 JSON 的時間戳記， 讓快取生效！ 音檔可保留確保抓到最新版
+        audio_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path}?t={time.time()}"
+        json_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path.replace('.mp3', '_script.json')}"
+        
+        # 🌟 呼叫加速外掛讀取資料
         pdf_b64 = get_pdf_page_as_base64("notes.pdf", pdf_page_idx)
-        res_json = requests.get(json_url)
-        script_data = res_json.text if res_json.status_code == 200 else "[]"
+        script_data = get_script_json(json_url)
 
 # ==========================================
-# 【編號 5】HTML 骨架與 CSS 樣式 (加入手機專屬泡泡瘦身)
+# 【編號 5】HTML 骨架與 CSS 樣式
 # ==========================================
         full_html = f"""
         <!DOCTYPE html>
@@ -176,7 +191,6 @@ if df is not None and not df.empty:
                 position: absolute; bottom: 8%; width: 100%; display: flex; flex-direction: column; padding: 0 clamp(15px, 4vw, 40px); box-sizing: border-box; z-index: 10; pointer-events: none; 
             }}
             
-            /* 🌟 泡泡本體樣式：內距也改用 vmin 智慧縮放 */
             .bubble {{ 
                 max-width: 90%; 
                 padding: clamp(10px, 2.5vmin, 30px); 
@@ -195,7 +209,6 @@ if df is not None and not df.empty:
             .yanjun {{ align-self: flex-start; background-color: rgba(227, 242, 253, 0.2); color: #0d47a1; border: 1px solid rgba(187, 222, 251, 0.5); border-bottom-left-radius: 2px; }}
             .xiaozhen {{ align-self: flex-end; background-color: rgba(254, 242, 242, 0.2); color: #991b1b; border: 1px solid rgba(254, 202, 202, 0.5); border-bottom-right-radius: 2px; }}
 
-            /* 🌟 手機版專屬泡泡瘦身 (當螢幕寬度小於 768px 時觸發) */
             @media (max-width: 768px) {{
                 .subtitle-stage {{ bottom: 3% !important; padding: 0 10px !important; }}
                 .bubble {{ 
@@ -205,7 +218,6 @@ if df is not None and not df.empty:
                 }}
             }}
 
-            /* 🌟 蘋果 iPhone 專屬「劇院模式」CSS */
             body.theater {{ background-color: #000; }}
             body.theater .header-bar {{ background-color: #111; border-bottom: 1px solid #333; }}
             body.theater .title {{ color: #ccc; }}
@@ -251,7 +263,6 @@ if df is not None and not df.empty:
                     else {{ aud.pause(); pBtn.innerText = "▶️ 繼續"; }}
                 }};
 
-                // 🌟 智慧判斷機制：真全螢幕 vs 蘋果劇院模式
                 let isTheater = false;
                 fsBtn.onclick = () => {{
                     const docElm = document.documentElement;
@@ -333,6 +344,6 @@ if df is not None and not df.empty:
             components.html(full_html, height=1400, scrolling=True)
 
     except Exception as e:
-        st.error(f"系統錯誤：{e}")
+        st.error(f"系統錯誤： {e}")
 else:
     st.error("Google Sheet 資料連線失敗。")
