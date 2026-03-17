@@ -122,17 +122,6 @@ if df is not None and not df.empty:
         # 這裡我把 index 改為 0，這樣教官一打開就是最大的字體，省去手動切換！
         selected_size_label = st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")
         bubble_fs = size_options[selected_size_label]
-    
-    with c_prev:
-        # 加一個 use_container_width=True 讓按鈕在小格子裡撐滿，更好按！
-        if st.button("⬅️", use_container_width=True):
-            st.session_state.page_idx = max(0, st.session_state.page_idx - 1)
-            st.rerun()
-            
-    with c_next:
-        if st.button("➡️", use_container_width=True):
-            st.session_state.page_idx = min(total_items - 1, st.session_state.page_idx + 1)
-            st.rerun()
 
     main_container = st.empty()
 
