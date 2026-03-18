@@ -59,7 +59,6 @@ def load_data_fresh():
     except:
         return None
 
-# 🌟 加上快取， 換字體時不用重新轉檔 PDF
 @st.cache_data(show_spinner=False)
 def get_pdf_page_as_base64(local_pdf_path, page_index):
     try:
@@ -72,7 +71,6 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
     except:
         return ""
 
-# 🌟 新增抓字幕 JSON 的快取函數， 避免一直連線
 @st.cache_data(show_spinner=False)
 def get_script_json(json_url):
     try:
@@ -98,7 +96,6 @@ if df is not None and not df.empty:
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
     current_group_idx = st.session_state.page_idx // group_size
 
-    # 🌟 完美比例切分： 移除沒有用到的按鈕， 將空間還給選單
     c_group, c_unit, c_speed, c_size = st.columns([1.5, 1.7, 1.0, 1.8])
     
     with c_group:
@@ -126,7 +123,6 @@ if df is not None and not df.empty:
         play_speed = speed_options[selected_speed_label]
         
     with c_size:
-        # 🌟 教官戰術調校： 全面改用 vw 與 clamp 動態縮放
         size_options = {
             "電視霸氣 (後排看清楚)": "clamp(32px, 5vw, 100px)",
             "標準教學 (大螢幕首選)": "clamp(24px, 3.5vw, 65px)",
@@ -151,11 +147,9 @@ if df is not None and not df.empty:
 
         audio_path = str(row['Audio_Path']).strip().lstrip('/')
         
-        # 🌟 移除 JSON 的時間戳記， 讓快取生效！ 音檔可保留確保抓到最新版
         audio_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path}?t={time.time()}"
         json_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path.replace('.mp3', '_script.json')}"
         
-        # 🌟 呼叫加速外掛讀取資料
         pdf_b64 = get_pdf_page_as_base64("notes.pdf", pdf_page_idx)
         script_data = get_script_json(json_url)
 
@@ -206,8 +200,18 @@ if df is not None and not df.empty:
                 font-weight: bold; 
             }}
             
+            /* 分別定義 A、B 與合聲氣泡的樣式 */
             .yanjun {{ align-self: flex-start; background-color: rgba(227, 242, 253, 0.2); color: #0d47a1; border: 1px solid rgba(187, 222, 251, 0.5); border-bottom-left-radius: 2px; }}
             .xiaozhen {{ align-self: flex-end; background-color: rgba(254, 242, 242, 0.2); color: #991b1b; border: 1px solid rgba(254, 202, 202, 0.5); border-bottom-right-radius: 2px; }}
+            .chorus {{ 
+                align-self: center; 
+                background: linear-gradient(135deg, #fff9c4 0%, #fde68a 100%); 
+                color: #92400e; 
+                border: 1px solid #f59e0b; 
+                border-radius: 20px; 
+                text-align: center;
+                box-shadow: 0 4px 12px rgba(251, 191, 36, 0.4);
+            }}
 
             @media (max-width: 768px) {{
                 .subtitle-stage {{ bottom: 3% !important; padding: 0 10px !important; }}
@@ -319,11 +323,26 @@ if df is not None and not df.empty:
                     document.getElementById('cur').innerText = fmt(t);
                     sk.value = t;
                     let hit = false;
+                    
                     for(let s of script) {{
                         if(t >= s.start && t <= s.end) {{
-                            let avatar = (s.speaker === '彥君') ? '👨‍🏫 ' : '👩‍🔬 ';
+                            let avatar, bClass;
+                            
+                            // 判斷講者切換氣泡風格
+                            if (s.speaker === '彥君') {{
+                                avatar = '👨‍🏫 ';
+                                bClass = 'yanjun';
+                            }} else if (s.speaker === '曉臻') {{
+                                avatar = '👩‍🔬 ';
+                                bClass = 'xiaozhen';
+                            }} else {{
+                                // 不是彥君也不是曉臻，即觸發合聲氣泡
+                                avatar = '🎙️ ';
+                                bClass = 'chorus';
+                            }}
+                            
                             msg.innerText = avatar + s.text;
-                            bubble.className = "bubble " + (s.speaker === '彥君' ? 'yanjun' : 'xiaozhen');
+                            bubble.className = "bubble " + bClass;
                             bubble.style.opacity = 1;
                             hit = true; break;
                         }}
