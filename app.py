@@ -41,11 +41,7 @@ st.markdown("""
     div[data-baseweb="select"] > div { min-height: 40px !important; }
     ul[data-baseweb="menu"] li { font-size: 16px !important; padding: 10px !important; }
     
-    /* 🚀 黑科技：全局隱藏 Python 端的 Streamlit 換頁按鈕 */
-    div[data-testid="stButton"] { display: none !important; }
-    
     /* 💡 動態按鈕美化：讓連播按鈕跟旁邊的下拉選單完美等高對齊 */
-    /* 這裡只針對我們寫在 UI 上的按鈕，不影響隱藏按鈕 */
     .stButton > button { 
         font-size: 16px !important; 
         min-height: 40px !important; 
@@ -145,22 +141,7 @@ if df is not None and not df.empty:
         bubble_fs = size_options[st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")]
 
     with c_auto:
-        # 💡 實作大哥的天才點子：徹底不用 Checkbox，改用動態切換按鈕！
-        # 這樣按鈕大小就會跟旁邊的下拉選單 100% 完美對齊！
-        # 為了繞過全局隱藏，我們給這個區塊加上特例顯示
-        components.html("""
-        <script>
-            // 把 auto_play 的按鈕抓回來顯示
-            const parentBtns = window.parent.document.querySelectorAll('button');
-            parentBtns.forEach(btn => {
-                if (btn.innerText.includes('連播')) {
-                    const targetDiv = btn.closest('div[data-testid="stButton"]');
-                    if (targetDiv) targetDiv.style.display = 'block';
-                }
-            });
-        </script>
-        """, height=0, width=0)
-
+        # 💡 動態開關按鈕 (已經解除無差別隱藏魔法)
         if st.session_state.auto_play:
             if st.button("🔄 正在連播", type="primary"):  # 啟動時變成醒目的紅色/藍色
                 st.session_state.auto_play = False
@@ -178,7 +159,7 @@ if df is not None and not df.empty:
             st.session_state.page_idx += 1
             st.rerun()
 
-    # 運用 JS 在畫面載入時瞬間把上面的幽靈按鈕徹底滅跡
+    # 運用 JS 精準狙擊，只把上面這個幽靈按鈕徹底滅跡，不傷及無辜
     components.html("""
     <script>
         const parentBtns = window.parent.document.querySelectorAll('button');
@@ -189,6 +170,8 @@ if df is not None and not df.empty:
                     targetDiv.style.display = 'none';
                     targetDiv.style.visibility = 'hidden';
                     targetDiv.style.height = '0px';
+                    targetDiv.style.margin = '0px';
+                    targetDiv.style.padding = '0px';
                 }
             }
         });
