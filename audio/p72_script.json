@@ -1,0 +1,346 @@
+[
+  {
+    "start": 0.0,
+    "end": 4.58,
+    "speaker": "彥君",
+    "text": "哈囉 各位衝 A 的會考戰士們",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 4.58,
+    "end": 10.31,
+    "speaker": "彥君",
+    "text": "我是彥君老師 今天來到 第七十二集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 10.31,
+    "end": 13.81,
+    "speaker": "曉臻",
+    "text": "大家好 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 13.81,
+    "end": 18.18,
+    "speaker": "曉臻",
+    "text": "老師 講義上寫的 聲音三大要素",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 18.18,
+    "end": 22.88,
+    "speaker": "曉臻",
+    "text": "響度、 音調和音色 到底該怎麼分啊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 22.88,
+    "end": 27.55,
+    "speaker": "彥君",
+    "text": "第一個響度 就是聲音的 實質音量大小",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 27.55,
+    "end": 32.35,
+    "speaker": "彥君",
+    "text": "聲音的響度 是由波的 振幅 來決定的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 32.35,
+    "end": 37.17,
+    "speaker": "曉臻",
+    "text": "喔 所以平常說的 分貝 或是 音量",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 37.17,
+    "end": 41.24,
+    "speaker": "曉臻",
+    "text": "其實就是在講 聲音的響度 對不對",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 41.24,
+    "end": 46.78,
+    "speaker": "彥君",
+    "text": "完全正確 接著看 第二個要素 音調",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 46.78,
+    "end": 51.36,
+    "speaker": "彥君",
+    "text": "音調是聲音的高低 它要看聲音的 頻率",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 51.36,
+    "end": 55.9,
+    "speaker": "曉臻",
+    "text": "講義寫 發聲體如果 輕薄短小 還有細緊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 55.9,
+    "end": 60.5,
+    "speaker": "曉臻",
+    "text": "頻率就會比較高 聲音也比較尖銳對吧",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 60.5,
+    "end": 66.45,
+    "speaker": "彥君",
+    "text": "沒錯 這裡老師要補充 一個會考大魔王",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 66.45,
+    "end": 70.72,
+    "speaker": "彥君",
+    "text": "你們有沒有玩過 敲擊水杯 當作樂器",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 70.72,
+    "end": 74.46,
+    "speaker": "曉臻",
+    "text": "有啊 水裝得越滿",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 74.46,
+    "end": 78.34,
+    "speaker": "曉臻",
+    "text": "敲出來的聲音 就會越低沉",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 78.34,
+    "end": 82.9,
+    "speaker": "彥君",
+    "text": "對 因為敲擊的時候",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 82.9,
+    "end": 87.09,
+    "speaker": "彥君",
+    "text": "振動的主體 是水和玻璃杯",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 87.09,
+    "end": 91.14,
+    "speaker": "彥君",
+    "text": "水越多越重 振動就越慢",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 91.14,
+    "end": 95.17,
+    "speaker": "彥君",
+    "text": "頻率變小 音調當然就低啦",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 95.17,
+    "end": 99.66,
+    "speaker": "曉臻",
+    "text": "那如果用嘴巴 對著玻璃瓶口吹氣呢",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 99.66,
+    "end": 104.31,
+    "speaker": "曉臻",
+    "text": "聽說水裝越多 吹出來聲音反而越高",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 104.31,
+    "end": 109.15,
+    "speaker": "彥君",
+    "text": "沒錯 因為吹氣的時候",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 109.15,
+    "end": 113.61,
+    "speaker": "彥君",
+    "text": "真正振動的 是瓶子裡的空氣柱",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 113.61,
+    "end": 117.64,
+    "speaker": "彥君",
+    "text": "水裝得越多 空氣柱就越短",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 117.64,
+    "end": 121.64,
+    "speaker": "彥君",
+    "text": "短的空氣柱 振動快 頻率高",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 121.64,
+    "end": 125.17,
+    "speaker": "彥君",
+    "text": "音調自然 就會跟著變高",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 125.17,
+    "end": 129.82,
+    "speaker": "曉臻",
+    "text": "哇 就像用飲水機 裝水的時候",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 129.82,
+    "end": 132.91,
+    "speaker": "曉臻",
+    "text": "聽到的聲音 越來越高",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 132.91,
+    "end": 136.22,
+    "speaker": "曉臻",
+    "text": "就是因為 空氣柱變短了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 136.22,
+    "end": 141.9,
+    "speaker": "彥君",
+    "text": "完全命中會考核心 觀念超級清楚",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 141.9,
+    "end": 146.68,
+    "speaker": "彥君",
+    "text": "最後一個音色 則是 聲音的專屬特色",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 146.68,
+    "end": 150.18,
+    "speaker": "彥君",
+    "text": "音色是由 波形決定的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 150.18,
+    "end": 154.25,
+    "speaker": "彥君",
+    "text": "就算一樣大聲、 一樣高音的 Do",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 154.25,
+    "end": 158.4,
+    "speaker": "彥君",
+    "text": "鋼琴跟吉他 聽起來還是不一樣",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 158.4,
+    "end": 161.61,
+    "speaker": "彥君",
+    "text": "這就是 波形不同",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 161.61,
+    "end": 166.6,
+    "speaker": "曉臻",
+    "text": "哇 響度看振幅 音調看頻率",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 166.6,
+    "end": 171.16,
+    "speaker": "曉臻",
+    "text": "音色看波形 還學會了 裝水的高低音",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 171.16,
+    "end": 176.07,
+    "speaker": "彥君",
+    "text": "觀念全通了 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 176.07,
+    "end": 178.71,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 178.71,
+    "end": 182.78,
+    "speaker": "合聲",
+    "text": "響度看振幅 音調看頻率",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 182.78,
+    "end": 186.62,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
