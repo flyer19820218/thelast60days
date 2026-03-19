@@ -11,7 +11,7 @@ import json  # 🚀 關鍵防護罩套件
 # ==========================================
 # 【編號 1】頁面設定與 RWD 響應式 CSS
 # ==========================================
-st.set_page_config(page_title="會考自然-旗艦教學版", page_icon="📚", layout="wide")
+st.set_page_config(page_title="會考自然-ai教學", page_icon="📚", layout="wide")
 
 st.markdown("""
     <style>
@@ -34,7 +34,10 @@ st.markdown("""
     div[data-baseweb="select"] { font-size: 16px !important; }
     div[data-baseweb="select"] > div { min-height: 40px !important; }
     ul[data-baseweb="menu"] li { font-size: 16px !important; padding: 10px !important; }
-    .stButton > button { font-size: 16px !important; min-height: 40px !important; width: 100% !important; padding: 5px !important; }
+    
+    /* 🚀 黑科技：全局隱藏 Python 端的 Streamlit 按鈕，確保版面乾淨！ */
+    /* (不影響播放器裡面的 HTML 按鈕) */
+    div[data-testid="stButton"] { display: none !important; }
     
     /* 微調複選框(Checkbox)的對齊 */
     .stCheckbox { margin-top: 8px !important; }
@@ -44,7 +47,6 @@ st.markdown("""
         div[data-baseweb="select"] { font-size: 24px !important; }
         div[data-baseweb="select"] > div { min-height: 55px !important; }
         ul[data-baseweb="menu"] li { font-size: 22px !important; padding-top: 15px !important; padding-bottom: 15px !important; }
-        .stButton > button { font-size: 20px !important; min-height: 55px !important; font-weight: bold !important; }
         .stCheckbox { margin-top: 15px !important; }
     }
     </style>
@@ -78,7 +80,7 @@ def get_script_json(json_url):
     return "[]"
 
 # ==========================================
-# 【編號 3】佈局實作 (新增連播與下一集按鈕)
+# 【編號 3】佈局實作 (完美恢復 5 欄位)
 # ==========================================
 df = load_data_fresh()
 
@@ -89,8 +91,8 @@ if df is not None and not df.empty:
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
     current_group_idx = st.session_state.page_idx // group_size
 
-    # 重新分配欄位比例，讓出空間給「連播」與「下一集」
-    c_group, c_unit, c_speed, c_size, c_auto, c_next = st.columns([1.5, 1.6, 1.0, 1.5, 0.9, 1.0])
+    # 恢復完美的 5 個欄位
+    c_group, c_unit, c_speed, c_size, c_auto = st.columns([1.5, 1.8, 1.0, 1.5, 1.0])
     
     with c_group:
         selected_group = st.selectbox("範圍", group_labels, index=current_group_idx, label_visibility="collapsed")
@@ -114,26 +116,22 @@ if df is not None and not df.empty:
         
     with c_size:
         size_options = {
-            "電視霸氣 (大)": "clamp(32px, 5vw, 100px)",
-            "標準教學 (中)": "clamp(24px, 3.5vw, 65px)",
-            "手機隨身 (小)": "clamp(18px, 5vmin, 36px)",
-            "自動適配 (佳)": "clamp(20px, 4vw, 70px)" 
+            "80吋電視霸氣 (大)": "clamp(32px, 5vw, 100px)",
+            "電腦標準教學 (中)": "clamp(24px, 3.5vw, 65px)",
+            "手機專用小螢幕 (小)": "clamp(18px, 5vmin, 36px)",
+            "自動適配螢幕 (佳)": "clamp(20px, 4vw, 70px)" 
         }
         bubble_fs = size_options[st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")]
 
     with c_auto:
-        # 讀取並儲存自動播放的狀態
         auto_play = st.checkbox("🔄 自動連播", value=st.session_state.get('auto_play', False))
         st.session_state.auto_play = auto_play
 
-    with c_next:
-        # 手動跳下一集，或是讓 JavaScript 模擬點擊這個按鈕
-        if st.button("⏭️ 下一集"):
-            if st.session_state.page_idx < total_items - 1:
-                st.session_state.page_idx += 1
-                st.rerun()
-            else:
-                st.success("🎉 恭喜！這已經是最後一集囉！")
+    # 👻 隱藏按鈕：被 CSS 徹底隱形，專門給 JS 自動點擊用的
+    if st.button("AutoNextHiddenBtn"):
+        if st.session_state.page_idx < total_items - 1:
+            st.session_state.page_idx += 1
+            st.rerun()
 
     main_container = st.empty()
 
@@ -149,14 +147,12 @@ if df is not None and not df.empty:
         
         pdf_b64 = get_pdf_page_as_base64("notes.pdf", max(0, pdf_page_idx))
         
-        # 🚀 終極防禦：用 json.dumps 把字串包起來，防止 JS 吃掉反斜線！
         script_data = get_script_json(json_url)
         safe_script_data = json.dumps(script_data)
 
 # ==========================================
 # 【編號 5】HTML 骨架與 CSS 樣式
 # ==========================================
-        # 準備傳給 JS 的變數，判定是否為自動連播模式
         is_autoplay_js = "true" if auto_play else "false"
 
         full_html = f"""
@@ -218,7 +214,7 @@ if df is not None and not df.empty:
         </head>
         <body>
             <div class="header-bar">
-                <div class="title">🚀 考前衝刺旗艦版</div>
+                <div class="title">🚀 考前60天衝刺</div>
                 <div class="btn-group">
                     <button id="fsBtn" class="fs-btn">🔲 全螢幕</button>
                     <button id="pBtn" class="play-btn">▶️ 立刻收聽</button>
@@ -245,9 +241,8 @@ if df is not None and not df.empty:
                 const boardStage = document.getElementById('board-stage');
                 const bubble = document.getElementById('bubble');
                 const msg = document.getElementById('msg');
-                const autoPlayMode = {is_autoplay_js}; // 接收連播設定
+                const autoPlayMode = {is_autoplay_js}; 
                 
-                // 🚀 安全解析 JSON
                 const scriptRaw = {safe_script_data};
                 let script = [];
                 try {{ script = JSON.parse(scriptRaw); }} catch(e) {{ console.error("Script parse error"); }}
@@ -255,12 +250,11 @@ if df is not None and not df.empty:
                 let lastMsgHash = ""; 
                 aud.playbackRate = {play_speed};
 
-                // 🌟 新增：載入時若勾選連播，延遲 0.5 秒後自動播放
                 if (autoPlayMode) {{
                     setTimeout(() => {{
                         aud.play().then(() => {{
                             pBtn.innerText = "⏸️ 暫停";
-                        }}).catch(e => console.log("瀏覽器阻擋自動播放，需點擊按鈕"));
+                        }}).catch(e => console.log("瀏覽器阻擋自動播放"));
                     }}, 500);
                 }}
 
@@ -272,7 +266,7 @@ if df is not None and not df.empty:
 
                 aud.onloadedmetadata = () => {{ document.getElementById('dur').innerText = fmt(aud.duration); sk.max = aud.duration; }};
                 
-                const bs = String.fromCharCode(92); // 安全的反斜線，防 Python 吃掉
+                const bs = String.fromCharCode(92);
 
                 aud.ontimeupdate = () => {{
                     const t = aud.currentTime;
@@ -288,7 +282,6 @@ if df is not None and not df.empty:
                         }}
                     }}
 
-                    // 💬 對話泡泡更新
                     if (mainSub) {{
                         let avatar = mainSub.speaker === '彥君' ? '👨‍🏫 ' : (mainSub.speaker === '曉臻' ? '👩‍🔬 ' : '🎙️ ');
                         let bClass = mainSub.speaker === '彥君' ? 'yanjun' : (mainSub.speaker === '曉臻' ? 'xiaozhen' : 'chorus');
@@ -314,7 +307,6 @@ if df is not None and not df.empty:
                         if (lastMsgHash !== "") {{ bubble.style.opacity = 0; lastMsgHash = ""; }}
                     }}
 
-                    // 📌 算式板書更新
                     activePins.forEach(pin => {{
                         const pinId = 'pin-' + Math.floor(pin.start * 10);
                         if (!document.getElementById(pinId)) {{
@@ -341,13 +333,12 @@ if df is not None and not df.empty:
                     }});
                 }};
                 
-                // 🌟 新增：語音播放結束時的自動連播邏輯
+                // 🌟 自動連播黑科技：時間到直接點擊「隱形」按鈕
                 aud.onended = () => {{
                     if (autoPlayMode) {{
-                        // 跨越 iframe 尋找外層 Streamlit 的「下一集」按鈕並點擊
                         const parentBtns = window.parent.document.querySelectorAll('button');
                         for (let btn of parentBtns) {{
-                            if (btn.innerText.includes('下一集')) {{
+                            if (btn.innerText.includes('AutoNextHiddenBtn')) {{
                                 btn.click();
                                 break;
                             }}
