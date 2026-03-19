@@ -283,7 +283,7 @@
     "start": 100.76,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "② \\ \\text{濃度} = \\frac{20}{120} \\approx 16.7\\%",
+    "text": "② \\ \\text{濃度} = \\frac{20}{120} \\approx 167\\%",
     "is_pinned": true,
     "pin_level": 2
   },
@@ -331,7 +331,7 @@
     "start": 118.92,
     "end": 121.51,
     "speaker": "曉臻",
-    "text": "200mL",
+    "text": "200mL 的水",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -363,7 +363,7 @@
     "start": 129.88,
     "end": 133.21,
     "speaker": "彥君",
-    "text": "200mL",
+    "text": "所以 200mL 的水",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -467,7 +467,7 @@
     "start": 170.22,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "③ \\ \\text{新濃度} = \\frac{40}{440} \\approx 9.1\\%",
+    "text": "③ \\ \\text{新濃度} = \\frac{40}{440} \\approx 91\\%",
     "is_pinned": true,
     "pin_level": 3
   },
