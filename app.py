@@ -9,7 +9,7 @@ import math
 import json  # 🚀 關鍵防護罩套件
 
 # ==========================================
-# 【編號 1】頁面設定與 RWD 響應式 CSS (回歸翩翩體方案)
+# 【編號 1】頁面設定與 RWD 響應式 CSS (翩翩體 + 藍色膠囊按鈕)
 # ==========================================
 st.set_page_config(page_title="會考自然-ai教學", page_icon="📚", layout="wide")
 
@@ -19,7 +19,7 @@ st.markdown("""
     #MainMenu, header, footer {visibility: hidden;}
     .stApp { background-color: #ffffff; }
     
-    /* 🚀 第一方案：全面呼叫蘋果內建「翩翩體」咒語 */
+    /* 🚀 呼叫蘋果內建「翩翩體」咒語 */
     html, body, [class*="css"], p, span, div, b, button, select, input {
         font-family: 'HanziPenTC-W5', 'HanziPenTC-W3', 'HanziPen TC', 'HanziPenSC-W5', 'HanziPenSC-W3', 'HanziPen SC', '翩翩體-繁', '翩翩體-簡', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
@@ -38,17 +38,24 @@ st.markdown("""
     div[data-baseweb="select"] > div { min-height: 40px !important; }
     ul[data-baseweb="menu"] li { font-size: 16px !important; padding: 10px !important; }
     
-    /* 🚀 黑科技：全局隱藏 Python 端的 Streamlit 換頁按鈕 */
-    div[data-testid="stButton"] { display: none !important; }
-    
-    /* 💡 動態按鈕美化：讓連播按鈕跟旁邊的下拉選單完美等高對齊 */
+    /* 💎 終極按鈕美化：讓 Streamlit 的連播按鈕跟底下的「全螢幕」一模一樣的藍色膠囊！ */
     .stButton > button { 
+        background: linear-gradient(135deg, #2b58db, #1d4ed8) !important;
+        color: white !important;
+        border: none !important;
+        border-radius: 50px !important; /* 完美膠囊圓角 */
+        box-shadow: 0 4px 10px rgba(29, 78, 216, 0.2) !important;
         font-size: 16px !important; 
         min-height: 40px !important; 
         width: 100% !important; 
-        border-radius: 8px !important;
         font-weight: bold !important;
         margin-top: 0px !important;
+        transition: all 0.3s ease !important;
+    }
+    .stButton > button:hover {
+        background: linear-gradient(135deg, #1e40af, #1d4ed8) !important;
+        color: white !important;
+        box-shadow: 0 6px 15px rgba(29, 78, 216, 0.3) !important;
     }
 
     /* 📺 大螢幕適配 (電腦/大電視) */
@@ -58,10 +65,10 @@ st.markdown("""
         div[data-baseweb="select"] > div { min-height: 55px !important; }
         ul[data-baseweb="menu"] li { font-size: 22px !important; padding-top: 15px !important; padding-bottom: 15px !important; }
         
+        /* 電腦版按鈕跟著長大 */
         .stButton > button { 
             font-size: 22px !important; 
             min-height: 55px !important; 
-            border-radius: 12px !important;
         }
     }
     </style>
@@ -108,7 +115,7 @@ if df is not None and not df.empty:
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
     current_group_idx = st.session_state.page_idx // group_size
 
-    # 保持完美的 5 個欄位
+    # 完美的 5 個欄位
     c_group, c_unit, c_speed, c_size, c_auto = st.columns([1.5, 1.8, 1.0, 1.5, 1.2])
     
     with c_group:
@@ -141,53 +148,42 @@ if df is not None and not df.empty:
         bubble_fs = size_options[st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")]
 
     with c_auto:
-        # 💡 動態開關按鈕
-        components.html("""
-        <script>
-            // 把 auto_play 的按鈕抓回來顯示
-            const parentBtns = window.parent.document.querySelectorAll('button');
-            parentBtns.forEach(btn => {
-                if (btn.innerText.includes('連播')) {
-                    const targetDiv = btn.closest('div[data-testid="stButton"]');
-                    if (targetDiv) targetDiv.style.display = 'block';
-                }
-            });
-        </script>
-        """, height=0, width=0)
-
+        # 💡 這個按鈕已經被 CSS 改造成超美藍色膠囊了！
         if st.session_state.auto_play:
-            if st.button("🔄 正在連播", type="primary"):  # 啟動時變成醒目的狀態
+            if st.button("🔄 正在連播"):  
                 st.session_state.auto_play = False
                 st.rerun()
         else:
-            if st.button("▶️ 開啟連播", type="secondary"): # 關閉時是一般顏色
+            if st.button("▶️ 開啟連播"): 
                 st.session_state.auto_play = True
                 st.rerun()
 
     auto_play = st.session_state.auto_play
 
-    # 👻 隱藏按鈕：純給 JavaScript 自動點擊換頁用的
+    # 👻 幽靈按鈕：純給 JavaScript 自動點擊換頁用的
     if st.button("AutoNextHiddenBtn", key="hidden_next"):
         if st.session_state.page_idx < total_items - 1:
             st.session_state.page_idx += 1
             st.rerun()
 
-    # 運用 JS 精準狙擊，只把上面這個幽靈按鈕徹底滅跡
+    # 🚀 終極 JS 狙擊：保證幽靈按鈕永遠無法現形，且絕對不影響你的藍色連播按鈕
     components.html("""
     <script>
-        const parentBtns = window.parent.document.querySelectorAll('button');
-        parentBtns.forEach(btn => {
-            if (btn.innerText.includes('AutoNextHiddenBtn')) {
-                const targetDiv = btn.closest('div[data-testid="stButton"]');
-                if (targetDiv) {
-                    targetDiv.style.display = 'none';
-                    targetDiv.style.visibility = 'hidden';
-                    targetDiv.style.height = '0px';
-                    targetDiv.style.margin = '0px';
-                    targetDiv.style.padding = '0px';
+        setInterval(() => {
+            const parentBtns = window.parent.document.querySelectorAll('button');
+            parentBtns.forEach(btn => {
+                if (btn.innerText.includes('AutoNextHiddenBtn')) {
+                    const targetDiv = btn.closest('div[data-testid="stButton"]');
+                    if (targetDiv && targetDiv.style.display !== 'none') {
+                        targetDiv.style.display = 'none';
+                        targetDiv.style.visibility = 'hidden';
+                        targetDiv.style.height = '0px';
+                        targetDiv.style.margin = '0px';
+                        targetDiv.style.padding = '0px';
+                    }
                 }
-            }
-        });
+            });
+        }, 50); 
     </script>
     """, height=0, width=0)
 
@@ -221,7 +217,7 @@ if df is not None and not df.empty:
         <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
         
         <style>
-            /* 🚀 第一方案：播放器內部也全面呼叫蘋果內建翩翩體 */
+            /* 🚀 播放器內部也全面呼叫蘋果內建翩翩體 */
             body {{ 
                 font-family: 'HanziPenTC-W5', 'HanziPenTC-W3', 'HanziPen TC', 'HanziPenSC-W5', 'HanziPenSC-W3', 'HanziPen SC', '翩翩體-繁', '翩翩體-簡', 'PingFang TC', 'Microsoft JhengHei', sans-serif; 
                 margin: 0; padding: 0; background: white; transition: background 0.3s; 
