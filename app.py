@@ -35,34 +35,14 @@ st.markdown("""
     div[data-baseweb="select"] > div { min-height: 40px !important; }
     ul[data-baseweb="menu"] li { font-size: 16px !important; padding: 10px !important; }
     
-    /* 🚀 黑科技：全局隱藏 Python 端的 Streamlit 按鈕，確保版面乾淨！ */
-    div[data-testid="stButton"] { display: none !important; }
-    
-    /* 💎 終極美化：把自動連播 Checkbox 變成藍色外框按鈕 */
-    div[data-testid="stCheckbox"] {
-        border: 2px solid #1d4ed8 !important;
-        background-color: #eff6ff !important;
+    /* 🚀 動態按鈕美化：讓 Streamlit 按鈕跟旁邊的下拉選單完美等高對齊 */
+    .stButton > button { 
+        font-size: 16px !important; 
+        min-height: 40px !important; 
+        width: 100% !important; 
         border-radius: 8px !important;
-        padding: 0 10px !important;
-        height: 40px !important; /* 嚴格對齊手機版下拉選單高度 */
-        display: flex !important;
-        align-items: center !important;
-        margin-top: 0 !important;
-        box-shadow: 0 2px 5px rgba(29, 78, 216, 0.1);
-    }
-    
-    /* 放大打勾的那個小方塊 (手機版比例) */
-    div[data-testid="stCheckbox"] label > div:first-child {
-        transform: scale(1.4) !important; 
-        margin-left: 5px !important;
-        margin-right: 8px !important;
-    }
-
-    div[data-testid="stCheckbox"] label p {
-        font-size: 16px !important;
-        color: #1d4ed8 !important;
         font-weight: bold !important;
-        margin-left: 5px !important;
+        margin-top: 0px !important;
     }
 
     /* 📺 大螢幕適配 (電腦/大電視) */
@@ -72,22 +52,10 @@ st.markdown("""
         div[data-baseweb="select"] > div { min-height: 55px !important; }
         ul[data-baseweb="menu"] li { font-size: 22px !important; padding-top: 15px !important; padding-bottom: 15px !important; }
         
-        /* Checkbox 電腦版自動長大，完美對齊 */
-        div[data-testid="stCheckbox"] {
-            height: 55px !important; /* 嚴格對齊電腦版下拉選單高度 */
+        .stButton > button { 
+            font-size: 22px !important; 
+            min-height: 55px !important; 
             border-radius: 12px !important;
-            padding: 0 15px !important;
-        }
-        
-        /* 放大打勾的那個小方塊 (電腦版比例) */
-        div[data-testid="stCheckbox"] label > div:first-child {
-            transform: scale(1.8) !important; 
-            margin-left: 10px !important;
-            margin-right: 15px !important;
-        }
-
-        div[data-testid="stCheckbox"] label p {
-            font-size: 22px !important; /* 嚴格對齊電腦版字體大小 */
         }
     }
     </style>
@@ -121,19 +89,21 @@ def get_script_json(json_url):
     return "[]"
 
 # ==========================================
-# 【編號 3】佈局實作 (完美恢復 5 欄位)
+# 【編號 3】佈局實作 (超聰明的動態按鈕切換)
 # ==========================================
 df = load_data_fresh()
 
 if df is not None and not df.empty:
     if 'page_idx' not in st.session_state: st.session_state.page_idx = 0
+    if 'auto_play' not in st.session_state: st.session_state.auto_play = False  # 初始化連播狀態
+
     total_items = len(df); group_size = 10
     num_groups = math.ceil(total_items / group_size)
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
     current_group_idx = st.session_state.page_idx // group_size
 
-    # 保持 5 個欄位，比例微調讓藍色框框有足夠空間展示
-    c_group, c_unit, c_speed, c_size, c_auto = st.columns([1.5, 1.8, 1.0, 1.5, 1.2])
+    # 保持 5 個欄位，稍微調整比例讓按鈕文字更舒展
+    c_group, c_unit, c_speed, c_size, c_auto = st.columns([1.5, 1.7, 1.0, 1.5, 1.3])
     
     with c_group:
         selected_group = st.selectbox("範圍", group_labels, index=current_group_idx, label_visibility="collapsed")
@@ -165,15 +135,41 @@ if df is not None and not df.empty:
         bubble_fs = size_options[st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")]
 
     with c_auto:
-        # Checkbox 已經被 CSS 變成超美、等比例放大的藍色外框按鈕了！
-        auto_play = st.checkbox("🔄 自動連播", value=st.session_state.get('auto_play', False))
-        st.session_state.auto_play = auto_play
+        # 💡 大哥的神點子：動態開關按鈕！
+        if st.session_state.auto_play:
+            if st.button("🔄 正在連播", type="primary"):  # 啟動時變成醒目狀態
+                st.session_state.auto_play = False
+                st.rerun()
+        else:
+            if st.button("▶️ 開啟連播", type="secondary"): # 預設平靜狀態
+                st.session_state.auto_play = True
+                st.rerun()
 
-    # 👻 隱藏按鈕：被 CSS 徹底隱形，專門給 JS 自動點擊用的
-    if st.button("AutoNextHiddenBtn"):
+    # 取出狀態給 JS 讀取
+    auto_play = st.session_state.auto_play
+
+    # 👻 隱藏按鈕：純給 JavaScript 自動點擊換頁用的
+    if st.button("AutoNextHiddenBtn", key="hidden_next"):
         if st.session_state.page_idx < total_items - 1:
             st.session_state.page_idx += 1
             st.rerun()
+
+    # 運用 JS 在畫面載入時瞬間把上面的幽靈按鈕徹底滅跡
+    components.html("""
+    <script>
+        const parentBtns = window.parent.document.querySelectorAll('button');
+        parentBtns.forEach(btn => {
+            if (btn.innerText.includes('AutoNextHiddenBtn')) {
+                const targetDiv = btn.closest('div[data-testid="stButton"]');
+                if (targetDiv) {
+                    targetDiv.style.display = 'none';
+                    targetDiv.style.visibility = 'hidden';
+                    targetDiv.style.height = '0px';
+                }
+            }
+        });
+    </script>
+    """, height=0, width=0)
 
     main_container = st.empty()
 
