@@ -1,0 +1,506 @@
+[
+  {
+    "start": 0.0,
+    "end": 2.28,
+    "speaker": "彥君",
+    "text": "哈囉",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 2.28,
+    "end": 5.85,
+    "speaker": "彥君",
+    "text": "各位即將衝 A 的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 5.85,
+    "end": 8.6,
+    "speaker": "彥君",
+    "text": "會考戰士們",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 8.6,
+    "end": 11.5,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 11.5,
+    "end": 14.02,
+    "speaker": "彥君",
+    "text": "恭喜大家",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 14.02,
+    "end": 16.99,
+    "speaker": "彥君",
+    "text": "衝到 第七十集啦",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 16.99,
+    "end": 19.03,
+    "speaker": "曉臻",
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 19.03,
+    "end": 21.66,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 21.66,
+    "end": 24.59,
+    "speaker": "曉臻",
+    "text": "老師 第一點說",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 24.59,
+    "end": 27.49,
+    "speaker": "曉臻",
+    "text": "力學波 需要介質",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 27.49,
+    "end": 30.27,
+    "speaker": "曉臻",
+    "text": "那什麼是 介質啊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 30.27,
+    "end": 32.95,
+    "speaker": "彥君",
+    "text": "介質就是",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 32.95,
+    "end": 36.43,
+    "speaker": "彥君",
+    "text": "幫忙傳遞的 交通工具",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 36.43,
+    "end": 39.69,
+    "speaker": "彥君",
+    "text": "水波的 交通工具",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 39.69,
+    "end": 42.52,
+    "speaker": "彥君",
+    "text": "當然就是 水",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 42.52,
+    "end": 45.82,
+    "speaker": "彥君",
+    "text": "聲波的 交通工具",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 45.82,
+    "end": 48.94,
+    "speaker": "彥君",
+    "text": "通常就是 空氣",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 48.94,
+    "end": 52.42,
+    "speaker": "曉臻",
+    "text": "喔 那電磁波呢",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 52.42,
+    "end": 55.27,
+    "speaker": "曉臻",
+    "text": "它說 不需介質耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 55.27,
+    "end": 58.74,
+    "speaker": "彥君",
+    "text": "沒錯 像太陽光",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 58.74,
+    "end": 61.57,
+    "speaker": "彥君",
+    "text": "或是 紫外線",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 61.57,
+    "end": 64.78,
+    "speaker": "彥君",
+    "text": "在沒有空氣的 太空裡",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 64.78,
+    "end": 68.02,
+    "speaker": "彥君",
+    "text": "一樣可以 傳遞過來",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 68.02,
+    "end": 71.3,
+    "speaker": "曉臻",
+    "text": "老師 下面兩張圖",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 71.3,
+    "end": 73.8,
+    "speaker": "曉臻",
+    "text": "橫波 跟 縱波",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 73.8,
+    "end": 76.29,
+    "speaker": "曉臻",
+    "text": "到底怎麼分啊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 76.29,
+    "end": 79.6,
+    "speaker": "彥君",
+    "text": "看介質的 振動方向",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 79.6,
+    "end": 82.42,
+    "speaker": "彥君",
+    "text": "橫波的介質",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 82.42,
+    "end": 85.28,
+    "speaker": "彥君",
+    "text": "是上下 振動",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 85.28,
+    "end": 88.42,
+    "speaker": "彥君",
+    "text": "波卻是往 右邊 傳",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 88.42,
+    "end": 91.41,
+    "speaker": "彥君",
+    "text": "它們 互相垂直",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 91.41,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "① \\ \\text \\perp \\text",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 95.18,
+    "end": 98.15,
+    "speaker": "曉臻",
+    "text": "那下面 彈簧波的圖",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 98.15,
+    "end": 101.12,
+    "speaker": "曉臻",
+    "text": "填空要寫 縱波 對吧",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 101.12,
+    "end": 105.6,
+    "speaker": "彥君",
+    "text": "沒錯 縱波介質",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 105.6,
+    "end": 108.43,
+    "speaker": "彥君",
+    "text": "是左右 振動",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 108.43,
+    "end": 111.6,
+    "speaker": "彥君",
+    "text": "波也是往 右邊 傳",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 111.6,
+    "end": 114.66,
+    "speaker": "彥君",
+    "text": "它們 互相平行",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 114.66,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "② \\ \\text \\parallel \\text",
+    "is_pinned": true,
+    "pin_level": 2
+  },
+  {
+    "start": 118.38,
+    "end": 120.7,
+    "speaker": "曉臻",
+    "text": "原來如此",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 120.7,
+    "end": 123.12,
+    "speaker": "曉臻",
+    "text": "那圖上那個",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 123.12,
+    "end": 125.62,
+    "speaker": "曉臻",
+    "text": "奇怪的符號",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 125.62,
+    "end": 127.75,
+    "speaker": "曉臻",
+    "text": "怎麼唸啊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 127.75,
+    "end": 130.55,
+    "speaker": "彥君",
+    "text": "那個叫做 \\lambda",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 130.55,
+    "end": 133.88,
+    "speaker": "彥君",
+    "text": "它是用來代表 波長",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 133.88,
+    "end": 136.57,
+    "speaker": "彥君",
+    "text": "對橫波來說",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 136.57,
+    "end": 139.64,
+    "speaker": "彥君",
+    "text": "兩個波峰 的距離",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 139.64,
+    "end": 142.61,
+    "speaker": "彥君",
+    "text": "就是一個 波長",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 142.61,
+    "end": 145.29,
+    "speaker": "曉臻",
+    "text": "那縱波的 波長呢",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 145.29,
+    "end": 148.19,
+    "speaker": "彥君",
+    "text": "就是 兩個密部",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 148.19,
+    "end": 150.95,
+    "speaker": "彥君",
+    "text": "之間的距離 喔",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 150.95,
+    "end": 154.16,
+    "speaker": "彥君",
+    "text": "還有一個 必考重點",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 154.16,
+    "end": 156.58,
+    "speaker": "彥君",
+    "text": "振幅",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 156.58,
+    "end": 159.77,
+    "speaker": "彥君",
+    "text": "它是從 平衡位置",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 159.77,
+    "end": 162.88,
+    "speaker": "彥君",
+    "text": "算到 波峰的高度",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 162.88,
+    "end": 165.98,
+    "speaker": "彥君",
+    "text": "千萬不要 算成",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 165.98,
+    "end": 168.95,
+    "speaker": "彥君",
+    "text": "波峰 到波谷的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 168.95,
+    "end": 171.58,
+    "speaker": "彥君",
+    "text": "全部高度喔",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 171.58,
+    "end": 174.87,
+    "speaker": "曉臻",
+    "text": "哇 這陷阱也太深了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 174.87,
+    "end": 177.77,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 177.77,
+    "end": 180.4,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 180.4,
+    "end": 184.26,
+    "speaker": "合聲",
+    "text": "橫波垂直 縱波平行",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 184.26,
+    "end": 188.1,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
