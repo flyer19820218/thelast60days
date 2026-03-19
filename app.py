@@ -9,7 +9,7 @@ import math
 import json  # 🚀 關鍵防護罩套件
 
 # ==========================================
-# 【編號 1】頁面設定與 RWD 響應式 CSS (翩翩體 + 藍色膠囊按鈕)
+# 【編號 1】頁面設定與 RWD 響應式 CSS (完美齊平膠囊版)
 # ==========================================
 st.set_page_config(page_title="會考自然-ai教學", page_icon="📚", layout="wide")
 
@@ -34,27 +34,35 @@ st.markdown("""
         max-width: 100% !important;
     }
     
+    /* 💡 強制鎖定手機版高度：讓下拉選單與按鈕絕對齊平 */
     div[data-baseweb="select"] { font-size: 16px !important; }
-    div[data-baseweb="select"] > div { min-height: 40px !important; }
+    div[data-baseweb="select"] > div { 
+        height: 44px !important; 
+        min-height: 44px !important; 
+    }
     ul[data-baseweb="menu"] li { font-size: 16px !important; padding: 10px !important; }
     
-    /* 💎 終極按鈕美化：讓 Streamlit 的連播按鈕跟底下的「全螢幕」一模一樣的藍色膠囊！ */
+    /* 💎 終極膠囊按鈕：強制等高、垂直置中、拔除多餘留白 */
     .stButton > button { 
         background: linear-gradient(135deg, #2b58db, #1d4ed8) !important;
         color: white !important;
         border: none !important;
-        border-radius: 50px !important; /* 完美膠囊圓角 */
+        border-radius: 50px !important; 
         box-shadow: 0 4px 10px rgba(29, 78, 216, 0.2) !important;
         font-size: 16px !important; 
-        min-height: 40px !important; 
+        height: 44px !important;       /* 鎖死跟下拉選單一樣高 */
+        min-height: 44px !important; 
         width: 100% !important; 
         font-weight: bold !important;
         margin-top: 0px !important;
+        padding: 0 !important;         /* 拔除內建 padding 避免被撐破 */
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
         transition: all 0.3s ease !important;
     }
     .stButton > button:hover {
         background: linear-gradient(135deg, #1e40af, #1d4ed8) !important;
-        color: white !important;
         box-shadow: 0 6px 15px rgba(29, 78, 216, 0.3) !important;
     }
 
@@ -62,13 +70,19 @@ st.markdown("""
     @media (min-width: 1024px) {
         .block-container { padding-left: 2rem !important; padding-right: 2rem !important; } 
         div[data-baseweb="select"] { font-size: 24px !important; }
-        div[data-baseweb="select"] > div { min-height: 55px !important; }
+        
+        /* 強制鎖定大螢幕高度：完美等高 */
+        div[data-baseweb="select"] > div { 
+            height: 56px !important; 
+            min-height: 56px !important; 
+        }
         ul[data-baseweb="menu"] li { font-size: 22px !important; padding-top: 15px !important; padding-bottom: 15px !important; }
         
-        /* 電腦版按鈕跟著長大 */
+        /* 按鈕同步放大 */
         .stButton > button { 
             font-size: 22px !important; 
-            min-height: 55px !important; 
+            height: 56px !important; 
+            min-height: 56px !important; 
         }
     }
     </style>
@@ -108,15 +122,15 @@ df = load_data_fresh()
 
 if df is not None and not df.empty:
     if 'page_idx' not in st.session_state: st.session_state.page_idx = 0
-    if 'auto_play' not in st.session_state: st.session_state.auto_play = False  # 初始化連播狀態
+    if 'auto_play' not in st.session_state: st.session_state.auto_play = False 
 
     total_items = len(df); group_size = 10
     num_groups = math.ceil(total_items / group_size)
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
     current_group_idx = st.session_state.page_idx // group_size
 
-    # 完美的 5 個欄位
-    c_group, c_unit, c_speed, c_size, c_auto = st.columns([1.5, 1.8, 1.0, 1.5, 1.2])
+    # 🚀 微調比例：給膠囊按鈕稍微多一點點空間 (1.2 -> 1.3)，避免字太擠
+    c_group, c_unit, c_speed, c_size, c_auto = st.columns([1.5, 1.8, 1.0, 1.5, 1.3])
     
     with c_group:
         selected_group = st.selectbox("範圍", group_labels, index=current_group_idx, label_visibility="collapsed")
@@ -148,7 +162,7 @@ if df is not None and not df.empty:
         bubble_fs = size_options[st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")]
 
     with c_auto:
-        # 💡 這個按鈕已經被 CSS 改造成超美藍色膠囊了！
+        # 動態開關按鈕
         if st.session_state.auto_play:
             if st.button("🔄 正在連播"):  
                 st.session_state.auto_play = False
