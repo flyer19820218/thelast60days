@@ -9,18 +9,24 @@ import math
 import json  # 🚀 關鍵防護罩套件
 
 # ==========================================
-# 【編號 1】頁面設定與 RWD 響應式 CSS
+# 【編號 1】頁面設定與 RWD 響應式 CSS (含雲端字體)
 # ==========================================
 st.set_page_config(page_title="會考自然-ai教學", page_icon="📚", layout="wide")
 
 st.markdown("""
     <style>
+    /* 🚀 載入超美雲端手寫字體：霞鶩文楷 */
+    @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
+
     /* 隱藏 Streamlit 預設介面 */
     #MainMenu, header, footer {visibility: hidden;}
     .stApp { background-color: #ffffff; }
-    html, body, [class*="css"], p, span, div, b {
-        font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
+    
+    /* 強制全面套用雲端字體 */
+    html, body, [class*="css"], p, span, div, b, button, select, input {
+        font-family: 'LXGW WenKai TC', 'HanziPen SC', '翩翩體', sans-serif !important;
     }
+    
     .stSelectbox, .stNumberInput { margin-bottom: 0px !important; }
     
     .block-container {
@@ -35,14 +41,34 @@ st.markdown("""
     div[data-baseweb="select"] > div { min-height: 40px !important; }
     ul[data-baseweb="menu"] li { font-size: 16px !important; padding: 10px !important; }
     
-    /* 🚀 動態按鈕美化：讓 Streamlit 按鈕跟旁邊的下拉選單完美等高對齊 */
-    .stButton > button { 
-        font-size: 16px !important; 
-        min-height: 40px !important; 
-        width: 100% !important; 
+    /* 🚀 黑科技：全局隱藏 Python 端的 Streamlit 換頁按鈕 */
+    div[data-testid="stButton"] { display: none !important; }
+    
+    /* 💎 終極美化：把自動連播 Checkbox 變成藍色外框按鈕 */
+    div[data-testid="stCheckbox"] {
+        border: 2px solid #1d4ed8 !important;
+        background-color: #eff6ff !important;
         border-radius: 8px !important;
+        padding: 0 10px !important;
+        height: 40px !important;
+        display: flex !important;
+        align-items: center !important;
+        margin-top: 0 !important;
+        box-shadow: 0 2px 5px rgba(29, 78, 216, 0.1);
+    }
+    
+    /* 放大打勾的方塊 */
+    div[data-testid="stCheckbox"] label > div:first-child {
+        transform: scale(1.4) !important; 
+        margin-left: 5px !important;
+        margin-right: 8px !important;
+    }
+
+    div[data-testid="stCheckbox"] label p {
+        font-size: 16px !important;
+        color: #1d4ed8 !important;
         font-weight: bold !important;
-        margin-top: 0px !important;
+        margin-left: 5px !important;
     }
 
     /* 📺 大螢幕適配 (電腦/大電視) */
@@ -52,17 +78,27 @@ st.markdown("""
         div[data-baseweb="select"] > div { min-height: 55px !important; }
         ul[data-baseweb="menu"] li { font-size: 22px !important; padding-top: 15px !important; padding-bottom: 15px !important; }
         
-        .stButton > button { 
-            font-size: 22px !important; 
-            min-height: 55px !important; 
+        div[data-testid="stCheckbox"] {
+            height: 55px !important;
             border-radius: 12px !important;
+            padding: 0 15px !important;
+        }
+        
+        div[data-testid="stCheckbox"] label > div:first-child {
+            transform: scale(1.8) !important; 
+            margin-left: 10px !important;
+            margin-right: 15px !important;
+        }
+
+        div[data-testid="stCheckbox"] label p {
+            font-size: 22px !important;
         }
     }
     </style>
     """, unsafe_allow_html=True)
 
 # ==========================================
-# 【編號 2】資料讀取與 PDF 轉檔
+# 【編號 2】資料讀取與 PDF 轉檔快取
 # ==========================================
 @st.cache_data(ttl=3600)
 def load_data_fresh():
@@ -89,21 +125,19 @@ def get_script_json(json_url):
     return "[]"
 
 # ==========================================
-# 【編號 3】佈局實作 (超聰明的動態按鈕切換)
+# 【編號 3】佈局實作與動態控制列
 # ==========================================
 df = load_data_fresh()
 
 if df is not None and not df.empty:
     if 'page_idx' not in st.session_state: st.session_state.page_idx = 0
-    if 'auto_play' not in st.session_state: st.session_state.auto_play = False  # 初始化連播狀態
-
     total_items = len(df); group_size = 10
     num_groups = math.ceil(total_items / group_size)
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
     current_group_idx = st.session_state.page_idx // group_size
 
-    # 保持 5 個欄位，稍微調整比例讓按鈕文字更舒展
-    c_group, c_unit, c_speed, c_size, c_auto = st.columns([1.5, 1.7, 1.0, 1.5, 1.3])
+    # 保持完美的 5 個欄位
+    c_group, c_unit, c_speed, c_size, c_auto = st.columns([1.5, 1.8, 1.0, 1.5, 1.2])
     
     with c_group:
         selected_group = st.selectbox("範圍", group_labels, index=current_group_idx, label_visibility="collapsed")
@@ -135,41 +169,15 @@ if df is not None and not df.empty:
         bubble_fs = size_options[st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")]
 
     with c_auto:
-        # 💡 大哥的神點子：動態開關按鈕！
-        if st.session_state.auto_play:
-            if st.button("🔄 正在連播", type="primary"):  # 啟動時變成醒目狀態
-                st.session_state.auto_play = False
-                st.rerun()
-        else:
-            if st.button("▶️ 開啟連播", type="secondary"): # 預設平靜狀態
-                st.session_state.auto_play = True
-                st.rerun()
+        # Checkbox 已經被 CSS 變成超美藍色按鈕了
+        auto_play = st.checkbox("🔄 自動連播", value=st.session_state.get('auto_play', False))
+        st.session_state.auto_play = auto_play
 
-    # 取出狀態給 JS 讀取
-    auto_play = st.session_state.auto_play
-
-    # 👻 隱藏按鈕：純給 JavaScript 自動點擊換頁用的
-    if st.button("AutoNextHiddenBtn", key="hidden_next"):
+    # 👻 隱藏按鈕：被 CSS 徹底隱形，專門給 JS 自動點擊用的
+    if st.button("AutoNextHiddenBtn"):
         if st.session_state.page_idx < total_items - 1:
             st.session_state.page_idx += 1
             st.rerun()
-
-    # 運用 JS 在畫面載入時瞬間把上面的幽靈按鈕徹底滅跡
-    components.html("""
-    <script>
-        const parentBtns = window.parent.document.querySelectorAll('button');
-        parentBtns.forEach(btn => {
-            if (btn.innerText.includes('AutoNextHiddenBtn')) {
-                const targetDiv = btn.closest('div[data-testid="stButton"]');
-                if (targetDiv) {
-                    targetDiv.style.display = 'none';
-                    targetDiv.style.visibility = 'hidden';
-                    targetDiv.style.height = '0px';
-                }
-            }
-        });
-    </script>
-    """, height=0, width=0)
 
     main_container = st.empty()
 
@@ -189,7 +197,7 @@ if df is not None and not df.empty:
         safe_script_data = json.dumps(script_data)
 
 # ==========================================
-# 【編號 5】HTML 骨架與 CSS 樣式
+# 【編號 5】HTML 骨架與 CSS 樣式 (含字幕與板書引擎)
 # ==========================================
         is_autoplay_js = "true" if auto_play else "false"
 
@@ -199,9 +207,12 @@ if df is not None and not df.empty:
         <head>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
         <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap" rel="stylesheet">
         
         <style>
-            body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; transition: background 0.3s; }}
+            /* 全面套用霞鶩文楷手寫字體 */
+            body {{ font-family: 'LXGW WenKai TC', sans-serif; margin: 0; padding: 0; background: white; transition: background 0.3s; }}
+            
             .header-bar {{ display: flex; align-items: center; justify-content: space-between; padding: clamp(5px, 1.5vh, 10px) 20px; border-bottom: 1px solid #f0f0f0; transition: 0.3s; }}
             .title {{ color: #1d4ed8; font-size: clamp(20px, 3.5vw, 34px); font-weight: bold; margin: 0; }}
             
@@ -209,6 +220,7 @@ if df is not None and not df.empty:
             .play-btn, .fs-btn {{ 
                 background: linear-gradient(135deg, #2b58db, #1d4ed8); color: white; padding: clamp(8px, 1.5vh, 10px) clamp(12px, 2vw, 25px); 
                 border-radius: 50px; font-weight: bold; font-size: clamp(14px, 2vw, 18px); cursor: pointer; border: none; box-shadow: 0 4px 10px rgba(29, 78, 216, 0.2);
+                font-family: 'LXGW WenKai TC', sans-serif;
             }}
             .pdf-view {{ position: relative; width: 100%; overflow: hidden; }}
             .pdf-img {{ width: 100%; display: block; }}
@@ -390,6 +402,10 @@ if df is not None and not df.empty:
         </body>
         </html>
         """
+
+# ==========================================
+# 【編號 6】前端渲染區塊
+# ==========================================
         with main_container: components.html(full_html, height=1400, scrolling=True)
 
     except Exception as e: st.error(f"系統錯誤： {e}")
