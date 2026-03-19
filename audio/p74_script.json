@@ -1,0 +1,290 @@
+[
+  {
+    "start": 0.0,
+    "end": 4.58,
+    "speaker": "彥君",
+    "text": "哈囉 各位衝 A 的會考戰士們",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 4.58,
+    "end": 10.34,
+    "speaker": "彥君",
+    "text": "我做彥君老師 今天來到 第七十四集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 10.34,
+    "end": 13.84,
+    "speaker": "曉臻",
+    "text": "大家好 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 13.84,
+    "end": 18.27,
+    "speaker": "曉臻",
+    "text": "老師 終於進入 光學的基本單元了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 18.27,
+    "end": 23.28,
+    "speaker": "彥君",
+    "text": "光的傳播 是直線前進的 所以稱為光線",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 23.28,
+    "end": 28.22,
+    "speaker": "曉臻",
+    "text": "因為光走直線 擋住的地方 就會變成影子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 28.22,
+    "end": 34.22,
+    "speaker": "彥君",
+    "text": "沒錯 影子是光 直線前進的 最好證明",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 34.22,
+    "end": 39.09,
+    "speaker": "曉臻",
+    "text": "右邊那棵大樹 就是經典的 針孔成像對吧",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 39.09,
+    "end": 44.96,
+    "speaker": "彥君",
+    "text": "是的 記住大原則 一個小洞 一個像",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 44.96,
+    "end": 49.83,
+    "speaker": "曉臻",
+    "text": "所以講義的空格 三個小洞 就是三個像",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 49.83,
+    "end": 55.61,
+    "speaker": "彥君",
+    "text": "舉一反三喔 這裡老師要補充一個考點",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 55.61,
+    "end": 60.58,
+    "speaker": "彥君",
+    "text": "大家有沒有注意過 太陽天在 大樹底下",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 60.58,
+    "end": 64.41,
+    "speaker": "彥君",
+    "text": "常常看到很多 圓形的白點",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 64.41,
+    "end": 68.2,
+    "speaker": "曉臻",
+    "text": "有啊以前都以為 只是光斑",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 68.2,
+    "end": 72.59,
+    "speaker": "彥君",
+    "text": "其實那每一個圓點 都是太陽的像喔",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 72.59,
+    "end": 76.16,
+    "speaker": "彥君",
+    "text": "因為樹葉間的 每個小縫隙",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 76.16,
+    "end": 80.48,
+    "speaker": "彥君",
+    "text": "都可以看成 一個針孔 每個小洞",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 80.48,
+    "end": 85.03,
+    "speaker": "彥君",
+    "text": "都是一個針孔成像 所以有幾個洞",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 85.03,
+    "end": 89.9,
+    "speaker": "彥君",
+    "text": "就會看到幾個圓點 也就是 幾個太陽的像",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 89.9,
+    "end": 94.98,
+    "speaker": "曉臻",
+    "text": "哇 洞多像多 這個連結 太厲害了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 94.98,
+    "end": 98.44,
+    "speaker": "彥君",
+    "text": "那把洞 挖得很大 怎麼辦",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 98.44,
+    "end": 103.11,
+    "speaker": "曉臻",
+    "text": "洞變大 光線重疊 就會變成 模糊的像了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 103.11,
+    "end": 107.88,
+    "speaker": "彥君",
+    "text": "非常好 我們把空格答案 釘在畫面上",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 107.88,
+    "end": 112.87,
+    "speaker": "彥君",
+    "text": "} 3 \\text]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 112.87,
+    "end": 117.21,
+    "speaker": "彥君",
+    "text": "針孔成像所成的像 一定是",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 117.21,
+    "end": 121.1,
+    "speaker": "彥君",
+    "text": "「上下顛倒、左右相反」的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 121.1,
+    "end": 124.72,
+    "speaker": "曉臻",
+    "text": "原本上下左右 都是顛倒的啊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 124.72,
+    "end": 128.74,
+    "speaker": "曉臻",
+    "text": "記起來了 針孔上下 顛倒顛倒",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 128.74,
+    "end": 135.56,
+    "speaker": "彥君",
+    "text": "沒錯 接著看左下角 反射定律 永遠都會成立",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 135.56,
+    "end": 140.06,
+    "speaker": "曉臻",
+    "text": "入射角 等於反射角 也就是 i 等於 r 嗎",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 140.06,
+    "end": 145.96,
+    "speaker": "彥君",
+    "text": "沒錯 要注意角度 是和中間法線 的夾角喔",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 145.96,
+    "end": 152.06,
+    "speaker": "曉臻",
+    "text": "哇 這集光學基礎 補充考點後 更好懂了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 152.06,
+    "end": 156.97,
+    "speaker": "彥君",
+    "text": "觀念全通了 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 156.97,
+    "end": 159.61,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 159.61,
+    "end": 164.16,
+    "speaker": "合聲",
+    "text": "針孔顛倒顛倒 入射等於 反射角",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 164.16,
+    "end": 168.0,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
