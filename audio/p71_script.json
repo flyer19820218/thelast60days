@@ -1,7 +1,7 @@
 [
   {
     "start": 0.0,
-    "end": 2.28,
+    "end": 1.78,
     "speaker": "彥君",
     "text": "哈囉",
     "is_pinned": false,
@@ -9,7 +9,7 @@
   },
   {
     "start": 2.28,
-    "end": 5.85,
+    "end": 5.35,
     "speaker": "彥君",
     "text": "各位即將衝 A 的",
     "is_pinned": false,
@@ -17,7 +17,7 @@
   },
   {
     "start": 5.85,
-    "end": 8.6,
+    "end": 8.1,
     "speaker": "彥君",
     "text": "會考戰士們",
     "is_pinned": false,
@@ -25,7 +25,7 @@
   },
   {
     "start": 8.6,
-    "end": 11.5,
+    "end": 11.0,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
@@ -33,7 +33,7 @@
   },
   {
     "start": 11.5,
-    "end": 14.98,
+    "end": 14.48,
     "speaker": "彥君",
     "text": "今天來到 第七十一集",
     "is_pinned": false,
@@ -41,7 +41,7 @@
   },
   {
     "start": 14.98,
-    "end": 17.93,
+    "end": 17.43,
     "speaker": "彥君",
     "text": "這是三顆星的",
     "is_pinned": false,
@@ -49,7 +49,7 @@
   },
   {
     "start": 17.93,
-    "end": 20.73,
+    "end": 20.23,
     "speaker": "彥君",
     "text": "波速大魔王",
     "is_pinned": false,
@@ -57,7 +57,7 @@
   },
   {
     "start": 20.73,
-    "end": 22.77,
+    "end": 22.27,
     "speaker": "曉臻",
     "text": "大家好",
     "is_pinned": false,
@@ -65,7 +65,7 @@
   },
   {
     "start": 22.77,
-    "end": 25.4,
+    "end": 24.9,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
@@ -73,7 +73,7 @@
   },
   {
     "start": 25.4,
-    "end": 28.42,
+    "end": 27.92,
     "speaker": "曉臻",
     "text": "老師 講義上的",
     "is_pinned": false,
@@ -81,7 +81,7 @@
   },
   {
     "start": 28.42,
-    "end": 30.89,
+    "end": 30.39,
     "speaker": "曉臻",
     "text": "週期 跟 頻率",
     "is_pinned": false,
@@ -89,7 +89,7 @@
   },
   {
     "start": 30.89,
-    "end": 33.77,
+    "end": 33.27,
     "speaker": "曉臻",
     "text": "怎麼好像 繞口令啊",
     "is_pinned": false,
@@ -97,7 +97,7 @@
   },
   {
     "start": 33.77,
-    "end": 36.79,
+    "end": 36.29,
     "speaker": "彥君",
     "text": "週期 是一個Ｔ",
     "is_pinned": false,
@@ -105,7 +105,7 @@
   },
   {
     "start": 36.79,
-    "end": 39.9,
+    "end": 39.4,
     "speaker": "彥君",
     "text": "意思是 吃一次飯",
     "is_pinned": false,
@@ -113,7 +113,7 @@
   },
   {
     "start": 39.9,
-    "end": 43.02,
+    "end": 42.52,
     "speaker": "彥君",
     "text": "需要花 多少時間",
     "is_pinned": false,
@@ -121,7 +121,7 @@
   },
   {
     "start": 43.02,
-    "end": 45.94,
+    "end": 45.44,
     "speaker": "彥君",
     "text": "單位通常是 秒",
     "is_pinned": false,
@@ -129,7 +129,7 @@
   },
   {
     "start": 45.94,
-    "end": 49.42,
+    "end": 48.92,
     "speaker": "曉臻",
     "text": "喔 那頻率 ｆ",
     "is_pinned": false,
@@ -137,7 +137,7 @@
   },
   {
     "start": 49.42,
-    "end": 52.27,
+    "end": 51.77,
     "speaker": "曉臻",
     "text": "就是 一秒鐘之內",
     "is_pinned": false,
@@ -145,7 +145,7 @@
   },
   {
     "start": 52.27,
-    "end": 55.29,
+    "end": 54.79,
     "speaker": "曉臻",
     "text": "可以吃 幾次飯 對吧",
     "is_pinned": false,
@@ -153,7 +153,7 @@
   },
   {
     "start": 55.29,
-    "end": 57.98,
+    "end": 57.48,
     "speaker": "彥君",
     "text": "完全正確",
     "is_pinned": false,
@@ -161,7 +161,7 @@
   },
   {
     "start": 57.98,
-    "end": 60.95,
+    "end": 60.45,
     "speaker": "彥君",
     "text": "所以它們兩個",
     "is_pinned": false,
@@ -169,7 +169,7 @@
   },
   {
     "start": 60.95,
-    "end": 64.02,
+    "end": 63.52,
     "speaker": "彥君",
     "text": "剛好是 倒數關係",
     "is_pinned": false,
@@ -177,7 +177,7 @@
   },
   {
     "start": 64.02,
-    "end": 67.37,
+    "end": 66.87,
     "speaker": "彥君",
     "text": "T \\times f = 1",
     "is_pinned": false,
@@ -185,7 +185,7 @@
   },
   {
     "start": 67.37,
-    "end": 70.08,
+    "end": 69.58,
     "speaker": "曉臻",
     "text": "那最重要的 波速",
     "is_pinned": false,
@@ -193,7 +193,7 @@
   },
   {
     "start": 70.08,
-    "end": 72.4,
+    "end": 71.9,
     "speaker": "曉臻",
     "text": "該怎麼算呢",
     "is_pinned": false,
@@ -201,7 +201,7 @@
   },
   {
     "start": 72.4,
-    "end": 75.3,
+    "end": 74.8,
     "speaker": "彥君",
     "text": "波速的公式 是",
     "is_pinned": false,
@@ -209,7 +209,7 @@
   },
   {
     "start": 75.3,
-    "end": 78.66,
+    "end": 78.16,
     "speaker": "彥君",
     "text": "V = f \\times \\lambda",
     "is_pinned": false,
@@ -217,7 +217,7 @@
   },
   {
     "start": 78.66,
-    "end": 81.92,
+    "end": 81.42,
     "speaker": "曉臻",
     "text": "老師 下面的紅字",
     "is_pinned": false,
@@ -225,7 +225,7 @@
   },
   {
     "start": 81.92,
-    "end": 84.96,
+    "end": 84.46,
     "speaker": "曉臻",
     "text": "說波 在傳遞的時候",
     "is_pinned": false,
@@ -233,7 +233,7 @@
   },
   {
     "start": 84.96,
-    "end": 87.72,
+    "end": 87.22,
     "speaker": "曉臻",
     "text": "頻率 絕對不會變",
     "is_pinned": false,
@@ -241,7 +241,7 @@
   },
   {
     "start": 87.72,
-    "end": 90.79,
+    "end": 90.29,
     "speaker": "彥君",
     "text": "頻率是 波的基因",
     "is_pinned": false,
@@ -249,7 +249,7 @@
   },
   {
     "start": 90.79,
-    "end": 94.14,
+    "end": 93.64,
     "speaker": "彥君",
     "text": "生出來 是什麼頻率",
     "is_pinned": false,
@@ -257,7 +257,7 @@
   },
   {
     "start": 94.14,
-    "end": 97.38,
+    "end": 96.88,
     "speaker": "彥君",
     "text": "傳到哪裡 都不會變",
     "is_pinned": false,
@@ -265,7 +265,7 @@
   },
   {
     "start": 97.38,
-    "end": 100.3,
+    "end": 99.8,
     "speaker": "曉臻",
     "text": "哇 基因不會變",
     "is_pinned": false,
@@ -273,7 +273,7 @@
   },
   {
     "start": 100.3,
-    "end": 102.99,
+    "end": 102.49,
     "speaker": "曉臻",
     "text": "所以改變的 只有",
     "is_pinned": false,
@@ -281,7 +281,7 @@
   },
   {
     "start": 102.99,
-    "end": 105.6,
+    "end": 105.1,
     "speaker": "曉臻",
     "text": "波長 跟 波速嗎",
     "is_pinned": false,
@@ -289,7 +289,7 @@
   },
   {
     "start": 105.6,
-    "end": 109.94,
+    "end": 109.44,
     "speaker": "彥君",
     "text": "沒錯 觀念很棒",
     "is_pinned": false,
@@ -297,7 +297,7 @@
   },
   {
     "start": 109.94,
-    "end": 112.84,
+    "end": 112.34,
     "speaker": "曉臻",
     "text": "那是什麼 決定波速",
     "is_pinned": false,
@@ -305,7 +305,7 @@
   },
   {
     "start": 112.84,
-    "end": 116.05,
+    "end": 115.55,
     "speaker": "彥君",
     "text": "波速 只歸一個人管",
     "is_pinned": false,
@@ -313,7 +313,7 @@
   },
   {
     "start": 116.05,
-    "end": 118.71,
+    "end": 118.21,
     "speaker": "彥君",
     "text": "就是 介質",
     "is_pinned": false,
@@ -321,7 +321,7 @@
   },
   {
     "start": 118.71,
-    "end": 122.07,
+    "end": 121.57,
     "speaker": "彥君",
     "text": "像聲音 傳遞的速度",
     "is_pinned": false,
@@ -329,7 +329,7 @@
   },
   {
     "start": 122.07,
-    "end": 124.97,
+    "end": 124.47,
     "speaker": "彥君",
     "text": "就會受到 氣溫",
     "is_pinned": false,
@@ -337,7 +337,7 @@
   },
   {
     "start": 124.97,
-    "end": 128.06,
+    "end": 127.56,
     "speaker": "彥君",
     "text": "還有 溼度的影響",
     "is_pinned": false,
@@ -345,7 +345,7 @@
   },
   {
     "start": 128.06,
-    "end": 130.38,
+    "end": 129.88,
     "speaker": "曉臻",
     "text": "原來如此",
     "is_pinned": false,
@@ -353,7 +353,7 @@
   },
   {
     "start": 130.38,
-    "end": 133.28,
+    "end": 132.78,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
@@ -361,7 +361,7 @@
   },
   {
     "start": 133.28,
-    "end": 135.92,
+    "end": 135.42,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
@@ -369,7 +369,7 @@
   },
   {
     "start": 135.92,
-    "end": 138.63,
+    "end": 138.13,
     "speaker": "合聲",
     "text": "頻率是基因",
     "is_pinned": false,
@@ -377,7 +377,7 @@
   },
   {
     "start": 138.63,
-    "end": 141.48,
+    "end": 140.98,
     "speaker": "合聲",
     "text": "波速看介質",
     "is_pinned": false,
@@ -385,7 +385,7 @@
   },
   {
     "start": 141.48,
-    "end": 145.29,
+    "end": 144.79,
     "speaker": "合聲",
     "text": "戰士們 我們女中相見",
     "is_pinned": false,
