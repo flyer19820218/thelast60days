@@ -36,18 +36,43 @@ st.markdown("""
     ul[data-baseweb="menu"] li { font-size: 16px !important; padding: 10px !important; }
     
     /* 🚀 黑科技：全局隱藏 Python 端的 Streamlit 按鈕，確保版面乾淨！ */
-    /* (不影響播放器裡面的 HTML 按鈕) */
     div[data-testid="stButton"] { display: none !important; }
     
-    /* 微調複選框(Checkbox)的對齊 */
-    .stCheckbox { margin-top: 8px !important; }
+    /* 💎 終極美化：把自動連播 Checkbox 變成藍色外框按鈕 */
+    div[data-testid="stCheckbox"] {
+        border: 2px solid #1d4ed8 !important;
+        background-color: #eff6ff !important;
+        border-radius: 8px !important;
+        padding: 0 10px !important;
+        height: 40px !important; /* 嚴格對齊手機版下拉選單高度 */
+        display: flex !important;
+        align-items: center !important;
+        margin-top: 0 !important;
+        box-shadow: 0 2px 5px rgba(29, 78, 216, 0.1);
+    }
+    div[data-testid="stCheckbox"] label p {
+        font-size: 16px !important;
+        color: #1d4ed8 !important;
+        font-weight: bold !important;
+        margin-left: 5px !important;
+    }
 
+    /* 📺 大螢幕適配 (電腦/大電視) */
     @media (min-width: 1024px) {
         .block-container { padding-left: 2rem !important; padding-right: 2rem !important; } 
         div[data-baseweb="select"] { font-size: 24px !important; }
         div[data-baseweb="select"] > div { min-height: 55px !important; }
         ul[data-baseweb="menu"] li { font-size: 22px !important; padding-top: 15px !important; padding-bottom: 15px !important; }
-        .stCheckbox { margin-top: 15px !important; }
+        
+        /* Checkbox 電腦版自動長大，完美對齊 */
+        div[data-testid="stCheckbox"] {
+            height: 55px !important; /* 嚴格對齊電腦版下拉選單高度 */
+            border-radius: 12px !important;
+            padding: 0 15px !important;
+        }
+        div[data-testid="stCheckbox"] label p {
+            font-size: 22px !important; /* 嚴格對齊電腦版字體大小 */
+        }
     }
     </style>
     """, unsafe_allow_html=True)
@@ -91,8 +116,8 @@ if df is not None and not df.empty:
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
     current_group_idx = st.session_state.page_idx // group_size
 
-    # 恢復完美的 5 個欄位
-    c_group, c_unit, c_speed, c_size, c_auto = st.columns([1.5, 1.8, 1.0, 1.5, 1.0])
+    # 保持 5 個欄位，比例微調讓藍色框框有足夠空間展示
+    c_group, c_unit, c_speed, c_size, c_auto = st.columns([1.5, 1.8, 1.0, 1.5, 1.2])
     
     with c_group:
         selected_group = st.selectbox("範圍", group_labels, index=current_group_idx, label_visibility="collapsed")
@@ -124,6 +149,7 @@ if df is not None and not df.empty:
         bubble_fs = size_options[st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")]
 
     with c_auto:
+        # 現在這個 Checkbox 已經被 CSS 變成超美的藍色外框按鈕了！
         auto_play = st.checkbox("🔄 自動連播", value=st.session_state.get('auto_play', False))
         st.session_state.auto_play = auto_play
 
