@@ -36,12 +36,16 @@ st.markdown("""
     ul[data-baseweb="menu"] li { font-size: 16px !important; padding: 10px !important; }
     .stButton > button { font-size: 16px !important; min-height: 40px !important; width: 100% !important; padding: 5px !important; }
     
+    /* 微調複選框(Checkbox)的對齊 */
+    .stCheckbox { margin-top: 8px !important; }
+
     @media (min-width: 1024px) {
         .block-container { padding-left: 2rem !important; padding-right: 2rem !important; } 
         div[data-baseweb="select"] { font-size: 24px !important; }
         div[data-baseweb="select"] > div { min-height: 55px !important; }
         ul[data-baseweb="menu"] li { font-size: 22px !important; padding-top: 15px !important; padding-bottom: 15px !important; }
-        .stButton > button { font-size: 24px !important; min-height: 55px !important; }
+        .stButton > button { font-size: 20px !important; min-height: 55px !important; font-weight: bold !important; }
+        .stCheckbox { margin-top: 15px !important; }
     }
     </style>
     """, unsafe_allow_html=True)
@@ -74,7 +78,7 @@ def get_script_json(json_url):
     return "[]"
 
 # ==========================================
-# 【編號 3】佈局實作 (控制列邏輯)
+# 【編號 3】佈局實作 (新增連播與下一集按鈕)
 # ==========================================
 df = load_data_fresh()
 
@@ -85,7 +89,8 @@ if df is not None and not df.empty:
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
     current_group_idx = st.session_state.page_idx // group_size
 
-    c_group, c_unit, c_speed, c_size = st.columns([1.5, 1.7, 1.0, 1.8])
+    # 重新分配欄位比例，讓出空間給「連播」與「下一集」
+    c_group, c_unit, c_speed, c_size, c_auto, c_next = st.columns([1.5, 1.6, 1.0, 1.5, 0.9, 1.0])
     
     with c_group:
         selected_group = st.selectbox("範圍", group_labels, index=current_group_idx, label_visibility="collapsed")
@@ -109,12 +114,26 @@ if df is not None and not df.empty:
         
     with c_size:
         size_options = {
-            "電視霸氣 (後排看清楚)": "clamp(32px, 5vw, 100px)",
-            "標準教學 (大螢幕首選)": "clamp(24px, 3.5vw, 65px)",
-            "手機隨身 (近距離讀)": "clamp(18px, 5vmin, 36px)",
-            "自動適配 (系統計算)": "clamp(20px, 4vw, 70px)" 
+            "電視霸氣 (大)": "clamp(32px, 5vw, 100px)",
+            "標準教學 (中)": "clamp(24px, 3.5vw, 65px)",
+            "手機隨身 (小)": "clamp(18px, 5vmin, 36px)",
+            "自動適配 (佳)": "clamp(20px, 4vw, 70px)" 
         }
         bubble_fs = size_options[st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")]
+
+    with c_auto:
+        # 讀取並儲存自動播放的狀態
+        auto_play = st.checkbox("🔄 自動連播", value=st.session_state.get('auto_play', False))
+        st.session_state.auto_play = auto_play
+
+    with c_next:
+        # 手動跳下一集，或是讓 JavaScript 模擬點擊這個按鈕
+        if st.button("⏭️ 下一集"):
+            if st.session_state.page_idx < total_items - 1:
+                st.session_state.page_idx += 1
+                st.rerun()
+            else:
+                st.success("🎉 恭喜！這已經是最後一集囉！")
 
     main_container = st.empty()
 
@@ -137,6 +156,9 @@ if df is not None and not df.empty:
 # ==========================================
 # 【編號 5】HTML 骨架與 CSS 樣式
 # ==========================================
+        # 準備傳給 JS 的變數，判定是否為自動連播模式
+        is_autoplay_js = "true" if auto_play else "false"
+
         full_html = f"""
         <!DOCTYPE html>
         <html>
@@ -223,6 +245,7 @@ if df is not None and not df.empty:
                 const boardStage = document.getElementById('board-stage');
                 const bubble = document.getElementById('bubble');
                 const msg = document.getElementById('msg');
+                const autoPlayMode = {is_autoplay_js}; // 接收連播設定
                 
                 // 🚀 安全解析 JSON
                 const scriptRaw = {safe_script_data};
@@ -231,6 +254,15 @@ if df is not None and not df.empty:
                 
                 let lastMsgHash = ""; 
                 aud.playbackRate = {play_speed};
+
+                // 🌟 新增：載入時若勾選連播，延遲 0.5 秒後自動播放
+                if (autoPlayMode) {{
+                    setTimeout(() => {{
+                        aud.play().then(() => {{
+                            pBtn.innerText = "⏸️ 暫停";
+                        }}).catch(e => console.log("瀏覽器阻擋自動播放，需點擊按鈕"));
+                    }}, 500);
+                }}
 
                 pBtn.onclick = () => {{ if(aud.paused) {{ aud.play(); pBtn.innerText = "⏸️ 暫停"; }} else {{ aud.pause(); pBtn.innerText = "▶️ 繼續"; }} }};
                 fsBtn.onclick = () => {{
@@ -267,7 +299,6 @@ if df is not None and not df.empty:
                             if (rawText.includes(bs)) {{
                                 let splitIdx = rawText.indexOf(bs);
                                 let prefix = rawText.substring(0, splitIdx);
-                                // 安全轉義 %，防止 KaTeX 把百分比當註解吃掉
                                 let mathPart = rawText.substring(splitIdx).split('%').join(bs + '%').split(bs + bs + '%').join(bs + '%');
                                 try {{
                                     msg.innerHTML = prefix + katex.renderToString(mathPart, {{throwOnError: true}});
@@ -310,6 +341,20 @@ if df is not None and not df.empty:
                     }});
                 }};
                 
+                // 🌟 新增：語音播放結束時的自動連播邏輯
+                aud.onended = () => {{
+                    if (autoPlayMode) {{
+                        // 跨越 iframe 尋找外層 Streamlit 的「下一集」按鈕並點擊
+                        const parentBtns = window.parent.document.querySelectorAll('button');
+                        for (let btn of parentBtns) {{
+                            if (btn.innerText.includes('下一集')) {{
+                                btn.click();
+                                break;
+                            }}
+                        }}
+                    }}
+                }};
+
                 sk.oninput = () => aud.currentTime = sk.value;
                 function fmt(s) {{ return Math.floor(s/60) + ":" + String(Math.floor(s%60)).padStart(2,'0'); }}
             </script>
