@@ -1,7 +1,7 @@
 [
   {
     "start": 0.0,
-    "end": 4.58,
+    "end": 4.08,
     "speaker": "彥君",
     "text": "哈囉 各位衝 A 的會考戰士們",
     "is_pinned": false,
@@ -9,7 +9,7 @@
   },
   {
     "start": 4.58,
-    "end": 10.36,
+    "end": 9.86,
     "speaker": "彥君",
     "text": "我是彥君老師 今天來到 第七十三集",
     "is_pinned": false,
@@ -17,7 +17,7 @@
   },
   {
     "start": 10.36,
-    "end": 13.86,
+    "end": 13.36,
     "speaker": "曉臻",
     "text": "大家好 我是曉臻助教",
     "is_pinned": false,
@@ -25,7 +25,7 @@
   },
   {
     "start": 13.86,
-    "end": 18.68,
+    "end": 18.18,
     "speaker": "曉臻",
     "text": "老師 今天要講 兩顆星的 回聲大魔王",
     "is_pinned": false,
@@ -33,7 +33,7 @@
   },
   {
     "start": 18.68,
-    "end": 24.75,
+    "end": 24.25,
     "speaker": "彥君",
     "text": "沒錯 戰士們記得 回聲跟原本的聲音",
     "is_pinned": false,
@@ -41,7 +41,7 @@
   },
   {
     "start": 24.75,
-    "end": 29.59,
+    "end": 29.09,
     "speaker": "彥君",
     "text": "只有 振幅跟方向 不同 其他都不會變",
     "is_pinned": false,
@@ -49,7 +49,7 @@
   },
   {
     "start": 29.59,
-    "end": 34.63,
+    "end": 34.13,
     "speaker": "曉臻",
     "text": "講義上說 至少要 十七公尺 才聽得到回聲",
     "is_pinned": false,
@@ -57,7 +57,7 @@
   },
   {
     "start": 34.63,
-    "end": 38.61,
+    "end": 38.11,
     "speaker": "曉臻",
     "text": "這個 十七公尺 是怎麼算出來的呀",
     "is_pinned": false,
@@ -65,7 +65,7 @@
   },
   {
     "start": 38.61,
-    "end": 43.36,
+    "end": 42.86,
     "speaker": "彥君",
     "text": "人耳要分辨回聲 至少需要 零點一秒",
     "is_pinned": false,
@@ -73,7 +73,7 @@
   },
   {
     "start": 43.36,
-    "end": 48.08,
+    "end": 47.58,
     "speaker": "彥君",
     "text": "聲音秒速 三百四十 乘以 零點一秒",
     "is_pinned": false,
@@ -81,7 +81,7 @@
   },
   {
     "start": 48.08,
-    "end": 52.44,
+    "end": 51.94,
     "speaker": "彥君",
     "text": "代表聲音來回 總共走了 三十四公尺",
     "is_pinned": false,
@@ -89,7 +89,7 @@
   },
   {
     "start": 52.44,
-    "end": 56.81,
+    "end": 56.31,
     "speaker": "彥君",
     "text": "除以二 單趟距離 就是十七公尺啦",
     "is_pinned": false,
@@ -105,7 +105,7 @@
   },
   {
     "start": 60.12,
-    "end": 65.7,
+    "end": 65.2,
     "speaker": "曉臻",
     "text": "哇 來回除以二 這個推導真的太清楚了",
     "is_pinned": false,
@@ -113,7 +113,7 @@
   },
   {
     "start": 65.7,
-    "end": 70.5,
+    "end": 70.0,
     "speaker": "彥君",
     "text": "接下來看 超聲波 頻率超過 兩萬赫茲",
     "is_pinned": false,
@@ -121,7 +121,7 @@
   },
   {
     "start": 70.5,
-    "end": 75.25,
+    "end": 74.75,
     "speaker": "彥君",
     "text": "因為人類 聽不到 所以有很多 神奇應用喔",
     "is_pinned": false,
@@ -129,7 +129,7 @@
   },
   {
     "start": 75.25,
-    "end": 80.38,
+    "end": 79.88,
     "speaker": "曉臻",
     "text": "像是 判斷水深、 倒車雷達 還有超音波掃描",
     "is_pinned": false,
@@ -137,7 +137,7 @@
   },
   {
     "start": 80.38,
-    "end": 87.34,
+    "end": 86.84,
     "speaker": "彥君",
     "text": "沒錯 還有蝙蝠飛行 洗眼鏡的 超音波清潔",
     "is_pinned": false,
@@ -145,7 +145,7 @@
   },
   {
     "start": 87.34,
-    "end": 92.04,
+    "end": 91.54,
     "speaker": "曉臻",
     "text": "老師 那如果想 避免回聲 干擾怎麼辦",
     "is_pinned": false,
@@ -153,7 +153,7 @@
   },
   {
     "start": 92.04,
-    "end": 98.08,
+    "end": 97.58,
     "speaker": "彥君",
     "text": "很簡單 只要用 柔軟而且 不平整的材質",
     "is_pinned": false,
@@ -161,7 +161,7 @@
   },
   {
     "start": 98.08,
-    "end": 102.73,
+    "end": 102.23,
     "speaker": "彥君",
     "text": "就能把聲音 吸收或打散 避免回聲囉",
     "is_pinned": false,
@@ -169,7 +169,7 @@
   },
   {
     "start": 102.73,
-    "end": 107.7,
+    "end": 107.2,
     "speaker": "曉臻",
     "text": "懂了 柔軟不平整 就能消滅回聲",
     "is_pinned": false,
@@ -177,7 +177,7 @@
   },
   {
     "start": 107.7,
-    "end": 112.61,
+    "end": 112.11,
     "speaker": "彥君",
     "text": "觀念全通了 我是彥君老師",
     "is_pinned": false,
@@ -185,7 +185,7 @@
   },
   {
     "start": 112.61,
-    "end": 115.25,
+    "end": 114.75,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
@@ -193,15 +193,15 @@
   },
   {
     "start": 115.25,
-    "end": 119.73,
+    "end": 118.18,
     "speaker": "合聲",
-    "text": "回聲要算來回 柔軟材質 吸聲音",
+    "text": "來回除二 柔軟吸音",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 119.73,
-    "end": 123.57,
+    "start": 118.68,
+    "end": 122.01,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
