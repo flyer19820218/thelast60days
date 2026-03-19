@@ -9,223 +9,559 @@
   },
   {
     "start": 2.3,
-    "end": 7.86,
+    "end": 5.87,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的會考戰士們 我是彥君老師",
+    "text": "各位即將衝 A 的",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 7.86,
-    "end": 11.44,
+    "start": 5.87,
+    "end": 8.63,
     "speaker": "彥君",
-    "text": "今天來到 第六十九集",
+    "text": "會考戰士們",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 11.44,
-    "end": 15.92,
-    "speaker": "彥君",
-    "text": "我們要來挑戰 理化計算的 終極大魔王",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 15.92,
-    "end": 19.42,
-    "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 19.42,
-    "end": 25.63,
-    "speaker": "曉臻",
-    "text": "老師 這題一口氣 問了三個問題耶 我光看題目就頭暈了",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 25.63,
-    "end": 31.08,
-    "speaker": "彥君",
-    "text": "題目說 溶解度 是 20g/100g水",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 31.08,
-    "end": 35.63,
-    "speaker": "彥君",
-    "text": "兩百克的水 最多可以溶解 多少克",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 35.63,
-    "end": 41.51,
-    "speaker": "曉臻",
-    "text": "這個我會 水變成兩倍 胃口當然也變兩倍",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 41.51,
-    "end": 45.68,
-    "speaker": "曉臻",
-    "text": "所以 二十 乘以 二 等於 四十克",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 45.68,
-    "end": 9999.0,
-    "speaker": "彥君",
-    "text": "① 200g水 ➜ 溶40g溶質",
-    "is_pinned": true,
-    "pin_level": 1
-  },
-  {
-    "start": 52.83,
-    "end": 58.58,
-    "speaker": "彥君",
-    "text": "接著看 第二題 它問 飽和濃度 是多少",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 58.58,
-    "end": 62.37,
-    "speaker": "曉臻",
-    "text": "濃度就是 把溶質 除以 全部嘛",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 62.37,
-    "end": 67.96,
-    "speaker": "曉臻",
-    "text": "溶質是 二十 全部是 二十加一百 等於 一百二十",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 67.96,
-    "end": 74.7,
-    "speaker": "彥君",
-    "text": "完全正確",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 74.7,
-    "end": 9999.0,
-    "speaker": "彥君",
-    "text": "② 飽和濃度 = 20÷120 ≒ 167%",
-    "is_pinned": true,
-    "pin_level": 2
-  },
-  {
-    "start": 81.61,
-    "end": 88.2,
-    "speaker": "曉臻",
-    "text": "老師 那第三題 如果再加入 200mL 的水 濃度變多少",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 88.2,
-    "end": 95.23,
-    "speaker": "彥君",
-    "text": "這裡有個 小常識 水的密度是一 所以 200mL 的水 就是 兩百克",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 95.23,
-    "end": 102.38,
-    "speaker": "彥君",
-    "text": "原本的杯子裡 已經有 兩百克的水 現在又加了 兩百克",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 102.38,
-    "end": 107.2,
-    "speaker": "曉臻",
-    "text": "喔 所以現在 水 總共有 四百克了",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 107.2,
-    "end": 113.27,
-    "speaker": "彥君",
-    "text": "沒錯 那溶質 還是剛剛算出來的 四十克",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 113.27,
-    "end": 121.33,
-    "speaker": "彥君",
-    "text": "所以新的濃度 就是 四十 除以 全部 全部是 四十 加上 四百",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 121.33,
-    "end": 9999.0,
-    "speaker": "彥君",
-    "text": "③ 加水後濃度 = 40÷440 ≒ 91%",
-    "is_pinned": true,
-    "pin_level": 3
-  },
-  {
-    "start": 128.52,
-    "end": 135.22,
-    "speaker": "曉臻",
-    "text": "哇 算式留在畫面上 一步一步看 真的超清楚耶",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 135.22,
-    "end": 140.01,
-    "speaker": "彥君",
-    "text": "沒錯 這就是我們的 究極板書系統",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 140.01,
-    "end": 142.91,
+    "start": 8.63,
+    "end": 11.53,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 142.91,
-    "end": 145.55,
+    "start": 11.53,
+    "end": 15.1,
+    "speaker": "彥君",
+    "text": "今天來到 第六十九集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 15.1,
+    "end": 17.93,
+    "speaker": "彥君",
+    "text": "我們要來挑戰",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 17.93,
+    "end": 20.71,
+    "speaker": "彥君",
+    "text": "理化計算的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 20.71,
+    "end": 23.54,
+    "speaker": "彥君",
+    "text": "終極大魔王",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 23.54,
+    "end": 25.57,
+    "speaker": "曉臻",
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 25.57,
+    "end": 28.21,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 145.55,
-    "end": 149.38,
+    "start": 28.21,
+    "end": 31.4,
+    "speaker": "曉臻",
+    "text": "老師 這題一口氣",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 31.4,
+    "end": 34.2,
+    "speaker": "曉臻",
+    "text": "問了三個問題耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 34.2,
+    "end": 36.69,
+    "speaker": "曉臻",
+    "text": "我光看題目",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 36.69,
+    "end": 38.94,
+    "speaker": "曉臻",
+    "text": "就頭暈了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 38.94,
+    "end": 42.44,
+    "speaker": "彥君",
+    "text": "題目說 溶解度 是",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 42.44,
+    "end": 46.4,
+    "speaker": "彥君",
+    "text": "\\frac}",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 46.4,
+    "end": 49.16,
+    "speaker": "彥君",
+    "text": "兩百克的水",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 49.16,
+    "end": 52.15,
+    "speaker": "彥君",
+    "text": "最多可以溶解",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 52.15,
+    "end": 54.57,
+    "speaker": "彥君",
+    "text": "多少克",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 54.57,
+    "end": 56.75,
+    "speaker": "曉臻",
+    "text": "這個我會",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 56.75,
+    "end": 59.34,
+    "speaker": "曉臻",
+    "text": "水變成兩倍",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 59.34,
+    "end": 62.24,
+    "speaker": "曉臻",
+    "text": "胃口當然也變兩倍",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 62.24,
+    "end": 65.21,
+    "speaker": "曉臻",
+    "text": "所以 二十 乘以 二",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 65.21,
+    "end": 67.63,
+    "speaker": "曉臻",
+    "text": "等於 四十克",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 67.63,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "① \\ 200g\\text \\rightarrow 40g\\text",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 72.09,
+    "end": 74.85,
+    "speaker": "彥君",
+    "text": "兩百克的水",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 74.85,
+    "end": 78.11,
+    "speaker": "彥君",
+    "text": "可溶 四十克溶質",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 78.11,
+    "end": 81.15,
+    "speaker": "彥君",
+    "text": "接著看 第二題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 81.15,
+    "end": 84.48,
+    "speaker": "彥君",
+    "text": "它問 飽和濃度 是多少",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 84.48,
+    "end": 86.83,
+    "speaker": "曉臻",
+    "text": "濃度就是",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 86.83,
+    "end": 89.83,
+    "speaker": "曉臻",
+    "text": "把溶質 除以 全部嘛",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 89.83,
+    "end": 92.42,
+    "speaker": "曉臻",
+    "text": "溶質是 二十",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 92.42,
+    "end": 95.44,
+    "speaker": "曉臻",
+    "text": "全部是 二十加一百",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 95.44,
+    "end": 98.07,
+    "speaker": "曉臻",
+    "text": "等於 一百二十",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 98.07,
+    "end": 100.76,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 100.76,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "② \\ \\text = \\frac \\approx 167\\%",
+    "is_pinned": true,
+    "pin_level": 2
+  },
+  {
+    "start": 104.4,
+    "end": 107.73,
+    "speaker": "彥君",
+    "text": "二十 除以 一百二十",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 107.73,
+    "end": 110.22,
+    "speaker": "彥君",
+    "text": "大約是",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 110.22,
+    "end": 113.36,
+    "speaker": "彥君",
+    "text": "百分之 十六點七",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 113.36,
+    "end": 116.53,
+    "speaker": "曉臻",
+    "text": "老師 那第三題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 116.53,
+    "end": 118.92,
+    "speaker": "曉臻",
+    "text": "如果再加入",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 118.92,
+    "end": 121.51,
+    "speaker": "曉臻",
+    "text": "200mL 的水",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 121.51,
+    "end": 123.98,
+    "speaker": "曉臻",
+    "text": "濃度變多少",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 123.98,
+    "end": 127.1,
+    "speaker": "彥君",
+    "text": "這裡有個 小常識",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 127.1,
+    "end": 129.88,
+    "speaker": "彥君",
+    "text": "水的密度是一",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 129.88,
+    "end": 133.21,
+    "speaker": "彥君",
+    "text": "所以 200mL 的水",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 133.21,
+    "end": 136.01,
+    "speaker": "彥君",
+    "text": "就是 兩百克",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 136.01,
+    "end": 138.84,
+    "speaker": "彥君",
+    "text": "原本的杯子裡",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 138.84,
+    "end": 142.05,
+    "speaker": "彥君",
+    "text": "已經有 兩百克的水",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 142.05,
+    "end": 145.41,
+    "speaker": "彥君",
+    "text": "現在又加了 兩百克",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 145.41,
+    "end": 148.86,
+    "speaker": "曉臻",
+    "text": "喔 所以現在",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 148.86,
+    "end": 151.9,
+    "speaker": "曉臻",
+    "text": "水 總共有 四百克了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 151.9,
+    "end": 154.3,
+    "speaker": "彥君",
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 154.3,
+    "end": 157.08,
+    "speaker": "彥君",
+    "text": "那溶質 還是",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 157.08,
+    "end": 160.44,
+    "speaker": "彥君",
+    "text": "剛剛算出來的 四十克",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 160.44,
+    "end": 163.46,
+    "speaker": "彥君",
+    "text": "所以新的濃度",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 163.46,
+    "end": 166.79,
+    "speaker": "彥君",
+    "text": "就是 四十 除以 全部",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 166.79,
+    "end": 170.22,
+    "speaker": "彥君",
+    "text": "全部是 四十 加 四百",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 170.22,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "③ \\ \\text = \\frac \\approx 91\\%",
+    "is_pinned": true,
+    "pin_level": 3
+  },
+  {
+    "start": 174.1,
+    "end": 177.6,
+    "speaker": "彥君",
+    "text": "四十 除以 四百四十",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 177.6,
+    "end": 180.09,
+    "speaker": "彥君",
+    "text": "大約是",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 180.09,
+    "end": 182.92,
+    "speaker": "彥君",
+    "text": "百分之 九點一",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 182.92,
+    "end": 186.97,
+    "speaker": "曉臻",
+    "text": "哇 算式留在畫面上",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 186.97,
+    "end": 189.3,
+    "speaker": "曉臻",
+    "text": "一步一步看",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 189.3,
+    "end": 192.0,
+    "speaker": "曉臻",
+    "text": "真的超清楚耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 192.0,
+    "end": 195.84,
+    "speaker": "彥君",
+    "text": "沒錯 這就是我們的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 195.84,
+    "end": 198.79,
+    "speaker": "彥君",
+    "text": "究極板書系統",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 198.79,
+    "end": 201.69,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 201.69,
+    "end": 204.32,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 204.32,
+    "end": 208.16,
     "speaker": "合聲",
     "text": "算式留底 濃度無敵",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 149.38,
-    "end": 153.22,
+    "start": 208.16,
+    "end": 212.0,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
