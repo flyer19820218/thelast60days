@@ -50,6 +50,14 @@ st.markdown("""
         margin-top: 0 !important;
         box-shadow: 0 2px 5px rgba(29, 78, 216, 0.1);
     }
+    
+    /* 放大打勾的那個小方塊 (手機版比例) */
+    div[data-testid="stCheckbox"] label > div:first-child {
+        transform: scale(1.4) !important; 
+        margin-left: 5px !important;
+        margin-right: 8px !important;
+    }
+
     div[data-testid="stCheckbox"] label p {
         font-size: 16px !important;
         color: #1d4ed8 !important;
@@ -70,6 +78,14 @@ st.markdown("""
             border-radius: 12px !important;
             padding: 0 15px !important;
         }
+        
+        /* 放大打勾的那個小方塊 (電腦版比例) */
+        div[data-testid="stCheckbox"] label > div:first-child {
+            transform: scale(1.8) !important; 
+            margin-left: 10px !important;
+            margin-right: 15px !important;
+        }
+
         div[data-testid="stCheckbox"] label p {
             font-size: 22px !important; /* 嚴格對齊電腦版字體大小 */
         }
@@ -149,7 +165,7 @@ if df is not None and not df.empty:
         bubble_fs = size_options[st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")]
 
     with c_auto:
-        # 現在這個 Checkbox 已經被 CSS 變成超美的藍色外框按鈕了！
+        # Checkbox 已經被 CSS 變成超美、等比例放大的藍色外框按鈕了！
         auto_play = st.checkbox("🔄 自動連播", value=st.session_state.get('auto_play', False))
         st.session_state.auto_play = auto_play
 
