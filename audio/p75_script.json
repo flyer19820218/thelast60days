@@ -1,249 +1,401 @@
 [
   {
     "start": 0.0,
-    "end": 4.08,
-    "speaker": "彥君",
-    "text": "哈囉 各位衝 A 的會考戰士們",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 4.58,
-    "end": 10.36,
-    "speaker": "彥君",
-    "text": "我是彥君老師 今天來到 最後的第七十五集",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 10.86,
-    "end": 13.86,
+    "end": 4.66,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教",
+    "text": "第75集 面鏡總整理與三面鏡陷阱題}",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 14.36,
-    "end": 19.48,
+    "start": 4.86,
+    "end": 6.84,
+    "speaker": "彥君",
+    "text": "哈囉",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 7.04,
+    "end": 10.29,
+    "speaker": "彥君",
+    "text": "各位衝 A 的戰士們",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 10.49,
+    "end": 13.09,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 13.29,
+    "end": 15.02,
     "speaker": "曉臻",
-    "text": "老師 這集是面鏡成像 講義上有好多蘋果喔",
+    "text": "大家好",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 19.98,
-    "end": 25.66,
-    "speaker": "彥君",
-    "text": "我們先看 第一個平面鏡 每天出門照的鏡子",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 26.16,
-    "end": 30.89,
-    "speaker": "彥君",
-    "text": "裡面就是 正立的虛像 大小跟原本一模一樣",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 31.39,
-    "end": 35.42,
+    "start": 15.22,
+    "end": 17.56,
     "speaker": "曉臻",
-    "text": "所以講義右邊 那顆大小一樣的蘋果",
+    "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 35.92,
-    "end": 38.59,
+    "start": 17.76,
+    "end": 19.54,
     "speaker": "曉臻",
-    "text": "就是 平面鏡的成像囉",
+    "text": "老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 39.09,
-    "end": 45.45,
-    "speaker": "彥君",
-    "text": "沒錯 接著看 第二個凹面鏡 它會把光線 聚集起來",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 45.95,
-    "end": 50.84,
-    "speaker": "彥君",
-    "text": "照探照燈 或是化妝用的 放大鏡 都是凹面鏡喔",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 51.34,
-    "end": 55.98,
+    "start": 19.74,
+    "end": 22.87,
     "speaker": "曉臻",
-    "text": "講義寫它能產生 放大虛像 還有 倒立實像 耶",
+    "text": "畫面上整理了三種面鏡",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 56.48,
-    "end": 63.34,
-    "speaker": "彥君",
-    "text": "對 你看講義下面 那顆顛倒的蘋果 就是倒立實像",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 63.84,
-    "end": 69.17,
+    "start": 23.07,
+    "end": 25.58,
     "speaker": "曉臻",
-    "text": "老師 那第三個凸面鏡呢 它有什麼功用呀",
+    "text": "但右邊的蘋果圖",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 69.67,
-    "end": 74.52,
-    "speaker": "彥君",
-    "text": "凸面鏡 會讓光線散開 所以看到的 視野非常大",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 75.02,
-    "end": 80.01,
-    "speaker": "彥君",
-    "text": "像是馬路轉角 的反射鏡 或是 汽車後照鏡 都是喔",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 80.51,
-    "end": 86.1,
+    "start": 25.78,
+    "end": 28.04,
     "speaker": "曉臻",
-    "text": "喔 它能看到很廣 但裡面的東西 都會縮小對吧",
+    "text": "是要考什麼呀",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 86.6,
-    "end": 92.98,
+    "start": 28.24,
+    "end": 31.3,
     "speaker": "彥君",
-    "text": "完全正確 上面那顆 縮小的蘋果 就是凸面鏡的像",
+    "text": "戰士們， 注意看！",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 93.48,
-    "end": 98.09,
+    "start": 31.5,
+    "end": 34.62,
+    "speaker": "彥君",
+    "text": "這是一個經典陷阱題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 34.82,
+    "end": 37.71,
+    "speaker": "彥君",
+    "text": "左邊筆記雖然寫了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 37.91,
+    "end": 41.76,
+    "speaker": "彥君",
+    "text": "平面、 凹面、 凸面鏡",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 41.96,
+    "end": 44.8,
+    "speaker": "彥君",
+    "text": "但右邊的三個黑框",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 45.0,
+    "end": 47.94,
+    "speaker": "彥君",
+    "text": "其實都是平面鏡喔",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 48.14,
+    "end": 49.54,
     "speaker": "曉臻",
-    "text": "老師 這三個面鏡 考試最喜歡 怎麼考啊",
+    "text": "咦",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 98.59,
-    "end": 104.74,
-    "speaker": "彥君",
-    "text": "考卷最愛考 虛像大小比較 還有 靠近時像怎麼走",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 105.24,
-    "end": 109.75,
-    "speaker": "彥君",
-    "text": "老師把這兩個 必考絕招 釘在黑板的空白處",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 110.25,
-    "end": 114.57,
-    "speaker": "彥君",
-    "text": "虛像大小 是凹面鏡 最大 凸面鏡 最小",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 115.07,
-    "end": 120.95,
-    "speaker": "彥君",
-    "text": "凹面鏡} > \\text > \\text]",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 121.45,
-    "end": 125.98,
-    "speaker": "彥君",
-    "text": "另外只要是虛像 當蘋果 靠近鏡面的時候",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 126.48,
-    "end": 130.68,
-    "speaker": "彥君",
-    "text": "鏡子裡面的像 統統都會跟著 靠近鏡面喔",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 131.18,
-    "end": 136.68,
-    "speaker": "彥君",
-    "text": "三個面鏡的虛像 皆會靠近鏡面}]",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 137.18,
-    "end": 142.51,
+    "start": 49.74,
+    "end": 52.26,
     "speaker": "曉臻",
-    "text": "哇 這兩個絕招 釘在畫面上 真的太清楚了",
+    "text": "三面都是平面鏡",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 143.01,
-    "end": 147.86,
-    "speaker": "彥君",
-    "text": "只要掌握這個規律 面鏡成像 就絕對難不倒你",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 148.36,
-    "end": 152.75,
+    "start": 52.46,
+    "end": 54.92,
     "speaker": "曉臻",
-    "text": "我是曉臻助教 祝大家 考試順利",
+    "text": "蘋果向左邊移動",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 153.25,
-    "end": 158.1,
+    "start": 55.12,
+    "end": 57.65,
+    "speaker": "曉臻",
+    "text": "像會往哪裡跑呢",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 57.85,
+    "end": 60.93,
+    "speaker": "彥君",
+    "text": "記住平面鏡的原則",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 61.13,
+    "end": 64.21,
+    "speaker": "彥君",
+    "text": "永遠是物距等於像距",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 64.41,
+    "end": 67.25,
+    "speaker": "彥君",
+    "text": "蘋果往左邊移動",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 67.45,
+    "end": 70.58,
+    "speaker": "彥君",
+    "text": "離右邊鏡子越來越遠",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 70.78,
+    "end": 73.47,
+    "speaker": "曉臻",
+    "text": "所以右邊的蘋果像",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 73.67,
+    "end": 76.13,
+    "speaker": "曉臻",
+    "text": "會向右邊退後",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 76.33,
+    "end": 78.4,
+    "speaker": "彥君",
+    "text": "答對了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 78.6,
+    "end": 81.37,
+    "speaker": "彥君",
+    "text": "那上下兩面鏡子呢",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 81.57,
+    "end": 84.0,
+    "speaker": "曉臻",
+    "text": "蘋果向左平移",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 84.2,
+    "end": 86.97,
+    "speaker": "曉臻",
+    "text": "和上下鏡子的距離",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 87.17,
+    "end": 89.65,
+    "speaker": "曉臻",
+    "text": "完全沒有改變耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 89.85,
+    "end": 93.12,
+    "speaker": "彥君",
+    "text": "沒錯 距離不變",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 93.32,
+    "end": 96.33,
+    "speaker": "彥君",
+    "text": "所以上下的蘋果像",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 96.53,
+    "end": 98.98,
+    "speaker": "彥君",
+    "text": "會跟著本尊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 99.18,
+    "end": 101.95,
+    "speaker": "彥君",
+    "text": "一起向左邊平移喔",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 102.15,
+    "end": 105.09,
+    "speaker": "彥君",
+    "text": "老師把這題的答案",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 105.29,
+    "end": 107.62,
+    "speaker": "彥君",
+    "text": "釘選起來",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 107.82,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "上下像左移， 右像右移",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 112.28,
+    "end": 115.36,
+    "speaker": "曉臻",
+    "text": "哇 分開來看",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 115.56,
+    "end": 118.14,
+    "speaker": "曉臻",
+    "text": "其實一點都不難嘛",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 118.34,
+    "end": 120.43,
+    "speaker": "彥君",
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 120.63,
+    "end": 123.74,
+    "speaker": "彥君",
+    "text": "另外左邊筆記提到的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 123.94,
+    "end": 126.56,
+    "speaker": "彥君",
+    "text": "凹面鏡會聚光",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 126.76,
+    "end": 129.53,
+    "speaker": "彥君",
+    "text": "凸面鏡視野很大",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 129.73,
+    "end": 132.18,
+    "speaker": "彥君",
+    "text": "也要一起記熟喔",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 132.38,
+    "end": 134.94,
+    "speaker": "曉臻",
+    "text": "祝大家考試順利",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 135.14,
+    "end": 138.02,
     "speaker": "合聲",
-    "text": "只要掌握這個規律 面鏡成像 就絕對難不倒你",
+    "text": "只要掌握這個規律",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 158.6,
-    "end": 161.76,
+    "start": 138.22,
+    "end": 141.42,
     "speaker": "合聲",
-    "text": "凹大凸小 像隨物跑",
+    "text": "陷阱題絕對難不倒你",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 162.26,
-    "end": 165.91,
+    "start": 141.62,
+    "end": 143.74,
     "speaker": "合聲",
-    "text": "戰士們 我們會考 頂峰相見",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 143.94,
+    "end": 147.34,
+    "speaker": "合聲",
+    "text": "我們會考 頂峰相見",
     "is_pinned": false,
     "pin_level": 0
   }
