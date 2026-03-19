@@ -14,11 +14,15 @@ st.set_page_config(page_title="會考自然-旗艦教學版", page_icon="📚", 
 
 st.markdown("""
     <style>
+    /* 隱藏 Streamlit 預設介面 */
     #MainMenu, header, footer {visibility: hidden;}
     .stApp { background-color: #ffffff; }
     html, body, [class*="css"], p, span, div, b {
         font-family: 'HanziPen SC', '翩翩體', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
+    .stSelectbox, .stNumberInput { margin-bottom: 0px !important; }
+    
+    /* 🌟 移除 Streamlit 邊距， 讓畫面貼齊螢幕邊緣 */
     .block-container {
         padding-top: 1rem !important;
         padding-left: 0rem !important;
@@ -27,18 +31,25 @@ st.markdown("""
         max-width: 100% !important;
     }
     
-    /* 📺【大電視霸氣模式設定】 */
+    /* 📱【手機/平板預設模式】 */
+    div[data-baseweb="select"] { font-size: 16px !important; }
+    div[data-baseweb="select"] > div { min-height: 40px !important; }
+    ul[data-baseweb="menu"] li { font-size: 16px !important; padding: 10px !important; }
+    .stButton > button { font-size: 16px !important; min-height: 40px !important; width: 100% !important; padding: 5px !important; }
+    
+    /* 📺【大電視霸氣模式】 */
     @media (min-width: 1024px) {
         .block-container { padding-left: 2rem !important; padding-right: 2rem !important; } 
         div[data-baseweb="select"] { font-size: 24px !important; }
         div[data-baseweb="select"] > div { min-height: 55px !important; }
+        ul[data-baseweb="menu"] li { font-size: 22px !important; padding-top: 15px !important; padding-bottom: 15px !important; }
         .stButton > button { font-size: 24px !important; min-height: 55px !important; }
     }
     </style>
     """, unsafe_allow_html=True)
 
 # ==========================================
-# 【編號 2】資料讀取與快取
+# 【編號 2】資料讀取與 PDF 轉檔 (加入加速快取)
 # ==========================================
 @st.cache_data(ttl=3600)
 def load_data_fresh():
@@ -71,7 +82,7 @@ def get_script_json(json_url):
     return "[]"
 
 # ==========================================
-# 【編號 3】控制介面
+# 【編號 3】佈局實作 (控制列邏輯)
 # ==========================================
 df = load_data_fresh()
 
@@ -96,151 +107,262 @@ if df is not None and not df.empty:
 
     with c_unit:
         start_idx = new_group_idx * group_size
-        sub_df = df.iloc[start_idx:min(start_idx + group_size, total_items)]
+        end_idx = min(start_idx + group_size, total_items)
+        sub_df = df.iloc[start_idx:end_idx]
         unit_list = sub_df['Title'].tolist()
         local_idx = st.session_state.page_idx - start_idx
-        selected_day = st.selectbox("單元", unit_list, index=local_idx if local_idx < len(unit_list) else 0, label_visibility="collapsed")
-        st.session_state.page_idx = start_idx + unit_list.index(selected_day)
+        selected_day = st.selectbox("單元", unit_list, index=local_idx, label_visibility="collapsed")
+        new_local_idx = unit_list.index(selected_day)
+        if new_local_idx != local_idx:
+            st.session_state.page_idx = start_idx + new_local_idx
+            st.rerun()
             
     with c_speed:
-        speed_options = {"正常 1.0x": 1.0, "微快 1.25x": 1.25, "衝刺 1.5x": 1.5}
+        speed_options = {"正常 1.0x": 1.0, "微快 1.25x": 1.25, "衝刺 1.5x": 1.5, "超光速 2.0x": 2.0}
         selected_speed_label = st.selectbox("語速", list(speed_options.keys()), index=0, label_visibility="collapsed")
         play_speed = speed_options[selected_speed_label]
         
     with c_size:
         size_options = {
-            "電視霸氣": "clamp(32px, 5vw, 100px)",
-            "標準教學": "clamp(24px, 3.5vw, 65px)",
-            "手機隨身": "clamp(18px, 5vmin, 36px)"
+            "電視霸氣 (後排看清楚)": "clamp(32px, 5vw, 100px)",
+            "標準教學 (大螢幕首選)": "clamp(24px, 3.5vw, 65px)",
+            "手機隨身 (近距離讀)": "clamp(18px, 5vmin, 36px)",
+            "自動適配 (系統計算)": "clamp(20px, 4vw, 70px)" 
         }
-        bubble_fs = size_options[st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")]
+        selected_size_label = st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")
+        bubble_fs = size_options[selected_size_label]
 
     main_container = st.empty()
 
 # ==========================================
-# 【編號 4】資料解析
+# 【編號 4】資料準備與解析
 # ==========================================
     try:
         row = df.iloc[st.session_state.page_idx]
-        pdf_page_idx = int(str(row['頁碼']).strip()) - 1 if '頁碼' in df.columns else 0
+        try:
+            pdf_page_idx = int(str(row['頁碼']).strip()) - 1
+            if pdf_page_idx < 0: pdf_page_idx = 0
+        except:
+            pdf_page_idx = 0
+
         audio_path = str(row['Audio_Path']).strip().lstrip('/')
+        
         audio_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path}?t={time.time()}"
         json_url = f"https://raw.githubusercontent.com/flyer19820218/thelast60days/main/{audio_path.replace('.mp3', '_script.json')}"
-        pdf_b64 = get_pdf_page_as_base64("notes.pdf", pdf_page_idx if pdf_page_idx >= 0 else 0)
+        
+        pdf_b64 = get_pdf_page_as_base64("notes.pdf", pdf_page_idx)
         script_data = get_script_json(json_url)
 
 # ==========================================
-# 【編號 5】HTML/JS 核心核心 (雙軌不塞車 + 無泡泡板書)
+# 【編號 5】HTML 骨架與 CSS 樣式
 # ==========================================
         full_html = f"""
         <!DOCTYPE html>
         <html>
         <head>
         <style>
-            body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; }}
-            .header-bar {{ display: flex; align-items: center; justify-content: space-between; padding: 10px 20px; border-bottom: 1px solid #eee; }}
-            .title {{ color: #1d4ed8; font-size: 24px; font-weight: bold; }}
-            .play-btn, .fs-btn {{ background: #1d4ed8; color: white; padding: 10px 20px; border-radius: 50px; border: none; cursor: pointer; font-weight: bold; margin-left: 5px; }}
+            body {{ font-family: sans-serif; margin: 0; padding: 0; background: white; transition: background 0.3s; }}
+            .header-bar {{ display: flex; align-items: center; justify-content: space-between; padding: clamp(5px, 1.5vh, 10px) 20px; border-bottom: 1px solid #f0f0f0; transition: 0.3s; }}
+            .title {{ color: #1d4ed8; font-size: clamp(20px, 3.5vw, 34px); font-weight: bold; margin: 0; transition: 0.3s; }}
+            
+            .btn-group {{ display: flex; gap: 8px; }}
+            .play-btn, .fs-btn {{ 
+                background: linear-gradient(135deg, #2b58db, #1d4ed8); 
+                color: white; padding: clamp(8px, 1.5vh, 10px) clamp(12px, 2vw, 25px); 
+                border-radius: 50px; font-weight: bold; font-size: clamp(14px, 2vw, 18px); 
+                cursor: pointer; border: none; transition: 0.3s ease; box-shadow: 0 4px 10px rgba(29, 78, 216, 0.2);
+            }}
+            .play-btn:hover, .fs-btn:hover {{ background: linear-gradient(135deg, #1e40af, #1d4ed8); box-shadow: 0 6px 15px rgba(29, 78, 216, 0.3); }}
             
             .pdf-view {{ position: relative; width: 100%; }}
             .pdf-img {{ width: 100%; display: block; }}
             
-            /* 💬 軌道 A：對話區 (有泡泡) */
-            .subtitle-stage {{ position: absolute; bottom: 8%; width: 100%; display: flex; flex-direction: column; padding: 0 40px; box-sizing: border-box; pointer-events: none; }}
+            .seek-panel {{ width: 100%; background: #fdfdfd; padding: 10px 20px; display: flex; align-items: center; gap: 15px; box-sizing: border-box; border-bottom: 1px solid #eee; transition: 0.3s; }}
+            input[type=range] {{ flex: 1; accent-color: #1d4ed8; cursor: pointer; height: 10px; }}
+            .time-box {{ font-size: 14px; color: #64748b; min-width: 95px; text-align: right; }}
+            
+            .subtitle-stage {{ 
+                position: absolute; bottom: 8%; width: 100%; display: flex; flex-direction: column; padding: 0 clamp(15px, 4vw, 40px); box-sizing: border-box; z-index: 10; pointer-events: none; 
+            }}
+            
             .bubble {{ 
-                max-width: 85%; padding: 15px 25px; border-radius: 20px; font-size: {bubble_fs}; 
-                opacity: 0; transition: 0.3s; font-weight: bold; box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+                max-width: 90%; 
+                padding: clamp(10px, 2.5vmin, 30px); 
+                border-radius: 20px; 
+                box-shadow: 0 8px 30px rgba(0,0,0,0.08); 
+                font-size: {bubble_fs}; 
+                line-height: 1.5; 
+                opacity: 0; 
+                transition: all 0.3s ease; 
+                backdrop-filter: blur(4px); 
+                -webkit-backdrop-filter: blur(4px); 
+                pointer-events: auto;
+                font-weight: bold; 
             }}
-            .yanjun {{ align-self: flex-start; background: rgba(235, 245, 255, 0.9); color: #004085; border: 2px solid #b8daff; }}
-            .xiaozhen {{ align-self: flex-end; background: rgba(FFF5F5, 0.9); color: #721c24; border: 2px solid #f5c6cb; }}
-            .chorus {{ align-self: center; background: linear-gradient(to bottom, #fff, #ffeeba); color: #856404; border: 2px solid #ffeeba; }}
-
-            /* 📌 軌道 B：黑板區 (無泡泡，專業手寫感) */
-            .board-stage {{ position: absolute; top: 10%; right: 5%; display: flex; flex-direction: column; gap: 15px; max-width: 40%; pointer-events: none; }}
-            .board-item {{
-                background: rgba(0, 0, 0, 0.6); /* 半透明深色底，像黑板 */
-                color: #ffeb3b; /* 亮黃色，像重點粉筆 */
-                padding: 10px 20px; border-radius: 8px;
-                font-size: calc({bubble_fs} * 0.85);
-                font-family: 'Courier New', Courier, monospace; /* 字體更有科技/算式感 */
-                border-left: 5px solid #ffeb3b;
-                box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-                animation: slideIn 0.5s ease-out forwards;
+            
+            /* 分別定義 A、B 與合聲氣泡的樣式 */
+            .yanjun {{ align-self: flex-start; background-color: rgba(227, 242, 253, 0.2); color: #0d47a1; border: 1px solid rgba(187, 222, 251, 0.5); border-bottom-left-radius: 2px; }}
+            .xiaozhen {{ align-self: flex-end; background-color: rgba(254, 242, 242, 0.2); color: #991b1b; border: 1px solid rgba(254, 202, 202, 0.5); border-bottom-right-radius: 2px; }}
+            .chorus {{ 
+                align-self: center; 
+                background: linear-gradient(135deg, #fff9c4 0%, #fde68a 100%); 
+                color: #92400e; 
+                border: 1px solid #f59e0b; 
+                border-radius: 20px; 
+                text-align: center;
+                box-shadow: 0 4px 12px rgba(251, 191, 36, 0.4);
             }}
-            @keyframes slideIn {{ from {{ opacity: 0; transform: translateX(30px); }} to {{ opacity: 1; transform: translateX(0); }} }}
 
-            .seek-panel {{ width: 100%; background: #f8f9fa; padding: 10px 20px; display: flex; align-items: center; gap: 15px; box-sizing: border-box; }}
-            input[type=range] {{ flex: 1; cursor: pointer; }}
+            @media (max-width: 768px) {{
+                .subtitle-stage {{ bottom: 3% !important; padding: 0 10px !important; }}
+                .bubble {{ 
+                    padding: 8px 12px !important; 
+                    border-radius: 12px !important; 
+                    max-width: 95% !important; 
+                }}
+            }}
+
+            body.theater {{ background-color: #000; }}
+            body.theater .header-bar {{ background-color: #111; border-bottom: 1px solid #333; }}
+            body.theater .title {{ color: #ccc; }}
+            body.theater .seek-panel {{ background-color: #111; border-bottom: none; border-top: 1px solid #333; }}
+            body.theater .time-box {{ color: #aaa; }}
         </style>
         </head>
         <body>
             <div class="header-bar">
-                <div class="title">🚀 理化特攻隊</div>
-                <div><button id="fsBtn" class="fs-btn">🔲 全螢幕</button><button id="pBtn" class="play-btn">▶️ 立刻收聽</button></div>
+                <div class="title">🚀 考前60天衝刺</div>
+                <div class="btn-group">
+                    <button id="fsBtn" class="fs-btn">🔲 全螢幕</button>
+                    <button id="pBtn" class="play-btn">▶️ 立刻收聽</button>
+                </div>
             </div>
-            <audio id="aud" src="{audio_url}"></audio>
+            <audio id="aud" src="{audio_url}" preload="auto"></audio>
+            
             <div class="pdf-view">
                 <img src="data:image/png;base64,{pdf_b64}" class="pdf-img">
-                <div id="board-stage" class="board-stage"></div> <div class="subtitle-stage"><div id="bubble" class="bubble"><span id="msg"></span></div></div> </div>
+                <div class="subtitle-stage">
+                    <div id="bubble" class="bubble yanjun"><span id="msg"></span></div>
+                </div>
+            </div>
+            
             <div class="seek-panel">
                 <input type="range" id="sk" value="0" step="0.1">
-                <div style="min-width:100px"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
+                <div class="time-box"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
             </div>
+            
             <script>
                 const aud = document.getElementById('aud');
                 const pBtn = document.getElementById('pBtn');
+                const fsBtn = document.getElementById('fsBtn'); 
                 const sk = document.getElementById('sk');
-                const boardStage = document.getElementById('board-stage');
                 const bubble = document.getElementById('bubble');
                 const msg = document.getElementById('msg');
                 const script = {script_data};
                 
                 aud.playbackRate = {play_speed};
-                pBtn.onclick = () => {{ if(aud.paused) {{ aud.play(); pBtn.innerText="⏸️ 暫停"; }} else {{ aud.pause(); pBtn.innerText="▶️ 收聽"; }} }};
-                aud.onloadedmetadata = () => {{ document.getElementById('dur').innerText = fmt(aud.duration); sk.max = aud.duration; }};
-                
-                // 🚀 關鍵：雙軌處理邏輯
-                aud.ontimeupdate = () => {{
-                    const t = aud.currentTime;
-                    sk.value = t;
-                    document.getElementById('cur').innerText = fmt(t);
+
+                pBtn.onclick = () => {{
+                    if(aud.paused) {{ aud.play(); pBtn.innerText = "⏸️ 暫停"; }}
+                    else {{ aud.pause(); pBtn.innerText = "▶️ 繼續"; }}
+                }};
+
+                let isTheater = false;
+                fsBtn.onclick = () => {{
+                    const docElm = document.documentElement;
                     
-                    let mainSub = null;
-                    let pinnedItems = [];
-
-                    // 1. 分流資料
-                    script.forEach(s => {{
-                        if (t >= s.start) {{
-                            if (s.is_pinned === true) {{
-                                pinnedItems.push(s); // 只要開始時間到了，就放進黑板
-                            }} else if (t <= s.end) {{
-                                mainSub = s; // 一般對話要在時間區間內才抓
+                    if (!document.fullscreenElement && !document.webkitFullscreenElement && !isTheater) {{
+                        let req = docElm.requestFullscreen || docElm.webkitRequestFullscreen;
+                        if (req) {{
+                            let promise = req.call(docElm);
+                            if (promise) {{
+                                promise.catch(err => {{ enableTheater(); }});
+                            }} else {{
+                                setTimeout(() => {{
+                                    if (!document.fullscreenElement && !document.webkitFullscreenElement) enableTheater();
+                                }}, 200);
                             }}
+                        }} else {{
+                            enableTheater();
                         }}
-                    }});
+                    }} else {{
+                        if (document.exitFullscreen && document.fullscreenElement) document.exitFullscreen();
+                        else if (document.webkitExitFullscreen && document.webkitFullscreenElement) document.webkitExitFullscreen();
+                        disableTheater();
+                    }}
+                }};
 
-                    // 2. 顯示一般對話 (有泡泡)
-                    if (mainSub) {{
-                        msg.innerText = (mainSub.speaker === '彥君' ? '👨‍🏫 ' : '👩‍🔬 ') + mainSub.text;
-                        bubble.className = "bubble " + (mainSub.speaker === '彥君' ? 'yanjun' : 'xiaozhen');
-                        bubble.style.opacity = 1;
-                    }} else {{ bubble.style.opacity = 0; }}
+                function enableTheater() {{
+                    isTheater = true;
+                    document.body.classList.add('theater');
+                    fsBtn.innerText = "✖️ 退出劇院";
+                    
+                    let toast = document.createElement('div');
+                    toast.id = 'ios-toast';
+                    toast.style.cssText = "position:absolute; top:30%; left:50%; transform:translateX(-50%); background:rgba(0,100,255,0.9); color:white; padding:15px 25px; border-radius:10px; font-size:18px; z-index:9999; text-align:center; font-weight:bold; box-shadow:0 10px 30px rgba(0,0,0,0.5); width: 80%; max-width: 300px;";
+                    toast.innerHTML = "📱 已啟動【劇院模式】<br><span style='font-size:14px; font-weight:normal;'>蘋果設備請將手機轉為「橫向」觀看</span>";
+                    document.querySelector('.pdf-view').appendChild(toast);
+                    
+                    setTimeout(() => {{ if(document.getElementById('ios-toast')) document.getElementById('ios-toast').remove(); }}, 3500);
+                }}
 
-                    // 3. 顯示釘選黑板 (無泡泡，堆疊式)
-                    boardStage.innerHTML = ''; 
-                    pinnedItems.forEach(item => {{
-                        const div = document.createElement('div');
-                        div.className = 'board-item';
-                        div.innerText = item.text;
-                        boardStage.appendChild(div);
-                    }});
+                function disableTheater() {{
+                    isTheater = false;
+                    document.body.classList.remove('theater');
+                    fsBtn.innerText = "🔲 全螢幕";
+                    if(document.getElementById('ios-toast')) document.getElementById('ios-toast').remove();
+                }}
+
+                aud.onloadedmetadata = () => {{
+                    document.getElementById('dur').innerText = fmt(aud.duration);
+                    sk.max = aud.duration;
                 }};
                 
-                function fmt(s) {{ return Math.floor(s/60) + ":" + String(Math.floor(s%60)).padStart(2,'0'); }}
+                aud.ontimeupdate = () => {{
+                    const t = aud.currentTime;
+                    document.getElementById('cur').innerText = fmt(t);
+                    sk.value = t;
+                    let hit = false;
+                    
+                    for(let s of script) {{
+                        if(t >= s.start && t <= s.end) {{
+                            let avatar, bClass;
+                            
+                            // 判斷講者切換氣泡風格
+                            if (s.speaker === '彥君') {{
+                                avatar = '👨‍🏫 ';
+                                bClass = 'yanjun';
+                            }} else if (s.speaker === '曉臻') {{
+                                avatar = '👩‍🔬 ';
+                                bClass = 'xiaozhen';
+                            }} else {{
+                                // 不是彥君也不是曉臻，即觸發合聲氣泡
+                                avatar = '🎙️ ';
+                                bClass = 'chorus';
+                            }}
+                            
+                            msg.innerText = avatar + s.text;
+                            bubble.className = "bubble " + bClass;
+                            bubble.style.opacity = 1;
+                            hit = true; break;
+                        }}
+                    }}
+                    if(!hit) bubble.style.opacity = 0;
+                }};
                 sk.oninput = () => aud.currentTime = sk.value;
+                function fmt(s) {{ return Math.floor(s/60) + ":" + String(Math.floor(s%60)).padStart(2,'0'); }}
             </script>
         </body>
         </html>
         """
-        with main_container: components.html(full_html, height=1200, scrolling=True)
-    except Exception as e: st.error(f"錯誤：{e}")
+        
+# ==========================================
+# 【編號 6】渲染區塊
+# ==========================================
+        with main_container:
+            components.html(full_html, height=1400, scrolling=True)
+
+    except Exception as e:
+        st.error(f"系統錯誤： {e}")
+else:
+    st.error("Google Sheet 資料連線失敗。")
