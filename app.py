@@ -9,22 +9,19 @@ import math
 import json  # 🚀 關鍵防護罩套件
 
 # ==========================================
-# 【編號 1】頁面設定與 RWD 響應式 CSS (含雲端字體)
+# 【編號 1】頁面設定與 RWD 響應式 CSS (回歸翩翩體方案)
 # ==========================================
 st.set_page_config(page_title="會考自然-ai教學", page_icon="📚", layout="wide")
 
 st.markdown("""
     <style>
-    /* 🚀 載入超美雲端手寫字體：霞鶩文楷 */
-    @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap');
-
     /* 隱藏 Streamlit 預設介面 */
     #MainMenu, header, footer {visibility: hidden;}
     .stApp { background-color: #ffffff; }
     
-    /* 強制全面套用雲端字體 */
+    /* 🚀 第一方案：全面呼叫蘋果內建「翩翩體」咒語 */
     html, body, [class*="css"], p, span, div, b, button, select, input {
-        font-family: 'LXGW WenKai TC', 'HanziPen SC', '翩翩體', sans-serif !important;
+        font-family: 'HanziPenTC-W5', 'HanziPenTC-W3', 'HanziPen TC', 'HanziPenSC-W5', 'HanziPenSC-W3', 'HanziPen SC', '翩翩體-繁', '翩翩體-簡', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
     
     .stSelectbox, .stNumberInput { margin-bottom: 0px !important; }
@@ -40,6 +37,9 @@ st.markdown("""
     div[data-baseweb="select"] { font-size: 16px !important; }
     div[data-baseweb="select"] > div { min-height: 40px !important; }
     ul[data-baseweb="menu"] li { font-size: 16px !important; padding: 10px !important; }
+    
+    /* 🚀 黑科技：全局隱藏 Python 端的 Streamlit 換頁按鈕 */
+    div[data-testid="stButton"] { display: none !important; }
     
     /* 💡 動態按鈕美化：讓連播按鈕跟旁邊的下拉選單完美等高對齊 */
     .stButton > button { 
@@ -141,9 +141,22 @@ if df is not None and not df.empty:
         bubble_fs = size_options[st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")]
 
     with c_auto:
-        # 💡 動態開關按鈕 (已經解除無差別隱藏魔法)
+        # 💡 動態開關按鈕
+        components.html("""
+        <script>
+            // 把 auto_play 的按鈕抓回來顯示
+            const parentBtns = window.parent.document.querySelectorAll('button');
+            parentBtns.forEach(btn => {
+                if (btn.innerText.includes('連播')) {
+                    const targetDiv = btn.closest('div[data-testid="stButton"]');
+                    if (targetDiv) targetDiv.style.display = 'block';
+                }
+            });
+        </script>
+        """, height=0, width=0)
+
         if st.session_state.auto_play:
-            if st.button("🔄 正在連播", type="primary"):  # 啟動時變成醒目的紅色/藍色
+            if st.button("🔄 正在連播", type="primary"):  # 啟動時變成醒目的狀態
                 st.session_state.auto_play = False
                 st.rerun()
         else:
@@ -159,7 +172,7 @@ if df is not None and not df.empty:
             st.session_state.page_idx += 1
             st.rerun()
 
-    # 運用 JS 精準狙擊，只把上面這個幽靈按鈕徹底滅跡，不傷及無辜
+    # 運用 JS 精準狙擊，只把上面這個幽靈按鈕徹底滅跡
     components.html("""
     <script>
         const parentBtns = window.parent.document.querySelectorAll('button');
@@ -206,11 +219,13 @@ if df is not None and not df.empty:
         <head>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
         <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-        <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap" rel="stylesheet">
         
         <style>
-            /* 全面套用霞鶩文楷手寫字體 */
-            body {{ font-family: 'LXGW WenKai TC', sans-serif; margin: 0; padding: 0; background: white; transition: background 0.3s; }}
+            /* 🚀 第一方案：播放器內部也全面呼叫蘋果內建翩翩體 */
+            body {{ 
+                font-family: 'HanziPenTC-W5', 'HanziPenTC-W3', 'HanziPen TC', 'HanziPenSC-W5', 'HanziPenSC-W3', 'HanziPen SC', '翩翩體-繁', '翩翩體-簡', 'PingFang TC', 'Microsoft JhengHei', sans-serif; 
+                margin: 0; padding: 0; background: white; transition: background 0.3s; 
+            }}
             
             .header-bar {{ display: flex; align-items: center; justify-content: space-between; padding: clamp(5px, 1.5vh, 10px) 20px; border-bottom: 1px solid #f0f0f0; transition: 0.3s; }}
             .title {{ color: #1d4ed8; font-size: clamp(20px, 3.5vw, 34px); font-weight: bold; margin: 0; }}
@@ -219,7 +234,7 @@ if df is not None and not df.empty:
             .play-btn, .fs-btn {{ 
                 background: linear-gradient(135deg, #2b58db, #1d4ed8); color: white; padding: clamp(8px, 1.5vh, 10px) clamp(12px, 2vw, 25px); 
                 border-radius: 50px; font-weight: bold; font-size: clamp(14px, 2vw, 18px); cursor: pointer; border: none; box-shadow: 0 4px 10px rgba(29, 78, 216, 0.2);
-                font-family: 'LXGW WenKai TC', sans-serif;
+                font-family: inherit;
             }}
             .pdf-view {{ position: relative; width: 100%; overflow: hidden; }}
             .pdf-img {{ width: 100%; display: block; }}
