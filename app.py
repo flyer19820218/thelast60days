@@ -181,4 +181,86 @@ if df is not None and not df.empty:
             let lastMsgHash = "";
 
             aud.playbackRate = {play_speed};
-            pBtn
+            pBtn.onclick = () => {{
+                if(aud.paused) {{ aud.play(); pBtn.innerText="⏸️ 暫停"; }}
+                else {{ aud.pause(); pBtn.innerText="▶️ 繼續"; }}
+            }};
+
+            fsBtn.onclick = () => {{
+                if (!document.fullscreenElement) {{ document.documentElement.requestFullscreen(); document.body.classList.add('theater'); }}
+                else {{ document.exitFullscreen(); document.body.classList.remove('theater'); }}
+            }};
+
+            aud.onloadedmetadata = () => {{ document.getElementById('dur').innerText = fmt(aud.duration); sk.max = aud.duration; }};
+            
+            aud.ontimeupdate = () => {{
+                const t = aud.currentTime;
+                sk.value = t;
+                document.getElementById('cur').innerText = fmt(t);
+                
+                let mainSub = null;
+                let activePins = [];
+
+                script.forEach(s => {{
+                    if (t >= s.start) {{
+                        if (s.is_pinned) activePins.push(s);
+                        else if (t <= s.end) mainSub = s;
+                    }}
+                }});
+
+                // 🛑 穩定對話更新
+                if (mainSub) {{
+                    const currentHash = mainSub.speaker + mainSub.text;
+                    if (lastMsgHash !== currentHash) {{
+                        msg.innerHTML = (mainSub.speaker === '彥君' ? '👨‍🏫 ' : '👩‍🔬 ') + mainSub.text;
+                        bubble.className = "bubble " + (mainSub.speaker === '彥君' ? 'yanjun' : 'xiaozhen');
+                        bubble.style.opacity = 1;
+                        renderMathInElement(msg);
+                        lastMsgHash = currentHash;
+                    }}
+                }} else {{
+                    if (lastMsgHash !== "") {{ bubble.style.opacity = 0; lastMsgHash = ""; }}
+                }}
+
+                // 📌 核心修復：DOM 差異化更新 (保證絕對不閃爍！)
+                // 1. 新增畫面中還沒有的算式
+                activePins.forEach(pin => {{
+                    const pinId = 'pin-' + Math.floor(pin.start * 10); // 用時間當作唯一 ID
+                    if (!document.getElementById(pinId)) {{
+                        const d = document.createElement('div');
+                        d.id = pinId;
+                        d.className = 'board-item';
+                        try {{
+                            d.innerHTML = katex.renderToString(pin.text, {{ throwOnError: false }});
+                        }} catch (e) {{
+                            d.innerText = pin.text;
+                        }}
+                        boardStage.appendChild(d);
+                    }}
+                }});
+
+                // 2. 移除時間已經過了，或者被回放取消的算式
+                Array.from(boardStage.children).forEach(child => {{
+                    const childTimeId = parseInt(child.id.replace('pin-', ''));
+                    const stillActive = activePins.some(p => Math.floor(p.start * 10) === childTimeId);
+                    if (!stillActive) {{
+                        boardStage.removeChild(child);
+                    }}
+                }});
+            }};
+            
+            function renderMathInElement(el) {{
+                if (el.innerHTML.includes('\\\\')) {{
+                    try {{ el.innerHTML = katex.renderToString(el.innerText, {{ throwOnError: false }}); }} catch(e) {{}}
+                }}
+            }}
+
+            function fmt(s) {{ return Math.floor(s/60) + ":" + String(Math.floor(s%60)).padStart(2,'0'); }}
+            sk.oninput = () => aud.currentTime = sk.value;
+        </script>
+    </body>
+    </html>
+    """
+    components.html(full_html, height=1200, scrolling=True)
+else:
+    st.error("資料讀取失敗。")
