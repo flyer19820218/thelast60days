@@ -44,31 +44,15 @@ st.markdown("""
     /* 🚀 黑科技：全局隱藏 Python 端的 Streamlit 換頁按鈕 */
     div[data-testid="stButton"] { display: none !important; }
     
-    /* 💎 終極美化：把自動連播 Checkbox 變成藍色外框按鈕 */
-    div[data-testid="stCheckbox"] {
-        border: 2px solid #1d4ed8 !important;
-        background-color: #eff6ff !important;
+    /* 💡 動態按鈕美化：讓連播按鈕跟旁邊的下拉選單完美等高對齊 */
+    /* 這裡只針對我們寫在 UI 上的按鈕，不影響隱藏按鈕 */
+    .stButton > button { 
+        font-size: 16px !important; 
+        min-height: 40px !important; 
+        width: 100% !important; 
         border-radius: 8px !important;
-        padding: 0 10px !important;
-        height: 40px !important;
-        display: flex !important;
-        align-items: center !important;
-        margin-top: 0 !important;
-        box-shadow: 0 2px 5px rgba(29, 78, 216, 0.1);
-    }
-    
-    /* 放大打勾的方塊 */
-    div[data-testid="stCheckbox"] label > div:first-child {
-        transform: scale(1.4) !important; 
-        margin-left: 5px !important;
-        margin-right: 8px !important;
-    }
-
-    div[data-testid="stCheckbox"] label p {
-        font-size: 16px !important;
-        color: #1d4ed8 !important;
         font-weight: bold !important;
-        margin-left: 5px !important;
+        margin-top: 0px !important;
     }
 
     /* 📺 大螢幕適配 (電腦/大電視) */
@@ -78,20 +62,10 @@ st.markdown("""
         div[data-baseweb="select"] > div { min-height: 55px !important; }
         ul[data-baseweb="menu"] li { font-size: 22px !important; padding-top: 15px !important; padding-bottom: 15px !important; }
         
-        div[data-testid="stCheckbox"] {
-            height: 55px !important;
+        .stButton > button { 
+            font-size: 22px !important; 
+            min-height: 55px !important; 
             border-radius: 12px !important;
-            padding: 0 15px !important;
-        }
-        
-        div[data-testid="stCheckbox"] label > div:first-child {
-            transform: scale(1.8) !important; 
-            margin-left: 10px !important;
-            margin-right: 15px !important;
-        }
-
-        div[data-testid="stCheckbox"] label p {
-            font-size: 22px !important;
         }
     }
     </style>
@@ -131,6 +105,8 @@ df = load_data_fresh()
 
 if df is not None and not df.empty:
     if 'page_idx' not in st.session_state: st.session_state.page_idx = 0
+    if 'auto_play' not in st.session_state: st.session_state.auto_play = False  # 初始化連播狀態
+
     total_items = len(df); group_size = 10
     num_groups = math.ceil(total_items / group_size)
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
@@ -169,15 +145,55 @@ if df is not None and not df.empty:
         bubble_fs = size_options[st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")]
 
     with c_auto:
-        # Checkbox 已經被 CSS 變成超美藍色按鈕了
-        auto_play = st.checkbox("🔄 自動連播", value=st.session_state.get('auto_play', False))
-        st.session_state.auto_play = auto_play
+        # 💡 實作大哥的天才點子：徹底不用 Checkbox，改用動態切換按鈕！
+        # 這樣按鈕大小就會跟旁邊的下拉選單 100% 完美對齊！
+        # 為了繞過全局隱藏，我們給這個區塊加上特例顯示
+        components.html("""
+        <script>
+            // 把 auto_play 的按鈕抓回來顯示
+            const parentBtns = window.parent.document.querySelectorAll('button');
+            parentBtns.forEach(btn => {
+                if (btn.innerText.includes('連播')) {
+                    const targetDiv = btn.closest('div[data-testid="stButton"]');
+                    if (targetDiv) targetDiv.style.display = 'block';
+                }
+            });
+        </script>
+        """, height=0, width=0)
 
-    # 👻 隱藏按鈕：被 CSS 徹底隱形，專門給 JS 自動點擊用的
-    if st.button("AutoNextHiddenBtn"):
+        if st.session_state.auto_play:
+            if st.button("🔄 正在連播", type="primary"):  # 啟動時變成醒目的紅色/藍色
+                st.session_state.auto_play = False
+                st.rerun()
+        else:
+            if st.button("▶️ 開啟連播", type="secondary"): # 關閉時是一般顏色
+                st.session_state.auto_play = True
+                st.rerun()
+
+    auto_play = st.session_state.auto_play
+
+    # 👻 隱藏按鈕：純給 JavaScript 自動點擊換頁用的
+    if st.button("AutoNextHiddenBtn", key="hidden_next"):
         if st.session_state.page_idx < total_items - 1:
             st.session_state.page_idx += 1
             st.rerun()
+
+    # 運用 JS 在畫面載入時瞬間把上面的幽靈按鈕徹底滅跡
+    components.html("""
+    <script>
+        const parentBtns = window.parent.document.querySelectorAll('button');
+        parentBtns.forEach(btn => {
+            if (btn.innerText.includes('AutoNextHiddenBtn')) {
+                const targetDiv = btn.closest('div[data-testid="stButton"]');
+                if (targetDiv) {
+                    targetDiv.style.display = 'none';
+                    targetDiv.style.visibility = 'hidden';
+                    targetDiv.style.height = '0px';
+                }
+            }
+        });
+    </script>
+    """, height=0, width=0)
 
     main_container = st.empty()
 
