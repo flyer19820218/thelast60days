@@ -9,7 +9,7 @@ import math
 import json  # 🚀 關鍵防護罩套件
 
 # ==========================================
-# 【編號 1】頁面設定與 RWD 響應式 CSS (完美齊平膠囊版)
+# 【編號 1】頁面設定與 RWD 響應式 CSS (四格滿版 + 翩翩體)
 # ==========================================
 st.set_page_config(page_title="會考自然-ai教學", page_icon="📚", layout="wide")
 
@@ -34,7 +34,7 @@ st.markdown("""
         max-width: 100% !important;
     }
     
-    /* 💡 強制鎖定手機版高度：讓下拉選單與按鈕絕對齊平 */
+    /* 💡 強制鎖定手機版高度：讓下拉選單完美對齊 */
     div[data-baseweb="select"] { font-size: 16px !important; }
     div[data-baseweb="select"] > div { 
         height: 44px !important; 
@@ -42,28 +42,12 @@ st.markdown("""
     }
     ul[data-baseweb="menu"] li { font-size: 16px !important; padding: 10px !important; }
     
-    /* 💎 終極膠囊按鈕：強制等高、垂直置中、拔除多餘留白 */
-    .stButton > button { 
-        background: linear-gradient(135deg, #2b58db, #1d4ed8) !important;
-        color: white !important;
-        border: none !important;
-        border-radius: 50px !important; 
-        box-shadow: 0 4px 10px rgba(29, 78, 216, 0.2) !important;
-        font-size: 16px !important; 
-        height: 44px !important;       /* 鎖死跟下拉選單一樣高 */
-        min-height: 44px !important; 
-        width: 100% !important; 
-        font-weight: bold !important;
-        margin-top: 0px !important;
-        padding: 0 !important;         /* 拔除內建 padding 避免被撐破 */
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        transition: all 0.3s ease !important;
-    }
-    .stButton > button:hover {
-        background: linear-gradient(135deg, #1e40af, #1d4ed8) !important;
-        box-shadow: 0 6px 15px rgba(29, 78, 216, 0.3) !important;
+    /* 🚀 全局隱藏 Python 端的 Streamlit 按鈕 (因為我們全部搬進 HTML 了) */
+    div[data-testid="stButton"] { 
+        display: none !important; 
+        height: 0px !important; 
+        margin: 0px !important; 
+        padding: 0px !important; 
     }
 
     /* 📺 大螢幕適配 (電腦/大電視) */
@@ -71,19 +55,11 @@ st.markdown("""
         .block-container { padding-left: 2rem !important; padding-right: 2rem !important; } 
         div[data-baseweb="select"] { font-size: 24px !important; }
         
-        /* 強制鎖定大螢幕高度：完美等高 */
         div[data-baseweb="select"] > div { 
             height: 56px !important; 
             min-height: 56px !important; 
         }
         ul[data-baseweb="menu"] li { font-size: 22px !important; padding-top: 15px !important; padding-bottom: 15px !important; }
-        
-        /* 按鈕同步放大 */
-        .stButton > button { 
-            font-size: 22px !important; 
-            height: 56px !important; 
-            min-height: 56px !important; 
-        }
     }
     </style>
     """, unsafe_allow_html=True)
@@ -116,21 +92,20 @@ def get_script_json(json_url):
     return "[]"
 
 # ==========================================
-# 【編號 3】佈局實作與動態控制列
+# 【編號 3】佈局實作 (完美純淨 4 格滿版)
 # ==========================================
 df = load_data_fresh()
 
 if df is not None and not df.empty:
     if 'page_idx' not in st.session_state: st.session_state.page_idx = 0
-    if 'auto_play' not in st.session_state: st.session_state.auto_play = False 
 
     total_items = len(df); group_size = 10
     num_groups = math.ceil(total_items / group_size)
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
     current_group_idx = st.session_state.page_idx // group_size
 
-    # 🚀 微調比例：給膠囊按鈕稍微多一點點空間 (1.2 -> 1.3)，避免字太擠
-    c_group, c_unit, c_speed, c_size, c_auto = st.columns([1.5, 1.8, 1.0, 1.5, 1.3])
+    # 🚀 上方控制列變成極度寬敞的「完美 4 欄」
+    c_group, c_unit, c_speed, c_size = st.columns([1.5, 2.0, 1.0, 1.5])
     
     with c_group:
         selected_group = st.selectbox("範圍", group_labels, index=current_group_idx, label_visibility="collapsed")
@@ -161,45 +136,11 @@ if df is not None and not df.empty:
         }
         bubble_fs = size_options[st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")]
 
-    with c_auto:
-        # 動態開關按鈕
-        if st.session_state.auto_play:
-            if st.button("🔄 正在連播"):  
-                st.session_state.auto_play = False
-                st.rerun()
-        else:
-            if st.button("▶️ 開啟連播"): 
-                st.session_state.auto_play = True
-                st.rerun()
-
-    auto_play = st.session_state.auto_play
-
-    # 👻 幽靈按鈕：純給 JavaScript 自動點擊換頁用的
+    # 👻 幽靈按鈕：純給 JavaScript 自動點擊換頁用的 (完全被 CSS 隱形)
     if st.button("AutoNextHiddenBtn", key="hidden_next"):
         if st.session_state.page_idx < total_items - 1:
             st.session_state.page_idx += 1
             st.rerun()
-
-    # 🚀 終極 JS 狙擊：保證幽靈按鈕永遠無法現形，且絕對不影響你的藍色連播按鈕
-    components.html("""
-    <script>
-        setInterval(() => {
-            const parentBtns = window.parent.document.querySelectorAll('button');
-            parentBtns.forEach(btn => {
-                if (btn.innerText.includes('AutoNextHiddenBtn')) {
-                    const targetDiv = btn.closest('div[data-testid="stButton"]');
-                    if (targetDiv && targetDiv.style.display !== 'none') {
-                        targetDiv.style.display = 'none';
-                        targetDiv.style.visibility = 'hidden';
-                        targetDiv.style.height = '0px';
-                        targetDiv.style.margin = '0px';
-                        targetDiv.style.padding = '0px';
-                    }
-                }
-            });
-        }, 50); 
-    </script>
-    """, height=0, width=0)
 
     main_container = st.empty()
 
@@ -219,10 +160,8 @@ if df is not None and not df.empty:
         safe_script_data = json.dumps(script_data)
 
 # ==========================================
-# 【編號 5】HTML 骨架與 CSS 樣式 (含字幕與板書引擎)
+# 【編號 5】HTML 骨架與 CSS 樣式 (三按鈕合體版)
 # ==========================================
-        is_autoplay_js = "true" if auto_play else "false"
-
         full_html = f"""
         <!DOCTYPE html>
         <html>
@@ -231,7 +170,7 @@ if df is not None and not df.empty:
         <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
         
         <style>
-            /* 🚀 播放器內部也全面呼叫蘋果內建翩翩體 */
+            /* 🚀 播放器內部全面呼叫翩翩體 */
             body {{ 
                 font-family: 'HanziPenTC-W5', 'HanziPenTC-W3', 'HanziPen TC', 'HanziPenSC-W5', 'HanziPenSC-W3', 'HanziPen SC', '翩翩體-繁', '翩翩體-簡', 'PingFang TC', 'Microsoft JhengHei', sans-serif; 
                 margin: 0; padding: 0; background: white; transition: background 0.3s; 
@@ -240,12 +179,15 @@ if df is not None and not df.empty:
             .header-bar {{ display: flex; align-items: center; justify-content: space-between; padding: clamp(5px, 1.5vh, 10px) 20px; border-bottom: 1px solid #f0f0f0; transition: 0.3s; }}
             .title {{ color: #1d4ed8; font-size: clamp(20px, 3.5vw, 34px); font-weight: bold; margin: 0; }}
             
+            /* 💡 三顆膠囊按鈕完美連在一起 */
             .btn-group {{ display: flex; gap: 8px; }}
-            .play-btn, .fs-btn {{ 
+            .play-btn {{ 
                 background: linear-gradient(135deg, #2b58db, #1d4ed8); color: white; padding: clamp(8px, 1.5vh, 10px) clamp(12px, 2vw, 25px); 
                 border-radius: 50px; font-weight: bold; font-size: clamp(14px, 2vw, 18px); cursor: pointer; border: none; box-shadow: 0 4px 10px rgba(29, 78, 216, 0.2);
-                font-family: inherit;
+                font-family: inherit; transition: all 0.3s ease;
             }}
+            .play-btn:hover {{ background: linear-gradient(135deg, #1e40af, #1d4ed8); box-shadow: 0 6px 15px rgba(29, 78, 216, 0.3); }}
+            
             .pdf-view {{ position: relative; width: 100%; overflow: hidden; }}
             .pdf-img {{ width: 100%; display: block; }}
             
@@ -290,7 +232,8 @@ if df is not None and not df.empty:
             <div class="header-bar">
                 <div class="title">🚀 考前60天衝刺</div>
                 <div class="btn-group">
-                    <button id="fsBtn" class="fs-btn">🔲 全螢幕</button>
+                    <button id="autoPlayBtn" class="play-btn">▶️ 開啟連播</button>
+                    <button id="fsBtn" class="play-btn">🔲 全螢幕</button>
                     <button id="pBtn" class="play-btn">▶️ 立刻收聽</button>
                 </div>
             </div>
@@ -311,11 +254,32 @@ if df is not None and not df.empty:
                 const aud = document.getElementById('aud');
                 const pBtn = document.getElementById('pBtn');
                 const fsBtn = document.getElementById('fsBtn'); 
+                const autoPlayBtn = document.getElementById('autoPlayBtn');
                 const sk = document.getElementById('sk');
                 const boardStage = document.getElementById('board-stage');
                 const bubble = document.getElementById('bubble');
                 const msg = document.getElementById('msg');
-                const autoPlayMode = {is_autoplay_js}; 
+                
+                // 🚀 JS 記憶黑科技：跨越換頁記住連播狀態
+                let isAutoPlay = false;
+                try {{ isAutoPlay = localStorage.getItem('yt_autoplay') === 'true'; }} catch(e) {{}}
+                
+                function updateAutoPlayUI() {{
+                    if(isAutoPlay) {{
+                        autoPlayBtn.innerText = "🔄 正在連播";
+                        autoPlayBtn.style.background = "linear-gradient(135deg, #1d4ed8, #1e40af)"; // 啟動時變成深藍色
+                    }} else {{
+                        autoPlayBtn.innerText = "▶️ 開啟連播";
+                        autoPlayBtn.style.background = ""; // 恢復原狀
+                    }}
+                }}
+                updateAutoPlayUI();
+
+                autoPlayBtn.onclick = () => {{
+                    isAutoPlay = !isAutoPlay;
+                    try {{ localStorage.setItem('yt_autoplay', isAutoPlay); }} catch(e) {{}}
+                    updateAutoPlayUI();
+                }};
                 
                 const scriptRaw = {safe_script_data};
                 let script = [];
@@ -324,7 +288,8 @@ if df is not None and not df.empty:
                 let lastMsgHash = ""; 
                 aud.playbackRate = {play_speed};
 
-                if (autoPlayMode) {{
+                // 若開啟連播，載入後自動播放
+                if (isAutoPlay) {{
                     setTimeout(() => {{
                         aud.play().then(() => {{
                             pBtn.innerText = "⏸️ 暫停";
@@ -409,7 +374,7 @@ if df is not None and not df.empty:
                 
                 // 🌟 自動連播黑科技：時間到直接點擊「隱形」按鈕
                 aud.onended = () => {{
-                    if (autoPlayMode) {{
+                    if (isAutoPlay) {{
                         const parentBtns = window.parent.document.querySelectorAll('button');
                         for (let btn of parentBtns) {{
                             if (btn.innerText.includes('AutoNextHiddenBtn')) {{
