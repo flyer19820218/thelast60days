@@ -1,0 +1,234 @@
+[
+  {
+    "start": 0.0,
+    "end": 2.3,
+    "speaker": "彥君",
+    "text": "哈囉",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 2.3,
+    "end": 7.86,
+    "speaker": "彥君",
+    "text": "各位即將衝 A 的會考戰士們 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 7.86,
+    "end": 11.44,
+    "speaker": "彥君",
+    "text": "今天來到 第六十九集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 11.44,
+    "end": 15.92,
+    "speaker": "彥君",
+    "text": "我們要來挑戰 理化計算的 終極大魔王",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 15.92,
+    "end": 19.42,
+    "speaker": "曉臻",
+    "text": "大家好 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 19.42,
+    "end": 25.63,
+    "speaker": "曉臻",
+    "text": "老師 這題一口氣 問了三個問題耶 我光看題目就頭暈了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 25.63,
+    "end": 31.08,
+    "speaker": "彥君",
+    "text": "題目說 溶解度 是 20g/100g水",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 31.08,
+    "end": 35.63,
+    "speaker": "彥君",
+    "text": "兩百克的水 最多可以溶解 多少克",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 35.63,
+    "end": 41.51,
+    "speaker": "曉臻",
+    "text": "這個我會 水變成兩倍 胃口當然也變兩倍",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 41.51,
+    "end": 45.68,
+    "speaker": "曉臻",
+    "text": "所以 二十 乘以 二 等於 四十克",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 45.68,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "① 200g水 ➜ 溶40g溶質",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 52.83,
+    "end": 58.58,
+    "speaker": "彥君",
+    "text": "接著看 第二題 它問 飽和濃度 是多少",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 58.58,
+    "end": 62.37,
+    "speaker": "曉臻",
+    "text": "濃度就是 把溶質 除以 全部嘛",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 62.37,
+    "end": 67.96,
+    "speaker": "曉臻",
+    "text": "溶質是 二十 全部是 二十加一百 等於 一百二十",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 67.96,
+    "end": 74.7,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 74.7,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "② 飽和濃度 = 20÷120 ≒ 167%",
+    "is_pinned": true,
+    "pin_level": 2
+  },
+  {
+    "start": 81.61,
+    "end": 88.2,
+    "speaker": "曉臻",
+    "text": "老師 那第三題 如果再加入 200mL 的水 濃度變多少",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 88.2,
+    "end": 95.23,
+    "speaker": "彥君",
+    "text": "這裡有個 小常識 水的密度是一 所以 200mL 的水 就是 兩百克",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 95.23,
+    "end": 102.38,
+    "speaker": "彥君",
+    "text": "原本的杯子裡 已經有 兩百克的水 現在又加了 兩百克",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 102.38,
+    "end": 107.2,
+    "speaker": "曉臻",
+    "text": "喔 所以現在 水 總共有 四百克了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 107.2,
+    "end": 113.27,
+    "speaker": "彥君",
+    "text": "沒錯 那溶質 還是剛剛算出來的 四十克",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 113.27,
+    "end": 121.33,
+    "speaker": "彥君",
+    "text": "所以新的濃度 就是 四十 除以 全部 全部是 四十 加上 四百",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 121.33,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "③ 加水後濃度 = 40÷440 ≒ 91%",
+    "is_pinned": true,
+    "pin_level": 3
+  },
+  {
+    "start": 128.52,
+    "end": 135.22,
+    "speaker": "曉臻",
+    "text": "哇 算式留在畫面上 一步一步看 真的超清楚耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 135.22,
+    "end": 140.01,
+    "speaker": "彥君",
+    "text": "沒錯 這就是我們的 究極板書系統",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 140.01,
+    "end": 142.91,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 142.91,
+    "end": 145.55,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 145.55,
+    "end": 149.38,
+    "speaker": "合聲",
+    "text": "算式留底 濃度無敵",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 149.38,
+    "end": 153.22,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
