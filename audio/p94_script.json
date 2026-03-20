@@ -11,7 +11,7 @@
     "start": 2.18,
     "end": 5.74,
     "speaker": "彥君",
-    "text": "各位即將衝A的會考戰士們",
+    "text": "各位即將衝ㄟ的會考戰士們",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -51,7 +51,7 @@
     "start": 16.58,
     "end": 19.04,
     "speaker": "彥君",
-    "text": "戰士們注意， ",
+    "text": "戰士們注意",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -465,263 +465,263 @@
   },
   {
     "start": 181.58,
-    "end": 188.28,
+    "end": 186.55,
     "speaker": "彥君",
     "text": "降低活化能、質量不變",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 188.48,
-    "end": 190.96,
+    "start": 186.75,
+    "end": 189.23,
     "speaker": "曉臻",
     "text": "什麼是 活化能啊",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 191.16,
-    "end": 194.22,
+    "start": 189.43,
+    "end": 192.49,
     "speaker": "彥君",
     "text": "它就像 一座很高的大山",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 194.42,
-    "end": 197.88,
+    "start": 192.69,
+    "end": 196.15,
     "speaker": "彥君",
     "text": "催化劑 就是幫你開隧道",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 198.08,
-    "end": 200.92,
+    "start": 196.35,
+    "end": 199.19,
     "speaker": "彥君",
     "text": "讓你 抄捷徑過去",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 201.12,
-    "end": 203.82,
+    "start": 199.39,
+    "end": 202.09,
     "speaker": "彥君",
     "text": "所以 反應變快了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 204.02,
-    "end": 206.66,
+    "start": 202.29,
+    "end": 204.94,
     "speaker": "曉臻",
     "text": "那它 會被消耗掉嗎",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 206.86,
-    "end": 211.22,
+    "start": 205.14,
+    "end": 209.49,
     "speaker": "彥君",
     "text": "絕對不會 質量不變",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 211.42,
-    "end": 214.28,
+    "start": 209.69,
+    "end": 212.55,
     "speaker": "彥君",
     "text": "而且 它有專一性",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 214.48,
-    "end": 217.58,
+    "start": 212.75,
+    "end": 215.86,
     "speaker": "彥君",
     "text": "唾液 只能分解澱粉",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 217.78,
-    "end": 220.55,
+    "start": 216.06,
+    "end": 218.82,
     "speaker": "彥君",
     "text": "對蛋白質 就沒輒",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 220.75,
-    "end": 223.42,
+    "start": 219.02,
+    "end": 221.7,
     "speaker": "曉臻",
     "text": "最後 右邊那個圖標",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 223.62,
-    "end": 226.66,
+    "start": 221.9,
+    "end": 224.93,
     "speaker": "曉臻",
     "text": "溫度曲線 往上衝好快",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 226.86,
-    "end": 230.08,
+    "start": 225.13,
+    "end": 228.35,
     "speaker": "彥君",
-    "text": "戰士們， 畫三顆星！",
+    "text": "戰士們 畫三顆星",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 230.28,
-    "end": 233.24,
+    "start": 228.55,
+    "end": 231.51,
     "speaker": "彥君",
     "text": "增加 速率殺手鐧",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 233.44,
-    "end": 236.18,
+    "start": 231.71,
+    "end": 234.46,
     "speaker": "彥君",
     "text": "絕對 就是加熱",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 236.38,
-    "end": 239.3,
+    "start": 234.66,
+    "end": 237.57,
     "speaker": "彥君",
     "text": "溫度 只要上升一點",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 239.5,
-    "end": 242.58,
+    "start": 237.77,
+    "end": 240.85,
     "speaker": "彥君",
     "text": "速率 就會指數狂飆",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 242.78,
-    "end": 245.28,
+    "start": 241.05,
+    "end": 243.55,
     "speaker": "曉臻",
     "text": "難怪 夏天的便當",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 245.48,
-    "end": 248.3,
+    "start": 243.75,
+    "end": 246.57,
     "speaker": "曉臻",
     "text": "一個下午 就酸掉壞了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 248.5,
-    "end": 252.73,
+    "start": 246.77,
+    "end": 251.0,
     "speaker": "彥君",
     "text": "沒錯 所以我們要",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 252.93,
-    "end": 256.15,
+    "start": 251.2,
+    "end": 254.42,
     "speaker": "彥君",
     "text": "把食物 放進冰箱冷凍",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 256.35,
-    "end": 259.5,
+    "start": 254.62,
+    "end": 257.78,
     "speaker": "彥君",
     "text": "降溫 就能減緩腐敗",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 259.7,
-    "end": 262.35,
+    "start": 257.98,
+    "end": 260.62,
     "speaker": "曉臻",
     "text": "還有 我們感冒發燒",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 262.55,
-    "end": 265.01,
+    "start": 260.82,
+    "end": 263.28,
     "speaker": "曉臻",
     "text": "只要 體溫一變高",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 265.21,
-    "end": 268.46,
+    "start": 263.48,
+    "end": 266.73,
     "speaker": "曉臻",
     "text": "心跳呼吸 也會跟著變快",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 268.66,
-    "end": 271.69,
+    "start": 266.93,
+    "end": 269.96,
     "speaker": "彥君",
     "text": "這就是 生理反應變快",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 271.89,
-    "end": 274.78,
+    "start": 270.16,
+    "end": 273.05,
     "speaker": "彥君",
     "text": "溫度 真的決定一切",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 274.98,
-    "end": 278.42,
+    "start": 273.25,
+    "end": 276.69,
     "speaker": "彥君",
     "text": "觀念通了 秒殺考題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 278.62,
-    "end": 281.22,
+    "start": 276.89,
+    "end": 279.49,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 281.42,
-    "end": 283.75,
+    "start": 279.69,
+    "end": 282.02,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 283.95,
-    "end": 287.3,
+    "start": 282.22,
+    "end": 285.57,
     "speaker": "合聲",
     "text": "開鑿隧道 加熱狂飆",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 287.5,
-    "end": 291.03,
+    "start": 285.77,
+    "end": 289.3,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
