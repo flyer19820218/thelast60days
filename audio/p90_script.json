@@ -11,7 +11,7 @@
     "start": 2.18,
     "end": 5.45,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的",
+    "text": "各位即將衝 ㄟ 的",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -59,7 +59,7 @@
     "start": 18.78,
     "end": 21.24,
     "speaker": "彥君",
-    "text": "戰士們注意， ",
+    "text": "戰士們注意",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -155,7 +155,7 @@
     "start": 58.14,
     "end": 61.37,
     "speaker": "彥君",
-    "text": "戰士們， 快抄起來。",
+    "text": "戰士們 快抄起來",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -331,7 +331,7 @@
     "start": 124.81,
     "end": 128.13,
     "speaker": "彥君",
-    "text": "戰士們， 隨堂考來了！",
+    "text": "戰士們 隨堂考來了",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -395,7 +395,7 @@
     "start": 148.77,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "Cu + CO₂ → 不反應",
+    "text": "Cu + CO₂ → \\text",
     "is_pinned": true,
     "pin_level": 1
   },
