@@ -1,0 +1,1138 @@
+[
+  {
+    "start": 0.0,
+    "end": 1.98,
+    "speaker": "彥君",
+    "text": "哈囉",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 2.18,
+    "end": 4.8,
+    "speaker": "彥君",
+    "text": "各位即將衝 A",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 5.0,
+    "end": 7.55,
+    "speaker": "彥君",
+    "text": "的 會考戰士們",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 7.75,
+    "end": 10.35,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 10.55,
+    "end": 13.7,
+    "speaker": "彥君",
+    "text": "今天來到 第八十一集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 13.9,
+    "end": 15.64,
+    "speaker": "曉臻",
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 15.84,
+    "end": 18.18,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 18.38,
+    "end": 21.24,
+    "speaker": "曉臻",
+    "text": "老師 第一個空格",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 21.44,
+    "end": 23.63,
+    "speaker": "曉臻",
+    "text": "熱是 從哪裡",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 23.83,
+    "end": 25.95,
+    "speaker": "曉臻",
+    "text": "傳到 哪裡啊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 26.15,
+    "end": 28.61,
+    "speaker": "彥君",
+    "text": "戰士們注意， ",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 28.81,
+    "end": 31.72,
+    "speaker": "彥君",
+    "text": "熱量 就像水流",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 31.92,
+    "end": 34.42,
+    "speaker": "彥君",
+    "text": "一定是 從高溫",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 34.62,
+    "end": 37.34,
+    "speaker": "彥君",
+    "text": "傳向 低溫的地方",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 37.54,
+    "end": 40.62,
+    "speaker": "曉臻",
+    "text": "喔 所以不是",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 40.82,
+    "end": 43.5,
+    "speaker": "曉臻",
+    "text": "熱量多 傳給熱量少",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 43.7,
+    "end": 47.98,
+    "speaker": "彥君",
+    "text": "沒錯 這是必考題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 48.18,
+    "end": 50.73,
+    "speaker": "彥君",
+    "text": "只看 溫度高低",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 50.93,
+    "end": 53.62,
+    "speaker": "曉臻",
+    "text": "那傳播方式 有三種",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 53.82,
+    "end": 56.76,
+    "speaker": "曉臻",
+    "text": "傳導、 對流 跟輻射",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 56.96,
+    "end": 59.66,
+    "speaker": "彥君",
+    "text": "傳導 最簡單",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 59.86,
+    "end": 62.62,
+    "speaker": "彥君",
+    "text": "就是 互相接觸",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 62.82,
+    "end": 65.86,
+    "speaker": "彥君",
+    "text": "通常發生 在固體",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 66.06,
+    "end": 68.51,
+    "speaker": "曉臻",
+    "text": "像是 摸到熱鍋子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 68.71,
+    "end": 72.97,
+    "speaker": "彥君",
+    "text": "對 金屬傳導最快",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 73.17,
+    "end": 75.96,
+    "speaker": "彥君",
+    "text": "所以 鍋子的把手",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 76.16,
+    "end": 79.17,
+    "speaker": "彥君",
+    "text": "會用 塑膠或木頭",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 79.37,
+    "end": 81.82,
+    "speaker": "曉臻",
+    "text": "因為 它們傳導慢",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 82.02,
+    "end": 84.96,
+    "speaker": "曉臻",
+    "text": "老師 我想到問題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 85.16,
+    "end": 87.66,
+    "speaker": "曉臻",
+    "text": "為什麼 冬天光腳",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 87.86,
+    "end": 90.03,
+    "speaker": "曉臻",
+    "text": "踩在 磁磚上",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 90.23,
+    "end": 92.69,
+    "speaker": "曉臻",
+    "text": "感覺比 木地板冷",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 92.89,
+    "end": 95.61,
+    "speaker": "彥君",
+    "text": "這是 經典陷阱！",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 95.81,
+    "end": 98.53,
+    "speaker": "彥君",
+    "text": "磁磚跟 木地板",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 98.73,
+    "end": 101.33,
+    "speaker": "彥君",
+    "text": "溫度 其實一樣喔",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 101.53,
+    "end": 103.46,
+    "speaker": "曉臻",
+    "text": "溫度一樣",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 103.66,
+    "end": 106.14,
+    "speaker": "曉臻",
+    "text": "那為什麼 會覺得冷",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 106.34,
+    "end": 109.22,
+    "speaker": "彥君",
+    "text": "因為 磁磚傳導快",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 109.42,
+    "end": 112.41,
+    "speaker": "彥君",
+    "text": "瞬間 把腳底的熱",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 112.61,
+    "end": 115.06,
+    "speaker": "彥君",
+    "text": "給 傳導帶走了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 115.26,
+    "end": 118.63,
+    "speaker": "曉臻",
+    "text": "哇 原來是錯覺",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 118.83,
+    "end": 121.6,
+    "speaker": "彥君",
+    "text": "木頭 傳導比較慢",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 121.8,
+    "end": 124.54,
+    "speaker": "彥君",
+    "text": "熱量 不容易流失",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 124.74,
+    "end": 127.39,
+    "speaker": "彥君",
+    "text": "另外 空氣也是",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 127.59,
+    "end": 130.38,
+    "speaker": "彥君",
+    "text": "傳導 很慢的物質喔",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 130.58,
+    "end": 132.73,
+    "speaker": "曉臻",
+    "text": "空氣 也算嗎",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 132.93,
+    "end": 137.09,
+    "speaker": "彥君",
+    "text": "對 冬天穿羽絨衣",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 137.29,
+    "end": 140.37,
+    "speaker": "彥君",
+    "text": "就是把 空氣抓起來",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 140.57,
+    "end": 143.36,
+    "speaker": "彥君",
+    "text": "讓熱量 傳不出去",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 143.56,
+    "end": 146.76,
+    "speaker": "曉臻",
+    "text": "哇 原來是這樣",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 146.96,
+    "end": 149.46,
+    "speaker": "曉臻",
+    "text": "那對流 旁邊的圖",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 149.66,
+    "end": 152.12,
+    "speaker": "曉臻",
+    "text": "為什麼 箭頭往上",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 152.32,
+    "end": 154.82,
+    "speaker": "彥君",
+    "text": "對流 發生在",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 155.02,
+    "end": 157.72,
+    "speaker": "彥君",
+    "text": "氣體 還有液體",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 157.92,
+    "end": 160.64,
+    "speaker": "彥君",
+    "text": "變熱 就會膨脹",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 160.84,
+    "end": 163.99,
+    "speaker": "彥君",
+    "text": "密度變小 就往上浮",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 164.19,
+    "end": 166.62,
+    "speaker": "曉臻",
+    "text": "變冷 就往下沉囉",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 166.82,
+    "end": 168.9,
+    "speaker": "彥君",
+    "text": "答對了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 169.1,
+    "end": 171.55,
+    "speaker": "彥君",
+    "text": "戰士們注意， ",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 171.75,
+    "end": 173.99,
+    "speaker": "彥君",
+    "text": "考題 來了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 174.19,
+    "end": 176.96,
+    "speaker": "彥君",
+    "text": "冷氣機 裝在哪裡",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 177.16,
+    "end": 179.83,
+    "speaker": "曉臻",
+    "text": "冷空氣 會往下沉",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 180.03,
+    "end": 182.61,
+    "speaker": "曉臻",
+    "text": "所以要裝 在高處",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 182.81,
+    "end": 186.99,
+    "speaker": "彥君",
+    "text": "沒錯 裝在上面",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 187.19,
+    "end": 190.1,
+    "speaker": "彥君",
+    "text": "冷風 下沉吹到人",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 190.3,
+    "end": 193.17,
+    "speaker": "彥君",
+    "text": "房間 才會涼得快",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 193.37,
+    "end": 195.85,
+    "speaker": "曉臻",
+    "text": "那冬天 的暖氣機",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 196.05,
+    "end": 198.72,
+    "speaker": "曉臻",
+    "text": "熱空氣 會往上飄",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 198.92,
+    "end": 201.42,
+    "speaker": "曉臻",
+    "text": "所以 要放在地上",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 201.62,
+    "end": 204.01,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 204.21,
+    "end": 207.12,
+    "speaker": "彥君",
+    "text": "這就是 對流的應用",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 207.32,
+    "end": 209.68,
+    "speaker": "彥君",
+    "text": "講到對流",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 209.88,
+    "end": 212.43,
+    "speaker": "彥君",
+    "text": "還有 大魔王",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 212.63,
+    "end": 215.21,
+    "speaker": "曉臻",
+    "text": "是 海水跟沙子的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 215.41,
+    "end": 217.77,
+    "speaker": "曉臻",
+    "text": "海陸風 考題嗎",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 217.97,
+    "end": 222.08,
+    "speaker": "彥君",
+    "text": "沒錯 結合比熱",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 222.28,
+    "end": 224.76,
+    "speaker": "彥君",
+    "text": "水的比熱大",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 224.96,
+    "end": 227.51,
+    "speaker": "彥君",
+    "text": "難冷 又難熱",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 227.71,
+    "end": 230.31,
+    "speaker": "彥君",
+    "text": "沙子 比熱小",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 230.51,
+    "end": 233.33,
+    "speaker": "彥君",
+    "text": "容易冷 也容易熱",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 233.53,
+    "end": 235.84,
+    "speaker": "曉臻",
+    "text": "白天 出大太陽",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 236.04,
+    "end": 238.57,
+    "speaker": "曉臻",
+    "text": "陸地 會變得很燙",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 238.77,
+    "end": 241.15,
+    "speaker": "彥君",
+    "text": "陸地溫度高",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 241.35,
+    "end": 243.66,
+    "speaker": "彥君",
+    "text": "空氣上升",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 243.86,
+    "end": 246.39,
+    "speaker": "彥君",
+    "text": "形成 低氣壓",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 246.59,
+    "end": 249.05,
+    "speaker": "彥君",
+    "text": "海水溫度低",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 249.25,
+    "end": 251.73,
+    "speaker": "彥君",
+    "text": "空氣下沉",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 251.93,
+    "end": 254.46,
+    "speaker": "彥君",
+    "text": "形成 高氣壓",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 254.66,
+    "end": 256.54,
+    "speaker": "曉臻",
+    "text": "風是從",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 256.74,
+    "end": 259.1,
+    "speaker": "曉臻",
+    "text": "高壓 吹向低壓",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 259.3,
+    "end": 261.82,
+    "speaker": "曉臻",
+    "text": "所以 白天吹海風",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 262.02,
+    "end": 264.41,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 264.61,
+    "end": 267.59,
+    "speaker": "彥君",
+    "text": "風從 海上吹過來",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 267.79,
+    "end": 270.25,
+    "speaker": "彥君",
+    "text": "就叫做 海風",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 270.45,
+    "end": 273.17,
+    "speaker": "曉臻",
+    "text": "那晚上 剛好相反囉",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 273.37,
+    "end": 277.65,
+    "speaker": "彥君",
+    "text": "對 晚上沒有太陽",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 277.85,
+    "end": 280.45,
+    "speaker": "彥君",
+    "text": "沙子 冷得很快",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 280.65,
+    "end": 283.44,
+    "speaker": "彥君",
+    "text": "陸地 變成高氣壓",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 283.64,
+    "end": 286.41,
+    "speaker": "彥君",
+    "text": "海水 還溫溫的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 286.61,
+    "end": 289.23,
+    "speaker": "彥君",
+    "text": "就變成 低氣壓",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 289.43,
+    "end": 292.01,
+    "speaker": "曉臻",
+    "text": "風從 陸地吹出去",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 292.21,
+    "end": 294.57,
+    "speaker": "曉臻",
+    "text": "晚上 就吹陸風",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 294.77,
+    "end": 297.22,
+    "speaker": "彥君",
+    "text": "助教 一百分",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 297.42,
+    "end": 300.26,
+    "speaker": "彥君",
+    "text": "把對流 結合地科",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 300.46,
+    "end": 303.42,
+    "speaker": "彥君",
+    "text": "大考 絕對難不倒你",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 303.62,
+    "end": 306.58,
+    "speaker": "曉臻",
+    "text": "老師 最後的輻射",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 306.78,
+    "end": 309.26,
+    "speaker": "曉臻",
+    "text": "又是 什麼原理啊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 309.46,
+    "end": 312.11,
+    "speaker": "彥君",
+    "text": "輻射 最特別",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 312.31,
+    "end": 315.39,
+    "speaker": "彥君",
+    "text": "完全 不需要介質",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 315.59,
+    "end": 318.67,
+    "speaker": "彥君",
+    "text": "是以 光波形式傳遞",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 318.87,
+    "end": 321.35,
+    "speaker": "曉臻",
+    "text": "不用 交通工具嗎",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 321.55,
+    "end": 325.59,
+    "speaker": "彥君",
+    "text": "沒錯 太陽的熱",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 325.79,
+    "end": 328.3,
+    "speaker": "彥君",
+    "text": "就是 靠輻射",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 328.5,
+    "end": 331.26,
+    "speaker": "彥君",
+    "text": "穿過 茫茫宇宙",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 331.46,
+    "end": 334.18,
+    "speaker": "彥君",
+    "text": "傳到 地球上的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 334.38,
+    "end": 336.84,
+    "speaker": "曉臻",
+    "text": "還有 烤肉的時候",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 337.04,
+    "end": 339.69,
+    "speaker": "曉臻",
+    "text": "靠近火堆 會覺得熱",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 339.89,
+    "end": 342.22,
+    "speaker": "曉臻",
+    "text": "也是 輻射對吧",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 342.42,
+    "end": 344.5,
+    "speaker": "彥君",
+    "text": "答對了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 344.7,
+    "end": 347.46,
+    "speaker": "彥君",
+    "text": "想要 阻擋輻射",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 347.66,
+    "end": 350.58,
+    "speaker": "彥君",
+    "text": "就要用 淺色或亮面",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 350.78,
+    "end": 353.16,
+    "speaker": "曉臻",
+    "text": "那保溫瓶 裡面",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 353.36,
+    "end": 355.74,
+    "speaker": "曉臻",
+    "text": "為什麼要 亮亮的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 355.94,
+    "end": 358.83,
+    "speaker": "彥君",
+    "text": "因為 銀色的鏡面",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 359.03,
+    "end": 362.04,
+    "speaker": "彥君",
+    "text": "可以把 輻射反射掉",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 362.24,
+    "end": 365.13,
+    "speaker": "彥君",
+    "text": "再加上 抽成真空",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 365.33,
+    "end": 368.07,
+    "speaker": "彥君",
+    "text": "傳導對流 都廢了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 368.27,
+    "end": 371.47,
+    "speaker": "曉臻",
+    "text": "哇 物理防禦耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 371.67,
+    "end": 374.68,
+    "speaker": "彥君",
+    "text": "最後 看到第三點",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 374.88,
+    "end": 377.31,
+    "speaker": "曉臻",
+    "text": "是 熱量的定義嗎",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 377.51,
+    "end": 381.41,
+    "speaker": "彥君",
+    "text": "對 讓一克的水",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 381.61,
+    "end": 384.35,
+    "speaker": "彥君",
+    "text": "上升 一度Ｃ",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 384.55,
+    "end": 386.96,
+    "speaker": "彥君",
+    "text": "需要的熱量",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 387.16,
+    "end": 389.4,
+    "speaker": "彥君",
+    "text": "就是 一卡",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 389.6,
+    "end": 391.91,
+    "speaker": "曉臻",
+    "text": "這是 算熱量的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 392.11,
+    "end": 394.4,
+    "speaker": "曉臻",
+    "text": "最基礎 定義喔",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 394.6,
+    "end": 396.82,
+    "speaker": "彥君",
+    "text": "觀念通了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 397.02,
+    "end": 399.52,
+    "speaker": "彥君",
+    "text": "秒殺考題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 399.72,
+    "end": 402.32,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 402.52,
+    "end": 404.86,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 405.06,
+    "end": 408.3,
+    "speaker": "合聲",
+    "text": "白天海風 晚上陸風",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 408.5,
+    "end": 411.44,
+    "speaker": "合聲",
+    "text": "戰士們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
