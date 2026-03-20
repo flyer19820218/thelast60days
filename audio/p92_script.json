@@ -233,7 +233,7 @@
   },
   {
     "start": 87.99,
-    "end": 116.8,
+    "end": 120.32,
     "speaker": "彥君",
     "text": "MgCl₂ → Mg²⁺ + 2Cl⁻",
     "is_pinned": true,
@@ -304,15 +304,15 @@
     "pin_level": 0
   },
   {
-    "start": 117.32,
-    "end": 120.02,
+    "start": 120.32,
+    "end": 123.02,
     "speaker": "彥君",
     "text": "硫酸鈉的 解離式",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 120.22,
+    "start": 123.22,
     "end": 9999.0,
     "speaker": "彥君",
     "text": "Na₂SO₄ → 2Na⁺ + SO₄²⁻",
@@ -320,128 +320,128 @@
     "pin_level": 1
   },
   {
-    "start": 125.49,
-    "end": 127.68,
+    "start": 128.49,
+    "end": 130.68,
     "speaker": "曉臻",
     "text": "鈉是 正 1 價",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 127.88,
-    "end": 130.43,
+    "start": 130.88,
+    "end": 133.43,
     "speaker": "曉臻",
     "text": "硫酸根 是負 2 價",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 130.63,
-    "end": 132.66,
+    "start": 133.63,
+    "end": 135.66,
     "speaker": "曉臻",
     "text": "為了 電中性",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 132.86,
-    "end": 135.29,
+    "start": 135.86,
+    "end": 138.29,
     "speaker": "曉臻",
     "text": "鈉的前面 要寫 2",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 135.49,
-    "end": 138.14,
+    "start": 138.49,
+    "end": 141.14,
     "speaker": "彥君",
     "text": "那如果 有 100 個",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 138.34,
-    "end": 141.1,
+    "start": 141.34,
+    "end": 144.1,
     "speaker": "彥君",
     "text": "硫酸鈉 丟進水裡呢",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 141.3,
-    "end": 143.5,
+    "start": 144.3,
+    "end": 146.5,
     "speaker": "曉臻",
     "text": "100 乘上 2",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 143.7,
-    "end": 146.61,
+    "start": 146.7,
+    "end": 149.61,
     "speaker": "曉臻",
     "text": "會產生 200 個鈉離子",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 146.81,
-    "end": 149.34,
+    "start": 149.81,
+    "end": 152.34,
     "speaker": "曉臻",
     "text": "還有 100 個硫酸根",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 149.54,
-    "end": 152.78,
+    "start": 152.54,
+    "end": 155.78,
     "speaker": "彥君",
     "text": "總共 產生 300 個離子",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 152.98,
-    "end": 155.78,
+    "start": 155.98,
+    "end": 158.78,
     "speaker": "彥君",
     "text": "助教 算得太快了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 155.98,
-    "end": 159.42,
+    "start": 158.98,
+    "end": 162.42,
     "speaker": "彥君",
     "text": "觀念通了 秒殺考題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 159.62,
-    "end": 162.22,
+    "start": 162.62,
+    "end": 165.22,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 162.42,
-    "end": 164.75,
+    "start": 165.42,
+    "end": 167.75,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 164.95,
-    "end": 168.46,
+    "start": 167.95,
+    "end": 171.46,
     "speaker": "合聲",
     "text": "正負相抵 解離無敵",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 168.66,
-    "end": 172.2,
+    "start": 171.66,
+    "end": 175.2,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
