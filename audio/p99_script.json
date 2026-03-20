@@ -1,751 +1,743 @@
 [
   {
     "start": 0.0,
-    "end": 2.5,
+    "end": 1.78,
     "speaker": "彥君",
-    "text": "Hi(Hi)!",
+    "text": "Hi!",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 2.7,
-    "end": 6.26,
+    "start": 1.98,
+    "end": 5.98,
     "speaker": "彥君",
-    "text": "各位即將衝ㄟ的會考戰士們",
+    "text": "各位即將衝A 的會考戰士們",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 6.46,
-    "end": 9.06,
+    "start": 6.18,
+    "end": 8.78,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 9.26,
-    "end": 12.44,
+    "start": 8.98,
+    "end": 12.15,
     "speaker": "彥君",
     "text": "今天來到 第九十九集",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 12.64,
-    "end": 14.38,
+    "start": 12.35,
+    "end": 14.09,
     "speaker": "曉臻",
     "text": "大家好",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 14.58,
-    "end": 16.91,
+    "start": 14.29,
+    "end": 16.62,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 17.11,
-    "end": 19.57,
+    "start": 16.82,
+    "end": 19.28,
     "speaker": "彥君",
     "text": "戰士們注意",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 19.77,
-    "end": 23.04,
+    "start": 19.48,
+    "end": 22.75,
     "speaker": "彥君",
     "text": "這集是 5 顆星必考題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 23.24,
-    "end": 26.37,
+    "start": 22.95,
+    "end": 26.08,
     "speaker": "彥君",
     "text": "皂化反應 與清潔劑",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 26.57,
-    "end": 29.29,
+    "start": 26.28,
+    "end": 29.0,
     "speaker": "曉臻",
     "text": "老師 標題寫著",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 29.49,
-    "end": 32.06,
+    "start": 29.2,
+    "end": 31.78,
     "speaker": "曉臻",
     "text": "皂化 跟酯化相反",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 32.26,
-    "end": 36.86,
+    "start": 31.98,
+    "end": 36.57,
     "speaker": "彥君",
     "text": "沒錯 這是超級大重點",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 37.06,
-    "end": 39.82,
+    "start": 36.77,
+    "end": 39.54,
     "speaker": "彥君",
     "text": "之前的 酯化反應",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 40.02,
-    "end": 43.39,
+    "start": 39.74,
+    "end": 43.1,
     "speaker": "彥君",
     "text": "是 酸加醇變成酯和水",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 43.59,
-    "end": 46.74,
+    "start": 43.3,
+    "end": 46.46,
     "speaker": "曉臻",
     "text": "喔 難道皂化",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 46.94,
-    "end": 50.12,
+    "start": 46.66,
+    "end": 49.83,
     "speaker": "曉臻",
     "text": "是把酯類 變回酸和醇嗎",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 50.32,
-    "end": 52.7,
+    "start": 50.03,
+    "end": 52.42,
     "speaker": "彥君",
     "text": "完全正確",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 52.9,
-    "end": 55.53,
+    "start": 52.62,
+    "end": 55.24,
     "speaker": "彥君",
     "text": "講義上的油脂",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 55.73,
-    "end": 58.86,
+    "start": 55.44,
+    "end": 58.57,
     "speaker": "彥君",
     "text": "其實 就是一種酯類",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 59.06,
-    "end": 62.38,
+    "start": 58.77,
+    "end": 62.09,
     "speaker": "彥君",
     "text": "它加上 氫氧化鈉強鹼",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 62.58,
-    "end": 65.99,
+    "start": 62.29,
+    "end": 65.7,
     "speaker": "彥君",
     "text": "就會 斷開變成酸和醇",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 66.19,
-    "end": 68.89,
+    "start": 65.9,
+    "end": 68.6,
     "speaker": "彥君",
     "text": "我們來看 反應式",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 69.09,
-    "end": 126.73,
+    "start": 68.8,
+    "end": 175.45,
     "speaker": "彥君",
     "text": "油脂 + NaOH → 脂肪酸鈉 + 丙三醇",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 74.36,
-    "end": 76.91,
+    "start": 74.07,
+    "end": 76.62,
     "speaker": "曉臻",
     "text": "產生了 脂肪酸鈉",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 77.11,
-    "end": 79.26,
+    "start": 76.82,
+    "end": 78.97,
     "speaker": "曉臻",
     "text": "還有 丙三醇",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 79.46,
-    "end": 82.63,
+    "start": 79.17,
+    "end": 82.34,
     "speaker": "彥君",
     "text": "這裡的 專有名詞超愛考",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 82.83,
-    "end": 85.96,
+    "start": 82.54,
+    "end": 85.67,
     "speaker": "彥君",
     "text": "講義 第一點跟第二點",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 86.16,
-    "end": 89.46,
+    "start": 85.87,
+    "end": 89.17,
     "speaker": "彥君",
     "text": "油脂 又叫三酸甘油酯",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 89.66,
-    "end": 92.74,
+    "start": 89.37,
+    "end": 92.45,
     "speaker": "彥君",
     "text": "脂肪酸鈉 就是肥皂",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 92.94,
-    "end": 95.8,
+    "start": 92.65,
+    "end": 95.51,
     "speaker": "曉臻",
     "text": "那第三點的 丙三醇呢",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 96.0,
-    "end": 98.65,
+    "start": 95.71,
+    "end": 98.36,
     "speaker": "彥君",
     "text": "它又 叫做甘油",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 98.85,
-    "end": 102.05,
+    "start": 98.56,
+    "end": 101.76,
     "speaker": "彥君",
     "text": "戰士們 陷阱來了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 102.25,
-    "end": 105.26,
+    "start": 101.96,
+    "end": 104.97,
     "speaker": "彥君",
     "text": "甘油 雖然有個油字",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 105.46,
-    "end": 108.34,
+    "start": 105.17,
+    "end": 108.06,
     "speaker": "彥君",
     "text": "但它是 醇類不是油喔",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 108.54,
-    "end": 112.15,
+    "start": 108.26,
+    "end": 111.86,
     "speaker": "曉臻",
     "text": "哇 它可以溶於水耶",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 112.35,
-    "end": 116.85,
+    "start": 112.06,
+    "end": 116.56,
     "speaker": "彥君",
     "text": "沒錯 所以皂化反應",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 117.05,
-    "end": 120.34,
+    "start": 116.76,
+    "end": 120.06,
     "speaker": "彥君",
     "text": "就是 產生肥皂跟甘油",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 120.54,
-    "end": 123.53,
-    "speaker": "彥君",
-    "text": "給你們 3 秒鐘抄寫",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 126.73,
-    "end": 129.62,
+    "start": 120.26,
+    "end": 123.14,
     "speaker": "曉臻",
     "text": "老師 第四點寫著",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 129.82,
-    "end": 132.39,
+    "start": 123.34,
+    "end": 125.92,
     "speaker": "曉臻",
     "text": "加入 酒精助溶劑",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 132.59,
-    "end": 135.1,
+    "start": 126.12,
+    "end": 128.62,
     "speaker": "曉臻",
     "text": "它不是 催化劑嗎",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 135.3,
-    "end": 139.58,
+    "start": 128.82,
+    "end": 133.1,
     "speaker": "彥君",
     "text": "絕對不是 畫五顆星",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 139.78,
-    "end": 142.83,
+    "start": 133.3,
+    "end": 136.36,
     "speaker": "彥君",
     "text": "酯化反應的 催化劑",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 143.03,
-    "end": 145.34,
+    "start": 136.56,
+    "end": 138.87,
     "speaker": "彥君",
     "text": "是 濃硫酸",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 145.54,
-    "end": 148.07,
+    "start": 139.07,
+    "end": 141.6,
     "speaker": "彥君",
     "text": "但這裡的 酒精",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 148.27,
-    "end": 151.5,
+    "start": 141.8,
+    "end": 145.02,
     "speaker": "彥君",
     "text": "只是 為了當作助溶劑",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 151.7,
-    "end": 154.34,
+    "start": 145.22,
+    "end": 147.87,
     "speaker": "曉臻",
     "text": "為什麼 需要助溶劑",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 154.54,
-    "end": 157.46,
+    "start": 148.07,
+    "end": 150.98,
     "speaker": "彥君",
     "text": "因為 油和水不互溶啊",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 157.66,
-    "end": 160.57,
+    "start": 151.18,
+    "end": 154.1,
     "speaker": "彥君",
     "text": "酒精 可以讓油脂",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 160.77,
-    "end": 164.02,
+    "start": 154.3,
+    "end": 157.54,
     "speaker": "彥君",
     "text": "還有 氫氧化鈉水溶液",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 164.22,
-    "end": 167.13,
+    "start": 157.74,
+    "end": 160.66,
     "speaker": "彥君",
     "text": "均勻地 混合在一起",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 167.33,
-    "end": 170.36,
+    "start": 160.86,
+    "end": 163.89,
     "speaker": "彥君",
     "text": "這樣 才能發生反應",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 170.56,
-    "end": 174.94,
+    "start": 164.09,
+    "end": 175.45,
     "speaker": "彥君",
-    "text": "助溶劑 不是催化劑",
+    "text": "酒精：助溶劑， 不是催化劑",
+    "is_pinned": true,
+    "pin_level": 2
+  },
+  {
+    "start": 168.66,
+    "end": 172.25,
+    "speaker": "彥君",
+    "text": "給你們 3 秒鐘認真做筆記",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 175.14,
-    "end": 178.12,
-    "speaker": "彥君",
-    "text": "給你們 3 秒鐘抄寫",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 181.32,
-    "end": 184.35,
+    "start": 175.45,
+    "end": 178.48,
     "speaker": "曉臻",
     "text": "老師 第五點的鹽析",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 184.55,
-    "end": 187.25,
+    "start": 178.68,
+    "end": 181.38,
     "speaker": "曉臻",
     "text": "又是 什麼神奇魔法",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 187.45,
-    "end": 190.07,
+    "start": 181.58,
+    "end": 184.2,
     "speaker": "彥君",
     "text": "剛做好的肥皂",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 190.27,
-    "end": 193.04,
+    "start": 184.4,
+    "end": 187.17,
     "speaker": "彥君",
     "text": "跟甘油 混在一起",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 193.24,
-    "end": 196.44,
+    "start": 187.37,
+    "end": 190.57,
     "speaker": "彥君",
     "text": "我們要 加入飽和食鹽水",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 196.64,
-    "end": 199.29,
+    "start": 190.77,
+    "end": 193.42,
     "speaker": "曉臻",
     "text": "為什麼 要加食鹽水",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 199.49,
-    "end": 202.66,
+    "start": 193.62,
+    "end": 196.79,
     "speaker": "彥君",
     "text": "因為 肥皂不溶於食鹽水",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 202.86,
-    "end": 205.46,
+    "start": 196.99,
+    "end": 199.59,
     "speaker": "彥君",
     "text": "它會 被逼出來",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 205.66,
-    "end": 208.26,
+    "start": 199.79,
+    "end": 202.39,
     "speaker": "曉臻",
     "text": "那 肥皂會沉下去",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 208.46,
-    "end": 210.73,
+    "start": 202.59,
+    "end": 204.86,
     "speaker": "曉臻",
     "text": "還是 浮起來啊",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 210.93,
-    "end": 214.22,
+    "start": 205.06,
+    "end": 208.35,
     "speaker": "彥君",
     "text": "肥皂的密度 比食鹽水小",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 214.42,
-    "end": 217.48,
+    "start": 208.55,
+    "end": 211.61,
     "speaker": "彥君",
     "text": "所以 會浮在最上面",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 217.68,
-    "end": 221.1,
+    "start": 211.81,
+    "end": 215.22,
     "speaker": "彥君",
     "text": "底下的 就是甘油和鹽水",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 221.3,
-    "end": 223.94,
+    "start": 215.42,
+    "end": 218.07,
     "speaker": "彥君",
     "text": "這個分離的步驟",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 224.14,
-    "end": 226.55,
+    "start": 218.27,
+    "end": 220.68,
     "speaker": "彥君",
     "text": "就叫做 鹽析",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 226.75,
-    "end": 231.13,
+    "start": 220.88,
+    "end": 232.24,
     "speaker": "彥君",
-    "text": "肥皂密度小 浮在水面上",
+    "text": "鹽析：肥皂密度小， 浮在水面上",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 225.46,
+    "end": 229.04,
+    "speaker": "彥君",
+    "text": "給你們 3 秒鐘認真做筆記",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 231.33,
-    "end": 234.31,
-    "speaker": "彥君",
-    "text": "給你們 3 秒鐘抄寫",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 237.51,
-    "end": 239.99,
+    "start": 232.24,
+    "end": 234.72,
     "speaker": "曉臻",
     "text": "最後 右下角的圖",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 240.19,
-    "end": 242.86,
+    "start": 234.92,
+    "end": 237.59,
     "speaker": "曉臻",
     "text": "就是 去污原理對吧",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 243.06,
-    "end": 247.37,
+    "start": 237.79,
+    "end": 242.1,
     "speaker": "彥君",
     "text": "沒錯 肥皂的分子",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 247.57,
-    "end": 250.48,
+    "start": 242.3,
+    "end": 245.21,
     "speaker": "彥君",
     "text": "長得 像一隻小蝌蚪",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 250.68,
-    "end": 253.35,
+    "start": 245.41,
+    "end": 248.08,
     "speaker": "曉臻",
     "text": "蝌蚪的頭 是親水端",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 253.55,
-    "end": 255.89,
+    "start": 248.28,
+    "end": 250.62,
     "speaker": "曉臻",
     "text": "尾巴 是親油端",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 256.09,
-    "end": 260.54,
+    "start": 250.82,
+    "end": 255.26,
     "speaker": "彥君",
     "text": "非常好 洗衣服的時候",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 260.74,
-    "end": 263.34,
+    "start": 255.46,
+    "end": 258.06,
     "speaker": "彥君",
     "text": "尾巴的 親油端",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 263.54,
-    "end": 266.38,
+    "start": 258.26,
+    "end": 261.1,
     "speaker": "彥君",
     "text": "會緊緊 抓住油汙",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 266.58,
-    "end": 269.22,
+    "start": 261.3,
+    "end": 263.95,
     "speaker": "曉臻",
     "text": "然後 頭部的親水端",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 269.42,
-    "end": 271.66,
+    "start": 264.15,
+    "end": 266.39,
     "speaker": "曉臻",
     "text": "就會 帶著油汙",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 271.86,
-    "end": 274.61,
+    "start": 266.59,
+    "end": 269.34,
     "speaker": "曉臻",
     "text": "溶進 水裡面對不對",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 274.81,
-    "end": 277.19,
+    "start": 269.54,
+    "end": 271.92,
     "speaker": "彥君",
     "text": "完全正確",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 277.39,
-    "end": 280.35,
+    "start": 272.12,
+    "end": 275.08,
     "speaker": "彥君",
     "text": "它把油汙 包圍起來",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 280.55,
-    "end": 283.56,
+    "start": 275.28,
+    "end": 278.29,
     "speaker": "彥君",
     "text": "拔離衣服 溶入水中",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 283.76,
-    "end": 286.67,
+    "start": 278.49,
+    "end": 281.4,
     "speaker": "彥君",
     "text": "這個作用 叫做乳化",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 286.87,
-    "end": 290.26,
+    "start": 281.6,
+    "end": 284.99,
     "speaker": "曉臻",
     "text": "哇 蝌蚪大軍出動",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 290.46,
-    "end": 293.14,
+    "start": 285.19,
+    "end": 287.86,
     "speaker": "曉臻",
     "text": "油汙 就被水沖走啦",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 293.34,
-    "end": 296.78,
+    "start": 288.06,
+    "end": 291.5,
     "speaker": "彥君",
     "text": "觀念通了 秒殺考題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 296.98,
-    "end": 299.58,
+    "start": 291.7,
+    "end": 294.3,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 299.78,
-    "end": 302.11,
+    "start": 294.5,
+    "end": 296.84,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 302.31,
-    "end": 305.8,
+    "start": 297.04,
+    "end": 300.53,
     "speaker": "合聲",
     "text": "皂化去油 鹽析上浮",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 306.0,
-    "end": 309.54,
+    "start": 300.73,
+    "end": 304.26,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
