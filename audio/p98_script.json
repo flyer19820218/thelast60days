@@ -11,7 +11,7 @@
     "start": 2.18,
     "end": 5.45,
     "speaker": "彥君",
-    "text": "各位即將衝 ㄟ 的",
+    "text": "各位即將衝 A 的",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -161,255 +161,255 @@
   },
   {
     "start": 59.12,
-    "end": 64.62,
+    "end": 96.14,
     "speaker": "彥君",
-    "text": "纖維素、燒紙味",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "植物",
+    "is_pinned": true,
+    "pin_level": 1
   },
   {
-    "start": 64.82,
-    "end": 67.35,
+    "start": 66.91,
+    "end": 69.44,
     "speaker": "曉臻",
     "text": "接著看 動物纖維",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 67.55,
-    "end": 70.22,
+    "start": 69.64,
+    "end": 72.31,
     "speaker": "曉臻",
     "text": "像是 蠶絲跟羊毛",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 70.42,
-    "end": 73.65,
+    "start": 72.51,
+    "end": 75.74,
     "speaker": "彥君",
     "text": "動物的成分 是蛋白質",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 73.85,
-    "end": 76.95,
+    "start": 75.94,
+    "end": 79.04,
     "speaker": "彥君",
     "text": "燒起來 就像燒頭髮",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 77.15,
-    "end": 80.04,
+    "start": 79.24,
+    "end": 82.13,
     "speaker": "彥君",
     "text": "有 燒焦羽毛的味道",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 80.24,
-    "end": 85.72,
+    "start": 82.33,
+    "end": 96.14,
     "speaker": "彥君",
-    "text": "蛋白質、燒毛味",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "動物",
+    "is_pinned": true,
+    "pin_level": 2
   },
   {
-    "start": 85.92,
-    "end": 88.9,
+    "start": 89.95,
+    "end": 92.94,
     "speaker": "彥君",
     "text": "給你們 3 秒鐘抄寫",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 92.1,
-    "end": 95.4,
+    "start": 96.14,
+    "end": 99.43,
     "speaker": "曉臻",
     "text": "老師 下面的人造纖維",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 95.6,
-    "end": 98.49,
+    "start": 99.63,
+    "end": 102.52,
     "speaker": "曉臻",
     "text": "再生纖維 是什麼東西",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 98.69,
-    "end": 101.53,
+    "start": 102.72,
+    "end": 105.56,
     "speaker": "彥君",
     "text": "最有名的 叫做嫘縈",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 101.73,
-    "end": 104.78,
+    "start": 105.76,
+    "end": 108.82,
     "speaker": "彥君",
     "text": "它是把 植物的纖維素",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 104.98,
-    "end": 108.06,
+    "start": 109.02,
+    "end": 112.1,
     "speaker": "彥君",
     "text": "溶解之後 重新抽絲",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 108.26,
-    "end": 111.68,
+    "start": 112.3,
+    "end": 115.71,
     "speaker": "曉臻",
     "text": "喔 所以它的成分",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 111.88,
-    "end": 114.72,
+    "start": 115.91,
+    "end": 118.75,
     "speaker": "曉臻",
     "text": "其實 還是纖維素嗎",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 114.92,
-    "end": 119.27,
+    "start": 118.95,
+    "end": 123.3,
     "speaker": "彥君",
     "text": "完全正確 燒起來",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 119.47,
-    "end": 122.5,
+    "start": 123.5,
+    "end": 126.54,
     "speaker": "彥君",
     "text": "一樣 是燒紙張的味道",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 122.7,
-    "end": 125.76,
+    "start": 126.74,
+    "end": 129.79,
     "speaker": "彥君",
     "text": "因為很亮 又叫人造絲",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 125.96,
-    "end": 131.34,
+    "start": 129.99,
+    "end": 171.15,
     "speaker": "彥君",
-    "text": "纖維素、燒紙味",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "再生",
+    "is_pinned": true,
+    "pin_level": 1
   },
   {
-    "start": 131.54,
-    "end": 134.24,
+    "start": 137.71,
+    "end": 140.41,
     "speaker": "曉臻",
     "text": "最後一個 合成纖維",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 134.44,
-    "end": 137.4,
+    "start": 140.61,
+    "end": 143.57,
     "speaker": "曉臻",
     "text": "像是 耐綸跟聚酯纖維",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 137.6,
-    "end": 140.7,
+    "start": 143.77,
+    "end": 146.87,
     "speaker": "彥君",
     "text": "這些是 石化原料做的",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 140.9,
-    "end": 144.08,
+    "start": 147.07,
+    "end": 150.25,
     "speaker": "彥君",
     "text": "燒起來 會融化縮水",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 144.28,
-    "end": 147.6,
+    "start": 150.45,
+    "end": 153.77,
     "speaker": "彥君",
     "text": "甚至會 結成黑色硬球",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 147.8,
-    "end": 153.3,
+    "start": 153.97,
+    "end": 171.15,
     "speaker": "彥君",
-    "text": "石化原料、結硬球",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "合成",
+    "is_pinned": true,
+    "pin_level": 2
   },
   {
-    "start": 153.5,
-    "end": 156.42,
+    "start": 161.86,
+    "end": 164.77,
     "speaker": "彥君",
     "text": "只要會燒 就能拿分",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 156.62,
-    "end": 159.6,
+    "start": 164.97,
+    "end": 167.95,
     "speaker": "彥君",
     "text": "給你們 3 秒鐘抄寫",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 162.8,
-    "end": 166.24,
+    "start": 171.15,
+    "end": 174.59,
     "speaker": "彥君",
     "text": "觀念通了 秒殺考題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 166.44,
-    "end": 169.04,
+    "start": 174.79,
+    "end": 177.39,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 169.24,
-    "end": 171.58,
+    "start": 177.59,
+    "end": 179.93,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 171.78,
-    "end": 175.22,
+    "start": 180.13,
+    "end": 183.57,
     "speaker": "合聲",
     "text": "植物燒紙 動物燒毛",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 175.42,
-    "end": 178.95,
+    "start": 183.77,
+    "end": 187.3,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
