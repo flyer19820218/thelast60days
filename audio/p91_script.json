@@ -11,7 +11,7 @@
     "start": 2.18,
     "end": 6.17,
     "speaker": "彥君",
-    "text": "各位即將衝A的 會考戰士們",
+    "text": "各位即將衝ㄟ的 會考戰士們",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -51,7 +51,7 @@
     "start": 16.94,
     "end": 19.4,
     "speaker": "彥君",
-    "text": "戰士們注意， ",
+    "text": "戰士們注意",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -283,7 +283,7 @@
     "start": 101.1,
     "end": 104.08,
     "speaker": "彥君",
-    "text": "給你們 3 秒鐘抄寫。",
+    "text": "給你們 3 秒鐘抄寫",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -307,12 +307,12 @@
     "start": 113.07,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "Ca(OH)₂",
+    "text": "[Ca",
     "is_pinned": true,
     "pin_level": 2
   },
   {
-    "start": 115.61,
+    "start": 117.46,
     "end": 9999.0,
     "speaker": "彥君",
     "text": "NH₃",
@@ -320,7 +320,7 @@
     "pin_level": 3
   },
   {
-    "start": 117.9,
+    "start": 119.75,
     "end": 9999.0,
     "speaker": "彥君",
     "text": "Na₂CO₃",
@@ -328,7 +328,7 @@
     "pin_level": 4
   },
   {
-    "start": 120.3,
+    "start": 122.14,
     "end": 9999.0,
     "speaker": "彥君",
     "text": "NaHCO₃",
@@ -336,136 +336,136 @@
     "pin_level": 5
   },
   {
-    "start": 122.86,
-    "end": 125.91,
+    "start": 124.7,
+    "end": 127.76,
     "speaker": "曉臻",
     "text": "氫氧化鈉 跟氫氧化鈣",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 126.11,
-    "end": 128.09,
+    "start": 127.96,
+    "end": 129.94,
     "speaker": "曉臻",
     "text": "都是 強鹼",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 128.29,
-    "end": 131.01,
+    "start": 130.14,
+    "end": 132.86,
     "speaker": "曉臻",
     "text": "氨氣 溶於水變氨水",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 131.21,
-    "end": 133.14,
+    "start": 133.06,
+    "end": 134.98,
     "speaker": "曉臻",
     "text": "它是 弱鹼",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 133.34,
-    "end": 136.68,
+    "start": 135.18,
+    "end": 138.53,
     "speaker": "彥君",
-    "text": "戰士們， 陷阱又來了！",
+    "text": "戰士們 陷阱又來了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 136.88,
-    "end": 139.82,
+    "start": 138.73,
+    "end": 141.66,
     "speaker": "彥君",
     "text": "碳酸鈉 是洗滌鹼",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 140.02,
-    "end": 143.05,
+    "start": 141.86,
+    "end": 144.9,
     "speaker": "彥君",
     "text": "碳酸氫鈉 是小蘇打",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 143.25,
-    "end": 146.02,
+    "start": 145.1,
+    "end": 147.86,
     "speaker": "彥君",
     "text": "它們 其實是鹽類",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 146.22,
-    "end": 149.7,
+    "start": 148.06,
+    "end": 151.55,
     "speaker": "曉臻",
     "text": "咦 那為什麼 放在鹼",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 149.9,
-    "end": 152.62,
+    "start": 151.75,
+    "end": 154.47,
     "speaker": "彥君",
     "text": "因為 它們溶於水",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 152.82,
-    "end": 155.28,
+    "start": 154.67,
+    "end": 157.13,
     "speaker": "彥君",
     "text": "呈現 鹼性",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 155.48,
-    "end": 158.44,
+    "start": 157.33,
+    "end": 160.29,
     "speaker": "彥君",
     "text": "大考 最愛考這題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 158.64,
-    "end": 162.08,
+    "start": 160.49,
+    "end": 163.93,
     "speaker": "彥君",
     "text": "觀念通了 秒殺考題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 162.28,
-    "end": 164.88,
+    "start": 164.13,
+    "end": 166.73,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 165.08,
-    "end": 167.42,
+    "start": 166.93,
+    "end": 169.26,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 167.62,
-    "end": 171.06,
+    "start": 169.46,
+    "end": 172.9,
     "speaker": "合聲",
     "text": "解離完全 濃度關鍵",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 171.26,
-    "end": 174.79,
+    "start": 173.1,
+    "end": 176.64,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
