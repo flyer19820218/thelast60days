@@ -11,7 +11,7 @@
     "start": 2.18,
     "end": 6.17,
     "speaker": "彥君",
-    "text": "各位即將衝A的 會考戰士們",
+    "text": "各位即將衝ㄟ的 會考戰士們",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -67,7 +67,7 @@
     "start": 22.86,
     "end": 25.86,
     "speaker": "彥君",
-    "text": "戰士們， 撐住啊！",
+    "text": "戰士們 撐住啊",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -99,7 +99,7 @@
     "start": 35.74,
     "end": 38.43,
     "speaker": "曉臻",
-    "text": "CO₃²⁻",
+    "text": "CO₃^",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -107,7 +107,7 @@
     "start": 38.63,
     "end": 41.64,
     "speaker": "曉臻",
-    "text": "SO₄²⁻",
+    "text": "SO₄^",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -121,327 +121,327 @@
   },
   {
     "start": 46.42,
-    "end": 49.06,
+    "end": 51.01,
     "speaker": "彥君",
-    "text": "像是 SO₃²⁻",
+    "text": "像是 SO₃^（亞硫酸根）",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 49.26,
-    "end": 51.86,
+    "start": 51.21,
+    "end": 56.11,
     "speaker": "彥君",
-    "text": "還有 NO₂⁻",
+    "text": "還有 NO₂⁻（亞硝酸根）",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 52.06,
-    "end": 55.58,
+    "start": 56.31,
+    "end": 59.82,
     "speaker": "彥君",
     "text": "少一個氧 就加個亞字",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 55.78,
-    "end": 59.02,
+    "start": 60.02,
+    "end": 64.71,
     "speaker": "曉臻",
-    "text": "喔 還有 OH⁻",
+    "text": "喔 還有 OH⁻（氫氧根）",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 59.22,
-    "end": 61.18,
+    "start": 64.91,
+    "end": 69.17,
     "speaker": "曉臻",
-    "text": "跟 CH₃COO⁻",
+    "text": "跟 CH₃COO⁻（醋酸根）",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 61.38,
-    "end": 64.12,
+    "start": 69.37,
+    "end": 72.11,
     "speaker": "彥君",
     "text": "那唯一 帶正電的根呢",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 64.32,
-    "end": 66.18,
+    "start": 72.31,
+    "end": 76.18,
     "speaker": "曉臻",
-    "text": "就是 NH₄⁺",
+    "text": "就是 NH₄⁺（銨根）",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 66.38,
-    "end": 70.34,
+    "start": 76.38,
+    "end": 80.35,
     "speaker": "彥君",
     "text": "漂亮 接下來",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 70.54,
-    "end": 73.34,
+    "start": 80.55,
+    "end": 83.34,
     "speaker": "彥君",
     "text": "我們進入 電中性",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 73.54,
-    "end": 76.38,
+    "start": 83.54,
+    "end": 86.38,
     "speaker": "彥君",
     "text": "什麼 叫做電中性",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 76.58,
-    "end": 79.18,
+    "start": 86.58,
+    "end": 89.18,
     "speaker": "曉臻",
     "text": "就是 正電的總電量",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 79.38,
-    "end": 81.9,
+    "start": 89.38,
+    "end": 91.91,
     "speaker": "曉臻",
     "text": "等於 負電的總電量",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 82.1,
-    "end": 84.49,
+    "start": 92.11,
+    "end": 94.5,
     "speaker": "彥君",
     "text": "完全正確",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 84.69,
-    "end": 87.79,
+    "start": 94.7,
+    "end": 97.8,
     "speaker": "彥君",
     "text": "我們來寫 氯化鎂的解離",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 87.99,
-    "end": 120.32,
+    "start": 98.0,
+    "end": 130.33,
     "speaker": "彥君",
-    "text": "MgCl₂ → Mg²⁺ + 2Cl⁻",
+    "text": "MgCl₂ → Mg^ + 2Cl⁻",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 93.24,
-    "end": 96.3,
+    "start": 103.25,
+    "end": 106.3,
     "speaker": "曉臻",
     "text": "老師 為什麼氯前面",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 96.5,
-    "end": 98.83,
+    "start": 106.5,
+    "end": 108.84,
     "speaker": "曉臻",
     "text": "要 寫上數字 2",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 99.03,
-    "end": 101.7,
+    "start": 109.04,
+    "end": 111.71,
     "speaker": "彥君",
     "text": "因為 鎂是正 2 價",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 101.9,
-    "end": 104.46,
+    "start": 111.91,
+    "end": 114.46,
     "speaker": "彥君",
     "text": "氯 只有負 1 價",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 104.66,
-    "end": 107.14,
+    "start": 114.66,
+    "end": 117.14,
     "speaker": "彥君",
     "text": "必須要 2 個氯",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 107.34,
-    "end": 110.01,
+    "start": 117.34,
+    "end": 120.02,
     "speaker": "彥君",
     "text": "才能 抵銷 1 個鎂",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 110.21,
-    "end": 113.6,
+    "start": 120.22,
+    "end": 123.61,
     "speaker": "曉臻",
     "text": "哇 這就是電中性",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 113.8,
-    "end": 117.12,
+    "start": 123.81,
+    "end": 127.13,
     "speaker": "彥君",
-    "text": "戰士們， 隨堂考來了！",
+    "text": "戰士們 隨堂考來了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 120.32,
-    "end": 123.02,
+    "start": 130.33,
+    "end": 133.02,
     "speaker": "彥君",
     "text": "硫酸鈉的 解離式",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 123.22,
+    "start": 133.22,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "Na₂SO₄ → 2Na⁺ + SO₄²⁻",
+    "text": "Na₂SO₄ → 2Na⁺ + SO₄^",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 128.49,
-    "end": 130.68,
+    "start": 138.5,
+    "end": 140.69,
     "speaker": "曉臻",
     "text": "鈉是 正 1 價",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 130.88,
-    "end": 133.43,
+    "start": 140.89,
+    "end": 143.44,
     "speaker": "曉臻",
     "text": "硫酸根 是負 2 價",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 133.63,
-    "end": 135.66,
+    "start": 143.64,
+    "end": 145.66,
     "speaker": "曉臻",
     "text": "為了 電中性",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 135.86,
-    "end": 138.29,
+    "start": 145.86,
+    "end": 148.3,
     "speaker": "曉臻",
     "text": "鈉的前面 要寫 2",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 138.49,
-    "end": 141.14,
+    "start": 148.5,
+    "end": 151.14,
     "speaker": "彥君",
     "text": "那如果 有 100 個",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 141.34,
-    "end": 144.1,
+    "start": 151.34,
+    "end": 154.11,
     "speaker": "彥君",
     "text": "硫酸鈉 丟進水裡呢",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 144.3,
-    "end": 146.5,
+    "start": 154.31,
+    "end": 156.5,
     "speaker": "曉臻",
     "text": "100 乘上 2",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 146.7,
-    "end": 149.61,
+    "start": 156.7,
+    "end": 159.62,
     "speaker": "曉臻",
     "text": "會產生 200 個鈉離子",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 149.81,
-    "end": 152.34,
+    "start": 159.82,
+    "end": 162.34,
     "speaker": "曉臻",
     "text": "還有 100 個硫酸根",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 152.54,
-    "end": 155.78,
+    "start": 162.54,
+    "end": 165.79,
     "speaker": "彥君",
     "text": "總共 產生 300 個離子",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 155.98,
-    "end": 158.78,
+    "start": 165.99,
+    "end": 168.78,
     "speaker": "彥君",
     "text": "助教 算得太快了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 158.98,
-    "end": 162.42,
+    "start": 168.98,
+    "end": 172.42,
     "speaker": "彥君",
     "text": "觀念通了 秒殺考題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 162.62,
-    "end": 165.22,
+    "start": 172.62,
+    "end": 175.22,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 165.42,
-    "end": 167.75,
+    "start": 175.42,
+    "end": 177.76,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 167.95,
-    "end": 171.46,
+    "start": 177.96,
+    "end": 181.47,
     "speaker": "合聲",
     "text": "正負相抵 解離無敵",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 171.66,
-    "end": 175.2,
+    "start": 181.67,
+    "end": 185.21,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
