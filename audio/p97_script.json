@@ -11,7 +11,7 @@
     "start": 2.18,
     "end": 5.74,
     "speaker": "彥君",
-    "text": "各位即將衝ㄟ的會考戰士們",
+    "text": "各位即將衝A的會考戰士們",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -201,11 +201,11 @@
   },
   {
     "start": 79.62,
-    "end": 84.19,
+    "end": 109.66,
     "speaker": "彥君",
-    "text": "澱粉、蛋白質、纖維素",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "天然：澱粉、蛋白質、纖維素",
+    "is_pinned": true,
+    "pin_level": 1
   },
   {
     "start": 84.39,
@@ -241,11 +241,11 @@
   },
   {
     "start": 98.57,
-    "end": 103.28,
+    "end": 109.66,
     "speaker": "彥君",
-    "text": "塑膠、耐綸、合成纖維",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "合成：塑膠、耐綸、合成纖維",
+    "is_pinned": true,
+    "pin_level": 2
   },
   {
     "start": 103.48,
@@ -385,207 +385,207 @@
   },
   {
     "start": 162.22,
-    "end": 166.42,
+    "end": 175.23,
     "speaker": "彥君",
-    "text": "遇熱軟化、可回收",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "鏈狀",
+    "is_pinned": true,
+    "pin_level": 1
   },
   {
-    "start": 166.62,
-    "end": 169.61,
+    "start": 169.05,
+    "end": 172.03,
     "speaker": "彥君",
     "text": "給你們 3 秒鐘抄寫",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 172.81,
-    "end": 175.79,
+    "start": 175.23,
+    "end": 178.22,
     "speaker": "曉臻",
     "text": "那下面的 網狀聚合物呢",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 175.99,
-    "end": 178.4,
+    "start": 178.42,
+    "end": 180.82,
     "speaker": "曉臻",
     "text": "括號寫著 熱固性",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 178.6,
-    "end": 181.92,
+    "start": 181.02,
+    "end": 184.34,
     "speaker": "彥君",
     "text": "它的結構 像立體烤肉網",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 182.12,
-    "end": 185.49,
+    "start": 184.54,
+    "end": 187.91,
     "speaker": "彥君",
     "text": "分子之間 緊緊扣在一起",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 185.69,
-    "end": 188.55,
+    "start": 188.11,
+    "end": 190.98,
     "speaker": "曉臻",
     "text": "那它 加熱也會融化嗎",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 188.75,
-    "end": 193.27,
+    "start": 191.18,
+    "end": 195.7,
     "speaker": "彥君",
     "text": "不會 它就像烤熟的蛋糕",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 193.47,
-    "end": 196.5,
+    "start": 195.9,
+    "end": 198.93,
     "speaker": "彥君",
     "text": "再加熱 它只會烤焦",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 196.7,
-    "end": 199.35,
+    "start": 199.13,
+    "end": 201.78,
     "speaker": "彥君",
     "text": "絕對 不會融化",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 199.55,
-    "end": 203.21,
+    "start": 201.98,
+    "end": 205.63,
     "speaker": "曉臻",
     "text": "哇 那就 不能回收了耶",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 203.41,
-    "end": 207.86,
+    "start": 205.83,
+    "end": 210.28,
     "speaker": "彥君",
     "text": "沒錯 所以叫熱固性",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 208.06,
-    "end": 211.52,
+    "start": 210.48,
+    "end": 213.94,
     "speaker": "曉臻",
     "text": "老師 生活中有什麼例子",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 211.72,
-    "end": 214.56,
+    "start": 214.14,
+    "end": 216.98,
     "speaker": "彥君",
     "text": "它們 都超級耐高溫",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 214.76,
-    "end": 217.53,
+    "start": 217.18,
+    "end": 219.95,
     "speaker": "彥君",
     "text": "像是 汽車的輪胎",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 217.73,
-    "end": 221.05,
+    "start": 220.15,
+    "end": 223.47,
     "speaker": "彥君",
     "text": "還有 炒菜鍋的黑色把手",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 221.25,
-    "end": 223.87,
+    "start": 223.67,
+    "end": 226.3,
     "speaker": "彥君",
     "text": "以及 絕緣的電木",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 224.07,
-    "end": 228.33,
+    "start": 226.5,
+    "end": 246.55,
     "speaker": "彥君",
-    "text": "遇熱不熔、不回收",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "網狀",
+    "is_pinned": true,
+    "pin_level": 1
   },
   {
-    "start": 228.53,
-    "end": 232.69,
+    "start": 233.21,
+    "end": 237.37,
     "speaker": "曉臻",
     "text": "哇 用義大利麵 跟蛋糕來記",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 232.89,
-    "end": 235.49,
+    "start": 237.57,
+    "end": 240.17,
     "speaker": "曉臻",
     "text": "真的 秒懂不會忘耶",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 235.69,
-    "end": 238.67,
+    "start": 240.37,
+    "end": 243.35,
     "speaker": "彥君",
     "text": "給你們 3 秒鐘抄寫",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 241.87,
-    "end": 245.31,
+    "start": 246.55,
+    "end": 249.99,
     "speaker": "彥君",
     "text": "觀念通了 秒殺考題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 245.51,
-    "end": 248.11,
+    "start": 250.19,
+    "end": 252.79,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 248.31,
-    "end": 250.65,
+    "start": 252.99,
+    "end": 255.33,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 250.85,
-    "end": 254.26,
+    "start": 255.53,
+    "end": 258.94,
     "speaker": "合聲",
     "text": "鏈狀融化 網狀不怕",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 254.46,
-    "end": 258.0,
+    "start": 259.14,
+    "end": 262.68,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
