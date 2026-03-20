@@ -219,7 +219,7 @@
     "start": 82.7,
     "end": 120.34,
     "speaker": "彥君",
-    "text": "H_2 + O_2 \\rightarrow H_2O",
+    "text": "$H_2 + O_2 \\rightarrow H_2O$",
     "is_pinned": true,
     "pin_level": 1
   },
@@ -259,7 +259,7 @@
     "start": 96.94,
     "end": 120.34,
     "speaker": "彥君",
-    "text": "H_2 + O_2 \\rightarrow 2H_2O",
+    "text": "$H_2 + O_2 \\rightarrow 2H_2O$",
     "is_pinned": true,
     "pin_level": 2
   },
@@ -291,7 +291,7 @@
     "start": 110.78,
     "end": 120.34,
     "speaker": "彥君",
-    "text": "2H_2 + O_2 \\rightarrow 2H_2O",
+    "text": "$2H_2 + O_2 \\rightarrow 2H_2O$",
     "is_pinned": true,
     "pin_level": 3
   },
@@ -331,7 +331,7 @@
     "start": 126.68,
     "end": 160.39,
     "speaker": "彥君",
-    "text": "N_2 + H_2 \\rightarrow NH_3",
+    "text": "$N_2 + H_2 \\rightarrow NH_3$",
     "is_pinned": true,
     "pin_level": 1
   },
@@ -363,7 +363,7 @@
     "start": 138.34,
     "end": 160.39,
     "speaker": "彥君",
-    "text": "N_2 + H_2 \\rightarrow 2NH_3",
+    "text": "$N_2 + H_2 \\rightarrow 2NH_3$",
     "is_pinned": true,
     "pin_level": 2
   },
@@ -395,7 +395,7 @@
     "start": 150.78,
     "end": 160.39,
     "speaker": "彥君",
-    "text": "N_2 + 3H_2 \\rightarrow 2NH_3",
+    "text": "$N_2 + 3H_2 \\rightarrow 2NH_3$",
     "is_pinned": true,
     "pin_level": 3
   },
@@ -427,7 +427,7 @@
     "start": 164.1,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "CH_4 + O_2 \\rightarrow CO_2 + H_2O",
+    "text": "$CH_4 + O_2 \\rightarrow CO_2 + H_2O$",
     "is_pinned": true,
     "pin_level": 1
   },
@@ -451,7 +451,7 @@
     "start": 173.62,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "CH_4 + O_2 \\rightarrow CO_2 + 2H_2O",
+    "text": "$CH_4 + O_2 \\rightarrow CO_2 + 2H_2O$",
     "is_pinned": true,
     "pin_level": 2
   },
@@ -475,7 +475,7 @@
     "start": 183.22,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O",
+    "text": "$CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O$",
     "is_pinned": true,
     "pin_level": 3
   },
