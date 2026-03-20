@@ -11,7 +11,7 @@
     "start": 2.18,
     "end": 5.45,
     "speaker": "彥君",
-    "text": "各位即將衝 ㄟ 的",
+    "text": "各位即將衝 A 的",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -395,7 +395,7 @@
     "start": 148.77,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "Cu + CO₂ → \\text",
+    "text": "Cu + CO₂ → 不反應",
     "is_pinned": true,
     "pin_level": 1
   },
