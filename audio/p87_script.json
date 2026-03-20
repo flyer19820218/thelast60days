@@ -1,0 +1,490 @@
+[
+  {
+    "start": 0.0,
+    "end": 1.98,
+    "speaker": "彥君",
+    "text": "哈囉",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 2.18,
+    "end": 5.45,
+    "speaker": "彥君",
+    "text": "各位即將衝 A 的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 5.65,
+    "end": 8.1,
+    "speaker": "彥君",
+    "text": "會考戰士們",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 8.3,
+    "end": 10.9,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 11.1,
+    "end": 14.33,
+    "speaker": "彥君",
+    "text": "今天來到 第八十七集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 14.53,
+    "end": 16.26,
+    "speaker": "曉臻",
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 16.46,
+    "end": 18.8,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 19.0,
+    "end": 21.91,
+    "speaker": "曉臻",
+    "text": "老師 這張週期表",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 22.11,
+    "end": 24.45,
+    "speaker": "曉臻",
+    "text": "也是 五顆星耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 24.65,
+    "end": 27.82,
+    "speaker": "彥君",
+    "text": "戰士們， 絕對必考！",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 28.02,
+    "end": 30.98,
+    "speaker": "彥君",
+    "text": "週期表 最大的秘密",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 31.18,
+    "end": 33.81,
+    "speaker": "彥君",
+    "text": "就在 它的直排",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 34.01,
+    "end": 36.49,
+    "speaker": "彥君",
+    "text": "直的 叫做族",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 36.69,
+    "end": 39.62,
+    "speaker": "彥君",
+    "text": "同一族 化學性質",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 39.82,
+    "end": 42.54,
+    "speaker": "彥君",
+    "text": "就會 非常相似",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 42.74,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "\\text{同族} \\rightarrow \\text{化學性質相似}",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 46.7,
+    "end": 49.42,
+    "speaker": "曉臻",
+    "text": "老師 那橫排呢",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 49.62,
+    "end": 52.46,
+    "speaker": "曉臻",
+    "text": "圖上畫著 第一週期耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 52.66,
+    "end": 55.64,
+    "speaker": "彥君",
+    "text": "橫的 就叫做週期",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 55.84,
+    "end": 58.68,
+    "speaker": "彥君",
+    "text": "它是 按照原子序",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 58.88,
+    "end": 61.89,
+    "speaker": "彥君",
+    "text": "也就是 質子數來排的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 62.09,
+    "end": 65.41,
+    "speaker": "曉臻",
+    "text": "喔 所以質子數",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 65.61,
+    "end": 67.9,
+    "speaker": "曉臻",
+    "text": "是 左小右大嗎",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 68.1,
+    "end": 72.21,
+    "speaker": "彥君",
+    "text": "沒錯 往右邊走",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 72.41,
+    "end": 75.27,
+    "speaker": "彥君",
+    "text": "每一格 質子就加一",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 75.47,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "\\text{橫排} \\rightarrow \\text{質子數左小右大}",
+    "is_pinned": true,
+    "pin_level": 2
+  },
+  {
+    "start": 79.74,
+    "end": 82.05,
+    "speaker": "曉臻",
+    "text": "那左邊 第一族",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 82.25,
+    "end": 84.25,
+    "speaker": "曉臻",
+    "text": "旁邊寫著",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 84.45,
+    "end": 86.38,
+    "speaker": "曉臻",
+    "text": "H^{+}耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 86.58,
+    "end": 89.42,
+    "speaker": "彥君",
+    "text": "第一族 是鹼金屬",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 89.62,
+    "end": 92.12,
+    "speaker": "彥君",
+    "text": "它們 最喜歡",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 92.32,
+    "end": 95.23,
+    "speaker": "彥君",
+    "text": "形成 正一價離子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 95.43,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "\\text{第一族} \\rightarrow +1\\text{價}",
+    "is_pinned": true,
+    "pin_level": 3
+  },
+  {
+    "start": 99.1,
+    "end": 101.62,
+    "speaker": "曉臻",
+    "text": "難怪 第二族那邊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 101.82,
+    "end": 103.97,
+    "speaker": "曉臻",
+    "text": "寫著 Ca^{2+}",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 104.17,
+    "end": 108.35,
+    "speaker": "彥君",
+    "text": "沒錯 舉一反三",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 108.55,
+    "end": 111.44,
+    "speaker": "彥君",
+    "text": "第二族 鹼土金屬",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 111.64,
+    "end": 114.53,
+    "speaker": "彥君",
+    "text": "最喜歡 丟掉兩顆",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 114.73,
+    "end": 117.62,
+    "speaker": "彥君",
+    "text": "變成 正二價離子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 117.82,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "\\text{第二族} \\rightarrow +2\\text{價}",
+    "is_pinned": true,
+    "pin_level": 4
+  },
+  {
+    "start": 121.5,
+    "end": 124.15,
+    "speaker": "曉臻",
+    "text": "那右邊 藍色區塊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 124.35,
+    "end": 126.74,
+    "speaker": "曉臻",
+    "text": "有一個 Cl^{-}耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 126.94,
+    "end": 129.61,
+    "speaker": "彥君",
+    "text": "這是 第十七族",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 129.81,
+    "end": 132.17,
+    "speaker": "彥君",
+    "text": "叫做 鹵素",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 132.37,
+    "end": 135.23,
+    "speaker": "彥君",
+    "text": "它們 喜歡搶電子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 135.43,
+    "end": 138.25,
+    "speaker": "彥君",
+    "text": "變成 負一價離子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 138.45,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "\\text{第十七族} \\rightarrow -1\\text{價}",
+    "is_pinned": true,
+    "pin_level": 5
+  },
+  {
+    "start": 142.38,
+    "end": 145.05,
+    "speaker": "曉臻",
+    "text": "最後 最右邊那排",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 145.25,
+    "end": 147.73,
+    "speaker": "曉臻",
+    "text": "第十八族 是什麼",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 147.93,
+    "end": 150.67,
+    "speaker": "彥君",
+    "text": "那是 貴族階級",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 150.87,
+    "end": 153.66,
+    "speaker": "彥君",
+    "text": "叫做 惰性氣體",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 153.86,
+    "end": 156.66,
+    "speaker": "彥君",
+    "text": "像右上角 的氦氣",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 156.86,
+    "end": 159.58,
+    "speaker": "彥君",
+    "text": "它的 活性極小",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 159.78,
+    "end": 162.62,
+    "speaker": "彥君",
+    "text": "幾乎 不跟人反應",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 162.82,
+    "end": 166.26,
+    "speaker": "曉臻",
+    "text": "哇 直排跟橫排",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 166.46,
+    "end": 168.96,
+    "speaker": "曉臻",
+    "text": "真的 超級重要耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 169.16,
+    "end": 172.6,
+    "speaker": "彥君",
+    "text": "觀念通了 秒殺考題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 172.8,
+    "end": 175.4,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 175.6,
+    "end": 177.94,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 178.14,
+    "end": 181.48,
+    "speaker": "合聲",
+    "text": "直排同族 橫排加一",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 181.68,
+    "end": 185.22,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
