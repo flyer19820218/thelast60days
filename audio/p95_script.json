@@ -11,7 +11,7 @@
     "start": 2.18,
     "end": 5.74,
     "speaker": "彥君",
-    "text": "各位即將衝ㄟ的會考戰士們",
+    "text": "各位即將衝A的會考戰士們",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -193,11 +193,11 @@
   },
   {
     "start": 72.77,
-    "end": 77.86,
+    "end": 84.25,
     "speaker": "彥君",
-    "text": "左邊變濃} → \\text]",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "第一題：左邊變濃 → 向右傾斜",
+    "is_pinned": true,
+    "pin_level": 1
   },
   {
     "start": 78.06,
@@ -281,11 +281,11 @@
   },
   {
     "start": 111.39,
-    "end": 116.63,
+    "end": 123.02,
     "speaker": "彥君",
-    "text": "溫度上升} → \\text]",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "第二題：溫度上升 → 向左移動",
+    "is_pinned": true,
+    "pin_level": 1
   },
   {
     "start": 116.83,
