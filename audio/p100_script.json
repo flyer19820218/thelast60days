@@ -411,7 +411,7 @@
     "start": 156.98,
     "end": 198.26,
     "speaker": "彥君",
-    "text": "F₁/X₁ = F₂/X₂",
+    "text": "$$\\frac{F_1}{X_1} = \\frac{F_2}{X_2}$$",
     "is_pinned": true,
     "pin_level": 2
   },
@@ -427,7 +427,7 @@
     "start": 165.49,
     "end": 167.56,
     "speaker": "彥君",
-    "text": "沒問題 如果掛 10g",
+    "text": "沒問題 如果掛 $10\\text{g}$",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -435,7 +435,7 @@
     "start": 167.76,
     "end": 169.88,
     "speaker": "彥君",
-    "text": "彈簧 伸長了 2cm",
+    "text": "彈簧 伸長了 $2\\text{cm}$",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -443,7 +443,7 @@
     "start": 170.08,
     "end": 172.54,
     "speaker": "曉臻",
-    "text": "10 ÷ 2 = 5",
+    "text": "$10 \\div 2 = 5$",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -459,7 +459,7 @@
     "start": 177.12,
     "end": 180.99,
     "speaker": "彥君",
-    "text": "20g（二十克） 的砝碼呢",
+    "text": "$20\\text{g}$（二十克） 的砝碼呢",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -475,7 +475,7 @@
     "start": 182.77,
     "end": 185.37,
     "speaker": "曉臻",
-    "text": "所以 20 ÷ 5 = 4",
+    "text": "所以 $20 \\div 5 = 4$",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -483,7 +483,7 @@
     "start": 185.57,
     "end": 187.42,
     "speaker": "曉臻",
-    "text": "伸長量 變成 4cm",
+    "text": "伸長量 變成 $4\\text{cm}$",
     "is_pinned": false,
     "pin_level": 0
   },
