@@ -11,7 +11,7 @@
     "start": 2.18,
     "end": 5.66,
     "speaker": "彥君",
-    "text": "各位即將衝ㄟ的 會考戰士們",
+    "text": "各位即將衝A的 會考戰士們",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -259,7 +259,7 @@
     "start": 97.81,
     "end": 108.9,
     "speaker": "彥君",
-    "text": "有機物必含碳 但含碳不一定是有機物",
+    "text": "有機物必含碳， 但含碳不一定是有機物",
     "is_pinned": true,
     "pin_level": 1
   },
@@ -361,11 +361,11 @@
   },
   {
     "start": 146.21,
-    "end": 149.84,
+    "end": 204.8,
     "speaker": "彥君",
-    "text": "化學變化",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "木材乾餾：化學變化",
+    "is_pinned": true,
+    "pin_level": 1
   },
   {
     "start": 150.04,
@@ -481,11 +481,11 @@
   },
   {
     "start": 193.44,
-    "end": 198.42,
+    "end": 204.8,
     "speaker": "彥君",
-    "text": "物理變化、混合物",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "石油分餾：物理變化、混合物",
+    "is_pinned": true,
+    "pin_level": 2
   },
   {
     "start": 198.62,
@@ -739,7 +739,7 @@
     "start": 309.78,
     "end": 384.44,
     "speaker": "彥君",
-    "text": "\\text + \\text → \\text + \\text",
+    "text": "有機酸 + 醇 → 酯 + 水",
     "is_pinned": true,
     "pin_level": 1
   },
@@ -873,11 +873,11 @@
   },
   {
     "start": 366.83,
-    "end": 371.64,
+    "end": 384.44,
     "speaker": "彥君",
-    "text": "不溶水、密度小、有香味",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "酯類：不溶水、密度小、有香味",
+    "is_pinned": true,
+    "pin_level": 2
   },
   {
     "start": 371.84,
