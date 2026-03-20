@@ -164,7 +164,7 @@ if df is not None and not df.empty:
         safe_script_data = json.dumps(script_data)
 
 # ==========================================
-# 【編號 5】HTML 骨架與 CSS 樣式 (極簡護眼純淨版)
+# 【編號 5】HTML 骨架與 CSS 樣式 (極簡護眼純淨版 - 修復 f-string 大括號 Bug)
 # ==========================================
         full_html = f"""
         <!DOCTYPE html>
@@ -219,12 +219,13 @@ if df is not None and not df.empty:
                 margin-left: calc(clamp(10px, 2.5vmin, 30px) + {bubble_fs} * 1.6);
             }}
 
-            @media (max-width: 768px) {
+            /* 🐞 就是這裡！已經補上雙層大括號 {{ }} */
+            @media (max-width: 768px) {{
                 .subtitle-stage {{ bottom: 3% !important; padding: 0 10px !important; }}
                 .board-stage {{ bottom: calc(3% + {bubble_fs} * 3) !important; padding: 0 10px !important; }}
                 .bubble {{ padding: 8px 12px !important; border-radius: 12px !important; max-width: 95% !important; }}
                 .board-item {{ margin-left: calc(8px + {bubble_fs} * 1.4) !important; padding: 6px 12px !important; }}
-            }
+            }}
 
             body.theater {{ background-color: #000; }}
             body.theater .header-bar, body.theater .seek-panel {{ background-color: #111; border: none; }}
