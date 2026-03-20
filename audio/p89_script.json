@@ -11,7 +11,7 @@
     "start": 2.18,
     "end": 5.45,
     "speaker": "彥君",
-    "text": "各位即將衝 ㄟ 的",
+    "text": "各位即將衝 A 的",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -155,7 +155,7 @@
     "start": 54.09,
     "end": 60.77,
     "speaker": "彥君",
-    "text": "是 C₆H_O₆（西六、Ｈ十二、Ｏ六）",
+    "text": "是 C₆H₁₂O₆（西六、Ｈ十二、Ｏ六）",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -227,7 +227,7 @@
     "start": 88.98,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "C₆H_O₆ → 180",
+    "text": "C₆H₁₂O₆ → 180",
     "is_pinned": true,
     "pin_level": 1
   },
@@ -259,7 +259,7 @@
     "start": 101.77,
     "end": 107.56,
     "speaker": "曉臻",
-    "text": "是 6 × 10^（六乘十的二十三次方） 個",
+    "text": "是 6 × 10²³（六乘十的二十三次方） 個",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -331,7 +331,7 @@
     "start": 132.3,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "[1 \\text → \\text{原子量",
+    "text": "[1 mole → \\text{原子量",
     "is_pinned": true,
     "pin_level": 2
   },
@@ -451,7 +451,7 @@
     "start": 185.94,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "O₂ → 32\\text",
+    "text": "O₂ → 32g",
     "is_pinned": true,
     "pin_level": 3
   },
