@@ -164,7 +164,7 @@ if df is not None and not df.empty:
         safe_script_data = json.dumps(script_data)
 
 # ==========================================
-# 【編號 5】HTML 骨架與 CSS 樣式 (極簡護眼純淨版 - 修復 f-string 大括號 Bug)
+# 【編號 5】HTML 骨架與 CSS 樣式 (極簡護眼純淨版 - 修復 f-string 大括號 Bug + 終極版 LaTeX 解析引擎)
 # ==========================================
         full_html = f"""
         <!DOCTYPE html>
@@ -219,7 +219,6 @@ if df is not None and not df.empty:
                 margin-left: calc(clamp(10px, 2.5vmin, 30px) + {bubble_fs} * 1.6);
             }}
 
-            /* 🐞 就是這裡！已經補上雙層大括號 {{ }} */
             @media (max-width: 768px) {{
                 .subtitle-stage {{ bottom: 3% !important; padding: 0 10px !important; }}
                 .board-stage {{ bottom: calc(3% + {bubble_fs} * 3) !important; padding: 0 10px !important; }}
@@ -308,7 +307,20 @@ if df is not None and not df.empty:
 
                 aud.onloadedmetadata = () => {{ document.getElementById('dur').innerText = fmt(aud.duration); sk.max = aud.duration; }};
                 
-                const bs = String.fromCharCode(92);
+                // 🌟 新增一個強大的 LaTeX 解析函數 (支援 $$置中公式$$ 與 $行內公式$)
+                function renderTextWithMath(text) {{
+                    // 1. 先解析獨立區塊公式 $$ ... $$
+                    let html = text.replace(/\$\$([^\$]+)\$\$/g, function(match, mathCode) {{
+                        try {{ return katex.renderToString(mathCode, {{displayMode: true, throwOnError: false}}); }}
+                        catch(e) {{ return match; }}
+                    }});
+                    // 2. 再解析行內公式 $ ... $
+                    html = html.replace(/\$([^\$]+)\$/g, function(match, mathCode) {{
+                        try {{ return katex.renderToString(mathCode, {{displayMode: false, throwOnError: false}}); }}
+                        catch(e) {{ return match; }}
+                    }});
+                    return html;
+                }}
 
                 aud.ontimeupdate = () => {{
                     const t = aud.currentTime;
@@ -324,6 +336,7 @@ if df is not None and not df.empty:
                         }}
                     }}
 
+                    // 🎯 處理主字幕
                     if (mainSub) {{
                         let avatar = mainSub.speaker === '彥君' ? '👨‍🏫 ' : (mainSub.speaker === '曉臻' ? '👩‍🔬 ' : '🎙️ ');
                         let bClass = mainSub.speaker === '彥君' ? 'yanjun' : (mainSub.speaker === '曉臻' ? 'xiaozhen' : 'chorus');
@@ -331,16 +344,9 @@ if df is not None and not df.empty:
                         
                         if (lastMsgHash !== currentHash) {{
                             let rawText = avatar + mainSub.text;
-                            if (rawText.includes(bs)) {{
-                                let splitIdx = rawText.indexOf(bs);
-                                let prefix = rawText.substring(0, splitIdx);
-                                let mathPart = rawText.substring(splitIdx).split('%').join(bs + '%').split(bs + bs + '%').join(bs + '%');
-                                try {{
-                                    msg.innerHTML = prefix + katex.renderToString(mathPart, {{throwOnError: true}});
-                                }} catch(e) {{ msg.innerText = rawText; }}
-                            }} else {{
-                                msg.innerText = rawText;
-                            }}
+                            // 🚀 核心改動：丟進解析引擎，完美支援 LaTeX
+                            msg.innerHTML = renderTextWithMath(rawText);
+                            
                             bubble.className = "bubble " + bClass;
                             bubble.style.opacity = 1;
                             lastMsgHash = currentHash;
@@ -349,6 +355,7 @@ if df is not None and not df.empty:
                         if (lastMsgHash !== "") {{ bubble.style.opacity = 0; lastMsgHash = ""; }}
                     }}
 
+                    // 🎯 處理釘選黑板
                     activePins.forEach(pin => {{
                         const pinId = 'pin-' + Math.floor(pin.start * 10);
                         if (!document.getElementById(pinId)) {{
@@ -356,16 +363,9 @@ if df is not None and not df.empty:
                             d.id = pinId;
                             d.className = 'board-item';
                             
-                            if (pin.text.includes(bs)) {{
-                                let splitIdx = pin.text.indexOf(bs);
-                                let prefix = pin.text.substring(0, splitIdx);
-                                let mathPart = pin.text.substring(splitIdx).split('%').join(bs + '%').split(bs + bs + '%').join(bs + '%');
-                                try {{
-                                    d.innerHTML = prefix + katex.renderToString(mathPart, {{throwOnError: true}});
-                                }} catch(e) {{ d.innerText = pin.text; }}
-                            }} else {{
-                                d.innerText = pin.text;
-                            }}
+                            // 🚀 黑板區一樣丟進解析引擎
+                            d.innerHTML = renderTextWithMath(pin.text);
+                            
                             boardStage.appendChild(d);
                         }}
                     }});
@@ -393,7 +393,6 @@ if df is not None and not df.empty:
         </body>
         </html>
         """
-
 # ==========================================
 # 【編號 6】前端渲染區塊
 # ==========================================
