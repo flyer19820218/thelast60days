@@ -1,0 +1,1122 @@
+[
+  {
+    "start": 0.0,
+    "end": 1.98,
+    "speaker": "彥君",
+    "text": "哈囉",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 2.18,
+    "end": 5.45,
+    "speaker": "彥君",
+    "text": "各位即將衝 A 的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 5.65,
+    "end": 8.1,
+    "speaker": "彥君",
+    "text": "會考戰士們",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 8.3,
+    "end": 10.9,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 11.1,
+    "end": 13.32,
+    "speaker": "彥君",
+    "text": "恭喜大家",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 13.52,
+    "end": 16.19,
+    "speaker": "彥君",
+    "text": "來到 第八十集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 16.39,
+    "end": 18.13,
+    "speaker": "曉臻",
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 18.33,
+    "end": 20.66,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 20.86,
+    "end": 23.73,
+    "speaker": "曉臻",
+    "text": "老師 我們上一集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 23.93,
+    "end": 26.48,
+    "speaker": "曉臻",
+    "text": "講了 近視跟遠視",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 26.68,
+    "end": 29.09,
+    "speaker": "曉臻",
+    "text": "該配戴 什麼眼鏡",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 29.29,
+    "end": 31.82,
+    "speaker": "曉臻",
+    "text": "但是 我一直想不通",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 32.02,
+    "end": 34.64,
+    "speaker": "曉臻",
+    "text": "為什麼 近視眼的人",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 34.84,
+    "end": 37.44,
+    "speaker": "曉臻",
+    "text": "看近的 反而很清楚",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 37.64,
+    "end": 40.22,
+    "speaker": "曉臻",
+    "text": "看遠的 卻看不清楚",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 40.42,
+    "end": 43.14,
+    "speaker": "曉臻",
+    "text": "遠視眼 卻剛好相反",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 43.34,
+    "end": 46.58,
+    "speaker": "彥君",
+    "text": "戰士們， 這個問題， ",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 46.78,
+    "end": 49.34,
+    "speaker": "彥君",
+    "text": "真的 問得太好了！",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 49.54,
+    "end": 52.21,
+    "speaker": "彥君",
+    "text": "這是 歷屆會考中",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 52.41,
+    "end": 55.01,
+    "speaker": "彥君",
+    "text": "鑑別度 最高的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 55.21,
+    "end": 57.88,
+    "speaker": "彥君",
+    "text": "特級大魔王題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 58.08,
+    "end": 60.87,
+    "speaker": "彥君",
+    "text": "要搞懂 這個原理",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 61.07,
+    "end": 63.77,
+    "speaker": "彥君",
+    "text": "我們 必須先了解",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 63.97,
+    "end": 66.81,
+    "speaker": "彥君",
+    "text": "眼睛的 對焦系統",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 67.01,
+    "end": 69.42,
+    "speaker": "曉臻",
+    "text": "眼睛的 對焦系統",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 69.62,
+    "end": 72.05,
+    "speaker": "曉臻",
+    "text": "是指 水晶體嗎",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 72.25,
+    "end": 76.48,
+    "speaker": "彥君",
+    "text": "沒錯 我們的眼睛",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 76.68,
+    "end": 79.62,
+    "speaker": "彥君",
+    "text": "就像 一台精密相機",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 79.82,
+    "end": 82.78,
+    "speaker": "彥君",
+    "text": "視網膜 就是底片",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 82.98,
+    "end": 86.03,
+    "speaker": "彥君",
+    "text": "水晶體 就是鏡頭",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 86.23,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "\\text{水晶體} \\rightarrow \\text{相機鏡頭}",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 90.52,
+    "end": 93.29,
+    "speaker": "彥君",
+    "text": "它是 一個凸透鏡",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 93.49,
+    "end": 96.09,
+    "speaker": "曉臻",
+    "text": "那鏡頭 要怎麼對焦",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 96.29,
+    "end": 99.08,
+    "speaker": "彥君",
+    "text": "靠旁邊的 睫狀肌",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 99.28,
+    "end": 102.1,
+    "speaker": "彥君",
+    "text": "去拉扯 改變厚度",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 102.3,
+    "end": 105.04,
+    "speaker": "彥君",
+    "text": "當我們 看遠方時",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 105.24,
+    "end": 108.06,
+    "speaker": "彥君",
+    "text": "光線 是平行的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 108.26,
+    "end": 111.14,
+    "speaker": "彥君",
+    "text": "很容易 就能會聚",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 111.34,
+    "end": 114.23,
+    "speaker": "彥君",
+    "text": "所以 水晶體要放鬆",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 114.43,
+    "end": 117.08,
+    "speaker": "彥君",
+    "text": "變得 扁扁的就好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 117.28,
+    "end": 120.36,
+    "speaker": "曉臻",
+    "text": "喔 放鬆變扁",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 120.56,
+    "end": 123.21,
+    "speaker": "曉臻",
+    "text": "就能聚焦 到底片上",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 123.41,
+    "end": 125.48,
+    "speaker": "彥君",
+    "text": "答對了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 125.68,
+    "end": 128.59,
+    "speaker": "彥君",
+    "text": "但是 當我們看近物",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 128.79,
+    "end": 131.87,
+    "speaker": "彥君",
+    "text": "光線是 發散過來的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 132.07,
+    "end": 134.0,
+    "speaker": "曉臻",
+    "text": "發散過來",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 134.2,
+    "end": 136.66,
+    "speaker": "曉臻",
+    "text": "那就很難 集中耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 136.86,
+    "end": 140.54,
+    "speaker": "彥君",
+    "text": "沒錯 為了集中光線",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 140.74,
+    "end": 143.55,
+    "speaker": "彥君",
+    "text": "睫狀肌 就要用力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 143.75,
+    "end": 146.69,
+    "speaker": "彥君",
+    "text": "讓水晶體 變得很厚",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 146.89,
+    "end": 149.99,
+    "speaker": "彥君",
+    "text": "變厚 折射能力才強",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 150.19,
+    "end": 152.89,
+    "speaker": "彥君",
+    "text": "才能把 發散的光",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 153.09,
+    "end": 155.76,
+    "speaker": "彥君",
+    "text": "硬生生 凹回來",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 155.96,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "\\text{看近物} \\rightarrow \\text{水晶體變厚}",
+    "is_pinned": true,
+    "pin_level": 2
+  },
+  {
+    "start": 160.18,
+    "end": 163.02,
+    "speaker": "曉臻",
+    "text": "哇 眼睛好聰明喔",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 163.22,
+    "end": 165.84,
+    "speaker": "曉臻",
+    "text": "會自動 變換焦距",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 166.04,
+    "end": 168.88,
+    "speaker": "曉臻",
+    "text": "那近視眼 出了什麼事",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 169.08,
+    "end": 172.09,
+    "speaker": "彥君",
+    "text": "近視眼 最大的問題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 172.29,
+    "end": 175.15,
+    "speaker": "彥君",
+    "text": "不是 水晶體壞掉",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 175.35,
+    "end": 178.02,
+    "speaker": "彥君",
+    "text": "而是 整個眼球",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 178.22,
+    "end": 180.54,
+    "speaker": "彥君",
+    "text": "變得 太長了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 180.74,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "\\text{近視眼} \\rightarrow \\text{眼球軸長太長}",
+    "is_pinned": true,
+    "pin_level": 3
+  },
+  {
+    "start": 184.83,
+    "end": 186.78,
+    "speaker": "曉臻",
+    "text": "眼球太長",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 186.98,
+    "end": 189.42,
+    "speaker": "曉臻",
+    "text": "變成 橢圓形了嗎",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 189.62,
+    "end": 193.58,
+    "speaker": "彥君",
+    "text": "對 前後變長了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 193.78,
+    "end": 196.0,
+    "speaker": "彥君",
+    "text": "也就是說",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 196.2,
+    "end": 198.73,
+    "speaker": "彥君",
+    "text": "底片 往後退了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 198.93,
+    "end": 201.1,
+    "speaker": "曉臻",
+    "text": "底片往後退",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 201.3,
+    "end": 203.82,
+    "speaker": "曉臻",
+    "text": "那會 發生什麼事",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 204.02,
+    "end": 207.08,
+    "speaker": "彥君",
+    "text": "當近視眼 看遠方時",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 207.28,
+    "end": 210.1,
+    "speaker": "彥君",
+    "text": "光線 是平行的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 210.3,
+    "end": 213.59,
+    "speaker": "彥君",
+    "text": "水晶體 已經放到最扁",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 213.79,
+    "end": 216.58,
+    "speaker": "彥君",
+    "text": "光線 聚焦的位置",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 216.78,
+    "end": 219.91,
+    "speaker": "彥君",
+    "text": "卻碰不到 後退的底片",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 220.11,
+    "end": 223.14,
+    "speaker": "彥君",
+    "text": "就落在 視網膜前面",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 223.34,
+    "end": 226.59,
+    "speaker": "曉臻",
+    "text": "啊 難怪看遠方",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 226.79,
+    "end": 229.2,
+    "speaker": "曉臻",
+    "text": "畫面 會糊糊的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 229.4,
+    "end": 232.0,
+    "speaker": "彥君",
+    "text": "但是 奇妙的來了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 232.2,
+    "end": 235.18,
+    "speaker": "彥君",
+    "text": "當近視眼 來看近物",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 235.38,
+    "end": 238.34,
+    "speaker": "彥君",
+    "text": "光線 變成發散的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 238.54,
+    "end": 241.5,
+    "speaker": "彥君",
+    "text": "這時候 聚焦的位置",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 241.7,
+    "end": 244.38,
+    "speaker": "彥君",
+    "text": "剛好 會往後退",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 244.58,
+    "end": 248.04,
+    "speaker": "曉臻",
+    "text": "往後退 退去哪裡",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 248.24,
+    "end": 251.08,
+    "speaker": "彥君",
+    "text": "因為眼球 比較長",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 251.28,
+    "end": 254.22,
+    "speaker": "彥君",
+    "text": "焦點往後退 剛剛好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 254.42,
+    "end": 257.18,
+    "speaker": "彥君",
+    "text": "剛好 碰到視網膜",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 257.38,
+    "end": 260.8,
+    "speaker": "曉臻",
+    "text": "天啊 負負得正耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 261.0,
+    "end": 263.72,
+    "speaker": "曉臻",
+    "text": "所以 近視眼看近物",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 263.92,
+    "end": 266.62,
+    "speaker": "曉臻",
+    "text": "反而 可以清楚聚焦",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 266.82,
+    "end": 269.2,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 269.4,
+    "end": 271.88,
+    "speaker": "彥君",
+    "text": "這就是 為什麼",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 272.08,
+    "end": 275.06,
+    "speaker": "彥君",
+    "text": "近視眼 近的看清楚",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 275.26,
+    "end": 278.06,
+    "speaker": "彥君",
+    "text": "遠的 卻看不清楚",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 278.26,
+    "end": 280.98,
+    "speaker": "曉臻",
+    "text": "老師 太神了吧",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 281.18,
+    "end": 284.09,
+    "speaker": "曉臻",
+    "text": "這樣解釋 畫面感超強",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 284.29,
+    "end": 286.24,
+    "speaker": "曉臻",
+    "text": "那遠視眼",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 286.44,
+    "end": 288.92,
+    "speaker": "曉臻",
+    "text": "就是 完全相反囉",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 289.12,
+    "end": 292.25,
+    "speaker": "彥君",
+    "text": "沒錯 舉一反三",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 292.45,
+    "end": 295.46,
+    "speaker": "彥君",
+    "text": "遠視眼 是眼球太短",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 295.66,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "\\text{遠視眼} \\rightarrow \\text{眼球軸長太短}",
+    "is_pinned": true,
+    "pin_level": 4
+  },
+  {
+    "start": 299.66,
+    "end": 301.58,
+    "speaker": "曉臻",
+    "text": "眼球太短",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 301.78,
+    "end": 304.26,
+    "speaker": "曉臻",
+    "text": "代表 底片太前面",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 304.46,
+    "end": 308.65,
+    "speaker": "彥君",
+    "text": "對 當遠視眼看近",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 308.85,
+    "end": 311.66,
+    "speaker": "彥君",
+    "text": "光線是 發散的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 311.86,
+    "end": 314.99,
+    "speaker": "彥君",
+    "text": "水晶體 就算變很厚",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 315.19,
+    "end": 318.15,
+    "speaker": "彥君",
+    "text": "焦點 還是太往後",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 318.35,
+    "end": 321.12,
+    "speaker": "彥君",
+    "text": "落在 視網膜的後方",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 321.32,
+    "end": 323.94,
+    "speaker": "曉臻",
+    "text": "難怪 看近會模糊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 324.14,
+    "end": 327.1,
+    "speaker": "彥君",
+    "text": "但是 遠視眼看遠方",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 327.3,
+    "end": 330.12,
+    "speaker": "彥君",
+    "text": "光線 是平行的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 330.32,
+    "end": 333.09,
+    "speaker": "彥君",
+    "text": "焦點 會往前移",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 333.29,
+    "end": 336.56,
+    "speaker": "彥君",
+    "text": "剛好 碰到前面的底片",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 336.76,
+    "end": 339.53,
+    "speaker": "曉臻",
+    "text": "所以 遠視眼看遠方",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 339.73,
+    "end": 341.99,
+    "speaker": "曉臻",
+    "text": "反而 是清楚的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 342.19,
+    "end": 344.29,
+    "speaker": "彥君",
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 344.49,
+    "end": 347.4,
+    "speaker": "彥君",
+    "text": "爲了 解決這些困擾",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 347.6,
+    "end": 350.37,
+    "speaker": "彥君",
+    "text": "我們 就要戴眼鏡",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 350.57,
+    "end": 352.33,
+    "speaker": "曉臻",
+    "text": "我記得",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 352.53,
+    "end": 354.96,
+    "speaker": "曉臻",
+    "text": "近視 要戴凹透鏡",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 355.16,
+    "end": 357.76,
+    "speaker": "曉臻",
+    "text": "把光線 發散出去",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 357.96,
+    "end": 360.37,
+    "speaker": "曉臻",
+    "text": "遠視 要戴凸透鏡",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 360.57,
+    "end": 363.17,
+    "speaker": "曉臻",
+    "text": "把光線 集中回來",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 363.37,
+    "end": 365.82,
+    "speaker": "彥君",
+    "text": "助教 一百分",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 366.02,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "\\text{近凹遠凸} \\rightarrow \\text{完美矯正}",
+    "is_pinned": true,
+    "pin_level": 5
+  },
+  {
+    "start": 371.06,
+    "end": 373.18,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 373.38,
+    "end": 376.65,
+    "speaker": "彥君",
+    "text": "這集的推導 價值連城",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 376.85,
+    "end": 379.93,
+    "speaker": "彥君",
+    "text": "只要 聽懂眼球長短",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 380.13,
+    "end": 383.21,
+    "speaker": "彥君",
+    "text": "考試 絕對不會忘記",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 383.41,
+    "end": 386.18,
+    "speaker": "曉臻",
+    "text": "老師 我徹底懂了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 386.38,
+    "end": 388.74,
+    "speaker": "曉臻",
+    "text": "原來 眼球長短",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 388.94,
+    "end": 391.44,
+    "speaker": "曉臻",
+    "text": "才是 真正的關鍵",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 391.64,
+    "end": 393.76,
+    "speaker": "彥君",
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 393.96,
+    "end": 396.92,
+    "speaker": "彥君",
+    "text": "平常 要好好保護",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 397.12,
+    "end": 399.53,
+    "speaker": "彥君",
+    "text": "我們的 眼睛喔",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 399.73,
+    "end": 401.61,
+    "speaker": "曉臻",
+    "text": "沒問題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 401.81,
+    "end": 404.41,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 404.61,
+    "end": 406.94,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 407.14,
+    "end": 410.54,
+    "speaker": "合聲",
+    "text": "眼球太長 近視報到",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 410.74,
+    "end": 414.08,
+    "speaker": "合聲",
+    "text": "眼球太短 遠視來找",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 414.28,
+    "end": 417.82,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
