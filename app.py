@@ -160,7 +160,7 @@ if df is not None and not df.empty:
         safe_script_data = json.dumps(script_data)
 
 # ==========================================
-# 【編號 5】HTML 骨架與 CSS 樣式 (三按鈕合體版 + 🚀特效全開)
+# 【編號 5】HTML 骨架與 CSS 樣式 (三按鈕合體版)
 # ==========================================
         full_html = f"""
         <!DOCTYPE html>
@@ -205,7 +205,6 @@ if df is not None and not df.empty:
             .xiaozhen {{ align-self: flex-end; background-color: rgba(254, 242, 242, 0.95); color: #991b1b; border: 1px solid rgba(254, 202, 202, 0.5); border-bottom-right-radius: 2px; }}
             .chorus {{ align-self: center; background: linear-gradient(135deg, #fff9c4 0%, #fde68a 100%); color: #92400e; border: 1px solid #f59e0b; border-radius: 20px; text-align: center; }}
 
-            /* 🎯 釘選黑板區塊 */
             .board-stage {{
                 position: absolute; bottom: calc(8% + {bubble_fs} * 2.8); width: 100%; display: flex; flex-direction: column; gap: 8px;
                 padding: 0 clamp(15px, 4vw, 40px); box-sizing: border-box; z-index: 5; pointer-events: none;
@@ -215,38 +214,6 @@ if df is not None and not df.empty:
                 padding: clamp(8px, 1.5vmin, 20px) clamp(15px, 2.5vmin, 30px); border-radius: 12px;
                 font-size: calc({bubble_fs} * 0.9); font-weight: bold; border-left: 5px solid #1d4ed8; box-shadow: 0 4px 12px rgba(0,0,0,0.15);
                 margin-left: calc(clamp(10px, 2.5vmin, 30px) + {bubble_fs} * 1.6);
-            }}
-
-            /* 🌟 打字機釘選特效 */
-            .tw-wrap {{
-                display: inline-block;
-                overflow: hidden;
-                white-space: nowrap;
-                vertical-align: bottom;
-                max-width: 0;
-                animation: typeText 1.5s steps(40, end) forwards;
-            }}
-            /* 💡 閃爍游標 */
-            .tw-wrap::after {{
-                content: '';
-                display: inline-block;
-                width: 3px;
-                height: 1.2em;
-                background-color: #1d4ed8;
-                vertical-align: bottom;
-                margin-left: 4px;
-                animation: blinkCaret 0.75s step-end infinite;
-            }}
-            @keyframes typeText {{ to {{ max-width: 100vw; }} }}
-            @keyframes blinkCaret {{ 50% {{ opacity: 0; }} }}
-
-            /* 🌟 板擦抹除特效 (由左向右裁切消失) */
-            .board-item.erasing {{
-                animation: wipeErase 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-            }}
-            @keyframes wipeErase {{
-                0% {{ clip-path: inset(0 0 0 0); opacity: 1; }}
-                100% {{ clip-path: inset(0 0 0 100%); opacity: 0; }}
             }}
 
             @media (max-width: 768px) {{
@@ -300,10 +267,10 @@ if df is not None and not df.empty:
                 function updateAutoPlayUI() {{
                     if(isAutoPlay) {{
                         autoPlayBtn.innerText = "🔄 正在連播";
-                        autoPlayBtn.style.background = "linear-gradient(135deg, #1d4ed8, #1e40af)"; 
+                        autoPlayBtn.style.background = "linear-gradient(135deg, #1d4ed8, #1e40af)"; // 啟動時變成深藍色
                     }} else {{
                         autoPlayBtn.innerText = "▶️ 開啟連播";
-                        autoPlayBtn.style.background = ""; 
+                        autoPlayBtn.style.background = ""; // 恢復原狀
                     }}
                 }}
                 updateAutoPlayUI();
@@ -321,6 +288,7 @@ if df is not None and not df.empty:
                 let lastMsgHash = ""; 
                 aud.playbackRate = {play_speed};
 
+                // 若開啟連播，載入後自動播放
                 if (isAutoPlay) {{
                     setTimeout(() => {{
                         aud.play().then(() => {{
@@ -385,37 +353,26 @@ if df is not None and not df.empty:
                             d.id = pinId;
                             d.className = 'board-item';
                             
-                            let innerHtmlContent = "";
                             if (pin.text.includes(bs)) {{
                                 let splitIdx = pin.text.indexOf(bs);
                                 let prefix = pin.text.substring(0, splitIdx);
                                 let mathPart = pin.text.substring(splitIdx).split('%').join(bs + '%').split(bs + bs + '%').join(bs + '%');
                                 try {{
-                                    innerHtmlContent = prefix + katex.renderToString(mathPart, {{throwOnError: true}});
-                                }} catch(e) {{ innerHtmlContent = pin.text; }}
+                                    d.innerHTML = prefix + katex.renderToString(mathPart, {{throwOnError: true}});
+                                }} catch(e) {{ d.innerText = pin.text; }}
                             }} else {{
-                                innerHtmlContent = pin.text;
+                                d.innerText = pin.text;
                             }}
-                            
-                            // 🚀 核心改裝：套上打字機特效的外套
-                            d.innerHTML = `<span class="tw-wrap">${{innerHtmlContent}}</span>`;
                             boardStage.appendChild(d);
                         }}
                     }});
 
                     Array.from(boardStage.children).forEach(child => {{
-                        if (!activePins.some(p => 'pin-' + Math.floor(p.start * 10) === child.id)) {{
-                            // 🧹 核心改裝：板擦抹除特效
-                            if (!child.classList.contains('erasing')) {{
-                                child.classList.add('erasing');
-                                setTimeout(() => {{
-                                    if (child.parentNode) boardStage.removeChild(child);
-                                }}, 600); // 配合 CSS 動畫時間 0.6s
-                            }}
-                        }}
+                        if (!activePins.some(p => 'pin-' + Math.floor(p.start * 10) === child.id)) boardStage.removeChild(child);
                     }});
                 }};
                 
+                // 🌟 自動連播黑科技：時間到直接點擊「隱形」按鈕
                 aud.onended = () => {{
                     if (isAutoPlay) {{
                         const parentBtns = window.parent.document.querySelectorAll('button');
