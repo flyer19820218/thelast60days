@@ -1,0 +1,490 @@
+[
+  {
+    "start": 0.0,
+    "end": 1.98,
+    "speaker": "彥君",
+    "text": "哈囉",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 2.18,
+    "end": 5.74,
+    "speaker": "彥君",
+    "text": "各位即將衝A的會考戰士們",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 5.94,
+    "end": 8.54,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 8.74,
+    "end": 11.94,
+    "speaker": "彥君",
+    "text": "今天來到 第九十三集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 12.14,
+    "end": 13.87,
+    "speaker": "曉臻",
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 14.07,
+    "end": 16.41,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 16.61,
+    "end": 19.06,
+    "speaker": "彥君",
+    "text": "戰士們注意， ",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 19.26,
+    "end": 22.01,
+    "speaker": "彥君",
+    "text": "酸的化學反應",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 22.21,
+    "end": 25.22,
+    "speaker": "彥君",
+    "text": "是 會考的超級熱區",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 25.42,
+    "end": 28.42,
+    "speaker": "曉臻",
+    "text": "老師 第一個反應式",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 28.62,
+    "end": 31.03,
+    "speaker": "曉臻",
+    "text": "XCO₃ 加酸",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 31.23,
+    "end": 33.47,
+    "speaker": "曉臻",
+    "text": "會產生 什麼啊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 33.67,
+    "end": 36.82,
+    "speaker": "彥君",
+    "text": "只要看到 碳酸兩個字",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 37.02,
+    "end": 39.98,
+    "speaker": "彥君",
+    "text": "遇到酸 一定會產生",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 40.18,
+    "end": 43.07,
+    "speaker": "彥君",
+    "text": "二氧化碳 還有水",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 43.27,
+    "end": 59.78,
+    "speaker": "彥君",
+    "text": "XCO₃ + H⁺ → CO₂ + H₂O",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 47.78,
+    "end": 51.1,
+    "speaker": "曉臻",
+    "text": "喔 就像大理石",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 51.3,
+    "end": 53.99,
+    "speaker": "曉臻",
+    "text": "滴到鹽酸 會冒泡泡",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 54.19,
+    "end": 56.58,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 56.78,
+    "end": 59.76,
+    "speaker": "彥君",
+    "text": "給你們 3 秒鐘抄寫。",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 59.96,
+    "end": 62.9,
+    "speaker": "彥君",
+    "text": "接著看 第二個反應",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 63.1,
+    "end": 65.43,
+    "speaker": "曉臻",
+    "text": "字母 M 代表什麼",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 65.63,
+    "end": 68.66,
+    "speaker": "彥君",
+    "text": "M 代表 活性大的金屬",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 68.86,
+    "end": 71.39,
+    "speaker": "彥君",
+    "text": "像是 鎂和鋅",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 71.59,
+    "end": 73.98,
+    "speaker": "彥君",
+    "text": "它們 碰到酸",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 74.18,
+    "end": 76.85,
+    "speaker": "彥君",
+    "text": "就會 產生氫氣",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 77.05,
+    "end": 96.81,
+    "speaker": "彥君",
+    "text": "M + H⁺ → H₂",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 80.74,
+    "end": 84.08,
+    "speaker": "曉臻",
+    "text": "哇 難怪實驗室",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 84.28,
+    "end": 86.88,
+    "speaker": "曉臻",
+    "text": "都用 鋅片加鹽酸",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 87.08,
+    "end": 89.25,
+    "speaker": "曉臻",
+    "text": "來製造 氫氣",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 89.45,
+    "end": 93.61,
+    "speaker": "彥君",
+    "text": "沒錯 邏輯全通了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 93.81,
+    "end": 96.79,
+    "speaker": "彥君",
+    "text": "給你們 3 秒鐘抄寫。",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 96.99,
+    "end": 99.88,
+    "speaker": "彥君",
+    "text": "第三個 酸鹼中和",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 100.08,
+    "end": 102.99,
+    "speaker": "彥君",
+    "text": "這是 經典中的經典",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 103.19,
+    "end": 105.6,
+    "speaker": "曉臻",
+    "text": "酸加鹼 會產生",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 105.8,
+    "end": 107.92,
+    "speaker": "曉臻",
+    "text": "鹽類 還有水",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 108.12,
+    "end": 110.96,
+    "speaker": "彥君",
+    "text": "而且 一定會放熱",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 111.16,
+    "end": 118.47,
+    "speaker": "彥君",
+    "text": "酸 + 鹼 → 鹽 + 水 + 熱",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 115.47,
+    "end": 118.46,
+    "speaker": "彥君",
+    "text": "給你們 3 秒鐘抄寫。",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 118.66,
+    "end": 122.26,
+    "speaker": "曉臻",
+    "text": "老師 那下面的 pH 值",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 122.46,
+    "end": 124.9,
+    "speaker": "曉臻",
+    "text": "箭頭 越往左邊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 125.1,
+    "end": 127.72,
+    "speaker": "曉臻",
+    "text": "數字 越接近 0 耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 127.92,
+    "end": 131.7,
+    "speaker": "彥君",
+    "text": "pH 值 等於 7 是中性",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 131.9,
+    "end": 134.64,
+    "speaker": "彥君",
+    "text": "數字 越小就越酸",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 134.84,
+    "end": 137.66,
+    "speaker": "彥君",
+    "text": "數字 越大就越鹼",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 137.86,
+    "end": 140.58,
+    "speaker": "曉臻",
+    "text": "那 紅色的四個物質",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 140.78,
+    "end": 143.59,
+    "speaker": "曉臻",
+    "text": "該怎麼 幫它們排座位",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 143.79,
+    "end": 146.37,
+    "speaker": "彥君",
+    "text": "硫酸 是強酸",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 146.57,
+    "end": 149.62,
+    "speaker": "彥君",
+    "text": "會在 最左邊的 0 附近",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 149.82,
+    "end": 152.42,
+    "speaker": "彥君",
+    "text": "醋酸 是弱酸",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 152.62,
+    "end": 155.37,
+    "speaker": "彥君",
+    "text": "會在 0 到 7 之間",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 155.57,
+    "end": 158.96,
+    "speaker": "曉臻",
+    "text": "喔 那氨水 是弱鹼",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 159.16,
+    "end": 161.9,
+    "speaker": "曉臻",
+    "text": "就在 7 到 14 之間",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 162.1,
+    "end": 164.73,
+    "speaker": "曉臻",
+    "text": "氫氧化鈉 是強鹼",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 164.93,
+    "end": 168.03,
+    "speaker": "曉臻",
+    "text": "就會 靠近最右邊的 14",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 168.23,
+    "end": 171.26,
+    "speaker": "彥君",
+    "text": "助教 舉一反三太棒了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 171.46,
+    "end": 174.9,
+    "speaker": "彥君",
+    "text": "觀念通了 秒殺考題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 175.1,
+    "end": 177.7,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 177.9,
+    "end": 180.24,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 180.44,
+    "end": 183.76,
+    "speaker": "合聲",
+    "text": "遇碳生碳 遇金生氫",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 183.96,
+    "end": 187.5,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
