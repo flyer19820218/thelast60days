@@ -369,7 +369,7 @@
   },
   {
     "start": 142.7,
-    "end": 226.0,
+    "end": 204.9,
     "speaker": "彥君",
     "text": "虎克定律：外力與「伸長量」成正比",
     "is_pinned": true,
@@ -385,271 +385,271 @@
   },
   {
     "start": 149.95,
-    "end": 153.82,
+    "end": 153.27,
     "speaker": "彥君",
     "text": "F（Ｆ） 代表外力",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 154.02,
-    "end": 158.33,
+    "start": 153.47,
+    "end": 157.22,
     "speaker": "彥君",
     "text": "X（Ｘ） 代表伸長量",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 158.53,
-    "end": 161.46,
+    "start": 157.42,
+    "end": 160.36,
     "speaker": "彥君",
     "text": "把它們 互相除一除",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 161.66,
-    "end": 164.53,
+    "start": 160.56,
+    "end": 163.42,
     "speaker": "彥君",
     "text": "就會 等於固定的值",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 164.73,
-    "end": 226.0,
+    "start": 163.62,
+    "end": 204.9,
     "speaker": "彥君",
     "text": "F₁/X₁ = F₂/X₂",
     "is_pinned": true,
     "pin_level": 2
   },
   {
-    "start": 169.9,
-    "end": 173.03,
+    "start": 168.8,
+    "end": 171.93,
     "speaker": "曉臻",
     "text": "老師 可以舉個例子嗎",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 173.23,
-    "end": 179.79,
+    "start": 172.13,
+    "end": 174.2,
     "speaker": "彥君",
-    "text": "沒問題 如果掛 10g（十克）",
+    "text": "沒問題 如果掛 10g",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 179.99,
-    "end": 185.04,
+    "start": 174.4,
+    "end": 176.52,
     "speaker": "彥君",
-    "text": "彈簧 伸長了 2cm（兩公分）",
+    "text": "彈簧 伸長了 2cm",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 185.24,
-    "end": 190.74,
+    "start": 176.72,
+    "end": 179.18,
     "speaker": "曉臻",
-    "text": "10 ÷ 2 = 5（十除以二等於五）",
+    "text": "10 ÷ 2 = 5",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 190.94,
-    "end": 195.13,
+    "start": 179.38,
+    "end": 183.56,
     "speaker": "彥君",
     "text": "沒錯 那如果改掛",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 195.33,
-    "end": 200.3,
+    "start": 183.76,
+    "end": 187.63,
     "speaker": "彥君",
     "text": "20g（二十克） 的砝碼呢",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 200.5,
-    "end": 203.97,
+    "start": 187.83,
+    "end": 189.21,
     "speaker": "曉臻",
-    "text": "因為 相除要等於 5（五）",
+    "text": "因為 相除要等於 5",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 204.17,
-    "end": 210.32,
+    "start": 189.41,
+    "end": 192.01,
     "speaker": "曉臻",
-    "text": "所以 20 ÷ 5 = 4（二十除以五等於四）",
+    "text": "所以 20 ÷ 5 = 4",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 210.52,
-    "end": 215.16,
+    "start": 192.21,
+    "end": 194.06,
     "speaker": "曉臻",
-    "text": "伸長量 變成 4cm（四公分）",
+    "text": "伸長量 變成 4cm",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 215.36,
-    "end": 219.62,
+    "start": 194.26,
+    "end": 198.52,
     "speaker": "彥君",
     "text": "非常好 完全命中",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 219.82,
-    "end": 222.8,
+    "start": 198.72,
+    "end": 201.7,
     "speaker": "彥君",
     "text": "給你們 3 秒鐘抄寫",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 226.0,
-    "end": 228.98,
+    "start": 204.9,
+    "end": 207.89,
     "speaker": "曉臻",
     "text": "老師 彈簧上面寫",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 229.18,
-    "end": 231.76,
+    "start": 208.09,
+    "end": 210.66,
     "speaker": "曉臻",
     "text": "注意 彈力極限耶",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 231.96,
-    "end": 234.85,
+    "start": 210.86,
+    "end": 213.75,
     "speaker": "彥君",
     "text": "這是 物理學的底線",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 235.05,
-    "end": 237.94,
+    "start": 213.95,
+    "end": 216.84,
     "speaker": "彥君",
     "text": "如果你 用力拉過頭",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 238.14,
-    "end": 240.47,
+    "start": 217.04,
+    "end": 219.38,
     "speaker": "曉臻",
     "text": "彈簧 就壞掉了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 240.67,
-    "end": 243.42,
+    "start": 219.58,
+    "end": 222.32,
     "speaker": "曉臻",
     "text": "鬆手 也回不到原狀",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 243.62,
-    "end": 248.28,
+    "start": 222.52,
+    "end": 227.18,
     "speaker": "彥君",
     "text": "沒錯 超過彈力極限",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 248.48,
-    "end": 251.42,
+    "start": 227.38,
+    "end": 230.32,
     "speaker": "彥君",
     "text": "公式 就完全失效了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 251.62,
-    "end": 254.26,
+    "start": 230.52,
+    "end": 233.17,
     "speaker": "彥君",
     "text": "所以 測量力量",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 254.46,
-    "end": 257.26,
+    "start": 233.37,
+    "end": 236.16,
     "speaker": "彥君",
     "text": "千萬 不能太暴力喔",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 257.46,
-    "end": 268.41,
+    "start": 236.36,
+    "end": 247.31,
     "speaker": "彥君",
     "text": "彈力極限：超過後彈簧無法恢復原狀",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 262.22,
-    "end": 265.21,
+    "start": 241.13,
+    "end": 244.11,
     "speaker": "彥君",
     "text": "給你們 3 秒鐘抄寫",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 268.41,
-    "end": 271.63,
+    "start": 247.31,
+    "end": 250.54,
     "speaker": "彥君",
     "text": "恭喜大家 完成一百集",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 271.83,
-    "end": 275.27,
+    "start": 250.74,
+    "end": 254.18,
     "speaker": "彥君",
     "text": "觀念通了 秒殺考題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 275.47,
-    "end": 278.07,
+    "start": 254.38,
+    "end": 256.98,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 278.27,
-    "end": 280.61,
+    "start": 257.18,
+    "end": 259.51,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 280.81,
-    "end": 284.32,
+    "start": 259.71,
+    "end": 263.22,
     "speaker": "合聲",
     "text": "伸長正比 注意極限",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 284.52,
-    "end": 288.06,
+    "start": 263.42,
+    "end": 266.96,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
