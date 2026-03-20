@@ -1,0 +1,554 @@
+[
+  {
+    "start": 0.0,
+    "end": 1.98,
+    "speaker": "彥君",
+    "text": "哈囉",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 2.18,
+    "end": 5.45,
+    "speaker": "彥君",
+    "text": "各位即將衝 A 的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 5.65,
+    "end": 8.1,
+    "speaker": "彥君",
+    "text": "會考戰士們",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 8.3,
+    "end": 10.9,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 11.1,
+    "end": 14.38,
+    "speaker": "彥君",
+    "text": "今天來到 第八十六集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 14.58,
+    "end": 16.31,
+    "speaker": "曉臻",
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 16.51,
+    "end": 18.85,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 19.05,
+    "end": 21.98,
+    "speaker": "曉臻",
+    "text": "老師 這張投影片",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 22.18,
+    "end": 24.59,
+    "speaker": "曉臻",
+    "text": "打了 五顆星星耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 24.79,
+    "end": 27.97,
+    "speaker": "彥君",
+    "text": "戰士們， 絕對必考！",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 28.17,
+    "end": 30.91,
+    "speaker": "彥君",
+    "text": "我們先看 質量數",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 31.11,
+    "end": 33.59,
+    "speaker": "彥君",
+    "text": "原子的重量",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 33.79,
+    "end": 36.73,
+    "speaker": "彥君",
+    "text": "都集中在 原子核",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 36.93,
+    "end": 39.86,
+    "speaker": "彥君",
+    "text": "所以 質量數等於",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 40.06,
+    "end": 42.81,
+    "speaker": "彥君",
+    "text": "質子 加上中子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 43.01,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "\\text{質量數} = \\text{質子} + \\text{中子}",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 46.94,
+    "end": 50.45,
+    "speaker": "曉臻",
+    "text": "喔 因為電子 太輕了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 50.65,
+    "end": 53.37,
+    "speaker": "曉臻",
+    "text": "所以 不算重量 對吧",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 53.57,
+    "end": 57.58,
+    "speaker": "彥君",
+    "text": "沒錯 觀念很好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 57.78,
+    "end": 60.6,
+    "speaker": "彥君",
+    "text": "接著看 什麼是離子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 60.8,
+    "end": 63.3,
+    "speaker": "彥君",
+    "text": "正常的原子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 63.5,
+    "end": 66.06,
+    "speaker": "彥君",
+    "text": "是 電中性的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 66.26,
+    "end": 68.42,
+    "speaker": "曉臻",
+    "text": "就是 質子數",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 68.62,
+    "end": 70.67,
+    "speaker": "曉臻",
+    "text": "等於 電子數",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 70.87,
+    "end": 74.74,
+    "speaker": "彥君",
+    "text": "對 但是原子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 74.94,
+    "end": 77.78,
+    "speaker": "彥君",
+    "text": "有時候 會交朋友",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 77.98,
+    "end": 81.04,
+    "speaker": "彥君",
+    "text": "電子 就會跑來跑去",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 81.24,
+    "end": 84.44,
+    "speaker": "彥君",
+    "text": "戰士們， 陷阱來了！",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 84.64,
+    "end": 87.1,
+    "speaker": "彥君",
+    "text": "跑來跑去的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 87.3,
+    "end": 90.02,
+    "speaker": "彥君",
+    "text": "永遠 只有電子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 90.22,
+    "end": 93.03,
+    "speaker": "彥君",
+    "text": "質子 絕對不會動",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 93.23,
+    "end": 95.74,
+    "speaker": "曉臻",
+    "text": "為什麼 質子不能動",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 95.94,
+    "end": 98.56,
+    "speaker": "彥君",
+    "text": "質子 如果動了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 98.76,
+    "end": 101.62,
+    "speaker": "彥君",
+    "text": "就變成 別的元素了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 101.82,
+    "end": 103.85,
+    "speaker": "曉臻",
+    "text": "原來如此",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 104.05,
+    "end": 106.41,
+    "speaker": "曉臻",
+    "text": "所以 失去電子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 106.61,
+    "end": 108.75,
+    "speaker": "曉臻",
+    "text": "負電 變少了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 108.95,
+    "end": 111.34,
+    "speaker": "曉臻",
+    "text": "就變成 陽離子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 111.54,
+    "end": 113.92,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 114.12,
+    "end": 116.38,
+    "speaker": "彥君",
+    "text": "得到電子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 116.58,
+    "end": 118.97,
+    "speaker": "彥君",
+    "text": "負電 變多了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 119.17,
+    "end": 121.79,
+    "speaker": "彥君",
+    "text": "就變成 陰離子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 121.99,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "\\text{失電子} \\rightarrow \\text{陽離子}",
+    "is_pinned": true,
+    "pin_level": 2
+  },
+  {
+    "start": 125.56,
+    "end": 127.97,
+    "speaker": "彥君",
+    "text": "我們直接來",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 128.17,
+    "end": 130.7,
+    "speaker": "彥君",
+    "text": "解下面這題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 130.9,
+    "end": 133.76,
+    "speaker": "曉臻",
+    "text": "鎂離子 Mg^{2+}",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 133.96,
+    "end": 136.34,
+    "speaker": "曉臻",
+    "text": "原子序 是十二",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 136.54,
+    "end": 139.72,
+    "speaker": "彥君",
+    "text": "原子序 就是身分證",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 139.92,
+    "end": 142.86,
+    "speaker": "彥君",
+    "text": "代表 質子有十二個",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 143.06,
+    "end": 145.3,
+    "speaker": "曉臻",
+    "text": "那中子 怎麼算",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 145.5,
+    "end": 148.17,
+    "speaker": "彥君",
+    "text": "質量數 二十四",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 148.37,
+    "end": 150.99,
+    "speaker": "彥君",
+    "text": "減掉 質子十二",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 151.19,
+    "end": 154.08,
+    "speaker": "彥君",
+    "text": "所以 中子也是十二",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 154.28,
+    "end": 156.64,
+    "speaker": "曉臻",
+    "text": "最後 是電子數",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 156.84,
+    "end": 159.34,
+    "speaker": "曉臻",
+    "text": "右上角 寫著 2+",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 159.54,
+    "end": 162.05,
+    "speaker": "彥君",
+    "text": "2+ 代表什麼",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 162.25,
+    "end": 164.54,
+    "speaker": "曉臻",
+    "text": "代表 它失去了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 164.74,
+    "end": 167.34,
+    "speaker": "曉臻",
+    "text": "兩個 帶負電的電子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 167.54,
+    "end": 172.25,
+    "speaker": "彥君",
+    "text": "漂亮 所以原本 十二個",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 172.45,
+    "end": 174.81,
+    "speaker": "彥君",
+    "text": "扣掉 兩個",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 175.01,
+    "end": 177.85,
+    "speaker": "彥君",
+    "text": "電子 只剩下十個",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 178.05,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "\\text{Mg}^{2+} \\rightarrow \\text{電子} 10",
+    "is_pinned": true,
+    "pin_level": 3
+  },
+  {
+    "start": 181.86,
+    "end": 185.06,
+    "speaker": "曉臻",
+    "text": "哇 一步一步解",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 185.26,
+    "end": 187.81,
+    "speaker": "曉臻",
+    "text": "真的 超級清楚耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 188.01,
+    "end": 191.45,
+    "speaker": "彥君",
+    "text": "觀念通了 秒殺考題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 191.65,
+    "end": 194.25,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 194.45,
+    "end": 196.78,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 196.98,
+    "end": 200.45,
+    "speaker": "合聲",
+    "text": "質量核算 電子來換",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 200.65,
+    "end": 204.18,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
