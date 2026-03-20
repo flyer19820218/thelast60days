@@ -6,7 +6,7 @@ import streamlit.components.v1 as components
 import base64
 import time
 import math
-import json  # 🚀 關鍵防護罩套件
+import json
 
 # ==========================================
 # 【編號 1】頁面設定與 RWD 響應式 CSS (四格滿版 + 翩翩體)
@@ -42,7 +42,7 @@ st.markdown("""
     }
     ul[data-baseweb="menu"] li { font-size: 16px !important; padding: 10px !important; }
     
-    /* 🚀 全局隱藏 Python 端的 Streamlit 按鈕 (因為我們全部搬進 HTML 了) */
+    /* 🚀 全局隱藏 Python 端的 Streamlit 按鈕 */
     div[data-testid="stButton"] { 
         display: none !important; 
         height: 0px !important; 
@@ -79,7 +79,8 @@ def get_pdf_page_as_base64(local_pdf_path, page_index):
         doc = fitz.open(local_pdf_path)
         page = doc.load_page(page_index)
         pix = page.get_pixmap(matrix=fitz.Matrix(1.5, 1.5)) 
-        img_data = pix.tobytes("png"); doc.close()
+        img_data = pix.tobytes("png")
+        doc.close()
         return base64.b64encode(img_data).decode('utf-8')
     except: return ""
 
@@ -99,7 +100,8 @@ df = load_data_fresh()
 if df is not None and not df.empty:
     if 'page_idx' not in st.session_state: st.session_state.page_idx = 0
 
-    total_items = len(df); group_size = 10
+    total_items = len(df)
+    group_size = 10
     num_groups = math.ceil(total_items / group_size)
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
     current_group_idx = st.session_state.page_idx // group_size
@@ -111,7 +113,8 @@ if df is not None and not df.empty:
         selected_group = st.selectbox("範圍", group_labels, index=current_group_idx, label_visibility="collapsed")
         new_group_idx = group_labels.index(selected_group)
         if new_group_idx != current_group_idx:
-            st.session_state.page_idx = new_group_idx * group_size; st.rerun()
+            st.session_state.page_idx = new_group_idx * group_size
+            st.rerun()
 
     with c_unit:
         start_idx = new_group_idx * group_size
@@ -121,7 +124,8 @@ if df is not None and not df.empty:
         selected_day = st.selectbox("單元", unit_list, index=local_idx, label_visibility="collapsed")
         new_local_idx = unit_list.index(selected_day)
         if new_local_idx != local_idx:
-            st.session_state.page_idx = start_idx + new_local_idx; st.rerun()
+            st.session_state.page_idx = start_idx + new_local_idx
+            st.rerun()
             
     with c_speed:
         speed_options = {"正常 1.0x": 1.0, "微快 1.25x": 1.25, "衝刺 1.5x": 1.5, "超光速 2.0x": 2.0}
@@ -136,7 +140,7 @@ if df is not None and not df.empty:
         }
         bubble_fs = size_options[st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")]
 
-    # 👻 幽靈按鈕：純給 JavaScript 自動點擊換頁用的 (完全被 CSS 隱形)
+    # 👻 幽靈按鈕：純給 JavaScript 自動點擊換頁用的
     if st.button("AutoNextHiddenBtn", key="hidden_next"):
         if st.session_state.page_idx < total_items - 1:
             st.session_state.page_idx += 1
@@ -160,7 +164,7 @@ if df is not None and not df.empty:
         safe_script_data = json.dumps(script_data)
 
 # ==========================================
-# 【編號 5】HTML 骨架與 CSS 樣式 (三按鈕合體版)
+# 【編號 5】HTML 骨架與 CSS 樣式 (極簡護眼純淨版)
 # ==========================================
         full_html = f"""
         <!DOCTYPE html>
@@ -170,7 +174,6 @@ if df is not None and not df.empty:
         <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
         
         <style>
-            /* 🚀 播放器內部全面呼叫翩翩體 */
             body {{ 
                 font-family: 'HanziPenTC-W5', 'HanziPenTC-W3', 'HanziPen TC', 'HanziPenSC-W5', 'HanziPenSC-W3', 'HanziPen SC', '翩翩體-繁', '翩翩體-簡', 'PingFang TC', 'Microsoft JhengHei', sans-serif; 
                 margin: 0; padding: 0; background: white; transition: background 0.3s; 
@@ -179,7 +182,6 @@ if df is not None and not df.empty:
             .header-bar {{ display: flex; align-items: center; justify-content: space-between; padding: clamp(5px, 1.5vh, 10px) 20px; border-bottom: 1px solid #f0f0f0; transition: 0.3s; }}
             .title {{ color: #1d4ed8; font-size: clamp(20px, 3.5vw, 34px); font-weight: bold; margin: 0; }}
             
-            /* 💡 三顆膠囊按鈕完美連在一起 */
             .btn-group {{ display: flex; gap: 8px; }}
             .play-btn {{ 
                 background: linear-gradient(135deg, #2b58db, #1d4ed8); color: white; padding: clamp(8px, 1.5vh, 10px) clamp(12px, 2vw, 25px); 
@@ -198,13 +200,14 @@ if df is not None and not df.empty:
             .subtitle-stage {{ position: absolute; bottom: 8%; width: 100%; display: flex; flex-direction: column; padding: 0 clamp(15px, 4vw, 40px); box-sizing: border-box; z-index: 10; pointer-events: none; }}
             .bubble {{ 
                 max-width: 90%; padding: clamp(10px, 2.5vmin, 30px); border-radius: 20px; box-shadow: 0 8px 30px rgba(0,0,0,0.08); 
-                font-size: {bubble_fs}; line-height: 1.5; opacity: 0; transition: all 0.3s ease; font-weight: bold; 
+                font-size: {bubble_fs}; line-height: 1.5; opacity: 0; transition: all 0.15s ease; font-weight: bold; 
             }}
             
             .yanjun {{ align-self: flex-start; background-color: rgba(227, 242, 253, 0.95); color: #0d47a1; border: 1px solid rgba(187, 222, 251, 0.5); border-bottom-left-radius: 2px; }}
             .xiaozhen {{ align-self: flex-end; background-color: rgba(254, 242, 242, 0.95); color: #991b1b; border: 1px solid rgba(254, 202, 202, 0.5); border-bottom-right-radius: 2px; }}
             .chorus {{ align-self: center; background: linear-gradient(135deg, #fff9c4 0%, #fde68a 100%); color: #92400e; border: 1px solid #f59e0b; border-radius: 20px; text-align: center; }}
 
+            /* 🎯 釘選黑板區塊 (無特效，瞬發直給) */
             .board-stage {{
                 position: absolute; bottom: calc(8% + {bubble_fs} * 2.8); width: 100%; display: flex; flex-direction: column; gap: 8px;
                 padding: 0 clamp(15px, 4vw, 40px); box-sizing: border-box; z-index: 5; pointer-events: none;
@@ -216,12 +219,12 @@ if df is not None and not df.empty:
                 margin-left: calc(clamp(10px, 2.5vmin, 30px) + {bubble_fs} * 1.6);
             }}
 
-            @media (max-width: 768px) {{
+            @media (max-width: 768px) {
                 .subtitle-stage {{ bottom: 3% !important; padding: 0 10px !important; }}
                 .board-stage {{ bottom: calc(3% + {bubble_fs} * 3) !important; padding: 0 10px !important; }}
                 .bubble {{ padding: 8px 12px !important; border-radius: 12px !important; max-width: 95% !important; }}
                 .board-item {{ margin-left: calc(8px + {bubble_fs} * 1.4) !important; padding: 6px 12px !important; }}
-            }}
+            }
 
             body.theater {{ background-color: #000; }}
             body.theater .header-bar, body.theater .seek-panel {{ background-color: #111; border: none; }}
@@ -267,10 +270,10 @@ if df is not None and not df.empty:
                 function updateAutoPlayUI() {{
                     if(isAutoPlay) {{
                         autoPlayBtn.innerText = "🔄 正在連播";
-                        autoPlayBtn.style.background = "linear-gradient(135deg, #1d4ed8, #1e40af)"; // 啟動時變成深藍色
+                        autoPlayBtn.style.background = "linear-gradient(135deg, #1d4ed8, #1e40af)"; 
                     }} else {{
                         autoPlayBtn.innerText = "▶️ 開啟連播";
-                        autoPlayBtn.style.background = ""; // 恢復原狀
+                        autoPlayBtn.style.background = ""; 
                     }}
                 }}
                 updateAutoPlayUI();
@@ -288,7 +291,6 @@ if df is not None and not df.empty:
                 let lastMsgHash = ""; 
                 aud.playbackRate = {play_speed};
 
-                // 若開啟連播，載入後自動播放
                 if (isAutoPlay) {{
                     setTimeout(() => {{
                         aud.play().then(() => {{
@@ -372,7 +374,6 @@ if df is not None and not df.empty:
                     }});
                 }};
                 
-                // 🌟 自動連播黑科技：時間到直接點擊「隱形」按鈕
                 aud.onended = () => {{
                     if (isAutoPlay) {{
                         const parentBtns = window.parent.document.querySelectorAll('button');
