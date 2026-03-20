@@ -11,7 +11,7 @@
     "start": 2.18,
     "end": 5.74,
     "speaker": "彥君",
-    "text": "各位即將衝ㄟ的會考戰士們",
+    "text": "各位即將衝A的會考戰士們",
     "is_pinned": false,
     "pin_level": 0
   },
@@ -465,11 +465,11 @@
   },
   {
     "start": 181.58,
-    "end": 186.55,
+    "end": 9999.0,
     "speaker": "彥君",
-    "text": "降低活化能、質量不變",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "催化劑：降低活化能、質量不變",
+    "is_pinned": true,
+    "pin_level": 1
   },
   {
     "start": 186.75,
