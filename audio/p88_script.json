@@ -73,422 +73,566 @@
   },
   {
     "start": 24.79,
-    "end": 27.66,
+    "end": 27.7,
     "speaker": "彥君",
-    "text": "會產生 新的物質",
+    "text": "質量 絕對會守恆",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 27.86,
-    "end": 30.31,
+    "start": 27.9,
+    "end": 30.0,
     "speaker": "曉臻",
-    "text": "像是 冒出氣泡、",
+    "text": "可是 老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 30.51,
-    "end": 33.33,
+    "start": 30.2,
+    "end": 32.7,
     "speaker": "曉臻",
-    "text": "變色 或是產生沉澱",
+    "text": "為什麼 鐵絲燃燒",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 33.53,
-    "end": 37.86,
+    "start": 32.9,
+    "end": 35.29,
+    "speaker": "曉臻",
+    "text": "或是 鐵釘生鏽",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 35.49,
+    "end": 37.78,
+    "speaker": "曉臻",
+    "text": "重量 卻變重了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 37.98,
+    "end": 40.82,
     "speaker": "彥君",
-    "text": "沒錯 接著看表格",
+    "text": "因為 鐵絲燃燒時",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 38.06,
-    "end": 40.87,
+    "start": 41.02,
+    "end": 43.88,
+    "speaker": "彥君",
+    "text": "結合了 空氣中的氧",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 44.08,
+    "end": 47.3,
+    "speaker": "彥君",
+    "text": "氧氣的重量 也算進去了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 47.5,
+    "end": 50.78,
+    "speaker": "曉臻",
+    "text": "喔 那木炭燃燒",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 50.98,
+    "end": 53.36,
+    "speaker": "曉臻",
+    "text": "燒完 剩下灰燼",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 53.56,
+    "end": 55.99,
+    "speaker": "曉臻",
+    "text": "重量 怎麼變輕了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 56.19,
+    "end": 58.62,
+    "speaker": "彥君",
+    "text": "因為 木炭燃燒",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 58.82,
+    "end": 61.62,
+    "speaker": "彥君",
+    "text": "產生了 二氧化碳",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 61.82,
+    "end": 64.63,
+    "speaker": "彥君",
+    "text": "氣體 跑進空氣裡",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 64.83,
+    "end": 67.24,
+    "speaker": "彥君",
+    "text": "當然 量不到啊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 67.44,
+    "end": 69.46,
+    "speaker": "曉臻",
+    "text": "原來如此",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 69.66,
+    "end": 72.05,
+    "speaker": "曉臻",
+    "text": "如果 把它關在",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 72.25,
+    "end": 74.78,
+    "speaker": "曉臻",
+    "text": "密閉 容器裡面量",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 74.98,
+    "end": 77.6,
+    "speaker": "曉臻",
+    "text": "重量 就一樣了對吧",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 77.8,
+    "end": 80.18,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 80.38,
+    "end": 83.54,
+    "speaker": "彥君",
+    "text": "接著看 投影片表格",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 83.74,
+    "end": 86.55,
     "speaker": "曉臻",
     "text": "老師 表格裡的甲",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 41.07,
-    "end": 43.77,
+    "start": 86.75,
+    "end": 89.45,
     "speaker": "曉臻",
     "text": "反應後 變成問號了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 43.97,
-    "end": 46.88,
+    "start": 89.65,
+    "end": 92.61,
     "speaker": "彥君",
-    "text": "這是 質量守恆定律",
+    "text": "根據 質量守恆定律",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 47.08,
-    "end": 49.87,
+    "start": 92.81,
+    "end": 95.6,
     "speaker": "彥君",
     "text": "反應前 總重量",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 50.07,
-    "end": 52.98,
+    "start": 95.8,
+    "end": 98.71,
     "speaker": "彥君",
     "text": "等於 反應後 總重量",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 53.18,
-    "end": 55.54,
+    "start": 98.91,
+    "end": 101.27,
     "speaker": "曉臻",
     "text": "反應前 加起來",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 55.74,
-    "end": 58.63,
+    "start": 101.47,
+    "end": 104.34,
     "speaker": "曉臻",
-    "text": "6 加 1 加 2 加 32",
+    "text": "6+1+2+32",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 58.83,
-    "end": 61.24,
+    "start": 104.54,
+    "end": 106.94,
     "speaker": "曉臻",
     "text": "總共 是 41",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 61.44,
-    "end": 65.48,
+    "start": 107.14,
+    "end": 111.18,
     "speaker": "彥君",
     "text": "沒錯 反應後",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 65.68,
-    "end": 68.16,
+    "start": 111.38,
+    "end": 113.86,
     "speaker": "彥君",
     "text": "也要是 41",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 68.36,
-    "end": 71.34,
+    "start": 114.06,
+    "end": 116.5,
     "speaker": "曉臻",
-    "text": "可是 後面三個加起來",
+    "text": "可是 後面三個",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 71.54,
-    "end": 74.17,
+    "start": 116.7,
+    "end": 119.39,
     "speaker": "曉臻",
-    "text": "已經是 41 了耶",
+    "text": "25+2+14",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 74.37,
-    "end": 76.97,
+    "start": 119.59,
+    "end": 122.82,
+    "speaker": "曉臻",
+    "text": "加起來 已經是 41了耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 123.02,
+    "end": 125.62,
     "speaker": "彥君",
     "text": "所以 甲的問號",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 77.17,
-    "end": 81.23,
+    "start": 125.82,
+    "end": 129.88,
     "speaker": "彥君",
     "text": "就是 0 它用光了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 81.43,
-    "end": 84.32,
+    "start": 130.08,
+    "end": 132.97,
     "speaker": "曉臻",
-    "text": "老師 丙都是 2 耶",
+    "text": "老師 丙都是 2耶",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 84.52,
-    "end": 87.22,
+    "start": 133.17,
+    "end": 135.86,
     "speaker": "彥君",
     "text": "丙有 參與反應",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 87.42,
-    "end": 90.33,
+    "start": 136.06,
+    "end": 138.98,
     "speaker": "彥君",
     "text": "只是 不會被消耗掉",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 90.53,
-    "end": 93.3,
+    "start": 139.18,
+    "end": 141.94,
     "speaker": "彥君",
     "text": "它 就是催化劑",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 93.5,
-    "end": 96.58,
+    "start": 142.14,
+    "end": 145.22,
     "speaker": "彥君",
     "text": "接下來 進入重頭戲",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 96.78,
-    "end": 100.24,
+    "start": 145.42,
+    "end": 148.89,
     "speaker": "彥君",
     "text": "戰士們， 準備寫筆記！",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 100.44,
-    "end": 103.38,
+    "start": 149.09,
+    "end": 152.02,
     "speaker": "彥君",
     "text": "平衡係數 觀察法",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 103.58,
-    "end": 107.04,
+    "start": 152.22,
+    "end": 155.69,
     "speaker": "彥君",
     "text": "第一題 氫氣加氧氣",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 107.24,
-    "end": 144.86,
+    "start": 155.89,
+    "end": 193.53,
     "speaker": "彥君",
     "text": "H₂ + O₂ → H₂O",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 111.0,
-    "end": 113.05,
+    "start": 159.65,
+    "end": 161.7,
     "speaker": "曉臻",
-    "text": "左邊 2 個氧",
+    "text": "左邊 2個氧",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 113.25,
-    "end": 115.56,
+    "start": 161.9,
+    "end": 164.21,
     "speaker": "曉臻",
-    "text": "右邊 只有 1 個氧",
+    "text": "右邊 只有 1個氧",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 115.76,
-    "end": 118.67,
+    "start": 164.41,
+    "end": 167.32,
     "speaker": "彥君",
     "text": "所以在 水的前面",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 118.87,
-    "end": 121.28,
+    "start": 167.52,
+    "end": 169.93,
     "speaker": "彥君",
     "text": "補上 係數 2",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 121.48,
-    "end": 144.86,
+    "start": 170.13,
+    "end": 193.53,
     "speaker": "彥君",
     "text": "H₂ + O₂ → 2H₂O",
     "is_pinned": true,
     "pin_level": 2
   },
   {
-    "start": 124.95,
-    "end": 127.84,
+    "start": 173.6,
+    "end": 176.51,
     "speaker": "曉臻",
-    "text": "那右邊 變成 4 個氫了",
+    "text": "那右邊 變成 4個氫了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 128.04,
-    "end": 132.27,
+    "start": 176.71,
+    "end": 180.94,
     "speaker": "彥君",
     "text": "很好 所以左邊的氫",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 132.47,
-    "end": 135.1,
+    "start": 181.14,
+    "end": 183.77,
     "speaker": "彥君",
     "text": "也要 補上係數 2",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 135.3,
-    "end": 144.86,
+    "start": 183.97,
+    "end": 193.53,
     "speaker": "彥君",
     "text": "2H₂ + O₂ → 2H₂O",
     "is_pinned": true,
     "pin_level": 3
   },
   {
-    "start": 138.77,
-    "end": 141.66,
+    "start": 187.44,
+    "end": 190.33,
     "speaker": "彥君",
     "text": "第一題 完美平衡",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 141.86,
-    "end": 144.82,
+    "start": 190.53,
+    "end": 193.49,
     "speaker": "彥君",
     "text": "給你們 三秒鐘抄寫。",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 145.02,
-    "end": 147.76,
+    "start": 193.69,
+    "end": 196.43,
     "speaker": "彥君",
     "text": "接下來 第二題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 147.96,
-    "end": 150.99,
+    "start": 196.63,
+    "end": 199.66,
     "speaker": "彥君",
     "text": "氮氣加氫氣 變氨氣",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 151.19,
-    "end": 184.93,
+    "start": 199.86,
+    "end": 233.58,
     "speaker": "彥君",
     "text": "N₂ + H₂ → NH₃",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 155.0,
-    "end": 157.1,
+    "start": 203.67,
+    "end": 205.77,
     "speaker": "曉臻",
-    "text": "左邊 2 個氮",
+    "text": "左邊 2個氮",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 157.3,
-    "end": 159.54,
+    "start": 205.97,
+    "end": 208.21,
     "speaker": "曉臻",
-    "text": "右邊 只有 1 個",
+    "text": "右邊 只有 1個",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 159.74,
-    "end": 162.65,
+    "start": 208.41,
+    "end": 211.32,
     "speaker": "彥君",
     "text": "所以 氨氣前面寫 2",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 162.85,
-    "end": 184.93,
+    "start": 211.52,
+    "end": 233.58,
     "speaker": "彥君",
     "text": "N₂ + H₂ → 2NH₃",
     "is_pinned": true,
     "pin_level": 2
   },
   {
-    "start": 166.32,
-    "end": 168.94,
+    "start": 214.99,
+    "end": 217.59,
     "speaker": "曉臻",
-    "text": "這樣 右邊有 6 個氫",
+    "text": "這樣 右邊有 6個氫",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 169.14,
-    "end": 172.18,
+    "start": 217.79,
+    "end": 220.82,
     "speaker": "彥君",
     "text": "左邊 氫氣前面寫 3",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 172.38,
-    "end": 175.12,
+    "start": 221.02,
+    "end": 223.77,
     "speaker": "彥君",
-    "text": "3 乘 2 等於 6",
+    "text": "3 \\times 2 = 6",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 175.32,
-    "end": 184.93,
+    "start": 223.97,
+    "end": 233.58,
     "speaker": "彥君",
     "text": "N₂ + 3H₂ → 2NH₃",
     "is_pinned": true,
     "pin_level": 3
   },
   {
-    "start": 178.84,
-    "end": 181.73,
+    "start": 227.49,
+    "end": 230.38,
     "speaker": "彥君",
     "text": "第二題 輕鬆解決",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 181.93,
-    "end": 185.49,
+    "start": 230.58,
+    "end": 234.14,
     "speaker": "彥君",
     "text": "戰士們， 準備下一題。",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 185.69,
-    "end": 188.43,
+    "start": 234.34,
+    "end": 237.08,
     "speaker": "彥君",
     "text": "第三題 甲烷燃燒",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 188.63,
+    "start": 237.28,
     "end": 9999.0,
     "speaker": "彥君",
     "text": "CH₄ + O₂ → CO₂ + H₂O",
@@ -496,23 +640,23 @@
     "pin_level": 1
   },
   {
-    "start": 193.02,
-    "end": 195.09,
+    "start": 241.66,
+    "end": 243.76,
     "speaker": "曉臻",
-    "text": "左邊 4 個氫",
+    "text": "左邊 4個氫",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 195.29,
-    "end": 197.94,
+    "start": 243.96,
+    "end": 246.61,
     "speaker": "彥君",
     "text": "水的 前面寫 2",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 198.14,
+    "start": 246.81,
     "end": 9999.0,
     "speaker": "彥君",
     "text": "CH₄ + O₂ → CO₂ + 2H₂O",
@@ -520,23 +664,23 @@
     "pin_level": 2
   },
   {
-    "start": 201.66,
-    "end": 204.28,
+    "start": 250.33,
+    "end": 253.0,
     "speaker": "曉臻",
-    "text": "這樣 右邊有 4 個氧",
+    "text": "這樣 右邊有 4個氧",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 204.48,
-    "end": 207.49,
+    "start": 253.2,
+    "end": 256.21,
     "speaker": "彥君",
     "text": "所以 左邊氧氣寫 2",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 207.69,
+    "start": 256.41,
     "end": 9999.0,
     "speaker": "彥君",
     "text": "CH₄ + 2O₂ → CO₂ + 2H₂O",
@@ -544,48 +688,48 @@
     "pin_level": 3
   },
   {
-    "start": 211.18,
-    "end": 214.34,
+    "start": 259.9,
+    "end": 263.06,
     "speaker": "彥君",
     "text": "觀察法 就是這麼簡單",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 214.54,
-    "end": 217.98,
+    "start": 263.26,
+    "end": 266.7,
     "speaker": "彥君",
     "text": "觀念通了 秒殺考題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 218.18,
-    "end": 220.78,
+    "start": 266.9,
+    "end": 269.5,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 220.98,
-    "end": 223.31,
+    "start": 269.7,
+    "end": 272.03,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 223.51,
-    "end": 227.1,
+    "start": 272.23,
+    "end": 275.82,
     "speaker": "合聲",
     "text": "質量守恆 係數平衡",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 227.3,
-    "end": 230.83,
+    "start": 276.02,
+    "end": 279.55,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
