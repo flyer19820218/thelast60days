@@ -1,0 +1,658 @@
+[
+  {
+    "start": 0.0,
+    "end": 1.98,
+    "speaker": "彥君",
+    "text": "哈囉",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 2.18,
+    "end": 5.45,
+    "speaker": "彥君",
+    "text": "各位即將衝 A 的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 5.65,
+    "end": 8.1,
+    "speaker": "彥君",
+    "text": "會考戰士們",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 8.3,
+    "end": 10.9,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 11.1,
+    "end": 13.32,
+    "speaker": "彥君",
+    "text": "恭喜大家",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 13.52,
+    "end": 16.14,
+    "speaker": "彥君",
+    "text": "來到 第一百集啦",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 16.34,
+    "end": 18.08,
+    "speaker": "曉臻",
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 18.28,
+    "end": 20.62,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 20.82,
+    "end": 23.34,
+    "speaker": "曉臻",
+    "text": "第一百集 太感動了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 23.54,
+    "end": 26.0,
+    "speaker": "彥君",
+    "text": "戰士們注意， ",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 26.2,
+    "end": 29.09,
+    "speaker": "彥君",
+    "text": "第一百集 我們講力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 29.29,
+    "end": 32.25,
+    "speaker": "曉臻",
+    "text": "老師 力看不見耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 32.45,
+    "end": 35.1,
+    "speaker": "曉臻",
+    "text": "怎麼 知道它的存在",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 35.3,
+    "end": 37.85,
+    "speaker": "彥君",
+    "text": "透過 力的效應",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 38.05,
+    "end": 40.91,
+    "speaker": "彥君",
+    "text": "左邊 講了力的種類",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 41.11,
+    "end": 43.57,
+    "speaker": "曉臻",
+    "text": "第一種 是接觸力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 43.77,
+    "end": 46.8,
+    "speaker": "彥君",
+    "text": "必須 碰到才有作用",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 47.0,
+    "end": 50.25,
+    "speaker": "彥君",
+    "text": "像是 打棒球踢足球",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 50.45,
+    "end": 53.24,
+    "speaker": "彥君",
+    "text": "還有 拉開橡皮筋",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 53.44,
+    "end": 56.42,
+    "speaker": "曉臻",
+    "text": "喔 那第二種",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 56.62,
+    "end": 59.13,
+    "speaker": "曉臻",
+    "text": "超距力 又是什麼",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 59.33,
+    "end": 62.14,
+    "speaker": "彥君",
+    "text": "也就是 非接觸力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 62.34,
+    "end": 65.23,
+    "speaker": "彥君",
+    "text": "不用碰到 就能發功",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 65.43,
+    "end": 67.96,
+    "speaker": "曉臻",
+    "text": "像 萬磁王那樣嗎",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 68.16,
+    "end": 72.42,
+    "speaker": "彥君",
+    "text": "沒錯 磁鐵的磁力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 72.62,
+    "end": 75.6,
+    "speaker": "彥君",
+    "text": "還有 摩擦塑膠尺的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 75.8,
+    "end": 77.97,
+    "speaker": "彥君",
+    "text": "靜電力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 78.17,
+    "end": 80.84,
+    "speaker": "曉臻",
+    "text": "還有 蘋果掉下來的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 81.04,
+    "end": 83.52,
+    "speaker": "曉臻",
+    "text": "地球引力 對不對",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 83.72,
+    "end": 86.1,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 86.3,
+    "end": 98.86,
+    "speaker": "彥君",
+    "text": "接觸力、超距力",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 92.68,
+    "end": 95.66,
+    "speaker": "彥君",
+    "text": "給你們 3 秒鐘抄寫。",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 98.86,
+    "end": 101.73,
+    "speaker": "曉臻",
+    "text": "老師 右邊的彈簧",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 101.93,
+    "end": 104.34,
+    "speaker": "曉臻",
+    "text": "寫著 虎克定律",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 104.54,
+    "end": 107.74,
+    "speaker": "彥君",
+    "text": "我們用 彈簧來測量力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 107.94,
+    "end": 110.7,
+    "speaker": "彥君",
+    "text": "彈簧 拉得越長",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 110.9,
+    "end": 113.5,
+    "speaker": "彥君",
+    "text": "代表 力量越大",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 113.7,
+    "end": 116.14,
+    "speaker": "曉臻",
+    "text": "可是 到底有多大",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 116.34,
+    "end": 119.34,
+    "speaker": "彥君",
+    "text": "這就是 虎克發現的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 119.54,
+    "end": 122.22,
+    "speaker": "彥君",
+    "text": "在 彈力極限內",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 122.42,
+    "end": 125.57,
+    "speaker": "彥君",
+    "text": "外力 跟彈簧的伸長量",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 125.77,
+    "end": 128.13,
+    "speaker": "彥君",
+    "text": "會 成正比",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 128.33,
+    "end": 132.18,
+    "speaker": "曉臻",
+    "text": "伸長量 不是總長度嗎",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 132.38,
+    "end": 135.58,
+    "speaker": "彥君",
+    "text": "戰士們， 陷阱來了！",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 135.78,
+    "end": 138.52,
+    "speaker": "彥君",
+    "text": "絕對 是伸長量",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 138.72,
+    "end": 141.78,
+    "speaker": "彥君",
+    "text": "也就是 多出來的長度",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 141.98,
+    "end": 147.74,
+    "speaker": "彥君",
+    "text": "外力與「伸長量」成正比",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 147.94,
+    "end": 150.52,
+    "speaker": "曉臻",
+    "text": "那下面 那個公式呢",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 150.72,
+    "end": 153.25,
+    "speaker": "彥君",
+    "text": "F 代表外力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 153.45,
+    "end": 156.22,
+    "speaker": "彥君",
+    "text": "X 代表伸長量",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 156.42,
+    "end": 159.35,
+    "speaker": "彥君",
+    "text": "把它們 互相除一除",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 159.55,
+    "end": 162.42,
+    "speaker": "彥君",
+    "text": "就會 等於固定的值",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 162.62,
+    "end": 208.43,
+    "speaker": "彥君",
+    "text": "\\frac{F₁}{X₁} = \\frac{F₂}{X₂}",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 167.79,
+    "end": 170.92,
+    "speaker": "曉臻",
+    "text": "老師 可以舉個例子嗎",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 171.12,
+    "end": 175.57,
+    "speaker": "彥君",
+    "text": "沒問題 如果掛 10g",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 175.77,
+    "end": 178.78,
+    "speaker": "彥君",
+    "text": "彈簧 伸長了 2cm",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 178.98,
+    "end": 181.48,
+    "speaker": "曉臻",
+    "text": "10 \\div 2 = 5",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 181.68,
+    "end": 185.86,
+    "speaker": "彥君",
+    "text": "沒錯 那如果改掛",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 186.06,
+    "end": 188.57,
+    "speaker": "彥君",
+    "text": "20g 的砝碼呢",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 188.77,
+    "end": 191.3,
+    "speaker": "曉臻",
+    "text": "因為 相除要等於 5",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 191.5,
+    "end": 194.58,
+    "speaker": "曉臻",
+    "text": "所以 20 \\div 5 = 4",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 194.78,
+    "end": 197.59,
+    "speaker": "曉臻",
+    "text": "伸長量 變成 4cm",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 197.79,
+    "end": 202.05,
+    "speaker": "彥君",
+    "text": "非常好 完全命中",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 202.25,
+    "end": 205.23,
+    "speaker": "彥君",
+    "text": "給你們 3 秒鐘抄寫。",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 208.43,
+    "end": 211.42,
+    "speaker": "曉臻",
+    "text": "老師 彈簧上面寫",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 211.62,
+    "end": 214.19,
+    "speaker": "曉臻",
+    "text": "注意 彈力極限耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 214.39,
+    "end": 217.28,
+    "speaker": "彥君",
+    "text": "這是 物理學的底線",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 217.48,
+    "end": 220.37,
+    "speaker": "彥君",
+    "text": "如果你 用力拉過頭",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 220.57,
+    "end": 222.9,
+    "speaker": "曉臻",
+    "text": "彈簧 就壞掉了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 223.1,
+    "end": 225.85,
+    "speaker": "曉臻",
+    "text": "鬆手 也回不到原狀",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 226.05,
+    "end": 230.71,
+    "speaker": "彥君",
+    "text": "沒錯 超過彈力極限",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 230.91,
+    "end": 233.85,
+    "speaker": "彥君",
+    "text": "公式 就完全失效了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 234.05,
+    "end": 236.7,
+    "speaker": "彥君",
+    "text": "所以 測量力量",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 236.9,
+    "end": 239.69,
+    "speaker": "彥君",
+    "text": "千萬 不能太暴力喔",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 239.89,
+    "end": 246.23,
+    "speaker": "彥君",
+    "text": "超過後彈簧無法恢復原狀",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 246.43,
+    "end": 249.42,
+    "speaker": "彥君",
+    "text": "給你們 3 秒鐘抄寫。",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 252.62,
+    "end": 255.84,
+    "speaker": "彥君",
+    "text": "恭喜大家 完成一百集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 256.04,
+    "end": 259.48,
+    "speaker": "彥君",
+    "text": "觀念通了 秒殺考題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 259.68,
+    "end": 262.28,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 262.48,
+    "end": 264.82,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 265.02,
+    "end": 268.53,
+    "speaker": "合聲",
+    "text": "伸長正比 注意極限",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 268.73,
+    "end": 272.26,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
