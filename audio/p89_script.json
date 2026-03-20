@@ -1,0 +1,498 @@
+[
+  {
+    "start": 0.0,
+    "end": 1.98,
+    "speaker": "彥君",
+    "text": "哈囉",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 2.18,
+    "end": 5.45,
+    "speaker": "彥君",
+    "text": "各位即將衝 A 的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 5.65,
+    "end": 8.1,
+    "speaker": "彥君",
+    "text": "會考戰士們",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 8.3,
+    "end": 10.9,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 11.1,
+    "end": 14.38,
+    "speaker": "彥君",
+    "text": "今天來到 第八十九集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 14.58,
+    "end": 16.31,
+    "speaker": "曉臻",
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 16.51,
+    "end": 18.85,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 19.05,
+    "end": 21.91,
+    "speaker": "曉臻",
+    "text": "老師 第一行寫著",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 22.11,
+    "end": 24.21,
+    "speaker": "曉臻",
+    "text": "碳定為 12",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 24.41,
+    "end": 26.86,
+    "speaker": "彥君",
+    "text": "戰士們注意， ",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 27.06,
+    "end": 29.83,
+    "speaker": "彥君",
+    "text": "原子 實在太小了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 30.03,
+    "end": 32.85,
+    "speaker": "彥君",
+    "text": "科學家 就找了碳",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 33.05,
+    "end": 35.82,
+    "speaker": "彥君",
+    "text": "當作 比較的標準",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 36.02,
+    "end": 39.1,
+    "speaker": "彥君",
+    "text": "碳的原子量 定為 12",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 39.3,
+    "end": 42.47,
+    "speaker": "曉臻",
+    "text": "喔 大家跟碳比",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 42.67,
+    "end": 45.2,
+    "speaker": "曉臻",
+    "text": "那下面 葡萄糖的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 45.4,
+    "end": 47.86,
+    "speaker": "曉臻",
+    "text": "分子量 要填多少",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 48.06,
+    "end": 50.85,
+    "speaker": "彥君",
+    "text": "這題 是經典必考",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 51.05,
+    "end": 53.89,
+    "speaker": "彥君",
+    "text": "葡萄糖的 化學式",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 54.09,
+    "end": 57.98,
+    "speaker": "彥君",
+    "text": "是 C₆H_{12}O₆",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 58.18,
+    "end": 61.17,
+    "speaker": "彥君",
+    "text": "碳是 12 氫是 1",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 61.37,
+    "end": 63.87,
+    "speaker": "彥君",
+    "text": "氧則是 16",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 64.07,
+    "end": 65.81,
+    "speaker": "曉臻",
+    "text": "我來算",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 66.01,
+    "end": 68.1,
+    "speaker": "曉臻",
+    "text": "12 \\times 6",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 68.3,
+    "end": 70.69,
+    "speaker": "曉臻",
+    "text": "加上 1 \\times 12",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 70.89,
+    "end": 73.25,
+    "speaker": "曉臻",
+    "text": "再加 16 \\times 6",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 73.45,
+    "end": 76.02,
+    "speaker": "曉臻",
+    "text": "總共 是 180",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 76.22,
+    "end": 78.37,
+    "speaker": "彥君",
+    "text": "算得好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 78.57,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "C₆H_{12}O₆ → 180",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 82.64,
+    "end": 85.72,
+    "speaker": "彥君",
+    "text": "接下來 進入大魔王",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 85.92,
+    "end": 88.66,
+    "speaker": "彥君",
+    "text": "莫耳 是什麼東西",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 88.86,
+    "end": 91.15,
+    "speaker": "曉臻",
+    "text": "上面寫 1 莫耳",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 91.35,
+    "end": 94.67,
+    "speaker": "曉臻",
+    "text": "是 6 \\times 10²³ 個",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 94.87,
+    "end": 97.33,
+    "speaker": "曉臻",
+    "text": "數字 也太大了吧",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 97.53,
+    "end": 100.32,
+    "speaker": "彥君",
+    "text": "把它 想成一打就好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 100.52,
+    "end": 103.07,
+    "speaker": "彥君",
+    "text": "一打 是 12 個",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 103.27,
+    "end": 105.94,
+    "speaker": "彥君",
+    "text": "1 莫耳 就是這麼多",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 106.14,
+    "end": 108.91,
+    "speaker": "彥君",
+    "text": "為什麼 定這個數字",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 109.11,
+    "end": 111.57,
+    "speaker": "曉臻",
+    "text": "為了 換算重量嗎",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 111.77,
+    "end": 115.98,
+    "speaker": "彥君",
+    "text": "沒錯 湊齊 1 莫耳",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 116.18,
+    "end": 119.21,
+    "speaker": "彥君",
+    "text": "原子量 直接變公克",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 119.41,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "1 mole → 原子量(g)",
+    "is_pinned": true,
+    "pin_level": 2
+  },
+  {
+    "start": 123.84,
+    "end": 127.33,
+    "speaker": "曉臻",
+    "text": "喔 碳原子量 12",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 127.53,
+    "end": 130.51,
+    "speaker": "曉臻",
+    "text": "1 莫耳碳 就是 12 克",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 130.71,
+    "end": 133.1,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 133.3,
+    "end": 136.11,
+    "speaker": "彥君",
+    "text": "那最後 一個空格",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 136.31,
+    "end": 139.01,
+    "speaker": "彥君",
+    "text": "1 莫耳氧氣 幾克",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 139.21,
+    "end": 141.93,
+    "speaker": "曉臻",
+    "text": "氧的原子量 是 16",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 142.13,
+    "end": 144.56,
+    "speaker": "曉臻",
+    "text": "所以 是 16 克",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 144.76,
+    "end": 147.96,
+    "speaker": "彥君",
+    "text": "戰士們， 陷阱來了！",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 148.16,
+    "end": 150.93,
+    "speaker": "彥君",
+    "text": "題目問的 是氧氣",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 151.13,
+    "end": 153.54,
+    "speaker": "彥君",
+    "text": "氧氣 是 O₂ 喔",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 153.74,
+    "end": 157.22,
+    "speaker": "曉臻",
+    "text": "啊 是兩個氧原子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 157.42,
+    "end": 160.74,
+    "speaker": "曉臻",
+    "text": "所以 16 \\times 2 = 32",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 160.94,
+    "end": 163.47,
+    "speaker": "曉臻",
+    "text": "答案 是 32 克",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 163.67,
+    "end": 166.2,
+    "speaker": "彥君",
+    "text": "差點 被騙了吧",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 166.4,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "O₂ → 32g",
+    "is_pinned": true,
+    "pin_level": 3
+  },
+  {
+    "start": 170.83,
+    "end": 174.27,
+    "speaker": "彥君",
+    "text": "觀念通了 秒殺考題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 174.47,
+    "end": 177.07,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 177.27,
+    "end": 179.61,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 179.81,
+    "end": 183.3,
+    "speaker": "合聲",
+    "text": "原子比碳 莫耳換算",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 183.5,
+    "end": 187.03,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
