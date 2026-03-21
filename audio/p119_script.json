@@ -1,0 +1,426 @@
+[
+  {
+    "start": 0.0,
+    "end": 3.25,
+    "speaker": "彥君",
+    "text": "戰士們 歡迎來到",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 3.45,
+    "end": 6.12,
+    "speaker": "彥君",
+    "text": "第 119 集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 6.32,
+    "end": 9.69,
+    "speaker": "彥君",
+    "text": "讀書 不能只看花多少時間",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 9.89,
+    "end": 13.33,
+    "speaker": "彥君",
+    "text": "方向對了 才叫作正功",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 13.53,
+    "end": 16.97,
+    "speaker": "彥君",
+    "text": "效率高了 才是大功率",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 17.17,
+    "end": 19.77,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 19.97,
+    "end": 21.7,
+    "speaker": "曉臻",
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 21.9,
+    "end": 24.24,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 24.44,
+    "end": 27.09,
+    "speaker": "彥君",
+    "text": "[戰士們注意 ]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 27.29,
+    "end": 30.32,
+    "speaker": "彥君",
+    "text": "作功 要看施力跟位移",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 30.52,
+    "end": 33.38,
+    "speaker": "曉臻",
+    "text": "老師 左上角的圖",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 33.58,
+    "end": 36.52,
+    "speaker": "曉臻",
+    "text": "力量跟位移 都是向右",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 36.72,
+    "end": 41.41,
+    "speaker": "彥君",
+    "text": "沒錯 同方向就是正功",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 41.61,
+    "end": 44.35,
+    "speaker": "彥君",
+    "text": "物體 會越來越快",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 44.55,
+    "end": 84.83,
+    "speaker": "彥君",
+    "text": "[同向正功 > 加速]",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 48.62,
+    "end": 51.68,
+    "speaker": "曉臻",
+    "text": "那左下角 力量往後拉耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 51.88,
+    "end": 54.6,
+    "speaker": "彥君",
+    "text": "就像 摩擦力一樣",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 54.8,
+    "end": 57.83,
+    "speaker": "彥君",
+    "text": "反方向 就是作負功",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 58.03,
+    "end": 60.9,
+    "speaker": "彥君",
+    "text": "物體 當然會減速",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 61.1,
+    "end": 84.83,
+    "speaker": "彥君",
+    "text": "[反向負功 > 減速]",
+    "is_pinned": true,
+    "pin_level": 2
+  },
+  {
+    "start": 65.14,
+    "end": 67.77,
+    "speaker": "曉臻",
+    "text": "右邊的圖 力量往上",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 67.97,
+    "end": 70.71,
+    "speaker": "曉臻",
+    "text": "可是 位移卻是向右",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 70.91,
+    "end": 73.73,
+    "speaker": "彥君",
+    "text": "提著重物 往前走",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 73.93,
+    "end": 77.8,
+    "speaker": "彥君",
+    "text": "互相垂直 物理上叫不作功",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 78.0,
+    "end": 84.83,
+    "speaker": "彥君",
+    "text": "[垂直不作功]",
+    "is_pinned": true,
+    "pin_level": 3
+  },
+  {
+    "start": 81.83,
+    "end": 85.15,
+    "speaker": "彥君",
+    "text": "[給你們 3 秒鐘消化]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 85.35,
+    "end": 88.94,
+    "speaker": "彥君",
+    "text": "[戰士們 魔王題來了]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 89.14,
+    "end": 92.1,
+    "speaker": "彥君",
+    "text": "去年會考 考了功率",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 92.3,
+    "end": 94.51,
+    "speaker": "曉臻",
+    "text": "功率 是什麼啊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 94.71,
+    "end": 97.46,
+    "speaker": "彥君",
+    "text": "就是 作功的效率",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 97.66,
+    "end": 100.04,
+    "speaker": "彥君",
+    "text": "聽好題目",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 100.24,
+    "end": 103.39,
+    "speaker": "彥君",
+    "text": "馬達用 200 牛頓的力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 103.59,
+    "end": 106.79,
+    "speaker": "彥君",
+    "text": "把箱子 往前拉 10 公尺",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 106.99,
+    "end": 109.45,
+    "speaker": "彥君",
+    "text": "花了 5 秒鐘",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 109.65,
+    "end": 112.51,
+    "speaker": "彥君",
+    "text": "請問 功率是多少",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 112.71,
+    "end": 116.06,
+    "speaker": "曉臻",
+    "text": "老師 第一步要先算作功",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 116.26,
+    "end": 120.9,
+    "speaker": "彥君",
+    "text": "沒錯 功等於力乘上位移",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 121.1,
+    "end": 123.74,
+    "speaker": "彥君",
+    "text": "200 乘上 10",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 123.94,
+    "end": 127.1,
+    "speaker": "彥君",
+    "text": "總共 作了兩千焦耳的功",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 127.3,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "[W=200x10=2000]",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 131.75,
+    "end": 135.46,
+    "speaker": "彥君",
+    "text": "[戰士們 接下來看好了]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 135.66,
+    "end": 138.09,
+    "speaker": "曉臻",
+    "text": "功率 就是拿作功",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 138.29,
+    "end": 140.79,
+    "speaker": "曉臻",
+    "text": "除以 花掉的時間",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 140.99,
+    "end": 145.56,
+    "speaker": "彥君",
+    "text": "漂亮 兩千除以五秒",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 145.76,
+    "end": 148.65,
+    "speaker": "彥君",
+    "text": "答案是 400 瓦特",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 148.85,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "[P=2000/5=400]",
+    "is_pinned": true,
+    "pin_level": 2
+  },
+  {
+    "start": 153.28,
+    "end": 156.65,
+    "speaker": "曉臻",
+    "text": "哇 一步一步拆解",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 156.85,
+    "end": 159.62,
+    "speaker": "曉臻",
+    "text": "功率 根本一點都不難",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 159.82,
+    "end": 163.26,
+    "speaker": "彥君",
+    "text": "觀念通了 秒殺考題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 163.46,
+    "end": 166.06,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 166.26,
+    "end": 168.59,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 168.79,
+    "end": 172.14,
+    "speaker": "合聲",
+    "text": "同向正功 功率除秒",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 172.34,
+    "end": 175.87,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
