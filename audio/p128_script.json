@@ -1,0 +1,458 @@
+[
+  {
+    "start": 0.0,
+    "end": 3.25,
+    "speaker": "彥君",
+    "text": "戰士們 歡迎來到",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 3.45,
+    "end": 6.12,
+    "speaker": "彥君",
+    "text": "第 128 集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 6.32,
+    "end": 9.26,
+    "speaker": "彥君",
+    "text": "電流 會產生磁場",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 9.46,
+    "end": 12.54,
+    "speaker": "彥君",
+    "text": "就像 你的堅持與努力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 12.74,
+    "end": 15.67,
+    "speaker": "彥君",
+    "text": "雖然 眼睛看不見",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 15.87,
+    "end": 19.19,
+    "speaker": "彥君",
+    "text": "卻能 產生巨大的影響力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 19.39,
+    "end": 21.99,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 22.19,
+    "end": 23.93,
+    "speaker": "曉臻",
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 24.13,
+    "end": 26.46,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 26.66,
+    "end": 29.31,
+    "speaker": "彥君",
+    "text": "[戰士們注意 ]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 29.51,
+    "end": 32.42,
+    "speaker": "彥君",
+    "text": "隱形的 電磁奧秘來了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 32.62,
+    "end": 35.46,
+    "speaker": "曉臻",
+    "text": "老師 為什麼電線",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 35.66,
+    "end": 38.38,
+    "speaker": "曉臻",
+    "text": "竟然會 產生磁場啊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 38.58,
+    "end": 42.05,
+    "speaker": "彥君",
+    "text": "這就是 厄斯特發現的奇蹟",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 42.25,
+    "end": 45.45,
+    "speaker": "彥君",
+    "text": "只要 導線有電流通過",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 45.65,
+    "end": 48.73,
+    "speaker": "彥君",
+    "text": "旁邊 就會出現磁場",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 48.93,
+    "end": 52.18,
+    "speaker": "曉臻",
+    "text": "電流越大 磁場就越強",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 52.38,
+    "end": 55.67,
+    "speaker": "曉臻",
+    "text": "距離越遠 磁場就越弱",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 55.87,
+    "end": 60.73,
+    "speaker": "彥君",
+    "text": "沒錯 就像 離熱源越遠越冷",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 60.93,
+    "end": 69.34,
+    "speaker": "彥君",
+    "text": "[$B \\propto \\frac{I}{r}$]",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 66.34,
+    "end": 69.66,
+    "speaker": "彥君",
+    "text": "[給你們 3 秒鐘記住]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 69.86,
+    "end": 72.87,
+    "speaker": "曉臻",
+    "text": "老師 方向要怎麼看",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 73.07,
+    "end": 76.27,
+    "speaker": "彥君",
+    "text": "記住 補教天王的口訣",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 76.47,
+    "end": 80.08,
+    "speaker": "彥君",
+    "text": "直的給拇指 彎的給四指",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 80.28,
+    "end": 83.82,
+    "speaker": "曉臻",
+    "text": "喔 長直導線 是直的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 84.02,
+    "end": 86.98,
+    "speaker": "曉臻",
+    "text": "所以 大拇指就是電流",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 87.18,
+    "end": 91.38,
+    "speaker": "彥君",
+    "text": "漂亮 那四根手指",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 91.58,
+    "end": 95.36,
+    "speaker": "彥君",
+    "text": "繞圈圈的方向 就是磁場",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 95.56,
+    "end": 125.62,
+    "speaker": "彥君",
+    "text": "[$\\text{直導線} \\rightarrow \\text{拇指 } I, \\text{ 四指 } B$]",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 100.83,
+    "end": 103.79,
+    "speaker": "曉臻",
+    "text": "那如果是 捲起來的線圈",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 103.99,
+    "end": 107.14,
+    "speaker": "彥君",
+    "text": "現在 電流在繞圈圈了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 107.34,
+    "end": 110.66,
+    "speaker": "彥君",
+    "text": "所以 四根手指是電流",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 110.86,
+    "end": 113.9,
+    "speaker": "曉臻",
+    "text": "喔 那大拇指",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 114.1,
+    "end": 117.08,
+    "speaker": "曉臻",
+    "text": "指向的地方 就是北極",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 117.28,
+    "end": 125.62,
+    "speaker": "彥君",
+    "text": "[$\\text{線圈} \\rightarrow \\text{四指 } I, \\text{ 拇指 } N$]",
+    "is_pinned": true,
+    "pin_level": 2
+  },
+  {
+    "start": 122.62,
+    "end": 126.06,
+    "speaker": "彥君",
+    "text": "[戰士們 換個手勢]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 126.26,
+    "end": 129.22,
+    "speaker": "曉臻",
+    "text": "老師 電磁鐵裡面",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 129.42,
+    "end": 132.12,
+    "speaker": "曉臻",
+    "text": "為什麼要 塞一根鐵釘",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 132.32,
+    "end": 135.26,
+    "speaker": "彥君",
+    "text": "為了 讓磁力瞬間爆發",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 135.46,
+    "end": 138.92,
+    "speaker": "彥君",
+    "text": "記住 這裡有大陷阱",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 139.12,
+    "end": 142.58,
+    "speaker": "彥君",
+    "text": "只有 鐵、 鈷、 鎳",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 142.78,
+    "end": 146.1,
+    "speaker": "彥君",
+    "text": "塞進去 才有磁化效果",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 146.3,
+    "end": 149.19,
+    "speaker": "曉臻",
+    "text": "老師 那如果我塞",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 149.39,
+    "end": 152.35,
+    "speaker": "曉臻",
+    "text": "鋁罐 或是塑膠吸管呢",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 152.55,
+    "end": 156.54,
+    "speaker": "彥君",
+    "text": "嗶嗶 門都沒有",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 156.74,
+    "end": 159.87,
+    "speaker": "彥君",
+    "text": "放入 鐵鈷鎳以外的東西",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 160.07,
+    "end": 163.22,
+    "speaker": "彥君",
+    "text": "磁力 完全不會變強",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 163.42,
+    "end": 166.79,
+    "speaker": "彥君",
+    "text": "那 簡直等於「沒有放」",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 166.99,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "[$\\text{非鐵鈷鎳} \\rightarrow \\text{等於沒放}$]",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 172.43,
+    "end": 176.21,
+    "speaker": "曉臻",
+    "text": "哇 原來不能 亂塞東西",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 176.41,
+    "end": 179.15,
+    "speaker": "曉臻",
+    "text": "只有 鐵、 鈷、 鎳",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 179.35,
+    "end": 181.98,
+    "speaker": "曉臻",
+    "text": "才是 電磁鐵的真心",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 182.18,
+    "end": 187.42,
+    "speaker": "彥君",
+    "text": "沒錯 觀念通了 秒殺考題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 187.62,
+    "end": 190.22,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 190.42,
+    "end": 192.75,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 192.95,
+    "end": 196.18,
+    "speaker": "合聲",
+    "text": "鐵鈷鎳心 磁力倍增",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 196.38,
+    "end": 199.91,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
