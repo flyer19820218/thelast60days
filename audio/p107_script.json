@@ -1,0 +1,282 @@
+[
+  {
+    "start": 0.0,
+    "end": 3.61,
+    "speaker": "彥君",
+    "text": "戰士們 伸出你的一隻手",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 3.81,
+    "end": 7.06,
+    "speaker": "彥君",
+    "text": "你有辦法 舉起一輛汽車嗎",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 7.26,
+    "end": 9.9,
+    "speaker": "曉臻",
+    "text": "老師 怎麼可能",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 10.1,
+    "end": 13.09,
+    "speaker": "曉臻",
+    "text": "汽車 可是有兩噸重耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 13.29,
+    "end": 16.51,
+    "speaker": "彥君",
+    "text": "只要學會 帕斯卡原理",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 16.71,
+    "end": 19.86,
+    "speaker": "彥君",
+    "text": "你就是 物理界的超人",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 20.06,
+    "end": 23.41,
+    "speaker": "彥君",
+    "text": "歡迎來到 第 107 集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 23.61,
+    "end": 26.81,
+    "speaker": "曉臻",
+    "text": "大家好 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 27.01,
+    "end": 29.66,
+    "speaker": "彥君",
+    "text": "[戰士們注意 ]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 29.86,
+    "end": 33.34,
+    "speaker": "彥君",
+    "text": "看看這張 千斤頂的圖",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 33.54,
+    "end": 36.31,
+    "speaker": "曉臻",
+    "text": "左邊 是小小的活塞",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 36.51,
+    "end": 39.4,
+    "speaker": "曉臻",
+    "text": "右邊 是超級大的活塞",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 39.6,
+    "end": 42.73,
+    "speaker": "彥君",
+    "text": "帕斯卡 發現了一個秘密",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 42.93,
+    "end": 45.91,
+    "speaker": "彥君",
+    "text": "在密閉的 液體裡面",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 46.11,
+    "end": 49.38,
+    "speaker": "彥君",
+    "text": "壓力會 原封不動傳遞",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 49.58,
+    "end": 103.28,
+    "speaker": "彥君",
+    "text": "[$\\text{帕斯卡} \\rightarrow \\text{壓力同等傳遞}$]",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 53.7,
+    "end": 56.59,
+    "speaker": "曉臻",
+    "text": "所以 左邊產生的壓力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 56.79,
+    "end": 59.42,
+    "speaker": "曉臻",
+    "text": "會等於 右邊的壓力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 59.62,
+    "end": 64.47,
+    "speaker": "彥君",
+    "text": "沒錯 壓力是力量除以面積",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 64.67,
+    "end": 103.28,
+    "speaker": "彥君",
+    "text": "[$\\frac{F_{小}}{A_{小}} = \\frac{F_{大}}{A_{大}}$]",
+    "is_pinned": true,
+    "pin_level": 2
+  },
+  {
+    "start": 68.94,
+    "end": 72.33,
+    "speaker": "曉臻",
+    "text": "老師 如果左邊面積是 1",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 72.53,
+    "end": 75.15,
+    "speaker": "曉臻",
+    "text": "右邊 面積是 100 呢",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 75.35,
+    "end": 78.62,
+    "speaker": "彥君",
+    "text": "那你只要 在左邊推 1 公斤",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 78.82,
+    "end": 82.0,
+    "speaker": "彥君",
+    "text": "右邊就會 舉起 100 公斤",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 82.2,
+    "end": 86.14,
+    "speaker": "曉臻",
+    "text": "哇 力量直接 放大一百倍",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 86.34,
+    "end": 89.42,
+    "speaker": "彥君",
+    "text": "這就是 帕斯卡的魔法",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 89.62,
+    "end": 103.28,
+    "speaker": "彥君",
+    "text": "[$\\text{面積越大} \\rightarrow \\text{力量越大}$]",
+    "is_pinned": true,
+    "pin_level": 3
+  },
+  {
+    "start": 93.82,
+    "end": 96.7,
+    "speaker": "彥君",
+    "text": "只要 活塞面積夠大",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 96.9,
+    "end": 100.08,
+    "speaker": "彥君",
+    "text": "單手舉車 絕對不是夢",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 100.28,
+    "end": 103.6,
+    "speaker": "彥君",
+    "text": "[給你們 3 秒鐘想像]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 103.8,
+    "end": 107.24,
+    "speaker": "彥君",
+    "text": "觀念通了 秒殺考題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 107.44,
+    "end": 110.04,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 110.24,
+    "end": 112.58,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 112.78,
+    "end": 116.12,
+    "speaker": "合聲",
+    "text": "壓力傳遞 以小搏大",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 116.32,
+    "end": 119.86,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
