@@ -57,295 +57,295 @@
   },
   {
     "start": 21.06,
-    "end": 23.71,
+    "end": 23.52,
     "speaker": "彥君",
-    "text": "[戰士們注意 ]",
+    "text": "戰士們注意",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 23.91,
-    "end": 27.06,
+    "start": 23.72,
+    "end": 26.87,
     "speaker": "彥君",
     "text": "浮力 其實一點都不難",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 27.26,
-    "end": 30.49,
+    "start": 27.07,
+    "end": 30.3,
     "speaker": "彥君",
     "text": "會考 已經不愛考計算了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 30.69,
-    "end": 34.06,
+    "start": 30.5,
+    "end": 33.86,
     "speaker": "曉臻",
     "text": "真的嗎 那要看什麼",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 34.26,
-    "end": 37.41,
+    "start": 34.06,
+    "end": 37.22,
     "speaker": "彥君",
     "text": "只要看 排開液體的重量",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 37.61,
-    "end": 41.07,
+    "start": 37.42,
+    "end": 40.88,
     "speaker": "彥君",
     "text": "看看左邊 彈簧秤的實驗",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 41.27,
-    "end": 43.9,
+    "start": 41.08,
+    "end": 43.7,
     "speaker": "曉臻",
     "text": "石頭 放到水裡面",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 44.1,
-    "end": 47.18,
+    "start": 43.9,
+    "end": 46.98,
     "speaker": "曉臻",
     "text": "彈簧秤的 數字變小了耶",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 47.38,
-    "end": 51.61,
+    "start": 47.18,
+    "end": 51.42,
     "speaker": "彥君",
     "text": "沒錯 變輕的重量",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 51.81,
-    "end": 55.34,
+    "start": 51.62,
+    "end": 55.15,
     "speaker": "彥君",
     "text": "就是 水幫忙往上托的浮力",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 55.54,
-    "end": 93.6,
+    "start": 55.35,
+    "end": 96.59,
     "speaker": "彥君",
-    "text": "[$\\text{減輕重量} \\rightarrow \\text{浮力}$]",
+    "text": "$\\text{減輕重量} \\rightarrow \\text{浮力}$",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 59.3,
-    "end": 62.72,
+    "start": 59.11,
+    "end": 62.53,
     "speaker": "曉臻",
     "text": "老師 旁邊有一個小杯子",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 62.92,
-    "end": 65.42,
+    "start": 62.73,
+    "end": 65.23,
     "speaker": "曉臻",
     "text": "裝滿了 溢出來的水",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 65.62,
-    "end": 68.63,
+    "start": 65.43,
+    "end": 68.44,
     "speaker": "彥君",
     "text": "這就是 最神奇的地方",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 68.83,
-    "end": 72.1,
+    "start": 68.64,
+    "end": 71.91,
     "speaker": "彥君",
     "text": "把這杯 溢出來的水拿去秤",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 72.3,
-    "end": 75.62,
+    "start": 72.11,
+    "end": 75.43,
     "speaker": "彥君",
     "text": "它的重量 會剛剛好",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 75.82,
-    "end": 78.95,
+    "start": 75.63,
+    "end": 78.76,
     "speaker": "彥君",
     "text": "等於 石頭減輕的重量",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 79.15,
-    "end": 93.6,
+    "start": 78.96,
+    "end": 96.59,
     "speaker": "彥君",
-    "text": "[$\\text{浮力} \\rightarrow \\text{溢出液重}$]",
+    "text": "$\\text{浮力} \\rightarrow \\text{溢出液重}$",
     "is_pinned": true,
     "pin_level": 2
   },
   {
-    "start": 83.54,
-    "end": 87.1,
+    "start": 83.34,
+    "end": 86.9,
     "speaker": "曉臻",
     "text": "哇 所以浮力的大小",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 87.3,
-    "end": 90.4,
+    "start": 87.1,
+    "end": 90.21,
     "speaker": "曉臻",
     "text": "根本就是 那杯水的重量嘛",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 90.6,
-    "end": 93.92,
+    "start": 90.41,
+    "end": 93.39,
     "speaker": "彥君",
-    "text": "[給你們 3 秒鐘消化]",
+    "text": "給你們 3 秒鐘消化",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 94.12,
-    "end": 97.08,
+    "start": 96.59,
+    "end": 99.55,
     "speaker": "彥君",
     "text": "接著看 右邊的公式",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 97.28,
+    "start": 99.75,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "[$B_{浮力} = D_{液} \\times V_{排開}$]",
+    "text": "$B_{浮力} = D_{液} \\times V_{排開}$",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 101.88,
-    "end": 104.62,
+    "start": 104.35,
+    "end": 107.1,
     "speaker": "曉臻",
     "text": "老師 那個排開",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 104.82,
-    "end": 107.42,
+    "start": 107.3,
+    "end": 109.9,
     "speaker": "曉臻",
     "text": "被特別 圈起來了耶",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 107.62,
-    "end": 110.68,
+    "start": 110.1,
+    "end": 113.15,
     "speaker": "彥君",
     "text": "這是 整個單元的靈魂",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 110.88,
-    "end": 113.89,
+    "start": 113.35,
+    "end": 116.36,
     "speaker": "彥君",
     "text": "體積 絕對不能帶錯",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 114.09,
-    "end": 117.29,
+    "start": 116.56,
+    "end": 119.76,
     "speaker": "彥君",
     "text": "只有 泡在水裡面的體積",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 117.49,
-    "end": 120.18,
+    "start": 119.96,
+    "end": 122.66,
     "speaker": "彥君",
     "text": "才能 產生浮力",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 120.38,
-    "end": 123.03,
+    "start": 122.86,
+    "end": 125.5,
     "speaker": "曉臻",
     "text": "只要抓住 排開液重",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 123.23,
-    "end": 126.14,
+    "start": 125.7,
+    "end": 128.62,
     "speaker": "曉臻",
     "text": "浮力 就一點都不可怕了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 126.34,
-    "end": 128.73,
+    "start": 128.82,
+    "end": 131.2,
     "speaker": "彥君",
     "text": "完全正確",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 128.93,
-    "end": 132.37,
+    "start": 131.4,
+    "end": 134.84,
     "speaker": "彥君",
     "text": "觀念通了 秒殺考題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 132.57,
-    "end": 135.17,
+    "start": 135.04,
+    "end": 137.64,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 135.37,
-    "end": 137.7,
+    "start": 137.84,
+    "end": 140.18,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 137.9,
-    "end": 141.34,
+    "start": 140.38,
+    "end": 143.82,
     "speaker": "合聲",
     "text": "減輕重量 排開液重",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 141.54,
-    "end": 145.08,
+    "start": 144.02,
+    "end": 147.55,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
