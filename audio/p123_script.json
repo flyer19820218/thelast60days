@@ -1,0 +1,434 @@
+[
+  {
+    "start": 0.0,
+    "end": 3.25,
+    "speaker": "彥君",
+    "text": "戰士們 歡迎來到",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 3.45,
+    "end": 6.17,
+    "speaker": "彥君",
+    "text": "第 123 集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 6.37,
+    "end": 9.59,
+    "speaker": "彥君",
+    "text": "準備會考 就像在充電",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 9.79,
+    "end": 13.06,
+    "speaker": "彥君",
+    "text": "偶爾摩擦 產生火花",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 13.26,
+    "end": 16.32,
+    "speaker": "彥君",
+    "text": "只要找對 接地的方向",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 16.52,
+    "end": 19.6,
+    "speaker": "彥君",
+    "text": "就能把 滿滿的正能量",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 19.8,
+    "end": 22.93,
+    "speaker": "彥君",
+    "text": "全部 儲存在大腦裡",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 23.13,
+    "end": 25.73,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 25.93,
+    "end": 27.66,
+    "speaker": "曉臻",
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 27.86,
+    "end": 30.2,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 30.4,
+    "end": 33.05,
+    "speaker": "彥君",
+    "text": "[戰士們注意 ]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 33.25,
+    "end": 36.4,
+    "speaker": "彥君",
+    "text": "今天進入 基礎電學",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 36.6,
+    "end": 39.54,
+    "speaker": "曉臻",
+    "text": "老師 這四個名詞",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 39.74,
+    "end": 42.77,
+    "speaker": "曉臻",
+    "text": "我每次都 傻傻分不清楚",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 42.97,
+    "end": 47.08,
+    "speaker": "彥君",
+    "text": "別怕 我們一個個來",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 47.28,
+    "end": 50.41,
+    "speaker": "彥君",
+    "text": "最上面 是摩擦起電",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 50.61,
+    "end": 53.5,
+    "speaker": "彥君",
+    "text": "兩個東西 互相摩擦",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 53.7,
+    "end": 56.7,
+    "speaker": "彥君",
+    "text": "電子 就會跑來跑去",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 56.9,
+    "end": 92.81,
+    "speaker": "彥君",
+    "text": "[$\\text{摩擦起電} \\rightarrow \\text{電子轉移}$]",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 61.22,
+    "end": 64.01,
+    "speaker": "曉臻",
+    "text": "那靜電感應 是什麼呢",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 64.21,
+    "end": 67.82,
+    "speaker": "彥君",
+    "text": "拿著帶電體 靠近金屬球",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 68.02,
+    "end": 71.29,
+    "speaker": "彥君",
+    "text": "裡面的 正負電會被分開",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 71.49,
+    "end": 74.16,
+    "speaker": "曉臻",
+    "text": "可是 它沒有碰到耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 74.36,
+    "end": 78.88,
+    "speaker": "彥君",
+    "text": "沒錯 只要棒子一拿走",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 79.08,
+    "end": 81.87,
+    "speaker": "彥君",
+    "text": "它們 又會混在一起了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 82.07,
+    "end": 85.01,
+    "speaker": "彥君",
+    "text": "這只是 短暫的假象",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 85.21,
+    "end": 92.81,
+    "speaker": "彥君",
+    "text": "[$\\text{靜電感應} \\rightarrow \\text{短暫分離}$]",
+    "is_pinned": true,
+    "pin_level": 2
+  },
+  {
+    "start": 89.81,
+    "end": 93.13,
+    "speaker": "彥君",
+    "text": "[給你們 3 秒鐘看圖]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 93.33,
+    "end": 95.23,
+    "speaker": "曉臻",
+    "text": "那怎麼辦",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 95.43,
+    "end": 97.98,
+    "speaker": "曉臻",
+    "text": "怎麼讓它 真的帶電",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 98.18,
+    "end": 101.36,
+    "speaker": "彥君",
+    "text": "這時候 就要感應起電",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 101.56,
+    "end": 104.74,
+    "speaker": "彥君",
+    "text": "趁正負電 分開的時候",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 104.94,
+    "end": 107.97,
+    "speaker": "彥君",
+    "text": "用手 摸一下金屬球",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 108.17,
+    "end": 111.01,
+    "speaker": "彥君",
+    "text": "把電子 偷偷趕跑",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 111.21,
+    "end": 114.41,
+    "speaker": "彥君",
+    "text": "這個動作 就叫做接地",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 114.61,
+    "end": 118.1,
+    "speaker": "曉臻",
+    "text": "哇 棒子拿走之後",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 118.3,
+    "end": 121.35,
+    "speaker": "曉臻",
+    "text": "金屬球 就真的帶電了耶",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 121.55,
+    "end": 126.26,
+    "speaker": "彥君",
+    "text": "沒錯 而且是大考陷阱",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 126.46,
+    "end": 129.62,
+    "speaker": "彥君",
+    "text": "感應起電 帶出來的電",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 129.82,
+    "end": 132.56,
+    "speaker": "彥君",
+    "text": "跟棒子 是相反的喔",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 132.76,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "[$\\text{感應起電} \\rightarrow \\text{帶異性電}$]",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 136.81,
+    "end": 139.89,
+    "speaker": "曉臻",
+    "text": "老師 那接觸起電呢",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 140.09,
+    "end": 143.36,
+    "speaker": "彥君",
+    "text": "接觸 就是直接戳下去",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 143.56,
+    "end": 147.19,
+    "speaker": "曉臻",
+    "text": "啪 電子直接衝過去",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 147.39,
+    "end": 151.79,
+    "speaker": "彥君",
+    "text": "答對了 因為直接碰到",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 151.99,
+    "end": 154.76,
+    "speaker": "彥君",
+    "text": "所以 帶出來的電",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 154.96,
+    "end": 158.04,
+    "speaker": "彥君",
+    "text": "跟棒子 是完全一樣的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 158.24,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "[$\\text{接觸起電} \\rightarrow \\text{帶同性電}$]",
+    "is_pinned": true,
+    "pin_level": 2
+  },
+  {
+    "start": 162.5,
+    "end": 166.06,
+    "speaker": "彥君",
+    "text": "感應相反 接觸相同",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 166.26,
+    "end": 169.7,
+    "speaker": "彥君",
+    "text": "觀念通了 秒殺考題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 169.9,
+    "end": 172.5,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 172.7,
+    "end": 175.04,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 175.24,
+    "end": 178.68,
+    "speaker": "合聲",
+    "text": "感應異電 接觸同電",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 178.88,
+    "end": 182.42,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
