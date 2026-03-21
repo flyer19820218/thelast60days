@@ -65,287 +65,287 @@
   },
   {
     "start": 24.03,
-    "end": 26.68,
+    "end": 26.49,
     "speaker": "彥君",
-    "text": "[戰士們注意 ]",
+    "text": "戰士們注意",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 26.88,
-    "end": 30.18,
+    "start": 26.69,
+    "end": 29.98,
     "speaker": "彥君",
     "text": "今天 來看法拉第的奇蹟",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 30.38,
-    "end": 33.1,
+    "start": 30.18,
+    "end": 32.9,
     "speaker": "曉臻",
     "text": "老師 講義第一點",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 33.3,
-    "end": 36.06,
+    "start": 33.1,
+    "end": 35.87,
     "speaker": "曉臻",
     "text": "只要 磁場發生變化",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 36.26,
-    "end": 39.25,
+    "start": 36.07,
+    "end": 39.06,
     "speaker": "曉臻",
     "text": "就會 產生感應電流耶",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 39.45,
-    "end": 44.3,
+    "start": 39.26,
+    "end": 44.11,
     "speaker": "彥君",
     "text": "沒錯 重點在於「變化」",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 44.5,
-    "end": 47.92,
+    "start": 44.31,
+    "end": 47.73,
     "speaker": "彥君",
     "text": "磁鐵不動 什麼都沒有",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 48.12,
-    "end": 56.1,
+    "start": 47.93,
+    "end": 59.17,
     "speaker": "彥君",
-    "text": "[$\\text{磁場變化} \\rightarrow \\text{產生感應電流}$]",
+    "text": "$\\text{磁場變化} \\rightarrow \\text{產生感應電流}$",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 53.1,
-    "end": 56.42,
+    "start": 52.91,
+    "end": 55.97,
     "speaker": "彥君",
-    "text": "[給你們 3 秒鐘想像]",
+    "text": "給你們 3 秒鐘想像",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 56.62,
-    "end": 59.22,
+    "start": 59.17,
+    "end": 61.77,
     "speaker": "曉臻",
     "text": "那第二點 發電機呢",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 59.42,
-    "end": 62.43,
+    "start": 61.97,
+    "end": 64.98,
     "speaker": "曉臻",
     "text": "它是 把動能轉成電能嗎",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 62.63,
-    "end": 67.03,
+    "start": 65.18,
+    "end": 69.58,
     "speaker": "彥君",
     "text": "答對了 讓線圈轉動",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 67.23,
-    "end": 70.41,
+    "start": 69.78,
+    "end": 72.95,
     "speaker": "彥君",
     "text": "穿過線圈的 磁力線變了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 70.61,
-    "end": 73.93,
+    "start": 73.15,
+    "end": 76.47,
     "speaker": "彥君",
     "text": "電流 就源源不絕出現",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 74.13,
-    "end": 77.5,
+    "start": 76.67,
+    "end": 80.04,
     "speaker": "曉臻",
     "text": "喔 交流電的頻率",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 77.7,
-    "end": 80.7,
+    "start": 80.24,
+    "end": 83.25,
     "speaker": "曉臻",
     "text": "就是 發電機旋轉的頻率",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 80.9,
-    "end": 85.64,
+    "start": 83.45,
+    "end": 88.18,
     "speaker": "彥君",
     "text": "沒錯 就像 腳踏車發電燈",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 85.84,
-    "end": 89.04,
+    "start": 88.38,
+    "end": 91.58,
     "speaker": "彥君",
     "text": "踩越快 燈就越亮",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 89.24,
-    "end": 97.13,
+    "start": 91.78,
+    "end": 103.31,
     "speaker": "彥君",
-    "text": "[$\\text{發電機} \\rightarrow \\text{動能變電能}$]",
+    "text": "$\\text{發電機} \\rightarrow \\text{動能變電能}$",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 94.13,
-    "end": 97.88,
+    "start": 96.67,
+    "end": 100.11,
     "speaker": "彥君",
-    "text": "[戰士們 來看變壓器]",
+    "text": "戰士們 來看變壓器",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 98.08,
-    "end": 101.02,
+    "start": 103.31,
+    "end": 106.25,
     "speaker": "曉臻",
     "text": "第三點 變壓器好酷喔",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 101.22,
-    "end": 104.44,
+    "start": 106.45,
+    "end": 109.67,
     "speaker": "曉臻",
     "text": "兩邊線圈 竟然沒連在一起",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 104.64,
-    "end": 108.06,
+    "start": 109.87,
+    "end": 113.29,
     "speaker": "彥君",
     "text": "這是 電磁感應的最高境界",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 108.26,
-    "end": 112.01,
+    "start": 113.49,
+    "end": 117.24,
     "speaker": "彥君",
     "text": "左邊電流變 磁通量就變",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 112.21,
-    "end": 115.5,
+    "start": 117.44,
+    "end": 120.74,
     "speaker": "彥君",
     "text": "透過鐵芯 傳給右邊",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 115.7,
-    "end": 119.31,
+    "start": 120.94,
+    "end": 124.54,
     "speaker": "曉臻",
     "text": "哇 右邊感受到磁變",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 119.51,
-    "end": 122.76,
+    "start": 124.74,
+    "end": 127.99,
     "speaker": "曉臻",
     "text": "感應電流 就這樣生出來了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 122.96,
-    "end": 125.99,
+    "start": 128.19,
+    "end": 131.22,
     "speaker": "彥君",
     "text": "這就是 變壓器的奧義",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 126.19,
-    "end": 128.82,
+    "start": 131.42,
+    "end": 134.05,
     "speaker": "彥君",
     "text": "雖然 考題不多",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 129.02,
-    "end": 132.31,
+    "start": 134.25,
+    "end": 137.54,
     "speaker": "彥君",
     "text": "但 懂了你就是理化大神",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 132.51,
+    "start": 137.74,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "[$\\text{變壓器} \\rightarrow \\text{利用磁通量傳遞}$]",
+    "text": "$\\text{變壓器} \\rightarrow \\text{利用磁通量傳遞}$",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 137.28,
-    "end": 140.72,
+    "start": 142.51,
+    "end": 145.95,
     "speaker": "彥君",
     "text": "觀念通了 秒殺考題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 140.92,
-    "end": 143.52,
+    "start": 146.15,
+    "end": 148.75,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 143.72,
-    "end": 146.06,
+    "start": 148.95,
+    "end": 151.29,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 146.26,
-    "end": 149.58,
+    "start": 151.49,
+    "end": 154.81,
     "speaker": "合聲",
     "text": "磁變生電 變壓奧義",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 149.78,
-    "end": 153.31,
+    "start": 155.01,
+    "end": 158.54,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
