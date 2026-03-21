@@ -73,359 +73,359 @@
   },
   {
     "start": 27.22,
-    "end": 29.86,
+    "end": 29.67,
     "speaker": "彥君",
-    "text": "[戰士們注意 ]",
+    "text": "戰士們注意",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 30.06,
-    "end": 33.12,
+    "start": 29.87,
+    "end": 32.93,
     "speaker": "彥君",
     "text": "理化 最難的馬達來了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 33.32,
-    "end": 36.28,
+    "start": 33.13,
+    "end": 36.09,
     "speaker": "曉臻",
     "text": "老師 講義第一點說",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 36.48,
-    "end": 39.68,
+    "start": 36.29,
+    "end": 39.49,
     "speaker": "曉臻",
     "text": "三個方向 都要互相垂直",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 39.88,
-    "end": 44.3,
+    "start": 39.69,
+    "end": 44.11,
     "speaker": "彥君",
     "text": "沒錯 伸出你的右手",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 44.5,
-    "end": 48.14,
+    "start": 44.31,
+    "end": 47.94,
     "speaker": "彥君",
     "text": "大拇指電流 四指磁場",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 48.34,
-    "end": 51.37,
+    "start": 48.14,
+    "end": 51.18,
     "speaker": "曉臻",
     "text": "那 掌心推出去的方向呢",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 51.57,
-    "end": 54.24,
+    "start": 51.38,
+    "end": 54.0,
     "speaker": "彥君",
     "text": "就是 受力方向 $F$",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 54.44,
-    "end": 62.38,
+    "start": 54.2,
+    "end": 65.51,
     "speaker": "彥君",
-    "text": "[$I, B, F \\text{ 互相垂直}$]",
+    "text": "$I, B, F \\text{ 互相垂直}$",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 59.38,
-    "end": 62.79,
+    "start": 59.14,
+    "end": 62.31,
     "speaker": "彥君",
-    "text": "[給你們 3 秒鐘比手勢]",
+    "text": "給你們 3 秒鐘比手勢",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 62.99,
-    "end": 66.22,
+    "start": 65.51,
+    "end": 68.74,
     "speaker": "曉臻",
     "text": "老師 下面那個馬達圖",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 66.42,
-    "end": 69.28,
+    "start": 68.94,
+    "end": 71.8,
     "speaker": "曉臻",
     "text": "線圈 為什麼會一直轉",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 69.48,
-    "end": 72.54,
+    "start": 72.0,
+    "end": 75.3,
     "speaker": "彥君",
     "text": "觀察 靠近 $N$ 極的那一邊",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 72.74,
-    "end": 76.2,
+    "start": 75.5,
+    "end": 78.96,
     "speaker": "彥君",
     "text": "電流 向內 磁場向右",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 76.4,
-    "end": 80.01,
+    "start": 79.16,
+    "end": 82.77,
     "speaker": "曉臻",
     "text": "喔 掌心 是向上推耶",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 80.21,
-    "end": 82.98,
+    "start": 82.97,
+    "end": 85.98,
     "speaker": "彥君",
     "text": "那 靠近 $S$ 極的那一邊呢",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 83.18,
-    "end": 86.47,
+    "start": 86.18,
+    "end": 89.47,
     "speaker": "曉臻",
     "text": "剛好相反 掌心向下壓",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 86.67,
-    "end": 90.09,
+    "start": 89.67,
+    "end": 93.09,
     "speaker": "彥君",
     "text": "一邊向上 一邊向下",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 90.29,
-    "end": 92.67,
+    "start": 93.29,
+    "end": 95.67,
     "speaker": "彥君",
     "text": "這一對 力矩",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 92.87,
-    "end": 95.81,
+    "start": 95.87,
+    "end": 98.81,
     "speaker": "彥君",
     "text": "就會 讓線圈轉起來",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 96.01,
-    "end": 104.16,
+    "start": 99.01,
+    "end": 110.78,
     "speaker": "彥君",
-    "text": "[$\\text{力矩方向固定} \\rightarrow \\text{持續旋轉}$]",
+    "text": "$\\text{力矩方向固定} \\rightarrow \\text{持續旋轉}$",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 101.16,
-    "end": 104.86,
+    "start": 104.16,
+    "end": 107.58,
     "speaker": "彥君",
-    "text": "[戰士們 盯著半圓環]",
+    "text": "戰士們 盯著半圓環",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 105.06,
-    "end": 108.07,
+    "start": 110.78,
+    "end": 113.78,
     "speaker": "曉臻",
     "text": "老師 那個半圓形的",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 108.27,
-    "end": 111.14,
+    "start": 113.98,
+    "end": 116.85,
     "speaker": "曉臻",
     "text": "集電環 有什麼玄機嗎",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 111.34,
-    "end": 114.49,
+    "start": 117.05,
+    "end": 120.2,
     "speaker": "彥君",
     "text": "這是 馬達能動的靈魂",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 114.69,
-    "end": 117.72,
+    "start": 120.4,
+    "end": 123.43,
     "speaker": "彥君",
     "text": "線圈 只要轉了半圈",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 117.92,
-    "end": 121.24,
+    "start": 123.63,
+    "end": 126.95,
     "speaker": "彥君",
     "text": "集電環 就會交換電極",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 121.44,
-    "end": 124.26,
+    "start": 127.15,
+    "end": 129.97,
     "speaker": "曉臻",
     "text": "為什麼 要交換電極啊",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 124.46,
-    "end": 127.37,
+    "start": 130.17,
+    "end": 133.08,
     "speaker": "彥君",
     "text": "為了 改變電流方向",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 127.57,
-    "end": 130.89,
+    "start": 133.28,
+    "end": 136.6,
     "speaker": "彥君",
     "text": "讓線圈 永遠保持順時針",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 131.09,
-    "end": 134.14,
+    "start": 136.8,
+    "end": 139.86,
     "speaker": "彥君",
     "text": "不然 轉半圈就卡住囉",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 134.34,
+    "start": 140.06,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "[$\\text{集電環} \\rightarrow \\text{半圈改變電流方向}$]",
+    "text": "$\\text{集電環} \\rightarrow \\text{半圈改變電流方向}$",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 139.54,
-    "end": 143.32,
+    "start": 145.26,
+    "end": 149.03,
     "speaker": "曉臻",
     "text": "哇 真是 聰明的發明耶",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 143.52,
-    "end": 146.7,
+    "start": 149.23,
+    "end": 152.41,
     "speaker": "彥君",
     "text": "最後 還有同向導線",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 146.9,
-    "end": 149.57,
+    "start": 152.61,
+    "end": 155.28,
     "speaker": "曉臻",
     "text": "兩條電流 方向一樣",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 149.77,
-    "end": 152.2,
+    "start": 155.48,
+    "end": 157.91,
     "speaker": "曉臻",
     "text": "竟然 會互相吸引",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 152.4,
-    "end": 157.35,
+    "start": 158.11,
+    "end": 163.06,
     "speaker": "彥君",
     "text": "沒錯 就像 志同道合的朋友",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 157.55,
-    "end": 160.34,
+    "start": 163.26,
+    "end": 166.06,
     "speaker": "彥君",
     "text": "雖然 距離很遠",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 160.54,
-    "end": 163.36,
+    "start": 166.26,
+    "end": 169.07,
     "speaker": "彥君",
     "text": "卻會 產生吸引力喔",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 163.56,
+    "start": 169.27,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "[$\\text{同向電流} \\rightarrow \\text{互相吸引}$]",
+    "text": "$\\text{同向電流} \\rightarrow \\text{互相吸引}$",
     "is_pinned": true,
     "pin_level": 2
   },
   {
-    "start": 168.59,
-    "end": 172.03,
+    "start": 174.3,
+    "end": 177.74,
     "speaker": "彥君",
     "text": "觀念通了 秒殺考題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 172.23,
-    "end": 174.83,
+    "start": 177.94,
+    "end": 180.54,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 175.03,
-    "end": 177.37,
+    "start": 180.74,
+    "end": 183.08,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 177.57,
-    "end": 181.08,
+    "start": 183.28,
+    "end": 186.79,
     "speaker": "合聲",
     "text": "開掌推力 轉動奇蹟",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 181.28,
-    "end": 184.82,
+    "start": 186.99,
+    "end": 190.53,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
