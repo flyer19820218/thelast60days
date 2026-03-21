@@ -1,0 +1,394 @@
+[
+  {
+    "start": 0.0,
+    "end": 3.25,
+    "speaker": "彥君",
+    "text": "戰士們 歡迎來到",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 3.45,
+    "end": 6.12,
+    "speaker": "彥君",
+    "text": "第 125 集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 6.32,
+    "end": 9.35,
+    "speaker": "彥君",
+    "text": "人生 就像一個電阻",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 9.55,
+    "end": 12.61,
+    "speaker": "彥君",
+    "text": "雖然 會有重重阻礙",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 12.81,
+    "end": 15.82,
+    "speaker": "彥君",
+    "text": "但就是 因為有電阻",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 16.02,
+    "end": 19.1,
+    "speaker": "彥君",
+    "text": "燈泡 才會發出光芒",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 19.3,
+    "end": 21.9,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 22.1,
+    "end": 23.83,
+    "speaker": "曉臻",
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 24.03,
+    "end": 26.37,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 26.57,
+    "end": 29.22,
+    "speaker": "彥君",
+    "text": "[戰士們注意 ]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 29.42,
+    "end": 32.76,
+    "speaker": "彥君",
+    "text": "今天要 認識電學三劍客",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 32.96,
+    "end": 35.94,
+    "speaker": "曉臻",
+    "text": "老師 第一個是電流",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 36.14,
+    "end": 38.96,
+    "speaker": "曉臻",
+    "text": "為什麼 安培計要串聯",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 39.16,
+    "end": 42.74,
+    "speaker": "彥君",
+    "text": "電流 就像水流或是車流",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 42.94,
+    "end": 46.19,
+    "speaker": "彥君",
+    "text": "要算 每秒鐘過去幾台車",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 46.39,
+    "end": 49.66,
+    "speaker": "彥君",
+    "text": "計數器 必須裝在路中間",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 49.86,
+    "end": 52.87,
+    "speaker": "彥君",
+    "text": "這就是 所謂的串聯",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 53.07,
+    "end": 83.42,
+    "speaker": "彥君",
+    "text": "[$\\text{電流 } I \\rightarrow \\text{安培計串聯}$]",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 57.62,
+    "end": 59.89,
+    "speaker": "曉臻",
+    "text": "那第二個電壓",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 60.09,
+    "end": 62.95,
+    "speaker": "曉臻",
+    "text": "伏特計 為什麼要並聯",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 63.15,
+    "end": 66.38,
+    "speaker": "彥君",
+    "text": "電壓 是推動電流的能力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 66.58,
+    "end": 69.58,
+    "speaker": "彥君",
+    "text": "就像 瀑布的高度落差",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 69.78,
+    "end": 72.86,
+    "speaker": "彥君",
+    "text": "我們要 跨過去量高低差",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 73.06,
+    "end": 76.02,
+    "speaker": "彥君",
+    "text": "所以 伏特計要並聯",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 76.22,
+    "end": 83.42,
+    "speaker": "彥君",
+    "text": "[$\\text{電壓 } V \\rightarrow \\text{伏特計並聯}$]",
+    "is_pinned": true,
+    "pin_level": 2
+  },
+  {
+    "start": 80.42,
+    "end": 83.69,
+    "speaker": "彥君",
+    "text": "[給你們 3 秒鐘思考]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 83.89,
+    "end": 86.56,
+    "speaker": "曉臻",
+    "text": "最後 第三點是電阻",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 86.76,
+    "end": 90.44,
+    "speaker": "曉臻",
+    "text": "歐姆定律 [$V=I \\times R$]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 90.64,
+    "end": 95.16,
+    "speaker": "彥君",
+    "text": "沒錯 這是電學大絕招",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 95.36,
+    "end": 99.14,
+    "speaker": "彥君",
+    "text": "[戰士們 換你們動手畫]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 99.34,
+    "end": 102.49,
+    "speaker": "彥君",
+    "text": "把左邊 亂糟糟的實物",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 102.69,
+    "end": 106.13,
+    "speaker": "彥君",
+    "text": "變成 右邊整齊的電路圖",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 106.33,
+    "end": 109.48,
+    "speaker": "曉臻",
+    "text": "老師 實物圖的電池",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 109.68,
+    "end": 112.14,
+    "speaker": "曉臻",
+    "text": "在電路圖 怎麼畫",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 112.34,
+    "end": 116.83,
+    "speaker": "彥君",
+    "text": "記住口訣 長正短負",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 117.03,
+    "end": 121.02,
+    "speaker": "彥君",
+    "text": "長的線是正極 短的是負極",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 121.22,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "[$\\text{電池} \\rightarrow \\text{長正短負}$]",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 126.21,
+    "end": 128.86,
+    "speaker": "曉臻",
+    "text": "那如果是 電阻器呢",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 129.06,
+    "end": 132.33,
+    "speaker": "彥君",
+    "text": "畫一條 鋸齒狀的折線",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 132.53,
+    "end": 135.66,
+    "speaker": "彥君",
+    "text": "就像 崎嶇不平的馬路",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 135.86,
+    "end": 139.03,
+    "speaker": "曉臻",
+    "text": "圓圈裡面 寫個 A 或 V",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 139.23,
+    "end": 142.19,
+    "speaker": "曉臻",
+    "text": "就是 安培計或伏特計",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 142.39,
+    "end": 146.84,
+    "speaker": "彥君",
+    "text": "漂亮 快把這兩張圖",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 147.04,
+    "end": 150.17,
+    "speaker": "彥君",
+    "text": "畫在 講義的白框框裡",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 150.37,
+    "end": 153.81,
+    "speaker": "彥君",
+    "text": "觀念通了 秒殺考題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 154.01,
+    "end": 156.61,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 156.81,
+    "end": 159.14,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 159.34,
+    "end": 162.74,
+    "speaker": "合聲",
+    "text": "串聯安培 並聯伏特",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 162.94,
+    "end": 166.47,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
