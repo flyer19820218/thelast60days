@@ -57,367 +57,367 @@
   },
   {
     "start": 18.98,
-    "end": 21.62,
+    "end": 21.43,
     "speaker": "彥君",
-    "text": "[戰士們注意 ]",
+    "text": "戰士們注意",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 21.82,
-    "end": 24.83,
+    "start": 21.63,
+    "end": 24.64,
     "speaker": "彥君",
     "text": "這集 考驗真正實力",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 25.03,
-    "end": 27.97,
+    "start": 24.84,
+    "end": 27.78,
     "speaker": "彥君",
     "text": "牛頓 第一運動定律",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 28.17,
-    "end": 30.96,
+    "start": 27.98,
+    "end": 30.77,
     "speaker": "曉臻",
     "text": "老師 上面寫著",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 31.16,
-    "end": 33.66,
+    "start": 30.97,
+    "end": 33.47,
     "speaker": "曉臻",
     "text": "兩力平衡 的條件",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 33.86,
-    "end": 38.1,
+    "start": 33.67,
+    "end": 37.9,
     "speaker": "彥君",
     "text": "沒錯 就像拔河",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 38.3,
-    "end": 41.9,
+    "start": 38.1,
+    "end": 41.71,
     "speaker": "彥君",
     "text": "大小相等、 方向相反",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 42.1,
-    "end": 45.16,
+    "start": 41.91,
+    "end": 44.97,
     "speaker": "彥君",
     "text": "作用在 同一直線上",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 45.36,
-    "end": 105.26,
+    "start": 45.17,
+    "end": 108.33,
     "speaker": "彥君",
-    "text": "[$\\text{力平衡} \\rightarrow \\text{合力為 } 0$]",
+    "text": "$\\text{力平衡} \\rightarrow \\text{合力為 } 0$",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 48.88,
-    "end": 51.41,
+    "start": 48.69,
+    "end": 51.22,
     "speaker": "曉臻",
     "text": "合力為 0 的時候",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 51.61,
-    "end": 54.09,
+    "start": 51.42,
+    "end": 53.9,
     "speaker": "曉臻",
     "text": "東西 就不會動嗎",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 54.29,
-    "end": 57.22,
+    "start": 54.1,
+    "end": 57.03,
     "speaker": "彥君",
     "text": "這就是 最大的陷阱",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 57.42,
-    "end": 60.14,
+    "start": 57.23,
+    "end": 59.95,
     "speaker": "彥君",
     "text": "牛頓 第一定律說",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 60.34,
-    "end": 63.54,
+    "start": 60.15,
+    "end": 63.35,
     "speaker": "彥君",
     "text": "力平衡 會有兩種狀態",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 63.74,
-    "end": 66.34,
+    "start": 63.55,
+    "end": 66.15,
     "speaker": "彥君",
     "text": "第一個 是靜止",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 66.54,
-    "end": 69.53,
+    "start": 66.35,
+    "end": 69.34,
     "speaker": "彥君",
     "text": "第二個 是等速度運動",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 69.73,
-    "end": 105.26,
+    "start": 69.54,
+    "end": 108.33,
     "speaker": "彥君",
-    "text": "[$\\text{合力 } 0 \\rightarrow \\text{靜止或等速}$]",
+    "text": "$\\text{合力 } 0 \\rightarrow \\text{靜止或等速}$",
     "is_pinned": true,
     "pin_level": 2
   },
   {
-    "start": 73.78,
-    "end": 77.74,
+    "start": 73.58,
+    "end": 77.55,
     "speaker": "曉臻",
     "text": "哇 等速度 也是力平衡",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 77.94,
-    "end": 81.12,
+    "start": 77.75,
+    "end": 80.93,
     "speaker": "彥君",
     "text": "我們直接 看下面圖形",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 81.32,
-    "end": 84.33,
+    "start": 81.13,
+    "end": 84.14,
     "speaker": "彥君",
     "text": "左邊 是位置對時間",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 84.53,
-    "end": 87.13,
+    "start": 84.34,
+    "end": 86.94,
     "speaker": "曉臻",
     "text": "藍色的線 是平的耶",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 87.33,
-    "end": 90.14,
+    "start": 87.14,
+    "end": 89.95,
     "speaker": "彥君",
     "text": "位置 永遠不改變",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 90.34,
-    "end": 93.23,
+    "start": 90.15,
+    "end": 93.04,
     "speaker": "彥君",
     "text": "代表 它正在靜止",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 93.43,
-    "end": 96.08,
+    "start": 93.24,
+    "end": 95.89,
     "speaker": "曉臻",
     "text": "那紅色的 斜直線呢",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 96.28,
-    "end": 99.0,
+    "start": 96.09,
+    "end": 98.81,
     "speaker": "彥君",
     "text": "位置 穩定增加中",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 99.2,
-    "end": 102.06,
+    "start": 99.01,
+    "end": 101.87,
     "speaker": "彥君",
     "text": "代表 它是等速度",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 102.26,
-    "end": 105.58,
+    "start": 102.07,
+    "end": 105.13,
     "speaker": "彥君",
-    "text": "[給你們 3 秒鐘看圖]",
+    "text": "給你們 3 秒鐘看圖",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 105.78,
-    "end": 108.86,
+    "start": 108.33,
+    "end": 111.41,
     "speaker": "彥君",
     "text": "接著看 右邊速度圖",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 109.06,
-    "end": 111.59,
+    "start": 111.61,
+    "end": 114.14,
     "speaker": "曉臻",
     "text": "速度圖的 藍色線",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 111.79,
-    "end": 114.42,
+    "start": 114.34,
+    "end": 116.96,
     "speaker": "曉臻",
     "text": "貼在 底下的軸上耶",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 114.62,
-    "end": 116.98,
+    "start": 117.16,
+    "end": 119.52,
     "speaker": "彥君",
     "text": "速度 是 0",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 117.18,
-    "end": 119.87,
+    "start": 119.72,
+    "end": 122.42,
     "speaker": "彥君",
     "text": "當然 就是靜止啊",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 120.07,
-    "end": 122.77,
+    "start": 122.62,
+    "end": 125.31,
     "speaker": "曉臻",
     "text": "那紅色的 水平線呢",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 122.97,
-    "end": 126.24,
+    "start": 125.51,
+    "end": 128.78,
     "speaker": "彥君",
     "text": "速度 維持固定的數字",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 126.44,
-    "end": 129.4,
+    "start": 128.98,
+    "end": 131.94,
     "speaker": "彥君",
     "text": "這就是 等速度運動",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 129.6,
-    "end": 132.92,
+    "start": 132.14,
+    "end": 135.15,
     "speaker": "彥君",
-    "text": "[戰士們 發現了嗎]",
+    "text": "戰士們 發現了嗎",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 133.12,
-    "end": 136.25,
+    "start": 135.35,
+    "end": 138.48,
     "speaker": "彥君",
     "text": "同樣是 一條水平線",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 136.45,
-    "end": 139.46,
+    "start": 138.68,
+    "end": 141.69,
     "speaker": "彥君",
     "text": "在位置圖 代表靜止",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 139.66,
-    "end": 142.71,
+    "start": 141.89,
+    "end": 144.94,
     "speaker": "彥君",
     "text": "在速度圖 卻是等速",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 142.91,
-    "end": 146.26,
+    "start": 145.14,
+    "end": 148.49,
     "speaker": "曉臻",
     "text": "哇 這樣對比著看",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 146.46,
-    "end": 149.13,
+    "start": 148.69,
+    "end": 151.36,
     "speaker": "曉臻",
     "text": "陷阱 一下就破解了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 149.33,
-    "end": 152.77,
+    "start": 151.56,
+    "end": 155.0,
     "speaker": "彥君",
     "text": "觀念通了 秒殺考題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 152.97,
-    "end": 155.57,
+    "start": 155.2,
+    "end": 157.8,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 155.77,
-    "end": 158.1,
+    "start": 158.0,
+    "end": 160.34,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 158.3,
-    "end": 161.67,
+    "start": 160.54,
+    "end": 163.9,
     "speaker": "合聲",
     "text": "力若平衡 靜止等速",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 161.87,
-    "end": 165.41,
+    "start": 164.1,
+    "end": 167.64,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
