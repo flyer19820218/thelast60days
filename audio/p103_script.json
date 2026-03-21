@@ -57,383 +57,383 @@
   },
   {
     "start": 19.0,
-    "end": 21.65,
+    "end": 21.46,
     "speaker": "彥君",
-    "text": "[戰士們注意 ]",
+    "text": "戰士們注意",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 21.85,
-    "end": 24.64,
+    "start": 21.66,
+    "end": 24.45,
     "speaker": "彥君",
     "text": "這集 要講摩擦力",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 24.84,
-    "end": 27.9,
+    "start": 24.65,
+    "end": 27.7,
     "speaker": "彥君",
     "text": "這裡有 必殺陷阱題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 28.1,
-    "end": 30.94,
+    "start": 27.9,
+    "end": 30.74,
     "speaker": "曉臻",
     "text": "老師 右邊的圖表",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 31.14,
-    "end": 33.76,
+    "start": 30.94,
+    "end": 33.57,
     "speaker": "曉臻",
     "text": "一開始 是一條斜線",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 33.96,
-    "end": 38.36,
+    "start": 33.77,
+    "end": 38.17,
     "speaker": "彥君",
     "text": "沒錯 只要物體沒動",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 38.56,
-    "end": 41.11,
+    "start": 38.37,
+    "end": 40.92,
     "speaker": "彥君",
     "text": "這條 斜直線",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 41.31,
-    "end": 43.91,
+    "start": 41.12,
+    "end": 43.72,
     "speaker": "彥君",
     "text": "就是 靜摩擦力",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 44.11,
-    "end": 47.12,
+    "start": 43.92,
+    "end": 46.93,
     "speaker": "曉臻",
     "text": "為什麼 角度是 45 度",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 47.32,
-    "end": 50.18,
+    "start": 47.13,
+    "end": 49.99,
     "speaker": "彥君",
     "text": "因為 只要物體靜止",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 50.38,
-    "end": 53.1,
+    "start": 50.19,
+    "end": 52.91,
     "speaker": "彥君",
     "text": "推力 等於摩擦力",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 53.3,
-    "end": 97.0,
+    "start": 53.11,
+    "end": 100.06,
     "speaker": "彥君",
-    "text": "[$\\text{靜止} \\rightarrow \\text{推力} = \\text{摩擦力}$]",
+    "text": "$\\text{靜止} \\rightarrow \\text{推力} = \\text{摩擦力}$",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 57.4,
-    "end": 60.58,
+    "start": 57.21,
+    "end": 60.38,
     "speaker": "曉臻",
     "text": "喔 我推 5 公斤",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 60.78,
-    "end": 63.02,
+    "start": 60.58,
+    "end": 62.82,
     "speaker": "曉臻",
     "text": "摩擦力 就是 5",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 63.22,
-    "end": 67.3,
+    "start": 63.02,
+    "end": 67.11,
     "speaker": "彥君",
     "text": "答對了 靜摩擦力",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 67.5,
-    "end": 70.34,
+    "start": 67.31,
+    "end": 70.15,
     "speaker": "彥君",
     "text": "是 會跟著改變的",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 70.54,
-    "end": 73.6,
+    "start": 70.35,
+    "end": 73.41,
     "speaker": "彥君",
     "text": "一直推 到斜線頂點",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 73.8,
-    "end": 76.33,
+    "start": 73.61,
+    "end": 76.14,
     "speaker": "彥君",
     "text": "那一點 叫什麼",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 76.53,
-    "end": 79.22,
+    "start": 76.34,
+    "end": 79.03,
     "speaker": "曉臻",
     "text": "叫做 最大靜摩擦力",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 79.42,
-    "end": 82.24,
+    "start": 79.23,
+    "end": 82.05,
     "speaker": "彥君",
     "text": "突破 這一點之後",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 82.44,
-    "end": 85.26,
+    "start": 82.25,
+    "end": 85.06,
     "speaker": "彥君",
     "text": "物體 就開始滑動了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 85.46,
-    "end": 88.22,
+    "start": 85.26,
+    "end": 88.03,
     "speaker": "曉臻",
     "text": "滑動之後 的水平線",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 88.42,
-    "end": 90.69,
+    "start": 88.23,
+    "end": 90.5,
     "speaker": "曉臻",
     "text": "就是 動摩擦力",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 90.89,
-    "end": 93.8,
+    "start": 90.7,
+    "end": 93.61,
     "speaker": "彥君",
     "text": "助教 觀察很敏銳",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 94.0,
-    "end": 97.32,
+    "start": 93.81,
+    "end": 96.86,
     "speaker": "彥君",
-    "text": "[給你們 3 秒鐘看圖]",
+    "text": "給你們 3 秒鐘看圖",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 97.52,
-    "end": 100.17,
+    "start": 100.06,
+    "end": 102.71,
     "speaker": "彥君",
     "text": "接下來 看左邊",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 100.37,
-    "end": 102.97,
+    "start": 102.91,
+    "end": 105.51,
     "speaker": "彥君",
     "text": "什麼 是正向力",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 103.17,
-    "end": 105.62,
+    "start": 105.71,
+    "end": 107.09,
     "speaker": "曉臻",
-    "text": "講義 寫著代號 [$N$]",
+    "text": "講義 寫著代號 $N$",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 105.82,
-    "end": 108.18,
+    "start": 107.29,
+    "end": 109.65,
     "speaker": "曉臻",
     "text": "是讓 兩個物體",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 108.38,
-    "end": 110.82,
+    "start": 109.85,
+    "end": 112.28,
     "speaker": "曉臻",
     "text": "夾在一起 的力量",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 111.02,
-    "end": 114.19,
+    "start": 112.48,
+    "end": 115.66,
     "speaker": "彥君",
     "text": "想像一下 壓著橡皮擦",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 114.39,
-    "end": 117.3,
+    "start": 115.86,
+    "end": 118.77,
     "speaker": "彥君",
     "text": "你往下 壓得越大力",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 117.5,
-    "end": 120.39,
+    "start": 118.97,
+    "end": 121.86,
     "speaker": "彥君",
     "text": "是不是 越難往前推",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 120.59,
-    "end": 123.82,
+    "start": 122.06,
+    "end": 125.28,
     "speaker": "曉臻",
     "text": "真的耶 壓越緊",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 124.02,
-    "end": 126.23,
+    "start": 125.48,
+    "end": 127.7,
     "speaker": "曉臻",
     "text": "就越難 推得動",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 126.43,
-    "end": 129.27,
+    "start": 127.9,
+    "end": 130.74,
     "speaker": "彥君",
     "text": "這就是 核心觀念",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 129.47,
-    "end": 132.36,
+    "start": 130.94,
+    "end": 133.82,
     "speaker": "彥君",
     "text": "正向力 越大的時候",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 132.56,
-    "end": 135.16,
+    "start": 134.02,
+    "end": 136.62,
     "speaker": "彥君",
     "text": "最大 靜摩擦力",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 135.36,
-    "end": 138.03,
+    "start": 136.82,
+    "end": 139.5,
     "speaker": "彥君",
     "text": "還有 動摩擦力",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 138.23,
-    "end": 140.78,
+    "start": 139.7,
+    "end": 142.25,
     "speaker": "彥君",
     "text": "都會 跟著變大喔",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 140.98,
+    "start": 142.45,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "[$N\\text{越大} \\rightarrow \\text{摩擦力變大}$]",
+    "text": "$N\\text{越大} \\rightarrow \\text{摩擦力變大}$",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 145.18,
-    "end": 148.81,
+    "start": 146.64,
+    "end": 150.27,
     "speaker": "曉臻",
     "text": "哇 用壓橡皮擦來想",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 149.01,
-    "end": 151.42,
+    "start": 150.47,
+    "end": 152.88,
     "speaker": "曉臻",
     "text": "瞬間 就秒懂了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 151.62,
-    "end": 155.06,
+    "start": 153.08,
+    "end": 156.52,
     "speaker": "彥君",
     "text": "觀念通了 秒殺考題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 155.26,
-    "end": 157.86,
+    "start": 156.72,
+    "end": 159.32,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 158.06,
-    "end": 160.39,
+    "start": 159.52,
+    "end": 161.86,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 160.59,
-    "end": 164.2,
+    "start": 162.06,
+    "end": 165.66,
     "speaker": "合聲",
     "text": "靜止相抵 正向無敵",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 164.4,
-    "end": 167.94,
+    "start": 165.86,
+    "end": 169.4,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
