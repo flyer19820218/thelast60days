@@ -41,359 +41,359 @@
   },
   {
     "start": 17.65,
-    "end": 20.3,
+    "end": 20.1,
     "speaker": "彥君",
-    "text": "[戰士們注意 ]",
+    "text": "戰士們注意",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 20.5,
-    "end": 23.41,
+    "start": 20.3,
+    "end": 23.22,
     "speaker": "彥君",
     "text": "我們來看 垂直上拋",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 23.61,
-    "end": 26.71,
+    "start": 23.42,
+    "end": 26.52,
     "speaker": "曉臻",
     "text": "老師 往上丟一顆球",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 26.91,
-    "end": 29.22,
+    "start": 26.72,
+    "end": 29.03,
     "speaker": "曉臻",
     "text": "左邊的位置圖",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 29.42,
-    "end": 32.17,
+    "start": 29.23,
+    "end": 31.98,
     "speaker": "曉臻",
     "text": "畫出了一個 大彎曲耶",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 32.37,
-    "end": 36.62,
+    "start": 32.18,
+    "end": 36.43,
     "speaker": "彥君",
     "text": "沒錯 球先往上飛",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 36.82,
-    "end": 40.24,
+    "start": 36.63,
+    "end": 40.05,
     "speaker": "彥君",
     "text": "到最高點 再掉下來",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 40.44,
-    "end": 43.57,
+    "start": 40.25,
+    "end": 43.38,
     "speaker": "彥君",
     "text": "這就是 左邊的拋物線",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 43.77,
-    "end": 50.74,
+    "start": 43.58,
+    "end": 53.81,
     "speaker": "彥君",
-    "text": "[$x-t \\text{ 圖} \\rightarrow \\text{拋物線}$]",
+    "text": "$x-t \\text{ 圖} \\rightarrow \\text{拋物線}$",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 47.74,
-    "end": 51.06,
+    "start": 47.55,
+    "end": 50.61,
     "speaker": "彥君",
-    "text": "[給你們 3 秒鐘看圖]",
+    "text": "給你們 3 秒鐘看圖",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 51.26,
-    "end": 53.89,
+    "start": 53.81,
+    "end": 56.43,
     "speaker": "曉臻",
     "text": "那中間的 速度圖呢",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 54.09,
-    "end": 56.86,
+    "start": 56.63,
+    "end": 59.4,
     "speaker": "曉臻",
     "text": "怎麼會是 一條斜直線",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 57.06,
-    "end": 60.52,
+    "start": 59.6,
+    "end": 63.06,
     "speaker": "彥君",
     "text": "剛丟出去 速度最大",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 60.72,
-    "end": 64.18,
+    "start": 63.26,
+    "end": 66.73,
     "speaker": "彥君",
     "text": "接著慢慢變慢 直到 0",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 64.38,
-    "end": 68.02,
+    "start": 66.93,
+    "end": 70.56,
     "speaker": "曉臻",
     "text": "喔 碰到橫軸的那一點",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 68.22,
-    "end": 70.86,
+    "start": 70.76,
+    "end": 73.41,
     "speaker": "曉臻",
     "text": "就是 空中的最高點",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 71.06,
-    "end": 75.61,
+    "start": 73.61,
+    "end": 78.15,
     "speaker": "彥君",
     "text": "沒錯 過了最高點之後",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 75.81,
-    "end": 78.48,
+    "start": 78.35,
+    "end": 81.02,
     "speaker": "彥君",
     "text": "球開始 往下掉",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 78.68,
-    "end": 82.19,
+    "start": 81.22,
+    "end": 84.74,
     "speaker": "彥君",
     "text": "其實就是 自由落體",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 82.39,
-    "end": 96.46,
+    "start": 84.94,
+    "end": 102.16,
     "speaker": "彥君",
-    "text": "[$v-t \\text{ 下降段} \\rightarrow \\text{自由落體}$]",
+    "text": "$v-t \\text{ 下降段} \\rightarrow \\text{自由落體}$",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 86.68,
-    "end": 90.41,
+    "start": 89.22,
+    "end": 92.95,
     "speaker": "曉臻",
     "text": "哇 上拋跟自由落體",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 90.61,
-    "end": 93.26,
+    "start": 93.15,
+    "end": 95.8,
     "speaker": "曉臻",
     "text": "竟然在 同一條線上",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 93.46,
-    "end": 96.78,
+    "start": 96.0,
+    "end": 98.96,
     "speaker": "彥君",
-    "text": "[給你們 3 秒鐘讚嘆]",
+    "text": "給你們 3 秒鐘讚嘆",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 96.98,
-    "end": 100.37,
+    "start": 102.16,
+    "end": 105.55,
     "speaker": "曉臻",
     "text": "老師 那如果我不是往上",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 100.57,
-    "end": 103.31,
+    "start": 105.75,
+    "end": 108.5,
     "speaker": "曉臻",
     "text": "我是 斜斜的丟出去呢",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 103.51,
-    "end": 106.16,
+    "start": 108.7,
+    "end": 111.34,
     "speaker": "彥君",
     "text": "助教 問到重點了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 106.36,
-    "end": 109.25,
+    "start": 111.54,
+    "end": 114.43,
     "speaker": "彥君",
     "text": "只要球 離開你的手",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 109.45,
-    "end": 113.68,
+    "start": 114.63,
+    "end": 118.86,
     "speaker": "彥君",
     "text": "不管是上拋、 斜拋、 甚至亂拋",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 113.88,
-    "end": 117.49,
+    "start": 119.06,
+    "end": 122.67,
     "speaker": "彥君",
     "text": "只要在空中 受什麼力作用",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 117.69,
-    "end": 120.53,
+    "start": 122.87,
+    "end": 125.71,
     "speaker": "曉臻",
     "text": "只有 向下的地心引力",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 120.73,
-    "end": 125.08,
+    "start": 125.91,
+    "end": 130.26,
     "speaker": "彥君",
     "text": "沒錯 固定的力作用",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 125.28,
-    "end": 128.65,
+    "start": 130.46,
+    "end": 133.83,
     "speaker": "彥君",
     "text": "就會產生 等加速度",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 128.85,
-    "end": 132.26,
+    "start": 134.03,
+    "end": 137.45,
     "speaker": "彥君",
     "text": "所以 來看最右邊的圖",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 132.46,
-    "end": 135.42,
+    "start": 137.65,
+    "end": 140.61,
     "speaker": "曉臻",
     "text": "加速度 變成了一條",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 135.62,
-    "end": 138.68,
+    "start": 140.81,
+    "end": 143.86,
     "speaker": "曉臻",
     "text": "停在地下室的 水平線耶",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 138.88,
-    "end": 141.55,
+    "start": 144.06,
+    "end": 146.74,
     "speaker": "彥君",
     "text": "因為 從頭到尾",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 141.75,
-    "end": 144.95,
+    "start": 146.94,
+    "end": 150.14,
     "speaker": "彥君",
     "text": "地心引力 都沒有休息",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 145.15,
+    "start": 150.34,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "[$a = -9.8 \\text{ m/s}^{2}$]",
+    "text": "$a = -9.8 \\text{ m/s}^{2}$",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 149.51,
-    "end": 153.29,
+    "start": 154.7,
+    "end": 158.47,
     "speaker": "彥君",
     "text": "恆力作用 就是等加速度",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 153.49,
-    "end": 156.5,
+    "start": 158.67,
+    "end": 161.68,
     "speaker": "彥君",
     "text": "這就是 牛頓第二定律",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 156.7,
-    "end": 160.14,
+    "start": 161.88,
+    "end": 165.32,
     "speaker": "彥君",
     "text": "觀念通了 秒殺考題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 160.34,
-    "end": 162.94,
+    "start": 165.52,
+    "end": 168.12,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 163.14,
-    "end": 165.47,
+    "start": 168.32,
+    "end": 170.66,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 165.67,
-    "end": 168.99,
+    "start": 170.86,
+    "end": 174.18,
     "speaker": "合聲",
     "text": "恆力等加 拋體秒殺",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 169.19,
-    "end": 172.73,
+    "start": 174.38,
+    "end": 177.91,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
