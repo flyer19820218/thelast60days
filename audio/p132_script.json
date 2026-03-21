@@ -1,0 +1,722 @@
+[
+  {
+    "start": 0.0,
+    "end": 3.25,
+    "speaker": "彥君",
+    "text": "戰士們 歡迎來到",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 3.45,
+    "end": 6.22,
+    "speaker": "彥君",
+    "text": "第 132 集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 6.42,
+    "end": 9.57,
+    "speaker": "彥君",
+    "text": "想要 讓分數充滿電力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 9.77,
+    "end": 13.23,
+    "speaker": "彥君",
+    "text": "你 必須先學會釋放能量",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 13.43,
+    "end": 16.46,
+    "speaker": "彥君",
+    "text": "找對 自己的活性位置",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 16.66,
+    "end": 19.96,
+    "speaker": "彥君",
+    "text": "就能 創造出最強的電壓",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 20.16,
+    "end": 22.76,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 22.96,
+    "end": 24.7,
+    "speaker": "曉臻",
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 24.9,
+    "end": 27.23,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 27.43,
+    "end": 30.08,
+    "speaker": "彥君",
+    "text": "[戰士們注意 ]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 30.28,
+    "end": 33.46,
+    "speaker": "彥君",
+    "text": "這是 100 顆星的必考題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 33.66,
+    "end": 36.86,
+    "speaker": "曉臻",
+    "text": "老師 電池的構造裡面",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 37.06,
+    "end": 40.02,
+    "speaker": "曉臻",
+    "text": "氧化還原 到底在幹嘛",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 40.22,
+    "end": 43.7,
+    "speaker": "彥君",
+    "text": "簡單來說 就是搶電子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 43.9,
+    "end": 47.8,
+    "speaker": "彥君",
+    "text": "活性大的金屬 喜歡丟電子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 48.0,
+    "end": 51.87,
+    "speaker": "彥君",
+    "text": "活性小的離子 喜歡拿電子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 52.07,
+    "end": 55.1,
+    "speaker": "曉臻",
+    "text": "就像 講義裡面的鋅跟銅",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 55.3,
+    "end": 59.87,
+    "speaker": "彥君",
+    "text": "沒錯 鋅的活性比較大",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 60.07,
+    "end": 63.68,
+    "speaker": "彥君",
+    "text": "所以 鋅原子會變成鋅離子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 63.88,
+    "end": 67.25,
+    "speaker": "彥君",
+    "text": "順便 把兩顆電子丟出去",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 67.45,
+    "end": 109.55,
+    "speaker": "彥君",
+    "text": "[$\\text{Zn} \\rightarrow \\text{Zn}^{2+} + 2\\text{e}^{-}$ ]",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 71.93,
+    "end": 74.98,
+    "speaker": "曉臻",
+    "text": "老師 丟出去的電子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 75.18,
+    "end": 77.38,
+    "speaker": "曉臻",
+    "text": "跑到哪裡去了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 77.58,
+    "end": 80.92,
+    "speaker": "彥君",
+    "text": "它們 順著導線跑向銅片",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 81.12,
+    "end": 84.34,
+    "speaker": "彥君",
+    "text": "這就是 我們學過的電流",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 84.54,
+    "end": 87.77,
+    "speaker": "曉臻",
+    "text": "喔 銅片那一邊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 87.97,
+    "end": 90.98,
+    "speaker": "曉臻",
+    "text": "銅離子 已經在那裡等了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 91.18,
+    "end": 95.86,
+    "speaker": "彥君",
+    "text": "沒錯 銅離子拿到電子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 96.06,
+    "end": 98.83,
+    "speaker": "彥君",
+    "text": "就會 變成銅原子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 99.03,
+    "end": 101.92,
+    "speaker": "彥君",
+    "text": "附著 在銅片上面",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 102.12,
+    "end": 109.55,
+    "speaker": "彥君",
+    "text": "[$\\text{Cu}^{2+} + 2\\text{e}^{-} \\rightarrow \\text{Cu}$ ]",
+    "is_pinned": true,
+    "pin_level": 2
+  },
+  {
+    "start": 106.55,
+    "end": 110.06,
+    "speaker": "彥君",
+    "text": "[給你們 3 秒鐘抄算式]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 110.26,
+    "end": 113.34,
+    "speaker": "曉臻",
+    "text": "老師 那誰是正極",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 113.54,
+    "end": 115.74,
+    "speaker": "曉臻",
+    "text": "誰是負極啊",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 115.94,
+    "end": 119.09,
+    "speaker": "彥君",
+    "text": "記住 補教天王的口訣",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 119.29,
+    "end": 122.01,
+    "speaker": "彥君",
+    "text": "丟電子 的是負極",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 122.21,
+    "end": 124.93,
+    "speaker": "彥君",
+    "text": "拿電子 的是正極",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 125.13,
+    "end": 128.52,
+    "speaker": "曉臻",
+    "text": "鋅丟電子 所以是負極",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 128.72,
+    "end": 132.11,
+    "speaker": "曉臻",
+    "text": "銅拿電子 所以是正極",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 132.31,
+    "end": 136.88,
+    "speaker": "彥君",
+    "text": "漂亮 而且負極會變輕",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 137.08,
+    "end": 140.71,
+    "speaker": "彥君",
+    "text": "正極 因為長肉 會變重",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 140.91,
+    "end": 162.74,
+    "speaker": "彥君",
+    "text": "[$\\text{負極變輕， 正極變重}$]",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 145.25,
+    "end": 148.09,
+    "speaker": "曉臻",
+    "text": "那離子濃度 會怎麼變",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 148.29,
+    "end": 151.61,
+    "speaker": "彥君",
+    "text": "鋅那一杯 離子變多了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 151.81,
+    "end": 155.08,
+    "speaker": "彥君",
+    "text": "銅那一杯 離子變少了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 155.28,
+    "end": 162.74,
+    "speaker": "彥君",
+    "text": "[$\\text{Zn}^{2+} \\uparrow, \\text{ Cu}^{2+} \\downarrow$]",
+    "is_pinned": true,
+    "pin_level": 2
+  },
+  {
+    "start": 159.74,
+    "end": 163.68,
+    "speaker": "彥君",
+    "text": "[戰士們 注意鹽橋走向]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 163.88,
+    "end": 167.1,
+    "speaker": "曉臻",
+    "text": "老師 那鹽橋是幹嘛的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 167.3,
+    "end": 170.14,
+    "speaker": "曉臻",
+    "text": "拿掉 它會發生什麼事",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 170.34,
+    "end": 173.69,
+    "speaker": "彥君",
+    "text": "拿掉 鹽橋 電路就斷了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 173.89,
+    "end": 177.04,
+    "speaker": "彥君",
+    "text": "它 負責維持電中性",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 177.24,
+    "end": 180.15,
+    "speaker": "曉臻",
+    "text": "鹽橋 裡面的離子怎麼走",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 180.35,
+    "end": 183.7,
+    "speaker": "彥君",
+    "text": "正離子 往正極跑",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 183.9,
+    "end": 187.19,
+    "speaker": "彥君",
+    "text": "負離子 往負極跑",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 187.39,
+    "end": 194.58,
+    "speaker": "彥君",
+    "text": "正往正 負往負}$]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 194.78,
+    "end": 198.1,
+    "speaker": "曉臻",
+    "text": "哇 名字對名字",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 198.3,
+    "end": 200.87,
+    "speaker": "曉臻",
+    "text": "這樣 就不會記錯了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 201.07,
+    "end": 205.74,
+    "speaker": "彥君",
+    "text": "沒錯 只有接通鹽橋",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 205.94,
+    "end": 209.06,
+    "speaker": "彥君",
+    "text": "電池 才能持續放電",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 209.26,
+    "end": 212.68,
+    "speaker": "彥君",
+    "text": "這就是 化學能轉成電能",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 212.88,
+    "end": 216.18,
+    "speaker": "彥君",
+    "text": "[給你們 3 秒鐘吸收]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 216.38,
+    "end": 220.1,
+    "speaker": "彥君",
+    "text": "[戰士們 隨堂測驗來了]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 220.3,
+    "end": 223.77,
+    "speaker": "彥君",
+    "text": "現在 有 X 和 Y 兩塊金屬",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 223.97,
+    "end": 226.9,
+    "speaker": "彥君",
+    "text": "放入 硫酸鹽溶液中",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 227.1,
+    "end": 230.35,
+    "speaker": "曉臻",
+    "text": "老師 實驗結果出來了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 230.55,
+    "end": 233.85,
+    "speaker": "曉臻",
+    "text": "導線 的電子是從 Y 往 X 跑",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 234.05,
+    "end": 236.96,
+    "speaker": "彥君",
+    "text": "聽清楚 助教說的話",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 237.16,
+    "end": 240.17,
+    "speaker": "彥君",
+    "text": "電子 是從 Y 跑向 X 喔",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 240.37,
+    "end": 245.2,
+    "speaker": "彥君",
+    "text": "請問 誰是負極 誰是正極",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 245.4,
+    "end": 247.9,
+    "speaker": "曉臻",
+    "text": "給電子 的是負極",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 248.1,
+    "end": 250.51,
+    "speaker": "曉臻",
+    "text": "所以 Y 是負極",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 250.71,
+    "end": 253.31,
+    "speaker": "曉臻",
+    "text": "拿電子 的是正極",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 253.51,
+    "end": 256.06,
+    "speaker": "曉臻",
+    "text": "所以 X 是正極",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 256.26,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "[$\\text{Y為負極， X為正極}$]",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 261.37,
+    "end": 265.65,
+    "speaker": "彥君",
+    "text": "答對了 那誰的活性大",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 265.85,
+    "end": 268.38,
+    "speaker": "曉臻",
+    "text": "負極 喜歡丟電子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 268.58,
+    "end": 271.46,
+    "speaker": "曉臻",
+    "text": "所以 Y 的活性比較大",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 271.66,
+    "end": 276.06,
+    "speaker": "彥君",
+    "text": "漂亮 最後一個問題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 276.26,
+    "end": 279.49,
+    "speaker": "彥君",
+    "text": "誰的質量 會逐漸減輕",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 279.69,
+    "end": 282.6,
+    "speaker": "曉臻",
+    "text": "活性大 的金屬會溶解",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 282.8,
+    "end": 285.47,
+    "speaker": "曉臻",
+    "text": "所以 答案是 Y 金屬",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 285.67,
+    "end": 293.77,
+    "speaker": "彥君",
+    "text": "Y } > \\text{ X Y片變輕}$]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 293.97,
+    "end": 297.1,
+    "speaker": "彥君",
+    "text": "這就是 A 級考點",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 297.3,
+    "end": 300.14,
+    "speaker": "彥君",
+    "text": "答案 釘在黑板上",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 300.34,
+    "end": 303.61,
+    "speaker": "彥君",
+    "text": "自己對 對完下課",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 303.81,
+    "end": 307.03,
+    "speaker": "彥君",
+    "text": "沒對準的 不准走",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 307.23,
+    "end": 309.83,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 310.03,
+    "end": 312.37,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 312.57,
+    "end": 315.79,
+    "speaker": "合聲",
+    "text": "活性大小 電能爆發",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 315.99,
+    "end": 319.53,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
