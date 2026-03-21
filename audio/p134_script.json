@@ -97,873 +97,873 @@
   },
   {
     "start": 35.02,
-    "end": 40.83,
+    "end": 39.39,
     "speaker": "彥君",
     "text": "沒錯 就像 雙手磨擦",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 41.03,
-    "end": 43.75,
+    "start": 39.59,
+    "end": 42.31,
     "speaker": "彥君",
     "text": "電子 經過電阻",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 43.95,
-    "end": 47.94,
+    "start": 42.51,
+    "end": 45.11,
     "speaker": "彥君",
     "text": "消耗 的電能",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 48.14,
-    "end": 51.15,
+    "start": 45.31,
+    "end": 48.32,
     "speaker": "彥君",
     "text": "就會 變成熱能釋放",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 51.35,
-    "end": 54.67,
+    "start": 48.52,
+    "end": 51.84,
     "speaker": "曉臻",
     "text": "喔 難怪 吹風機",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 54.87,
-    "end": 57.21,
+    "start": 52.04,
+    "end": 54.38,
     "speaker": "曉臻",
     "text": "用 久了會發燙",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 57.41,
-    "end": 60.56,
+    "start": 54.58,
+    "end": 57.73,
     "speaker": "彥君",
     "text": "戰士們 公式來了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 60.76,
-    "end": 64.01,
+    "start": 57.93,
+    "end": 61.18,
     "speaker": "彥君",
     "text": "電能 等於 功率乘上時間",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 64.21,
-    "end": 72.05,
+    "start": 61.38,
+    "end": 67.82,
     "speaker": "彥君",
-    "text": "[$E = P \\times t$]等於功率乘上時間)",
+    "text": "[$E = P \\times t$]",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 69.05,
-    "end": 72.3,
+    "start": 64.82,
+    "end": 68.07,
     "speaker": "彥君",
     "text": "[給你們 3 秒鐘抄寫]",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 72.5,
-    "end": 75.34,
+    "start": 68.27,
+    "end": 71.11,
     "speaker": "曉臻",
     "text": "老師 第二點寫著",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 75.54,
-    "end": 78.64,
+    "start": 71.31,
+    "end": 74.42,
     "speaker": "曉臻",
     "text": "一一零 伏特、 五百瓦特",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 78.84,
-    "end": 81.27,
+    "start": 74.62,
+    "end": 77.05,
     "speaker": "曉臻",
     "text": "這是 什麼意思呢",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 81.47,
-    "end": 84.41,
+    "start": 77.25,
+    "end": 80.18,
     "speaker": "彥君",
     "text": "這是 電器的身分證",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 84.61,
-    "end": 87.9,
+    "start": 80.38,
+    "end": 83.68,
     "speaker": "彥君",
     "text": "代表 接在一一零伏特下",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 88.1,
-    "end": 92.36,
+    "start": 83.88,
+    "end": 86.98,
     "speaker": "彥君",
     "text": "每秒 消耗五百焦耳",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 92.56,
-    "end": 95.74,
+    "start": 87.18,
+    "end": 90.36,
     "speaker": "曉臻",
     "text": "哇 數字越大",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 95.94,
-    "end": 98.56,
+    "start": 90.56,
+    "end": 93.18,
     "speaker": "曉臻",
     "text": "產生 的熱就越多囉",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 98.76,
-    "end": 103.3,
+    "start": 93.38,
+    "end": 97.93,
     "speaker": "彥君",
     "text": "漂亮 這就是 功率的奧義",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 103.5,
-    "end": 113.48,
+    "start": 98.13,
+    "end": 105.58,
     "speaker": "彥君",
-    "text": "[$500\\text{W} \\rightarrow \\text{每秒 } 500\\text{J}$]特 代表每秒消耗五百焦耳)",
+    "text": "[$500\\text{W} \\rightarrow \\text{每秒 } 500\\text{J}$]",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 110.48,
-    "end": 114.21,
+    "start": 102.58,
+    "end": 106.31,
     "speaker": "彥君",
     "text": "[戰士們 來看電費單]",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 114.41,
-    "end": 117.46,
+    "start": 106.51,
+    "end": 109.57,
     "speaker": "曉臻",
     "text": "老師 什麼是 一度電",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 117.66,
-    "end": 120.26,
+    "start": 109.77,
+    "end": 112.37,
     "speaker": "曉臻",
     "text": "家裡 的電費怎麼算",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 120.46,
-    "end": 123.95,
+    "start": 112.57,
+    "end": 116.06,
     "speaker": "彥君",
     "text": "一度電 就是能量單位",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 124.15,
-    "end": 126.68,
+    "start": 116.26,
+    "end": 118.78,
     "speaker": "彥君",
     "text": "一千瓦 的電器",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 126.88,
-    "end": 129.7,
+    "start": 118.98,
+    "end": 121.8,
     "speaker": "彥君",
     "text": "用 了整整一小時",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 129.9,
-    "end": 132.09,
+    "start": 122.0,
+    "end": 124.19,
     "speaker": "曉臻",
     "text": "換算 成焦耳",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 132.29,
-    "end": 135.34,
+    "start": 124.39,
+    "end": 127.45,
     "speaker": "曉臻",
     "text": "竟然 有三百六十萬焦耳",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 135.54,
-    "end": 140.06,
+    "start": 127.65,
+    "end": 132.17,
     "speaker": "彥君",
     "text": "沒錯 數字 雖然很大",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 140.26,
-    "end": 142.86,
+    "start": 132.37,
+    "end": 134.97,
     "speaker": "彥君",
     "text": "但 只值幾塊錢喔",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 143.06,
-    "end": 150.18,
+    "start": 135.17,
+    "end": 142.29,
     "speaker": "彥君",
     "text": "[$1\\text{kWh} = 3.6 \\times 10^{6}\\text{J}$]",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 147.18,
-    "end": 150.53,
+    "start": 139.29,
+    "end": 142.63,
     "speaker": "彥君",
     "text": "[給你們 3 秒鐘換算]",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 150.73,
-    "end": 154.31,
+    "start": 142.83,
+    "end": 146.42,
     "speaker": "曉臻",
     "text": "老師 第四點 提到電力輸送",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 154.51,
-    "end": 157.54,
+    "start": 146.62,
+    "end": 149.65,
     "speaker": "曉臻",
     "text": "為什麼 電線要掛得這麼高",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 157.74,
-    "end": 160.68,
+    "start": 149.85,
+    "end": 152.78,
     "speaker": "彥君",
     "text": "為了 減少能量損耗",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 160.88,
-    "end": 163.74,
+    "start": 152.98,
+    "end": 155.85,
     "speaker": "彥君",
     "text": "輸送 電力的過程",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 163.94,
-    "end": 167.0,
+    "start": 156.05,
+    "end": 159.1,
     "speaker": "彥君",
     "text": "高 電壓 低電流",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 167.2,
-    "end": 170.26,
+    "start": 159.3,
+    "end": 162.36,
     "speaker": "曉臻",
     "text": "喔 電流 越小",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 170.46,
-    "end": 173.46,
+    "start": 162.56,
+    "end": 165.57,
     "speaker": "曉臻",
     "text": "在 電線上產生的熱越少",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 173.66,
-    "end": 178.35,
+    "start": 165.77,
+    "end": 170.46,
     "speaker": "彥君",
     "text": "沒錯 這就是 能量守恆",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 178.55,
-    "end": 186.13,
+    "start": 170.66,
+    "end": 178.23,
     "speaker": "彥君",
     "text": "[$\\text{高壓電} \\rightarrow \\text{減少能(ㄋㄥˊ)量損耗}$]",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 183.13,
-    "end": 186.95,
+    "start": 175.23,
+    "end": 179.06,
     "speaker": "彥君",
     "text": "[戰士們 注意最後兩點]",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 187.15,
-    "end": 190.16,
+    "start": 179.26,
+    "end": 182.26,
     "speaker": "曉臻",
     "text": "直流電 與 交流電的差異",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 190.36,
-    "end": 193.32,
+    "start": 182.46,
+    "end": 185.42,
     "speaker": "曉臻",
     "text": "老師 插座 是哪一種",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 193.52,
-    "end": 196.72,
+    "start": 185.62,
+    "end": 188.82,
     "speaker": "彥君",
     "text": "家裡 牆壁的是交流電",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 196.92,
-    "end": 200.1,
+    "start": 189.02,
+    "end": 192.2,
     "speaker": "彥君",
     "text": "方向 會隨時間改變",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 200.3,
-    "end": 203.38,
+    "start": 192.4,
+    "end": 195.48,
     "speaker": "曉臻",
     "text": "電池 則是 直流電囉",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 203.58,
-    "end": 208.14,
+    "start": 195.68,
+    "end": 200.25,
     "speaker": "彥君",
     "text": "正確 方向 永遠不變",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 208.34,
-    "end": 211.35,
+    "start": 200.45,
+    "end": 203.46,
     "speaker": "彥君",
     "text": "還有 為了用電安全",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 211.55,
-    "end": 214.03,
+    "start": 203.66,
+    "end": 206.14,
     "speaker": "曉臻",
     "text": "必須 安裝保險絲",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 214.23,
-    "end": 218.92,
+    "start": 206.34,
+    "end": 209.27,
     "speaker": "彥君",
     "text": "電流 過大就會熔斷",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 219.12,
-    "end": 222.42,
+    "start": 209.47,
+    "end": 212.77,
     "speaker": "彥君",
     "text": "幫 大家的家守住安全",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 222.62,
+    "start": 212.97,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "[$\\text{保險絲} \\rightarrow \\text{電流過大熔(ㄖㄨㄥˊ)斷}$]斷)",
+    "text": "[$\\text{保險絲} \\rightarrow \\text{電流過大熔斷}$]",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 228.34,
-    "end": 231.9,
+    "start": 217.23,
+    "end": 220.79,
     "speaker": "彥君",
     "text": "到這裡 理化 大觀念通了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 232.1,
-    "end": 235.18,
+    "start": 220.99,
+    "end": 224.07,
     "speaker": "彥君",
     "text": "所有的 考題 都能秒殺",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 235.38,
-    "end": 238.92,
+    "start": 224.27,
+    "end": 227.81,
     "speaker": "彥君",
     "text": "[戰士們 抬起頭來]",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 239.12,
-    "end": 242.18,
+    "start": 228.01,
+    "end": 231.06,
     "speaker": "曉臻",
     "text": "老師 這集講完了嗎",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 242.38,
-    "end": 245.24,
+    "start": 231.26,
+    "end": 234.13,
     "speaker": "彥君",
     "text": "課程 雖然 講完了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 245.44,
-    "end": 248.71,
+    "start": 234.33,
+    "end": 237.6,
     "speaker": "彥君",
     "text": "但 我們的故事 還沒結束",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 248.91,
-    "end": 252.09,
+    "start": 237.8,
+    "end": 240.98,
     "speaker": "彥君",
     "text": "下課 前 有些話",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 252.29,
-    "end": 255.2,
+    "start": 241.18,
+    "end": 244.09,
     "speaker": "彥君",
     "text": "老師 想跟 戰士們說",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 255.4,
-    "end": 257.69,
+    "start": 244.29,
+    "end": 246.58,
     "speaker": "曉臻",
     "text": "還有 小朋友們",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 257.89,
-    "end": 260.44,
+    "start": 246.78,
+    "end": 249.33,
     "speaker": "曉臻",
     "text": "助教 也有話想說",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 260.64,
-    "end": 263.96,
+    "start": 249.53,
+    "end": 252.85,
     "speaker": "彥君",
     "text": "從 第一集 到 一三四集",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 264.16,
-    "end": 267.31,
+    "start": 253.05,
+    "end": 256.2,
     "speaker": "彥君",
     "text": "老師 看見 你們的堅持",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 267.51,
-    "end": 270.5,
+    "start": 256.4,
+    "end": 259.38,
     "speaker": "彥君",
     "text": "從 牛頓 三大定律",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 270.7,
-    "end": 273.63,
+    "start": 259.58,
+    "end": 262.52,
     "speaker": "彥君",
     "text": "到 今天的 電熱效應",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 273.83,
-    "end": 278.33,
+    "start": 262.72,
+    "end": 265.68,
     "speaker": "彥君",
     "text": "你們 走過 最長的路",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 278.53,
-    "end": 281.42,
+    "start": 265.88,
+    "end": 268.77,
     "speaker": "彥君",
     "text": "累積 了 最厚的實力",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 281.62,
-    "end": 285.06,
+    "start": 268.97,
+    "end": 272.41,
     "speaker": "彥君",
     "text": "會考 只是 一場測驗",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 285.26,
-    "end": 289.7,
+    "start": 272.61,
+    "end": 275.54,
     "speaker": "彥君",
-    "text": "它 定義 不了你的未來",
+    "text": "它 定義不了你的未來",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 289.9,
-    "end": 292.46,
+    "start": 275.74,
+    "end": 278.3,
     "speaker": "彥君",
     "text": "只有 你的態度",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 292.66,
-    "end": 295.57,
+    "start": 278.5,
+    "end": 281.41,
     "speaker": "彥君",
     "text": "才能 決定 你的高度",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 295.77,
-    "end": 299.06,
+    "start": 281.61,
+    "end": 284.9,
     "speaker": "彥君",
     "text": "遇到 難題 不要害怕",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 299.26,
-    "end": 301.84,
+    "start": 285.1,
+    "end": 287.68,
     "speaker": "彥君",
     "text": "找 到 你的支點",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 302.04,
-    "end": 305.14,
+    "start": 287.88,
+    "end": 290.98,
     "speaker": "彥君",
     "text": "用 合力 等於零的冷靜",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 305.34,
-    "end": 308.4,
+    "start": 291.18,
+    "end": 294.24,
     "speaker": "彥君",
     "text": "去 破解 所有的考驗",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 308.6,
-    "end": 311.61,
+    "start": 294.44,
+    "end": 297.45,
     "speaker": "彥君",
     "text": "你們 是最棒的戰士",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 311.81,
-    "end": 314.67,
+    "start": 297.65,
+    "end": 300.51,
     "speaker": "彥君",
     "text": "每一 個 深夜的努力",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 314.87,
-    "end": 317.95,
+    "start": 300.71,
+    "end": 303.79,
     "speaker": "彥君",
     "text": "每 一 張 寫滿的考卷",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 318.15,
-    "end": 321.26,
+    "start": 303.99,
+    "end": 307.1,
     "speaker": "彥君",
     "text": "都是 成功的 能量守恆",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 321.46,
-    "end": 326.7,
+    "start": 307.3,
+    "end": 310.93,
     "speaker": "彥君",
     "text": "戰士們 老師 為你們驕傲",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 326.9,
-    "end": 329.98,
+    "start": 311.13,
+    "end": 314.21,
     "speaker": "彥君",
     "text": "帶著 這份 物理的精神",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 330.18,
-    "end": 333.45,
+    "start": 314.41,
+    "end": 317.68,
     "speaker": "彥君",
     "text": "去 開創 屬於你們的時代",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 333.65,
-    "end": 335.65,
+    "start": 317.88,
+    "end": 319.88,
     "speaker": "曉臻",
     "text": "小朋友們",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 335.85,
-    "end": 338.26,
+    "start": 320.08,
+    "end": 322.49,
     "speaker": "曉臻",
     "text": "你們 真的 辛苦了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 338.46,
-    "end": 341.25,
+    "start": 322.69,
+    "end": 325.48,
     "speaker": "曉臻",
     "text": "助教 一直 在螢幕這端",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 341.45,
-    "end": 344.12,
+    "start": 325.68,
+    "end": 328.35,
     "speaker": "曉臻",
     "text": "看著 你們 慢慢變強",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 344.32,
-    "end": 347.16,
+    "start": 328.55,
+    "end": 331.39,
     "speaker": "曉臻",
     "text": "雖然 物理 有時候很難",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 347.36,
-    "end": 350.56,
+    "start": 331.59,
+    "end": 334.79,
     "speaker": "曉臻",
     "text": "雖然 題目 有時候很討厭",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 350.76,
-    "end": 353.36,
+    "start": 334.99,
+    "end": 337.59,
     "speaker": "曉臻",
     "text": "但 你們 都撐過來了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 353.56,
-    "end": 356.35,
+    "start": 337.79,
+    "end": 340.58,
     "speaker": "曉臻",
     "text": "不要 忘記 學習的快樂",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 356.55,
-    "end": 359.8,
+    "start": 340.78,
+    "end": 344.03,
     "speaker": "曉臻",
     "text": "不要 忘記 追求真相的好奇",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 360.0,
-    "end": 363.03,
+    "start": 344.23,
+    "end": 347.26,
     "speaker": "曉臻",
     "text": "到 了 考場 放鬆心情",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 363.23,
-    "end": 365.98,
+    "start": 347.46,
+    "end": 350.21,
     "speaker": "曉臻",
     "text": "把 助教 的口訣唸一遍",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 366.18,
-    "end": 368.85,
+    "start": 350.41,
+    "end": 353.08,
     "speaker": "曉臻",
     "text": "讓 腦袋 充滿 正能量",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 369.05,
-    "end": 371.89,
+    "start": 353.28,
+    "end": 356.12,
     "speaker": "曉臻",
     "text": "你們 的夢想 正在充電",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 372.09,
-    "end": 374.69,
+    "start": 356.32,
+    "end": 358.92,
     "speaker": "曉臻",
     "text": "等著 你們 去點亮它",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 374.89,
-    "end": 377.9,
+    "start": 359.12,
+    "end": 362.13,
     "speaker": "曉臻",
     "text": "加油 每一位 準考生",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 378.1,
-    "end": 382.4,
+    "start": 362.33,
+    "end": 365.07,
     "speaker": "曉臻",
     "text": "我們 一直 為你們加油",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 382.6,
-    "end": 386.09,
+    "start": 365.27,
+    "end": 368.76,
     "speaker": "彥君",
     "text": "戰士們 下課時間到了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 386.29,
-    "end": 389.8,
+    "start": 368.96,
+    "end": 372.47,
     "speaker": "彥君",
     "text": "這一次 我們不說再見",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 390.0,
-    "end": 393.2,
+    "start": 372.67,
+    "end": 375.87,
     "speaker": "彥君",
     "text": "我們 說 頂峰相見",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 393.4,
-    "end": 396.67,
+    "start": 376.07,
+    "end": 379.34,
     "speaker": "彥君",
     "text": "觀念 通了 人生就通",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 396.87,
-    "end": 399.47,
+    "start": 379.54,
+    "end": 382.14,
     "speaker": "彥君",
     "text": "我是 彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 399.67,
-    "end": 402.01,
+    "start": 382.34,
+    "end": 384.68,
     "speaker": "曉臻",
     "text": "我是 曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 402.21,
-    "end": 405.43,
+    "start": 384.88,
+    "end": 388.1,
     "speaker": "合聲",
     "text": "點亮夢想 滿電出發",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 405.63,
-    "end": 409.17,
+    "start": 388.3,
+    "end": 391.84,
     "speaker": "合聲",
     "text": "戰士們 我們 頂峰相見",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 409.37,
+    "start": 392.04,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "[$\\text{全課完畢， 祝各位武運昌隆}$]畢 祝各位戰士武運昌隆)",
+    "text": "[$\\text{全課完畢， 祝各位武運昌隆}$]",
     "is_pinned": true,
     "pin_level": 2
   }
