@@ -1,0 +1,362 @@
+[
+  {
+    "start": 0.0,
+    "end": 3.27,
+    "speaker": "彥君",
+    "text": "戰士們 歡迎回到",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 3.47,
+    "end": 6.22,
+    "speaker": "彥君",
+    "text": "摩擦力的 下半場",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 6.42,
+    "end": 9.02,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 9.22,
+    "end": 10.95,
+    "speaker": "曉臻",
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 11.15,
+    "end": 13.49,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 13.69,
+    "end": 16.34,
+    "speaker": "彥君",
+    "text": "[戰士們注意 ]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 16.54,
+    "end": 19.81,
+    "speaker": "彥君",
+    "text": "上一集 我們學了正向力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 20.01,
+    "end": 22.9,
+    "speaker": "彥君",
+    "text": "壓越緊 摩擦力就越大",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 23.1,
+    "end": 26.22,
+    "speaker": "曉臻",
+    "text": "老師 摩擦力好討厭",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 26.42,
+    "end": 29.26,
+    "speaker": "曉臻",
+    "text": "腳踏車 會越騎越累",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 29.46,
+    "end": 31.85,
+    "speaker": "曉臻",
+    "text": "還會 浪費能源",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 32.05,
+    "end": 34.77,
+    "speaker": "彥君",
+    "text": "這只說對了 一半喔",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 34.97,
+    "end": 37.88,
+    "speaker": "彥君",
+    "text": "看看 講義的上半部",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 38.08,
+    "end": 41.47,
+    "speaker": "彥君",
+    "text": "摩擦力 其實有很多優點",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 41.67,
+    "end": 45.09,
+    "speaker": "曉臻",
+    "text": "喔 走路不會滑倒",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 45.29,
+    "end": 47.7,
+    "speaker": "曉臻",
+    "text": "還有 輪胎的胎紋",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 47.9,
+    "end": 51.94,
+    "speaker": "彥君",
+    "text": "沒錯 包含煞車",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 52.14,
+    "end": 55.02,
+    "speaker": "彥君",
+    "text": "還有 雪地裡的雪鏈",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 55.22,
+    "end": 58.3,
+    "speaker": "彥君",
+    "text": "都是 刻意增加摩擦力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 58.5,
+    "end": 71.15,
+    "speaker": "彥君",
+    "text": "[$\\text{優點} \\rightarrow \\text{防滑與煞車}$]",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 62.79,
+    "end": 65.2,
+    "speaker": "曉臻",
+    "text": "原來 沒有摩擦力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 65.4,
+    "end": 67.95,
+    "speaker": "曉臻",
+    "text": "我們 連路都走不了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 68.15,
+    "end": 71.62,
+    "speaker": "彥君",
+    "text": "[戰士們 抄起來]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 71.82,
+    "end": 74.68,
+    "speaker": "彥君",
+    "text": "那如果 遇到缺點",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 74.88,
+    "end": 77.82,
+    "speaker": "彥君",
+    "text": "也就是 浪費能源時",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 78.02,
+    "end": 80.66,
+    "speaker": "彥君",
+    "text": "我們 該怎麼改善",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 80.86,
+    "end": 83.56,
+    "speaker": "曉臻",
+    "text": "講義 寫了三個方法",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 83.76,
+    "end": 86.6,
+    "speaker": "曉臻",
+    "text": "第一個 是減少正向力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 86.8,
+    "end": 90.89,
+    "speaker": "彥君",
+    "text": "沒錯 東西越輕",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 91.09,
+    "end": 93.86,
+    "speaker": "彥君",
+    "text": "摩擦力 就會越小",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 94.06,
+    "end": 97.38,
+    "speaker": "彥君",
+    "text": "第二個 改變接觸面",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 97.58,
+    "end": 100.42,
+    "speaker": "曉臻",
+    "text": "就像 幫腳踏車的齒輪",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 100.62,
+    "end": 103.1,
+    "speaker": "曉臻",
+    "text": "加上 潤滑油一樣",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 103.3,
+    "end": 107.46,
+    "speaker": "彥君",
+    "text": "非常好 最後一個",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 107.66,
+    "end": 110.78,
+    "speaker": "彥君",
+    "text": "是人類 最偉大的發明",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 110.98,
+    "end": 113.8,
+    "speaker": "彥君",
+    "text": "以滾動 代替滑動",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 114.0,
+    "end": 116.46,
+    "speaker": "曉臻",
+    "text": "就像 推車的輪子",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 116.66,
+    "end": 119.28,
+    "speaker": "曉臻",
+    "text": "用滾的 輕鬆超級多",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 119.48,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "[$\\text{減少摩擦} \\rightarrow \\text{潤滑油、滾動}$]",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 124.3,
+    "end": 127.47,
+    "speaker": "彥君",
+    "text": "摩擦力 就是這麼奇妙",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 127.67,
+    "end": 131.11,
+    "speaker": "彥君",
+    "text": "觀念通了 秒殺考題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 131.31,
+    "end": 133.91,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 134.11,
+    "end": 136.45,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 136.65,
+    "end": 140.11,
+    "speaker": "合聲",
+    "text": "增加防滑 滾動省力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 140.31,
+    "end": 143.85,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
