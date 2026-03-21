@@ -1,0 +1,418 @@
+[
+  {
+    "start": 0.0,
+    "end": 3.25,
+    "speaker": "彥君",
+    "text": "戰士們 歡迎來到",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 3.45,
+    "end": 6.1,
+    "speaker": "彥君",
+    "text": "第 121 集",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 6.3,
+    "end": 9.18,
+    "speaker": "彥君",
+    "text": "給我一個 穩固的支點",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 9.38,
+    "end": 12.73,
+    "speaker": "彥君",
+    "text": "加上 夠長的方法與力臂",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 12.93,
+    "end": 15.43,
+    "speaker": "彥君",
+    "text": "會考的重擔",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 15.63,
+    "end": 18.59,
+    "speaker": "彥君",
+    "text": "我們 也能輕鬆舉起",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 18.79,
+    "end": 21.39,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 21.59,
+    "end": 23.33,
+    "speaker": "曉臻",
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 23.53,
+    "end": 25.86,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 26.06,
+    "end": 28.71,
+    "speaker": "彥君",
+    "text": "[戰士們注意 ]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 28.91,
+    "end": 32.02,
+    "speaker": "彥君",
+    "text": "今天要教 槓桿原理",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 32.22,
+    "end": 35.54,
+    "speaker": "曉臻",
+    "text": "老師 看看右邊這張圖",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 35.74,
+    "end": 38.55,
+    "speaker": "曉臻",
+    "text": "那個力臂 畫了一個直角",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 38.75,
+    "end": 43.13,
+    "speaker": "彥君",
+    "text": "沒錯 這是全國學生",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 43.33,
+    "end": 46.26,
+    "speaker": "彥君",
+    "text": "最容易 死掉的陷阱",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 46.46,
+    "end": 49.83,
+    "speaker": "彥君",
+    "text": "力臂 絕對不是棍子的長度",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 50.03,
+    "end": 53.35,
+    "speaker": "彥君",
+    "text": "它是從支點 到施力線的",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 53.55,
+    "end": 56.32,
+    "speaker": "彥君",
+    "text": "垂直 最短距離",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 56.52,
+    "end": 71.09,
+    "speaker": "彥君",
+    "text": "[$\\text{力臂} \\rightarrow \\text{支點到施力線的垂直距離}$]",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 61.31,
+    "end": 64.9,
+    "speaker": "曉臻",
+    "text": "哇 只要乖乖找直角",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 65.1,
+    "end": 67.89,
+    "speaker": "曉臻",
+    "text": "就不會 被大考給騙了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 68.09,
+    "end": 71.5,
+    "speaker": "彥君",
+    "text": "[給你們 3 秒鐘畫直角]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 71.7,
+    "end": 75.31,
+    "speaker": "彥君",
+    "text": "[戰士們 來看左邊]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 75.51,
+    "end": 78.47,
+    "speaker": "曉臻",
+    "text": "左下角 是翹翹板遊戲",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 78.67,
+    "end": 81.06,
+    "speaker": "曉臻",
+    "text": "左邊的人 比較重",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 81.26,
+    "end": 84.41,
+    "speaker": "曉臻",
+    "text": "可是 右邊的人坐得比較遠",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 84.61,
+    "end": 89.13,
+    "speaker": "彥君",
+    "text": "沒錯 力量乘上力臂",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 89.33,
+    "end": 92.53,
+    "speaker": "彥君",
+    "text": "只要 順時針等於逆時針",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 92.73,
+    "end": 95.95,
+    "speaker": "彥君",
+    "text": "翹翹板 就會平衡不動",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 96.15,
+    "end": 103.2,
+    "speaker": "彥君",
+    "text": "[$\\text{力矩} = \\text{力} \\times \\text{力臂}$]",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 100.2,
+    "end": 103.52,
+    "speaker": "彥君",
+    "text": "[給你們 3 秒鐘想像]",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 103.72,
+    "end": 106.85,
+    "speaker": "彥君",
+    "text": "最後一個 經典大考題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 107.05,
+    "end": 109.38,
+    "speaker": "曉臻",
+    "text": "推圓球 上階梯",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 109.58,
+    "end": 112.83,
+    "speaker": "曉臻",
+    "text": "老師 這裡有四個箭頭",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 113.03,
+    "end": 115.3,
+    "speaker": "曉臻",
+    "text": "$F_{1}$ 到 $F_{4}$ 哪個最省力",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 115.5,
+    "end": 118.31,
+    "speaker": "彥君",
+    "text": "記住 破題第一步",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 118.51,
+    "end": 121.78,
+    "speaker": "彥君",
+    "text": "先把 階梯碰到球的直角",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 121.98,
+    "end": 124.8,
+    "speaker": "彥君",
+    "text": "當作 旋轉的支點",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 125.0,
+    "end": 127.74,
+    "speaker": "曉臻",
+    "text": "喔 找到了",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 127.94,
+    "end": 131.0,
+    "speaker": "彥君",
+    "text": "既然要把球 推上去",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 131.2,
+    "end": 134.71,
+    "speaker": "彥君",
+    "text": "力臂越長 施力就越小",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 134.91,
+    "end": 138.11,
+    "speaker": "彥君",
+    "text": "看看哪條線 離支點最遠",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 138.31,
+    "end": 141.58,
+    "speaker": "曉臻",
+    "text": "絕對是 畫出直徑的那條線",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 141.78,
+    "end": 146.66,
+    "speaker": "彥君",
+    "text": "漂亮 直徑就是最長力臂",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 146.86,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "[$\\text{力臂最長} \\rightarrow \\text{施力最小}$]",
+    "is_pinned": true,
+    "pin_level": 1
+  },
+  {
+    "start": 151.3,
+    "end": 155.22,
+    "speaker": "彥君",
+    "text": "找對直徑 就能輕鬆滾上去",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 155.42,
+    "end": 158.86,
+    "speaker": "彥君",
+    "text": "觀念通了 秒殺考題",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 159.06,
+    "end": 162.3,
+    "speaker": "彥君",
+    "text": "補教天王 換我們當",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 162.5,
+    "end": 165.1,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 165.3,
+    "end": 167.64,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 167.84,
+    "end": 171.38,
+    "speaker": "合聲",
+    "text": "尋找支點 垂直力臂",
+    "is_pinned": false,
+    "pin_level": 0
+  },
+  {
+    "start": 171.58,
+    "end": 175.11,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0
+  }
+]
