@@ -585,359 +585,359 @@
   },
   {
     "start": 237.66,
-    "end": 242.04,
+    "end": 241.61,
     "speaker": "曉臻",
-    "text": "它有 OH（Ｏ、Ｈ） 原子團耶",
+    "text": "它有 $OH$（Ｏ、Ｈ） 原子團耶",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 242.24,
-    "end": 244.89,
+    "start": 241.81,
+    "end": 244.46,
     "speaker": "曉臻",
     "text": "那它 是不是鹼性啊",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 245.09,
-    "end": 248.46,
+    "start": 244.66,
+    "end": 248.02,
     "speaker": "彥君",
     "text": "戰士們 這是大陷阱",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 248.66,
-    "end": 252.74,
+    "start": 248.22,
+    "end": 250.44,
     "speaker": "彥君",
-    "text": "醇類的 OH（Ｏ、Ｈ）",
+    "text": "醇類的 $OH$",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 252.94,
-    "end": 257.37,
+    "start": 250.64,
+    "end": 255.06,
     "speaker": "彥君",
     "text": "不會解離 所以是中性",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 257.57,
-    "end": 260.77,
+    "start": 255.26,
+    "end": 258.46,
     "speaker": "彥君",
     "text": "像是 酒精就是醇類",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 260.97,
-    "end": 263.64,
+    "start": 258.66,
+    "end": 261.34,
     "speaker": "彥君",
     "text": "它 可以溶於水",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 263.84,
-    "end": 266.54,
+    "start": 261.54,
+    "end": 264.23,
     "speaker": "曉臻",
     "text": "原來 酒精是中性的",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 266.74,
-    "end": 268.64,
+    "start": 264.43,
+    "end": 266.34,
     "speaker": "曉臻",
     "text": "那 酸類呢",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 268.84,
-    "end": 274.15,
+    "start": 266.54,
+    "end": 269.9,
     "speaker": "彥君",
-    "text": "酸類 有 COOH（Ｃ、Ｏ、Ｏ、Ｈ）",
+    "text": "酸類 有 $COOH$",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 274.35,
-    "end": 276.76,
+    "start": 270.1,
+    "end": 272.51,
     "speaker": "彥君",
     "text": "像是 醋酸",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 276.96,
-    "end": 279.92,
+    "start": 272.71,
+    "end": 275.67,
     "speaker": "彥君",
     "text": "溶於水 就是酸性",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 280.12,
-    "end": 294.86,
+    "start": 275.87,
+    "end": 290.62,
     "speaker": "彥君",
     "text": "烴",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 288.68,
-    "end": 291.66,
+    "start": 284.43,
+    "end": 287.42,
     "speaker": "彥君",
     "text": "給你們 3 秒鐘抄寫",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 294.86,
-    "end": 297.54,
+    "start": 290.62,
+    "end": 293.29,
     "speaker": "曉臻",
     "text": "最後 進入大魔王了",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 297.74,
-    "end": 300.19,
+    "start": 293.49,
+    "end": 295.94,
     "speaker": "曉臻",
     "text": "右邊的 酯化反應",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 300.39,
-    "end": 303.06,
+    "start": 296.14,
+    "end": 298.82,
     "speaker": "彥君",
     "text": "這是 必考五顆星",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 303.26,
-    "end": 306.27,
+    "start": 299.02,
+    "end": 302.02,
     "speaker": "彥君",
     "text": "有機酸 加上醇類",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 306.47,
-    "end": 309.58,
+    "start": 302.22,
+    "end": 305.33,
     "speaker": "彥君",
     "text": "會變成 酯類加上水",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 309.78,
-    "end": 384.44,
+    "start": 305.53,
+    "end": 380.19,
     "speaker": "彥君",
-    "text": "有機酸 + 醇 → 酯 + 水",
+    "text": "$\\text{有機酸} + \\text{醇} \\rightarrow \\text{酯} + \\text{水}$",
     "is_pinned": true,
     "pin_level": 1
   },
   {
-    "start": 313.9,
-    "end": 316.83,
+    "start": 309.65,
+    "end": 312.58,
     "speaker": "曉臻",
     "text": "箭頭上面 寫著硫酸耶",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 317.03,
-    "end": 319.92,
+    "start": 312.78,
+    "end": 315.67,
     "speaker": "彥君",
     "text": "這裡 必須用濃硫酸",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 320.12,
-    "end": 322.55,
+    "start": 315.87,
+    "end": 318.3,
     "speaker": "曉臻",
     "text": "為什麼 是濃硫酸",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 322.75,
-    "end": 325.88,
+    "start": 318.5,
+    "end": 321.63,
     "speaker": "彥君",
     "text": "因為 濃硫酸可以脫水",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 326.08,
-    "end": 329.28,
+    "start": 321.83,
+    "end": 325.03,
     "speaker": "彥君",
     "text": "它可以 把產物的水吸走",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 329.48,
-    "end": 332.78,
+    "start": 325.23,
+    "end": 328.53,
     "speaker": "彥君",
     "text": "讓反應 一直往右邊進行",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 332.98,
-    "end": 338.12,
+    "start": 328.73,
+    "end": 333.87,
     "speaker": "彥君",
     "text": "它 也是催化劑伴演雙重角色",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 338.32,
-    "end": 341.06,
+    "start": 334.07,
+    "end": 336.82,
     "speaker": "曉臻",
     "text": "那 產生出來的酯類",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 341.26,
-    "end": 343.82,
+    "start": 337.02,
+    "end": 339.57,
     "speaker": "曉臻",
     "text": "到底 有什麼特性啊",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 344.02,
-    "end": 347.24,
+    "start": 339.77,
+    "end": 342.99,
     "speaker": "彥君",
     "text": "第一個 它不溶於水",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 347.44,
-    "end": 350.35,
+    "start": 343.19,
+    "end": 346.1,
     "speaker": "曉臻",
     "text": "講義上寫 浮在水面上",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 350.55,
-    "end": 353.63,
+    "start": 346.3,
+    "end": 349.38,
     "speaker": "彥君",
     "text": "代表 它的密度比水小",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 353.83,
-    "end": 356.29,
+    "start": 349.58,
+    "end": 352.04,
     "speaker": "曉臻",
     "text": "還有 特殊的香味",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 356.49,
-    "end": 361.15,
+    "start": 352.24,
+    "end": 356.9,
     "speaker": "彥君",
     "text": "沒錯 像是水果的香味",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 361.35,
-    "end": 364.22,
+    "start": 357.1,
+    "end": 359.97,
     "speaker": "彥君",
     "text": "香蕉油 蘋果油",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 364.42,
-    "end": 366.63,
+    "start": 360.17,
+    "end": 362.38,
     "speaker": "彥君",
     "text": "都是 酯類喔",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 366.83,
-    "end": 384.44,
+    "start": 362.58,
+    "end": 380.19,
     "speaker": "彥君",
     "text": "酯類：不溶水、密度小、有香味",
     "is_pinned": true,
     "pin_level": 2
   },
   {
-    "start": 371.84,
-    "end": 375.09,
+    "start": 367.59,
+    "end": 370.84,
     "speaker": "曉臻",
     "text": "哇 有機化學",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 375.29,
-    "end": 378.06,
+    "start": 371.04,
+    "end": 373.81,
     "speaker": "曉臻",
     "text": "這樣拆解 變得好清楚",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 378.26,
-    "end": 381.24,
+    "start": 374.01,
+    "end": 376.99,
     "speaker": "彥君",
     "text": "給你們 3 秒鐘抄寫",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 384.44,
-    "end": 387.88,
+    "start": 380.19,
+    "end": 383.63,
     "speaker": "彥君",
     "text": "觀念通了 秒殺考題",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 388.08,
-    "end": 390.68,
+    "start": 383.83,
+    "end": 386.43,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 390.88,
-    "end": 393.22,
+    "start": 386.63,
+    "end": 388.97,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 393.42,
-    "end": 396.9,
+    "start": 389.17,
+    "end": 392.66,
     "speaker": "合聲",
     "text": "有機必碳 酸醇生酯",
     "is_pinned": false,
     "pin_level": 0
   },
   {
-    "start": 397.1,
-    "end": 400.64,
+    "start": 392.86,
+    "end": 396.39,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
