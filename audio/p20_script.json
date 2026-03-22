@@ -1,466 +1,61 @@
 [
   {
     "start": 0.0,
-    "end": 2.0,
+    "end": 3.08,
     "speaker": "彥君",
-    "text": "哈囉",
+    "text": "戰士們醒醒",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 2.2,
-    "end": 6.7,
+    "start": 3.28,
+    "end": 6.46,
     "speaker": "彥君",
-    "text": "各位衝 A 的戰士們我是彥君老師",
+    "text": "把手邊的飲料先放下",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 6.9,
-    "end": 9.9,
+    "start": 6.66,
+    "end": 10.34,
     "speaker": "彥君",
-    "text": "翻開講義 第二十頁",
+    "text": "深呼吸腦袋給我轉起來",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 10.1,
-    "end": 14.02,
+    "start": 10.54,
+    "end": 13.71,
     "speaker": "彥君",
-    "text": "這頁是 送分題一分 都不能掉",
+    "text": "我們的目標是第一志願",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 14.22,
-    "end": 17.88,
+    "start": 13.91,
+    "end": 16.8,
     "speaker": "彥君",
-    "text": "我們先看 人類的 染色體組合",
+    "text": "把這頁的盲點搞懂",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 18.08,
-    "end": 21.28,
-    "speaker": "曉臻",
-    "text": "大家好我是曉臻助教",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 21.48,
-    "end": 25.71,
-    "speaker": "曉臻",
-    "text": "老師這二十三對 染色體 要怎麼分類",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 25.91,
-    "end": 29.71,
+    "start": 17.0,
+    "end": 20.25,
     "speaker": "彥君",
-    "text": "戰士們拿起紅筆 畫重點",
+    "text": "模擬考直接多贏幾百人",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 29.91,
-    "end": 35.13,
-    "speaker": "彥君",
-    "text": "人類總共有 二十三對也就是 四十六條 染色體",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 35.33,
-    "end": 39.18,
-    "speaker": "彥君",
-    "text": "其中有 二十二對 叫做 體染色體",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 39.38,
-    "end": 42.86,
-    "speaker": "彥君",
-    "text": "剩下的 一對 叫做 性染色體",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 43.06,
-    "end": 46.89,
-    "speaker": "彥君",
-    "text": "男生 可以寫成 四十四 加 XY",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 47.09,
-    "end": 50.86,
-    "speaker": "彥君",
-    "text": "女生 可以寫成 四十四 加XX",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 51.06,
-    "end": 55.32,
-    "speaker": "彥君",
-    "text": "戰士們 請注意這裡有 必考的盲點",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 55.52,
-    "end": 59.87,
-    "speaker": "彥君",
-    "text": "你全身的 細胞染色體 都一模一樣",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 60.07,
-    "end": 64.83,
-    "speaker": "彥君",
-    "text": "不管是你的手、你的腳、還是 臉頰細胞",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 65.03,
-    "end": 68.78,
-    "speaker": "彥君",
-    "text": "裡面 都一定會有 兩條 性染色體",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 68.98,
-    "end": 72.76,
-    "speaker": "彥君",
-    "text": "千萬別以為 只有生殖器官 才有喔",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 72.96,
-    "end": 77.7,
-    "speaker": "曉臻",
-    "text": "原來如此那如果是 精子跟卵子呢",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 77.9,
-    "end": 82.15,
-    "speaker": "彥君",
-    "text": "減數分裂後染色體數目 會減半",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 82.35,
-    "end": 87.83,
-    "speaker": "彥君",
-    "text": "所以精子 有兩種二十二加X或是 二十二加Y",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 88.03,
-    "end": 92.24,
-    "speaker": "彥君",
-    "text": "但卵子 只有一種就是 二十二加X",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 92.44,
-    "end": 97.27,
-    "speaker": "彥君",
-    "text": "這裡我 講慢一點生男生女關鍵在爸爸",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 97.47,
-    "end": 101.49,
-    "speaker": "彥君",
-    "text": "只要精子 給出Y那就是 小男孩",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 101.69,
-    "end": 106.95,
-    "speaker": "曉臻",
-    "text": "老師那自然界 所有動物都是爸爸 決定性別嗎",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 107.15,
-    "end": 110.78,
-    "speaker": "彥君",
-    "text": "這就是 隱藏版的 魔鬼陷阱題",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 110.98,
-    "end": 115.79,
-    "speaker": "彥君",
-    "text": "戰士們聽好鳥類的 性別遺傳 完全相反",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 115.99,
-    "end": 122.72,
-    "speaker": "彥君",
-    "text": "鳥類是 ZW系統公鳥是ZZ母鳥是ZW",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 122.92,
-    "end": 126.77,
-    "speaker": "彥君",
-    "text": "所以母鳥 可以產生 兩種不同的卵",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 126.97,
-    "end": 131.94,
-    "speaker": "彥君",
-    "text": "生公生母在鳥類世界裡是媽媽 決定的",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 132.14,
-    "end": 138.68,
-    "speaker": "曉臻",
-    "text": "哇人類看爸爸鳥類看媽媽這對比 太好記了",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 138.88,
-    "end": 142.82,
-    "speaker": "曉臻",
-    "text": "那這頁 最後一個重點複製動物呢",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 143.02,
-    "end": 147.11,
-    "speaker": "曉臻",
-    "text": "複製羊桃莉 的性別是看誰決定的",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 147.31,
-    "end": 151.64,
-    "speaker": "彥君",
-    "text": "戰士們這題必考請打三顆星",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 151.84,
-    "end": 155.09,
-    "speaker": "彥君",
-    "text": "複製動物的 性別跟特徵",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 155.29,
-    "end": 159.3,
-    "speaker": "彥君",
-    "text": "只跟 提供細胞核的 那隻羊 一模一樣",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 159.5,
-    "end": 162.56,
-    "speaker": "彥君",
-    "text": "跟代理孕母 完全無關",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 162.76,
-    "end": 167.02,
-    "speaker": "彥君",
-    "text": "我再 強調一次跟代理孕母 完全無關",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 167.22,
-    "end": 170.68,
-    "speaker": "曉臻",
-    "text": "所以如果 細胞核是 母羊給的",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 170.88,
-    "end": 173.94,
-    "speaker": "曉臻",
-    "text": "生出來 一定就是 母羊囉",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 174.14,
-    "end": 179.62,
-    "speaker": "彥君",
-    "text": "沒錯這就是 複製技術的 遺傳邏輯",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 179.82,
-    "end": 184.1,
-    "speaker": "曉臻",
-    "text": "戰士們最後來個 性別遺傳 總複習",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 184.3,
-    "end": 189.68,
-    "speaker": "曉臻",
-    "text": "一、染色體二十二對 體染色體一對 性染色體",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 189.88,
-    "end": 196.94,
-    "speaker": "曉臻",
-    "text": "二、人類遺傳男生是XY女生是XX爸爸決定性別",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 197.14,
-    "end": 204.3,
-    "speaker": "曉臻",
-    "text": "三、鳥類遺傳公鳥是ZZ母鳥是ZW媽媽決定性別",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 204.5,
-    "end": 209.72,
-    "speaker": "曉臻",
-    "text": "四、複製動物特徵與細胞核 提供者 一模一樣",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 209.92,
-    "end": 213.84,
-    "speaker": "彥君",
-    "text": "戰士們請 閉上眼睛 想一下",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 214.04,
-    "end": 218.75,
-    "speaker": "彥君",
-    "text": "一個男生的 口腔皮膜細胞有幾條 Y染色體",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 218.95,
-    "end": 222.85,
-    "speaker": "曉臻",
-    "text": "皮膜細胞 是體細胞有二十三對",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 223.05,
-    "end": 226.8,
-    "speaker": "曉臻",
-    "text": "所以裡面 一定會有 一條 Y染色體",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 227.0,
-    "end": 232.91,
-    "speaker": "彥君",
-    "text": "漂亮這就是 A級戰士 該有的 基本常識",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 233.11,
-    "end": 235.71,
+    "start": 20.45,
+    "end": 23.05,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
@@ -468,8 +63,980 @@
     "commands": []
   },
   {
-    "start": 235.91,
-    "end": 238.25,
+    "start": 23.25,
+    "end": 26.26,
+    "speaker": "彥君",
+    "text": "翻開講義第二十頁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 26.46,
+    "end": 29.2,
+    "speaker": "彥君",
+    "text": "這頁是送分題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 29.4,
+    "end": 32.41,
+    "speaker": "彥君",
+    "text": "絕對一分都不能掉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 32.61,
+    "end": 35.3,
+    "speaker": "彥君",
+    "text": "我們先看人類的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 35.5,
+    "end": 38.13,
+    "speaker": "彥君",
+    "text": "染色體組合",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 38.33,
+    "end": 41.53,
+    "speaker": "曉臻",
+    "text": "大家好我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 41.73,
+    "end": 45.17,
+    "speaker": "曉臻",
+    "text": "老師這二十三對染色體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 45.37,
+    "end": 47.9,
+    "speaker": "曉臻",
+    "text": "到底要怎麼分類呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 48.1,
+    "end": 51.87,
+    "speaker": "彥君",
+    "text": "戰士們拿起紅筆畫重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 52.07,
+    "end": 59.95,
+    "speaker": "曉臻",
+    "text": "22對體染色體 + 1對性染色體}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 60.15,
+    "end": 63.4,
+    "speaker": "彥君",
+    "text": "人類總共有二十三對",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 63.6,
+    "end": 66.9,
+    "speaker": "彥君",
+    "text": "也就是四十六條染色體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 67.1,
+    "end": 69.98,
+    "speaker": "彥君",
+    "text": "其中有二十二對",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 70.18,
+    "end": 72.93,
+    "speaker": "彥君",
+    "text": "叫做體染色體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 73.13,
+    "end": 75.63,
+    "speaker": "彥君",
+    "text": "剩下的一對",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 75.83,
+    "end": 78.5,
+    "speaker": "彥君",
+    "text": "叫做性染色體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 78.7,
+    "end": 89.97,
+    "speaker": "曉臻",
+    "text": "44+XY / 女生44+XX}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 90.17,
+    "end": 93.06,
+    "speaker": "彥君",
+    "text": "男生可以寫成",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 93.26,
+    "end": 96.05,
+    "speaker": "彥君",
+    "text": "四十四加XY",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 96.25,
+    "end": 99.02,
+    "speaker": "彥君",
+    "text": "女生可以寫成",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 99.22,
+    "end": 101.89,
+    "speaker": "彥君",
+    "text": "四十四加XX",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 102.09,
+    "end": 104.86,
+    "speaker": "彥君",
+    "text": "戰士們請注意",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 105.06,
+    "end": 107.94,
+    "speaker": "彥君",
+    "text": "這裡有必考的盲點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 108.14,
+    "end": 110.77,
+    "speaker": "彥君",
+    "text": "你全身的細胞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 110.97,
+    "end": 113.98,
+    "speaker": "彥君",
+    "text": "染色體都一模一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 114.18,
+    "end": 117.74,
+    "speaker": "彥君",
+    "text": "不管是你的手、你的腳",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 117.94,
+    "end": 120.54,
+    "speaker": "彥君",
+    "text": "還是臉頰細胞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 120.74,
+    "end": 123.53,
+    "speaker": "彥君",
+    "text": "裡面都一定會有",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 123.73,
+    "end": 126.47,
+    "speaker": "彥君",
+    "text": "兩條性染色體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 126.67,
+    "end": 129.22,
+    "speaker": "彥君",
+    "text": "千萬別以為",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 129.42,
+    "end": 132.38,
+    "speaker": "彥君",
+    "text": "只有生殖器官才有喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 132.58,
+    "end": 134.61,
+    "speaker": "曉臻",
+    "text": "原來如此",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 134.81,
+    "end": 137.82,
+    "speaker": "曉臻",
+    "text": "那如果是精子跟卵子呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 138.02,
+    "end": 141.86,
+    "speaker": "彥君",
+    "text": "撐過這關後面就是坦途",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 142.06,
+    "end": 150.42,
+    "speaker": "曉臻",
+    "text": "22+X 或 22+Y / 卵子22+X}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 150.62,
+    "end": 153.08,
+    "speaker": "彥君",
+    "text": "減數分裂後",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 153.28,
+    "end": 156.34,
+    "speaker": "彥君",
+    "text": "染色體數目會減半",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 156.54,
+    "end": 159.47,
+    "speaker": "彥君",
+    "text": "所以精子有兩種",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 159.67,
+    "end": 162.2,
+    "speaker": "彥君",
+    "text": "二十二加X",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 162.4,
+    "end": 165.19,
+    "speaker": "彥君",
+    "text": "或是二十二加Y",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 165.39,
+    "end": 168.18,
+    "speaker": "彥君",
+    "text": "但卵子只有一種",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 168.38,
+    "end": 171.22,
+    "speaker": "彥君",
+    "text": "就是二十二加X",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 171.42,
+    "end": 174.12,
+    "speaker": "彥君",
+    "text": "這裡我講慢一點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 174.32,
+    "end": 177.78,
+    "speaker": "彥君",
+    "text": "生男生女關鍵在爸爸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 177.98,
+    "end": 180.78,
+    "speaker": "彥君",
+    "text": "只要精子給出Y",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 180.98,
+    "end": 183.72,
+    "speaker": "彥君",
+    "text": "那就是小男孩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 183.92,
+    "end": 186.76,
+    "speaker": "曉臻",
+    "text": "老師那自然界中",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 186.96,
+    "end": 189.51,
+    "speaker": "曉臻",
+    "text": "所有動物的性別",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 189.71,
+    "end": 192.14,
+    "speaker": "曉臻",
+    "text": "都是爸爸決定嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 192.34,
+    "end": 195.16,
+    "speaker": "彥君",
+    "text": "這就是隱藏版的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 195.36,
+    "end": 197.94,
+    "speaker": "彥君",
+    "text": "魔鬼陷阱題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 198.14,
+    "end": 200.57,
+    "speaker": "彥君",
+    "text": "戰士們聽好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 200.77,
+    "end": 203.68,
+    "speaker": "彥君",
+    "text": "鳥類的性別遺傳",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 203.88,
+    "end": 206.74,
+    "speaker": "彥君",
+    "text": "可是完全相反的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 206.94,
+    "end": 215.23,
+    "speaker": "曉臻",
+    "text": "母鳥 (ZW) 決定性別}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 215.43,
+    "end": 218.51,
+    "speaker": "彥君",
+    "text": "鳥類是ZW系統",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 218.71,
+    "end": 221.17,
+    "speaker": "彥君",
+    "text": "公鳥是ZZ",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 221.37,
+    "end": 224.18,
+    "speaker": "彥君",
+    "text": "母鳥是ZW",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 224.38,
+    "end": 227.34,
+    "speaker": "彥君",
+    "text": "所以母鳥可以產生",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 227.54,
+    "end": 230.14,
+    "speaker": "彥君",
+    "text": "兩種不同的卵",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 230.34,
+    "end": 232.73,
+    "speaker": "彥君",
+    "text": "生公生母",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 232.93,
+    "end": 235.55,
+    "speaker": "彥君",
+    "text": "在鳥類世界裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 235.75,
+    "end": 238.35,
+    "speaker": "彥君",
+    "text": "是媽媽決定的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 238.55,
+    "end": 241.82,
+    "speaker": "曉臻",
+    "text": "哇人類看爸爸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 242.02,
+    "end": 244.1,
+    "speaker": "曉臻",
+    "text": "鳥類看媽媽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 244.3,
+    "end": 246.75,
+    "speaker": "曉臻",
+    "text": "這對比太好記了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 246.95,
+    "end": 249.7,
+    "speaker": "曉臻",
+    "text": "那這頁最後一個重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 249.9,
+    "end": 251.99,
+    "speaker": "曉臻",
+    "text": "複製動物呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 252.19,
+    "end": 254.98,
+    "speaker": "曉臻",
+    "text": "複製羊桃莉的性別",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 255.18,
+    "end": 257.47,
+    "speaker": "曉臻",
+    "text": "是看誰決定的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 257.67,
+    "end": 260.87,
+    "speaker": "彥君",
+    "text": "戰士們這題必考",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 261.07,
+    "end": 263.77,
+    "speaker": "彥君",
+    "text": "請打上三顆星",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 263.97,
+    "end": 266.4,
+    "speaker": "彥君",
+    "text": "複製動物的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 266.6,
+    "end": 269.13,
+    "speaker": "彥君",
+    "text": "性別跟特徵",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 269.33,
+    "end": 272.34,
+    "speaker": "彥君",
+    "text": "只跟提供細胞核的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 272.54,
+    "end": 275.33,
+    "speaker": "彥君",
+    "text": "那隻羊一模一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 275.53,
+    "end": 277.86,
+    "speaker": "彥君",
+    "text": "跟代理孕母",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 278.06,
+    "end": 280.33,
+    "speaker": "彥君",
+    "text": "完全無關",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 280.53,
+    "end": 283.18,
+    "speaker": "彥君",
+    "text": "我再強調一次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 283.38,
+    "end": 286.43,
+    "speaker": "彥君",
+    "text": "跟代理孕母完全無關",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 286.63,
+    "end": 289.21,
+    "speaker": "曉臻",
+    "text": "所以如果細胞核",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 289.41,
+    "end": 291.55,
+    "speaker": "曉臻",
+    "text": "是母羊給的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 291.75,
+    "end": 294.3,
+    "speaker": "曉臻",
+    "text": "生出來一定就是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 294.5,
+    "end": 296.24,
+    "speaker": "曉臻",
+    "text": "母羊囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 296.44,
+    "end": 298.54,
+    "speaker": "彥君",
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 298.74,
+    "end": 301.7,
+    "speaker": "彥君",
+    "text": "這就是複製技術的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 301.9,
+    "end": 304.26,
+    "speaker": "彥君",
+    "text": "遺傳邏輯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 304.46,
+    "end": 307.73,
+    "speaker": "曉臻",
+    "text": "戰士們給大腦一點時間",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 307.93,
+    "end": 311.37,
+    "speaker": "曉臻",
+    "text": "最後來個性別遺傳總複習",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 311.57,
+    "end": 319.3,
+    "speaker": "曉臻",
+    "text": "22對體 + 1對性}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 319.5,
+    "end": 329.5,
+    "speaker": "曉臻",
+    "text": "爸爸 (XY) 決定性別}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 329.7,
+    "end": 339.93,
+    "speaker": "曉臻",
+    "text": "媽媽 (ZW) 決定性別}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 340.13,
+    "end": 347.53,
+    "speaker": "曉臻",
+    "text": "特徵看細胞核}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 347.73,
+    "end": 351.14,
+    "speaker": "彥君",
+    "text": "戰士們請閉上眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 351.34,
+    "end": 353.75,
+    "speaker": "彥君",
+    "text": "好好想一下喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 353.95,
+    "end": 356.36,
+    "speaker": "彥君",
+    "text": "一個男生的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 356.56,
+    "end": 359.16,
+    "speaker": "彥君",
+    "text": "口腔皮膜細胞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 359.36,
+    "end": 362.54,
+    "speaker": "彥君",
+    "text": "裡面有幾條Y染色體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 362.74,
+    "end": 365.48,
+    "speaker": "曉臻",
+    "text": "皮膜細胞是體細胞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 365.68,
+    "end": 368.21,
+    "speaker": "曉臻",
+    "text": "總共有二十三對",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 368.41,
+    "end": 371.03,
+    "speaker": "曉臻",
+    "text": "所以裡面一定會有",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 371.23,
+    "end": 373.5,
+    "speaker": "曉臻",
+    "text": "一條Y染色體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 373.7,
+    "end": 375.74,
+    "speaker": "彥君",
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 375.94,
+    "end": 378.98,
+    "speaker": "彥君",
+    "text": "這就是精熟級戰士",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 379.18,
+    "end": 381.97,
+    "speaker": "彥君",
+    "text": "該有的基本常識",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 382.17,
+    "end": 385.32,
+    "speaker": "彥君",
+    "text": "你比想像中更強大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 385.52,
+    "end": 388.55,
+    "speaker": "彥君",
+    "text": "老師會陪你戰到底",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 388.75,
+    "end": 391.35,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 391.55,
+    "end": 393.89,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
@@ -477,10 +1044,19 @@
     "commands": []
   },
   {
-    "start": 238.45,
-    "end": 242.97,
+    "start": 394.09,
+    "end": 397.43,
     "speaker": "合聲",
-    "text": "送分拿完會考心安下一關見",
+    "text": "送分拿完滿血通關",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 397.63,
+    "end": 400.04,
+    "speaker": "合聲",
+    "text": "下一關見",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
