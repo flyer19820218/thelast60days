@@ -1,266 +1,1012 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.03,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.1,
+    "start": 3.23,
+    "end": 5.98,
     "speaker": "彥君",
-    "text": "各位衝 A 的戰士們 我是彥君老師"
+    "text": "考前的 每個夜晚",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.1,
-    "end": 12.28,
+    "start": 6.18,
+    "end": 9.04,
     "speaker": "彥君",
-    "text": "請看這張 二分叉圖 這是植物的 生存遊戲"
+    "text": "都是你 蛻變的養分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 12.28,
-    "end": 16.93,
+    "start": 9.24,
+    "end": 11.72,
     "speaker": "彥君",
-    "text": "每一關 都只有 『是』 或 『不是』 兩個選項"
+    "text": "再堅持一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.93,
-    "end": 22.4,
+    "start": 11.92,
+    "end": 15.6,
     "speaker": "彥君",
-    "text": "戰士們 拿起你的筆 我們來幫植物 找回它的家"
+    "text": "我們來拿下 會考必考的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.4,
-    "end": 26.54,
+    "start": 15.8,
+    "end": 18.71,
+    "speaker": "彥君",
+    "text": "植物 分類闖關圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 18.91,
+    "end": 22.06,
+    "speaker": "彥君",
+    "text": "歡迎來到 第十八集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 22.26,
+    "end": 24.86,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 25.06,
+    "end": 26.8,
     "speaker": "曉臻",
-    "text": "各位戰士 大家好 我是曉臻助教"
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 26.54,
-    "end": 31.51,
+    "start": 27.0,
+    "end": 29.34,
     "speaker": "曉臻",
-    "text": "老師 這種闖關圖 雖然看起來 滿好玩的"
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 31.51,
-    "end": 36.16,
+    "start": 29.54,
+    "end": 32.47,
     "speaker": "曉臻",
-    "text": "但如果 走錯一步 好像就會 全盤皆輸耶"
+    "text": "老師 這種 闖關圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 36.16,
-    "end": 42.83,
-    "speaker": "彥君",
-    "text": "沒錯 戰士們 我們先看 最上面的 第一個分叉點"
-  },
-  {
-    "start": 42.83,
-    "end": 48.85,
-    "speaker": "彥君",
-    "text": "分類的標準 就是你有沒有 『維管束』 也就是吸水管"
-  },
-  {
-    "start": 48.85,
-    "end": 53.21,
-    "speaker": "彥君",
-    "text": "左邊這條路 代表著 無維管束"
-  },
-  {
-    "start": 53.21,
-    "end": 58.92,
-    "speaker": "彥君",
-    "text": "戰士們 請在左邊第一格 寫下 『蘚苔植物』"
-  },
-  {
-    "start": 58.92,
-    "end": 63.69,
-    "speaker": "彥君",
-    "text": "牠們的 代表生物 像是地錢 或土馬騌"
-  },
-  {
-    "start": 63.69,
-    "end": 69.02,
+    "start": 32.67,
+    "end": 35.58,
     "speaker": "曉臻",
-    "text": "戰士們 趁現在把 『蘚苔植物』 趕快寫上去"
+    "text": "雖然 看起來 滿好玩的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 69.02,
-    "end": 74.63,
+    "start": 35.78,
+    "end": 38.19,
     "speaker": "曉臻",
-    "text": "順便聊一下 蘚苔因為 沒有維管束 所以長不高"
+    "text": "但如果 走錯一步",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 74.63,
-    "end": 79.3,
+    "start": 38.39,
+    "end": 41.35,
     "speaker": "曉臻",
-    "text": "它們只能靠 擴散作用 慢慢傳送 水分喔"
+    "text": "好像就會 全盤皆輸耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 79.3,
-    "end": 86.64,
+    "start": 41.55,
+    "end": 45.45,
     "speaker": "彥君",
-    "text": "好 大家寫完了嗎 我們來看 右邊這條路 『有維管束』"
+    "text": "沒錯 戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 86.64,
-    "end": 91.56,
+    "start": 45.65,
+    "end": 48.15,
     "speaker": "彥君",
-    "text": "接下來 我們要看這群植物 怎麼生小孩"
+    "text": "拿起 你的筆",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 91.56,
-    "end": 96.69,
+    "start": 48.35,
+    "end": 51.29,
     "speaker": "彥君",
-    "text": "所以第二關的 標準是 有沒有長出 『種子』"
+    "text": "我們 先看最上面的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 96.69,
-    "end": 101.51,
+    "start": 51.49,
+    "end": 54.02,
     "speaker": "彥君",
-    "text": "這裡是 重點中的重點 請大家 畫五顆星"
+    "text": "第一個 分叉點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 101.51,
-    "end": 107.56,
+    "start": 54.22,
+    "end": 56.67,
     "speaker": "彥君",
-    "text": "往左邊 分出去的 是不產生種子 只能靠 『孢子』 繁殖"
+    "text": "分類的標準",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 107.56,
-    "end": 112.95,
+    "start": 56.87,
+    "end": 59.88,
+    "speaker": "彥君",
+    "text": "就是 你有沒有 維管束",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 60.08,
+    "end": 62.7,
+    "speaker": "彥君",
+    "text": "也就是 吸水管",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 62.9,
+    "end": 65.43,
+    "speaker": "彥君",
+    "text": "左邊 這條路",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 65.63,
+    "end": 68.54,
+    "speaker": "彥君",
+    "text": "代表著 無維管束",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 68.74,
+    "end": 72.21,
+    "speaker": "彥君",
+    "text": "戰士們 請在 第一格",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 72.41,
+    "end": 75.15,
+    "speaker": "彥君",
+    "text": "寫下 蘚苔植物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "蘚苔"
+    ]
+  },
+  {
+    "start": 75.35,
+    "end": 78.07,
+    "speaker": "彥君",
+    "text": "牠們的 代表生物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 78.27,
+    "end": 81.33,
+    "speaker": "彥君",
+    "text": "像是地錢 或 土馬騌",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 81.53,
+    "end": 84.39,
     "speaker": "曉臻",
-    "text": "戰士們 趕快把 『蕨類植物』 填進左邊的格子"
+    "text": "戰士們 趁現在把",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 112.95,
-    "end": 119.26,
+    "start": 84.59,
+    "end": 87.96,
     "speaker": "曉臻",
-    "text": "像山蘇 或是筆筒樹 雖然長得高 但受精 還是要靠水喔"
+    "text": "蘚苔植物 趕快寫上去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "蘚苔"
+    ]
   },
   {
-    "start": 119.26,
-    "end": 124.54,
+    "start": 88.16,
+    "end": 91.02,
+    "speaker": "曉臻",
+    "text": "蘚苔 因為沒有 維管束",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "蘚苔"
+    ]
+  },
+  {
+    "start": 91.22,
+    "end": 93.39,
+    "speaker": "曉臻",
+    "text": "所以 長不高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 93.59,
+    "end": 96.43,
+    "speaker": "曉臻",
+    "text": "它們 只能靠 擴散作用",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 96.63,
+    "end": 99.14,
+    "speaker": "曉臻",
+    "text": "慢慢傳送 水分喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 99.34,
+    "end": 107.9,
     "speaker": "彥君",
-    "text": "還有一條 剩下的右邊 就是厲害的 『種子植物』"
+    "text": "\\text{無維管束} \\rightarrow \\text{蘚苔植物 (地錢、土馬騌)}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{無維管束} \\rightarrow \\text{蘚苔植物 (地錢、土馬騌)}"
+    ]
   },
   {
-    "start": 124.54,
-    "end": 129.28,
+    "start": 107.9,
+    "end": 110.83,
     "speaker": "彥君",
-    "text": "種子植物 還要再分兩類 進入 第三關"
+    "text": "好 大家 寫完了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 129.28,
-    "end": 134.08,
+    "start": 111.03,
+    "end": 114.06,
     "speaker": "彥君",
-    "text": "分類標準是 種子有沒有被 『果實』 保護"
+    "text": "我們來看 右邊這條路",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 134.08,
-    "end": 138.25,
+    "start": 114.26,
+    "end": 116.98,
     "speaker": "彥君",
-    "text": "也就是 看你有沒有 『子房』 這個構造"
+    "text": "有維管束 的植物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 138.25,
-    "end": 142.83,
+    "start": 117.18,
+    "end": 120.98,
     "speaker": "彥君",
-    "text": "往左邊 分出去的 是種子 裸露在外"
+    "text": "接下來 我們要看 這群植物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 142.83,
-    "end": 148.88,
-    "speaker": "曉臻",
-    "text": "哇 這一格 太重要了 大家趕快 填上 『裸子植物』"
-  },
-  {
-    "start": 148.88,
-    "end": 155.16,
-    "speaker": "曉臻",
-    "text": "像是松樹 和柏樹 雖然沒果實 但發明了 『花粉管』 喔"
-  },
-  {
-    "start": 155.16,
-    "end": 159.98,
+    "start": 121.18,
+    "end": 123.69,
     "speaker": "彥君",
-    "text": "最後剩下的 那一支 就是最強的 演化巔峰"
+    "text": "怎麼 生小孩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 159.98,
-    "end": 164.61,
+    "start": 123.89,
+    "end": 126.94,
     "speaker": "彥君",
-    "text": "標準是 有果實保護 而且還會 開花"
+    "text": "所以 第二關的標準是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 164.61,
-    "end": 169.0,
-    "speaker": "曉臻",
-    "text": "戰士們 最後一格 寫下 『被子植物』"
-  },
-  {
-    "start": 169.0,
-    "end": 174.18,
-    "speaker": "曉臻",
-    "text": "就像杜鵑 和百合花 它們是現在 地球上的霸主"
-  },
-  {
-    "start": 174.18,
-    "end": 177.8,
-    "speaker": "曉臻",
-    "text": "無維管束、 靠孢子繁殖"
-  },
-  {
-    "start": 177.8,
-    "end": 181.39,
-    "speaker": "曉臻",
-    "text": "有維管束、 受精需要水"
-  },
-  {
-    "start": 181.39,
-    "end": 184.92,
-    "speaker": "曉臻",
-    "text": "種子裸露 具有花粉管"
-  },
-  {
-    "start": 184.92,
-    "end": 188.68,
-    "speaker": "曉臻",
-    "text": "有花有果實、 是最強霸主"
-  },
-  {
-    "start": 188.68,
-    "end": 194.77,
+    "start": 127.14,
+    "end": 129.84,
     "speaker": "彥君",
-    "text": "如果考試問你 誰有維管束 但受精還是 必須靠水"
+    "text": "有沒有 長出種子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 194.77,
-    "end": 200.46,
-    "speaker": "曉臻",
-    "text": "答案絕對 是蕨類 它是靠 『孢子』 繁殖的代表"
-  },
-  {
-    "start": 200.46,
-    "end": 206.6,
+    "start": 130.04,
+    "end": 133.19,
     "speaker": "彥君",
-    "text": "漂亮 這就是 A級戰士 該有的 秒殺能力"
+    "text": "這裡是 重點中的重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 206.6,
-    "end": 209.5,
+    "start": 133.39,
+    "end": 136.18,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "請大家 畫五顆星",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 209.5,
-    "end": 212.13,
+    "start": 136.38,
+    "end": 139.27,
+    "speaker": "彥君",
+    "text": "往左邊 分出去的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 139.47,
+    "end": 142.12,
+    "speaker": "彥君",
+    "text": "是 不產生種子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 142.32,
+    "end": 145.26,
+    "speaker": "彥君",
+    "text": "只能靠 孢子繁殖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "孢子"
+    ]
+  },
+  {
+    "start": 145.46,
+    "end": 148.18,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "戰士們 趕快把",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 212.13,
-    "end": 217.14,
+    "start": 148.38,
+    "end": 152.01,
+    "speaker": "曉臻",
+    "text": "蕨類植物 填進左邊的格子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 152.21,
+    "end": 155.0,
+    "speaker": "曉臻",
+    "text": "像山蘇 或是 筆筒樹",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 155.2,
+    "end": 157.34,
+    "speaker": "曉臻",
+    "text": "雖然 長得高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 157.54,
+    "end": 160.46,
+    "speaker": "曉臻",
+    "text": "但受精 還是要 靠水喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 160.66,
+    "end": 170.15,
+    "speaker": "彥君",
+    "text": "\\text{無種子 (靠孢子)} \\rightarrow \\text{蕨類植物 (山蘇、筆筒樹)}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{無種子 (靠孢子)} \\rightarrow \\text{蕨類植物 (山蘇、筆筒樹)}"
+    ]
+  },
+  {
+    "start": 170.15,
+    "end": 173.21,
+    "speaker": "彥君",
+    "text": "還有一條 剩下的右邊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 173.41,
+    "end": 176.44,
+    "speaker": "彥君",
+    "text": "就是 厲害的 種子植物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 176.64,
+    "end": 179.94,
+    "speaker": "彥君",
+    "text": "種子植物 還要再分兩類",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 180.14,
+    "end": 182.62,
+    "speaker": "彥君",
+    "text": "進入 第三關",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 182.82,
+    "end": 185.32,
+    "speaker": "彥君",
+    "text": "分類標準是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 185.52,
+    "end": 188.14,
+    "speaker": "彥君",
+    "text": "種子 有沒有被",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 188.34,
+    "end": 190.73,
+    "speaker": "彥君",
+    "text": "果實保護",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 190.93,
+    "end": 193.7,
+    "speaker": "彥君",
+    "text": "也就是 看你有沒有",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 193.9,
+    "end": 196.64,
+    "speaker": "彥君",
+    "text": "子房 這個構造",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 196.84,
+    "end": 199.73,
+    "speaker": "彥君",
+    "text": "往左邊 分出去的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 199.93,
+    "end": 202.72,
+    "speaker": "彥君",
+    "text": "是種子 裸露在外",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 202.92,
+    "end": 206.43,
+    "speaker": "曉臻",
+    "text": "哇 這一格 太重要了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 206.63,
+    "end": 208.94,
+    "speaker": "曉臻",
+    "text": "大家 趕快填上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 209.14,
+    "end": 211.1,
+    "speaker": "曉臻",
+    "text": "裸子植物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 211.3,
+    "end": 213.94,
+    "speaker": "曉臻",
+    "text": "像是 松樹 和 柏樹",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 214.14,
+    "end": 216.43,
+    "speaker": "曉臻",
+    "text": "雖然 沒果實",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 216.63,
+    "end": 219.3,
+    "speaker": "曉臻",
+    "text": "但發明了 花粉管喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 219.5,
+    "end": 228.62,
+    "speaker": "彥君",
+    "text": "\\text{無果實 (種子裸露)} \\rightarrow \\text{裸子植物 (松、柏)}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{無果實 (種子裸露)} \\rightarrow \\text{裸子植物 (松、柏)}"
+    ]
+  },
+  {
+    "start": 228.62,
+    "end": 231.53,
+    "speaker": "彥君",
+    "text": "最後 剩下的那一支",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 231.73,
+    "end": 234.66,
+    "speaker": "彥君",
+    "text": "就是 最強的 演化巔峰",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 234.86,
+    "end": 237.94,
+    "speaker": "彥君",
+    "text": "標準是 有果實保護",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 238.14,
+    "end": 240.67,
+    "speaker": "彥君",
+    "text": "而且 還會開花",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 240.87,
+    "end": 243.81,
+    "speaker": "曉臻",
+    "text": "戰士們 最後一格",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 244.01,
+    "end": 246.42,
+    "speaker": "曉臻",
+    "text": "寫下 被子植物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 246.62,
+    "end": 249.41,
+    "speaker": "曉臻",
+    "text": "就像 杜鵑 和 百合花",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 249.61,
+    "end": 252.71,
+    "speaker": "曉臻",
+    "text": "它們是 現在 地球上的霸主",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 252.91,
+    "end": 261.5,
+    "speaker": "彥君",
+    "text": "\\text{有花有果實} \\rightarrow \\text{被子植物 (地球霸主)}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{有花有果實} \\rightarrow \\text{被子植物 (地球霸主)}"
+    ]
+  },
+  {
+    "start": 261.5,
+    "end": 264.6,
+    "speaker": "曉臻",
+    "text": "戰士們 植物大對決",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 264.8,
+    "end": 267.3,
+    "speaker": "曉臻",
+    "text": "最終 總複習來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 267.5,
+    "end": 270.08,
+    "speaker": "曉臻",
+    "text": "第一 蘚苔植物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "蘚苔"
+    ]
+  },
+  {
+    "start": 270.28,
+    "end": 273.62,
+    "speaker": "曉臻",
+    "text": "無維管束 靠孢子繁殖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "孢子"
+    ]
+  },
+  {
+    "start": 273.82,
+    "end": 318.48,
+    "speaker": "彥君",
+    "text": "\\text{一、 蘚苔： 無維管束、 靠孢子繁殖}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{一、 蘚苔： 無維管束、 靠孢子繁殖}"
+    ]
+  },
+  {
+    "start": 279.38,
+    "end": 281.96,
+    "speaker": "曉臻",
+    "text": "第二 蕨類植物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 282.16,
+    "end": 285.46,
+    "speaker": "曉臻",
+    "text": "有維管束 受精需要水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 285.66,
+    "end": 318.48,
+    "speaker": "彥君",
+    "text": "\\text{二、 蕨類： 有維管束、 受精需要水}",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "\\text{二、 蕨類： 有維管束、 受精需要水}"
+    ]
+  },
+  {
+    "start": 291.24,
+    "end": 293.86,
+    "speaker": "曉臻",
+    "text": "第三 裸子植物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 294.06,
+    "end": 297.29,
+    "speaker": "曉臻",
+    "text": "種子裸露 具有花粉管",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 297.49,
+    "end": 318.48,
+    "speaker": "彥君",
+    "text": "\\text{三、 裸子： 種子裸露、 具有花粉管}",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "\\text{三、 裸子： 種子裸露、 具有花粉管}"
+    ]
+  },
+  {
+    "start": 303.17,
+    "end": 305.79,
+    "speaker": "曉臻",
+    "text": "第四 被子植物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 305.99,
+    "end": 309.46,
+    "speaker": "曉臻",
+    "text": "有花有果實 是最強霸主",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 309.66,
+    "end": 318.48,
+    "speaker": "彥君",
+    "text": "\\text{四、 被子： 有花有果實、 是最強霸主}",
+    "is_pinned": true,
+    "pin_level": 4,
+    "commands": [
+      "釘選",
+      "\\text{四、 被子： 有花有果實、 是最強霸主}"
+    ]
+  },
+  {
+    "start": 318.48,
+    "end": 321.68,
+    "speaker": "彥君",
+    "text": "戰士們 閉上眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 321.88,
+    "end": 324.07,
+    "speaker": "彥君",
+    "text": "想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 324.27,
+    "end": 326.82,
+    "speaker": "彥君",
+    "text": "如果 考試問你",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 327.02,
+    "end": 329.62,
+    "speaker": "彥君",
+    "text": "誰 有維管束",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 329.82,
+    "end": 333.0,
+    "speaker": "彥君",
+    "text": "但 受精 還是必須靠水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 333.2,
+    "end": 335.7,
+    "speaker": "曉臻",
+    "text": "答案 絕對是蕨類",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 335.9,
+    "end": 338.91,
+    "speaker": "曉臻",
+    "text": "它是靠 孢子繁殖的 代表",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "孢子"
+    ]
+  },
+  {
+    "start": 339.11,
+    "end": 341.16,
+    "speaker": "彥君",
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 341.36,
+    "end": 344.32,
+    "speaker": "彥君",
+    "text": "這就是 A 級戰士",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 344.52,
+    "end": 347.17,
+    "speaker": "彥君",
+    "text": "該有的 秒殺能力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 347.37,
+    "end": 350.33,
+    "speaker": "彥君",
+    "text": "老師 陪你們戰到底",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 350.53,
+    "end": 353.13,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 353.33,
+    "end": 355.66,
+    "speaker": "曉臻",
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 355.86,
+    "end": 359.47,
     "speaker": "合聲",
-    "text": "分類分得清 高分擋不住 下一關見"
+    "text": "分類分得清 高分擋不住",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 359.67,
+    "end": 362.97,
+    "speaker": "合聲",
+    "text": "戰士們 下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
