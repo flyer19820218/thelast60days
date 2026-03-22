@@ -1,320 +1,1188 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.51,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "食物入口 百轉千迴",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 6.66,
+    "start": 3.71,
+    "end": 7.2,
     "speaker": "彥君",
-    "text": "各位 衝 A的 戰士們我是 彥君老師"
+    "text": "消化吸收 化作寶貝",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.66,
-    "end": 12.04,
+    "start": 7.4,
+    "end": 10.77,
     "speaker": "彥君",
-    "text": "請大家 看到 講義 第六頁標題是「消化作用」"
+    "text": "戰士上陣 無懼無畏",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 12.04,
-    "end": 18.42,
+    "start": 10.97,
+    "end": 14.46,
     "speaker": "彥君",
-    "text": "這頁 非常關鍵因為 考試 最愛考「在哪裡」、「分解誰」"
+    "text": "眼前考驗 統統擊退",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.42,
-    "end": 23.38,
+    "start": 14.66,
+    "end": 17.74,
     "speaker": "彥君",
-    "text": "還有 那個 讓大家 頭痛的 pH值 環境變化"
+    "text": "各位 堅持不懈的戰士",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 23.38,
-    "end": 26.88,
+    "start": 17.94,
+    "end": 20.54,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.74,
+    "end": 22.47,
     "speaker": "曉臻",
-    "text": "大家好我是 曉臻助教"
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 26.88,
-    "end": 32.42,
+    "start": 22.67,
+    "end": 25.01,
     "speaker": "曉臻",
-    "text": "老師這張圖 把 消化道 畫成一條 長長的 運輸線耶"
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 32.42,
-    "end": 37.7,
+    "start": 25.21,
+    "end": 28.19,
+    "speaker": "彥君",
+    "text": "請大家 看到 第六頁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 28.39,
+    "end": 31.28,
+    "speaker": "彥君",
+    "text": "標題是 消化作用",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 31.48,
+    "end": 34.61,
+    "speaker": "彥君",
+    "text": "這裡 最愛考 兩個重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 34.81,
+    "end": 38.13,
+    "speaker": "彥君",
+    "text": "在哪裡 跟 分解誰",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 38.33,
+    "end": 41.19,
+    "speaker": "彥君",
+    "text": "還有 讓人 頭痛的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 41.39,
+    "end": 44.33,
+    "speaker": "彥君",
+    "text": "pH值 環境變化",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 44.53,
+    "end": 47.15,
     "speaker": "曉臻",
-    "text": "從 口腔、食道、胃一路到 小腸、大腸"
+    "text": "老師 這張圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 37.7,
-    "end": 40.45,
-    "speaker": "彥君",
-    "text": "「口腔」"
-  },
-  {
-    "start": 40.45,
-    "end": 45.39,
-    "speaker": "彥君",
-    "text": "這裡 有 唾液環境是 pH值中性"
-  },
-  {
-    "start": 45.39,
-    "end": 50.38,
-    "speaker": "彥君",
-    "text": "戰士們 注意唾液 只能 初步 分解「醣類」"
-  },
-  {
-    "start": 50.38,
-    "end": 57.05,
-    "speaker": "彥君",
-    "text": "所以 飯 嚼久了 會甜但 雞肉 或 肥肉 在嘴裡 是 不會消化的"
-  },
-  {
-    "start": 57.05,
-    "end": 62.35,
+    "start": 47.35,
+    "end": 50.24,
     "speaker": "曉臻",
-    "text": "那 食道 呢圖上 食道 下面 什麼 都沒寫耶"
+    "text": "把消化道 畫成了一條",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 62.35,
-    "end": 67.77,
-    "speaker": "彥君",
-    "text": "因為 食道 只是 單純的 輸送管不負責 分解 養分"
-  },
-  {
-    "start": 67.77,
-    "end": 71.22,
-    "speaker": "彥君",
-    "text": "非常有 性格的「胃」"
-  },
-  {
-    "start": 71.22,
-    "end": 76.38,
-    "speaker": "彥君",
-    "text": "胃液 是 強酸性 的也就是pH值 酸性"
-  },
-  {
-    "start": 76.38,
-    "end": 81.87,
-    "speaker": "彥君",
-    "text": "它的 任務 除了 殺菌就是 初步 分解「蛋白質」"
-  },
-  {
-    "start": 81.87,
-    "end": 85.68,
+    "start": 50.44,
+    "end": 52.97,
     "speaker": "曉臻",
-    "text": "原來 雞肉 到了 胃 才開始 變小啊"
+    "text": "長長的 運輸線耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 85.68,
-    "end": 90.93,
+    "start": 53.17,
+    "end": 56.2,
     "speaker": "曉臻",
-    "text": "但 老師圖上 小腸 的那一框內容 多到 爆耶"
+    "text": "從口腔、 食道、 胃",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 90.93,
-    "end": 95.94,
-    "speaker": "彥君",
-    "text": "因為 小腸 才是 真正的「消化 與 吸收 中心」"
-  },
-  {
-    "start": 95.94,
-    "end": 101.29,
-    "speaker": "彥君",
-    "text": "這裡的 環境 變成了 pH值 鹼性"
-  },
-  {
-    "start": 101.29,
-    "end": 106.66,
-    "speaker": "彥君",
-    "text": "小腸 前端 負責「消化」後端 負責「吸收」"
-  },
-  {
-    "start": 106.66,
-    "end": 111.15,
+    "start": 56.4,
+    "end": 59.24,
     "speaker": "曉臻",
-    "text": "老師小腸 竟然有 三種 液體 在幫忙"
+    "text": "一路到 小腸、 大腸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 111.15,
-    "end": 116.16,
+    "start": 59.44,
+    "end": 63.72,
+    "speaker": "彥君",
+    "text": "沒錯 先看 第一站",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 63.92,
+    "end": 66.47,
+    "speaker": "彥君",
+    "text": "口腔 有 唾液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 66.67,
+    "end": 69.32,
+    "speaker": "彥君",
+    "text": "環境是 中性",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 69.52,
+    "end": 72.0,
+    "speaker": "彥君",
+    "text": "戰士們 注意了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 72.2,
+    "end": 75.21,
+    "speaker": "彥君",
+    "text": "唾液 只能 初步分解",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 75.41,
+    "end": 77.48,
+    "speaker": "彥君",
+    "text": "醣類",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "醣類"
+    ]
+  },
+  {
+    "start": 77.68,
+    "end": 80.71,
+    "speaker": "彥君",
+    "text": "所以 飯 嚼久了會甜",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 80.91,
+    "end": 83.68,
+    "speaker": "彥君",
+    "text": "但 雞肉 或 肥肉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 83.88,
+    "end": 87.01,
+    "speaker": "彥君",
+    "text": "在嘴裡 是不會消化的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 87.21,
+    "end": 110.17,
+    "speaker": "彥君",
+    "text": "\\text{口腔 (中性)} \\rightarrow \\text{分解醣類}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{口腔 (中性)} \\rightarrow \\text{分解醣類}"
+    ]
+  },
+  {
+    "start": 91.26,
+    "end": 93.11,
     "speaker": "曉臻",
-    "text": "腸液、膽汁還有 聽起來 超全能 的「胰液」"
+    "text": "那 食道 呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 116.16,
-    "end": 121.17,
-    "speaker": "彥君",
-    "text": "糖）類、蛋白質、脂質 它 都能拆"
-  },
-  {
-    "start": 121.17,
-    "end": 127.38,
-    "speaker": "彥君",
-    "text": "戰士們 請看「膽汁」這是一個 超大的 考點"
-  },
-  {
-    "start": 127.38,
-    "end": 133.98,
-    "speaker": "彥君",
-    "text": "膽汁 由 肝臟 製造、膽囊儲存但它「不含 消化 酵素」"
-  },
-  {
-    "start": 133.98,
-    "end": 139.11,
-    "speaker": "彥君",
-    "text": "膽汁 只有一個 物理 功能叫做「乳化 脂質」"
-  },
-  {
-    "start": 139.11,
-    "end": 144.0,
-    "speaker": "彥君",
-    "text": "就像 洗碗精 一樣把 大油滴 變成 小油滴"
-  },
-  {
-    "start": 144.0,
-    "end": 148.51,
+    "start": 93.31,
+    "end": 95.7,
     "speaker": "曉臻",
-    "text": "難怪 老師 在小腸 後面 寫了「絨毛 組織」"
+    "text": "圖上 食道 下面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 148.51,
-    "end": 151.41,
+    "start": 95.9,
+    "end": 98.26,
     "speaker": "曉臻",
-    "text": "這是 為了 吸收 對吧"
+    "text": "什麼 都沒寫耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 151.41,
-    "end": 156.5,
+    "start": 98.46,
+    "end": 100.77,
     "speaker": "彥君",
-    "text": "沒錯這是 今天的 加強錠"
+    "text": "因為 食道",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 156.5,
-    "end": 163.09,
+    "start": 100.97,
+    "end": 103.86,
     "speaker": "彥君",
-    "text": "小腸 內壁 的 絨毛 是為了「增加 表面積」 讓吸收更有效率"
+    "text": "只是 單純的 輸送管",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 163.09,
-    "end": 168.9,
+    "start": 104.06,
+    "end": 106.97,
     "speaker": "彥君",
-    "text": "小腸 有「絨毛」、植物 有「根毛」、肺部 有「肺泡」"
+    "text": "不負責 分解 養分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 168.9,
-    "end": 172.95,
+    "start": 110.17,
+    "end": 113.18,
     "speaker": "彥君",
-    "text": "它們通通都是  為了增加表面積"
+    "text": "接下來 進入 第二站",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 172.95,
-    "end": 177.24,
+    "start": 113.38,
+    "end": 116.17,
+    "speaker": "彥君",
+    "text": "非常有 性格的 胃",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 116.37,
+    "end": 119.28,
+    "speaker": "彥君",
+    "text": "胃液 是 強酸性的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 119.48,
+    "end": 122.51,
+    "speaker": "彥君",
+    "text": "它的任務 除了 殺菌",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 122.71,
+    "end": 125.98,
+    "speaker": "彥君",
+    "text": "就是 初步分解 蛋白質",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 126.18,
+    "end": 128.57,
     "speaker": "曉臻",
-    "text": "老師那最後剩下的 渣渣怎麼辦"
+    "text": "原來 雞肉 到了胃",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 177.24,
-    "end": 182.28,
-    "speaker": "彥君",
-    "text": "剩餘的殘渣 會進入「大腸」 吸收掉 水分"
-  },
-  {
-    "start": 182.28,
-    "end": 186.83,
-    "speaker": "彥君",
-    "text": "最後形成糞便 從肛門排出來"
-  },
-  {
-    "start": 186.83,
-    "end": 191.12,
-    "speaker": "彥君",
-    "text": "糞便是「尚未 消化 吸收」的食物殘渣"
-  },
-  {
-    "start": 191.12,
-    "end": 196.45,
+    "start": 128.77,
+    "end": 131.1,
     "speaker": "曉臻",
-    "text": "所以排出糞便的過程 叫做「排遺」對嗎"
+    "text": "才開始 變小啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 196.45,
-    "end": 201.03,
+    "start": 131.3,
+    "end": 138.74,
     "speaker": "彥君",
-    "text": "絕對正確 這題 必考"
+    "text": "\\text{胃 (酸性)} \\rightarrow \\text{殺菌、分解蛋白質}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{胃 (酸性)} \\rightarrow \\text{殺菌、分解蛋白質}"
+    ]
   },
   {
-    "start": 201.03,
-    "end": 205.46,
+    "start": 138.74,
+    "end": 141.67,
+    "speaker": "曉臻",
+    "text": "但 老師 圖上 小腸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 141.87,
+    "end": 144.71,
+    "speaker": "曉臻",
+    "text": "那一框 內容多到爆耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 144.91,
+    "end": 147.3,
     "speaker": "彥君",
-    "text": "排遺是排除「沒用過」的 食物殘渣"
+    "text": "因為 小腸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 205.46,
-    "end": 211.6,
+    "start": 147.5,
+    "end": 150.19,
     "speaker": "彥君",
-    "text": "而排除「細胞用剩」的 廢物 像是 尿液、汗液 才叫 排泄"
+    "text": "才是 真正的 核心",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 211.6,
-    "end": 215.39,
+    "start": 150.39,
+    "end": 153.42,
     "speaker": "彥君",
-    "text": "糞便是 排遺 不是 排泄"
+    "text": "消化 與 吸收 的中心",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 215.39,
-    "end": 220.0,
-    "speaker": "曉臻",
-    "text": "口腔中性拆醣類胃酸殺菌拆蛋白"
-  },
-  {
-    "start": 220.0,
-    "end": 225.32,
-    "speaker": "曉臻",
-    "text": "小腸鹼性 最全能膽汁 乳化 沒酵素"
-  },
-  {
-    "start": 225.32,
-    "end": 230.14,
-    "speaker": "曉臻",
-    "text": "絨毛、根毛 與 肺泡表面積 大 吸收快"
-  },
-  {
-    "start": 230.14,
-    "end": 234.77,
-    "speaker": "曉臻",
-    "text": "殘渣 排遺變糞便水分 大腸吸回來"
-  },
-  {
-    "start": 234.77,
-    "end": 240.52,
+    "start": 153.62,
+    "end": 156.9,
     "speaker": "彥君",
-    "text": "哪一個 消化器官 不負責 分解只負責 輸送跟吸水"
+    "text": "戰士們 請盯著 小腸看",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 240.52,
-    "end": 243.02,
-    "speaker": "曉臻",
-    "text": "食道 跟 大腸"
-  },
-  {
-    "start": 243.02,
-    "end": 245.92,
+    "start": 157.1,
+    "end": 159.82,
     "speaker": "彥君",
-    "text": "我是 彥君老師"
+    "text": "這裡的 環境 變成了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 245.92,
-    "end": 248.55,
+    "start": 160.02,
+    "end": 162.16,
+    "speaker": "彥君",
+    "text": "鹼性",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "鹼性"
+    ]
+  },
+  {
+    "start": 162.36,
+    "end": 165.63,
+    "speaker": "彥君",
+    "text": "小腸 前端 負責消化",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 165.83,
+    "end": 168.5,
+    "speaker": "彥君",
+    "text": "後端 負責 吸收",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 168.7,
+    "end": 171.64,
     "speaker": "曉臻",
-    "text": "我是 曉臻助教"
+    "text": "老師 小腸 竟然有",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 248.55,
-    "end": 253.3,
+    "start": 171.84,
+    "end": 174.32,
+    "speaker": "曉臻",
+    "text": "三種 液體 在幫忙",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 174.52,
+    "end": 176.83,
+    "speaker": "曉臻",
+    "text": "腸液、 膽汁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 177.03,
+    "end": 179.66,
+    "speaker": "曉臻",
+    "text": "還有 超全能的 胰液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 179.86,
+    "end": 183.15,
+    "speaker": "彥君",
+    "text": "胰液 確實是 全能選手",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 183.35,
+    "end": 187.18,
+    "speaker": "彥君",
+    "text": "醣類、 蛋白質、 脂質",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "醣類"
+    ]
+  },
+  {
+    "start": 187.38,
+    "end": 190.1,
+    "speaker": "彥君",
+    "text": "它 通通 都能拆",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 190.3,
+    "end": 193.16,
+    "speaker": "彥君",
+    "text": "戰士們 請看 膽汁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 193.36,
+    "end": 196.37,
+    "speaker": "彥君",
+    "text": "這是一個 超大的 考點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 196.57,
+    "end": 199.43,
+    "speaker": "彥君",
+    "text": "膽汁 由 肝臟 製造",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 199.63,
+    "end": 202.06,
+    "speaker": "彥君",
+    "text": "膽囊 儲存",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "膽囊"
+    ]
+  },
+  {
+    "start": 202.26,
+    "end": 205.3,
+    "speaker": "彥君",
+    "text": "但它 不含 消化酵素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 205.5,
+    "end": 208.58,
+    "speaker": "彥君",
+    "text": "膽汁 只有 物理功能",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 208.78,
+    "end": 211.5,
+    "speaker": "彥君",
+    "text": "叫做 乳化脂質",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 211.7,
+    "end": 214.54,
+    "speaker": "彥君",
+    "text": "就像 洗碗精 一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 214.74,
+    "end": 217.86,
+    "speaker": "彥君",
+    "text": "把大油滴 變成小油滴",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 218.06,
+    "end": 225.95,
+    "speaker": "彥君",
+    "text": "\\text{膽汁 (肝臟製造)} \\rightarrow \\text{乳化脂質 (無酵素)}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{膽汁 (肝臟製造)} \\rightarrow \\text{乳化脂質 (無酵素)}"
+    ]
+  },
+  {
+    "start": 225.95,
+    "end": 228.96,
+    "speaker": "曉臻",
+    "text": "難怪 老師 在小腸後面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 229.16,
+    "end": 231.5,
+    "speaker": "曉臻",
+    "text": "寫了 絨毛 組織",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "絨毛"
+    ]
+  },
+  {
+    "start": 231.7,
+    "end": 234.3,
+    "speaker": "曉臻",
+    "text": "這是 為了吸收 對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 234.5,
+    "end": 238.8,
+    "speaker": "彥君",
+    "text": "沒錯 這是 加強錠",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 239.0,
+    "end": 241.82,
+    "speaker": "彥君",
+    "text": "小腸 內壁的 絨毛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "絨毛"
+    ]
+  },
+  {
+    "start": 242.02,
+    "end": 245.0,
+    "speaker": "彥君",
+    "text": "是為了 增加 表面積",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 245.2,
+    "end": 248.09,
+    "speaker": "彥君",
+    "text": "讓 吸收 更有效率",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 248.29,
+    "end": 251.3,
+    "speaker": "彥君",
+    "text": "戰士們 請把這三個",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 251.5,
+    "end": 254.0,
+    "speaker": "彥君",
+    "text": "連在一起 記",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 254.2,
+    "end": 256.87,
+    "speaker": "彥君",
+    "text": "小腸 有 絨毛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "絨毛"
+    ]
+  },
+  {
+    "start": 257.07,
+    "end": 259.72,
+    "speaker": "彥君",
+    "text": "植物 有 根毛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 259.92,
+    "end": 262.4,
+    "speaker": "彥君",
+    "text": "肺部 有 肺泡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 262.6,
+    "end": 265.22,
+    "speaker": "彥君",
+    "text": "它們 通通都是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 265.42,
+    "end": 268.22,
+    "speaker": "彥君",
+    "text": "為了 增加 表面積",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 268.42,
+    "end": 277.1,
+    "speaker": "彥君",
+    "text": "\\text{絨毛、根毛、肺泡} \\rightarrow \\text{增加表面積}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{絨毛、根毛、肺泡} \\rightarrow \\text{增加表面積}"
+    ]
+  },
+  {
+    "start": 277.1,
+    "end": 280.15,
+    "speaker": "曉臻",
+    "text": "老師 那最後 剩下的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 280.35,
+    "end": 282.45,
+    "speaker": "曉臻",
+    "text": "渣渣 怎麼辦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 282.65,
+    "end": 285.06,
+    "speaker": "彥君",
+    "text": "剩餘的 殘渣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 285.26,
+    "end": 287.78,
+    "speaker": "彥君",
+    "text": "會進入 大腸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 287.98,
+    "end": 290.63,
+    "speaker": "彥君",
+    "text": "吸收掉 水分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 290.83,
+    "end": 293.7,
+    "speaker": "彥君",
+    "text": "最後 形成 糞便",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 293.9,
+    "end": 296.69,
+    "speaker": "彥君",
+    "text": "從 肛門 排出來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 296.89,
+    "end": 300.4,
+    "speaker": "彥君",
+    "text": "戰士們 看圖的 右上角",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 300.6,
+    "end": 303.44,
+    "speaker": "彥君",
+    "text": "糞便 是 尚未消化",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 303.64,
+    "end": 306.77,
+    "speaker": "彥君",
+    "text": "尚未吸收的 食物殘渣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 306.97,
+    "end": 309.88,
+    "speaker": "曉臻",
+    "text": "所以 排出糞便 的過程",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 310.08,
+    "end": 312.7,
+    "speaker": "曉臻",
+    "text": "叫做 排遺 對嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "排遺"
+    ]
+  },
+  {
+    "start": 312.9,
+    "end": 317.18,
+    "speaker": "彥君",
+    "text": "絕對正確 這題 必考",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 317.38,
+    "end": 319.96,
+    "speaker": "彥君",
+    "text": "排遺 是排除",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "排遺"
+    ]
+  },
+  {
+    "start": 320.16,
+    "end": 323.1,
+    "speaker": "彥君",
+    "text": "沒用過 的食物殘渣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 323.3,
+    "end": 326.3,
+    "speaker": "彥君",
+    "text": "而 排除 細胞用剩的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 326.5,
+    "end": 329.94,
+    "speaker": "彥君",
+    "text": "廢物 像是 尿液 汗液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 330.14,
+    "end": 332.53,
+    "speaker": "彥君",
+    "text": "才叫 排泄",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 332.73,
+    "end": 336.1,
+    "speaker": "彥君",
+    "text": "記住 糞便是 排遺",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "排遺"
+    ]
+  },
+  {
+    "start": 336.3,
+    "end": 339.02,
+    "speaker": "彥君",
+    "text": "絕對 不是 排泄",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 339.22,
+    "end": 346.74,
+    "speaker": "彥君",
+    "text": "\\text{糞便 (食物殘渣)} \\rightarrow \\text{排遺 (非排泄)}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{糞便 (食物殘渣)} \\rightarrow \\text{排遺 (非排泄)}"
+    ]
+  },
+  {
+    "start": 346.74,
+    "end": 349.75,
+    "speaker": "曉臻",
+    "text": "戰士們 快速總結",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 349.95,
+    "end": 352.58,
+    "speaker": "曉臻",
+    "text": "口腔 中性 拆醣類",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "醣類"
+    ]
+  },
+  {
+    "start": 352.78,
+    "end": 355.38,
+    "speaker": "曉臻",
+    "text": "胃酸 殺菌 拆蛋白",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 355.58,
+    "end": 358.18,
+    "speaker": "曉臻",
+    "text": "小腸 鹼性 最全能",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "鹼性"
+    ]
+  },
+  {
+    "start": 358.38,
+    "end": 360.86,
+    "speaker": "曉臻",
+    "text": "膽汁 乳化 沒酵素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 361.06,
+    "end": 363.54,
+    "speaker": "曉臻",
+    "text": "絨毛 根毛 與 肺泡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "絨毛"
+    ]
+  },
+  {
+    "start": 363.74,
+    "end": 366.34,
+    "speaker": "曉臻",
+    "text": "表面積大 吸收快",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 366.54,
+    "end": 369.11,
+    "speaker": "曉臻",
+    "text": "殘渣 排遺 變糞便",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "排遺"
+    ]
+  },
+  {
+    "start": 369.31,
+    "end": 371.94,
+    "speaker": "曉臻",
+    "text": "水分 大腸 吸回來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 372.14,
+    "end": 375.34,
+    "speaker": "彥君",
+    "text": "戰士們 閉上眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 375.54,
+    "end": 377.73,
+    "speaker": "彥君",
+    "text": "想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 377.93,
+    "end": 380.67,
+    "speaker": "彥君",
+    "text": "哪一個 消化器官",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 380.87,
+    "end": 383.33,
+    "speaker": "彥君",
+    "text": "不負責 分解",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 383.53,
+    "end": 386.58,
+    "speaker": "彥君",
+    "text": "只負責 輸送跟吸水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 386.78,
+    "end": 389.31,
+    "speaker": "曉臻",
+    "text": "答案 是 食道",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 389.51,
+    "end": 391.32,
+    "speaker": "曉臻",
+    "text": "跟 大腸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 391.52,
+    "end": 394.79,
+    "speaker": "彥君",
+    "text": "觀念通了 人生就通",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 394.99,
+    "end": 397.59,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 397.79,
+    "end": 400.13,
+    "speaker": "曉臻",
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 400.33,
+    "end": 403.72,
     "speaker": "合聲",
-    "text": "消化 難題徹底 吸收明天見"
+    "text": "消化難題 徹底吸收",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 403.92,
+    "end": 407.22,
+    "speaker": "合聲",
+    "text": "戰士們 我們明天見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
