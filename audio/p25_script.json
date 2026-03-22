@@ -1,272 +1,1041 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.97,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們覺得讀到快喘不過氣了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.1,
+    "start": 4.17,
+    "end": 6.58,
     "speaker": "彥君",
-    "text": "各位衝 A 的戰士們 我是彥君老師"
+    "text": "這是正常的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.1,
-    "end": 10.98,
+    "start": 6.78,
+    "end": 10.48,
     "speaker": "彥君",
-    "text": "翻開講義 第二十五頁"
+    "text": "因為你現在正在走上坡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 10.98,
-    "end": 17.1,
+    "start": 10.68,
+    "end": 13.9,
     "speaker": "彥君",
-    "text": "這是動物界 種類最多的大家族 也就是 『節肢動物』"
+    "text": "瞄準第一志願的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 17.1,
-    "end": 22.68,
+    "start": 14.1,
+    "end": 17.59,
     "speaker": "彥君",
-    "text": "戰士們 分辨牠們 最快的方法 就是『數腳』"
+    "text": "挺直腰桿我們繼續破關",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.68,
-    "end": 27.41,
+    "start": 17.79,
+    "end": 20.39,
     "speaker": "彥君",
-    "text": "拿起筆 我們來完成 這張選秀清單"
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.41,
-    "end": 31.56,
+    "start": 20.59,
+    "end": 24.18,
+    "speaker": "彥君",
+    "text": "翻開講義第二十五頁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 24.38,
+    "end": 27.19,
+    "speaker": "彥君",
+    "text": "這是動物界裡面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 27.39,
+    "end": 30.4,
+    "speaker": "彥君",
+    "text": "種類最多的大家族",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 30.6,
+    "end": 33.42,
+    "speaker": "彥君",
+    "text": "也就是節肢動物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 33.62,
+    "end": 35.74,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 35.94,
+    "end": 39.09,
+    "speaker": "彥君",
+    "text": "分辨牠們最快的方法",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 39.29,
+    "end": 41.96,
+    "speaker": "彥君",
+    "text": "就是直接數腳",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 42.16,
+    "end": 44.4,
+    "speaker": "彥君",
+    "text": "拿起筆",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 44.6,
+    "end": 48.04,
+    "speaker": "彥君",
+    "text": "我們來完成這張選秀清單",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 48.24,
+    "end": 50.72,
     "speaker": "曉臻",
-    "text": "各位戰士 大家好 我是曉臻助教"
+    "text": "各位戰士大家好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 31.56,
-    "end": 36.74,
+    "start": 50.92,
+    "end": 53.26,
     "speaker": "曉臻",
-    "text": "老師 第一列是 『甲殼綱』 聽起來 很好吃耶"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 36.74,
-    "end": 42.95,
-    "speaker": "彥君",
-    "text": "完全正確 例子寫下來 蝦子跟螃蟹"
-  },
-  {
-    "start": 42.95,
-    "end": 47.36,
-    "speaker": "彥君",
-    "text": "牠們具有 五對步足 也就是 十隻腳"
-  },
-  {
-    "start": 47.36,
-    "end": 51.63,
-    "speaker": "彥君",
-    "text": "而且大部分 都是生活在水裡"
-  },
-  {
-    "start": 51.63,
-    "end": 57.0,
+    "start": 53.46,
+    "end": 56.63,
     "speaker": "曉臻",
-    "text": "戰士們 寫下蝦子 趁大家 在數腳的時候"
+    "text": "老師第一列是甲殼綱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "殼"
+    ]
   },
   {
-    "start": 57.0,
-    "end": 61.05,
+    "start": 56.83,
+    "end": 59.41,
     "speaker": "曉臻",
-    "text": "老師 為什麼螃蟹 要橫著走啊"
+    "text": "聽起來很好吃耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 61.05,
-    "end": 64.7,
+    "start": 59.61,
+    "end": 61.99,
     "speaker": "彥君",
-    "text": "那是因為 關節構造的 限制啦"
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 64.7,
-    "end": 69.9,
+    "start": 62.19,
+    "end": 66.04,
     "speaker": "彥君",
-    "text": "好 我們來看 下一列 叫做 『蛛形綱』"
+    "text": "例子寫下來蝦子跟螃蟹",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 69.9,
-    "end": 74.12,
-    "speaker": "彥君",
-    "text": "例子寫下來 蜘蛛還有蠍子"
-  },
-  {
-    "start": 74.12,
-    "end": 78.0,
-    "speaker": "彥君",
-    "text": "這裡很重要 請畫一顆星"
-  },
-  {
-    "start": 78.0,
-    "end": 82.68,
-    "speaker": "彥君",
-    "text": "牠們具有 四對步足 而且『沒有』 觸角"
-  },
-  {
-    "start": 82.68,
-    "end": 88.44,
+    "start": 66.24,
+    "end": 77.82,
     "speaker": "曉臻",
-    "text": "同學們 寫下蜘蛛 注意喔 蜘蛛不是昆蟲"
+    "text": "5 對步足 (10腳) / 水生}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 88.44,
-    "end": 93.04,
+    "start": 78.02,
+    "end": 81.17,
+    "speaker": "彥君",
+    "text": "牠們具有五對步足",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 81.37,
+    "end": 83.97,
+    "speaker": "彥君",
+    "text": "也就是十隻腳",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 84.17,
+    "end": 86.67,
+    "speaker": "彥君",
+    "text": "而且大部分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 86.87,
+    "end": 89.59,
+    "speaker": "彥君",
+    "text": "都是生活在水裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 89.79,
+    "end": 92.27,
     "speaker": "曉臻",
-    "text": "因為昆蟲 只有六隻腳 蜘蛛卻有八隻"
+    "text": "戰士們寫下蝦子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 93.04,
-    "end": 99.73,
-    "speaker": "彥君",
-    "text": "沒錯 戰士們 最後看 最龐大的 『昆蟲綱』"
-  },
-  {
-    "start": 99.73,
-    "end": 104.53,
-    "speaker": "彥君",
-    "text": "牠們通通都是 三對步足 也就是 六隻腳"
-  },
-  {
-    "start": 104.53,
-    "end": 108.65,
-    "speaker": "彥君",
-    "text": "但這裡要分 兩種發育方式"
-  },
-  {
-    "start": 108.65,
-    "end": 112.75,
-    "speaker": "彥君",
-    "text": "第一種是 『完全變態』"
-  },
-  {
-    "start": 112.75,
-    "end": 117.84,
-    "speaker": "彥君",
-    "text": "例子寫下來 蝴蝶、蠶蛾、蜜蜂"
-  },
-  {
-    "start": 117.84,
-    "end": 123.74,
-    "speaker": "彥君",
-    "text": "發育過程是 卵、幼蟲、蛹、成蟲"
-  },
-  {
-    "start": 123.74,
-    "end": 127.52,
+    "start": 92.47,
+    "end": 95.38,
     "speaker": "曉臻",
-    "text": "戰士們 關鍵字 就是那個 『蛹』"
+    "text": "趁大家在數腳的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 127.52,
-    "end": 131.98,
+    "start": 95.58,
+    "end": 98.52,
     "speaker": "曉臻",
-    "text": "有經過 蛹的階段 才叫做 『完全變態』"
+    "text": "老師為什麼螃蟹",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 131.98,
-    "end": 136.2,
+    "start": 98.72,
+    "end": 100.84,
+    "speaker": "曉臻",
+    "text": "要橫著走啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 101.04,
+    "end": 103.35,
     "speaker": "彥君",
-    "text": "第二種是 『不完全變態』"
+    "text": "那是因為",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 136.2,
-    "end": 140.52,
+    "start": 103.55,
+    "end": 106.34,
     "speaker": "彥君",
-    "text": "例子寫下來 蝗蟲還有蟑螂"
+    "text": "關節構造的限制啦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 140.52,
-    "end": 145.68,
+    "start": 106.54,
+    "end": 110.39,
     "speaker": "彥君",
-    "text": "發育過程是 卵、若蟲、成蟲"
+    "text": "撐過這關後面就是坦途",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 145.68,
-    "end": 150.71,
+    "start": 110.59,
+    "end": 113.79,
     "speaker": "彥君",
-    "text": "少了『蛹』 的階段 小時候跟長大 長得很像"
+    "text": "好我們來看下一列",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 150.71,
-    "end": 155.2,
-    "speaker": "曉臻",
-    "text": "同學們 趁現在 把這些例子 填進去"
-  },
-  {
-    "start": 155.2,
-    "end": 161.14,
+    "start": 113.99,
+    "end": 116.54,
     "speaker": "彥君",
-    "text": "戰士們 表格填完了嗎 我們來 快速複習"
+    "text": "叫做蛛形綱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 161.14,
-    "end": 165.68,
+    "start": 116.74,
+    "end": 127.91,
     "speaker": "曉臻",
-    "text": "具有五對腳 例子是 蝦跟蟹"
+    "text": "4 對步足 (8腳) / 無觸角}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 165.68,
-    "end": 170.69,
-    "speaker": "曉臻",
-    "text": "具有四對腳 例子是 蜘蛛和蠍子"
-  },
-  {
-    "start": 170.69,
-    "end": 175.22,
-    "speaker": "曉臻",
-    "text": "具有三對腳 分成兩種變態"
-  },
-  {
-    "start": 175.22,
-    "end": 179.78,
-    "speaker": "曉臻",
-    "text": "過程有『蛹』 像是 蝴蝶跟蜜蜂"
-  },
-  {
-    "start": 179.78,
-    "end": 184.52,
-    "speaker": "曉臻",
-    "text": "過程沒有『蛹』 像是 蝗蟲跟蟑螂"
-  },
-  {
-    "start": 184.52,
-    "end": 190.18,
+    "start": 128.11,
+    "end": 130.64,
     "speaker": "彥君",
-    "text": "螞蟻有六隻腳 那牠發育過程 有沒有經過 『蛹』 呢"
+    "text": "例子寫下來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 190.18,
-    "end": 195.6,
-    "speaker": "曉臻",
-    "text": "螞蟻是昆蟲 而且牠是 『完全變態』 所以有蛹"
-  },
-  {
-    "start": 195.6,
-    "end": 201.53,
+    "start": 130.84,
+    "end": 133.58,
     "speaker": "彥君",
-    "text": "漂亮 這就是 A級戰士的 深度知識"
+    "text": "蜘蛛還有蠍子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 201.53,
-    "end": 204.43,
+    "start": 133.78,
+    "end": 136.5,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "這裡非常重要",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 204.43,
-    "end": 207.06,
+    "start": 136.7,
+    "end": 139.38,
+    "speaker": "彥君",
+    "text": "請畫上一顆星",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 139.58,
+    "end": 142.66,
+    "speaker": "彥君",
+    "text": "牠們具有四對步足",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 142.86,
+    "end": 145.5,
+    "speaker": "彥君",
+    "text": "而且沒有觸角",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 145.7,
+    "end": 148.23,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "同學們寫下蜘蛛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 207.06,
-    "end": 211.93,
+    "start": 148.43,
+    "end": 151.66,
+    "speaker": "曉臻",
+    "text": "注意喔蜘蛛不是昆蟲",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 151.86,
+    "end": 154.7,
+    "speaker": "曉臻",
+    "text": "因為昆蟲只有六隻腳",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 154.9,
+    "end": 157.23,
+    "speaker": "曉臻",
+    "text": "蜘蛛卻有八隻",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 157.43,
+    "end": 161.35,
+    "speaker": "彥君",
+    "text": "沒錯戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 161.55,
+    "end": 164.94,
+    "speaker": "彥君",
+    "text": "最後看最龐大的昆蟲綱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 165.14,
+    "end": 175.11,
+    "speaker": "曉臻",
+    "text": "3 對步足 (6腳)}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 175.31,
+    "end": 177.94,
+    "speaker": "彥君",
+    "text": "牠們通通都是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 178.14,
+    "end": 180.54,
+    "speaker": "彥君",
+    "text": "三對步足",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 180.74,
+    "end": 183.27,
+    "speaker": "彥君",
+    "text": "也就是六隻腳",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 183.47,
+    "end": 185.74,
+    "speaker": "彥君",
+    "text": "但這裡要分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 185.94,
+    "end": 188.75,
+    "speaker": "彥君",
+    "text": "兩種發育方式",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 188.95,
+    "end": 192.34,
+    "speaker": "彥君",
+    "text": "第一種是完全變態",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 192.54,
+    "end": 204.74,
+    "speaker": "曉臻",
+    "text": "卵} \\rightarrow \\text{幼蟲} \\rightarrow \\text{蛹} \\rightarrow \\text{成蟲}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 204.94,
+    "end": 207.47,
+    "speaker": "彥君",
+    "text": "例子寫下來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 207.67,
+    "end": 211.16,
+    "speaker": "彥君",
+    "text": "蝴蝶、蠶蛾、蜜蜂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 211.36,
+    "end": 213.89,
+    "speaker": "彥君",
+    "text": "發育過程是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 214.09,
+    "end": 218.37,
+    "speaker": "彥君",
+    "text": "卵、幼蟲、蛹、成蟲",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 218.57,
+    "end": 220.33,
+    "speaker": "曉臻",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 220.53,
+    "end": 223.1,
+    "speaker": "曉臻",
+    "text": "關鍵字就是那個蛹",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 223.3,
+    "end": 225.76,
+    "speaker": "曉臻",
+    "text": "有經過蛹的階段",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 225.96,
+    "end": 228.56,
+    "speaker": "曉臻",
+    "text": "才叫做完全變態",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 228.76,
+    "end": 232.03,
+    "speaker": "彥君",
+    "text": "這題拿到你就贏了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 232.23,
+    "end": 235.72,
+    "speaker": "彥君",
+    "text": "第二種是不完全變態",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 235.92,
+    "end": 247.04,
+    "speaker": "曉臻",
+    "text": "卵} \\rightarrow \\text{若蟲} \\rightarrow \\text{成蟲}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 247.24,
+    "end": 249.77,
+    "speaker": "彥君",
+    "text": "例子寫下來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 249.97,
+    "end": 252.83,
+    "speaker": "彥君",
+    "text": "蝗蟲還有蟑螂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 253.03,
+    "end": 255.56,
+    "speaker": "彥君",
+    "text": "發育過程是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 255.76,
+    "end": 259.39,
+    "speaker": "彥君",
+    "text": "卵、若蟲、成蟲",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 259.59,
+    "end": 262.17,
+    "speaker": "彥君",
+    "text": "少了蛹的階段",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 262.37,
+    "end": 265.14,
+    "speaker": "彥君",
+    "text": "小時候跟長大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 265.34,
+    "end": 267.79,
+    "speaker": "彥君",
+    "text": "長得非常像",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 267.99,
+    "end": 270.78,
+    "speaker": "曉臻",
+    "text": "同學們趁現在",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 270.98,
+    "end": 273.63,
+    "speaker": "曉臻",
+    "text": "把這些例子填進去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 273.83,
+    "end": 277.06,
+    "speaker": "彥君",
+    "text": "戰士們表格填完了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 277.26,
+    "end": 280.0,
+    "speaker": "彥君",
+    "text": "我們來快速複習",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 280.2,
+    "end": 287.55,
+    "speaker": "曉臻",
+    "text": "5 對步足 (蝦、蟹)}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 287.75,
+    "end": 296.54,
+    "speaker": "曉臻",
+    "text": "4 對步足 (蜘蛛、蠍子)}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 296.74,
+    "end": 304.74,
+    "speaker": "曉臻",
+    "text": "3 對步足 (兩種變態)}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 304.94,
+    "end": 311.74,
+    "speaker": "曉臻",
+    "text": "過程有「蛹」}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 311.94,
+    "end": 319.01,
+    "speaker": "曉臻",
+    "text": "過程沒有「蛹」}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 319.21,
+    "end": 321.45,
+    "speaker": "曉臻",
+    "text": "一、甲殼綱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "殼"
+    ]
+  },
+  {
+    "start": 321.65,
+    "end": 323.74,
+    "speaker": "曉臻",
+    "text": "具有五對腳",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 323.94,
+    "end": 326.38,
+    "speaker": "曉臻",
+    "text": "例子是蝦跟蟹",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 326.58,
+    "end": 328.84,
+    "speaker": "曉臻",
+    "text": "二、蛛形綱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 329.04,
+    "end": 331.18,
+    "speaker": "曉臻",
+    "text": "具有四對腳",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 331.38,
+    "end": 334.25,
+    "speaker": "曉臻",
+    "text": "例子是蜘蛛和蠍子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 334.45,
+    "end": 336.83,
+    "speaker": "曉臻",
+    "text": "三、昆蟲綱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 337.03,
+    "end": 339.15,
+    "speaker": "曉臻",
+    "text": "具有三對腳",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 339.35,
+    "end": 341.76,
+    "speaker": "曉臻",
+    "text": "分成兩種變態",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 341.96,
+    "end": 344.66,
+    "speaker": "曉臻",
+    "text": "四、完全變態",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 344.86,
+    "end": 346.81,
+    "speaker": "曉臻",
+    "text": "過程有蛹",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 347.01,
+    "end": 349.56,
+    "speaker": "曉臻",
+    "text": "像是蝴蝶跟蜜蜂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 349.76,
+    "end": 352.41,
+    "speaker": "曉臻",
+    "text": "五、不完全變態",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 352.61,
+    "end": 354.66,
+    "speaker": "曉臻",
+    "text": "過程沒有蛹",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 354.86,
+    "end": 357.5,
+    "speaker": "曉臻",
+    "text": "像是蝗蟲跟蟑螂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 357.7,
+    "end": 361.12,
+    "speaker": "彥君",
+    "text": "戰士們請閉上眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 361.32,
+    "end": 363.73,
+    "speaker": "彥君",
+    "text": "好好想一下喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 363.93,
+    "end": 366.7,
+    "speaker": "彥君",
+    "text": "螞蟻有六隻腳",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 366.9,
+    "end": 369.66,
+    "speaker": "彥君",
+    "text": "那牠發育過程",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 369.86,
+    "end": 372.39,
+    "speaker": "彥君",
+    "text": "有沒有經過蛹呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 372.59,
+    "end": 374.78,
+    "speaker": "曉臻",
+    "text": "螞蟻是昆蟲",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 374.98,
+    "end": 377.78,
+    "speaker": "曉臻",
+    "text": "而且牠是完全變態",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 377.98,
+    "end": 380.22,
+    "speaker": "曉臻",
+    "text": "所以一定有蛹",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 380.42,
+    "end": 382.46,
+    "speaker": "彥君",
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 382.66,
+    "end": 385.67,
+    "speaker": "彥君",
+    "text": "這就是滿級分戰士",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 385.87,
+    "end": 388.64,
+    "speaker": "彥君",
+    "text": "該有的深度知識",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 388.84,
+    "end": 391.99,
+    "speaker": "彥君",
+    "text": "你比想像中更強大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 392.19,
+    "end": 395.22,
+    "speaker": "彥君",
+    "text": "老師會陪你戰到底",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 395.42,
+    "end": 398.02,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 398.22,
+    "end": 400.56,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 400.76,
+    "end": 404.2,
     "speaker": "合聲",
-    "text": "步足數得清 會考一定贏 下一關見"
+    "text": "步足數得清滿血來通關",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 404.4,
+    "end": 406.81,
+    "speaker": "合聲",
+    "text": "下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
