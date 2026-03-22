@@ -201,12 +201,12 @@
     "start": 63.62,
     "end": 99.7,
     "speaker": "彥君",
-    "text": "\\text{澱粉} + \\text{碘液} \\rightarrow \\text{藍黑色}",
+    "text": "澱粉+碘液→藍黑色",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{澱粉} + \\text{碘液} \\rightarrow \\text{藍黑色}"
+      "澱粉+碘液→藍黑色"
     ]
   },
   {
@@ -287,12 +287,12 @@
     "start": 91.14,
     "end": 99.7,
     "speaker": "彥君",
-    "text": "37^\\circ\\text{C} \\rightarrow \\text{模擬體溫 (酵素活性最高)}",
+    "text": "37℃→模擬體溫→酵素活性最高",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "37^\\circ\\text{C} \\rightarrow \\text{模擬體溫 (酵素活性最高)}"
+      "37℃→模擬體溫→酵素活性最高"
     ]
   },
   {
@@ -380,12 +380,12 @@
     "start": 127.59,
     "end": 135.62,
     "speaker": "彥君",
-    "text": "\\text{本氏液} + \\text{加熱} \\rightarrow \\text{測糖 (綠黃橙紅)}",
+    "text": "本氏液+加熱-測糖→綠黃橙紅",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{本氏液} + \\text{加熱} \\rightarrow \\text{測糖 (綠黃橙紅)}"
+      "本氏液+加熱-測糖→綠黃橙紅"
     ]
   },
   {
@@ -473,12 +473,12 @@
     "start": 160.49,
     "end": 210.74,
     "speaker": "彥君",
-    "text": "\\text{熱水煮葉片} \\rightarrow \\text{軟化並殺死細胞}",
+    "text": "熱水煮葉片→軟化並殺死細胞",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{熱水煮葉片} \\rightarrow \\text{軟化並殺死細胞}"
+      "熱水煮葉片→軟化並殺死細胞"
     ]
   },
   {
@@ -530,12 +530,12 @@
     "start": 180.77,
     "end": 210.74,
     "speaker": "彥君",
-    "text": "\\text{酒精隔水加熱} \\rightarrow \\text{溶出葉綠素}",
+    "text": "酒精隔水加熱→溶出葉綠素",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "\\text{酒精隔水加熱} \\rightarrow \\text{溶出葉綠素}"
+      "酒精隔水加熱→溶出葉綠素"
     ]
   },
   {
@@ -713,12 +713,12 @@
     "start": 242.98,
     "end": 251.02,
     "speaker": "彥君",
-    "text": "\\text{鋁箔遮光處} \\rightarrow \\text{不變色 (證明需要光)}",
+    "text": "鋁箔遮光處→不變色-證明需要光",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{鋁箔遮光處} \\rightarrow \\text{不變色 (證明需要光)}"
+      "鋁箔遮光處→不變色-證明需要光"
     ]
   },
   {
@@ -943,12 +943,12 @@
     "start": 316.68,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "\\text{實驗順序： 丁} \\rightarrow \\text{丙} \\rightarrow \\text{甲} \\rightarrow \\text{乙} \\rightarrow \\text{戊}",
+    "text": "實驗順序： 丁→丙→甲→乙→戊",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{實驗順序： 丁} \\rightarrow \\text{丙} \\rightarrow \\text{甲} \\rightarrow \\text{乙} \\rightarrow \\text{戊}"
+      "實驗順序： 丁→丙→甲→乙→戊"
     ]
   },
   {
