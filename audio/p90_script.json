@@ -107,7 +107,7 @@
     "start": 37.55,
     "end": 64.57,
     "speaker": "彥君",
-    "text": "K > Na > Ca > Mg > Al",
+    "text": "$K > Na > Ca > Mg > Al$",
     "is_pinned": true,
     "pin_level": 1
   },
@@ -123,7 +123,7 @@
     "start": 44.47,
     "end": 64.57,
     "speaker": "彥君",
-    "text": "C > Zn > Cr > Fe > Sn > Pb > H",
+    "text": "$C > Zn > Cr > Fe > Sn > Pb > H$",
     "is_pinned": true,
     "pin_level": 2
   },
@@ -139,7 +139,7 @@
     "start": 51.56,
     "end": 64.57,
     "speaker": "彥君",
-    "text": "Cu > Hg > Ag > Pt > Au",
+    "text": "$Cu > Hg > Ag > Pt > Au$",
     "is_pinned": true,
     "pin_level": 3
   },
@@ -395,7 +395,7 @@
     "start": 148.77,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "Cu + CO₂ → 不反應",
+    "text": "$Cu + CO_2 \\rightarrow \\text{不反應}$",
     "is_pinned": true,
     "pin_level": 1
   },
