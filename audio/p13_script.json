@@ -1,248 +1,953 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.51,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 你有沒有想過",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 6.66,
+    "start": 3.71,
+    "end": 6.94,
     "speaker": "彥君",
-    "text": "各位衝 A的戰士們我是彥君老師"
+    "text": "為什麼 被野狗追的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.66,
-    "end": 13.14,
+    "start": 7.14,
+    "end": 10.38,
     "speaker": "彥君",
-    "text": "翻開講義 第十三頁我們要來聊聊 身體的化學郵差"
+    "text": "你跑得 比奧運選手還快",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 13.14,
-    "end": 16.64,
+    "start": 10.58,
+    "end": 13.64,
+    "speaker": "彥君",
+    "text": "為什麼 看到喜歡的人",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 13.84,
+    "end": 16.85,
+    "speaker": "彥君",
+    "text": "會瞬間 心跳加速",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 17.05,
+    "end": 19.98,
+    "speaker": "彥君",
+    "text": "這一切 都不是魔法",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.18,
+    "end": 23.55,
+    "speaker": "彥君",
+    "text": "這是你的 內分泌 在開大絕",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "內分泌"
+    ]
+  },
+  {
+    "start": 23.75,
+    "end": 26.95,
+    "speaker": "彥君",
+    "text": "歡迎來到 第十三集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 27.15,
+    "end": 29.75,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 29.95,
+    "end": 31.69,
     "speaker": "曉臻",
-    "text": "大家好我是曉臻助教"
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.64,
-    "end": 21.0,
+    "start": 31.89,
+    "end": 34.22,
     "speaker": "曉臻",
-    "text": "老師內分泌跟外分泌 到底怎麼分"
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 21.0,
-    "end": 25.7,
+    "start": 34.42,
+    "end": 37.36,
+    "speaker": "彥君",
+    "text": "翻開講義 第十三頁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 37.56,
+    "end": 40.11,
+    "speaker": "彥君",
+    "text": "我們要來認識",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 40.31,
+    "end": 43.03,
+    "speaker": "彥君",
+    "text": "身體的 化學郵差",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 43.23,
+    "end": 46.43,
     "speaker": "曉臻",
-    "text": "為什麼激素 又叫荷爾蒙卻不是費洛蒙呢"
+    "text": "老師 內分泌 跟外分泌",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "內分泌"
+    ]
   },
   {
-    "start": 25.7,
-    "end": 31.39,
-    "speaker": "彥君",
-    "text": "戰士們注意費洛蒙 是排到體外影響同伴的"
-  },
-  {
-    "start": 31.39,
-    "end": 36.45,
-    "speaker": "彥君",
-    "text": "而我們今天 講的激素區別在於 有沒有導管"
-  },
-  {
-    "start": 36.45,
-    "end": 42.54,
-    "speaker": "彥君",
-    "text": "外分泌腺 有導管像是淚腺、汗腺、消化腺"
-  },
-  {
-    "start": 42.54,
-    "end": 46.4,
-    "speaker": "彥君",
-    "text": "它們把液體 直接送到目的地"
-  },
-  {
-    "start": 46.4,
-    "end": 51.53,
-    "speaker": "彥君",
-    "text": "但內分泌腺 沒有導管它必須把激素 排入血液"
-  },
-  {
-    "start": 51.53,
-    "end": 56.42,
-    "speaker": "彥君",
-    "text": "讓血液 載著它流向全身這就是荷爾蒙"
-  },
-  {
-    "start": 56.42,
-    "end": 62.9,
+    "start": 46.63,
+    "end": 48.63,
     "speaker": "曉臻",
-    "text": "了解那這頁講義 提到的其他激素我們也快速複習吧"
+    "text": "到底 怎麼分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 62.9,
-    "end": 67.43,
-    "speaker": "彥君",
-    "text": "腦垂腺 分泌生長激素掌控身高"
-  },
-  {
-    "start": 67.43,
-    "end": 72.56,
-    "speaker": "彥君",
-    "text": "甲狀腺 維持代謝分泌太多 會緊張消瘦"
-  },
-  {
-    "start": 72.56,
-    "end": 77.82,
-    "speaker": "彥君",
-    "text": "副甲狀腺 調節血鈣太低的話 肌肉會抽搐"
-  },
-  {
-    "start": 77.82,
-    "end": 84.84,
-    "speaker": "彥君",
-    "text": "還有性腺 決定第二性徵這些基本功戰士們不能忘"
-  },
-  {
-    "start": 84.84,
-    "end": 90.22,
+    "start": 48.83,
+    "end": 51.86,
     "speaker": "曉臻",
-    "text": "那這頁最核心的 血糖恆定圖老師快帶 我們拆解"
+    "text": "為什麼 激素 又叫荷爾蒙",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "激素"
+    ]
   },
   {
-    "start": 90.22,
-    "end": 95.28,
+    "start": 52.06,
+    "end": 54.5,
     "speaker": "曉臻",
-    "text": "胰島素 跟升糖素到底誰才是 負責降血糖的"
+    "text": "卻不是 費洛蒙 呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 95.28,
-    "end": 100.65,
+    "start": 54.7,
+    "end": 57.18,
     "speaker": "彥君",
-    "text": "當你吃飽血糖高時胰臟會分泌 胰島素"
+    "text": "戰士們 注意了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 100.65,
-    "end": 106.45,
+    "start": 57.38,
+    "end": 60.34,
     "speaker": "彥君",
-    "text": "它的工作 是把血糖 關進細胞或是去肝臟 儲存起來"
+    "text": "費洛蒙 是排到體外",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 106.45,
-    "end": 110.77,
+    "start": 60.54,
+    "end": 63.02,
     "speaker": "彥君",
-    "text": "所以它是 唯一能讓 血糖降低 的英雄"
+    "text": "影響 同伴的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 110.77,
-    "end": 115.16,
+    "start": 63.22,
+    "end": 66.27,
+    "speaker": "彥君",
+    "text": "而我們 今天講的 激素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "激素"
+    ]
+  },
+  {
+    "start": 66.47,
+    "end": 69.65,
+    "speaker": "彥君",
+    "text": "區別在於 有沒有導管",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 69.85,
+    "end": 72.74,
+    "speaker": "彥君",
+    "text": "外分泌腺 有導管",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "腺"
+    ]
+  },
+  {
+    "start": 72.94,
+    "end": 77.22,
+    "speaker": "彥君",
+    "text": "像是淚腺、 汗腺、 消化腺",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "腺",
+      "腺",
+      "腺"
+    ]
+  },
+  {
+    "start": 77.42,
+    "end": 80.98,
+    "speaker": "彥君",
+    "text": "它們把液體 直接送到 目的地",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 81.18,
+    "end": 84.26,
+    "speaker": "彥君",
+    "text": "但 內分泌腺 沒有導管",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "內分泌腺"
+    ]
+  },
+  {
+    "start": 84.46,
+    "end": 87.75,
+    "speaker": "彥君",
+    "text": "它必須 把激素 排入血液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "激素"
+    ]
+  },
+  {
+    "start": 87.95,
+    "end": 91.27,
+    "speaker": "彥君",
+    "text": "讓血液 載著它 流向全身",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 91.47,
+    "end": 94.1,
+    "speaker": "彥君",
+    "text": "這就是 荷爾蒙",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 94.3,
+    "end": 101.75,
+    "speaker": "彥君",
+    "text": "\\text{內分泌： 無導管 (由血液運送)}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{內分泌： 無導管 (由血液運送)}"
+    ]
+  },
+  {
+    "start": 101.75,
+    "end": 103.42,
     "speaker": "曉臻",
-    "text": "那如果是肚子餓、血糖低 的時候呢"
+    "text": "了解",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 115.16,
-    "end": 118.9,
-    "speaker": "彥君",
-    "text": "這時候 就換 升糖素上場"
-  },
-  {
-    "start": 118.9,
-    "end": 124.32,
-    "speaker": "彥君",
-    "text": "它會去肝臟 把儲存的養分 挖出來變成血糖"
-  },
-  {
-    "start": 124.32,
-    "end": 129.02,
-    "speaker": "彥君",
-    "text": "讓你的血糖 重新升高維持你的體力"
-  },
-  {
-    "start": 129.02,
-    "end": 133.84,
+    "start": 103.62,
+    "end": 106.53,
     "speaker": "曉臻",
-    "text": "老師那圖下方的 腎上腺素 又是幹嘛的"
+    "text": "那這頁 提到的 其他激素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "激素"
+    ]
   },
   {
-    "start": 133.84,
-    "end": 137.74,
-    "speaker": "彥君",
-    "text": "這是 緊急情況用 的加速劑"
-  },
-  {
-    "start": 137.74,
-    "end": 142.47,
-    "speaker": "彥君",
-    "text": "當你遇到大黑狗、或是考試 快遲到時"
-  },
-  {
-    "start": 142.47,
-    "end": 148.25,
-    "speaker": "彥君",
-    "text": "腎上腺素 會瞬間噴發讓血糖飆高提供你能量"
-  },
-  {
-    "start": 148.25,
-    "end": 152.97,
-    "speaker": "彥君",
-    "text": "它不管你 現在血糖高低總之 就是要升"
-  },
-  {
-    "start": 152.97,
-    "end": 158.08,
+    "start": 106.73,
+    "end": 109.38,
     "speaker": "曉臻",
-    "text": "沒有導管走血液運輸範圍大而且持久"
+    "text": "我們也 快速複習吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 158.08,
-    "end": 163.67,
-    "speaker": "曉臻",
-    "text": "腦垂生長、甲狀代謝、副甲血鈣、性腺特徵"
-  },
-  {
-    "start": 163.67,
-    "end": 167.58,
-    "speaker": "曉臻",
-    "text": "血糖高時分泌負責降血糖"
-  },
-  {
-    "start": 167.58,
-    "end": 170.43,
-    "speaker": "曉臻",
-    "text": "都是負責 升血糖"
-  },
-  {
-    "start": 170.43,
-    "end": 175.44,
+    "start": 109.58,
+    "end": 114.02,
     "speaker": "彥君",
-    "text": "如果一個人的 胰島素 分泌不足會發生什麼事"
+    "text": "沒錯 我們從頭點名",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 175.44,
-    "end": 181.05,
-    "speaker": "曉臻",
-    "text": "血糖降不下來就會變成糖尿病隨尿液排出來"
-  },
-  {
-    "start": 181.05,
-    "end": 186.42,
+    "start": 114.22,
+    "end": 117.57,
     "speaker": "彥君",
-    "text": "漂亮這就是 內分泌系統 的關鍵"
+    "text": "腦垂腺 分泌 生長激素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "腺",
+      "激素"
+    ]
   },
   {
-    "start": 186.42,
-    "end": 189.32,
+    "start": 117.77,
+    "end": 120.27,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "掌控 你的身高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 189.32,
-    "end": 191.96,
+    "start": 120.47,
+    "end": 123.5,
+    "speaker": "彥君",
+    "text": "甲狀腺 維持代謝",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "腺"
+    ]
+  },
+  {
+    "start": 123.7,
+    "end": 126.86,
+    "speaker": "彥君",
+    "text": "分泌太多 會緊張消瘦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 127.06,
+    "end": 130.3,
+    "speaker": "彥君",
+    "text": "副甲狀腺 調節血鈣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "腺"
+    ]
+  },
+  {
+    "start": 130.5,
+    "end": 133.68,
+    "speaker": "彥君",
+    "text": "太低的話 肌肉會抽搐",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 133.88,
+    "end": 137.2,
+    "speaker": "彥君",
+    "text": "還有 性腺 決定第二性徵",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "腺"
+    ]
+  },
+  {
+    "start": 137.4,
+    "end": 141.1,
+    "speaker": "彥君",
+    "text": "這些基本功 戰士們不能忘",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 141.3,
+    "end": 150.32,
+    "speaker": "彥君",
+    "text": "\\text{腦垂 (生長) / 甲狀 (代謝) / 副甲狀 (血鈣)}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{腦垂 (生長) / 甲狀 (代謝) / 副甲狀 (血鈣)}"
+    ]
+  },
+  {
+    "start": 150.32,
+    "end": 152.78,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "那 這頁最核心的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 191.96,
-    "end": 196.66,
+    "start": 152.98,
+    "end": 155.24,
+    "speaker": "曉臻",
+    "text": "血糖恆定圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 155.44,
+    "end": 158.09,
+    "speaker": "曉臻",
+    "text": "老師快帶 我們拆解",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 158.29,
+    "end": 160.77,
+    "speaker": "曉臻",
+    "text": "胰島素 跟 升糖素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 160.97,
+    "end": 164.22,
+    "speaker": "曉臻",
+    "text": "到底 誰才是 負責降血糖的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 164.42,
+    "end": 168.24,
+    "speaker": "彥君",
+    "text": "戰士們 記住 這個物流邏輯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 168.44,
+    "end": 171.88,
+    "speaker": "彥君",
+    "text": "當你吃飽 血糖高時",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 172.08,
+    "end": 175.02,
+    "speaker": "彥君",
+    "text": "胰臟 會分泌 胰島素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 175.22,
+    "end": 178.32,
+    "speaker": "彥君",
+    "text": "它的工作 是把血糖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 178.52,
+    "end": 180.78,
+    "speaker": "彥君",
+    "text": "關進細胞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 180.98,
+    "end": 184.28,
+    "speaker": "彥君",
+    "text": "或是 去肝臟 儲存起來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 184.48,
+    "end": 187.37,
+    "speaker": "彥君",
+    "text": "所以它是 唯一能讓",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 187.57,
+    "end": 190.5,
+    "speaker": "彥君",
+    "text": "血糖降低 的英雄",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 190.7,
+    "end": 224.62,
+    "speaker": "彥君",
+    "text": "\\text{胰島素} \\rightarrow \\text{降血糖 (飯後分泌)}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{胰島素} \\rightarrow \\text{降血糖 (飯後分泌)}"
+    ]
+  },
+  {
+    "start": 195.33,
+    "end": 197.78,
+    "speaker": "曉臻",
+    "text": "那如果是 肚子餓",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 197.98,
+    "end": 200.46,
+    "speaker": "曉臻",
+    "text": "血糖低 的時候呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 200.66,
+    "end": 204.1,
+    "speaker": "彥君",
+    "text": "這時候 就換 升糖素上場",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 204.3,
+    "end": 206.83,
+    "speaker": "彥君",
+    "text": "它會去 肝臟",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 207.03,
+    "end": 210.18,
+    "speaker": "彥君",
+    "text": "把儲存的養分 挖出來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 210.38,
+    "end": 213.51,
+    "speaker": "彥君",
+    "text": "變成血糖 重新升高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 213.71,
+    "end": 216.31,
+    "speaker": "彥君",
+    "text": "維持 你的體力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 216.51,
+    "end": 224.62,
+    "speaker": "彥君",
+    "text": "\\text{升糖素} \\rightarrow \\text{升血糖 (飢餓時分泌)}",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "\\text{升糖素} \\rightarrow \\text{升血糖 (飢餓時分泌)}"
+    ]
+  },
+  {
+    "start": 224.62,
+    "end": 227.53,
+    "speaker": "曉臻",
+    "text": "老師 那圖下方的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 227.73,
+    "end": 230.62,
+    "speaker": "曉臻",
+    "text": "腎上腺素 又是幹嘛的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "腺"
+    ]
+  },
+  {
+    "start": 230.82,
+    "end": 234.4,
+    "speaker": "彥君",
+    "text": "這是 緊急情況用 的加速劑",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 234.6,
+    "end": 237.34,
+    "speaker": "彥君",
+    "text": "當你 遇到大黑狗",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 237.54,
+    "end": 240.58,
+    "speaker": "彥君",
+    "text": "或是 考試快遲到 時",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 240.78,
+    "end": 244.05,
+    "speaker": "彥君",
+    "text": "腎上腺素 會瞬間噴發",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "腺"
+    ]
+  },
+  {
+    "start": 244.25,
+    "end": 247.81,
+    "speaker": "彥君",
+    "text": "讓血糖飆高 提供你能量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 248.01,
+    "end": 251.23,
+    "speaker": "彥君",
+    "text": "它不管你 現在血糖 高低",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 251.43,
+    "end": 254.08,
+    "speaker": "彥君",
+    "text": "總之 就是要升",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 254.28,
+    "end": 261.59,
+    "speaker": "彥君",
+    "text": "\\text{腎上腺素} \\rightarrow \\text{緊急升血糖}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{腎上腺素} \\rightarrow \\text{緊急升血糖}"
+    ]
+  },
+  {
+    "start": 261.59,
+    "end": 263.35,
+    "speaker": "曉臻",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 263.55,
+    "end": 266.7,
+    "speaker": "曉臻",
+    "text": "最後來個 內分泌 總複習",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "內分泌"
+    ]
+  },
+  {
+    "start": 266.9,
+    "end": 269.96,
+    "speaker": "曉臻",
+    "text": "第一 內分泌 沒有導管",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "內分泌"
+    ]
+  },
+  {
+    "start": 270.16,
+    "end": 273.7,
+    "speaker": "曉臻",
+    "text": "走血液運輸 範圍大又持久",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 273.9,
+    "end": 277.77,
+    "speaker": "曉臻",
+    "text": "第二 腦垂生長 甲狀代謝",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 277.97,
+    "end": 281.02,
+    "speaker": "曉臻",
+    "text": "副甲血鈣 性腺特徵",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "腺"
+    ]
+  },
+  {
+    "start": 281.22,
+    "end": 284.81,
+    "speaker": "曉臻",
+    "text": "第三 胰島素 血糖高時分泌",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 285.01,
+    "end": 287.49,
+    "speaker": "曉臻",
+    "text": "唯一 負責 降血糖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 287.69,
+    "end": 291.2,
+    "speaker": "曉臻",
+    "text": "第四 升糖素 與 腎上腺素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "腺"
+    ]
+  },
+  {
+    "start": 291.4,
+    "end": 293.95,
+    "speaker": "曉臻",
+    "text": "都是負責 升血糖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 294.15,
+    "end": 297.35,
+    "speaker": "彥君",
+    "text": "戰士們 閉上眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 297.55,
+    "end": 299.74,
+    "speaker": "彥君",
+    "text": "想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 299.94,
+    "end": 302.95,
+    "speaker": "彥君",
+    "text": "如果一個人的 胰島素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 303.15,
+    "end": 306.66,
+    "speaker": "彥君",
+    "text": "分泌不足 會發生什麼事",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 306.86,
+    "end": 309.22,
+    "speaker": "曉臻",
+    "text": "血糖 降不下來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 309.42,
+    "end": 311.88,
+    "speaker": "曉臻",
+    "text": "就會 變成糖尿病",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 312.08,
+    "end": 314.49,
+    "speaker": "曉臻",
+    "text": "隨尿液 排出來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 314.69,
+    "end": 316.74,
+    "speaker": "彥君",
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 316.94,
+    "end": 320.26,
+    "speaker": "彥君",
+    "text": "這就是 內分泌系統 的關鍵",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "內分泌"
+    ]
+  },
+  {
+    "start": 320.46,
+    "end": 323.06,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 323.26,
+    "end": 325.59,
+    "speaker": "曉臻",
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 325.79,
+    "end": 329.06,
     "speaker": "合聲",
-    "text": "激素調好高分到老下一關見"
+    "text": "激素調好 高分到老",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "激素"
+    ]
+  },
+  {
+    "start": 329.26,
+    "end": 332.56,
+    "speaker": "合聲",
+    "text": "戰士們 下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
