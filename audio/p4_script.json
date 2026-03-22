@@ -321,12 +321,12 @@
     "start": 126.15,
     "end": 156.96,
     "speaker": "彥君",
-    "text": "\\text{呼吸作用： 24hr}",
+    "text": "呼吸作用： 24hr",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{呼吸作用： 24hr}"
+      "呼吸作用： 24hr"
     ]
   },
   {
