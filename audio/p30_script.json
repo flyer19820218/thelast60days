@@ -57,7 +57,7 @@
     "start": 18.58,
     "end": 21.8,
     "speaker": "彥君",
-    "text": "歡迎來到 第十九集",
+    "text": "歡迎來到 第30集",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -228,12 +228,12 @@
     "start": 74.94,
     "end": 113.62,
     "speaker": "彥君",
-    "text": "\\text{競爭： 甲 (X) / 乙 (X) 兩敗俱傷}",
+    "text": "競爭： 甲 (X) / 乙 (X) 兩敗俱傷",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{競爭： 甲 (X) / 乙 (X) 兩敗俱傷}"
+      "競爭： 甲 (X) / 乙 (X) 兩敗俱傷"
     ]
   },
   {
@@ -321,12 +321,12 @@
     "start": 105.49,
     "end": 113.62,
     "speaker": "彥君",
-    "text": "\\text{捕食： 甲 (O) / 乙 (X) 弱肉強食}",
+    "text": "捕食： 甲 (O) / 乙 (X) 弱肉強食",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "\\text{捕食： 甲 (O) / 乙 (X) 弱肉強食}"
+      "捕食： 甲 (O) / 乙 (X) 弱肉強食"
     ]
   },
   {
@@ -427,12 +427,12 @@
     "start": 143.15,
     "end": 151.26,
     "speaker": "彥君",
-    "text": "\\text{寄生： 甲 (O) / 乙 (X) 宿主受害}",
+    "text": "寄生： 甲 (O) / 乙 (X) 宿主受害",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{寄生： 甲 (O) / 乙 (X) 宿主受害}"
+      "寄生： 甲 (O) / 乙 (X) 宿主受害"
     ]
   },
   {
@@ -576,12 +576,12 @@
     "start": 192.99,
     "end": 201.46,
     "speaker": "彥君",
-    "text": "\\text{互利共生： 甲 (O) / 乙 (O) 互相幫忙}",
+    "text": "互利共生： 甲 (O) / 乙 (O) 互相幫忙",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{互利共生： 甲 (O) / 乙 (O) 互相幫忙}"
+      "互利共生： 甲 (O) / 乙 (O) 互相幫忙"
     ]
   },
   {
@@ -696,12 +696,12 @@
     "start": 236.54,
     "end": 245.51,
     "speaker": "彥君",
-    "text": "\\text{偏利共生： 甲 (O) / 乙 (\\triangle) 搭便車}",
+    "text": "偏利共生： 甲 (O) / 乙 (△) 搭便車",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{偏利共生： 甲 (O) / 乙 (\\triangle) 搭便車}"
+      "偏利共生： 甲 (O) / 乙 (△) 搭便車"
     ]
   },
   {
@@ -762,12 +762,12 @@
     "start": 267.06,
     "end": 315.47,
     "speaker": "彥君",
-    "text": "\\text{一、 競爭： X X (雙方受害)}",
+    "text": "一、 競爭： X X (雙方受害)",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{一、 競爭： X X (雙方受害)}"
+      "一、 競爭： X X (雙方受害)"
     ]
   },
   {
@@ -801,12 +801,12 @@
     "start": 280.21,
     "end": 315.47,
     "speaker": "彥君",
-    "text": "\\text{二、 捕食 / 寄生： O X (一方得利，一方受害)}",
+    "text": "二、 捕食 / 寄生： O X (一方得利，一方受害)",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "\\text{二、 捕食 / 寄生： O X (一方得利，一方受害)}"
+      "二、 捕食 / 寄生： O X (一方得利，一方受害)"
     ]
   },
   {
@@ -831,12 +831,12 @@
     "start": 292.28,
     "end": 315.47,
     "speaker": "彥君",
-    "text": "\\text{三、 互利共生： O O (雙方得利)}",
+    "text": "三、 互利共生： O O (雙方得利)",
     "is_pinned": true,
     "pin_level": 3,
     "commands": [
       "釘選",
-      "\\text{三、 互利共生： O O (雙方得利)}"
+      "三、 互利共生： O O (雙方得利)"
     ]
   },
   {
@@ -870,12 +870,12 @@
     "start": 306.24,
     "end": 315.47,
     "speaker": "彥君",
-    "text": "\\text{四、 偏利共生： O \\triangle (一方得利，一方沒差)}",
+    "text": "四、 偏利共生： O △ (一方得利，一方沒差)",
     "is_pinned": true,
     "pin_level": 4,
     "commands": [
       "釘選",
-      "\\text{四、 偏利共生： O \\triangle (一方得利，一方沒差)}"
+      "四、 偏利共生： O △ (一方得利，一方沒差)"
     ]
   },
   {
