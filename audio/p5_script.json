@@ -192,12 +192,12 @@
     "start": 66.17,
     "end": 117.85,
     "speaker": "彥君",
-    "text": "\\text{生產者} \\rightarrow \\text{無機物變有機物}",
+    "text": "生產者→無機物變有機物",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{生產者} \\rightarrow \\text{無機物變有機物}"
+      "生產者→無機物變有機物"
     ]
   },
   {
@@ -312,12 +312,12 @@
     "start": 110.01,
     "end": 117.85,
     "speaker": "彥君",
-    "text": "\\text{有吃} \\rightarrow \\text{消費者 (含清除者)}",
+    "text": "有吃→消費者 (含清除者)",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "\\text{有吃} \\rightarrow \\text{消費者 (含清除者)}"
+      "有吃→消費者 (含清除者)"
     ]
   },
   {
@@ -486,12 +486,12 @@
     "start": 174.27,
     "end": 229.24,
     "speaker": "彥君",
-    "text": "\\text{分解者} \\rightarrow \\text{有機物變無機物}",
+    "text": "分解者→有機物變無機物",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{分解者} \\rightarrow \\text{有機物變無機物}"
+      "分解者→有機物變無機物"
     ]
   },
   {
@@ -768,12 +768,12 @@
     "start": 271.58,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "\\text{糞金龜 (有吃動作)} \\rightarrow \\text{消費者}",
+    "text": "糞金龜 (有吃動作)→消費者",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{糞金龜 (有吃動作)} \\rightarrow \\text{消費者}"
+      "糞金龜 (有吃動作)→消費者"
     ]
   },
   {
