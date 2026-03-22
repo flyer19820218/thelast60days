@@ -199,16 +199,19 @@
   },
   {
     "start": 69.3,
-    "end": 77.11,
-    "speaker": "曉臻",
-    "text": "不需受精、遺傳物質與親代相同]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "無性生殖：不需受精、遺傳物質與親代相同",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "無性生殖：不需受精、遺傳物質與親代相同"
+    ]
   },
   {
-    "start": 77.31,
-    "end": 79.96,
+    "start": 74.74,
+    "end": 77.39,
     "speaker": "彥君",
     "text": "它的關鍵字是",
     "is_pinned": false,
@@ -216,8 +219,8 @@
     "commands": []
   },
   {
-    "start": 80.16,
-    "end": 83.74,
+    "start": 77.59,
+    "end": 81.18,
     "speaker": "彥君",
     "text": "不需受精速度非常快",
     "is_pinned": false,
@@ -225,8 +228,8 @@
     "commands": []
   },
   {
-    "start": 83.94,
-    "end": 86.76,
+    "start": 81.38,
+    "end": 84.19,
     "speaker": "彥君",
     "text": "而且遺傳物質",
     "is_pinned": false,
@@ -234,8 +237,8 @@
     "commands": []
   },
   {
-    "start": 86.96,
-    "end": 90.14,
+    "start": 84.39,
+    "end": 87.57,
     "speaker": "彥君",
     "text": "會跟親代完全相同",
     "is_pinned": false,
@@ -243,8 +246,8 @@
     "commands": []
   },
   {
-    "start": 90.34,
-    "end": 92.77,
+    "start": 87.77,
+    "end": 90.2,
     "speaker": "曉臻",
     "text": "就像影印機一樣",
     "is_pinned": false,
@@ -252,8 +255,8 @@
     "commands": []
   },
   {
-    "start": 92.97,
-    "end": 95.54,
+    "start": 90.4,
+    "end": 92.98,
     "speaker": "曉臻",
     "text": "印出來一模一樣嗎",
     "is_pinned": false,
@@ -261,8 +264,8 @@
     "commands": []
   },
   {
-    "start": 95.74,
-    "end": 97.84,
+    "start": 93.18,
+    "end": 95.27,
     "speaker": "彥君",
     "text": "沒錯",
     "is_pinned": false,
@@ -270,8 +273,8 @@
     "commands": []
   },
   {
-    "start": 98.04,
-    "end": 101.43,
+    "start": 95.47,
+    "end": 98.86,
     "speaker": "彥君",
     "text": "子代跟親代長得一模一樣",
     "is_pinned": false,
@@ -279,8 +282,8 @@
     "commands": []
   },
   {
-    "start": 101.63,
-    "end": 105.05,
+    "start": 99.06,
+    "end": 102.48,
     "speaker": "彥君",
     "text": "因為它只有進行細胞分裂",
     "is_pinned": false,
@@ -288,8 +291,8 @@
     "commands": []
   },
   {
-    "start": 105.25,
-    "end": 107.94,
+    "start": 102.68,
+    "end": 105.38,
     "speaker": "彥君",
     "text": "沒有減數分裂",
     "is_pinned": false,
@@ -297,8 +300,8 @@
     "commands": []
   },
   {
-    "start": 108.14,
-    "end": 110.65,
+    "start": 105.58,
+    "end": 108.08,
     "speaker": "曉臻",
     "text": "那有哪些常見的",
     "is_pinned": false,
@@ -306,8 +309,8 @@
     "commands": []
   },
   {
-    "start": 110.85,
-    "end": 113.35,
+    "start": 108.28,
+    "end": 110.78,
     "speaker": "曉臻",
     "text": "無性生殖方式呢",
     "is_pinned": false,
@@ -315,8 +318,8 @@
     "commands": []
   },
   {
-    "start": 113.55,
-    "end": 116.9,
+    "start": 110.98,
+    "end": 114.33,
     "speaker": "彥君",
     "text": "像是草履蟲跟變形蟲",
     "is_pinned": false,
@@ -324,8 +327,8 @@
     "commands": []
   },
   {
-    "start": 117.1,
-    "end": 119.89,
+    "start": 114.53,
+    "end": 117.32,
     "speaker": "彥君",
     "text": "進行分裂生殖",
     "is_pinned": false,
@@ -333,8 +336,8 @@
     "commands": []
   },
   {
-    "start": 120.09,
-    "end": 123.34,
+    "start": 117.52,
+    "end": 120.77,
     "speaker": "彥君",
     "text": "還有水螅和酵母菌的",
     "is_pinned": false,
@@ -344,8 +347,8 @@
     ]
   },
   {
-    "start": 123.54,
-    "end": 126.02,
+    "start": 120.97,
+    "end": 123.45,
     "speaker": "彥君",
     "text": "出芽生殖",
     "is_pinned": false,
@@ -353,8 +356,8 @@
     "commands": []
   },
   {
-    "start": 126.22,
-    "end": 129.63,
+    "start": 123.65,
+    "end": 127.06,
     "speaker": "彥君",
     "text": "渦蟲切兩半會變兩隻的",
     "is_pinned": false,
@@ -364,8 +367,8 @@
     ]
   },
   {
-    "start": 129.83,
-    "end": 132.22,
+    "start": 127.26,
+    "end": 129.65,
     "speaker": "彥君",
     "text": "斷裂生殖",
     "is_pinned": false,
@@ -373,8 +376,8 @@
     "commands": []
   },
   {
-    "start": 132.42,
-    "end": 135.21,
+    "start": 129.85,
+    "end": 132.64,
     "speaker": "彥君",
     "text": "以及麵包黴菌的",
     "is_pinned": false,
@@ -382,8 +385,8 @@
     "commands": []
   },
   {
-    "start": 135.41,
-    "end": 137.82,
+    "start": 132.84,
+    "end": 135.25,
     "speaker": "彥君",
     "text": "孢子繁殖",
     "is_pinned": false,
@@ -391,8 +394,8 @@
     "commands": []
   },
   {
-    "start": 138.02,
-    "end": 140.57,
+    "start": 135.45,
+    "end": 138.0,
     "speaker": "曉臻",
     "text": "那植物也可以進行",
     "is_pinned": false,
@@ -400,8 +403,8 @@
     "commands": []
   },
   {
-    "start": 140.77,
-    "end": 142.86,
+    "start": 138.2,
+    "end": 140.3,
     "speaker": "曉臻",
     "text": "無性生殖嗎",
     "is_pinned": false,
@@ -409,8 +412,8 @@
     "commands": []
   },
   {
-    "start": 143.06,
-    "end": 145.18,
+    "start": 140.5,
+    "end": 142.62,
     "speaker": "彥君",
     "text": "可以的",
     "is_pinned": false,
@@ -418,8 +421,8 @@
     "commands": []
   },
   {
-    "start": 145.38,
-    "end": 149.21,
+    "start": 142.82,
+    "end": 146.64,
     "speaker": "彥君",
     "text": "利用根、莖、葉來繁殖",
     "is_pinned": false,
@@ -427,8 +430,8 @@
     "commands": []
   },
   {
-    "start": 149.41,
-    "end": 152.61,
+    "start": 146.84,
+    "end": 150.04,
     "speaker": "彥君",
     "text": "稱為營養器官繁殖",
     "is_pinned": false,
@@ -436,8 +439,8 @@
     "commands": []
   },
   {
-    "start": 152.81,
-    "end": 155.62,
+    "start": 150.24,
+    "end": 153.06,
     "speaker": "彥君",
     "text": "像是馬鈴薯的塊莖",
     "is_pinned": false,
@@ -445,8 +448,8 @@
     "commands": []
   },
   {
-    "start": 155.82,
-    "end": 158.95,
+    "start": 153.26,
+    "end": 156.38,
     "speaker": "彥君",
     "text": "還有落地生根的葉片",
     "is_pinned": false,
@@ -454,8 +457,8 @@
     "commands": []
   },
   {
-    "start": 159.15,
-    "end": 162.38,
+    "start": 156.58,
+    "end": 159.81,
     "speaker": "彥君",
     "text": "蘭花用的組織培養也是喔",
     "is_pinned": false,
@@ -463,8 +466,8 @@
     "commands": []
   },
   {
-    "start": 162.58,
-    "end": 165.75,
+    "start": 160.01,
+    "end": 163.18,
     "speaker": "曉臻",
     "text": "那如果大家都用無性生殖",
     "is_pinned": false,
@@ -472,8 +475,8 @@
     "commands": []
   },
   {
-    "start": 165.95,
-    "end": 168.41,
+    "start": 163.38,
+    "end": 165.84,
     "speaker": "曉臻",
     "text": "不是比較方便嗎",
     "is_pinned": false,
@@ -481,8 +484,8 @@
     "commands": []
   },
   {
-    "start": 168.61,
-    "end": 170.51,
+    "start": 166.04,
+    "end": 167.94,
     "speaker": "彥君",
     "text": "錯",
     "is_pinned": false,
@@ -490,8 +493,8 @@
     "commands": []
   },
   {
-    "start": 170.71,
-    "end": 173.82,
+    "start": 168.14,
+    "end": 171.25,
     "speaker": "彥君",
     "text": "這是無性生殖的致命傷",
     "is_pinned": false,
@@ -499,8 +502,8 @@
     "commands": []
   },
   {
-    "start": 174.02,
-    "end": 177.62,
+    "start": 171.45,
+    "end": 175.06,
     "speaker": "彥君",
     "text": "因為大家遺傳物質完全一樣",
     "is_pinned": false,
@@ -508,8 +511,8 @@
     "commands": []
   },
   {
-    "start": 177.82,
-    "end": 181.6,
+    "start": 175.26,
+    "end": 179.03,
     "speaker": "彥君",
     "text": "只要環境改變或是病毒來襲",
     "is_pinned": false,
@@ -517,8 +520,8 @@
     "commands": []
   },
   {
-    "start": 181.8,
-    "end": 184.69,
+    "start": 179.23,
+    "end": 182.12,
     "speaker": "彥君",
     "text": "因為沒有產生變異",
     "is_pinned": false,
@@ -526,8 +529,8 @@
     "commands": []
   },
   {
-    "start": 184.89,
-    "end": 187.75,
+    "start": 182.32,
+    "end": 185.18,
     "speaker": "彥君",
     "text": "很容易全軍覆沒",
     "is_pinned": false,
@@ -535,8 +538,8 @@
     "commands": []
   },
   {
-    "start": 187.95,
-    "end": 190.14,
+    "start": 185.38,
+    "end": 187.58,
     "speaker": "曉臻",
     "text": "所以這就是",
     "is_pinned": false,
@@ -544,8 +547,8 @@
     "commands": []
   },
   {
-    "start": 190.34,
-    "end": 193.33,
+    "start": 187.78,
+    "end": 190.76,
     "speaker": "曉臻",
     "text": "有性生殖存在的意義囉",
     "is_pinned": false,
@@ -553,8 +556,8 @@
     "commands": []
   },
   {
-    "start": 193.53,
-    "end": 198.07,
+    "start": 190.96,
+    "end": 195.5,
     "speaker": "彥君",
     "text": "沒錯戰士們請記住",
     "is_pinned": false,
@@ -562,8 +565,8 @@
     "commands": []
   },
   {
-    "start": 198.27,
-    "end": 201.38,
+    "start": 195.7,
+    "end": 198.81,
     "speaker": "彥君",
     "text": "有性生殖的三大步驟",
     "is_pinned": false,
@@ -571,8 +574,8 @@
     "commands": []
   },
   {
-    "start": 201.58,
-    "end": 205.18,
+    "start": 199.01,
+    "end": 202.62,
     "speaker": "彥君",
     "text": "第一減數分裂產生配子",
     "is_pinned": false,
@@ -580,8 +583,8 @@
     "commands": []
   },
   {
-    "start": 205.38,
-    "end": 209.16,
+    "start": 202.82,
+    "end": 206.59,
     "speaker": "彥君",
     "text": "第二精卵結合的受精作用",
     "is_pinned": false,
@@ -589,8 +592,8 @@
     "commands": []
   },
   {
-    "start": 209.36,
-    "end": 213.35,
+    "start": 206.79,
+    "end": 210.78,
     "speaker": "彥君",
     "text": "第三受精卵細胞分裂長大",
     "is_pinned": false,
@@ -598,17 +601,20 @@
     "commands": []
   },
   {
-    "start": 213.55,
-    "end": 221.02,
-    "speaker": "曉臻",
-    "text": "需受精、產生變異適應環境]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "start": 210.98,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "有性生殖：需受精、產生變異適應環境",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "有性生殖：需受精、產生變異適應環境"
+    ]
   },
   {
-    "start": 221.22,
-    "end": 224.02,
+    "start": 216.33,
+    "end": 219.12,
     "speaker": "彥君",
     "text": "有性生殖結合了",
     "is_pinned": false,
@@ -616,8 +622,8 @@
     "commands": []
   },
   {
-    "start": 224.22,
-    "end": 226.89,
+    "start": 219.32,
+    "end": 221.99,
     "speaker": "彥君",
     "text": "父母雙方的基因",
     "is_pinned": false,
@@ -625,8 +631,8 @@
     "commands": []
   },
   {
-    "start": 227.09,
-    "end": 230.29,
+    "start": 222.19,
+    "end": 225.39,
     "speaker": "彥君",
     "text": "所以子代會產生變異",
     "is_pinned": false,
@@ -634,8 +640,8 @@
     "commands": []
   },
   {
-    "start": 230.49,
-    "end": 233.83,
+    "start": 225.59,
+    "end": 228.94,
     "speaker": "彥君",
     "text": "變異是為了讓物種",
     "is_pinned": false,
@@ -643,8 +649,8 @@
     "commands": []
   },
   {
-    "start": 234.03,
-    "end": 237.21,
+    "start": 229.14,
+    "end": 232.31,
     "speaker": "彥君",
     "text": "在惡劣環境中活下去",
     "is_pinned": false,
@@ -652,8 +658,8 @@
     "commands": []
   },
   {
-    "start": 237.41,
-    "end": 240.27,
+    "start": 232.51,
+    "end": 235.38,
     "speaker": "曉臻",
     "text": "接下來我們要進攻",
     "is_pinned": false,
@@ -661,8 +667,8 @@
     "commands": []
   },
   {
-    "start": 240.47,
-    "end": 242.95,
+    "start": 235.58,
+    "end": 238.06,
     "speaker": "曉臻",
     "text": "動物的有性生殖",
     "is_pinned": false,
@@ -670,8 +676,8 @@
     "commands": []
   },
   {
-    "start": 243.15,
-    "end": 245.94,
+    "start": 238.26,
+    "end": 241.05,
     "speaker": "彥君",
     "text": "體外受精的精卵",
     "is_pinned": false,
@@ -679,8 +685,8 @@
     "commands": []
   },
   {
-    "start": 246.14,
-    "end": 249.56,
+    "start": 241.25,
+    "end": 244.66,
     "speaker": "彥君",
     "text": "像是魚類和兩生類的青蛙",
     "is_pinned": false,
@@ -688,8 +694,8 @@
     "commands": []
   },
   {
-    "start": 249.76,
-    "end": 253.08,
+    "start": 244.86,
+    "end": 248.18,
     "speaker": "彥君",
     "text": "精子必須游過去找卵子",
     "is_pinned": false,
@@ -697,8 +703,8 @@
     "commands": []
   },
   {
-    "start": 253.28,
-    "end": 256.22,
+    "start": 248.38,
+    "end": 251.32,
     "speaker": "彥君",
     "text": "所以一定需要水",
     "is_pinned": false,
@@ -706,8 +712,8 @@
     "commands": []
   },
   {
-    "start": 256.42,
-    "end": 259.71,
+    "start": 251.52,
+    "end": 254.82,
     "speaker": "彥君",
     "text": "為了避免被吃掉或流失",
     "is_pinned": false,
@@ -715,8 +721,8 @@
     "commands": []
   },
   {
-    "start": 259.91,
-    "end": 263.33,
+    "start": 255.02,
+    "end": 258.43,
     "speaker": "彥君",
     "text": "牠們一次要產下非常多的卵",
     "is_pinned": false,
@@ -724,8 +730,8 @@
     "commands": []
   },
   {
-    "start": 263.53,
-    "end": 265.84,
+    "start": 258.63,
+    "end": 260.94,
     "speaker": "曉臻",
     "text": "那體內受精呢",
     "is_pinned": false,
@@ -733,8 +739,8 @@
     "commands": []
   },
   {
-    "start": 266.04,
-    "end": 269.65,
+    "start": 261.14,
+    "end": 264.75,
     "speaker": "彥君",
     "text": "體內受精是在母體內結合",
     "is_pinned": false,
@@ -742,8 +748,8 @@
     "commands": []
   },
   {
-    "start": 269.85,
-    "end": 273.79,
+    "start": 264.95,
+    "end": 268.9,
     "speaker": "彥君",
     "text": "像是爬蟲類、鳥類跟哺乳類",
     "is_pinned": false,
@@ -751,8 +757,8 @@
     "commands": []
   },
   {
-    "start": 273.99,
-    "end": 276.93,
+    "start": 269.1,
+    "end": 272.03,
     "speaker": "彥君",
     "text": "受精成功率比較高",
     "is_pinned": false,
@@ -760,8 +766,8 @@
     "commands": []
   },
   {
-    "start": 277.13,
-    "end": 279.99,
+    "start": 272.23,
+    "end": 275.1,
     "speaker": "彥君",
     "text": "產卵數就比較少",
     "is_pinned": false,
@@ -769,8 +775,8 @@
     "commands": []
   },
   {
-    "start": 280.19,
-    "end": 283.32,
+    "start": 275.3,
+    "end": 278.42,
     "speaker": "曉臻",
     "text": "老師那卵生和胎生",
     "is_pinned": false,
@@ -778,8 +784,8 @@
     "commands": []
   },
   {
-    "start": 283.52,
-    "end": 285.71,
+    "start": 278.62,
+    "end": 280.82,
     "speaker": "曉臻",
     "text": "又要怎麼區分",
     "is_pinned": false,
@@ -787,8 +793,8 @@
     "commands": []
   },
   {
-    "start": 285.91,
-    "end": 288.85,
+    "start": 281.02,
+    "end": 283.95,
     "speaker": "彥君",
     "text": "這個會考超級愛考",
     "is_pinned": false,
@@ -796,8 +802,8 @@
     "commands": []
   },
   {
-    "start": 289.05,
-    "end": 291.96,
+    "start": 284.15,
+    "end": 287.06,
     "speaker": "彥君",
     "text": "關鍵在養分來源",
     "is_pinned": false,
@@ -805,17 +811,20 @@
     "commands": []
   },
   {
-    "start": 292.16,
-    "end": 301.24,
-    "speaker": "曉臻",
-    "text": "養分來自卵黃 / 胎生養分來自母體或卵黃]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "start": 287.26,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "卵生：養分來自卵黃 / 胎生：養分來自母體或卵黃",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "卵生：養分來自卵黃 / 胎生：養分來自母體或卵黃"
+    ]
   },
   {
-    "start": 301.44,
-    "end": 303.9,
+    "start": 292.75,
+    "end": 295.21,
     "speaker": "彥君",
     "text": "卵生的寶寶",
     "is_pinned": false,
@@ -823,8 +832,8 @@
     "commands": []
   },
   {
-    "start": 304.1,
-    "end": 307.39,
+    "start": 295.41,
+    "end": 298.7,
     "speaker": "彥君",
     "text": "養分來自卵裡面的卵黃",
     "is_pinned": false,
@@ -832,8 +841,8 @@
     "commands": []
   },
   {
-    "start": 307.59,
-    "end": 309.95,
+    "start": 298.9,
+    "end": 301.26,
     "speaker": "曉臻",
     "text": "所以母雞孵蛋",
     "is_pinned": false,
@@ -841,8 +850,8 @@
     "commands": []
   },
   {
-    "start": 310.15,
-    "end": 313.4,
+    "start": 301.46,
+    "end": 304.71,
     "speaker": "曉臻",
     "text": "是不會提供養分給小雞的",
     "is_pinned": false,
@@ -850,8 +859,8 @@
     "commands": []
   },
   {
-    "start": 313.6,
-    "end": 315.7,
+    "start": 304.91,
+    "end": 307.01,
     "speaker": "彥君",
     "text": "沒錯",
     "is_pinned": false,
@@ -859,8 +868,8 @@
     "commands": []
   },
   {
-    "start": 315.9,
-    "end": 318.83,
+    "start": 307.21,
+    "end": 310.14,
     "speaker": "彥君",
     "text": "那胎生就不一樣了",
     "is_pinned": false,
@@ -868,8 +877,8 @@
     "commands": []
   },
   {
-    "start": 319.03,
-    "end": 322.59,
+    "start": 310.34,
+    "end": 313.9,
     "speaker": "彥君",
     "text": "胎生的寶寶留在媽媽的",
     "is_pinned": false,
@@ -877,8 +886,8 @@
     "commands": []
   },
   {
-    "start": 322.79,
-    "end": 325.2,
+    "start": 314.1,
+    "end": 316.51,
     "speaker": "彥君",
     "text": "子宮裡發育",
     "is_pinned": false,
@@ -886,8 +895,8 @@
     "commands": []
   },
   {
-    "start": 325.4,
-    "end": 328.91,
+    "start": 316.71,
+    "end": 320.22,
     "speaker": "彥君",
     "text": "養分是透過胎盤跟臍帶",
     "is_pinned": false,
@@ -897,8 +906,8 @@
     ]
   },
   {
-    "start": 329.11,
-    "end": 331.66,
+    "start": 320.42,
+    "end": 322.98,
     "speaker": "彥君",
     "text": "由媽媽供應的",
     "is_pinned": false,
@@ -906,8 +915,8 @@
     "commands": []
   },
   {
-    "start": 331.86,
-    "end": 334.8,
+    "start": 323.18,
+    "end": 326.11,
     "speaker": "曉臻",
     "text": "那孔雀魚還有大肚魚呢",
     "is_pinned": false,
@@ -915,8 +924,8 @@
     "commands": []
   },
   {
-    "start": 335.0,
-    "end": 338.15,
+    "start": 326.31,
+    "end": 329.46,
     "speaker": "彥君",
     "text": "卵留在媽媽體內孵化",
     "is_pinned": false,
@@ -924,8 +933,8 @@
     "commands": []
   },
   {
-    "start": 338.35,
-    "end": 341.17,
+    "start": 329.66,
+    "end": 332.48,
     "speaker": "彥君",
     "text": "養分來自卵黃",
     "is_pinned": false,
@@ -933,8 +942,8 @@
     "commands": []
   },
   {
-    "start": 341.37,
-    "end": 344.3,
+    "start": 332.68,
+    "end": 335.62,
     "speaker": "彥君",
     "text": "媽媽不提供養分",
     "is_pinned": false,
@@ -942,8 +951,8 @@
     "commands": []
   },
   {
-    "start": 344.5,
-    "end": 347.3,
+    "start": 335.82,
+    "end": 338.61,
     "speaker": "彥君",
     "text": "只提供保護的空間",
     "is_pinned": false,
@@ -951,8 +960,8 @@
     "commands": []
   },
   {
-    "start": 347.5,
-    "end": 350.82,
+    "start": 338.81,
+    "end": 342.13,
     "speaker": "彥君",
     "text": "孵化後直接生出小魚",
     "is_pinned": false,
@@ -960,8 +969,8 @@
     "commands": []
   },
   {
-    "start": 351.02,
-    "end": 353.81,
+    "start": 342.33,
+    "end": 345.12,
     "speaker": "彥君",
     "text": "這原本叫卵胎生",
     "is_pinned": false,
@@ -969,8 +978,8 @@
     "commands": []
   },
   {
-    "start": 354.01,
-    "end": 356.9,
+    "start": 345.32,
+    "end": 348.21,
     "speaker": "彥君",
     "text": "不過現在的教材",
     "is_pinned": false,
@@ -978,8 +987,8 @@
     "commands": []
   },
   {
-    "start": 357.1,
-    "end": 359.74,
+    "start": 348.41,
+    "end": 351.06,
     "speaker": "彥君",
     "text": "已經改成胎生囉",
     "is_pinned": false,
@@ -987,8 +996,8 @@
     "commands": []
   },
   {
-    "start": 359.94,
-    "end": 363.02,
+    "start": 351.26,
+    "end": 354.34,
     "speaker": "彥君",
     "text": "只要一生出來的不是卵",
     "is_pinned": false,
@@ -996,8 +1005,8 @@
     "commands": []
   },
   {
-    "start": 363.22,
-    "end": 365.9,
+    "start": 354.54,
+    "end": 357.21,
     "speaker": "彥君",
     "text": "我們就稱為胎生",
     "is_pinned": false,
@@ -1005,8 +1014,8 @@
     "commands": []
   },
   {
-    "start": 366.1,
-    "end": 369.7,
+    "start": 357.41,
+    "end": 361.02,
     "speaker": "曉臻",
     "text": "哇動物生殖真複雜",
     "is_pinned": false,
@@ -1014,8 +1023,8 @@
     "commands": []
   },
   {
-    "start": 369.9,
-    "end": 371.81,
+    "start": 361.22,
+    "end": 363.12,
     "speaker": "曉臻",
     "text": "那植物呢",
     "is_pinned": false,
@@ -1023,8 +1032,8 @@
     "commands": []
   },
   {
-    "start": 372.01,
-    "end": 374.99,
+    "start": 363.32,
+    "end": 366.3,
     "speaker": "彥君",
     "text": "接下來我們來拆解",
     "is_pinned": false,
@@ -1032,8 +1041,8 @@
     "commands": []
   },
   {
-    "start": 375.19,
-    "end": 378.08,
+    "start": 366.5,
+    "end": 369.39,
     "speaker": "彥君",
     "text": "花和果實的秘密",
     "is_pinned": false,
@@ -1041,8 +1050,8 @@
     "commands": []
   },
   {
-    "start": 378.28,
-    "end": 381.19,
+    "start": 369.59,
+    "end": 372.5,
     "speaker": "彥君",
     "text": "植物的有性生殖",
     "is_pinned": false,
@@ -1050,8 +1059,8 @@
     "commands": []
   },
   {
-    "start": 381.39,
-    "end": 384.26,
+    "start": 372.7,
+    "end": 375.57,
     "speaker": "彥君",
     "text": "生殖器官就是花",
     "is_pinned": false,
@@ -1059,8 +1068,8 @@
     "commands": []
   },
   {
-    "start": 384.46,
-    "end": 387.49,
+    "start": 375.77,
+    "end": 378.8,
     "speaker": "彥君",
     "text": "請大家盯緊講義上",
     "is_pinned": false,
@@ -1068,8 +1077,8 @@
     "commands": []
   },
   {
-    "start": 387.69,
-    "end": 390.36,
+    "start": 379.0,
+    "end": 381.67,
     "speaker": "彥君",
     "text": "那個子房的構造",
     "is_pinned": false,
@@ -1077,8 +1086,8 @@
     "commands": []
   },
   {
-    "start": 390.56,
-    "end": 393.52,
+    "start": 381.87,
+    "end": 384.83,
     "speaker": "彥君",
     "text": "花粉傳到雌蕊後",
     "is_pinned": false,
@@ -1086,8 +1095,8 @@
     "commands": []
   },
   {
-    "start": 393.72,
-    "end": 396.58,
+    "start": 385.03,
+    "end": 387.9,
     "speaker": "彥君",
     "text": "會長出花粉管",
     "is_pinned": false,
@@ -1095,8 +1104,8 @@
     "commands": []
   },
   {
-    "start": 396.78,
-    "end": 400.46,
+    "start": 388.1,
+    "end": 391.78,
     "speaker": "彥君",
     "text": "讓精細胞游進去跟卵結合",
     "is_pinned": false,
@@ -1104,8 +1113,8 @@
     "commands": []
   },
   {
-    "start": 400.66,
-    "end": 403.31,
+    "start": 391.98,
+    "end": 394.62,
     "speaker": "彥君",
     "text": "因為有花粉管",
     "is_pinned": false,
@@ -1113,8 +1122,8 @@
     "commands": []
   },
   {
-    "start": 403.51,
-    "end": 406.06,
+    "start": 394.82,
+    "end": 397.38,
     "speaker": "彥君",
     "text": "所以植物受精",
     "is_pinned": false,
@@ -1122,8 +1131,8 @@
     "commands": []
   },
   {
-    "start": 406.26,
-    "end": 409.37,
+    "start": 397.58,
+    "end": 400.68,
     "speaker": "彥君",
     "text": "完全不受水分限制",
     "is_pinned": false,
@@ -1131,17 +1140,20 @@
     "commands": []
   },
   {
-    "start": 409.57,
-    "end": 416.49,
-    "speaker": "曉臻",
-    "text": "子房 → 果實 / 胚珠 → 種子]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "start": 400.88,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "植物口訣：子房 → 果實 / 胚珠 → 種子",
+    "is_pinned": true,
+    "pin_level": 4,
+    "commands": [
+      "釘選",
+      "植物口訣：子房 → 果實 / 胚珠 → 種子"
+    ]
   },
   {
-    "start": 416.69,
-    "end": 420.2,
+    "start": 406.3,
+    "end": 409.81,
     "speaker": "彥君",
     "text": "受精之後整個子房",
     "is_pinned": false,
@@ -1149,8 +1161,8 @@
     "commands": []
   },
   {
-    "start": 420.4,
-    "end": 423.17,
+    "start": 410.01,
+    "end": 412.78,
     "speaker": "彥君",
     "text": "會發育成果實",
     "is_pinned": false,
@@ -1158,8 +1170,8 @@
     "commands": []
   },
   {
-    "start": 423.37,
-    "end": 426.16,
+    "start": 412.98,
+    "end": 415.77,
     "speaker": "彥君",
     "text": "而子房裡面的胚珠",
     "is_pinned": false,
@@ -1169,8 +1181,8 @@
     ]
   },
   {
-    "start": 426.36,
-    "end": 429.03,
+    "start": 415.97,
+    "end": 418.64,
     "speaker": "彥君",
     "text": "會發育成種子",
     "is_pinned": false,
@@ -1178,8 +1190,8 @@
     "commands": []
   },
   {
-    "start": 429.23,
-    "end": 431.86,
+    "start": 418.84,
+    "end": 421.46,
     "speaker": "彥君",
     "text": "我再強調一遍",
     "is_pinned": false,
@@ -1187,8 +1199,8 @@
     "commands": []
   },
   {
-    "start": 432.06,
-    "end": 435.86,
+    "start": 421.66,
+    "end": 425.46,
     "speaker": "彥君",
     "text": "子房成果實胚珠成種子",
     "is_pinned": false,
@@ -1198,8 +1210,8 @@
     ]
   },
   {
-    "start": 436.06,
-    "end": 439.18,
+    "start": 425.66,
+    "end": 428.79,
     "speaker": "曉臻",
     "text": "老師為什麼有的水果",
     "is_pinned": false,
@@ -1207,8 +1219,8 @@
     "commands": []
   },
   {
-    "start": 439.38,
-    "end": 441.67,
+    "start": 428.99,
+    "end": 431.28,
     "speaker": "曉臻",
     "text": "只有一顆種子",
     "is_pinned": false,
@@ -1216,8 +1228,8 @@
     "commands": []
   },
   {
-    "start": 441.87,
-    "end": 444.4,
+    "start": 431.48,
+    "end": 434.01,
     "speaker": "曉臻",
     "text": "有的卻有一大堆呢",
     "is_pinned": false,
@@ -1225,8 +1237,8 @@
     "commands": []
   },
   {
-    "start": 444.6,
-    "end": 447.68,
+    "start": 434.21,
+    "end": 437.29,
     "speaker": "彥君",
     "text": "像桃子、芒果",
     "is_pinned": false,
@@ -1234,8 +1246,8 @@
     "commands": []
   },
   {
-    "start": 447.88,
-    "end": 451.25,
+    "start": 437.49,
+    "end": 440.86,
     "speaker": "彥君",
     "text": "它們的子房裡只有一個胚珠",
     "is_pinned": false,
@@ -1245,8 +1257,8 @@
     ]
   },
   {
-    "start": 451.45,
-    "end": 454.94,
+    "start": 441.06,
+    "end": 444.54,
     "speaker": "彥君",
     "text": "受精完就只會發育出",
     "is_pinned": false,
@@ -1254,8 +1266,8 @@
     "commands": []
   },
   {
-    "start": 455.14,
-    "end": 457.47,
+    "start": 444.74,
+    "end": 447.08,
     "speaker": "彥君",
     "text": "一顆種子",
     "is_pinned": false,
@@ -1263,8 +1275,8 @@
     "commands": []
   },
   {
-    "start": 457.67,
-    "end": 461.09,
+    "start": 447.28,
+    "end": 450.7,
     "speaker": "曉臻",
     "text": "那像西瓜、木瓜、芭樂呢",
     "is_pinned": false,
@@ -1272,8 +1284,8 @@
     "commands": []
   },
   {
-    "start": 461.29,
-    "end": 465.26,
+    "start": 450.9,
+    "end": 454.86,
     "speaker": "彥君",
     "text": "聰明這代表",
     "is_pinned": false,
@@ -1281,8 +1293,8 @@
     "commands": []
   },
   {
-    "start": 465.46,
-    "end": 468.97,
+    "start": 455.06,
+    "end": 458.58,
     "speaker": "彥君",
     "text": "它們的子房裡面有很多胚珠",
     "is_pinned": false,
@@ -1292,8 +1304,8 @@
     ]
   },
   {
-    "start": 469.17,
-    "end": 472.63,
+    "start": 458.78,
+    "end": 462.24,
     "speaker": "彥君",
     "text": "所以看到種子很多的水果",
     "is_pinned": false,
@@ -1301,8 +1313,8 @@
     "commands": []
   },
   {
-    "start": 472.83,
-    "end": 476.22,
+    "start": 462.44,
+    "end": 465.83,
     "speaker": "彥君",
     "text": "就代表當初的胚珠非常多",
     "is_pinned": false,
@@ -1312,8 +1324,8 @@
     ]
   },
   {
-    "start": 476.42,
-    "end": 478.86,
+    "start": 466.03,
+    "end": 468.46,
     "speaker": "彥君",
     "text": "胚珠的數量",
     "is_pinned": false,
@@ -1323,8 +1335,8 @@
     ]
   },
   {
-    "start": 479.06,
-    "end": 482.35,
+    "start": 468.66,
+    "end": 471.96,
     "speaker": "彥君",
     "text": "直接決定了種子的數量",
     "is_pinned": false,
@@ -1332,8 +1344,8 @@
     "commands": []
   },
   {
-    "start": 482.55,
-    "end": 485.82,
+    "start": 472.16,
+    "end": 475.43,
     "speaker": "曉臻",
     "text": "戰士們給大腦一點時間",
     "is_pinned": false,
@@ -1341,8 +1353,8 @@
     "commands": []
   },
   {
-    "start": 486.02,
-    "end": 488.53,
+    "start": 475.63,
+    "end": 478.14,
     "speaker": "曉臻",
     "text": "終極總複習來了",
     "is_pinned": false,
@@ -1350,62 +1362,80 @@
     "commands": []
   },
   {
-    "start": 488.73,
-    "end": 495.67,
+    "start": 478.34,
+    "end": 9999.0,
     "speaker": "曉臻",
-    "text": "不需受精、遺傳相同]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "一、無性生殖：不需受精、遺傳相同",
+    "is_pinned": true,
+    "pin_level": 5,
+    "commands": [
+      "釘選",
+      "一、無性生殖：不需受精、遺傳相同"
+    ]
   },
   {
-    "start": 495.87,
-    "end": 503.08,
+    "start": 483.73,
+    "end": 9999.0,
     "speaker": "曉臻",
-    "text": "需要受精、產生變異]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "二、有性生殖：需要受精、產生變異",
+    "is_pinned": true,
+    "pin_level": 6,
+    "commands": [
+      "釘選",
+      "二、有性生殖：需要受精、產生變異"
+    ]
   },
   {
-    "start": 503.28,
-    "end": 511.28,
+    "start": 489.31,
+    "end": 9999.0,
     "speaker": "曉臻",
-    "text": "水中進行、產卵數最多]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "三、體外受精：水中進行、產卵數最多",
+    "is_pinned": true,
+    "pin_level": 7,
+    "commands": [
+      "釘選",
+      "三、體外受精：水中進行、產卵數最多"
+    ]
   },
   {
-    "start": 511.48,
-    "end": 519.29,
+    "start": 495.42,
+    "end": 9999.0,
     "speaker": "曉臻",
-    "text": "成功率高、產卵數較少]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "四、體內受精：成功率高、產卵數較少",
+    "is_pinned": true,
+    "pin_level": 8,
+    "commands": [
+      "釘選",
+      "四、體內受精：成功率高、產卵數較少"
+    ]
   },
   {
-    "start": 519.49,
-    "end": 528.71,
+    "start": 501.34,
+    "end": 9999.0,
     "speaker": "曉臻",
-    "text": "卵生靠卵黃、胎生靠母體或卵黃]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "五、養分來源：卵生靠卵黃、胎生靠母體或卵黃",
+    "is_pinned": true,
+    "pin_level": 9,
+    "commands": [
+      "釘選",
+      "五、養分來源：卵生靠卵黃、胎生靠母體或卵黃"
+    ]
   },
   {
-    "start": 528.91,
-    "end": 536.89,
+    "start": 507.79,
+    "end": 9999.0,
     "speaker": "曉臻",
-    "text": "子房變果實、胚珠變種子]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "六、植物密碼：子房變果實、胚珠變種子",
+    "is_pinned": true,
+    "pin_level": 10,
+    "commands": [
+      "釘選",
+      "六、植物密碼：子房變果實、胚珠變種子"
+    ]
   },
   {
-    "start": 537.09,
-    "end": 539.59,
+    "start": 513.74,
+    "end": 516.24,
     "speaker": "曉臻",
     "text": "一、無性生殖",
     "is_pinned": false,
@@ -1413,8 +1443,8 @@
     "commands": []
   },
   {
-    "start": 539.79,
-    "end": 543.09,
+    "start": 516.44,
+    "end": 519.74,
     "speaker": "曉臻",
     "text": "不需受精維持優良品種",
     "is_pinned": false,
@@ -1422,8 +1452,8 @@
     "commands": []
   },
   {
-    "start": 543.29,
-    "end": 545.84,
+    "start": 519.94,
+    "end": 522.49,
     "speaker": "曉臻",
     "text": "二、有性生殖",
     "is_pinned": false,
@@ -1431,8 +1461,8 @@
     "commands": []
   },
   {
-    "start": 546.04,
-    "end": 549.19,
+    "start": 522.69,
+    "end": 525.84,
     "speaker": "曉臻",
     "text": "需要受精產生變異",
     "is_pinned": false,
@@ -1440,8 +1470,8 @@
     "commands": []
   },
   {
-    "start": 549.39,
-    "end": 551.92,
+    "start": 526.04,
+    "end": 528.57,
     "speaker": "曉臻",
     "text": "三、體外受精",
     "is_pinned": false,
@@ -1449,8 +1479,8 @@
     "commands": []
   },
   {
-    "start": 552.12,
-    "end": 555.66,
+    "start": 528.77,
+    "end": 532.3,
     "speaker": "曉臻",
     "text": "在水中進行產卵數最多",
     "is_pinned": false,
@@ -1458,8 +1488,8 @@
     "commands": []
   },
   {
-    "start": 555.86,
-    "end": 558.38,
+    "start": 532.5,
+    "end": 535.03,
     "speaker": "曉臻",
     "text": "四、體內受精",
     "is_pinned": false,
@@ -1467,8 +1497,8 @@
     "commands": []
   },
   {
-    "start": 558.58,
-    "end": 562.1,
+    "start": 535.23,
+    "end": 538.74,
     "speaker": "曉臻",
     "text": "成功率高產卵數量較少",
     "is_pinned": false,
@@ -1476,8 +1506,8 @@
     "commands": []
   },
   {
-    "start": 562.3,
-    "end": 564.73,
+    "start": 538.94,
+    "end": 541.38,
     "speaker": "曉臻",
     "text": "五、卵生胎生",
     "is_pinned": false,
@@ -1485,8 +1515,8 @@
     "commands": []
   },
   {
-    "start": 564.93,
-    "end": 567.17,
+    "start": 541.58,
+    "end": 543.82,
     "speaker": "曉臻",
     "text": "卵生靠卵黃",
     "is_pinned": false,
@@ -1494,8 +1524,8 @@
     "commands": []
   },
   {
-    "start": 567.37,
-    "end": 570.18,
+    "start": 544.02,
+    "end": 546.83,
     "speaker": "曉臻",
     "text": "胎生靠媽媽或卵黃",
     "is_pinned": false,
@@ -1503,8 +1533,8 @@
     "commands": []
   },
   {
-    "start": 570.38,
-    "end": 572.86,
+    "start": 547.03,
+    "end": 549.51,
     "speaker": "曉臻",
     "text": "六、植物密碼",
     "is_pinned": false,
@@ -1512,8 +1542,8 @@
     "commands": []
   },
   {
-    "start": 573.06,
-    "end": 576.62,
+    "start": 549.71,
+    "end": 553.27,
     "speaker": "曉臻",
     "text": "子房變果實胚珠變種子",
     "is_pinned": false,
@@ -1523,8 +1553,8 @@
     ]
   },
   {
-    "start": 576.82,
-    "end": 580.24,
+    "start": 553.47,
+    "end": 556.89,
     "speaker": "彥君",
     "text": "戰士們請閉上眼睛",
     "is_pinned": false,
@@ -1532,8 +1562,8 @@
     "commands": []
   },
   {
-    "start": 580.44,
-    "end": 582.85,
+    "start": 557.09,
+    "end": 559.5,
     "speaker": "彥君",
     "text": "好好想一下喔",
     "is_pinned": false,
@@ -1541,8 +1571,8 @@
     "commands": []
   },
   {
-    "start": 583.05,
-    "end": 586.25,
+    "start": 559.7,
+    "end": 562.9,
     "speaker": "彥君",
     "text": "如果孔雀魚生出小魚",
     "is_pinned": false,
@@ -1550,8 +1580,8 @@
     "commands": []
   },
   {
-    "start": 586.45,
-    "end": 589.02,
+    "start": 563.1,
+    "end": 565.67,
     "speaker": "彥君",
     "text": "養分是誰給的",
     "is_pinned": false,
@@ -1559,8 +1589,8 @@
     "commands": []
   },
   {
-    "start": 589.22,
-    "end": 591.75,
+    "start": 565.87,
+    "end": 568.4,
     "speaker": "曉臻",
     "text": "養分是卵黃給的",
     "is_pinned": false,
@@ -1568,8 +1598,8 @@
     "commands": []
   },
   {
-    "start": 591.95,
-    "end": 594.58,
+    "start": 568.6,
+    "end": 571.22,
     "speaker": "曉臻",
     "text": "媽媽絕對沒給養分",
     "is_pinned": false,
@@ -1577,8 +1607,8 @@
     "commands": []
   },
   {
-    "start": 594.78,
-    "end": 597.52,
+    "start": 571.42,
+    "end": 574.17,
     "speaker": "彥君",
     "text": "如果農夫想種出",
     "is_pinned": false,
@@ -1586,8 +1616,8 @@
     "commands": []
   },
   {
-    "start": 597.72,
-    "end": 600.27,
+    "start": 574.37,
+    "end": 576.92,
     "speaker": "彥君",
     "text": "一樣甜的西瓜呢",
     "is_pinned": false,
@@ -1595,8 +1625,8 @@
     "commands": []
   },
   {
-    "start": 600.47,
-    "end": 602.95,
+    "start": 577.12,
+    "end": 579.6,
     "speaker": "曉臻",
     "text": "要維持優良品種",
     "is_pinned": false,
@@ -1604,8 +1634,8 @@
     "commands": []
   },
   {
-    "start": 603.15,
-    "end": 605.87,
+    "start": 579.8,
+    "end": 582.52,
     "speaker": "曉臻",
     "text": "必須使用無性生殖",
     "is_pinned": false,
@@ -1613,8 +1643,8 @@
     "commands": []
   },
   {
-    "start": 606.07,
-    "end": 609.97,
+    "start": 582.72,
+    "end": 586.62,
     "speaker": "彥君",
     "text": "漂亮這就對了",
     "is_pinned": false,
@@ -1622,8 +1652,8 @@
     "commands": []
   },
   {
-    "start": 610.17,
-    "end": 613.06,
+    "start": 586.82,
+    "end": 589.7,
     "speaker": "彥君",
     "text": "這就是萬無一失的",
     "is_pinned": false,
@@ -1631,8 +1661,8 @@
     "commands": []
   },
   {
-    "start": 613.26,
-    "end": 616.31,
+    "start": 589.9,
+    "end": 592.96,
     "speaker": "彥君",
     "text": "生殖與遺傳邏輯",
     "is_pinned": false,
@@ -1640,8 +1670,8 @@
     "commands": []
   },
   {
-    "start": 616.51,
-    "end": 620.24,
+    "start": 593.16,
+    "end": 596.89,
     "speaker": "彥君",
     "text": "堅持到底勝利就在前方",
     "is_pinned": false,
@@ -1649,8 +1679,8 @@
     "commands": []
   },
   {
-    "start": 620.44,
-    "end": 623.04,
+    "start": 597.09,
+    "end": 599.69,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
@@ -1658,8 +1688,8 @@
     "commands": []
   },
   {
-    "start": 623.24,
-    "end": 625.58,
+    "start": 599.89,
+    "end": 602.22,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
@@ -1667,8 +1697,8 @@
     "commands": []
   },
   {
-    "start": 625.78,
-    "end": 629.1,
+    "start": 602.42,
+    "end": 605.74,
     "speaker": "合聲",
     "text": "生殖搞定滿血通關",
     "is_pinned": false,
@@ -1676,8 +1706,8 @@
     "commands": []
   },
   {
-    "start": 629.3,
-    "end": 632.59,
+    "start": 605.94,
+    "end": 609.24,
     "speaker": "合聲",
     "text": "戰士們下一關見",
     "is_pinned": false,
