@@ -1,266 +1,767 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.49,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們覺得喘不過氣了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.1,
+    "start": 3.69,
+    "end": 6.1,
     "speaker": "彥君",
-    "text": "各位衝 A 的戰士們我是彥君老師"
+    "text": "這是正常的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.1,
-    "end": 10.48,
+    "start": 6.3,
+    "end": 10.0,
     "speaker": "彥君",
-    "text": "翻開講義 第二十一頁"
+    "text": "因為你現在正在走上坡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 10.48,
-    "end": 15.49,
+    "start": 10.2,
+    "end": 13.42,
     "speaker": "彥君",
-    "text": "這裡是 分類學的起點也是必拿的 送分題"
+    "text": "瞄準第一志願的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 15.49,
-    "end": 19.42,
+    "start": 13.62,
+    "end": 17.54,
     "speaker": "彥君",
-    "text": "我們先來 聊聊什麼 叫做『種』"
+    "text": "深呼吸我們一起拿下這局",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.42,
-    "end": 22.92,
+    "start": 17.74,
+    "end": 20.34,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.54,
+    "end": 23.62,
+    "speaker": "彥君",
+    "text": "翻開講義第二十一頁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.82,
+    "end": 26.9,
+    "speaker": "彥君",
+    "text": "這裡是分類學的起點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 27.1,
+    "end": 30.06,
+    "speaker": "彥君",
+    "text": "也是必拿的送分題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 30.26,
+    "end": 32.89,
+    "speaker": "彥君",
+    "text": "我們先來聊聊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 33.09,
+    "end": 36.1,
+    "speaker": "彥君",
+    "text": "到底什麼叫做「種」",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 36.3,
+    "end": 39.5,
     "speaker": "曉臻",
-    "text": "大家好我是曉臻助教"
+    "text": "大家好我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.92,
-    "end": 27.5,
+    "start": 39.7,
+    "end": 42.92,
     "speaker": "曉臻",
-    "text": "老師為什麼馬和驢子 可以生出騾子"
+    "text": "老師為什麼馬和驢子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.5,
-    "end": 31.53,
+    "start": 43.12,
+    "end": 45.41,
     "speaker": "曉臻",
-    "text": "但我們卻說 馬和驢子是 不同種呢"
+    "text": "可以生出騾子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 31.53,
-    "end": 35.87,
-    "speaker": "彥君",
-    "text": "戰士們請拿紅筆 寫下種的定義"
-  },
-  {
-    "start": 35.87,
-    "end": 40.26,
-    "speaker": "彥君",
-    "text": "第一要在 自然狀態下 能夠交配"
-  },
-  {
-    "start": 40.26,
-    "end": 44.84,
-    "speaker": "彥君",
-    "text": "第二產生的後代 也要有繁殖能力"
-  },
-  {
-    "start": 44.84,
-    "end": 49.39,
-    "speaker": "彥君",
-    "text": "聽清楚喔後代必須 還能生出孫子"
-  },
-  {
-    "start": 49.39,
-    "end": 54.19,
-    "speaker": "彥君",
-    "text": "騾子沒有 生育能力所以馬跟驢 不同種"
-  },
-  {
-    "start": 54.19,
-    "end": 59.85,
+    "start": 45.61,
+    "end": 47.73,
     "speaker": "曉臻",
-    "text": "了解那這頁 提到的二名法我們要 怎麼看呢"
+    "text": "但我們卻說",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 59.85,
-    "end": 63.76,
-    "speaker": "彥君",
-    "text": "二名法 就像是 生物的身分證"
-  },
-  {
-    "start": 63.76,
-    "end": 69.18,
-    "speaker": "彥君",
-    "text": "由拉丁文構成第一個字 是屬名它是個名詞"
-  },
-  {
-    "start": 69.18,
-    "end": 73.66,
-    "speaker": "彥君",
-    "text": "第二個字 是種小名它是個形容詞"
-  },
-  {
-    "start": 73.66,
-    "end": 78.12,
-    "speaker": "彥君",
-    "text": "這裡要注意 學名的寫法非常重要"
-  },
-  {
-    "start": 78.12,
-    "end": 82.24,
-    "speaker": "彥君",
-    "text": "屬名的 第一個字母一定要大寫"
-  },
-  {
-    "start": 82.24,
-    "end": 86.54,
-    "speaker": "彥君",
-    "text": "種小名的字母通通 都要小寫"
-  },
-  {
-    "start": 86.54,
-    "end": 91.07,
-    "speaker": "彥君",
-    "text": "屬名大寫開頭種小名 全小寫"
-  },
-  {
-    "start": 91.07,
-    "end": 95.55,
-    "speaker": "彥君",
-    "text": "如果是 印刷字體記得要用 斜體字喔"
-  },
-  {
-    "start": 95.55,
-    "end": 99.96,
+    "start": 47.93,
+    "end": 50.79,
     "speaker": "曉臻",
-    "text": "老師如果兩隻生物的 種小名一樣"
+    "text": "馬和驢子是不同種呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 99.96,
-    "end": 102.86,
+    "start": 50.99,
+    "end": 54.22,
+    "speaker": "彥君",
+    "text": "戰士們請拿紅筆",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 54.42,
+    "end": 57.45,
+    "speaker": "彥君",
+    "text": "寫下「種」的最強定義",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 57.65,
+    "end": 68.26,
     "speaker": "曉臻",
-    "text": "它們就是 同一種嗎"
+    "text": "自然交配 + 後代具繁殖力}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 102.86,
-    "end": 108.33,
+    "start": 68.46,
+    "end": 70.7,
     "speaker": "彥君",
-    "text": "絕對不是這是考卷 最大的陷阱"
+    "text": "聽清楚喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 108.33,
-    "end": 113.03,
+    "start": 70.9,
+    "end": 74.32,
     "speaker": "彥君",
-    "text": "種小名 只是形容詞用來描述特徵"
+    "text": "後代必須還能生出孫子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 113.03,
-    "end": 117.11,
+    "start": 74.52,
+    "end": 77.41,
     "speaker": "彥君",
-    "text": "就像是 德國蟑螂 跟德國狼犬"
+    "text": "騾子沒有生育能力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 117.11,
-    "end": 122.24,
+    "start": 77.61,
+    "end": 81.31,
     "speaker": "彥君",
-    "text": "雖然都有 德國兩個字但親緣關係 超級遠"
+    "text": "所以馬跟驢絕對不同種",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 122.24,
-    "end": 127.2,
-    "speaker": "彥君",
-    "text": "只有 屬名和種小名 全對才叫做同種"
-  },
-  {
-    "start": 127.2,
-    "end": 132.02,
+    "start": 81.51,
+    "end": 85.6,
     "speaker": "曉臻",
-    "text": "那界門綱目 科屬種 的分類階層要怎麼記"
+    "text": "了解那這頁提到的二名法",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 132.02,
-    "end": 134.85,
-    "speaker": "彥君",
-    "text": "同下必同上"
-  },
-  {
-    "start": 134.85,
-    "end": 138.74,
-    "speaker": "彥君",
-    "text": "同屬必同科同科必同目"
-  },
-  {
-    "start": 138.74,
-    "end": 143.36,
-    "speaker": "彥君",
-    "text": "下面的分類對了上面的 就一定會對"
-  },
-  {
-    "start": 143.36,
-    "end": 146.72,
+    "start": 85.8,
+    "end": 88.42,
     "speaker": "曉臻",
-    "text": "後代必須 具有繁殖能力"
+    "text": "我們到底要怎麼看呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 146.72,
-    "end": 151.68,
-    "speaker": "曉臻",
-    "text": "屬名大寫、種小名小寫、印刷用斜體"
-  },
-  {
-    "start": 151.68,
-    "end": 154.87,
-    "speaker": "曉臻",
-    "text": "相同特徵 不代表同種"
-  },
-  {
-    "start": 154.87,
-    "end": 158.2,
-    "speaker": "曉臻",
-    "text": "層級愈小親緣愈近"
-  },
-  {
-    "start": 158.2,
-    "end": 163.72,
+    "start": 88.62,
+    "end": 92.47,
     "speaker": "彥君",
-    "text": "獅子和老虎 可以生下獅虎但獅虎 不能生小孩"
+    "text": "撐過這關後面就是坦途",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 163.72,
-    "end": 167.7,
+    "start": 92.67,
+    "end": 95.32,
     "speaker": "彥君",
-    "text": "請問 獅子和老虎 是同種生物嗎"
+    "text": "二名法就像是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 167.7,
-    "end": 172.54,
+    "start": 95.52,
+    "end": 98.62,
+    "speaker": "彥君",
+    "text": "生物的專屬身分證",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 98.82,
+    "end": 101.93,
+    "speaker": "彥君",
+    "text": "這裡要注意學名的寫法",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 102.13,
+    "end": 104.99,
+    "speaker": "彥君",
+    "text": "考卷上非常愛考",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 105.19,
+    "end": 108.06,
+    "speaker": "彥君",
+    "text": "屬名的第一個字母",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 108.26,
+    "end": 110.62,
+    "speaker": "彥君",
+    "text": "一定要大寫",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 110.82,
+    "end": 113.46,
+    "speaker": "彥君",
+    "text": "種小名的字母",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 113.66,
+    "end": 116.38,
+    "speaker": "彥君",
+    "text": "通通都要小寫",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 116.58,
+    "end": 119.23,
+    "speaker": "彥君",
+    "text": "我再強調一次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 119.43,
+    "end": 122.15,
+    "speaker": "彥君",
+    "text": "屬名大寫開頭",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 122.35,
+    "end": 125.17,
+    "speaker": "彥君",
+    "text": "種小名全小寫",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 125.37,
+    "end": 128.38,
+    "speaker": "彥君",
+    "text": "如果是印刷的字體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 128.58,
+    "end": 131.37,
+    "speaker": "彥君",
+    "text": "記得要用斜體字喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 131.57,
+    "end": 134.82,
     "speaker": "曉臻",
-    "text": "答案不是因為後代 沒有繁殖能力"
+    "text": "老師如果兩隻生物的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 172.54,
-    "end": 177.99,
-    "speaker": "彥君",
-    "text": "漂亮這就是 分類學的 最強邏輯"
-  },
-  {
-    "start": 177.99,
-    "end": 180.89,
-    "speaker": "彥君",
-    "text": "我是彥君老師"
-  },
-  {
-    "start": 180.89,
-    "end": 183.52,
+    "start": 135.02,
+    "end": 137.47,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "種小名一模一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 183.52,
-    "end": 188.49,
+    "start": 137.67,
+    "end": 140.27,
+    "speaker": "曉臻",
+    "text": "它們就是同一種嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 140.47,
+    "end": 142.76,
+    "speaker": "彥君",
+    "text": "絕對不是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 142.96,
+    "end": 146.16,
+    "speaker": "彥君",
+    "text": "這是考卷最大的陷阱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 146.36,
+    "end": 149.54,
+    "speaker": "彥君",
+    "text": "種小名只是形容詞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 149.74,
+    "end": 152.65,
+    "speaker": "彥君",
+    "text": "用來描述特徵而已",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 152.85,
+    "end": 155.78,
+    "speaker": "彥君",
+    "text": "就像是德國蟑螂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 155.98,
+    "end": 158.54,
+    "speaker": "彥君",
+    "text": "跟德國狼犬",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 158.74,
+    "end": 161.91,
+    "speaker": "彥君",
+    "text": "雖然都有德國兩個字",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 162.11,
+    "end": 165.24,
+    "speaker": "彥君",
+    "text": "但親緣關係超級遠",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 165.44,
+    "end": 168.83,
+    "speaker": "彥君",
+    "text": "只有屬名和種小名全對",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 169.03,
+    "end": 171.97,
+    "speaker": "彥君",
+    "text": "才叫做同種生物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 172.17,
+    "end": 174.84,
+    "speaker": "曉臻",
+    "text": "那界門綱目科屬種",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 175.04,
+    "end": 177.59,
+    "speaker": "曉臻",
+    "text": "這七個分類階層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 177.79,
+    "end": 179.98,
+    "speaker": "曉臻",
+    "text": "到底要怎麼記",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 180.18,
+    "end": 183.46,
+    "speaker": "彥君",
+    "text": "這題拿到你就贏了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 183.66,
+    "end": 191.25,
+    "speaker": "曉臻",
+    "text": "同下必同上}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 191.45,
+    "end": 195.06,
+    "speaker": "彥君",
+    "text": "記住口訣同下必同上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 195.26,
+    "end": 197.69,
+    "speaker": "彥君",
+    "text": "同屬必同科",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 197.89,
+    "end": 200.37,
+    "speaker": "彥君",
+    "text": "同科必同目",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 200.57,
+    "end": 203.7,
+    "speaker": "彥君",
+    "text": "下面的分類如果對了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 203.9,
+    "end": 206.86,
+    "speaker": "彥君",
+    "text": "上面的就一定會對",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 207.06,
+    "end": 210.33,
+    "speaker": "曉臻",
+    "text": "戰士們給大腦一點時間",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 210.53,
+    "end": 213.7,
+    "speaker": "曉臻",
+    "text": "最後來個分類學總複習",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 213.9,
+    "end": 220.58,
+    "speaker": "曉臻",
+    "text": "後代具繁殖能力}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 220.78,
+    "end": 229.24,
+    "speaker": "曉臻",
+    "text": "屬名大、種小名小}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 229.44,
+    "end": 236.84,
+    "speaker": "曉臻",
+    "text": "層級愈小親緣愈近}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 237.04,
+    "end": 240.46,
+    "speaker": "彥君",
+    "text": "戰士們請閉上眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 240.66,
+    "end": 243.06,
+    "speaker": "彥君",
+    "text": "好好想一下喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 243.26,
+    "end": 245.89,
+    "speaker": "彥君",
+    "text": "獅子和老虎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 246.09,
+    "end": 248.74,
+    "speaker": "彥君",
+    "text": "可以生下獅虎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 248.94,
+    "end": 252.02,
+    "speaker": "彥君",
+    "text": "但獅虎不能生小孩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 252.22,
+    "end": 255.15,
+    "speaker": "彥君",
+    "text": "請問獅子和老虎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 255.35,
+    "end": 257.81,
+    "speaker": "彥君",
+    "text": "是同種生物嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 258.01,
+    "end": 260.25,
+    "speaker": "曉臻",
+    "text": "答案絕對不是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 260.45,
+    "end": 263.41,
+    "speaker": "曉臻",
+    "text": "因為後代沒有繁殖能力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 263.61,
+    "end": 265.66,
+    "speaker": "彥君",
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 265.86,
+    "end": 268.77,
+    "speaker": "彥君",
+    "text": "這就是頂峰戰士",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 268.97,
+    "end": 271.78,
+    "speaker": "彥君",
+    "text": "該有的最強邏輯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 271.98,
+    "end": 275.14,
+    "speaker": "彥君",
+    "text": "你比想像中更強大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 275.34,
+    "end": 278.37,
+    "speaker": "彥君",
+    "text": "老師會陪你戰到底",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 278.57,
+    "end": 281.17,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 281.37,
+    "end": 283.7,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 283.9,
+    "end": 287.42,
     "speaker": "合聲",
-    "text": "分類分得好會考沒煩惱下一關見"
+    "text": "分類分得好會考沒煩惱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 287.62,
+    "end": 290.02,
+    "speaker": "合聲",
+    "text": "下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
