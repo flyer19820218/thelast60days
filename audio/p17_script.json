@@ -1,626 +1,1593 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.37,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 今晚的進度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.1,
+    "start": 3.57,
+    "end": 6.02,
     "speaker": "彥君",
-    "text": "各位衝 A 的戰士們我是彥君老師"
+    "text": "已經 到了這裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.1,
-    "end": 10.31,
+    "start": 6.22,
+    "end": 9.52,
     "speaker": "彥君",
-    "text": "翻開講義 第十七頁"
+    "text": "喝口水 伸個懶腰",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 10.31,
-    "end": 15.42,
+    "start": 9.72,
+    "end": 12.51,
     "speaker": "彥君",
-    "text": "同學們這裡非常重要真的 非常重要"
+    "text": "只要你 還沒放棄",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 15.42,
-    "end": 19.54,
+    "start": 12.71,
+    "end": 15.24,
     "speaker": "彥君",
-    "text": "我們要對比 生命延續的 兩大策略"
+    "text": "頂峰的風景",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.54,
-    "end": 23.54,
+    "start": 15.44,
+    "end": 18.3,
     "speaker": "彥君",
-    "text": "也就是 無性生殖 與 有性生殖"
+    "text": "就一定有 你的位置",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 23.54,
-    "end": 27.04,
+    "start": 18.5,
+    "end": 21.68,
+    "speaker": "彥君",
+    "text": "歡迎來到 第十七集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 21.88,
+    "end": 24.48,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 24.68,
+    "end": 26.42,
     "speaker": "曉臻",
-    "text": "大家好我是曉臻助教"
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.04,
-    "end": 31.62,
+    "start": 26.62,
+    "end": 28.95,
     "speaker": "曉臻",
-    "text": "老師為什麼 有些生物 要那麼辛苦受精"
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 31.62,
-    "end": 35.08,
+    "start": 29.15,
+    "end": 32.06,
+    "speaker": "彥君",
+    "text": "翻開講義 第十七頁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 32.26,
+    "end": 35.78,
+    "speaker": "彥君",
+    "text": "同學們 這裡非常重要",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 35.98,
+    "end": 38.62,
+    "speaker": "彥君",
+    "text": "真的 非常重要",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 38.82,
+    "end": 42.48,
+    "speaker": "彥君",
+    "text": "我們要對比 生命延續的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 42.68,
+    "end": 45.02,
+    "speaker": "彥君",
+    "text": "兩大策略",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 45.22,
+    "end": 48.49,
+    "speaker": "彥君",
+    "text": "無性生殖 與 有性生殖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 48.69,
+    "end": 51.79,
     "speaker": "曉臻",
-    "text": "有些卻 直接分裂 就好了呢"
+    "text": "老師 為什麼 有些生物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 35.08,
-    "end": 40.06,
-    "speaker": "彥君",
-    "text": "戰士們這一切的 關鍵就在 基因多樣性"
-  },
-  {
-    "start": 40.06,
-    "end": 44.04,
-    "speaker": "彥君",
-    "text": "我們先看 講義左邊的 無性生殖"
-  },
-  {
-    "start": 44.04,
-    "end": 47.9,
-    "speaker": "彥君",
-    "text": "不需受精、速度非常快"
-  },
-  {
-    "start": 47.9,
-    "end": 52.32,
-    "speaker": "彥君",
-    "text": "而且 遺傳物質 會跟親代 完全相同"
-  },
-  {
-    "start": 52.32,
-    "end": 56.68,
+    "start": 51.99,
+    "end": 54.38,
     "speaker": "曉臻",
-    "text": "就像 影印機一樣印出來 一模一樣嗎"
+    "text": "要那麼辛苦 受精",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 56.68,
-    "end": 62.15,
-    "speaker": "彥君",
-    "text": "沒錯子代跟親代 長得一模一樣"
-  },
-  {
-    "start": 62.15,
-    "end": 67.04,
-    "speaker": "彥君",
-    "text": "因為 它只有進行 細胞分裂沒有 減數分裂"
-  },
-  {
-    "start": 67.04,
-    "end": 71.02,
+    "start": 54.58,
+    "end": 57.73,
     "speaker": "曉臻",
-    "text": "那有哪些 常見的 無性生殖方式呢"
+    "text": "有些卻 直接分裂 就好了呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 71.02,
-    "end": 75.26,
+    "start": 57.93,
+    "end": 61.44,
     "speaker": "彥君",
-    "text": "像是 草履蟲 跟變形蟲的 分裂生殖"
+    "text": "戰士們 這一切的關鍵",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 75.26,
-    "end": 79.44,
+    "start": 61.64,
+    "end": 64.46,
     "speaker": "彥君",
-    "text": "還有 水螅 和 酵母菌的 出芽生殖"
+    "text": "就在 基因多樣性",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 79.44,
-    "end": 84.09,
+    "start": 64.66,
+    "end": 67.69,
     "speaker": "彥君",
-    "text": "另外 渦蟲切兩半 會變兩隻的 斷裂生殖"
+    "text": "我們先看 講義左邊的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 84.09,
-    "end": 87.92,
+    "start": 67.89,
+    "end": 70.34,
     "speaker": "彥君",
-    "text": "以及 麵包黴菌的 孢子繁殖"
+    "text": "無性生殖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 87.92,
-    "end": 91.69,
+    "start": 70.54,
+    "end": 73.19,
+    "speaker": "彥君",
+    "text": "它的關鍵字是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 73.39,
+    "end": 76.98,
+    "speaker": "彥君",
+    "text": "不需受精 速度非常快",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 77.18,
+    "end": 79.99,
+    "speaker": "彥君",
+    "text": "而且 遺傳物質",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 80.19,
+    "end": 83.37,
+    "speaker": "彥君",
+    "text": "會跟親代 完全相同",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 83.57,
+    "end": 189.2,
+    "speaker": "彥君",
+    "text": "\\text{無性生殖： 不需受精， 遺傳物質與親代相同}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{無性生殖： 不需受精， 遺傳物質與親代相同}"
+    ]
+  },
+  {
+    "start": 88.98,
+    "end": 91.42,
     "speaker": "曉臻",
-    "text": "那植物 也可以 進行 無性生殖嗎"
+    "text": "就像 影印機一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 91.69,
-    "end": 97.13,
-    "speaker": "彥君",
-    "text": "可以的我們 稱為 營養器官繁殖"
-  },
-  {
-    "start": 97.13,
-    "end": 101.66,
-    "speaker": "彥君",
-    "text": "利用根、莖、葉 來繁殖下一代"
-  },
-  {
-    "start": 101.66,
-    "end": 106.6,
-    "speaker": "彥君",
-    "text": "像是 馬鈴薯的塊莖、還有 落地生根的葉片"
-  },
-  {
-    "start": 106.6,
-    "end": 110.8,
-    "speaker": "彥君",
-    "text": "農夫 種植蘭花 用的 組織培養 也是喔"
-  },
-  {
-    "start": 110.8,
-    "end": 115.64,
+    "start": 91.62,
+    "end": 94.19,
     "speaker": "曉臻",
-    "text": "那如果 大家都用 無性生殖不是 比較方便嗎"
+    "text": "印出來 一模一樣嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 115.64,
-    "end": 120.78,
+    "start": 94.39,
+    "end": 96.49,
     "speaker": "彥君",
-    "text": "錯這就是 無性生殖的 致命傷"
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 120.78,
-    "end": 124.8,
+    "start": 96.69,
+    "end": 100.08,
     "speaker": "彥君",
-    "text": "因為大家 遺傳物質 都完全一樣"
+    "text": "子代跟親代 長得一模一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 124.8,
-    "end": 128.9,
+    "start": 100.28,
+    "end": 103.7,
     "speaker": "彥君",
-    "text": "一旦環境改變 或是 病毒來襲"
+    "text": "因為它 只有進行細胞分裂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.9,
-    "end": 133.58,
+    "start": 103.9,
+    "end": 106.59,
     "speaker": "彥君",
-    "text": "因為沒有 產生變異很容易 全軍覆沒"
+    "text": "沒有 減數分裂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 133.58,
-    "end": 137.7,
+    "start": 106.79,
+    "end": 109.3,
     "speaker": "曉臻",
-    "text": "所以這就是 有性生殖 存在的意義囉"
+    "text": "那有哪些 常見的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 137.7,
-    "end": 143.99,
-    "speaker": "彥君",
-    "text": "沒錯戰士們 請記住 有性生殖的 三大步驟"
-  },
-  {
-    "start": 143.99,
-    "end": 148.14,
-    "speaker": "彥君",
-    "text": "第一步減數分裂 產生配子"
-  },
-  {
-    "start": 148.14,
-    "end": 152.4,
-    "speaker": "彥君",
-    "text": "第二步精卵結合的 受精作用"
-  },
-  {
-    "start": 152.4,
-    "end": 157.3,
-    "speaker": "彥君",
-    "text": "第三步受精卵 進行 細胞分裂 長大"
-  },
-  {
-    "start": 157.3,
-    "end": 161.42,
-    "speaker": "彥君",
-    "text": "有性生殖 結合了 父母雙方的基因"
-  },
-  {
-    "start": 161.42,
-    "end": 164.87,
-    "speaker": "彥君",
-    "text": "所以子代 會產生變異"
-  },
-  {
-    "start": 164.87,
-    "end": 170.08,
-    "speaker": "彥君",
-    "text": "變異是為了讓物種 在惡劣環境中 活下去"
-  },
-  {
-    "start": 170.08,
-    "end": 174.58,
+    "start": 109.5,
+    "end": 112.0,
     "speaker": "曉臻",
-    "text": "這對 物種演化 來說真的 非常重要耶"
+    "text": "無性生殖 方式呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 174.58,
-    "end": 179.28,
+    "start": 112.2,
+    "end": 115.57,
     "speaker": "彥君",
-    "text": "接下來我們要進攻 動物的 有性生殖"
+    "text": "像是 草履蟲 跟變形蟲",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 179.28,
-    "end": 184.01,
+    "start": 115.77,
+    "end": 118.58,
+    "speaker": "彥君",
+    "text": "進行 分裂生殖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 118.78,
+    "end": 122.06,
+    "speaker": "彥君",
+    "text": "還有 水螅 和酵母菌的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "水螅"
+    ]
+  },
+  {
+    "start": 122.26,
+    "end": 124.74,
+    "speaker": "彥君",
+    "text": "出芽生殖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 124.94,
+    "end": 128.35,
+    "speaker": "彥君",
+    "text": "渦蟲切兩半 會變兩隻的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 128.55,
+    "end": 130.94,
+    "speaker": "彥君",
+    "text": "斷裂生殖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 131.14,
+    "end": 133.93,
+    "speaker": "彥君",
+    "text": "以及 麵包黴菌的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 134.13,
+    "end": 136.54,
+    "speaker": "彥君",
+    "text": "孢子繁殖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 136.74,
+    "end": 139.34,
     "speaker": "曉臻",
-    "text": "老師體外受精 是不是 都在水裡進行"
+    "text": "那植物 也可以進行",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 184.01,
-    "end": 190.27,
-    "speaker": "彥君",
-    "text": "聰明像是 魚類 和兩生類也就是青蛙"
-  },
-  {
-    "start": 190.27,
-    "end": 195.3,
-    "speaker": "彥君",
-    "text": "精子必須 游過去找卵子所以 一定需要水"
-  },
-  {
-    "start": 195.3,
-    "end": 199.48,
-    "speaker": "彥君",
-    "text": "因為在體外 很容易 被吃掉 或流失"
-  },
-  {
-    "start": 199.48,
-    "end": 203.46,
-    "speaker": "彥君",
-    "text": "所以 牠們一次 要產下 非常多的卵"
-  },
-  {
-    "start": 203.46,
-    "end": 207.82,
+    "start": 139.54,
+    "end": 141.63,
     "speaker": "曉臻",
-    "text": "那 體內受精 呢有什麼優點"
+    "text": "無性生殖 嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 207.82,
-    "end": 212.52,
+    "start": 141.83,
+    "end": 143.95,
     "speaker": "彥君",
-    "text": "體內受精 的精卵是在 母體內結合"
+    "text": "可以的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 212.52,
-    "end": 217.56,
+    "start": 144.15,
+    "end": 147.98,
     "speaker": "彥君",
-    "text": "像是 爬蟲類、鳥類、還有 哺乳動物"
+    "text": "利用 根、 莖、 葉來繁殖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 217.56,
-    "end": 222.45,
+    "start": 148.18,
+    "end": 151.38,
     "speaker": "彥君",
-    "text": "因為 受精成功率 比較高產卵數 就比較少"
+    "text": "稱為 營養器官繁殖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 222.45,
-    "end": 226.96,
+    "start": 151.58,
+    "end": 154.39,
+    "speaker": "彥君",
+    "text": "像是 馬鈴薯的塊莖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 154.59,
+    "end": 157.72,
+    "speaker": "彥君",
+    "text": "還有 落地生根的葉片",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 157.92,
+    "end": 161.14,
+    "speaker": "彥君",
+    "text": "蘭花用的 組織培養 也是喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 161.34,
+    "end": 164.52,
     "speaker": "曉臻",
-    "text": "老師那 卵生 和 胎生 又要怎麼區分"
+    "text": "那如果 大家都用無性生殖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 226.96,
-    "end": 232.81,
-    "speaker": "彥君",
-    "text": "這個 會考超級愛考關鍵在 養分來源"
-  },
-  {
-    "start": 232.81,
-    "end": 237.44,
-    "speaker": "彥君",
-    "text": "卵生的寶寶養分來自 卵裡面的 卵黃"
-  },
-  {
-    "start": 237.44,
-    "end": 242.33,
-    "speaker": "彥君",
-    "text": "像是 雞蛋裡面的 蛋黃就是 提供養分的"
-  },
-  {
-    "start": 242.33,
-    "end": 247.12,
+    "start": 164.72,
+    "end": 167.18,
     "speaker": "曉臻",
-    "text": "所以 母雞孵蛋是不會 提供養分 給小雞的"
+    "text": "不是 比較方便嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 247.12,
-    "end": 252.14,
+    "start": 167.38,
+    "end": 172.06,
     "speaker": "彥君",
-    "text": "沒錯那 胎生 就不一樣了"
+    "text": "錯 這是 無性生殖的致命傷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 252.14,
-    "end": 256.6,
+    "start": 172.26,
+    "end": 175.87,
     "speaker": "彥君",
-    "text": "胎生的寶寶留在 媽媽的子宮裡 發育"
+    "text": "因為大家 遺傳物質完全一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 256.6,
-    "end": 261.56,
+    "start": 176.07,
+    "end": 179.85,
     "speaker": "彥君",
-    "text": "養分是 透過 胎盤跟臍帶由媽媽 供應的"
+    "text": "只要 環境改變 或是病毒來襲",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 261.56,
-    "end": 266.07,
+    "start": 180.05,
+    "end": 182.94,
+    "speaker": "彥君",
+    "text": "因為 沒有產生變異",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 183.14,
+    "end": 186.0,
+    "speaker": "彥君",
+    "text": "很容易 全軍覆沒",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 189.2,
+    "end": 191.39,
     "speaker": "曉臻",
-    "text": "我們人類 還有 貓貓狗狗都是胎生 對吧"
+    "text": "所以 這就是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 266.07,
-    "end": 268.49,
-    "speaker": "彥君",
-    "text": "卵胎生"
-  },
-  {
-    "start": 268.49,
-    "end": 273.33,
+    "start": 191.59,
+    "end": 194.58,
     "speaker": "曉臻",
-    "text": "卵胎生聽起來 像卵生 又像胎生"
+    "text": "有性生殖 存在的意義囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 273.33,
-    "end": 277.1,
+    "start": 194.78,
+    "end": 199.32,
     "speaker": "彥君",
-    "text": "像是 孔雀魚 還有 大肚魚"
+    "text": "沒錯 戰士們 請記住",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 277.1,
-    "end": 282.25,
+    "start": 199.52,
+    "end": 202.62,
     "speaker": "彥君",
-    "text": "卵 留在媽媽體內 孵化但是 養分來自卵黃"
+    "text": "有性生殖的 三大步驟",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 282.25,
-    "end": 287.1,
+    "start": 202.82,
+    "end": 206.43,
     "speaker": "彥君",
-    "text": "媽媽 不提供養分只提供 保護的空間"
+    "text": "第一 減數分裂 產生配子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 287.1,
-    "end": 292.95,
+    "start": 206.63,
+    "end": 210.41,
     "speaker": "彥君",
-    "text": "孵化後 直接 生出小魚這就是 卵胎生"
+    "text": "第二 精卵結合的 受精作用",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 292.95,
-    "end": 298.68,
+    "start": 210.61,
+    "end": 214.6,
     "speaker": "彥君",
-    "text": "不過現在的教材改成胎生囉別搞錯了"
+    "text": "第三 受精卵 細胞分裂長大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 298.68,
-    "end": 303.28,
+    "start": 214.8,
+    "end": 217.57,
     "speaker": "彥君",
-    "text": "只要一生出來的不是卵我們就稱為胎生"
+    "text": "有性生殖 結合了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 303.28,
-    "end": 308.8,
+    "start": 217.77,
+    "end": 220.44,
+    "speaker": "彥君",
+    "text": "父母雙方的 基因",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 220.64,
+    "end": 223.79,
+    "speaker": "彥君",
+    "text": "所以 子代會產生變異",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 223.99,
+    "end": 227.34,
+    "speaker": "彥君",
+    "text": "變異 是為了讓物種",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 227.54,
+    "end": 230.71,
+    "speaker": "彥君",
+    "text": "在惡劣環境中 活下去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 230.91,
+    "end": 239.09,
+    "speaker": "彥君",
+    "text": "\\text{有性生殖： 需受精， 產生變異以適應環境}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{有性生殖： 需受精， 產生變異以適應環境}"
+    ]
+  },
+  {
+    "start": 239.09,
+    "end": 241.95,
     "speaker": "曉臻",
-    "text": "哇動物生殖 真複雜那 植物呢"
+    "text": "接下來 我們要進攻",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 308.8,
-    "end": 313.69,
-    "speaker": "彥君",
-    "text": "接下來我們要來拆解 花和果實的秘密"
-  },
-  {
-    "start": 313.69,
-    "end": 318.32,
-    "speaker": "彥君",
-    "text": "植物的有性生殖生殖器官 就是花"
-  },
-  {
-    "start": 318.32,
-    "end": 322.76,
-    "speaker": "彥君",
-    "text": "請大家 盯緊講義上 那個子房的構造"
-  },
-  {
-    "start": 322.76,
-    "end": 327.46,
-    "speaker": "彥君",
-    "text": "花粉 傳到雌蕊後會長出 花粉管"
-  },
-  {
-    "start": 327.46,
-    "end": 331.44,
-    "speaker": "彥君",
-    "text": "讓精細胞 游進去 跟卵結合"
-  },
-  {
-    "start": 331.44,
-    "end": 336.66,
-    "speaker": "彥君",
-    "text": "因為有 花粉管所以植物受精 不受水分限制"
-  },
-  {
-    "start": 336.66,
-    "end": 341.53,
-    "speaker": "彥君",
-    "text": "受精之後整個子房 會發育成果實"
-  },
-  {
-    "start": 341.53,
-    "end": 345.99,
-    "speaker": "彥君",
-    "text": "而子房裡面的 胚珠會發育成 種子"
-  },
-  {
-    "start": 345.99,
-    "end": 350.14,
-    "speaker": "彥君",
-    "text": "子房成果實胚珠成種子"
-  },
-  {
-    "start": 350.14,
-    "end": 354.67,
+    "start": 242.15,
+    "end": 244.63,
     "speaker": "曉臻",
-    "text": "老師那為什麼 有的水果 只有一顆種子"
+    "text": "動物的 有性生殖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 354.67,
-    "end": 357.91,
+    "start": 244.83,
+    "end": 247.6,
+    "speaker": "彥君",
+    "text": "體外受精 的精卵",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 247.8,
+    "end": 251.22,
+    "speaker": "彥君",
+    "text": "像是魚類 和兩生類的青蛙",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 251.42,
+    "end": 254.74,
+    "speaker": "彥君",
+    "text": "精子 必須游過去找卵子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 254.94,
+    "end": 257.87,
+    "speaker": "彥君",
+    "text": "所以 一定需要水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 258.07,
+    "end": 261.37,
+    "speaker": "彥君",
+    "text": "為了避免 被吃掉或流失",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 261.57,
+    "end": 264.98,
+    "speaker": "彥君",
+    "text": "牠們一次 要產下非常多的卵",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 265.18,
+    "end": 267.5,
     "speaker": "曉臻",
-    "text": "有的卻 有一大堆 種子呢"
+    "text": "那 體內受精 呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 357.91,
-    "end": 362.22,
+    "start": 267.7,
+    "end": 271.3,
     "speaker": "彥君",
-    "text": "這就是 考試最愛問的 單胚珠 與 多胚珠"
+    "text": "體內受精 是在母體內結合",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 362.22,
-    "end": 367.74,
+    "start": 271.5,
+    "end": 275.45,
     "speaker": "彥君",
-    "text": "像桃子、芒果它們的子房裡 只有一個胚珠"
+    "text": "像是 爬蟲類、 鳥類 跟哺乳類",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 367.74,
-    "end": 372.46,
+    "start": 275.65,
+    "end": 278.58,
     "speaker": "彥君",
-    "text": "所以 受精完就只會 發育出 一顆種子"
+    "text": "受精成功率 比較高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 372.46,
-    "end": 377.36,
+    "start": 278.78,
+    "end": 281.65,
+    "speaker": "彥君",
+    "text": "產卵數 就比較少",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 281.85,
+    "end": 284.98,
     "speaker": "曉臻",
-    "text": "那像西瓜、木瓜、芭樂 這種 種子很多的呢"
+    "text": "老師 那卵生 和胎生",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 377.36,
-    "end": 383.88,
-    "speaker": "彥君",
-    "text": "聰明這代表 它們的子房裡面有很多個胚珠"
-  },
-  {
-    "start": 383.88,
-    "end": 388.77,
-    "speaker": "彥君",
-    "text": "每一個 胚珠受精後都會變成 一顆種子"
-  },
-  {
-    "start": 388.77,
-    "end": 392.54,
-    "speaker": "彥君",
-    "text": "所以 看到種子 很多的水果"
-  },
-  {
-    "start": 392.54,
-    "end": 396.47,
-    "speaker": "彥君",
-    "text": "就代表 它當初的 胚珠非常多"
-  },
-  {
-    "start": 396.47,
-    "end": 400.62,
-    "speaker": "彥君",
-    "text": "子房成果實胚珠成種子"
-  },
-  {
-    "start": 400.62,
-    "end": 405.03,
-    "speaker": "彥君",
-    "text": "胚珠的數量決定了 種子的數量"
-  },
-  {
-    "start": 405.03,
-    "end": 409.94,
+    "start": 285.18,
+    "end": 287.37,
     "speaker": "曉臻",
-    "text": "戰士們這部分的 對應關係 絕對不能 記反喔"
+    "text": "又要 怎麼區分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 409.94,
-    "end": 414.6,
-    "speaker": "曉臻",
-    "text": "不需受精遺傳相同維持優良品種"
-  },
-  {
-    "start": 414.6,
-    "end": 419.49,
-    "speaker": "曉臻",
-    "text": "需要受精產生變異適應環境改變"
-  },
-  {
-    "start": 419.49,
-    "end": 423.47,
-    "speaker": "曉臻",
-    "text": "在水中進行產卵數量 最多"
-  },
-  {
-    "start": 423.47,
-    "end": 427.28,
-    "speaker": "曉臻",
-    "text": "成功率高產卵數量 較少"
-  },
-  {
-    "start": 427.28,
-    "end": 431.5,
-    "speaker": "曉臻",
-    "text": "卵生靠卵黃胎生靠 胎盤臍帶"
-  },
-  {
-    "start": 431.5,
-    "end": 435.36,
-    "speaker": "曉臻",
-    "text": "子房變果實胚珠變種子"
-  },
-  {
-    "start": 435.36,
-    "end": 439.99,
+    "start": 287.57,
+    "end": 290.5,
     "speaker": "彥君",
-    "text": "如果 孔雀魚 生出小魚養分 是誰給的"
+    "text": "這個 會考超級愛考",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 439.99,
-    "end": 446.06,
-    "speaker": "曉臻",
-    "text": "是卵胎生養分 是卵黃給的媽媽 沒給養分"
-  },
-  {
-    "start": 446.06,
-    "end": 450.11,
+    "start": 290.7,
+    "end": 293.62,
     "speaker": "彥君",
-    "text": "那 如果 農夫 想種出 一樣甜的 西瓜呢"
+    "text": "關鍵在 養分來源",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 450.11,
-    "end": 454.64,
-    "speaker": "曉臻",
-    "text": "要維持 優良品種必須使用 無性生殖"
-  },
-  {
-    "start": 454.64,
-    "end": 460.2,
+    "start": 293.82,
+    "end": 297.28,
     "speaker": "彥君",
-    "text": "漂亮這就是 萬無一失 的 生殖邏輯"
+    "text": "卵生的寶寶 養分來自",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 460.2,
-    "end": 463.1,
+    "start": 297.48,
+    "end": 300.13,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "卵裡面的 卵黃",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 463.1,
-    "end": 465.74,
+    "start": 300.33,
+    "end": 302.69,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "所以 母雞孵蛋",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 465.74,
-    "end": 470.58,
+    "start": 302.89,
+    "end": 306.14,
+    "speaker": "曉臻",
+    "text": "是不會 提供養分 給小雞的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 306.34,
+    "end": 311.05,
+    "speaker": "彥君",
+    "text": "沒錯 那胎生 就不一樣了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 311.25,
+    "end": 314.81,
+    "speaker": "彥君",
+    "text": "胎生的寶寶 留在媽媽的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 315.01,
+    "end": 317.42,
+    "speaker": "彥君",
+    "text": "子宮裡 發育",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 317.62,
+    "end": 321.08,
+    "speaker": "彥君",
+    "text": "養分是透過 胎盤跟臍帶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "臍帶"
+    ]
+  },
+  {
+    "start": 321.28,
+    "end": 323.83,
+    "speaker": "彥君",
+    "text": "由媽媽 供應的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 324.03,
+    "end": 326.97,
+    "speaker": "曉臻",
+    "text": "那孔雀魚 還有大肚魚呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 327.17,
+    "end": 330.32,
+    "speaker": "彥君",
+    "text": "卵 留在媽媽體內孵化",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 330.52,
+    "end": 333.34,
+    "speaker": "彥君",
+    "text": "養分 來自卵黃",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 333.54,
+    "end": 336.47,
+    "speaker": "彥君",
+    "text": "媽媽 不提供養分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 336.67,
+    "end": 339.46,
+    "speaker": "彥君",
+    "text": "只提供 保護的空間",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 339.66,
+    "end": 342.98,
+    "speaker": "彥君",
+    "text": "孵化後 直接生出小魚",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 343.18,
+    "end": 345.98,
+    "speaker": "彥君",
+    "text": "這原本叫 卵胎生",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 346.18,
+    "end": 349.06,
+    "speaker": "彥君",
+    "text": "不過 現在的教材",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 349.26,
+    "end": 351.65,
+    "speaker": "彥君",
+    "text": "改成 胎生囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 351.85,
+    "end": 354.93,
+    "speaker": "彥君",
+    "text": "只要 一生出來的不是卵",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 355.13,
+    "end": 357.8,
+    "speaker": "彥君",
+    "text": "我們 就稱為胎生",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 358.0,
+    "end": 366.46,
+    "speaker": "彥君",
+    "text": "\\text{卵生 (養分來自卵黃)} / \\text{胎生 (養分來自母體或卵黃)}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{卵生 (養分來自卵黃)} / \\text{胎生 (養分來自母體或卵黃)}"
+    ]
+  },
+  {
+    "start": 366.46,
+    "end": 370.07,
+    "speaker": "曉臻",
+    "text": "哇 動物生殖 真複雜",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 370.27,
+    "end": 372.18,
+    "speaker": "曉臻",
+    "text": "那 植物呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 372.38,
+    "end": 375.36,
+    "speaker": "彥君",
+    "text": "接下來 我們來拆解",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 375.56,
+    "end": 378.45,
+    "speaker": "彥君",
+    "text": "花和果實的 秘密",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 378.65,
+    "end": 381.56,
+    "speaker": "彥君",
+    "text": "植物的 有性生殖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 381.76,
+    "end": 384.62,
+    "speaker": "彥君",
+    "text": "生殖器官 就是花",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 384.82,
+    "end": 387.88,
+    "speaker": "彥君",
+    "text": "請大家 盯緊講義上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 388.08,
+    "end": 390.75,
+    "speaker": "彥君",
+    "text": "那個 子房的構造",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 390.95,
+    "end": 393.91,
+    "speaker": "彥君",
+    "text": "花粉 傳到雌蕊後",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 394.11,
+    "end": 396.93,
+    "speaker": "彥君",
+    "text": "會長出 花粉管",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 397.13,
+    "end": 400.81,
+    "speaker": "彥君",
+    "text": "讓精細胞 游進去 跟卵結合",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 401.01,
+    "end": 403.66,
+    "speaker": "彥君",
+    "text": "因為有 花粉管",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 403.86,
+    "end": 406.41,
+    "speaker": "彥君",
+    "text": "所以 植物受精",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 406.61,
+    "end": 409.35,
+    "speaker": "彥君",
+    "text": "不受 水分限制",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 409.55,
+    "end": 413.06,
+    "speaker": "彥君",
+    "text": "受精之後 整個子房",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 413.26,
+    "end": 416.01,
+    "speaker": "彥君",
+    "text": "會 發育成 果實",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 416.21,
+    "end": 419.0,
+    "speaker": "彥君",
+    "text": "而 子房裡面的 胚珠",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 419.2,
+    "end": 421.87,
+    "speaker": "彥君",
+    "text": "會 發育成 種子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 422.07,
+    "end": 424.7,
+    "speaker": "彥君",
+    "text": "我再 強調一遍",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 424.9,
+    "end": 428.72,
+    "speaker": "彥君",
+    "text": "子房成果實 胚珠成種子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 428.92,
+    "end": 483.52,
+    "speaker": "彥君",
+    "text": "\\text{植物口訣： 子房} \\rightarrow \\text{果實} / \\text{胚珠} \\rightarrow \\text{種子}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{植物口訣： 子房} \\rightarrow \\text{果實} / \\text{胚珠} \\rightarrow \\text{種子}"
+    ]
+  },
+  {
+    "start": 434.34,
+    "end": 437.46,
+    "speaker": "曉臻",
+    "text": "老師 為什麼有的水果",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 437.66,
+    "end": 439.95,
+    "speaker": "曉臻",
+    "text": "只有 一顆種子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 440.15,
+    "end": 442.68,
+    "speaker": "曉臻",
+    "text": "有的卻 有一大堆 呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 442.88,
+    "end": 445.96,
+    "speaker": "彥君",
+    "text": "像桃子、 芒果",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 446.16,
+    "end": 449.5,
+    "speaker": "彥君",
+    "text": "它們的子房裡 只有一個胚珠",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 449.7,
+    "end": 453.19,
+    "speaker": "彥君",
+    "text": "受精完 就只會 發育出",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 453.39,
+    "end": 455.73,
+    "speaker": "彥君",
+    "text": "一顆種子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 455.93,
+    "end": 459.34,
+    "speaker": "曉臻",
+    "text": "那像西瓜、 木瓜、 芭樂呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 459.54,
+    "end": 463.51,
+    "speaker": "彥君",
+    "text": "聰明 這代表",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 463.71,
+    "end": 467.22,
+    "speaker": "彥君",
+    "text": "它們的子房裡面 有很多胚珠",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 467.42,
+    "end": 470.89,
+    "speaker": "彥君",
+    "text": "所以 看到種子很多的水果",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 471.09,
+    "end": 474.5,
+    "speaker": "彥君",
+    "text": "就代表 當初的胚珠 非常多",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 474.7,
+    "end": 477.16,
+    "speaker": "彥君",
+    "text": "胚珠的數量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 477.36,
+    "end": 480.32,
+    "speaker": "彥君",
+    "text": "決定了 種子的數量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 483.52,
+    "end": 486.96,
+    "speaker": "曉臻",
+    "text": "戰士們 終極 總複習來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 487.16,
+    "end": 489.81,
+    "speaker": "曉臻",
+    "text": "第一 無性生殖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 490.01,
+    "end": 494.36,
+    "speaker": "曉臻",
+    "text": "不需受精 遺傳相同 維持優良品種",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 494.56,
+    "end": 497.28,
+    "speaker": "曉臻",
+    "text": "第二 有性生殖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 497.48,
+    "end": 502.07,
+    "speaker": "曉臻",
+    "text": "需要受精 產生變異 適應環境改變",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 502.27,
+    "end": 504.9,
+    "speaker": "曉臻",
+    "text": "第三 體外受精",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 505.1,
+    "end": 508.78,
+    "speaker": "曉臻",
+    "text": "在水中進行 產卵數量最多",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 508.98,
+    "end": 511.62,
+    "speaker": "曉臻",
+    "text": "第四 體內受精",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 511.82,
+    "end": 515.34,
+    "speaker": "曉臻",
+    "text": "成功率高 產卵數量較少",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 515.54,
+    "end": 518.14,
+    "speaker": "曉臻",
+    "text": "第五 卵生胎生",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 518.34,
+    "end": 522.47,
+    "speaker": "曉臻",
+    "text": "卵生靠卵黃 胎生靠媽媽或卵黃",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 522.67,
+    "end": 525.32,
+    "speaker": "曉臻",
+    "text": "第六 植物密碼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 525.52,
+    "end": 529.08,
+    "speaker": "曉臻",
+    "text": "子房變果實 胚珠變種子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 529.28,
+    "end": 532.48,
+    "speaker": "彥君",
+    "text": "戰士們 閉上眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 532.68,
+    "end": 534.87,
+    "speaker": "彥君",
+    "text": "想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 535.07,
+    "end": 538.27,
+    "speaker": "彥君",
+    "text": "如果 孔雀魚 生出小魚",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 538.47,
+    "end": 541.05,
+    "speaker": "彥君",
+    "text": "養分 是誰給的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 541.25,
+    "end": 543.78,
+    "speaker": "曉臻",
+    "text": "養分 是卵黃給的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 543.98,
+    "end": 546.29,
+    "speaker": "曉臻",
+    "text": "媽媽 沒給養分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 546.49,
+    "end": 549.23,
+    "speaker": "彥君",
+    "text": "如果農夫 想種出",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 549.43,
+    "end": 551.98,
+    "speaker": "彥君",
+    "text": "一樣甜的 西瓜呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 552.18,
+    "end": 554.66,
+    "speaker": "曉臻",
+    "text": "要維持 優良品種",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 554.86,
+    "end": 557.58,
+    "speaker": "曉臻",
+    "text": "必須使用 無性生殖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 557.78,
+    "end": 562.38,
+    "speaker": "彥君",
+    "text": "漂亮 這就是 萬無一失的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 562.58,
+    "end": 565.03,
+    "speaker": "彥君",
+    "text": "生殖邏輯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 565.23,
+    "end": 568.96,
+    "speaker": "彥君",
+    "text": "堅持到底 勝利就在前方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 569.16,
+    "end": 571.76,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 571.96,
+    "end": 574.3,
+    "speaker": "曉臻",
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 574.5,
+    "end": 577.91,
     "speaker": "合聲",
-    "text": "生殖搞定生命亮麗下一關見"
+    "text": "生殖搞定 生命亮麗",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 578.11,
+    "end": 581.41,
+    "speaker": "合聲",
+    "text": "戰士們 下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
