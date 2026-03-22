@@ -133,10 +133,10 @@ if df is not None and not df.empty:
         
     with c_size:
         size_options = {
-            "自動適配螢幕 (佳)": "clamp(20px, 4vw, 70px)" 
+            "自動適配螢幕 (佳)": "clamp(20px, 4vw, 70px)", 
             "80吋電視霸氣 (大)": "clamp(32px, 5vw, 100px)",
             "電腦標準教學 (中)": "clamp(24px, 3.5vw, 65px)",
-            "手機專用小螢幕 (小)": "clamp(18px, 5vmin, 36px)",
+            "手機專用小螢幕 (小)": "clamp(18px, 5vmin, 36px)"
             
         }
         bubble_fs = size_options[st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")]
