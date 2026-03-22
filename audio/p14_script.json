@@ -347,16 +347,18 @@
   },
   {
     "start": 120.63,
-    "end": 128.63,
+    "end": 126.62,
     "speaker": "曉臻",
-    "text": "大腦、小腦、腦幹、脊髓]",
+    "text": "大腦管意識小腦管平衡腦幹管生命脊髓管反射",
     "is_pinned": false,
     "pin_level": 0,
-    "commands": []
+    "commands": [
+      "脊髓"
+    ]
   },
   {
-    "start": 128.83,
-    "end": 132.13,
+    "start": 126.82,
+    "end": 130.11,
     "speaker": "彥君",
     "text": "給大家三秒鐘記憶一下",
     "is_pinned": false,
@@ -364,8 +366,8 @@
     "commands": []
   },
   {
-    "start": 132.33,
-    "end": 134.5,
+    "start": 130.31,
+    "end": 132.48,
     "speaker": "曉臻",
     "text": "那周圍神經",
     "is_pinned": false,
@@ -373,8 +375,8 @@
     "commands": []
   },
   {
-    "start": 134.7,
-    "end": 138.06,
+    "start": 132.68,
+    "end": 136.05,
     "speaker": "曉臻",
     "text": "就是遍布全身的支線任務吧",
     "is_pinned": false,
@@ -382,8 +384,8 @@
     "commands": []
   },
   {
-    "start": 138.26,
-    "end": 142.38,
+    "start": 136.25,
+    "end": 140.36,
     "speaker": "彥君",
     "text": "沒錯周圍神經",
     "is_pinned": false,
@@ -391,8 +393,8 @@
     "commands": []
   },
   {
-    "start": 142.58,
-    "end": 145.1,
+    "start": 140.56,
+    "end": 143.09,
     "speaker": "彥君",
     "text": "分成兩大類",
     "is_pinned": false,
@@ -400,8 +402,8 @@
     "commands": []
   },
   {
-    "start": 145.3,
-    "end": 148.67,
+    "start": 143.29,
+    "end": 146.66,
     "speaker": "彥君",
     "text": "感覺神經負責把訊息",
     "is_pinned": false,
@@ -409,8 +411,8 @@
     "commands": []
   },
   {
-    "start": 148.87,
-    "end": 151.28,
+    "start": 146.86,
+    "end": 149.26,
     "speaker": "彥君",
     "text": "傳回總部",
     "is_pinned": false,
@@ -418,8 +420,8 @@
     "commands": []
   },
   {
-    "start": 151.48,
-    "end": 154.78,
+    "start": 149.46,
+    "end": 152.76,
     "speaker": "彥君",
     "text": "運動神經負責把命令",
     "is_pinned": false,
@@ -427,8 +429,8 @@
     "commands": []
   },
   {
-    "start": 154.98,
-    "end": 157.38,
+    "start": 152.96,
+    "end": 155.37,
     "speaker": "彥君",
     "text": "傳給肌肉",
     "is_pinned": false,
@@ -436,8 +438,8 @@
     "commands": []
   },
   {
-    "start": 157.58,
-    "end": 161.19,
+    "start": 155.57,
+    "end": 159.18,
     "speaker": "曉臻",
     "text": "了解這頁最重要的",
     "is_pinned": false,
@@ -445,8 +447,8 @@
     "commands": []
   },
   {
-    "start": 161.39,
-    "end": 164.04,
+    "start": 159.38,
+    "end": 162.02,
     "speaker": "曉臻",
     "text": "傳導路徑圖怎麼看",
     "is_pinned": false,
@@ -454,8 +456,8 @@
     "commands": []
   },
   {
-    "start": 164.24,
-    "end": 167.82,
+    "start": 162.22,
+    "end": 165.81,
     "speaker": "彥君",
     "text": "戰士們請記住口訣",
     "is_pinned": false,
@@ -463,8 +465,8 @@
     "commands": []
   },
   {
-    "start": 168.02,
-    "end": 172.33,
+    "start": 166.01,
+    "end": 170.31,
     "speaker": "彥君",
     "text": "受、感、中、運、動",
     "is_pinned": false,
@@ -472,8 +474,8 @@
     "commands": []
   },
   {
-    "start": 172.53,
-    "end": 175.39,
+    "start": 170.51,
+    "end": 173.38,
     "speaker": "彥君",
     "text": "訊息從受器出發",
     "is_pinned": false,
@@ -481,8 +483,8 @@
     "commands": []
   },
   {
-    "start": 175.59,
-    "end": 178.89,
+    "start": 173.58,
+    "end": 176.87,
     "speaker": "彥君",
     "text": "經感覺神經傳遞到中樞",
     "is_pinned": false,
@@ -490,8 +492,8 @@
     "commands": []
   },
   {
-    "start": 179.09,
-    "end": 181.57,
+    "start": 177.07,
+    "end": 179.55,
     "speaker": "彥君",
     "text": "中樞下令後",
     "is_pinned": false,
@@ -499,8 +501,8 @@
     "commands": []
   },
   {
-    "start": 181.77,
-    "end": 185.11,
+    "start": 179.75,
+    "end": 183.1,
     "speaker": "彥君",
     "text": "經運動神經傳給動器",
     "is_pinned": false,
@@ -508,8 +510,8 @@
     "commands": []
   },
   {
-    "start": 185.31,
-    "end": 187.77,
+    "start": 183.3,
+    "end": 185.75,
     "speaker": "彥君",
     "text": "也就是肌肉",
     "is_pinned": false,
@@ -517,17 +519,17 @@
     "commands": []
   },
   {
-    "start": 187.97,
-    "end": 195.15,
+    "start": 185.95,
+    "end": 191.34,
     "speaker": "曉臻",
-    "text": "受器 → 感覺神經 → 中樞 → 運動神經 → 動器]",
+    "text": "受器感覺神經中樞運動神經動器",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 195.35,
-    "end": 197.47,
+    "start": 191.54,
+    "end": 193.66,
     "speaker": "曉臻",
     "text": "那反射作用",
     "is_pinned": false,
@@ -535,8 +537,8 @@
     "commands": []
   },
   {
-    "start": 197.67,
-    "end": 200.18,
+    "start": 193.86,
+    "end": 196.36,
     "speaker": "曉臻",
     "text": "跟一般行為的路徑",
     "is_pinned": false,
@@ -544,8 +546,8 @@
     "commands": []
   },
   {
-    "start": 200.38,
-    "end": 202.33,
+    "start": 196.56,
+    "end": 198.51,
     "speaker": "曉臻",
     "text": "差在哪裡",
     "is_pinned": false,
@@ -553,8 +555,8 @@
     "commands": []
   },
   {
-    "start": 202.53,
-    "end": 206.02,
+    "start": 198.71,
+    "end": 202.2,
     "speaker": "彥君",
     "text": "反射作用就像緊急警報",
     "is_pinned": false,
@@ -562,8 +564,8 @@
     "commands": []
   },
   {
-    "start": 206.22,
-    "end": 208.86,
+    "start": 202.4,
+    "end": 205.05,
     "speaker": "彥君",
     "text": "是不經過大腦的",
     "is_pinned": false,
@@ -571,8 +573,8 @@
     "commands": []
   },
   {
-    "start": 209.06,
-    "end": 211.66,
+    "start": 205.25,
+    "end": 207.85,
     "speaker": "彥君",
     "text": "它是為了救命",
     "is_pinned": false,
@@ -580,8 +582,8 @@
     "commands": []
   },
   {
-    "start": 211.86,
-    "end": 215.3,
+    "start": 208.05,
+    "end": 211.49,
     "speaker": "彥君",
     "text": "直接由腦幹或脊髓反應",
     "is_pinned": false,
@@ -591,8 +593,8 @@
     ]
   },
   {
-    "start": 215.5,
-    "end": 217.96,
+    "start": 211.69,
+    "end": 214.14,
     "speaker": "彥君",
     "text": "但意識行為",
     "is_pinned": false,
@@ -600,8 +602,8 @@
     "commands": []
   },
   {
-    "start": 218.16,
-    "end": 220.83,
+    "start": 214.34,
+    "end": 217.02,
     "speaker": "彥君",
     "text": "一定要經過大腦",
     "is_pinned": false,
@@ -609,8 +611,8 @@
     "commands": []
   },
   {
-    "start": 221.03,
-    "end": 223.85,
+    "start": 217.22,
+    "end": 220.03,
     "speaker": "彥君",
     "text": "那才是你想做的事",
     "is_pinned": false,
@@ -618,8 +620,8 @@
     "commands": []
   },
   {
-    "start": 224.05,
-    "end": 226.94,
+    "start": 220.23,
+    "end": 223.12,
     "speaker": "曉臻",
     "text": "老師那頸部以上",
     "is_pinned": false,
@@ -627,8 +629,8 @@
     "commands": []
   },
   {
-    "start": 227.14,
-    "end": 229.88,
+    "start": 223.32,
+    "end": 226.06,
     "speaker": "曉臻",
     "text": "跟頸部以下的差別呢",
     "is_pinned": false,
@@ -636,8 +638,8 @@
     "commands": []
   },
   {
-    "start": 230.08,
-    "end": 233.14,
+    "start": 226.26,
+    "end": 229.32,
     "speaker": "彥君",
     "text": "戰士們請看 A 路線",
     "is_pinned": false,
@@ -645,8 +647,8 @@
     "commands": []
   },
   {
-    "start": 233.34,
-    "end": 236.2,
+    "start": 229.52,
+    "end": 232.38,
     "speaker": "彥君",
     "text": "喝奶茶覺得甜",
     "is_pinned": false,
@@ -654,8 +656,8 @@
     "commands": []
   },
   {
-    "start": 236.4,
-    "end": 239.02,
+    "start": 232.58,
+    "end": 235.21,
     "speaker": "彥君",
     "text": "這是頸部以上",
     "is_pinned": false,
@@ -663,8 +665,8 @@
     "commands": []
   },
   {
-    "start": 239.22,
-    "end": 242.23,
+    "start": 235.41,
+    "end": 238.42,
     "speaker": "彥君",
     "text": "訊息直接進入大腦",
     "is_pinned": false,
@@ -672,8 +674,8 @@
     "commands": []
   },
   {
-    "start": 242.43,
-    "end": 245.22,
+    "start": 238.62,
+    "end": 241.41,
     "speaker": "彥君",
     "text": "不需要經過脊髓",
     "is_pinned": false,
@@ -683,8 +685,8 @@
     ]
   },
   {
-    "start": 245.42,
-    "end": 248.29,
+    "start": 241.61,
+    "end": 244.47,
     "speaker": "彥君",
     "text": "我們接著看 B 路線",
     "is_pinned": false,
@@ -692,8 +694,8 @@
     "commands": []
   },
   {
-    "start": 248.49,
-    "end": 252.43,
+    "start": 244.67,
+    "end": 248.62,
     "speaker": "彥君",
     "text": "手舞足蹈動作在頸部以下",
     "is_pinned": false,
@@ -701,8 +703,8 @@
     "commands": []
   },
   {
-    "start": 252.63,
-    "end": 255.54,
+    "start": 248.82,
+    "end": 251.73,
     "speaker": "彥君",
     "text": "就算是大腦下令",
     "is_pinned": false,
@@ -710,8 +712,8 @@
     "commands": []
   },
   {
-    "start": 255.74,
-    "end": 259.09,
+    "start": 251.93,
+    "end": 255.27,
     "speaker": "彥君",
     "text": "訊息也必須經過脊髓",
     "is_pinned": false,
@@ -721,8 +723,8 @@
     ]
   },
   {
-    "start": 259.29,
-    "end": 261.91,
+    "start": 255.47,
+    "end": 258.1,
     "speaker": "彥君",
     "text": "傳遞給手腳",
     "is_pinned": false,
@@ -730,8 +732,8 @@
     "commands": []
   },
   {
-    "start": 262.11,
-    "end": 264.81,
+    "start": 258.3,
+    "end": 260.99,
     "speaker": "曉臻",
     "text": "戰士們辛苦了",
     "is_pinned": false,
@@ -739,8 +741,8 @@
     "commands": []
   },
   {
-    "start": 265.01,
-    "end": 268.23,
+    "start": 261.19,
+    "end": 264.42,
     "speaker": "曉臻",
     "text": "撐到現在你們超棒的",
     "is_pinned": false,
@@ -748,8 +750,8 @@
     "commands": []
   },
   {
-    "start": 268.43,
-    "end": 271.32,
+    "start": 264.62,
+    "end": 267.5,
     "speaker": "曉臻",
     "text": "最後的精華複習來了",
     "is_pinned": false,
@@ -757,53 +759,55 @@
     "commands": []
   },
   {
-    "start": 271.52,
-    "end": 279.9,
+    "start": 267.7,
+    "end": 271.84,
     "speaker": "曉臻",
-    "text": "細胞體代謝神經纖維傳訊]",
+    "text": "細胞體管代謝神經纖維管傳訊",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 280.1,
-    "end": 290.17,
+    "start": 272.04,
+    "end": 277.28,
     "speaker": "曉臻",
-    "text": "大腦、小腦、腦幹、脊髓]",
+    "text": "大腦意識小腦平衡腦幹生命脊髓反射",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "脊髓"
+    ]
+  },
+  {
+    "start": 277.48,
+    "end": 280.54,
+    "speaker": "曉臻",
+    "text": "感覺傳入運動傳出",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 290.37,
-    "end": 297.43,
+    "start": 280.74,
+    "end": 284.03,
     "speaker": "曉臻",
-    "text": "感覺傳入運動傳出]",
+    "text": "受、感、中、運、動",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 297.63,
-    "end": 305.9,
+    "start": 284.23,
+    "end": 286.78,
     "speaker": "曉臻",
-    "text": "受、感、中、運、動]",
+    "text": "頸部以下的傳聲筒",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 306.1,
-    "end": 312.75,
-    "speaker": "曉臻",
-    "text": "頸部以下的傳聲筒]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 312.95,
-    "end": 315.34,
+    "start": 286.98,
+    "end": 289.37,
     "speaker": "曉臻",
     "text": "一、神經元",
     "is_pinned": false,
@@ -811,17 +815,17 @@
     "commands": []
   },
   {
-    "start": 315.54,
-    "end": 319.29,
+    "start": 289.57,
+    "end": 293.7,
     "speaker": "曉臻",
-    "text": "細胞體代謝神經纖維傳訊",
+    "text": "細胞體管代謝神經纖維管傳訊",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 319.49,
-    "end": 321.99,
+    "start": 293.9,
+    "end": 296.41,
     "speaker": "曉臻",
     "text": "二、中樞神經",
     "is_pinned": false,
@@ -829,8 +833,8 @@
     "commands": []
   },
   {
-    "start": 322.19,
-    "end": 325.25,
+    "start": 296.61,
+    "end": 299.66,
     "speaker": "曉臻",
     "text": "大腦意識小腦平衡",
     "is_pinned": false,
@@ -838,8 +842,8 @@
     "commands": []
   },
   {
-    "start": 325.45,
-    "end": 328.5,
+    "start": 299.86,
+    "end": 302.92,
     "speaker": "曉臻",
     "text": "腦幹生命脊髓反射",
     "is_pinned": false,
@@ -849,8 +853,8 @@
     ]
   },
   {
-    "start": 328.7,
-    "end": 331.26,
+    "start": 303.12,
+    "end": 305.67,
     "speaker": "曉臻",
     "text": "三、周圍神經",
     "is_pinned": false,
@@ -858,8 +862,8 @@
     "commands": []
   },
   {
-    "start": 331.46,
-    "end": 334.51,
+    "start": 305.87,
+    "end": 308.93,
     "speaker": "曉臻",
     "text": "感覺傳入運動傳出",
     "is_pinned": false,
@@ -867,17 +871,26 @@
     "commands": []
   },
   {
-    "start": 334.71,
-    "end": 337.46,
+    "start": 309.13,
+    "end": 311.7,
     "speaker": "曉臻",
-    "text": "四、受感中運動",
+    "text": "四、傳導路徑",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 337.66,
-    "end": 339.9,
+    "start": 311.9,
+    "end": 314.07,
+    "speaker": "曉臻",
+    "text": "受感中運動",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 314.27,
+    "end": 316.51,
     "speaker": "曉臻",
     "text": "反射不經大腦",
     "is_pinned": false,
@@ -885,8 +898,8 @@
     "commands": []
   },
   {
-    "start": 340.1,
-    "end": 342.36,
+    "start": 316.71,
+    "end": 318.98,
     "speaker": "曉臻",
     "text": "意識必經大腦",
     "is_pinned": false,
@@ -894,8 +907,8 @@
     "commands": []
   },
   {
-    "start": 342.56,
-    "end": 344.68,
+    "start": 319.18,
+    "end": 321.3,
     "speaker": "曉臻",
     "text": "五、脊髓",
     "is_pinned": false,
@@ -905,8 +918,8 @@
     ]
   },
   {
-    "start": 344.88,
-    "end": 348.25,
+    "start": 321.5,
+    "end": 324.86,
     "speaker": "曉臻",
     "text": "頸部以下才需要它當傳聲筒",
     "is_pinned": false,
@@ -914,8 +927,8 @@
     "commands": []
   },
   {
-    "start": 348.45,
-    "end": 351.65,
+    "start": 325.06,
+    "end": 328.26,
     "speaker": "彥君",
     "text": "戰士們閉上眼睛",
     "is_pinned": false,
@@ -923,8 +936,8 @@
     "commands": []
   },
   {
-    "start": 351.85,
-    "end": 354.04,
+    "start": 328.46,
+    "end": 330.66,
     "speaker": "彥君",
     "text": "想一下",
     "is_pinned": false,
@@ -932,8 +945,8 @@
     "commands": []
   },
   {
-    "start": 354.24,
-    "end": 357.46,
+    "start": 330.86,
+    "end": 334.08,
     "speaker": "彥君",
     "text": "如果一個人腳踩到釘子",
     "is_pinned": false,
@@ -941,8 +954,8 @@
     "commands": []
   },
   {
-    "start": 357.66,
-    "end": 360.19,
+    "start": 334.28,
+    "end": 336.81,
     "speaker": "彥君",
     "text": "立刻縮回來",
     "is_pinned": false,
@@ -950,8 +963,8 @@
     "commands": []
   },
   {
-    "start": 360.39,
-    "end": 362.92,
+    "start": 337.01,
+    "end": 339.54,
     "speaker": "彥君",
     "text": "這有經過大腦嗎",
     "is_pinned": false,
@@ -959,8 +972,8 @@
     "commands": []
   },
   {
-    "start": 363.12,
-    "end": 366.2,
+    "start": 339.74,
+    "end": 342.82,
     "speaker": "曉臻",
     "text": "這是為了救命的反射作用",
     "is_pinned": false,
@@ -968,8 +981,8 @@
     "commands": []
   },
   {
-    "start": 366.4,
-    "end": 368.88,
+    "start": 343.02,
+    "end": 345.5,
     "speaker": "曉臻",
     "text": "直接由脊髓反應",
     "is_pinned": false,
@@ -979,8 +992,8 @@
     ]
   },
   {
-    "start": 369.08,
-    "end": 371.13,
+    "start": 345.7,
+    "end": 347.74,
     "speaker": "曉臻",
     "text": "不經過大腦",
     "is_pinned": false,
@@ -988,8 +1001,8 @@
     "commands": []
   },
   {
-    "start": 371.33,
-    "end": 373.38,
+    "start": 347.94,
+    "end": 349.99,
     "speaker": "彥君",
     "text": "漂亮",
     "is_pinned": false,
@@ -997,8 +1010,8 @@
     "commands": []
   },
   {
-    "start": 373.58,
-    "end": 376.92,
+    "start": 350.19,
+    "end": 353.54,
     "speaker": "彥君",
     "text": "這就是身體的保險絲機制",
     "is_pinned": false,
@@ -1006,8 +1019,8 @@
     "commands": []
   },
   {
-    "start": 377.12,
-    "end": 381.06,
+    "start": 353.74,
+    "end": 357.68,
     "speaker": "彥君",
     "text": "撐過這關你離頂峰又更近了",
     "is_pinned": false,
@@ -1015,8 +1028,8 @@
     "commands": []
   },
   {
-    "start": 381.26,
-    "end": 383.86,
+    "start": 357.88,
+    "end": 360.48,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
@@ -1024,8 +1037,8 @@
     "commands": []
   },
   {
-    "start": 384.06,
-    "end": 386.4,
+    "start": 360.68,
+    "end": 363.02,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
@@ -1033,8 +1046,8 @@
     "commands": []
   },
   {
-    "start": 386.6,
-    "end": 389.99,
+    "start": 363.22,
+    "end": 366.61,
     "speaker": "合聲",
     "text": "指揮若定高分必定",
     "is_pinned": false,
@@ -1042,8 +1055,8 @@
     "commands": []
   },
   {
-    "start": 390.19,
-    "end": 393.37,
+    "start": 366.81,
+    "end": 369.98,
     "speaker": "合聲",
     "text": "戰士們晚上見",
     "is_pinned": false,
