@@ -291,12 +291,12 @@
     "start": 94.3,
     "end": 101.75,
     "speaker": "彥君",
-    "text": "\\text{內分泌： 無導管 (由血液運送)}",
+    "text": "內分泌： 無導管-由血液運送",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{內分泌： 無導管 (由血液運送)}"
+      "內分泌： 無導管-由血液運送"
     ]
   },
   {
@@ -422,12 +422,12 @@
     "start": 141.3,
     "end": 150.32,
     "speaker": "彥君",
-    "text": "\\text{腦垂 (生長) / 甲狀 (代謝) / 副甲狀 (血鈣)}",
+    "text": "腦垂-生長 ; 甲狀-代謝 ; 副甲狀-血鈣",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{腦垂 (生長) / 甲狀 (代謝) / 副甲狀 (血鈣)}"
+      "腦垂-生長 ; 甲狀-代謝 ; 副甲狀-血鈣"
     ]
   },
   {
@@ -551,12 +551,12 @@
     "start": 190.7,
     "end": 224.62,
     "speaker": "彥君",
-    "text": "\\text{胰島素} \\rightarrow \\text{降血糖 (飯後分泌)}",
+    "text": "胰島素-降血糖-飯後分泌",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{胰島素} \\rightarrow \\text{降血糖 (飯後分泌)}"
+      "胰島素-降血糖-飯後分泌"
     ]
   },
   {
@@ -626,12 +626,12 @@
     "start": 216.51,
     "end": 224.62,
     "speaker": "彥君",
-    "text": "\\text{升糖素} \\rightarrow \\text{升血糖 (飢餓時分泌)}",
+    "text": "升糖素-升血糖-飢餓時分泌",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "\\text{升糖素} \\rightarrow \\text{升血糖 (飢餓時分泌)}"
+      "升糖素-升血糖-飢餓時分泌"
     ]
   },
   {
@@ -723,12 +723,12 @@
     "start": 254.28,
     "end": 261.59,
     "speaker": "彥君",
-    "text": "\\text{腎上腺素} \\rightarrow \\text{緊急升血糖}",
+    "text": "腎上腺素-緊急升血糖",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{腎上腺素} \\rightarrow \\text{緊急升血糖}"
+      "腎上腺素-緊急升血糖"
     ]
   },
   {
