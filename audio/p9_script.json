@@ -1,284 +1,1210 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.51,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 你有沒有想過",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 6.66,
+    "start": 3.71,
+    "end": 6.77,
     "speaker": "彥君",
-    "text": "各位衝 A的戰士們我是彥君老師"
+    "text": "為什麼 吃芹菜的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.66,
-    "end": 12.97,
+    "start": 6.97,
+    "end": 9.64,
     "speaker": "彥君",
-    "text": "翻開 講義第九頁我們要 徹底拆解 植物運輸的 所有魔鬼細節"
+    "text": "總是會 塞牙縫",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 12.97,
-    "end": 16.47,
+    "start": 9.84,
+    "end": 12.61,
+    "speaker": "彥君",
+    "text": "為什麼 嚼完甘蔗",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 12.81,
+    "end": 15.62,
+    "speaker": "彥君",
+    "text": "總會 吐出一堆渣渣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 15.82,
+    "end": 18.4,
+    "speaker": "彥君",
+    "text": "這一切的 秘密",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 18.6,
+    "end": 21.94,
+    "speaker": "彥君",
+    "text": "都藏在 植物的 運輸管線裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 22.14,
+    "end": 25.15,
+    "speaker": "彥君",
+    "text": "歡迎來到 第九集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 25.35,
+    "end": 27.95,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 28.15,
+    "end": 29.89,
     "speaker": "曉臻",
-    "text": "大家好我是曉臻助教"
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.47,
-    "end": 22.68,
+    "start": 30.09,
+    "end": 32.42,
     "speaker": "曉臻",
-    "text": "老師這頁圖表超級多我們從左邊的 維管束結構 開始吧"
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.68,
-    "end": 30.17,
+    "start": 32.62,
+    "end": 35.39,
     "speaker": "彥君",
-    "text": "沒錯戰士們 請拿出你的筆先把 單雙子葉的 維管束圖畫好"
+    "text": "翻開 講義第九頁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 30.17,
-    "end": 34.75,
+    "start": 35.59,
+    "end": 38.29,
     "speaker": "彥君",
-    "text": "散生的是單子葉環狀的是雙子葉"
+    "text": "我們要 徹底拆解",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 34.75,
-    "end": 40.41,
+    "start": 38.49,
+    "end": 42.0,
+    "speaker": "彥君",
+    "text": "植物運輸的 所有魔鬼細節",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 42.2,
+    "end": 45.42,
     "speaker": "曉臻",
-    "text": "趁大家在畫圖老師 我們來聊聊 生活中的 維管束吧"
+    "text": "老師 這頁圖表 超級多",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 40.41,
-    "end": 47.15,
-    "speaker": "彥君",
-    "text": "好啊大家吃橘子的時候剝開皮 看到的 那些白絲"
-  },
-  {
-    "start": 47.15,
-    "end": 52.93,
-    "speaker": "彥君",
-    "text": "那些白絲 其實就是 維管束喔負責 運送水分跟養分"
-  },
-  {
-    "start": 52.93,
-    "end": 57.65,
+    "start": 45.62,
+    "end": 47.86,
     "speaker": "曉臻",
-    "text": "難怪 橘子皮 剝下來裡面 脈絡 這麼清楚"
+    "text": "我們從 左邊的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 57.65,
-    "end": 63.6,
-    "speaker": "彥君",
-    "text": "還有大家 吃芹菜的時候是不是 常會 吃到一絲絲的 纖維"
-  },
-  {
-    "start": 63.6,
-    "end": 68.3,
+    "start": 48.06,
+    "end": 50.76,
     "speaker": "曉臻",
-    "text": "對那個 塞牙縫的 感覺 超明顯的"
+    "text": "維管束結構 開始吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 68.3,
-    "end": 73.84,
+    "start": 50.96,
+    "end": 55.62,
     "speaker": "彥君",
-    "text": "那些一根根 撕下來的 粗纖維就是 芹菜的 維管束"
+    "text": "沒錯 戰士們 請拿出筆",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 73.84,
-    "end": 79.38,
+    "start": 55.82,
+    "end": 59.19,
     "speaker": "彥君",
-    "text": "因為 芹菜是 雙子葉植物所以 維管束 非常發達"
+    "text": "先把 單雙子葉的 維管束",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 79.38,
-    "end": 84.94,
+    "start": 59.39,
+    "end": 61.9,
+    "speaker": "彥君",
+    "text": "畫在 講義上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 62.1,
+    "end": 64.98,
+    "speaker": "彥君",
+    "text": "散生的是 單子葉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 65.18,
+    "end": 68.05,
+    "speaker": "彥君",
+    "text": "環狀的是 雙子葉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 68.25,
+    "end": 179.34,
+    "speaker": "彥君",
+    "text": "\\text{單子葉散生 / 雙子葉環狀}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{單子葉散生 / 雙子葉環狀}"
+    ]
+  },
+  {
+    "start": 72.25,
+    "end": 74.66,
     "speaker": "曉臻",
-    "text": "那 甘蔗 呢甘蔗 嚼完 剩下的 那些渣渣 也是嗎"
+    "text": "趁大家 在畫圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 84.94,
-    "end": 92.48,
-    "speaker": "彥君",
-    "text": "沒錯甘蔗是 單子葉植物它的 維管束 散佈在 整個莖裡面"
-  },
-  {
-    "start": 92.48,
-    "end": 97.92,
-    "speaker": "彥君",
-    "text": "我們 嚼甘蔗 其實就是在 壓榨 它維管束 裡的 甜美汁液"
-  },
-  {
-    "start": 97.92,
-    "end": 101.92,
+    "start": 74.86,
+    "end": 77.31,
     "speaker": "曉臻",
-    "text": "原來 我們 每天 都在吃 維管束 耶"
+    "text": "老師 我們來聊聊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 101.92,
-    "end": 108.45,
-    "speaker": "彥君",
-    "text": "還有 芋頭 也是喔芋頭 切開 看到 一點一點的 褐色斑點"
-  },
-  {
-    "start": 108.45,
-    "end": 113.75,
-    "speaker": "彥君",
-    "text": "那些斑點 也是 維管束負責 輸送 澱粉養分"
-  },
-  {
-    "start": 113.75,
-    "end": 118.88,
+    "start": 77.51,
+    "end": 80.26,
     "speaker": "曉臻",
-    "text": "戰士們 畫圖的同時想像一下 這些 蔬菜水果"
+    "text": "生活中的 維管束吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 118.88,
-    "end": 123.56,
+    "start": 80.46,
+    "end": 85.05,
+    "speaker": "彥君",
+    "text": "好啊 大家吃橘子的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 85.25,
+    "end": 88.52,
+    "speaker": "彥君",
+    "text": "剝開皮 看到的 那些白絲",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 88.72,
+    "end": 91.75,
+    "speaker": "彥君",
+    "text": "其實 就是維管束喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 91.95,
+    "end": 95.25,
+    "speaker": "彥君",
+    "text": "負責 運送水分 跟養分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 95.45,
+    "end": 98.22,
     "speaker": "曉臻",
-    "text": "這樣 內木外韌 的位置是不是 更好記了呢"
+    "text": "難怪 橘子皮 剝下來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 123.56,
-    "end": 129.77,
-    "speaker": "彥君",
-    "text": "圖畫完了嗎我們 接著看 兩者的 運送方向 差很大"
-  },
-  {
-    "start": 129.77,
-    "end": 137.49,
-    "speaker": "彥君",
-    "text": "這也是 必考點木質部運水只有一種方向就是 由下往上"
-  },
-  {
-    "start": 137.49,
-    "end": 145.48,
-    "speaker": "彥君",
-    "text": "但韌皮部 運養分是雙向的春天 往上開花秋天 往下儲存"
-  },
-  {
-    "start": 145.48,
-    "end": 152.27,
+    "start": 98.42,
+    "end": 101.02,
     "speaker": "曉臻",
-    "text": "原來如此那右邊的實驗為什麼要把 芹菜葉子 摘掉一半"
+    "text": "裡面 脈絡 這麼清楚",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 152.27,
-    "end": 156.18,
+    "start": 101.22,
+    "end": 104.51,
     "speaker": "彥君",
-    "text": "葉片是 蒸散作用的 主要器官"
+    "text": "還有 大家吃 芹菜的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 156.18,
-    "end": 163.66,
+    "start": 104.71,
+    "end": 108.15,
     "speaker": "彥君",
-    "text": "葉片愈多蒸散作用 產生的拉力 就愈大所以 紅墨水 跑得快"
+    "text": "是不是 常會 吃到一絲絲的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 163.66,
-    "end": 170.26,
+    "start": 108.35,
+    "end": 110.76,
+    "speaker": "彥君",
+    "text": "粗糙纖維",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 110.96,
+    "end": 114.69,
     "speaker": "曉臻",
-    "text": "所以 如果把葉子 全部摘光紅墨水 就吸不上去因為 沒了拉力"
+    "text": "對 那個 塞牙縫的感覺",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 170.26,
-    "end": 172.94,
-    "speaker": "彥君",
-    "text": "完全正確"
-  },
-  {
-    "start": 172.94,
-    "end": 178.98,
+    "start": 114.89,
+    "end": 116.84,
     "speaker": "曉臻",
-    "text": "那凡士林實驗呢這題跟 葉片數量 又有什麼關係"
+    "text": "超明顯的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 178.98,
-    "end": 187.55,
+    "start": 117.04,
+    "end": 120.17,
     "speaker": "彥君",
-    "text": "凡士林 是用來 封死氣孔的如果在 下表皮 塗滿凡士林就像 堵住排水口"
+    "text": "那些 一根根 撕下來的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 187.55,
-    "end": 194.41,
+    "start": 120.37,
+    "end": 123.35,
     "speaker": "彥君",
-    "text": "即使 葉子再多氣孔被堵住了蒸散作用 就會停擺拉力消失"
+    "text": "就是 芹菜的 維管束",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 194.41,
-    "end": 200.33,
-    "speaker": "曉臻",
-    "text": "葉片愈多、氣孔愈開拉力愈強水就 運得愈快"
-  },
-  {
-    "start": 200.33,
-    "end": 203.14,
+    "start": 123.55,
+    "end": 126.85,
     "speaker": "彥君",
-    "text": "環狀剝皮"
+    "text": "因為 芹菜是 雙子葉植物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 203.14,
-    "end": 209.59,
+    "start": 127.05,
+    "end": 130.46,
     "speaker": "彥君",
-    "text": "剝掉樹皮 是傷到韌皮部養分下不去所以 根部會先餓死"
+    "text": "所以 維管束 非常發達",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 209.59,
-    "end": 214.89,
+    "start": 130.66,
+    "end": 132.54,
     "speaker": "曉臻",
-    "text": "內木外韌雙子葉 有形成層 可以長粗"
+    "text": "那 甘蔗呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 214.89,
-    "end": 220.21,
+    "start": 132.74,
+    "end": 135.25,
     "speaker": "曉臻",
-    "text": "木質部 運水單向往上韌皮部 運養分 雙向皆可"
+    "text": "甘蔗 嚼完 剩下的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 220.21,
-    "end": 225.08,
+    "start": 135.45,
+    "end": 137.88,
     "speaker": "曉臻",
-    "text": "葉片愈多、拉力愈強下表皮 氣孔多"
+    "text": "那些渣渣 也是嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 225.08,
-    "end": 231.58,
-    "speaker": "曉臻",
-    "text": "紅墨水 走內側木質部氣孔 沒被堵住水才 吸得快"
-  },
-  {
-    "start": 231.58,
-    "end": 237.48,
+    "start": 138.08,
+    "end": 142.89,
     "speaker": "彥君",
-    "text": "如果我 今天把 一棵樹的 葉子 全部塗滿凡士林它還能 吸水嗎"
+    "text": "沒錯 甘蔗是 單子葉植物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 237.48,
-    "end": 244.36,
-    "speaker": "曉臻",
-    "text": "不行因為 蒸散作用 被切斷了沒有拉力水分 就上不來"
-  },
-  {
-    "start": 244.36,
-    "end": 249.69,
+    "start": 143.09,
+    "end": 145.62,
     "speaker": "彥君",
-    "text": "漂亮這就是 會考的 標準邏輯"
+    "text": "它的 維管束",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 249.69,
-    "end": 252.59,
+    "start": 145.82,
+    "end": 148.85,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "散佈在 整個莖裡面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 252.59,
-    "end": 255.22,
+    "start": 149.05,
+    "end": 151.5,
+    "speaker": "彥君",
+    "text": "我們 嚼甘蔗",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 151.7,
+    "end": 155.26,
+    "speaker": "彥君",
+    "text": "其實 就是在 壓榨維管束",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 155.46,
+    "end": 158.21,
+    "speaker": "彥君",
+    "text": "裡面的 甜美汁液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 158.41,
+    "end": 160.72,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "原來 我們 每天",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 255.22,
-    "end": 260.04,
+    "start": 160.92,
+    "end": 163.47,
+    "speaker": "曉臻",
+    "text": "都在吃 維管束 耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 163.67,
+    "end": 166.22,
+    "speaker": "彥君",
+    "text": "還有 芋頭 也是喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 166.42,
+    "end": 169.14,
+    "speaker": "彥君",
+    "text": "芋頭 切開 看到",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 169.34,
+    "end": 172.38,
+    "speaker": "彥君",
+    "text": "一點一點的 褐色斑點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 172.58,
+    "end": 176.14,
+    "speaker": "彥君",
+    "text": "也是 負責輸送 澱粉的管線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 179.34,
+    "end": 182.15,
+    "speaker": "曉臻",
+    "text": "戰士們 畫圖的同時",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 182.35,
+    "end": 185.46,
+    "speaker": "曉臻",
+    "text": "想像一下 這些 蔬菜水果",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 185.66,
+    "end": 188.45,
+    "speaker": "曉臻",
+    "text": "這樣 內木外韌 的位置",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 188.65,
+    "end": 191.32,
+    "speaker": "曉臻",
+    "text": "是不是 更好記了呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 191.52,
+    "end": 193.71,
+    "speaker": "彥君",
+    "text": "圖 畫完了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 193.91,
+    "end": 197.23,
+    "speaker": "彥君",
+    "text": "接著看 兩者的 運送方向",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 197.43,
+    "end": 200.94,
+    "speaker": "彥君",
+    "text": "這裡 差很大 是必考點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 201.14,
+    "end": 203.6,
+    "speaker": "彥君",
+    "text": "木質部 運水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 203.8,
+    "end": 206.45,
+    "speaker": "彥君",
+    "text": "只有 一種方向",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 206.65,
+    "end": 209.37,
+    "speaker": "彥君",
+    "text": "就是 由下往上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 209.57,
+    "end": 212.46,
+    "speaker": "彥君",
+    "text": "但 韌皮部 運養分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "韌皮部"
+    ]
+  },
+  {
+    "start": 212.66,
+    "end": 215.16,
+    "speaker": "彥君",
+    "text": "卻是 雙向的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 215.36,
+    "end": 217.96,
+    "speaker": "彥君",
+    "text": "春天 往上開花",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 218.16,
+    "end": 221.02,
+    "speaker": "彥君",
+    "text": "秋天 往下儲存",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 221.22,
+    "end": 231.98,
+    "speaker": "彥君",
+    "text": "\\text{木質部： 運水 (單向往上)}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{木質部： 運水 (單向往上)}"
+    ]
+  },
+  {
+    "start": 224.96,
+    "end": 231.98,
+    "speaker": "彥君",
+    "text": "\\text{韌皮部： 運養分 (雙向皆可)}",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "\\text{韌皮部： 運養分 (雙向皆可)}"
+    ]
+  },
+  {
+    "start": 231.98,
+    "end": 234.01,
+    "speaker": "曉臻",
+    "text": "原來如此",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 234.21,
+    "end": 236.5,
+    "speaker": "曉臻",
+    "text": "那 右邊的實驗",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 236.7,
+    "end": 239.49,
+    "speaker": "曉臻",
+    "text": "為什麼要把 芹菜葉子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 239.69,
+    "end": 241.59,
+    "speaker": "曉臻",
+    "text": "摘掉一半",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 241.79,
+    "end": 246.24,
+    "speaker": "彥君",
+    "text": "這是重點 戰士們盯緊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 246.44,
+    "end": 249.54,
+    "speaker": "彥君",
+    "text": "葉片 是蒸散作用的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 249.74,
+    "end": 252.01,
+    "speaker": "彥君",
+    "text": "主要器官",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 252.21,
+    "end": 255.53,
+    "speaker": "彥君",
+    "text": "葉片越多 蒸散作用",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 255.73,
+    "end": 258.64,
+    "speaker": "彥君",
+    "text": "產生的 拉力就越大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 258.84,
+    "end": 261.9,
+    "speaker": "彥君",
+    "text": "所以 紅墨水 跑得快",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 262.1,
+    "end": 265.32,
+    "speaker": "曉臻",
+    "text": "所以 如果把葉子 全部摘光",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 265.52,
+    "end": 268.34,
+    "speaker": "曉臻",
+    "text": "紅墨水 就吸不上去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 268.54,
+    "end": 270.75,
+    "speaker": "曉臻",
+    "text": "因為 沒了拉力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 270.95,
+    "end": 273.34,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 273.54,
+    "end": 326.31,
+    "speaker": "彥君",
+    "text": "\\text{葉片多} \\rightarrow \\text{蒸散拉力大} \\rightarrow \\text{吸水快}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{葉片多} \\rightarrow \\text{蒸散拉力大} \\rightarrow \\text{吸水快}"
+    ]
+  },
+  {
+    "start": 277.82,
+    "end": 280.35,
+    "speaker": "曉臻",
+    "text": "那 凡士林實驗 呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 280.55,
+    "end": 283.06,
+    "speaker": "曉臻",
+    "text": "這題跟 葉片數量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 283.26,
+    "end": 285.52,
+    "speaker": "曉臻",
+    "text": "又有 什麼關係",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 285.72,
+    "end": 289.3,
+    "speaker": "彥君",
+    "text": "凡士林 是用來 封死氣孔的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 289.5,
+    "end": 293.11,
+    "speaker": "彥君",
+    "text": "如果在 下表皮 塗滿凡士林",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 293.31,
+    "end": 296.18,
+    "speaker": "彥君",
+    "text": "就像 堵住 排水口",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 296.38,
+    "end": 298.98,
+    "speaker": "彥君",
+    "text": "即使 葉子再多",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 299.18,
+    "end": 301.8,
+    "speaker": "彥君",
+    "text": "氣孔 被堵住了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 302.0,
+    "end": 305.08,
+    "speaker": "彥君",
+    "text": "蒸散作用 就會停擺",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 305.28,
+    "end": 307.9,
+    "speaker": "彥君",
+    "text": "拉力 就會消失",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 308.1,
+    "end": 311.76,
+    "speaker": "曉臻",
+    "text": "我明白了 結論就是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 311.96,
+    "end": 315.04,
+    "speaker": "曉臻",
+    "text": "葉片越多、 氣孔越開",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 315.24,
+    "end": 318.68,
+    "speaker": "曉臻",
+    "text": "拉力越強 水就運得越快",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 318.88,
+    "end": 326.31,
+    "speaker": "彥君",
+    "text": "\\text{塗凡士林} \\rightarrow \\text{堵住氣孔} \\rightarrow \\text{拉力消失}",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "\\text{塗凡士林} \\rightarrow \\text{堵住氣孔} \\rightarrow \\text{拉力消失}"
+    ]
+  },
+  {
+    "start": 326.31,
+    "end": 330.5,
+    "speaker": "彥君",
+    "text": "沒錯 最後 別忘了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 330.7,
+    "end": 334.62,
+    "speaker": "彥君",
+    "text": "那個 大魔王考點 環狀剝皮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "剝皮"
+    ]
+  },
+  {
+    "start": 334.82,
+    "end": 337.87,
+    "speaker": "彥君",
+    "text": "剝皮 是 傷到韌皮部",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "剝皮",
+      "韌皮部"
+    ]
+  },
+  {
+    "start": 338.07,
+    "end": 340.58,
+    "speaker": "彥君",
+    "text": "養分 下不去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 340.78,
+    "end": 343.78,
+    "speaker": "彥君",
+    "text": "所以 根部 會先餓死",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 343.98,
+    "end": 351.92,
+    "speaker": "彥君",
+    "text": "\\text{環狀剝皮} \\rightarrow \\text{傷韌皮部} \\rightarrow \\text{根部先死}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{環狀剝皮} \\rightarrow \\text{傷韌皮部} \\rightarrow \\text{根部先死}"
+    ]
+  },
+  {
+    "start": 351.92,
+    "end": 354.98,
+    "speaker": "曉臻",
+    "text": "戰士們 我們來複習",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 355.18,
+    "end": 357.78,
+    "speaker": "曉臻",
+    "text": "這頁的 五星級重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 357.98,
+    "end": 360.55,
+    "speaker": "曉臻",
+    "text": "第一 內木外韌",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "韌"
+    ]
+  },
+  {
+    "start": 360.75,
+    "end": 364.1,
+    "speaker": "曉臻",
+    "text": "雙子葉 有形成層 可以長粗",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 364.3,
+    "end": 366.94,
+    "speaker": "曉臻",
+    "text": "第二 運送方向",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 367.14,
+    "end": 370.54,
+    "speaker": "曉臻",
+    "text": "木質部 單向 韌皮部 雙向",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "韌皮部"
+    ]
+  },
+  {
+    "start": 370.74,
+    "end": 373.38,
+    "speaker": "曉臻",
+    "text": "第三 蒸散作用",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 373.58,
+    "end": 377.38,
+    "speaker": "曉臻",
+    "text": "葉片多 拉力強 下表皮 氣孔多",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 377.58,
+    "end": 380.4,
+    "speaker": "曉臻",
+    "text": "第四 實驗細節",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 380.6,
+    "end": 383.42,
+    "speaker": "曉臻",
+    "text": "紅墨水 走內側木質部",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 383.62,
+    "end": 387.18,
+    "speaker": "曉臻",
+    "text": "氣孔沒塞住 水才吸得快",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 387.38,
+    "end": 390.58,
+    "speaker": "彥君",
+    "text": "戰士們 閉上眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 390.78,
+    "end": 392.97,
+    "speaker": "彥君",
+    "text": "想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 393.17,
+    "end": 396.61,
+    "speaker": "彥君",
+    "text": "如果我今天 把一棵樹的葉子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 396.81,
+    "end": 399.74,
+    "speaker": "彥君",
+    "text": "全部 塗滿凡士林",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 399.94,
+    "end": 402.4,
+    "speaker": "彥君",
+    "text": "它還能 吸水嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 402.6,
+    "end": 406.5,
+    "speaker": "曉臻",
+    "text": "不行 蒸散作用 被切斷了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 406.7,
+    "end": 410.02,
+    "speaker": "曉臻",
+    "text": "沒有拉力 水分 就上不來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 410.22,
+    "end": 415.19,
+    "speaker": "彥君",
+    "text": "漂亮 觀念通了 人生就通",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 415.39,
+    "end": 418.69,
+    "speaker": "彥君",
+    "text": "這就是 會考的 標準邏輯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 418.89,
+    "end": 421.49,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 421.69,
+    "end": 424.02,
+    "speaker": "曉臻",
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 424.22,
+    "end": 427.69,
     "speaker": "合聲",
-    "text": "重點全拿實驗必勝明天見"
+    "text": "重點全拿 實驗必勝",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 427.89,
+    "end": 431.18,
+    "speaker": "合聲",
+    "text": "戰士們 我們明天見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
