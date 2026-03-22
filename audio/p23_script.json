@@ -1,248 +1,1063 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.3,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們準備封神了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.1,
+    "start": 3.5,
+    "end": 5.88,
     "speaker": "彥君",
-    "text": "各位衝 A 的戰士們 我是彥君老師"
+    "text": "把講義攤開",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.1,
-    "end": 11.0,
+    "start": 6.08,
+    "end": 9.64,
     "speaker": "彥君",
-    "text": "翻開講義 第二十三頁"
+    "text": "筆蓋拔起來準備戰鬥",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.0,
-    "end": 17.1,
+    "start": 9.84,
+    "end": 13.06,
     "speaker": "彥君",
-    "text": "這一頁的重點 是要大家找出 這兩類生物 『最不一樣』 的地方"
+    "text": "瞄準第一志願的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 17.1,
-    "end": 22.13,
+    "start": 13.26,
+    "end": 16.06,
     "speaker": "彥君",
-    "text": "戰士們 拿起你的筆 我們要 開始填表了"
+    "text": "我們直接滿血通關",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.13,
-    "end": 26.28,
+    "start": 16.26,
+    "end": 18.86,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 19.06,
+    "end": 22.66,
+    "speaker": "彥君",
+    "text": "翻開講義第二十三頁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 22.86,
+    "end": 25.42,
+    "speaker": "彥君",
+    "text": "這一頁的重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 25.62,
+    "end": 28.14,
+    "speaker": "彥君",
+    "text": "是要大家找出",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 28.34,
+    "end": 30.73,
+    "speaker": "彥君",
+    "text": "這兩類生物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 30.93,
+    "end": 33.48,
+    "speaker": "彥君",
+    "text": "最不一樣的地方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 33.68,
+    "end": 36.83,
+    "speaker": "彥君",
+    "text": "戰士們拿起筆",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 37.03,
+    "end": 39.73,
+    "speaker": "彥君",
+    "text": "我們要開始填表了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 39.93,
+    "end": 42.41,
     "speaker": "曉臻",
-    "text": "各位戰士 大家好 我是曉臻助教"
+    "text": "各位戰士大家好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 26.28,
-    "end": 30.76,
+    "start": 42.61,
+    "end": 44.94,
     "speaker": "曉臻",
-    "text": "老師 這兩格生物 雖然都 住在海裡"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 30.76,
-    "end": 34.38,
+    "start": 45.14,
+    "end": 47.98,
     "speaker": "曉臻",
-    "text": "但構造等級 好像差很多耶"
+    "text": "老師這兩格生物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 34.38,
-    "end": 41.8,
-    "speaker": "彥君",
-    "text": "沒錯 戰士們 我們先看 上面這格 『刺絲胞動物』"
-  },
-  {
-    "start": 41.8,
-    "end": 47.82,
-    "speaker": "彥君",
-    "text": "牠們的 代表生物 是水母、水螅、珊瑚還有海葵"
-  },
-  {
-    "start": 47.82,
-    "end": 54.03,
-    "speaker": "彥君",
-    "text": "消化系統 很原始 只有一個開口 也就是 『有口無肛門』"
-  },
-  {
-    "start": 54.03,
-    "end": 59.02,
-    "speaker": "彥君",
-    "text": "特徵是具有 『刺絲胞』 用來捕食 和防禦"
-  },
-  {
-    "start": 59.02,
-    "end": 62.54,
+    "start": 48.18,
+    "end": 50.74,
     "speaker": "曉臻",
-    "text": "戰士們 空格填完了嗎"
+    "text": "雖然都住在海裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 62.54,
-    "end": 68.92,
+    "start": 50.94,
+    "end": 53.2,
     "speaker": "曉臻",
-    "text": "順便聊一下 水母雖然 只有一個口 但吃東西的 速度可快了"
+    "text": "但構造等級",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 68.92,
-    "end": 76.04,
-    "speaker": "彥君",
-    "text": "好 大家寫完了嗎 我們來看 下面這格 『棘皮動物』"
-  },
-  {
-    "start": 76.04,
-    "end": 80.89,
-    "speaker": "彥君",
-    "text": "牠們的 代表生物 是海星、海膽還有海參"
-  },
-  {
-    "start": 80.89,
-    "end": 87.1,
-    "speaker": "彥君",
-    "text": "消化系統 進化了 具有兩個開口 也就是 『有口有肛門』"
-  },
-  {
-    "start": 87.1,
-    "end": 91.92,
-    "speaker": "彥君",
-    "text": "這裡是 重點中的重點 請大家 畫五顆星"
-  },
-  {
-    "start": 91.92,
-    "end": 96.12,
-    "speaker": "彥君",
-    "text": "棘皮動物 具有獨一無二的 『管足』"
-  },
-  {
-    "start": 96.12,
-    "end": 101.61,
-    "speaker": "彥君",
-    "text": "靠著管足 牠可以在 海底行走 還能用來呼吸"
-  },
-  {
-    "start": 101.61,
-    "end": 107.56,
+    "start": 53.4,
+    "end": 55.76,
     "speaker": "曉臻",
-    "text": "戰士們 趕快把 『兩個口』 還有 『管足』 填進右邊的格子"
+    "text": "好像差很多耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 107.56,
-    "end": 113.31,
+    "start": 55.96,
+    "end": 59.88,
+    "speaker": "彥君",
+    "text": "沒錯戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 60.08,
+    "end": 63.02,
+    "speaker": "彥君",
+    "text": "我們先看上面這格",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 63.22,
+    "end": 65.74,
+    "speaker": "彥君",
+    "text": "刺絲胞動物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 65.94,
+    "end": 75.48,
     "speaker": "曉臻",
-    "text": "海星看起來 雖然笨重 但靠管足 抓獵物 可是非常準的"
+    "text": "水母、珊瑚、海葵、水螅}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 113.31,
-    "end": 118.85,
+    "start": 75.68,
+    "end": 78.4,
     "speaker": "彥君",
-    "text": "還有一個 細節要記 刺絲胞動物 是『輻射對稱』"
+    "text": "牠們的代表生物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 118.85,
-    "end": 123.41,
+    "start": 78.6,
+    "end": 82.57,
     "speaker": "彥君",
-    "text": "海星則是 更高等的 『五輻射對稱』"
+    "text": "是水母、珊瑚、海葵",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 123.41,
-    "end": 129.24,
+    "start": 82.77,
+    "end": 85.18,
     "speaker": "彥君",
-    "text": "戰士們 趁大家還在寫 我們補強一下 旁邊的鄰居"
+    "text": "還有水螅",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "水螅"
+    ]
   },
   {
-    "start": 129.24,
-    "end": 134.22,
+    "start": 85.38,
+    "end": 88.24,
     "speaker": "彥君",
-    "text": "第一個是 『軟體動物』 像是烏賊 和蛤蜊"
+    "text": "消化系統很原始",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 134.22,
-    "end": 139.57,
+    "start": 88.44,
+    "end": 90.97,
     "speaker": "彥君",
-    "text": "牠們的特徵 是身體柔軟 通常有 堅硬的外殼"
+    "text": "只有一個開口",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 139.57,
-    "end": 144.63,
+    "start": 91.17,
+    "end": 94.58,
     "speaker": "彥君",
-    "text": "第二個是 『扁形動物』 代表生物 就是渦蟲"
+    "text": "也就是有口無肛門",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 144.63,
-    "end": 151.35,
-    "speaker": "彥君",
-    "text": "牠的身體 真的像紙一樣 呈現 『背腹扁平』 而且也只有 一個開口喔"
-  },
-  {
-    "start": 151.35,
-    "end": 157.58,
+    "start": 94.78,
+    "end": 102.78,
     "speaker": "曉臻",
-    "text": "哇 這一段補充 太重要了 大家趕快 記在講義旁邊"
+    "text": "有口無肛門、具刺絲胞 (捕食/防禦)}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 157.58,
-    "end": 162.81,
-    "speaker": "曉臻",
-    "text": "軟體動物 看硬殼 扁形動物 看扁平 記住了"
-  },
-  {
-    "start": 162.81,
-    "end": 165.9,
-    "speaker": "曉臻",
-    "text": "一個口、 有刺絲胞"
-  },
-  {
-    "start": 165.9,
-    "end": 168.9,
-    "speaker": "曉臻",
-    "text": "兩個口、 有管足"
-  },
-  {
-    "start": 168.9,
-    "end": 174.42,
-    "speaker": "曉臻",
-    "text": "身體柔軟 具有外殼碳酸鈣的成份"
-  },
-  {
-    "start": 174.42,
-    "end": 178.2,
-    "speaker": "曉臻",
-    "text": "身體背腹扁平、 只有一個口"
-  },
-  {
-    "start": 178.2,
-    "end": 183.34,
+    "start": 102.98,
+    "end": 105.87,
     "speaker": "彥君",
-    "text": "如果考試問你 誰是用 『管足』 來呼吸跟移動的"
+    "text": "特徵是具有刺絲胞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 183.34,
-    "end": 188.85,
-    "speaker": "曉臻",
-    "text": "答案絕對 是海星 牠是 『棘皮動物門』 的代表"
-  },
-  {
-    "start": 188.85,
-    "end": 194.99,
+    "start": 106.07,
+    "end": 108.89,
     "speaker": "彥君",
-    "text": "漂亮 這就是 A級戰士 該有的 秒殺能力"
+    "text": "用來捕食和防禦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 194.99,
-    "end": 197.89,
-    "speaker": "彥君",
-    "text": "我是彥君老師"
-  },
-  {
-    "start": 197.89,
-    "end": 200.53,
+    "start": 109.09,
+    "end": 112.31,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "戰士們空格填完了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 200.53,
-    "end": 205.64,
+    "start": 112.51,
+    "end": 114.7,
+    "speaker": "曉臻",
+    "text": "順便聊一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 114.9,
+    "end": 117.67,
+    "speaker": "曉臻",
+    "text": "水母雖然只有一個口",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 117.87,
+    "end": 120.35,
+    "speaker": "曉臻",
+    "text": "但吃東西的速度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 120.55,
+    "end": 122.86,
+    "speaker": "曉臻",
+    "text": "可是非常快的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 123.06,
+    "end": 126.19,
+    "speaker": "彥君",
+    "text": "覺得讀到快喘不過氣了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 126.39,
+    "end": 130.24,
+    "speaker": "彥君",
+    "text": "撐過這關後面就是坦途",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 130.44,
+    "end": 133.38,
+    "speaker": "彥君",
+    "text": "好大家寫完了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 133.58,
+    "end": 136.49,
+    "speaker": "彥君",
+    "text": "我們來看下面這格",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 136.69,
+    "end": 138.98,
+    "speaker": "彥君",
+    "text": "棘皮動物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 139.18,
+    "end": 146.67,
+    "speaker": "曉臻",
+    "text": "海星、海膽、海參}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 146.87,
+    "end": 149.59,
+    "speaker": "彥君",
+    "text": "牠們的代表生物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 149.79,
+    "end": 152.99,
+    "speaker": "彥君",
+    "text": "是海星、海膽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 153.19,
+    "end": 155.46,
+    "speaker": "彥君",
+    "text": "還有海參",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "海參"
+    ]
+  },
+  {
+    "start": 155.66,
+    "end": 158.4,
+    "speaker": "彥君",
+    "text": "消化系統進化了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 158.6,
+    "end": 161.27,
+    "speaker": "彥君",
+    "text": "具有兩個開口",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 161.47,
+    "end": 164.96,
+    "speaker": "彥君",
+    "text": "也就是有口有肛門",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 165.16,
+    "end": 168.31,
+    "speaker": "彥君",
+    "text": "這裡是重點中的重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 168.51,
+    "end": 171.3,
+    "speaker": "彥君",
+    "text": "請大家畫五顆星",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 171.5,
+    "end": 183.3,
+    "speaker": "曉臻",
+    "text": "有口有肛門、具管足 (運動/呼吸)}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 183.5,
+    "end": 185.83,
+    "speaker": "彥君",
+    "text": "棘皮動物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 186.03,
+    "end": 189.16,
+    "speaker": "彥君",
+    "text": "具有獨一無二的管足",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 189.36,
+    "end": 191.72,
+    "speaker": "彥君",
+    "text": "靠著管足",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 191.92,
+    "end": 194.86,
+    "speaker": "彥君",
+    "text": "牠可以在海底行走",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 195.06,
+    "end": 197.61,
+    "speaker": "彥君",
+    "text": "還能用來呼吸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 197.81,
+    "end": 200.46,
+    "speaker": "曉臻",
+    "text": "戰士們趕快把",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 200.66,
+    "end": 203.52,
+    "speaker": "曉臻",
+    "text": "兩個口還有管足",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 203.72,
+    "end": 206.25,
+    "speaker": "曉臻",
+    "text": "填進右邊的格子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 206.45,
+    "end": 209.31,
+    "speaker": "曉臻",
+    "text": "海星看起來雖然笨重",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 209.51,
+    "end": 212.04,
+    "speaker": "曉臻",
+    "text": "但靠管足抓獵物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 212.24,
+    "end": 214.55,
+    "speaker": "曉臻",
+    "text": "可是非常準的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 214.75,
+    "end": 217.66,
+    "speaker": "彥君",
+    "text": "還有一個細節要記",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 217.86,
+    "end": 220.42,
+    "speaker": "彥君",
+    "text": "刺絲胞動物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 220.62,
+    "end": 223.17,
+    "speaker": "彥君",
+    "text": "是輻射對稱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 223.37,
+    "end": 226.42,
+    "speaker": "彥君",
+    "text": "海星則是更高等的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 226.62,
+    "end": 229.13,
+    "speaker": "彥君",
+    "text": "五輻射對稱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 229.33,
+    "end": 232.96,
+    "speaker": "彥君",
+    "text": "戰士們趁大家還在寫",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 233.16,
+    "end": 235.71,
+    "speaker": "彥君",
+    "text": "我們補強一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 235.91,
+    "end": 238.34,
+    "speaker": "彥君",
+    "text": "旁邊的鄰居",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 238.54,
+    "end": 249.76,
+    "speaker": "曉臻",
+    "text": "身體柔軟、具碳酸鈣外殼}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 249.96,
+    "end": 252.87,
+    "speaker": "彥君",
+    "text": "第一個是軟體動物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 253.07,
+    "end": 256.13,
+    "speaker": "彥君",
+    "text": "像是烏賊和蛤蜊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "蛤蜊"
+    ]
+  },
+  {
+    "start": 256.33,
+    "end": 258.62,
+    "speaker": "彥君",
+    "text": "牠們的特徵",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 258.82,
+    "end": 261.37,
+    "speaker": "彥君",
+    "text": "是身體柔軟",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 261.57,
+    "end": 264.26,
+    "speaker": "彥君",
+    "text": "通常有堅硬的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 264.46,
+    "end": 267.18,
+    "speaker": "彥君",
+    "text": "碳酸鈣外殼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 267.38,
+    "end": 273.9,
+    "speaker": "曉臻",
+    "text": "背腹扁平、有口無肛門}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 274.1,
+    "end": 276.96,
+    "speaker": "彥君",
+    "text": "第二個是扁形動物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 277.16,
+    "end": 280.26,
+    "speaker": "彥君",
+    "text": "代表生物就是渦蟲",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "渦蟲"
+    ]
+  },
+  {
+    "start": 280.46,
+    "end": 282.82,
+    "speaker": "彥君",
+    "text": "牠的身體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 283.02,
+    "end": 285.58,
+    "speaker": "彥君",
+    "text": "真的像紙一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 285.78,
+    "end": 288.71,
+    "speaker": "彥君",
+    "text": "呈現背腹扁平",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 288.91,
+    "end": 291.44,
+    "speaker": "彥君",
+    "text": "而且也只有",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 291.64,
+    "end": 293.88,
+    "speaker": "彥君",
+    "text": "一個開口喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 294.08,
+    "end": 297.28,
+    "speaker": "曉臻",
+    "text": "哇這一段補充",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 297.48,
+    "end": 299.82,
+    "speaker": "曉臻",
+    "text": "實在太重要了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 300.02,
+    "end": 302.38,
+    "speaker": "曉臻",
+    "text": "大家趕快記在",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 302.58,
+    "end": 304.65,
+    "speaker": "曉臻",
+    "text": "講義的旁邊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 304.85,
+    "end": 307.45,
+    "speaker": "曉臻",
+    "text": "軟體動物看硬殼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 307.65,
+    "end": 310.18,
+    "speaker": "曉臻",
+    "text": "扁形動物看扁平",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 310.38,
+    "end": 312.64,
+    "speaker": "曉臻",
+    "text": "絕對要記住了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 312.84,
+    "end": 316.11,
+    "speaker": "曉臻",
+    "text": "戰士們給大腦一點時間",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 316.31,
+    "end": 319.27,
+    "speaker": "曉臻",
+    "text": "最後來個構造大對決",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 319.47,
+    "end": 321.74,
+    "speaker": "曉臻",
+    "text": "最終總複習",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 321.94,
+    "end": 328.81,
+    "speaker": "曉臻",
+    "text": "一個口、有刺絲胞}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 329.01,
+    "end": 335.45,
+    "speaker": "曉臻",
+    "text": "兩個口、有管足}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 335.65,
+    "end": 345.38,
+    "speaker": "曉臻",
+    "text": "身體柔軟、碳酸鈣外殼}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 345.58,
+    "end": 352.9,
+    "speaker": "曉臻",
+    "text": "背腹扁平、一個口}]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 353.1,
+    "end": 356.52,
+    "speaker": "彥君",
+    "text": "戰士們請閉上眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 356.72,
+    "end": 359.01,
+    "speaker": "彥君",
+    "text": "思考一下喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 359.21,
+    "end": 361.76,
+    "speaker": "彥君",
+    "text": "如果考試問你",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 361.96,
+    "end": 364.54,
+    "speaker": "彥君",
+    "text": "誰是用管足",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 364.74,
+    "end": 367.41,
+    "speaker": "彥君",
+    "text": "來呼吸跟移動的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 367.61,
+    "end": 370.02,
+    "speaker": "曉臻",
+    "text": "答案絕對是海星",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 370.22,
+    "end": 372.91,
+    "speaker": "曉臻",
+    "text": "牠是棘皮動物門的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 373.11,
+    "end": 375.02,
+    "speaker": "曉臻",
+    "text": "經典代表",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 375.22,
+    "end": 377.26,
+    "speaker": "彥君",
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 377.46,
+    "end": 380.47,
+    "speaker": "彥君",
+    "text": "這就是滿級分戰士",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 380.67,
+    "end": 383.32,
+    "speaker": "彥君",
+    "text": "該有的秒殺能力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 383.52,
+    "end": 386.67,
+    "speaker": "彥君",
+    "text": "你比想像中更強大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 386.87,
+    "end": 389.9,
+    "speaker": "彥君",
+    "text": "老師會陪你戰到底",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 390.1,
+    "end": 392.7,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 392.9,
+    "end": 395.24,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 395.44,
+    "end": 399.12,
     "speaker": "合聲",
-    "text": "構造分清楚 高分擋不住 下一關見"
+    "text": "構造分清楚滿血來通關",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 399.32,
+    "end": 401.73,
+    "speaker": "合聲",
+    "text": "下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
