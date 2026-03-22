@@ -1,368 +1,1031 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.73,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 揉揉酸澀的眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.1,
+    "start": 3.93,
+    "end": 7.25,
     "speaker": "彥君",
-    "text": "各位衝 A 的戰士們我是彥君老師"
+    "text": "深呼吸 挺直腰桿",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.1,
-    "end": 13.07,
+    "start": 7.45,
+    "end": 10.62,
     "speaker": "彥君",
-    "text": "翻開講義 第十六頁我們要來看細胞分裂"
+    "text": "我們要來 迎戰生物科的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 13.07,
-    "end": 18.54,
+    "start": 10.82,
+    "end": 13.3,
     "speaker": "彥君",
-    "text": "同學們 先停下筆這頁很重要非常的重要"
+    "text": "萬年 大魔王了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.54,
-    "end": 24.34,
+    "start": 13.5,
+    "end": 16.73,
     "speaker": "彥君",
-    "text": "聽清楚了這題沒拿到真的會跟 A擦身而過"
+    "text": "歡迎來到 第十六集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 24.34,
-    "end": 27.84,
+    "start": 16.93,
+    "end": 19.53,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 19.73,
+    "end": 21.46,
     "speaker": "曉臻",
-    "text": "大家好我是曉臻助教"
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.84,
-    "end": 32.64,
+    "start": 21.66,
+    "end": 24.0,
     "speaker": "曉臻",
-    "text": "老師這兩張圖 看起來都有 染色體在動"
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 32.64,
-    "end": 37.5,
+    "start": 24.2,
+    "end": 27.09,
+    "speaker": "彥君",
+    "text": "翻開講義 第十六頁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 27.29,
+    "end": 30.32,
+    "speaker": "彥君",
+    "text": "我們要來看 細胞分裂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 30.52,
+    "end": 33.43,
+    "speaker": "彥君",
+    "text": "同學們 先停下筆",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 33.63,
+    "end": 35.85,
+    "speaker": "彥君",
+    "text": "聽清楚了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 36.05,
+    "end": 39.82,
+    "speaker": "彥君",
+    "text": "這題沒拿到 真的會 痛捶心肝",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 40.02,
+    "end": 42.77,
     "speaker": "曉臻",
-    "text": "到底要怎麼分為什麼一個 要分兩次"
+    "text": "老師 這兩張圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 37.5,
-    "end": 41.58,
-    "speaker": "彥君",
-    "text": "細胞生修發減數產精卵"
+    "start": 42.97,
+    "end": 45.9,
+    "speaker": "曉臻",
+    "text": "看起來 都有 染色體在動",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 41.58,
-    "end": 45.2,
-    "speaker": "彥君",
-    "text": "我們先看上圖的 細胞分裂"
+    "start": 46.1,
+    "end": 48.3,
+    "speaker": "曉臻",
+    "text": "到底 要怎麼分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 45.2,
-    "end": 49.42,
-    "speaker": "彥君",
-    "text": "它是為了生長、或是修補傷口"
+    "start": 48.5,
+    "end": 51.19,
+    "speaker": "曉臻",
+    "text": "為什麼 一個要分兩次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 49.42,
-    "end": 53.5,
+    "start": 51.39,
+    "end": 55.02,
     "speaker": "彥君",
-    "text": "重點來了請大家 盯緊螢幕"
+    "text": "戰士們 記住這句 口訣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 53.5,
-    "end": 58.39,
+    "start": 55.22,
+    "end": 58.95,
     "speaker": "彥君",
-    "text": "細胞分裂染色體的數目 維持不變"
+    "text": "細胞生修發 減數產精卵",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 58.39,
-    "end": 62.49,
+    "start": 59.15,
+    "end": 62.45,
     "speaker": "彥君",
-    "text": "維持雙套也就是 2n 不變"
+    "text": "我們先看 上圖的 細胞分裂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 62.49,
-    "end": 67.28,
+    "start": 62.65,
+    "end": 65.25,
     "speaker": "彥君",
-    "text": "就像影印機一樣印出來要 一模一樣"
+    "text": "它是為了生長",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 67.28,
-    "end": 71.84,
+    "start": 65.45,
+    "end": 68.19,
     "speaker": "彥君",
-    "text": "一個母細胞最後會產生 兩個子細胞"
+    "text": "或是 修補傷口",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 68.39,
+    "end": 71.64,
+    "speaker": "彥君",
+    "text": "重點來了 盯緊螢幕",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 71.84,
-    "end": 75.92,
+    "end": 75.69,
+    "speaker": "彥君",
+    "text": "細胞分裂 染色體的數目",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 75.89,
+    "end": 78.2,
+    "speaker": "彥君",
+    "text": "維持不變",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 78.4,
+    "end": 81.05,
+    "speaker": "彥君",
+    "text": "這裡我 講慢一點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 81.25,
+    "end": 85.1,
+    "speaker": "彥君",
+    "text": "維持雙套 也就是 2n 不變",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "2n"
+    ]
+  },
+  {
+    "start": 85.3,
+    "end": 88.18,
+    "speaker": "彥君",
+    "text": "就像 影印機一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 88.38,
+    "end": 91.32,
+    "speaker": "彥君",
+    "text": "印出來 要一模一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 91.52,
+    "end": 93.81,
+    "speaker": "彥君",
+    "text": "一個 母細胞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 94.01,
+    "end": 97.4,
+    "speaker": "彥君",
+    "text": "最後會產生 兩個 子細胞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 97.6,
+    "end": 106.98,
+    "speaker": "彥君",
+    "text": "\\text{細胞分裂： 為了生長修補， } 2\\text{n} \\rightarrow 2\\text{n} \\text{ (2 個子細胞)}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{細胞分裂： 為了生長修補， } 2\\text{n} \\rightarrow 2\\text{n} \\text{ (2 個子細胞)}"
+    ]
+  },
+  {
+    "start": 106.98,
+    "end": 109.77,
     "speaker": "曉臻",
-    "text": "老師那什麼是 同源染色體呢"
+    "text": "老師 那什麼是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 75.92,
-    "end": 81.17,
-    "speaker": "彥君",
-    "text": "同源染色體就是大小形狀 相同的染色體"
-  },
-  {
-    "start": 81.17,
-    "end": 85.24,
-    "speaker": "彥君",
-    "text": "一條來自爸爸一條來自媽媽"
-  },
-  {
-    "start": 85.24,
-    "end": 89.66,
-    "speaker": "彥君",
-    "text": "在細胞分裂時它們會 排成一列"
-  },
-  {
-    "start": 89.66,
-    "end": 94.69,
-    "speaker": "彥君",
-    "text": "然後從中間 撕開成兩半分到兩邊去"
-  },
-  {
-    "start": 94.69,
-    "end": 97.78,
+    "start": 109.97,
+    "end": 112.26,
     "speaker": "曉臻",
-    "text": "那下圖的 減數分裂呢"
+    "text": "同源染色體 呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 97.78,
-    "end": 102.1,
+    "start": 112.46,
+    "end": 116.45,
     "speaker": "彥君",
-    "text": "減數分裂 是為了產生 精子或卵子"
+    "text": "同源染色體 就是大小形狀",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 102.1,
-    "end": 106.51,
+    "start": 116.65,
+    "end": 119.39,
     "speaker": "彥君",
-    "text": "這個過程 非常特別大家聽好了"
+    "text": "相同的 染色體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 106.51,
-    "end": 110.83,
+    "start": 119.59,
+    "end": 123.37,
     "speaker": "彥君",
-    "text": "它是複製一次連續分裂兩次"
+    "text": "一條來自爸爸 一條來自媽媽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 110.83,
-    "end": 114.62,
+    "start": 123.57,
+    "end": 126.29,
     "speaker": "彥君",
-    "text": "複製一次分裂兩次"
+    "text": "在細胞分裂時",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 114.62,
-    "end": 120.11,
+    "start": 126.49,
+    "end": 129.23,
     "speaker": "彥君",
-    "text": "最終染色體會 從雙套的 2n變成單套的 n"
+    "text": "它們會 排成一列",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 120.11,
-    "end": 123.56,
+    "start": 129.43,
+    "end": 133.04,
     "speaker": "彥君",
-    "text": "也就是數目 直接減半"
+    "text": "然後從中間 撕開成兩半",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 123.56,
-    "end": 127.11,
+    "start": 133.24,
+    "end": 135.74,
     "speaker": "彥君",
-    "text": "而且會產生 四個子細胞"
+    "text": "分到 兩邊去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 127.11,
-    "end": 132.46,
+    "start": 135.94,
+    "end": 138.74,
     "speaker": "曉臻",
-    "text": "老師考試如果 沒寫數字要怎麼看圖判斷"
+    "text": "那下圖的 減數分裂呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 132.46,
-    "end": 136.51,
+    "start": 138.94,
+    "end": 142.09,
     "speaker": "彥君",
-    "text": "戰士們這就是 魔鬼細節"
+    "text": "減數分裂 是為了產生",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 136.51,
-    "end": 140.61,
+    "start": 142.29,
+    "end": 144.89,
     "speaker": "彥君",
-    "text": "你看那個 減數分裂的 第一次分裂"
+    "text": "精子 或 卵子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 140.61,
-    "end": 144.54,
+    "start": 145.09,
+    "end": 148.29,
     "speaker": "彥君",
-    "text": "是同源染色體 互相分離"
+    "text": "這個過程 非常特別",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 144.54,
-    "end": 148.64,
+    "start": 148.49,
+    "end": 150.82,
     "speaker": "彥君",
-    "text": "也就是 爸爸跟媽媽 的染色體分開了"
+    "text": "大家 聽好了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 148.64,
-    "end": 152.16,
+    "start": 151.02,
+    "end": 153.6,
     "speaker": "彥君",
-    "text": "只要最後 產生的子細胞"
+    "text": "它是 複製一次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 152.16,
-    "end": 155.9,
+    "start": 153.8,
+    "end": 156.47,
     "speaker": "彥君",
-    "text": "裡面的染色體 是不成對的"
+    "text": "連續 分裂兩次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 155.9,
-    "end": 160.34,
+    "start": 156.67,
+    "end": 159.3,
     "speaker": "彥君",
-    "text": "沒錯就是孤孤單單 的一條"
+    "text": "我再 強調一次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 160.34,
-    "end": 165.14,
+    "start": 159.5,
+    "end": 162.98,
     "speaker": "彥君",
-    "text": "只要是不成對那絕對就是 減數分裂"
+    "text": "複製一次 分裂兩次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 165.14,
-    "end": 168.11,
+    "start": 163.18,
+    "end": 167.18,
+    "speaker": "彥君",
+    "text": "最終 染色體會 從雙套的 2n",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "2n"
+    ]
+  },
+  {
+    "start": 167.38,
+    "end": 169.9,
+    "speaker": "彥君",
+    "text": "變成 單套的 n",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "n"
+    ]
+  },
+  {
+    "start": 170.1,
+    "end": 173.23,
+    "speaker": "彥君",
+    "text": "也就是數目 直接減半",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 173.43,
+    "end": 176.68,
+    "speaker": "彥君",
+    "text": "而且會產生 四個 子細胞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 176.88,
+    "end": 186.42,
+    "speaker": "彥君",
+    "text": "\\text{減數分裂： 為了產精卵， } 2\\text{n} \\rightarrow \\text{n} \\text{ (產生 4 個子細胞)}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{減數分裂： 為了產精卵， } 2\\text{n} \\rightarrow \\text{n} \\text{ (產生 4 個子細胞)}"
+    ]
+  },
+  {
+    "start": 186.42,
+    "end": 189.91,
     "speaker": "曉臻",
-    "text": "為什麼 一定要減半呢"
+    "text": "老師 考試如果 沒寫數字",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 168.11,
-    "end": 172.16,
+    "start": 190.11,
+    "end": 192.54,
+    "speaker": "曉臻",
+    "text": "要怎麼 看圖判斷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 192.74,
+    "end": 196.5,
     "speaker": "彥君",
-    "text": "戰士們這就是 生命的智慧"
+    "text": "戰士們 這就是 魔鬼細節",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 172.16,
-    "end": 177.2,
+    "start": 196.7,
+    "end": 199.87,
     "speaker": "彥君",
-    "text": "如果精子不減半受精卵 就會變成 4n"
+    "text": "你看那個 減數分裂的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 177.2,
-    "end": 181.68,
+    "start": 200.07,
+    "end": 202.48,
     "speaker": "彥君",
-    "text": "下一代 就會變成 染色體異常 的怪物"
+    "text": "第一次 分裂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 181.68,
-    "end": 185.49,
+    "start": 202.68,
+    "end": 206.31,
     "speaker": "彥君",
-    "text": "所以必須先 減半成單套的 n"
+    "text": "是 同源染色體 互相分離",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 185.49,
-    "end": 190.74,
+    "start": 206.51,
+    "end": 209.57,
     "speaker": "彥君",
-    "text": "這樣受精之後加起來 才能恢復成 正確的 2n"
+    "text": "也就是 爸爸跟媽媽的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 190.74,
-    "end": 195.11,
-    "speaker": "曉臻",
-    "text": "戰士們我們給大腦 一點時間消化"
-  },
-  {
-    "start": 195.11,
-    "end": 198.44,
-    "speaker": "曉臻",
-    "text": "複製一次 分裂一次"
-  },
-  {
-    "start": 198.44,
-    "end": 202.49,
-    "speaker": "曉臻",
-    "text": "兩個子細胞 染色體 2n 不變"
-  },
-  {
-    "start": 202.49,
-    "end": 205.87,
-    "speaker": "曉臻",
-    "text": "複製一次 分裂兩次"
-  },
-  {
-    "start": 205.87,
-    "end": 210.07,
-    "speaker": "曉臻",
-    "text": "四個子細胞 染色體減半 變成 n"
-  },
-  {
-    "start": 210.07,
-    "end": 213.06,
-    "speaker": "曉臻",
-    "text": "減數第一次 會分離"
-  },
-  {
-    "start": 213.06,
-    "end": 217.79,
-    "speaker": "曉臻",
-    "text": "這裡很重要請大家在 講義上打三顆星"
-  },
-  {
-    "start": 217.79,
-    "end": 222.63,
+    "start": 209.77,
+    "end": 212.37,
     "speaker": "彥君",
-    "text": "如果我 皮膚受傷 要癒合 那是哪一種分裂"
+    "text": "染色體 分開了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 222.63,
-    "end": 227.67,
-    "speaker": "曉臻",
-    "text": "皮膚修補 是生長的需求 所以是 細胞分裂"
-  },
-  {
-    "start": 227.67,
-    "end": 232.37,
+    "start": 212.57,
+    "end": 215.79,
     "speaker": "彥君",
-    "text": "那如果男生 要製造精子 是哪一種"
+    "text": "只要最後 產生的 子細胞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 232.37,
-    "end": 237.69,
-    "speaker": "曉臻",
-    "text": "製造生殖細胞必須減半 所以是 減數分裂"
-  },
-  {
-    "start": 237.69,
-    "end": 242.44,
-    "speaker": "曉臻",
-    "text": "考試的重點就在這兒 千萬別搞錯了喔"
-  },
-  {
-    "start": 242.44,
-    "end": 247.43,
-    "speaker": "曉臻",
-    "text": "只有產生生殖細胞時『才』進行減數分裂"
-  },
-  {
-    "start": 247.43,
-    "end": 252.73,
+    "start": 215.99,
+    "end": 218.64,
     "speaker": "彥君",
-    "text": "漂亮這就是 生命的 延續邏輯"
+    "text": "裡面的 染色體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 252.73,
-    "end": 255.63,
+    "start": 218.84,
+    "end": 221.27,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "是 不成對的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 255.63,
-    "end": 258.26,
+    "start": 221.47,
+    "end": 225.61,
+    "speaker": "彥君",
+    "text": "沒錯 就是 孤孤單單 的一條",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 225.81,
+    "end": 228.43,
+    "speaker": "彥君",
+    "text": "只要是 不成對",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 228.63,
+    "end": 231.86,
+    "speaker": "彥君",
+    "text": "那 絕對就是 減數分裂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 232.06,
+    "end": 240.47,
+    "speaker": "彥君",
+    "text": "\\text{減數分裂特徵： 同源染色體分離 (最終不成對)}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{減數分裂特徵： 同源染色體分離 (最終不成對)}"
+    ]
+  },
+  {
+    "start": 240.47,
+    "end": 243.14,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "為什麼 一定要減半 呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 258.26,
-    "end": 262.99,
+    "start": 243.34,
+    "end": 247.1,
+    "speaker": "彥君",
+    "text": "戰士們 這就是 生命的智慧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 247.3,
+    "end": 250.09,
+    "speaker": "彥君",
+    "text": "如果精子 不減半",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 250.29,
+    "end": 253.46,
+    "speaker": "彥君",
+    "text": "受精卵 就會變成 4n",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "4n"
+    ]
+  },
+  {
+    "start": 253.66,
+    "end": 256.67,
+    "speaker": "彥君",
+    "text": "下一代 就會變成",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 256.87,
+    "end": 259.74,
+    "speaker": "彥君",
+    "text": "染色體異常 的怪物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 259.94,
+    "end": 263.4,
+    "speaker": "彥君",
+    "text": "所以必須先 減半成單套的 n",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "n"
+    ]
+  },
+  {
+    "start": 263.6,
+    "end": 266.27,
+    "speaker": "彥君",
+    "text": "這樣受精之後",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 266.47,
+    "end": 269.58,
+    "speaker": "彥君",
+    "text": "加起來 才能恢復成",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 269.78,
+    "end": 272.11,
+    "speaker": "彥君",
+    "text": "正確的 2n",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "2n"
+    ]
+  },
+  {
+    "start": 272.31,
+    "end": 275.2,
+    "speaker": "曉臻",
+    "text": "戰士們 我們給大腦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 275.4,
+    "end": 277.74,
+    "speaker": "曉臻",
+    "text": "一點時間 消化",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 277.94,
+    "end": 280.94,
+    "speaker": "曉臻",
+    "text": "最後來個 大對決總結",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 281.14,
+    "end": 283.77,
+    "speaker": "曉臻",
+    "text": "第一 細胞分裂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 283.97,
+    "end": 287.0,
+    "speaker": "曉臻",
+    "text": "複製一次 分裂一次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 287.2,
+    "end": 290.98,
+    "speaker": "曉臻",
+    "text": "產生兩個子細胞 染色體不變",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 291.18,
+    "end": 293.85,
+    "speaker": "曉臻",
+    "text": "第二 減數分裂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 294.05,
+    "end": 297.13,
+    "speaker": "曉臻",
+    "text": "複製一次 分裂兩次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 297.33,
+    "end": 301.15,
+    "speaker": "曉臻",
+    "text": "產生四個子細胞 染色體減半",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 301.35,
+    "end": 304.26,
+    "speaker": "曉臻",
+    "text": "第三 同源染色體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 304.46,
+    "end": 307.3,
+    "speaker": "曉臻",
+    "text": "在減數第一次 會分離",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 307.5,
+    "end": 310.56,
+    "speaker": "曉臻",
+    "text": "只有 產生 生殖細胞時",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 310.76,
+    "end": 313.36,
+    "speaker": "曉臻",
+    "text": "才進行 減數分裂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 313.56,
+    "end": 317.34,
+    "speaker": "曉臻",
+    "text": "這裡很重要 講義上 打三顆星",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 317.54,
+    "end": 320.74,
+    "speaker": "彥君",
+    "text": "戰士們 閉上眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 320.94,
+    "end": 323.13,
+    "speaker": "彥君",
+    "text": "想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 323.33,
+    "end": 326.67,
+    "speaker": "彥君",
+    "text": "如果我 皮膚受傷 要癒合",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 326.87,
+    "end": 329.52,
+    "speaker": "彥君",
+    "text": "那是 哪一種分裂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 329.72,
+    "end": 332.87,
+    "speaker": "曉臻",
+    "text": "皮膚修補 是生長的需求",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 333.07,
+    "end": 335.6,
+    "speaker": "曉臻",
+    "text": "所以是 細胞分裂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 335.8,
+    "end": 339.14,
+    "speaker": "彥君",
+    "text": "那如果 男生 要製造精子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 339.34,
+    "end": 341.61,
+    "speaker": "彥君",
+    "text": "是哪一種",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 341.81,
+    "end": 345.13,
+    "speaker": "曉臻",
+    "text": "製造 生殖細胞 必須減半",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 345.33,
+    "end": 347.93,
+    "speaker": "曉臻",
+    "text": "所以是 減數分裂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 348.13,
+    "end": 350.61,
+    "speaker": "曉臻",
+    "text": "千萬 別搞錯了喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 350.81,
+    "end": 355.81,
+    "speaker": "彥君",
+    "text": "漂亮 這就是 生命的延續邏輯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 356.01,
+    "end": 360.12,
+    "speaker": "彥君",
+    "text": "撐過最難的 後面就是坦途",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 360.32,
+    "end": 363.28,
+    "speaker": "彥君",
+    "text": "老師 陪你們 戰到底",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 363.48,
+    "end": 366.08,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 366.28,
+    "end": 368.62,
+    "speaker": "曉臻",
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 368.82,
+    "end": 372.18,
     "speaker": "合聲",
-    "text": "分裂搞定遺傳不病下一關見"
+    "text": "分裂搞定 遺傳不病",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 372.38,
+    "end": 375.68,
+    "speaker": "合聲",
+    "text": "戰士們 下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
