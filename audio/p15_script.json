@@ -3,7 +3,7 @@
     "start": 0.0,
     "end": 3.75,
     "speaker": "彥君",
-    "text": "戰士們 今天的 夜戰開始",
+    "text": "戰士們今天的夜戰開始",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -12,7 +12,7 @@
     "start": 3.95,
     "end": 7.3,
     "speaker": "彥君",
-    "text": "喝口水 揉揉眼睛",
+    "text": "喝口水揉揉眼睛",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -21,23 +21,23 @@
     "start": 7.5,
     "end": 11.2,
     "speaker": "彥君",
-    "text": "你的努力 絕對 不會白費",
+    "text": "你的努力絕對不會白費",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
     "start": 11.4,
-    "end": 15.08,
+    "end": 14.65,
     "speaker": "彥君",
-    "text": "我們來拿下 會考必考的",
+    "text": "我們來拿下會考必考的",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 15.28,
-    "end": 18.05,
+    "start": 14.85,
+    "end": 17.62,
     "speaker": "彥君",
     "text": "植物感應大亂鬥",
     "is_pinned": false,
@@ -45,73 +45,64 @@
     "commands": []
   },
   {
-    "start": 18.25,
-    "end": 21.45,
+    "start": 17.82,
+    "end": 21.02,
     "speaker": "彥君",
-    "text": "歡迎來到 第十五集",
+    "text": "歡迎來到第十五集",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 21.65,
-    "end": 24.25,
+    "start": 21.22,
+    "end": 23.82,
     "speaker": "彥君",
-    "text": "我是 彥君老師",
+    "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 24.45,
-    "end": 26.18,
+    "start": 24.02,
+    "end": 27.22,
     "speaker": "曉臻",
-    "text": "大家好",
+    "text": "大家好我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 26.38,
-    "end": 28.72,
+    "start": 27.42,
+    "end": 30.38,
     "speaker": "曉臻",
-    "text": "我是 曉臻助教",
+    "text": "老師學生常常問",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 28.92,
-    "end": 31.88,
+    "start": 30.58,
+    "end": 33.2,
     "speaker": "曉臻",
-    "text": "老師 學生常常問",
+    "text": "植物沒有神經系統",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 32.08,
-    "end": 34.7,
+    "start": 33.4,
+    "end": 35.66,
     "speaker": "曉臻",
-    "text": "植物 沒有 神經系統",
+    "text": "為什麼還會動",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 34.9,
-    "end": 37.17,
+    "start": 35.86,
+    "end": 38.73,
     "speaker": "曉臻",
-    "text": "為什麼 還會動",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 37.37,
-    "end": 40.23,
-    "speaker": "曉臻",
-    "text": "而且 向性 跟 膨壓運動",
+    "text": "而且向性跟膨壓運動",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
@@ -119,26 +110,26 @@
     ]
   },
   {
-    "start": 40.43,
-    "end": 42.79,
+    "start": 38.93,
+    "end": 41.29,
     "speaker": "曉臻",
-    "text": "到底 要怎麼分啊",
+    "text": "到底要怎麼分啊",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 42.99,
-    "end": 46.24,
+    "start": 41.49,
+    "end": 44.74,
     "speaker": "彥君",
-    "text": "戰士們 盯緊講義",
+    "text": "戰士們盯緊講義",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 46.44,
-    "end": 49.18,
+    "start": 44.94,
+    "end": 47.68,
     "speaker": "彥君",
     "text": "會考最愛考的",
     "is_pinned": false,
@@ -146,46 +137,46 @@
     "commands": []
   },
   {
-    "start": 49.38,
-    "end": 52.13,
+    "start": 47.88,
+    "end": 50.62,
     "speaker": "彥君",
-    "text": "關鍵 在於 速度",
+    "text": "關鍵在於速度",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 52.33,
-    "end": 55.62,
+    "start": 50.82,
+    "end": 54.12,
     "speaker": "彥君",
-    "text": "向性 是為了生長",
+    "text": "向性是為了生長",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 55.82,
-    "end": 58.4,
+    "start": 54.32,
+    "end": 56.9,
     "speaker": "彥君",
-    "text": "速度 非常慢",
+    "text": "速度非常慢",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 58.6,
-    "end": 61.49,
+    "start": 57.1,
+    "end": 59.98,
     "speaker": "彥君",
-    "text": "是跟 生長素 有關",
+    "text": "是跟生長素有關",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 61.69,
-    "end": 64.17,
+    "start": 60.18,
+    "end": 62.66,
     "speaker": "彥君",
-    "text": "而 膨壓運動",
+    "text": "而膨壓運動",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
@@ -193,119 +184,116 @@
     ]
   },
   {
-    "start": 64.37,
-    "end": 67.06,
+    "start": 62.86,
+    "end": 65.56,
     "speaker": "彥君",
-    "text": "是跟 水分 有關",
+    "text": "是跟水分有關",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 67.26,
-    "end": 69.82,
+    "start": 65.76,
+    "end": 68.31,
     "speaker": "彥君",
-    "text": "反應 超級快",
+    "text": "反應超級快",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 70.02,
-    "end": 79.22,
+    "start": 68.51,
+    "end": 71.83,
     "speaker": "彥君",
-    "text": "\\text{向性 (生長素，慢)} / \\text{膨壓運動 (水分，快)}",
-    "is_pinned": true,
-    "pin_level": 1,
-    "commands": [
-      "釘選",
-      "\\text{向性 (生長素，慢)} / \\text{膨壓運動 (水分，快)}"
-    ]
+    "text": "大家花三秒鐘記憶一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 79.22,
-    "end": 82.02,
+    "start": 72.03,
+    "end": 74.82,
     "speaker": "曉臻",
-    "text": "我們 先來拆解 向性吧",
+    "text": "我們先來拆解向性吧",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 82.22,
-    "end": 84.84,
+    "start": 75.02,
+    "end": 77.65,
     "speaker": "曉臻",
-    "text": "有哪些 常見的例子",
+    "text": "有哪些常見的例子",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 85.04,
-    "end": 87.71,
+    "start": 77.85,
+    "end": 80.52,
     "speaker": "彥君",
-    "text": "第一是 向光性",
+    "text": "第一是向光性",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 87.91,
-    "end": 90.78,
+    "start": 80.72,
+    "end": 83.58,
     "speaker": "彥君",
-    "text": "植物的莖 會朝著",
+    "text": "植物的莖會朝著",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 90.98,
-    "end": 93.34,
+    "start": 83.78,
+    "end": 86.14,
     "speaker": "彥君",
-    "text": "陽光 彎曲",
+    "text": "陽光彎曲",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 93.54,
-    "end": 96.28,
+    "start": 86.34,
+    "end": 89.09,
     "speaker": "彥君",
-    "text": "因為 生長素 怕光",
+    "text": "因為生長素怕光",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 96.48,
-    "end": 99.37,
+    "start": 89.29,
+    "end": 92.18,
     "speaker": "彥君",
-    "text": "會跑到 莖的背光面",
+    "text": "會跑到莖的背光面",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 99.57,
-    "end": 102.53,
+    "start": 92.38,
+    "end": 95.41,
     "speaker": "彥君",
-    "text": "讓背光面 長得比較快",
+    "text": "讓背光面長得比較快",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 102.73,
-    "end": 105.47,
+    "start": 95.61,
+    "end": 98.35,
     "speaker": "彥君",
-    "text": "植物 就彎過去了",
+    "text": "植物就彎過去了",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 105.67,
-    "end": 107.7,
+    "start": 98.55,
+    "end": 100.58,
     "speaker": "曉臻",
     "text": "原來如此",
     "is_pinned": false,
@@ -313,44 +301,35 @@
     "commands": []
   },
   {
-    "start": 107.9,
-    "end": 110.64,
+    "start": 100.78,
+    "end": 103.52,
     "speaker": "曉臻",
-    "text": "那 第二個例子 是什麼",
+    "text": "那第二個例子是什麼",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 110.84,
-    "end": 113.49,
+    "start": 103.72,
+    "end": 106.37,
     "speaker": "彥君",
-    "text": "第二是 向觸性",
+    "text": "第二是向觸性",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 113.69,
-    "end": 116.98,
+    "start": 106.57,
+    "end": 110.15,
     "speaker": "彥君",
-    "text": "像是葡萄 跟牽牛花的",
+    "text": "像是葡萄跟牽牛花的卷鬚",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 117.18,
-    "end": 119.28,
-    "speaker": "彥君",
-    "text": "卷鬚",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 119.48,
-    "end": 122.03,
+    "start": 110.35,
+    "end": 112.9,
     "speaker": "彥君",
     "text": "碰到竹竿時",
     "is_pinned": false,
@@ -358,8 +337,8 @@
     "commands": []
   },
   {
-    "start": 122.23,
-    "end": 125.17,
+    "start": 113.1,
+    "end": 116.04,
     "speaker": "彥君",
     "text": "沒有碰到的那一面",
     "is_pinned": false,
@@ -367,26 +346,26 @@
     "commands": []
   },
   {
-    "start": 125.37,
-    "end": 127.99,
+    "start": 116.24,
+    "end": 118.86,
     "speaker": "彥君",
-    "text": "會長得 特別快",
+    "text": "會長得特別快",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 128.19,
-    "end": 131.22,
+    "start": 119.06,
+    "end": 122.1,
     "speaker": "彥君",
-    "text": "所以就會 順著竹竿",
+    "text": "所以就會順著竹竿",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 131.42,
-    "end": 133.81,
+    "start": 122.3,
+    "end": 124.68,
     "speaker": "彥君",
     "text": "纏繞上去",
     "is_pinned": false,
@@ -394,274 +373,262 @@
     "commands": []
   },
   {
-    "start": 134.01,
-    "end": 136.68,
+    "start": 124.88,
+    "end": 127.55,
     "speaker": "彥君",
-    "text": "這也是 為了生長",
+    "text": "這也是為了生長",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 136.88,
-    "end": 139.67,
+    "start": 127.75,
+    "end": 130.54,
     "speaker": "曉臻",
-    "text": "老師 那植物的根",
+    "text": "老師那植物的根",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 139.87,
-    "end": 143.22,
+    "start": 130.74,
+    "end": 134.09,
     "speaker": "曉臻",
-    "text": "會找水喝 這也是 向性嗎",
+    "text": "會找水喝這也是向性嗎",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 143.42,
-    "end": 147.74,
+    "start": 134.29,
+    "end": 138.62,
     "speaker": "彥君",
-    "text": "沒錯 這叫 向水性",
+    "text": "沒錯這叫向水性",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 147.94,
-    "end": 151.05,
+    "start": 138.82,
+    "end": 141.92,
     "speaker": "彥君",
-    "text": "根會朝著 水分多的地方",
+    "text": "根會朝著水分多的地方",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 151.25,
-    "end": 153.61,
+    "start": 142.12,
+    "end": 144.48,
     "speaker": "彥君",
-    "text": "慢慢 蔓延",
+    "text": "慢慢蔓延",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 153.81,
-    "end": 156.5,
+    "start": 144.68,
+    "end": 147.38,
     "speaker": "曉臻",
-    "text": "老師 那向地性",
+    "text": "老師那向地性",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 156.7,
-    "end": 159.74,
+    "start": 147.58,
+    "end": 150.61,
     "speaker": "曉臻",
-    "text": "跟 背地性 又是怎麼回事",
+    "text": "跟背地性又是怎麼回事",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 159.94,
-    "end": 162.42,
+    "start": 150.81,
+    "end": 153.29,
     "speaker": "彥君",
-    "text": "戰士們 注意了",
+    "text": "戰士們注意了",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 162.62,
-    "end": 165.96,
+    "start": 153.49,
+    "end": 156.83,
     "speaker": "彥君",
-    "text": "這是 會考的 超級大陷阱",
+    "text": "這是會考的超級大陷阱",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 166.16,
-    "end": 169.48,
+    "start": 157.03,
+    "end": 160.35,
     "speaker": "彥君",
-    "text": "生長素 對莖來說",
+    "text": "生長素對莖來說",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 169.68,
-    "end": 172.3,
+    "start": 160.55,
+    "end": 163.18,
     "speaker": "彥君",
-    "text": "是 促進生長",
+    "text": "是促進生長",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 172.5,
-    "end": 175.78,
+    "start": 163.38,
+    "end": 166.65,
     "speaker": "彥君",
-    "text": "但對根來說 濃度太高",
+    "text": "但對根來說濃度太高",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 175.98,
-    "end": 178.86,
+    "start": 166.85,
+    "end": 169.74,
     "speaker": "彥君",
-    "text": "反而會 抑制生長",
+    "text": "反而會抑制生長",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 179.06,
-    "end": 181.88,
+    "start": 169.94,
+    "end": 172.75,
     "speaker": "曉臻",
-    "text": "所以 如果把 一盆植物",
+    "text": "所以如果把一盆植物",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 182.08,
+    "start": 172.95,
+    "end": 174.98,
+    "speaker": "曉臻",
+    "text": "水平倒放",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 175.18,
+    "end": 177.46,
+    "speaker": "曉臻",
+    "text": "會發生什麼事",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 177.66,
+    "end": 181.08,
+    "speaker": "彥君",
+    "text": "生長素會因為地心引力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 181.28,
     "end": 184.1,
-    "speaker": "曉臻",
-    "text": "水平 倒放",
+    "speaker": "彥君",
+    "text": "沉澱在下半部",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
     "start": 184.3,
-    "end": 186.59,
+    "end": 187.18,
+    "speaker": "彥君",
+    "text": "莖的下半部長太快",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 187.38,
+    "end": 190.25,
+    "speaker": "彥君",
+    "text": "所以莖會往上彎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 190.45,
+    "end": 193.5,
+    "speaker": "彥君",
+    "text": "這就叫做莖的背地性",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 193.7,
+    "end": 196.47,
+    "speaker": "彥君",
+    "text": "但是根的下半部",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 196.67,
+    "end": 199.51,
+    "speaker": "彥君",
+    "text": "反而被抑制生長了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 199.71,
+    "end": 202.48,
+    "speaker": "彥君",
+    "text": "所以根會往下彎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 202.68,
+    "end": 205.69,
+    "speaker": "彥君",
+    "text": "這叫做根的向地性",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 205.89,
+    "end": 208.7,
     "speaker": "曉臻",
-    "text": "會發生 什麼事",
+    "text": "這陷阱真的太陰險了",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 186.79,
-    "end": 190.11,
-    "speaker": "彥君",
-    "text": "生長素 會因為地心引力",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 190.31,
-    "end": 193.1,
-    "speaker": "彥君",
-    "text": "沉澱在 下半部",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 193.3,
-    "end": 196.31,
-    "speaker": "彥君",
-    "text": "莖的下半部 長太快",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 196.51,
-    "end": 199.38,
-    "speaker": "彥君",
-    "text": "所以莖 會往上彎",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 199.58,
-    "end": 202.63,
-    "speaker": "彥君",
-    "text": "這就叫做 莖的背地性",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 202.83,
-    "end": 205.6,
-    "speaker": "彥君",
-    "text": "但是 根的下半部",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 205.8,
-    "end": 208.64,
-    "speaker": "彥君",
-    "text": "反而被 抑制生長了",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 208.84,
-    "end": 211.66,
-    "speaker": "彥君",
-    "text": "所以根 會往下彎",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 211.86,
-    "end": 214.86,
-    "speaker": "彥君",
-    "text": "這叫做 根的向地性",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 215.06,
-    "end": 228.05,
-    "speaker": "彥君",
-    "text": "\\text{莖背地 (往上彎)} / \\text{根向地 (往下彎)}",
-    "is_pinned": true,
-    "pin_level": 1,
-    "commands": [
-      "釘選",
-      "\\text{莖背地 (往上彎)} / \\text{根向地 (往下彎)}"
-    ]
-  },
-  {
-    "start": 219.04,
-    "end": 221.86,
+    "start": 208.9,
+    "end": 211.7,
     "speaker": "曉臻",
-    "text": "這陷阱 真的太陰險了",
+    "text": "戰士們一定要畫星星",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 222.06,
-    "end": 224.85,
-    "speaker": "曉臻",
-    "text": "戰士們 一定要 畫星星",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 228.05,
-    "end": 231.46,
+    "start": 211.9,
+    "end": 215.31,
     "speaker": "彥君",
-    "text": "接下來看 膨壓運動",
+    "text": "接下來看膨壓運動",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
@@ -669,91 +636,91 @@
     ]
   },
   {
-    "start": 231.66,
-    "end": 234.48,
+    "start": 215.51,
+    "end": 218.33,
     "speaker": "彥君",
-    "text": "這是 水分 造成的",
+    "text": "這是水分造成的",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 234.68,
-    "end": 237.38,
+    "start": 218.53,
+    "end": 221.22,
     "speaker": "曉臻",
-    "text": "為什麼 觸摸含羞草",
+    "text": "為什麼觸摸含羞草",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 237.58,
-    "end": 240.13,
+    "start": 221.42,
+    "end": 223.98,
     "speaker": "曉臻",
-    "text": "它會 立刻合起來",
+    "text": "它會立刻合起來",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 240.33,
-    "end": 242.69,
+    "start": 224.18,
+    "end": 226.54,
     "speaker": "彥君",
-    "text": "當你 摸它時",
+    "text": "當你摸它時",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 242.89,
-    "end": 245.56,
+    "start": 226.74,
+    "end": 229.41,
     "speaker": "彥君",
-    "text": "細胞內的 水分",
+    "text": "細胞內的水分",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 245.76,
-    "end": 248.24,
+    "start": 229.61,
+    "end": 232.09,
     "speaker": "彥君",
-    "text": "會 瞬間流失",
+    "text": "會瞬間流失",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 248.44,
-    "end": 252.02,
+    "start": 232.29,
+    "end": 235.87,
     "speaker": "彥君",
-    "text": "支撐力沒了 葉子就垮掉",
+    "text": "支撐力沒了葉子就垮掉",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 252.22,
-    "end": 254.9,
+    "start": 236.07,
+    "end": 238.74,
     "speaker": "彥君",
-    "text": "這叫 觸發運動",
+    "text": "這叫觸發運動",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 255.1,
-    "end": 257.46,
+    "start": 238.94,
+    "end": 241.3,
     "speaker": "曉臻",
-    "text": "那 捕蠅草 吃蟲",
+    "text": "那捕蠅草吃蟲",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 257.66,
-    "end": 260.28,
+    "start": 241.5,
+    "end": 244.13,
     "speaker": "曉臻",
-    "text": "也是 膨壓 造成的嗎",
+    "text": "也是膨壓造成的嗎",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
@@ -761,46 +728,46 @@
     ]
   },
   {
-    "start": 260.48,
-    "end": 265.29,
+    "start": 244.33,
+    "end": 249.14,
     "speaker": "彥君",
-    "text": "沒錯 昆蟲 碰到感應毛",
+    "text": "沒錯昆蟲碰到感應毛",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 265.49,
-    "end": 268.4,
+    "start": 249.34,
+    "end": 252.25,
     "speaker": "彥君",
-    "text": "水分 瞬間轉移",
+    "text": "水分瞬間轉移",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 268.6,
-    "end": 271.8,
+    "start": 252.45,
+    "end": 255.65,
     "speaker": "彥君",
-    "text": "葉片 就會像陷阱一樣",
+    "text": "葉片就會像陷阱一樣",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 272.0,
-    "end": 274.62,
+    "start": 255.85,
+    "end": 258.47,
     "speaker": "彥君",
-    "text": "快速的 夾起來",
+    "text": "快速的夾起來",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 274.82,
-    "end": 277.04,
+    "start": 258.67,
+    "end": 260.91,
     "speaker": "曉臻",
-    "text": "還有 酢漿草",
+    "text": "還有酢漿草",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
@@ -808,55 +775,55 @@
     ]
   },
   {
-    "start": 277.24,
-    "end": 280.82,
+    "start": 261.11,
+    "end": 264.7,
     "speaker": "曉臻",
-    "text": "到了晚上 葉子會 下垂閉合",
+    "text": "到了晚上葉子會下垂閉合",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 281.02,
-    "end": 283.7,
+    "start": 264.9,
+    "end": 267.57,
     "speaker": "彥君",
-    "text": "這叫 睡眠運動",
+    "text": "這叫睡眠運動",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 283.9,
-    "end": 287.34,
+    "start": 267.77,
+    "end": 271.21,
     "speaker": "彥君",
-    "text": "同樣是 水分改變 造成的",
+    "text": "同樣是水分改變造成的",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 287.54,
-    "end": 289.94,
+    "start": 271.41,
+    "end": 273.82,
     "speaker": "彥君",
-    "text": "最後 別忘了",
+    "text": "最後別忘了",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 290.14,
-    "end": 293.18,
+    "start": 274.02,
+    "end": 277.05,
     "speaker": "彥君",
-    "text": "葉片上的 氣孔開合",
+    "text": "葉片上的氣孔開合",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 293.38,
-    "end": 296.89,
+    "start": 277.25,
+    "end": 280.76,
     "speaker": "彥君",
-    "text": "保衛細胞 吸水膨脹 就打開",
+    "text": "保衛細胞吸水膨脹就打開",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
@@ -864,55 +831,64 @@
     ]
   },
   {
-    "start": 297.09,
-    "end": 299.62,
+    "start": 280.96,
+    "end": 283.49,
     "speaker": "彥君",
-    "text": "缺水 就關閉",
+    "text": "缺水就關閉",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 299.82,
-    "end": 303.21,
+    "start": 283.69,
+    "end": 287.08,
     "speaker": "曉臻",
-    "text": "老師 這兩個 很容易搞混",
+    "text": "老師這兩個很容易搞混",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 303.41,
-    "end": 305.98,
+    "start": 287.28,
+    "end": 289.86,
     "speaker": "曉臻",
-    "text": "有什麼 記憶口訣嗎",
+    "text": "有什麼記憶口訣嗎",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 306.18,
-    "end": 311.04,
+    "start": 290.06,
+    "end": 294.91,
     "speaker": "彥君",
-    "text": "當然有 戰士們 拿出螢光筆",
+    "text": "當然有戰士們拿出螢光筆",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 311.24,
-    "end": 314.34,
+    "start": 295.11,
+    "end": 298.26,
     "speaker": "彥君",
-    "text": "把這個 順口溜 抄下來",
+    "text": "把這個順口溜抄下來",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 314.54,
-    "end": 317.77,
+    "start": 298.46,
+    "end": 304.86,
+    "speaker": "曉臻",
+    "text": "向性慢激素辦膨壓快水分帶]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 305.06,
+    "end": 308.28,
     "speaker": "彥君",
-    "text": "向性慢 激素辦",
+    "text": "向性慢激素辦",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
@@ -920,100 +896,10 @@
     ]
   },
   {
-    "start": 317.97,
-    "end": 321.24,
+    "start": 308.48,
+    "end": 311.68,
     "speaker": "彥君",
-    "text": "方向固定 不可換",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 321.44,
-    "end": 324.59,
-    "speaker": "彥君",
-    "text": "膨壓快 水分帶",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": [
-      "膨壓"
-    ]
-  },
-  {
-    "start": 324.79,
-    "end": 328.16,
-    "speaker": "彥君",
-    "text": "碰觸睡眠 馬上來",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 328.36,
-    "end": 336.37,
-    "speaker": "彥君",
-    "text": "向性慢激素辦， 膨壓快水分帶",
-    "is_pinned": true,
-    "pin_level": 1,
-    "commands": [
-      "釘選",
-      "向性慢激素辦， 膨壓快水分帶"
-    ]
-  },
-  {
-    "start": 336.37,
-    "end": 339.76,
-    "speaker": "曉臻",
-    "text": "哇 向性慢 激素",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": [
-      "激素"
-    ]
-  },
-  {
-    "start": 339.96,
-    "end": 342.13,
-    "speaker": "曉臻",
-    "text": "膨壓快 水分",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": [
-      "膨壓"
-    ]
-  },
-  {
-    "start": 342.33,
-    "end": 344.62,
-    "speaker": "曉臻",
-    "text": "一次 就記住了",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 344.82,
-    "end": 348.3,
-    "speaker": "曉臻",
-    "text": "戰士們 最後來個 總複習",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 348.5,
-    "end": 350.72,
-    "speaker": "曉臻",
-    "text": "第一 向性",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 350.92,
-    "end": 354.94,
-    "speaker": "曉臻",
-    "text": "生長素造成 反應慢 不可逆",
+    "text": "方向固定不可逆",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
@@ -1021,46 +907,10 @@
     ]
   },
   {
-    "start": 355.14,
-    "end": 357.83,
-    "speaker": "曉臻",
-    "text": "第二 向性例子",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 358.03,
-    "end": 362.05,
-    "speaker": "曉臻",
-    "text": "莖向光 根向水 牽牛花向觸",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 362.25,
-    "end": 365.14,
-    "speaker": "曉臻",
-    "text": "第三 生長素陷阱",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 365.34,
-    "end": 368.61,
-    "speaker": "曉臻",
-    "text": "莖背地往上 根向地往下",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 368.81,
-    "end": 371.19,
-    "speaker": "曉臻",
-    "text": "第四 膨壓",
+    "start": 311.88,
+    "end": 315.03,
+    "speaker": "彥君",
+    "text": "膨壓快水分帶",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
@@ -1068,19 +918,30 @@
     ]
   },
   {
-    "start": 371.39,
-    "end": 375.6,
-    "speaker": "曉臻",
-    "text": "水分造成 反應非常快 可恢復",
+    "start": 315.23,
+    "end": 318.6,
+    "speaker": "彥君",
+    "text": "碰觸睡眠馬上來",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 375.8,
-    "end": 378.47,
+    "start": 318.8,
+    "end": 322.14,
     "speaker": "曉臻",
-    "text": "第五 膨壓例子",
+    "text": "哇向性慢激素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "激素"
+    ]
+  },
+  {
+    "start": 322.34,
+    "end": 324.54,
+    "speaker": "曉臻",
+    "text": "膨壓快水分",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
@@ -1088,107 +949,257 @@
     ]
   },
   {
-    "start": 378.67,
-    "end": 383.62,
+    "start": 324.74,
+    "end": 327.02,
     "speaker": "曉臻",
-    "text": "氣孔開合 含羞草 捕蠅草 睡眠運動",
+    "text": "一次就記住了",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 383.82,
-    "end": 387.02,
-    "speaker": "彥君",
-    "text": "戰士們 閉上眼睛",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 387.22,
-    "end": 389.42,
-    "speaker": "彥君",
-    "text": "想一下",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 389.62,
-    "end": 392.74,
-    "speaker": "彥君",
-    "text": "如果綠豆 放在暗箱裡",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 392.94,
-    "end": 395.86,
-    "speaker": "彥君",
-    "text": "只開 一個小洞 透光",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 396.06,
-    "end": 398.82,
+    "start": 327.22,
+    "end": 330.71,
     "speaker": "曉臻",
-    "text": "綠豆的莖 會朝著小洞",
+    "text": "戰士們最後來個總複習",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 399.02,
-    "end": 402.06,
+    "start": 330.91,
+    "end": 339.44,
     "speaker": "曉臻",
-    "text": "彎過去 這是 向光性",
+    "text": "生長素造成反應慢不可逆]",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 402.26,
-    "end": 405.26,
+    "start": 339.64,
+    "end": 348.58,
+    "speaker": "曉臻",
+    "text": "莖向光根向水牽牛花向觸]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 348.78,
+    "end": 356.54,
+    "speaker": "曉臻",
+    "text": "莖背地往上根向地往下]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 356.74,
+    "end": 365.84,
+    "speaker": "曉臻",
+    "text": "水分造成反應非常快可恢復]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 366.04,
+    "end": 376.54,
+    "speaker": "曉臻",
+    "text": "氣孔含羞草捕蠅草睡眠運動]",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 376.74,
+    "end": 378.86,
+    "speaker": "曉臻",
+    "text": "一、向性",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 379.06,
+    "end": 383.07,
+    "speaker": "曉臻",
+    "text": "生長素造成反應慢不可逆",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "不可逆"
+    ]
+  },
+  {
+    "start": 383.27,
+    "end": 385.78,
+    "speaker": "曉臻",
+    "text": "二、向性例子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 385.98,
+    "end": 389.99,
+    "speaker": "曉臻",
+    "text": "莖向光根向水牽牛花向觸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 390.19,
+    "end": 392.94,
+    "speaker": "曉臻",
+    "text": "三、生長素陷阱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 393.14,
+    "end": 396.41,
+    "speaker": "曉臻",
+    "text": "莖背地往上根向地往下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 396.61,
+    "end": 398.87,
+    "speaker": "曉臻",
+    "text": "四、膨壓",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "膨壓"
+    ]
+  },
+  {
+    "start": 399.07,
+    "end": 403.28,
+    "speaker": "曉臻",
+    "text": "水分造成反應非常快可恢復",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 403.48,
+    "end": 405.94,
+    "speaker": "曉臻",
+    "text": "五、膨壓例子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "膨壓"
+    ]
+  },
+  {
+    "start": 406.14,
+    "end": 411.09,
+    "speaker": "曉臻",
+    "text": "氣孔開合含羞草捕蠅草睡眠運動",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 411.29,
+    "end": 414.7,
     "speaker": "彥君",
-    "text": "如果我 拿筆戳 含羞草",
+    "text": "戰士們請閉上眼睛",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 405.46,
-    "end": 408.23,
+    "start": 414.9,
+    "end": 417.31,
     "speaker": "彥君",
-    "text": "它 馬上合起來",
+    "text": "好好想一下喔",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 408.43,
-    "end": 410.7,
+    "start": 417.51,
+    "end": 420.64,
+    "speaker": "彥君",
+    "text": "如果綠豆放在暗箱裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 420.84,
+    "end": 423.75,
+    "speaker": "彥君",
+    "text": "只開一個小洞透光",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 423.95,
+    "end": 426.72,
     "speaker": "曉臻",
-    "text": "這是 觸發運動",
+    "text": "綠豆的莖會朝著小洞",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 410.9,
-    "end": 413.66,
+    "start": 426.92,
+    "end": 429.95,
     "speaker": "曉臻",
-    "text": "是水分 改變造成的",
+    "text": "彎過去這是向光性",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 413.86,
-    "end": 415.91,
+    "start": 430.15,
+    "end": 433.16,
+    "speaker": "彥君",
+    "text": "如果我拿筆戳含羞草",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 433.36,
+    "end": 436.13,
+    "speaker": "彥君",
+    "text": "它馬上合起來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 436.33,
+    "end": 438.59,
+    "speaker": "曉臻",
+    "text": "這是觸發運動",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 438.79,
+    "end": 441.56,
+    "speaker": "曉臻",
+    "text": "是水分改變造成的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 441.76,
+    "end": 443.81,
     "speaker": "彥君",
     "text": "漂亮",
     "is_pinned": false,
@@ -1196,55 +1207,55 @@
     "commands": []
   },
   {
-    "start": 416.11,
-    "end": 419.38,
+    "start": 444.01,
+    "end": 447.28,
     "speaker": "彥君",
-    "text": "這就是 必考的 標準邏輯",
+    "text": "這就是必考的標準邏輯",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 419.58,
-    "end": 423.77,
+    "start": 447.48,
+    "end": 451.66,
     "speaker": "彥君",
-    "text": "堅持下去 你比想像中更強大",
+    "text": "堅持下去你比想像中更強大",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 423.97,
-    "end": 426.57,
+    "start": 451.86,
+    "end": 454.46,
     "speaker": "彥君",
-    "text": "我是 彥君老師",
+    "text": "我是彥君老師",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 426.77,
-    "end": 429.1,
+    "start": 454.66,
+    "end": 457.0,
     "speaker": "曉臻",
-    "text": "我是 曉臻助教",
+    "text": "我是曉臻助教",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 429.3,
-    "end": 433.03,
+    "start": 457.2,
+    "end": 460.93,
     "speaker": "合聲",
-    "text": "順口溜記牢 會考分數高",
+    "text": "順口溜記牢會考分數高",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 433.23,
-    "end": 436.53,
+    "start": 461.13,
+    "end": 464.42,
     "speaker": "合聲",
-    "text": "戰士們 下一關見",
+    "text": "戰士們下一關見",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
