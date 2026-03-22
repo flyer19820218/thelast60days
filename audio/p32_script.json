@@ -1,500 +1,1100 @@
 [
   {
     "start": 0.0,
-    "end": 3.12,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "各位衝A的戰士們"
+    "text": "戰士們 撐住啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.12,
-    "end": 6.02,
+    "start": 3.21,
+    "end": 6.07,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "走過 這麼多個 黑夜",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.02,
-    "end": 8.82,
-    "speaker": "曉臻",
-    "text": "戰士們大家好啊"
-  },
-  {
-    "start": 8.82,
-    "end": 11.46,
-    "speaker": "曉臻",
-    "text": "我是曉臻助教"
-  },
-  {
-    "start": 11.46,
-    "end": 15.05,
+    "start": 6.27,
+    "end": 9.5,
     "speaker": "彥君",
-    "text": "恭喜大家來到生物課的"
+    "text": "這是 生物科的 最後一戰",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 15.05,
-    "end": 17.9,
+    "start": 9.7,
+    "end": 13.76,
     "speaker": "彥君",
-    "text": "最終大決戰"
+    "text": "你們的堅持 老師 都看在眼裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 17.9,
-    "end": 21.64,
+    "start": 13.96,
+    "end": 17.18,
+    "speaker": "彥君",
+    "text": "歡迎來到 第二十一集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 17.38,
+    "end": 20.58,
+    "speaker": "彥君",
+    "text": "各位 衝刺 A 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.78,
+    "end": 23.38,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.58,
+    "end": 26.06,
     "speaker": "曉臻",
-    "text": "戰士們請看這張圖的最下面"
+    "text": "戰士們 大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 21.64,
-    "end": 24.52,
-    "speaker": "曉臻",
-    "text": "這是一切的開始喔"
-  },
-  {
-    "start": 24.52,
+    "start": 26.26,
     "end": 28.6,
-    "speaker": "彥君",
-    "text": "沒錯從一個『個體』開始"
-  },
-  {
-    "start": 28.6,
-    "end": 32.17,
-    "speaker": "彥君",
-    "text": "當牠找到同伴住在一起"
-  },
-  {
-    "start": 32.17,
-    "end": 35.38,
-    "speaker": "彥君",
-    "text": "就變成了『族群』"
-  },
-  {
-    "start": 35.38,
-    "end": 39.6,
     "speaker": "曉臻",
-    "text": "老師那如果有很多不同的族群"
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 39.6,
-    "end": 42.74,
+    "start": 28.8,
+    "end": 32.07,
+    "speaker": "彥君",
+    "text": "恭喜大家 來到生物課的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 32.27,
+    "end": 34.82,
+    "speaker": "彥君",
+    "text": "最終大決戰",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 35.02,
+    "end": 38.46,
     "speaker": "曉臻",
-    "text": "在同一個地方生活呢"
+    "text": "戰士們 請看這張圖的 最下面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 42.74,
-    "end": 46.38,
-    "speaker": "彥君",
-    "text": "那範圍就擴大成『群集』了"
-  },
-  {
-    "start": 46.38,
-    "end": 49.55,
-    "speaker": "彥君",
-    "text": "如果群集再加上"
-  },
-  {
-    "start": 49.55,
-    "end": 52.78,
-    "speaker": "彥君",
-    "text": "環境裡的陽光跟水"
-  },
-  {
-    "start": 52.78,
-    "end": 57.03,
+    "start": 38.66,
+    "end": 41.24,
     "speaker": "曉臻",
-    "text": "我知道這就是『生態系』"
+    "text": "這是 一切的開始喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 57.03,
-    "end": 62.14,
+    "start": 41.44,
+    "end": 45.17,
     "speaker": "彥君",
-    "text": "完全正確最後把地球上"
+    "text": "沒錯 從一個個體 開始",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 62.14,
-    "end": 65.64,
+    "start": 45.37,
+    "end": 48.57,
     "speaker": "彥君",
-    "text": "所有的生態系加起來"
+    "text": "當牠 找到同伴 住在一起",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 65.64,
-    "end": 69.23,
+    "start": 48.77,
+    "end": 51.44,
     "speaker": "彥君",
-    "text": "就是最大的『生物圈』"
+    "text": "就變成了 族群",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 69.23,
-    "end": 74.7,
+    "start": 51.64,
+    "end": 55.56,
     "speaker": "曉臻",
-    "text": "個體、族群、群集、生態系、生物圈"
+    "text": "老師 那如果 有很多 不同的族群",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 74.7,
-    "end": 78.39,
+    "start": 55.76,
+    "end": 58.6,
     "speaker": "曉臻",
-    "text": "老師為什麼考試很愛考"
+    "text": "在同一個地方 生活呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 78.39,
-    "end": 81.53,
+    "start": 58.8,
+    "end": 62.02,
+    "speaker": "彥君",
+    "text": "那範圍 就擴大成 群集了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 62.22,
+    "end": 65.14,
+    "speaker": "彥君",
+    "text": "如果群集 再加上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 65.34,
+    "end": 68.25,
+    "speaker": "彥君",
+    "text": "環境裡的 陽光跟水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 68.45,
+    "end": 72.25,
     "speaker": "曉臻",
-    "text": "族群跟群集的差別啊"
+    "text": "我知道 這就是 生態系",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 81.53,
-    "end": 85.34,
+    "start": 72.45,
+    "end": 74.83,
     "speaker": "彥君",
-    "text": "因為族群是指『同一種』生物"
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 85.34,
-    "end": 89.66,
+    "start": 75.03,
+    "end": 77.75,
     "speaker": "彥君",
-    "text": "而群集是指很『多』種生物 住在一起"
+    "text": "最後 把地球上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 89.66,
-    "end": 93.95,
+    "start": 77.95,
+    "end": 81.15,
+    "speaker": "彥君",
+    "text": "所有的 生態系 加起來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 81.35,
+    "end": 84.17,
+    "speaker": "彥君",
+    "text": "就是最大的 生物圈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 84.37,
+    "end": 87.66,
     "speaker": "曉臻",
-    "text": "所以我可以說這片草地有兔子族群"
+    "text": "戰士們 快在圖旁邊 寫下來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 93.95,
-    "end": 98.03,
+    "start": 87.86,
+    "end": 91.06,
     "speaker": "曉臻",
-    "text": "但不能說這片草地有生物族群嗎"
+    "text": "個體、 族群、 群集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 98.03,
-    "end": 102.42,
-    "speaker": "彥君",
-    "text": "對那樣叫群集"
-  },
-  {
-    "start": 102.42,
-    "end": 106.59,
-    "speaker": "彥君",
-    "text": "族群是單數群集是複數"
-  },
-  {
-    "start": 106.59,
-    "end": 110.06,
+    "start": 91.26,
+    "end": 94.1,
     "speaker": "曉臻",
-    "text": "這就像是遊戲裡組隊一樣"
+    "text": "生態系、 生物圈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 110.06,
-    "end": 115.2,
+    "start": 94.3,
+    "end": 103.87,
+    "speaker": "彥君",
+    "text": "層次： 個體 -> 族群 -> 群集 -> 生態系 -> 生物圈",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "層次： 個體 -> 族群 -> 群集 -> 生態系 -> 生物圈"
+    ]
+  },
+  {
+    "start": 103.87,
+    "end": 107.26,
     "speaker": "曉臻",
-    "text": "從單人玩家變成大公會 範圍越來越大對吧"
+    "text": "老師 為什麼考試 很愛考",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 115.2,
-    "end": 118.65,
-    "speaker": "彥君",
-    "text": "接下來進入必考重點了"
-  },
-  {
-    "start": 118.65,
-    "end": 121.5,
-    "speaker": "彥君",
-    "text": "我們要怎麼知道"
-  },
-  {
-    "start": 121.5,
-    "end": 125.14,
-    "speaker": "彥君",
-    "text": "森林裡到底有多少隻兔子"
-  },
-  {
-    "start": 125.14,
-    "end": 128.28,
+    "start": 107.46,
+    "end": 110.3,
     "speaker": "曉臻",
-    "text": "總不可能一隻一隻數吧"
+    "text": "族群跟群集的 差別啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.28,
-    "end": 133.3,
+    "start": 110.5,
+    "end": 113.94,
     "speaker": "彥君",
-    "text": "沒錯 所以有族群大小的三種算命法"
+    "text": "因為 族群是指 同一種生物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 133.3,
-    "end": 137.08,
+    "start": 114.14,
+    "end": 117.49,
     "speaker": "彥君",
-    "text": "第一種就是『直接計數法』"
+    "text": "而 群集是指 很多種生物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 137.08,
-    "end": 141.62,
+    "start": 117.69,
+    "end": 119.95,
+    "speaker": "彥君",
+    "text": "住在一起",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 120.15,
+    "end": 122.46,
     "speaker": "曉臻",
-    "text": "欸還真的就是一隻一隻數啊"
+    "text": "所以我可以說",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 141.62,
-    "end": 145.67,
-    "speaker": "彥君",
-    "text": "哈哈這是最笨但也最準的"
-  },
-  {
-    "start": 145.67,
-    "end": 149.29,
-    "speaker": "彥君",
-    "text": "通常用在生物不會亂跑"
-  },
-  {
-    "start": 149.29,
-    "end": 152.5,
-    "speaker": "彥君",
-    "text": "或是快滅絕的時候"
-  },
-  {
-    "start": 152.5,
-    "end": 157.1,
+    "start": 122.66,
+    "end": 125.6,
     "speaker": "曉臻",
-    "text": "那第二種呢是『樣區法』對吧"
+    "text": "這片草地 有兔子族群",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 157.1,
-    "end": 159.93,
+    "start": 125.8,
+    "end": 127.75,
     "speaker": "曉臻",
-    "text": "先畫一個小格子"
+    "text": "但不能說",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 159.93,
-    "end": 164.13,
+    "start": 127.95,
+    "end": 131.01,
     "speaker": "曉臻",
-    "text": "數格子裡的數量再推算整片森林"
+    "text": "這片草地 有生物族群嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 164.13,
-    "end": 169.26,
+    "start": 131.21,
+    "end": 135.3,
     "speaker": "彥君",
-    "text": "沒錯這最適合用在植物"
+    "text": "對 那樣叫 群集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 169.26,
-    "end": 173.74,
+    "start": 135.5,
+    "end": 139.37,
     "speaker": "彥君",
-    "text": "或是像藤壺這種固定不動的生物"
+    "text": "族群是單數 群集是複數",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 173.74,
-    "end": 177.41,
+    "start": 139.57,
+    "end": 142.79,
     "speaker": "曉臻",
-    "text": "那會跑來跑去的兔子怎麼辦"
+    "text": "這就像是 遊戲裡組隊一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 177.41,
-    "end": 181.01,
-    "speaker": "彥君",
-    "text": "這就是第三種最愛考的"
-  },
-  {
-    "start": 181.01,
-    "end": 184.46,
-    "speaker": "彥君",
-    "text": "叫做『標記重捕法』"
-  },
-  {
-    "start": 184.46,
-    "end": 188.58,
-    "speaker": "彥君",
-    "text": "我們先抓一群生物做記號放回去"
-  },
-  {
-    "start": 188.58,
-    "end": 191.89,
-    "speaker": "彥君",
-    "text": "過幾天再抓第二次"
-  },
-  {
-    "start": 191.89,
-    "end": 195.22,
+    "start": 142.99,
+    "end": 146.14,
     "speaker": "曉臻",
-    "text": "然後利用有標記的比例"
+    "text": "從單人玩家 變成大公會",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 195.22,
-    "end": 198.94,
+    "start": 146.34,
+    "end": 148.97,
     "speaker": "曉臻",
-    "text": "來推算整座森林的總數對吧"
+    "text": "範圍 越來越大 對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 198.94,
-    "end": 204.48,
+    "start": 149.17,
+    "end": 152.32,
     "speaker": "彥君",
-    "text": "沒錯其實就是國小的比例式啦"
+    "text": "接下來 進入必考重點了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 204.48,
-    "end": 208.08,
+    "start": 152.52,
+    "end": 155.1,
     "speaker": "彥君",
-    "text": "但大家算的時候要注意"
+    "text": "我們要 怎麼知道",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 208.08,
-    "end": 211.34,
+    "start": 155.3,
+    "end": 158.64,
     "speaker": "彥君",
-    "text": "標記絕對不能脫落"
+    "text": "森林裡 到底有 多少隻兔子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 211.34,
-    "end": 215.22,
+    "start": 158.84,
+    "end": 161.68,
     "speaker": "曉臻",
-    "text": "也不能畫太亮讓兔子變太顯眼"
+    "text": "總不可能 一隻一隻數吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 215.22,
-    "end": 218.84,
-    "speaker": "曉臻",
-    "text": "不然放回去就被老鷹吃掉了"
-  },
-  {
-    "start": 218.84,
-    "end": 223.08,
+    "start": 161.88,
+    "end": 165.8,
     "speaker": "彥君",
-    "text": "直接、樣區、標記重捕"
+    "text": "沒錯 所以有 族群大小的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 223.08,
-    "end": 227.26,
-    "speaker": "曉臻",
-    "text": "老師 那我們看回這張『食物網』"
-  },
-  {
-    "start": 227.26,
-    "end": 230.8,
-    "speaker": "曉臻",
-    "text": "這裡面箭頭好多好複雜喔"
-  },
-  {
-    "start": 230.8,
-    "end": 234.95,
+    "start": 166.0,
+    "end": 168.55,
     "speaker": "彥君",
-    "text": "這就是『生物多樣性』的具體表現"
+    "text": "三種 算命法",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 234.95,
-    "end": 239.41,
+    "start": 168.75,
+    "end": 172.02,
     "speaker": "彥君",
-    "text": "如果這張網子越複雜、箭頭越多"
+    "text": "第一種 就是 直接計數法",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 239.41,
-    "end": 242.6,
+    "start": 172.22,
+    "end": 176.46,
+    "speaker": "曉臻",
+    "text": "欸 還真的就是 一隻一隻數啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 176.66,
+    "end": 180.41,
     "speaker": "彥君",
-    "text": "生態系就越穩定喔"
+    "text": "哈哈 這是最笨 但也最準的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 242.6,
-    "end": 246.46,
-    "speaker": "曉臻",
-    "text": "就像買保險一樣 箭頭越多"
-  },
-  {
-    "start": 246.46,
-    "end": 249.79,
-    "speaker": "曉臻",
-    "text": "我們的保險就買得越多嗎"
-  },
-  {
-    "start": 249.79,
-    "end": 255.0,
+    "start": 180.61,
+    "end": 184.0,
     "speaker": "彥君",
-    "text": "完全正確這樣就不會因為"
+    "text": "通常用在 生物不會亂跑",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 255.0,
-    "end": 259.74,
+    "start": 184.2,
+    "end": 187.11,
     "speaker": "彥君",
-    "text": "隨便一隻蟲死掉 整個森林就崩潰"
+    "text": "或是 快滅絕的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 259.74,
-    "end": 262.93,
+    "start": 187.31,
+    "end": 189.36,
     "speaker": "曉臻",
-    "text": "所以生物多樣性越高"
+    "text": "那第二種呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 262.93,
-    "end": 266.5,
+    "start": 189.56,
+    "end": 191.97,
     "speaker": "曉臻",
-    "text": "地球這張大網子就越健康"
+    "text": "是 樣區法 對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 192.17,
+    "end": 194.62,
+    "speaker": "曉臻",
+    "text": "先畫一個 小格子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 194.82,
+    "end": 197.3,
+    "speaker": "曉臻",
+    "text": "數格子裡的數量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 197.5,
+    "end": 200.03,
+    "speaker": "曉臻",
+    "text": "再推算 整片森林",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 200.23,
+    "end": 205.06,
+    "speaker": "彥君",
+    "text": "沒錯 這最適合用在植物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 205.26,
+    "end": 209.45,
+    "speaker": "彥君",
+    "text": "或是像 藤壺這種 固定不動的生物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 209.65,
+    "end": 213.02,
+    "speaker": "曉臻",
+    "text": "那會 跑來跑去的 兔子怎麼辦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 213.22,
+    "end": 216.51,
+    "speaker": "彥君",
+    "text": "這就是 第三種 最愛考的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 216.71,
+    "end": 219.34,
+    "speaker": "彥君",
+    "text": "叫做 抓放法",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 219.54,
+    "end": 222.76,
+    "speaker": "彥君",
+    "text": "我們先抓 一群生物 做記號",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 222.96,
+    "end": 226.88,
+    "speaker": "彥君",
+    "text": "放回去 過幾天 再抓第二次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 227.08,
+    "end": 230.09,
+    "speaker": "曉臻",
+    "text": "然後利用 有標記的比例",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 230.29,
+    "end": 233.7,
+    "speaker": "曉臻",
+    "text": "來推算 整座森林的總數 對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 233.9,
+    "end": 239.14,
+    "speaker": "彥君",
+    "text": "沒錯 其實就是 國小的比例式啦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 239.34,
+    "end": 242.69,
+    "speaker": "彥君",
+    "text": "但大家算的時候 要注意",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 242.89,
+    "end": 245.82,
+    "speaker": "彥君",
+    "text": "標記 絕對不能脫落",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 246.02,
+    "end": 248.29,
+    "speaker": "曉臻",
+    "text": "也不能畫太亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 248.49,
+    "end": 251.04,
+    "speaker": "曉臻",
+    "text": "讓兔子 變太顯眼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 251.24,
+    "end": 254.61,
+    "speaker": "曉臻",
+    "text": "不然放回去 就被老鷹吃掉了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 254.81,
+    "end": 256.9,
+    "speaker": "彥君",
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 257.1,
+    "end": 260.81,
+    "speaker": "彥君",
+    "text": "大家在計算法旁邊 寫下來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 261.01,
+    "end": 279.7,
+    "speaker": "彥君",
+    "text": "一、 直接計數法： 不會跑、 快滅絕",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "一、 直接計數法： 不會跑、 快滅絕"
+    ]
   },
   {
     "start": 266.5,
-    "end": 270.39,
+    "end": 279.7,
     "speaker": "彥君",
-    "text": "戰士們 最後的考驗來了"
+    "text": "二、 樣區法： 植物、 固定不動",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "二、 樣區法： 植物、 固定不動"
+    ]
   },
   {
-    "start": 270.39,
-    "end": 274.99,
+    "start": 271.65,
+    "end": 279.7,
     "speaker": "彥君",
-    "text": "我們抓了 20 隻兔子 做記號放回去"
+    "text": "三、 抓放法： 會跑來跑去的動物",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "三、 抓放法： 會跑來跑去的動物"
+    ]
   },
   {
-    "start": 274.99,
-    "end": 278.25,
-    "speaker": "彥君",
-    "text": "過幾天又抓了 50 隻"
-  },
-  {
-    "start": 278.25,
-    "end": 281.92,
-    "speaker": "彥君",
-    "text": "發現裡面只有 2 隻有記號"
-  },
-  {
-    "start": 281.92,
-    "end": 286.21,
-    "speaker": "彥君",
-    "text": "請問這片森林大約有多少隻兔子"
-  },
-  {
-    "start": 286.21,
-    "end": 291.01,
+    "start": 279.7,
+    "end": 282.62,
     "speaker": "曉臻",
-    "text": "算式就是 20 比總數 等於 2 比 50"
+    "text": "老師 那我們看回",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 291.01,
-    "end": 293.93,
+    "start": 282.82,
+    "end": 284.98,
     "speaker": "曉臻",
-    "text": "答案絕對是 500 隻"
+    "text": "這張 食物網",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 293.93,
-    "end": 298.94,
-    "speaker": "彥君",
-    "text": "漂亮這就是衝A的戰士"
-  },
-  {
-    "start": 298.94,
-    "end": 301.92,
-    "speaker": "彥君",
-    "text": "該有的秒殺能力"
-  },
-  {
-    "start": 301.92,
-    "end": 306.4,
+    "start": 285.18,
+    "end": 288.43,
     "speaker": "曉臻",
-    "text": "恭喜戰士們 生物單元全數破關啦"
+    "text": "這裡面箭頭好多 好複雜喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 306.4,
-    "end": 309.3,
+    "start": 288.63,
+    "end": 291.71,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "這就是 生物多樣性的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 309.3,
-    "end": 311.94,
+    "start": 291.91,
+    "end": 294.27,
+    "speaker": "彥君",
+    "text": "具體表現",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 294.47,
+    "end": 297.72,
+    "speaker": "彥君",
+    "text": "如果這張網子 越複雜",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 297.92,
+    "end": 300.14,
+    "speaker": "彥君",
+    "text": "箭頭越多",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 300.34,
+    "end": 303.22,
+    "speaker": "彥君",
+    "text": "生態系 就越穩定喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 303.42,
+    "end": 305.88,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "就像買保險一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 311.94,
-    "end": 317.33,
+    "start": 306.08,
+    "end": 308.03,
+    "speaker": "曉臻",
+    "text": "箭頭越多",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 308.23,
+    "end": 311.26,
+    "speaker": "曉臻",
+    "text": "我們的保險 就買得越多嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 311.46,
+    "end": 313.85,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 314.05,
+    "end": 316.84,
+    "speaker": "彥君",
+    "text": "這樣 就不會因為",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 317.04,
+    "end": 319.98,
+    "speaker": "彥君",
+    "text": "隨便一隻蟲死掉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 320.18,
+    "end": 323.04,
+    "speaker": "彥君",
+    "text": "整個森林 就崩潰",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 323.24,
+    "end": 326.15,
+    "speaker": "曉臻",
+    "text": "所以 生物多樣性 越高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 326.35,
+    "end": 329.62,
+    "speaker": "曉臻",
+    "text": "地球這張大網子 就越健康",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 329.82,
+    "end": 338.72,
+    "speaker": "彥君",
+    "text": "食物網複雜 -> 生物多樣性高 -> 生態系穩定",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "食物網複雜 -> 生物多樣性高 -> 生態系穩定"
+    ]
+  },
+  {
+    "start": 338.72,
+    "end": 342.3,
+    "speaker": "彥君",
+    "text": "戰士們 最後的考驗來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 342.5,
+    "end": 345.61,
+    "speaker": "彥君",
+    "text": "請閉上眼睛 想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 345.81,
+    "end": 348.72,
+    "speaker": "彥君",
+    "text": "我們抓了 20 隻兔子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 348.92,
+    "end": 351.62,
+    "speaker": "彥君",
+    "text": "做記號 放回去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 351.82,
+    "end": 354.85,
+    "speaker": "彥君",
+    "text": "過幾天 又抓了 50 隻",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 355.05,
+    "end": 358.42,
+    "speaker": "彥君",
+    "text": "發現裡面 只有 2 隻有記號",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 358.62,
+    "end": 361.48,
+    "speaker": "彥君",
+    "text": "請問 這片森林",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 361.68,
+    "end": 364.59,
+    "speaker": "彥君",
+    "text": "大約有 多少隻兔子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 364.79,
+    "end": 367.78,
+    "speaker": "曉臻",
+    "text": "算式就是 20 比總數",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 367.98,
+    "end": 370.34,
+    "speaker": "曉臻",
+    "text": "等於 2 比 50",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 370.54,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "20 : 總數 = 2 : 50，總數 = 500",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "20 : 總數 = 2 : 50，總數 = 500"
+    ]
+  },
+  {
+    "start": 375.81,
+    "end": 378.43,
+    "speaker": "曉臻",
+    "text": "答案絕對是 500 隻",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 378.63,
+    "end": 380.68,
+    "speaker": "彥君",
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 380.88,
+    "end": 384.18,
+    "speaker": "彥君",
+    "text": "這就是 衝刺 A 級的戰士",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 384.38,
+    "end": 387.05,
+    "speaker": "彥君",
+    "text": "該有的 秒殺能力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 387.25,
+    "end": 389.37,
+    "speaker": "曉臻",
+    "text": "恭喜戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 389.57,
+    "end": 392.58,
+    "speaker": "曉臻",
+    "text": "生物單元 全數破關啦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 392.78,
+    "end": 396.5,
+    "speaker": "彥君",
+    "text": "帶著這份底氣 迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 396.7,
+    "end": 399.3,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 399.5,
+    "end": 401.84,
+    "speaker": "曉臻",
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 402.04,
+    "end": 405.65,
     "speaker": "合聲",
-    "text": "生物全破關 會考一定亮戰士們下一關見"
+    "text": "生物全破關 會考一定亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 405.85,
+    "end": 409.14,
+    "speaker": "合聲",
+    "text": "戰士們 下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
