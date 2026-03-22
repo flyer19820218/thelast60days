@@ -195,7 +195,7 @@
     "start": 72.77,
     "end": 84.25,
     "speaker": "彥君",
-    "text": "第一題：左邊變濃 → 向右傾斜",
+    "text": "$\\text{第一題：左邊變濃} \\rightarrow \\text{向右傾斜}$",
     "is_pinned": true,
     "pin_level": 1
   },
@@ -283,7 +283,7 @@
     "start": 111.39,
     "end": 123.02,
     "speaker": "彥君",
-    "text": "第二題：溫度上升 → 向左移動",
+    "text": "$\\text{第二題：溫度上升} \\rightarrow \\text{向左移動}$",
     "is_pinned": true,
     "pin_level": 1
   },
