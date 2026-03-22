@@ -205,12 +205,12 @@
     "start": 72.86,
     "end": 173.26,
     "speaker": "彥君",
-    "text": "\\text{血漿} \\rightarrow \\text{運送水、養分、廢物、激素、抗體}",
+    "text": "血漿-運送水、養分、廢物、激素、抗體}",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{血漿} \\rightarrow \\text{運送水、養分、廢物、激素、抗體}"
+      "血漿-運送水、養分、廢物、激素、抗體}"
     ]
   },
   {
@@ -343,12 +343,12 @@
     "start": 123.52,
     "end": 173.26,
     "speaker": "彥君",
-    "text": "\\text{紅血球 (無核)} \\rightarrow \\text{運送氧氣}",
+    "text": "紅血球-無核-運送氧氣",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "\\text{紅血球 (無核)} \\rightarrow \\text{運送氧氣}"
+      "紅血球-無核-運送氧氣"
     ]
   },
   {
@@ -463,12 +463,12 @@
     "start": 164.84,
     "end": 173.26,
     "speaker": "彥君",
-    "text": "\\text{白血球 (有核)} \\rightarrow \\text{吞噬} / \\text{血小板 (無核)} \\rightarrow \\text{凝血}",
+    "text": "白血球-有核-吞噬;血小板-無核-凝血",
     "is_pinned": true,
     "pin_level": 3,
     "commands": [
       "釘選",
-      "\\text{白血球 (有核)} \\rightarrow \\text{吞噬} / \\text{血小板 (無核)} \\rightarrow \\text{凝血}"
+      "白血球-有核-吞噬;血小板-無核-凝血"
     ]
   },
   {
@@ -637,12 +637,12 @@
     "start": 233.26,
     "end": 296.14,
     "speaker": "彥君",
-    "text": "\\text{左心 (充氧血，紅)} / \\text{右心 (缺氧血，藍)}",
+    "text": "左心-充氧血-紅;右心-缺氧血-藍",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{左心 (充氧血，紅)} / \\text{右心 (缺氧血，藍)}"
+      "左心-充氧血-紅;右心-缺氧血-藍"
     ]
   },
   {
@@ -803,12 +803,12 @@
     "start": 288.85,
     "end": 296.14,
     "speaker": "彥君",
-    "text": "\\text{瓣膜位置： 心臟、靜脈、淋巴管}",
+    "text": "瓣膜位置： 心臟、靜脈、淋巴管",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "\\text{瓣膜位置： 心臟、靜脈、淋巴管}"
+      "瓣膜位置： 心臟、靜脈、淋巴管"
     ]
   },
   {
@@ -995,12 +995,12 @@
     "start": 357.63,
     "end": 365.26,
     "speaker": "彥君",
-    "text": "\\text{肺動脈 (缺氧血)} / \\text{肺靜脈 (充氧血)}",
+    "text": "肺動脈-缺氧血;肺靜脈-充氧血",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{肺動脈 (缺氧血)} / \\text{肺靜脈 (充氧血)}"
+      "肺動脈-缺氧血;肺靜脈-充氧血"
     ]
   },
   {
@@ -1142,12 +1142,12 @@
     "start": 410.74,
     "end": 418.36,
     "speaker": "彥君",
-    "text": "\\text{淋巴系統} \\rightarrow \\text{單向回收進入大靜脈}",
+    "text": "淋巴系統-單向回收進入大靜脈",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{淋巴系統} \\rightarrow \\text{單向回收進入大靜脈}"
+      "淋巴系統-單向回收進入大靜脈"
     ]
   },
   {
@@ -1289,12 +1289,12 @@
     "start": 464.39,
     "end": 474.25,
     "speaker": "彥君",
-    "text": "\\text{血壓： 動} > \\text{微} > \\text{靜} / \\text{流速： 動} > \\text{靜} > \\text{微}",
+    "text": "血壓： 動> 微 >靜 ;流速： 動> 靜}> 微",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{血壓： 動} > \\text{微} > \\text{靜} / \\text{流速： 動} > \\text{靜} > \\text{微}"
+      "血壓： 動> 微 >靜 ;流速： 動> 靜}> 微"
     ]
   },
   {
