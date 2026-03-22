@@ -1,242 +1,671 @@
 [
   {
     "start": 0.0,
-    "end": 5.66,
+    "end": 3.25,
     "speaker": "彥君",
-    "text": "……哈囉各位即將衝 A的會考戰士們我是彥君老師"
+    "text": "戰士們 歡迎來到",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 5.66,
-    "end": 11.18,
+    "start": 3.45,
+    "end": 6.5,
     "speaker": "彥君",
-    "text": "今天 這張圖 非常精彩它解釋了 生命 如何運轉"
+    "text": "生物大魔王 總複習",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.18,
-    "end": 14.77,
+    "start": 6.7,
+    "end": 10.19,
     "speaker": "彥君",
-    "text": "生物的「營養方式」"
+    "text": "各位 即將衝刺的 會考戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 14.77,
-    "end": 18.27,
+    "start": 10.39,
+    "end": 12.99,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 13.19,
+    "end": 14.93,
     "speaker": "曉臻",
-    "text": "大家好我是 曉臻助教"
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.27,
-    "end": 23.45,
+    "start": 15.13,
+    "end": 17.46,
     "speaker": "曉臻",
-    "text": "老師我看到 圖中間 那個大圓圈 寫著「葡萄糖」"
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 23.45,
-    "end": 27.31,
+    "start": 17.66,
+    "end": 20.98,
+    "speaker": "彥君",
+    "text": "今天 這張圖 非常精彩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 21.18,
+    "end": 24.43,
+    "speaker": "彥君",
+    "text": "它 解釋了 生命 如何運轉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 24.63,
+    "end": 28.29,
+    "speaker": "彥君",
+    "text": "這可是 出題率 相當高 的考點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 28.49,
+    "end": 31.59,
     "speaker": "曉臻",
-    "text": "感覺 它是 所有路徑 的轉運站耶"
+    "text": "老師 我看到 圖中間",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.31,
-    "end": 31.34,
-    "speaker": "彥君",
-    "text": "自營生物也就是 生產者"
-  },
-  {
-    "start": 31.34,
-    "end": 36.38,
-    "speaker": "彥君",
-    "text": "植物 行「光合作用」把 二氧化碳 和水"
-  },
-  {
-    "start": 36.38,
-    "end": 42.71,
-    "speaker": "彥君",
-    "text": "轉換成 葡萄糖 和 氧氣這就是 生命的起點"
-  },
-  {
-    "start": 42.71,
-    "end": 45.8,
+    "start": 31.79,
+    "end": 34.82,
     "speaker": "曉臻",
-    "text": "那 拿到 葡萄糖 之後呢"
+    "text": "那個大圓圈 寫著 葡萄糖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 45.8,
-    "end": 50.24,
-    "speaker": "彥君",
-    "text": "戰士們 請看 那個指向下方的 粗箭頭"
-  },
-  {
-    "start": 50.24,
-    "end": 56.04,
-    "speaker": "彥君",
-    "text": "葡萄糖 除了給 自己用還會 組合成 其他 有機養分"
-  },
-  {
-    "start": 56.04,
-    "end": 60.19,
-    "speaker": "彥君",
-    "text": "蛋白質、脂肪、醣類"
-  },
-  {
-    "start": 60.19,
-    "end": 66.18,
-    "speaker": "彥君",
-    "text": "植物 就是靠這招把自己長大並 養活 後面的「消費者」"
-  },
-  {
-    "start": 66.18,
-    "end": 72.2,
+    "start": 35.02,
+    "end": 38.58,
     "speaker": "曉臻",
-    "text": "原來如此生產者 負責「存錢」與「蓋工廠」"
+    "text": "感覺 它是 所有路徑 的轉運站耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 72.2,
-    "end": 78.32,
+    "start": 38.78,
+    "end": 43.5,
+    "speaker": "彥君",
+    "text": "沒錯 戰士們 看圖的上方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 43.7,
+    "end": 47.42,
+    "speaker": "彥君",
+    "text": "自營生物 也就是 生產者",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 47.62,
+    "end": 50.51,
+    "speaker": "彥君",
+    "text": "植物 行光合作用",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 50.71,
+    "end": 53.65,
+    "speaker": "彥君",
+    "text": "把 二氧化碳 和水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 53.85,
+    "end": 57.29,
+    "speaker": "彥君",
+    "text": "轉換成 葡萄糖 和 氧氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 57.49,
+    "end": 60.38,
+    "speaker": "彥君",
+    "text": "這就是 生命的起點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 60.58,
+    "end": 95.64,
+    "speaker": "彥君",
+    "text": "$\\text{光合作用} \\rightarrow \\text{葡萄糖} + \\text{氧氣}$",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "$\\text{光合作用} \\rightarrow \\text{葡萄糖} + \\text{氧氣}$"
+    ]
+  },
+  {
+    "start": 65.08,
+    "end": 67.87,
     "speaker": "曉臻",
-    "text": "而我們 消費者 負責 吃掉它們再進行「呼吸作用」來 發電"
+    "text": "那 拿到 葡萄糖 之後呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 78.32,
-    "end": 84.48,
+    "start": 68.07,
+    "end": 72.02,
     "speaker": "彥君",
-    "text": "聰明現在 看圖中間的 黑色 雙向箭頭"
+    "text": "戰士們 請看 指向下方的粗箭頭",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 84.48,
-    "end": 89.47,
+    "start": 72.22,
+    "end": 75.44,
     "speaker": "彥君",
-    "text": "這代表「光合作用」與「呼吸作用」的 碳循環"
+    "text": "葡萄糖 除了給 自己用",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 89.47,
-    "end": 92.28,
+    "start": 75.64,
+    "end": 79.22,
     "speaker": "彥君",
-    "text": "24小時）"
+    "text": "還會 組合成 其他 有機養分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 92.28,
-    "end": 96.93,
+    "start": 79.42,
+    "end": 83.56,
+    "speaker": "彥君",
+    "text": "比如 蛋白質、 脂肪、 醣類",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 83.76,
+    "end": 86.55,
+    "speaker": "彥君",
+    "text": "植物 就是靠這招",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 86.75,
+    "end": 89.21,
+    "speaker": "彥君",
+    "text": "把 自己 長大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 89.41,
+    "end": 92.44,
+    "speaker": "彥君",
+    "text": "並 養活 後面的 消費者",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 95.64,
+    "end": 100.06,
     "speaker": "曉臻",
-    "text": "這代表 細胞 發電廠 絕對不能 停機對吧"
+    "text": "原來如此 生產者 負責存錢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 96.93,
-    "end": 104.32,
-    "speaker": "彥君",
-    "text": "賓果不管是 動植物呼吸作用 都是 二十四小時 不打烊"
-  },
-  {
-    "start": 104.32,
-    "end": 110.43,
-    "speaker": "彥君",
-    "text": "植物 白天 同時行 光合 與 呼吸作用晚上 只行 呼吸作用"
-  },
-  {
-    "start": 110.43,
-    "end": 115.73,
-    "speaker": "彥君",
-    "text": "只要 活著呼吸作用 就是 二十四小時 不停跑"
-  },
-  {
-    "start": 115.73,
-    "end": 119.81,
+    "start": 100.26,
+    "end": 103.56,
     "speaker": "曉臻",
-    "text": "呼吸作用對上呼吸運動"
+    "text": "而我們 消費者 負責吃掉它們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 119.81,
-    "end": 124.87,
+    "start": 103.76,
+    "end": 106.86,
     "speaker": "曉臻",
-    "text": "很多 戰士 會在這裡 被扣分大家 趕快 看細節"
+    "text": "再 進行 呼吸作用 來發電",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 124.87,
-    "end": 131.22,
+    "start": 107.06,
+    "end": 111.82,
     "speaker": "彥君",
-    "text": "沒錯呼吸運動 是「動作」由 腦幹 控制"
+    "text": "聰明 現在 看圖中間的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 131.22,
-    "end": 136.09,
+    "start": 112.02,
+    "end": 114.96,
     "speaker": "彥君",
-    "text": "肋骨 上舉、橫 膈往下、胸腔 變大"
+    "text": "黑色 雙向箭頭",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 136.09,
-    "end": 140.94,
+    "start": 115.16,
+    "end": 118.5,
     "speaker": "彥君",
-    "text": "肋骨 往下、橫 膈上推、胸腔 變小"
+    "text": "這代表 光合 與 呼吸作用",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 140.94,
-    "end": 145.59,
+    "start": 118.7,
+    "end": 121.74,
     "speaker": "彥君",
-    "text": "這是 為了 氣體交換是 物理性 的動作"
+    "text": "兩者 之間的 碳循環",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 145.59,
+    "start": 121.94,
+    "end": 125.95,
+    "speaker": "彥君",
+    "text": "戰士們 請盯著 紅色關鍵字",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 126.15,
+    "end": 156.96,
+    "speaker": "彥君",
+    "text": "\\text{呼吸作用： 24hr}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{呼吸作用： 24hr}"
+    ]
+  },
+  {
+    "start": 130.46,
+    "end": 134.17,
+    "speaker": "曉臻",
+    "text": "喔 這代表 細胞 發電廠",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 134.37,
+    "end": 137.38,
+    "speaker": "曉臻",
+    "text": "絕對不能 停機 對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 137.58,
+    "end": 141.98,
+    "speaker": "彥君",
+    "text": "賓果 不管是 動植物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 142.18,
+    "end": 146.22,
+    "speaker": "彥君",
+    "text": "只要 活著 呼吸作用 就不停跑",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 146.42,
     "end": 150.14,
+    "speaker": "彥君",
+    "text": "植物 白天 同時行 光合 與 呼吸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 150.34,
+    "end": 153.76,
+    "speaker": "彥君",
+    "text": "晚上 則是 只行 呼吸作用",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 156.96,
+    "end": 161.17,
     "speaker": "曉臻",
-    "text": "那「呼吸作用」就是 在細胞裡面 發電囉"
+    "text": "老師 右上角 還有一個魔王",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 150.14,
-    "end": 155.92,
-    "speaker": "彥君",
-    "text": "答對了呼吸作用 是在「粒線體」進行"
-  },
-  {
-    "start": 155.92,
-    "end": 160.96,
-    "speaker": "彥君",
-    "text": "它是 化學反應負責 產生 細胞 要用的 能量"
-  },
-  {
-    "start": 160.96,
-    "end": 163.43,
-    "speaker": "彥君",
-    "text": "分解者"
-  },
-  {
-    "start": 163.43,
-    "end": 168.51,
-    "speaker": "彥君",
-    "text": "它們 把 生物殘骸 分解讓 碳元素 回到 大氣"
-  },
-  {
-    "start": 168.51,
-    "end": 172.3,
-    "speaker": "彥君",
-    "text": "形成一個 完美的 生命圓環"
-  },
-  {
-    "start": 172.3,
-    "end": 177.43,
+    "start": 161.37,
+    "end": 165.14,
     "speaker": "曉臻",
-    "text": "葡萄糖 除了發電還會 組合成 蛋白質 跟 脂肪"
+    "text": "呼吸作用 對上 呼吸運動",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 177.43,
-    "end": 183.79,
+    "start": 165.34,
+    "end": 168.54,
     "speaker": "曉臻",
-    "text": "呼吸作用 二十四小時 不停而 呼吸運動 只是 氣體交換 的動作"
+    "text": "很多戰士 會在這裡 被扣分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 183.79,
-    "end": 186.69,
+    "start": 168.74,
+    "end": 173.48,
     "speaker": "彥君",
-    "text": "我是 彥君老師"
+    "text": "沒錯 大家 趕快 看細節",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 186.69,
-    "end": 189.32,
+    "start": 173.68,
+    "end": 177.19,
+    "speaker": "彥君",
+    "text": "呼吸運動 是 物理性的 動作",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 177.39,
+    "end": 180.02,
+    "speaker": "彥君",
+    "text": "由 腦幹 來控制",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 180.22,
+    "end": 183.3,
     "speaker": "曉臻",
-    "text": "我是 曉臻助教"
+    "text": "吸氣時 肋骨 上舉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 189.32,
-    "end": 194.12,
+    "start": 183.5,
+    "end": 186.65,
+    "speaker": "曉臻",
+    "text": "橫膈 往下 胸腔 變大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 186.85,
+    "end": 190.19,
+    "speaker": "彥君",
+    "text": "呼氣時 肋骨 往下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 190.39,
+    "end": 193.86,
+    "speaker": "彥君",
+    "text": "橫膈 上推 胸腔 變小",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 194.06,
+    "end": 196.94,
+    "speaker": "彥君",
+    "text": "這是 為了 氣體交換",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 197.14,
+    "end": 221.29,
+    "speaker": "彥君",
+    "text": "$\\text{呼吸運動} \\rightarrow \\text{氣體交換 (物理動作)}$",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "$\\text{呼吸運動} \\rightarrow \\text{氣體交換 (物理動作)}$"
+    ]
+  },
+  {
+    "start": 201.24,
+    "end": 203.53,
+    "speaker": "曉臻",
+    "text": "那 呼吸作用 呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 203.73,
+    "end": 207.46,
+    "speaker": "彥君",
+    "text": "呼吸作用 是在 粒線體 進行",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 207.66,
+    "end": 210.33,
+    "speaker": "彥君",
+    "text": "它是 化學反應",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 210.53,
+    "end": 214.04,
+    "speaker": "彥君",
+    "text": "負責 產生 細胞 要用的 能量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 214.24,
+    "end": 221.29,
+    "speaker": "彥君",
+    "text": "$\\text{呼吸作用} \\rightarrow \\text{產生能量 (化學反應)}$",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "$\\text{呼吸作用} \\rightarrow \\text{產生能量 (化學反應)}$"
+    ]
+  },
+  {
+    "start": 221.29,
+    "end": 224.15,
+    "speaker": "彥君",
+    "text": "最後 看圖的 最下方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 224.35,
+    "end": 227.7,
+    "speaker": "彥君",
+    "text": "分解者 將 生物殘骸 分解",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 227.9,
+    "end": 230.95,
+    "speaker": "彥君",
+    "text": "讓 碳元素 回到 大氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 231.15,
+    "end": 234.62,
+    "speaker": "彥君",
+    "text": "形成 一個 完美的 生命圓環",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 234.82,
+    "end": 238.04,
+    "speaker": "曉臻",
+    "text": "戰士們 最後 複習一次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 238.24,
+    "end": 240.72,
+    "speaker": "曉臻",
+    "text": "葡萄糖 除了發電",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 240.92,
+    "end": 244.19,
+    "speaker": "曉臻",
+    "text": "還會 組合成 蛋白質 跟 脂肪",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 244.39,
+    "end": 247.71,
+    "speaker": "曉臻",
+    "text": "呼吸作用 二十四小時 不停",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 247.91,
+    "end": 251.06,
+    "speaker": "曉臻",
+    "text": "呼吸運動 只是 氣體交換",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 251.26,
+    "end": 254.54,
+    "speaker": "彥君",
+    "text": "觀念 通了 人生就通",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 254.74,
+    "end": 257.34,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 257.54,
+    "end": 259.87,
+    "speaker": "曉臻",
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 260.07,
+    "end": 263.54,
     "speaker": "合聲",
-    "text": "能量充足戰鬥到底明天見"
+    "text": "能量充足 戰鬥到底",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 263.74,
+    "end": 267.03,
+    "speaker": "合聲",
+    "text": "戰士們 我們 明天見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
