@@ -82,16 +82,27 @@
   },
   {
     "start": 31.54,
-    "end": 36.94,
+    "end": 34.54,
     "speaker": "彥君",
-    "text": "記住這條絕對規律 目短、 物長 倍率高",
+    "text": "記住這條絕對規律",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 37.14,
-    "end": 41.02,
+    "start": 34.74,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "目短、 物長， 倍率高。",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 38.65,
+    "end": 42.52,
     "speaker": "彥君",
     "text": "目鏡靠近眼睛 越短倍率越高",
     "is_pinned": false,
@@ -99,8 +110,8 @@
     "commands": []
   },
   {
-    "start": 41.22,
-    "end": 45.18,
+    "start": 42.72,
+    "end": 46.69,
     "speaker": "彥君",
     "text": "物鏡靠近標本 越長倍率越高",
     "is_pinned": false,
@@ -108,8 +119,8 @@
     "commands": []
   },
   {
-    "start": 45.38,
-    "end": 49.62,
+    "start": 46.89,
+    "end": 51.12,
     "speaker": "曉臻",
     "text": "老師 為什麼物鏡是 越長倍率越高啊",
     "is_pinned": false,
@@ -117,8 +128,8 @@
     "commands": []
   },
   {
-    "start": 49.82,
-    "end": 52.54,
+    "start": 51.32,
+    "end": 54.04,
     "speaker": "彥君",
     "text": "因為物鏡越長",
     "is_pinned": false,
@@ -126,8 +137,8 @@
     "commands": []
   },
   {
-    "start": 52.74,
-    "end": 56.15,
+    "start": 54.24,
+    "end": 57.66,
     "speaker": "彥君",
     "text": "代表裡面的 透鏡組越複雜",
     "is_pinned": false,
@@ -135,8 +146,8 @@
     "commands": []
   },
   {
-    "start": 56.35,
-    "end": 59.31,
+    "start": 57.86,
+    "end": 60.82,
     "speaker": "彥君",
     "text": "可以把影像放得更大",
     "is_pinned": false,
@@ -144,8 +155,8 @@
     "commands": []
   },
   {
-    "start": 59.51,
-    "end": 63.48,
+    "start": 61.02,
+    "end": 64.98,
     "speaker": "彥君",
     "text": "所以考題 如果給你一組鏡頭組合",
     "is_pinned": false,
@@ -153,8 +164,8 @@
     "commands": []
   },
   {
-    "start": 63.68,
-    "end": 66.52,
+    "start": 65.18,
+    "end": 68.02,
     "speaker": "彥君",
     "text": "要選倍率最高的",
     "is_pinned": false,
@@ -162,8 +173,8 @@
     "commands": []
   },
   {
-    "start": 66.72,
-    "end": 71.0,
+    "start": 68.22,
+    "end": 72.5,
     "speaker": "彥君",
     "text": "就挑最短的目鏡 配上最長的物鏡",
     "is_pinned": false,
@@ -171,8 +182,8 @@
     "commands": []
   },
   {
-    "start": 71.2,
-    "end": 75.62,
+    "start": 72.7,
+    "end": 77.13,
     "speaker": "曉臻",
     "text": "大家想像一下 長長的物鏡 快撞到玻片",
     "is_pinned": false,
@@ -180,8 +191,8 @@
     "commands": []
   },
   {
-    "start": 75.82,
-    "end": 78.04,
+    "start": 77.33,
+    "end": 79.54,
     "speaker": "曉臻",
     "text": "那個就是高倍",
     "is_pinned": false,
@@ -189,8 +200,8 @@
     "commands": []
   },
   {
-    "start": 78.24,
-    "end": 80.96,
+    "start": 79.74,
+    "end": 82.46,
     "speaker": "曉臻",
     "text": "那總倍率要怎麼計算",
     "is_pinned": false,
@@ -198,17 +209,19 @@
     "commands": []
   },
   {
-    "start": 81.16,
-    "end": 83.62,
+    "start": 82.66,
+    "end": 85.12,
     "speaker": "彥君",
     "text": "相乘就對了",
     "is_pinned": false,
     "pin_level": 0,
-    "commands": []
+    "commands": [
+      "清除釘選"
+    ]
   },
   {
-    "start": 83.82,
-    "end": 87.42,
+    "start": 85.32,
+    "end": 88.93,
     "speaker": "彥君",
     "text": "這時候視野會發生 四個變化",
     "is_pinned": false,
@@ -216,44 +229,52 @@
     "commands": []
   },
   {
-    "start": 87.62,
-    "end": 91.76,
+    "start": 89.13,
+    "end": 9999.0,
     "speaker": "彥君",
-    "text": "第一 亮度變暗、 進光量變少",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "第一， 亮度變暗、 進光量變少。",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選"
+    ]
   },
   {
-    "start": 91.96,
-    "end": 96.67,
+    "start": 93.46,
+    "end": 9999.0,
     "speaker": "彥君",
-    "text": "第二 範圍變小、 看到的細胞數量變少",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "第二， 範圍變小、 看到的細胞數量變少。",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選"
+    ]
   },
   {
-    "start": 96.87,
-    "end": 102.14,
+    "start": 98.38,
+    "end": 9999.0,
     "speaker": "彥君",
-    "text": "第三 細節變大、 細胞看起來 變清晰變大了",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "第三， 細節變大、 細胞看起來 變清晰變大了。",
+    "is_pinned": true,
+    "pin_level": 4,
+    "commands": [
+      "釘選"
+    ]
   },
   {
-    "start": 102.34,
-    "end": 107.46,
+    "start": 103.84,
+    "end": 9999.0,
     "speaker": "彥君",
-    "text": "第四 焦距變短、 物鏡會非常 靠近玻片",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "第四， 焦距變短、 物鏡會非常 靠近玻片。",
+    "is_pinned": true,
+    "pin_level": 5,
+    "commands": [
+      "釘選"
+    ]
   },
   {
-    "start": 107.66,
-    "end": 110.81,
+    "start": 109.16,
+    "end": 112.31,
     "speaker": "曉臻",
     "text": "戰士們停一下 腦袋想一遍",
     "is_pinned": false,
@@ -261,8 +282,8 @@
     "commands": []
   },
   {
-    "start": 111.01,
-    "end": 114.06,
+    "start": 112.51,
+    "end": 115.57,
     "speaker": "曉臻",
     "text": "倍率高就是看得很清楚",
     "is_pinned": false,
@@ -270,8 +291,8 @@
     "commands": []
   },
   {
-    "start": 114.26,
-    "end": 116.77,
+    "start": 115.77,
+    "end": 118.27,
     "speaker": "曉臻",
     "text": "但視野變窄變暗",
     "is_pinned": false,
@@ -279,8 +300,8 @@
     "commands": []
   },
   {
-    "start": 116.97,
-    "end": 119.88,
+    "start": 118.47,
+    "end": 121.38,
     "speaker": "曉臻",
     "text": "所以衝刺期只要記住",
     "is_pinned": false,
@@ -288,17 +309,19 @@
     "commands": []
   },
   {
-    "start": 120.08,
-    "end": 124.7,
+    "start": 121.58,
+    "end": 126.2,
     "speaker": "曉臻",
     "text": "倍率越高 除了細節 其他都變少變暗",
     "is_pinned": false,
     "pin_level": 0,
-    "commands": []
+    "commands": [
+      "清除釘選"
+    ]
   },
   {
-    "start": 124.9,
-    "end": 129.54,
+    "start": 126.4,
+    "end": 131.04,
     "speaker": "曉臻",
     "text": "老師 複式顯微鏡的 成像最容易 轉不過來",
     "is_pinned": false,
@@ -306,8 +329,8 @@
     "commands": []
   },
   {
-    "start": 129.74,
-    "end": 131.86,
+    "start": 131.24,
+    "end": 133.36,
     "speaker": "彥君",
     "text": "沒錯",
     "is_pinned": false,
@@ -315,8 +338,8 @@
     "commands": []
   },
   {
-    "start": 132.06,
-    "end": 136.5,
+    "start": 133.56,
+    "end": 138.01,
     "speaker": "彥君",
     "text": "複式顯微鏡 是上下顛倒、 左右相反",
     "is_pinned": false,
@@ -324,8 +347,8 @@
     "commands": []
   },
   {
-    "start": 136.7,
-    "end": 139.57,
+    "start": 138.21,
+    "end": 141.07,
     "speaker": "彥君",
     "text": "紙上寫小寫的 ｐ",
     "is_pinned": false,
@@ -333,8 +356,8 @@
     "commands": []
   },
   {
-    "start": 139.77,
-    "end": 143.18,
+    "start": 141.27,
+    "end": 144.69,
     "speaker": "彥君",
     "text": "目鏡看起來 就是小寫的 ｄ",
     "is_pinned": false,
@@ -342,8 +365,8 @@
     "commands": []
   },
   {
-    "start": 143.38,
-    "end": 146.7,
+    "start": 144.89,
+    "end": 148.21,
     "speaker": "曉臻",
     "text": "老師 如果是大寫的 Ｐ 呢",
     "is_pinned": false,
@@ -351,17 +374,17 @@
     "commands": []
   },
   {
-    "start": 146.9,
-    "end": 150.92,
+    "start": 148.41,
+    "end": 152.42,
     "speaker": "彥君",
-    "text": "如果是大寫的 Ｐ 轉一百八十度",
+    "text": "如果是大寫的 Ｐ 轉180度",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 151.12,
-    "end": 154.34,
+    "start": 152.62,
+    "end": 155.85,
     "speaker": "彥君",
     "text": "看起來就會 像小寫的 ｄ 喔",
     "is_pinned": false,
@@ -369,8 +392,8 @@
     "commands": []
   },
   {
-    "start": 154.54,
-    "end": 157.14,
+    "start": 156.05,
+    "end": 158.65,
     "speaker": "彥君",
     "text": "最簡單的方法",
     "is_pinned": false,
@@ -378,17 +401,17 @@
     "commands": []
   },
   {
-    "start": 157.34,
-    "end": 161.36,
+    "start": 158.85,
+    "end": 162.86,
     "speaker": "彥君",
-    "text": "就是直接把考卷 旋轉一百八十度",
+    "text": "就是直接把考卷 旋轉180度",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 161.56,
-    "end": 165.86,
+    "start": 163.06,
+    "end": 167.37,
     "speaker": "曉臻",
     "text": "那移動法則呢 這一定要背下來",
     "is_pinned": false,
@@ -396,17 +419,19 @@
     "commands": []
   },
   {
-    "start": 166.06,
-    "end": 169.53,
+    "start": 167.57,
+    "end": 9999.0,
     "speaker": "彥君",
-    "text": "物在哪裡 就往哪裡移",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "物在哪裡， 就往哪裡移。",
+    "is_pinned": true,
+    "pin_level": 6,
+    "commands": [
+      "釘選"
+    ]
   },
   {
-    "start": 169.73,
-    "end": 174.51,
+    "start": 171.23,
+    "end": 176.02,
     "speaker": "彥君",
     "text": "目標在左下方 你就把玻片 往左下方移",
     "is_pinned": false,
@@ -414,8 +439,8 @@
     "commands": []
   },
   {
-    "start": 174.71,
-    "end": 179.52,
+    "start": 176.22,
+    "end": 181.02,
     "speaker": "彥君",
     "text": "目標在右上方 你就把玻片 往右上方移",
     "is_pinned": false,
@@ -423,8 +448,8 @@
     "commands": []
   },
   {
-    "start": 179.72,
-    "end": 182.97,
+    "start": 181.22,
+    "end": 184.47,
     "speaker": "曉臻",
     "text": "為什麼要 往一樣的方向移啊",
     "is_pinned": false,
@@ -432,8 +457,8 @@
     "commands": []
   },
   {
-    "start": 183.17,
-    "end": 186.37,
+    "start": 184.67,
+    "end": 187.87,
     "speaker": "彥君",
     "text": "因為顯微鏡裡面是反的",
     "is_pinned": false,
@@ -441,8 +466,8 @@
     "commands": []
   },
   {
-    "start": 186.57,
-    "end": 190.94,
+    "start": 188.07,
+    "end": 192.45,
     "speaker": "彥君",
     "text": "你往左下移 影像其實是 往右上跑",
     "is_pinned": false,
@@ -450,8 +475,8 @@
     "commands": []
   },
   {
-    "start": 191.14,
-    "end": 194.39,
+    "start": 192.65,
+    "end": 195.9,
     "speaker": "彥君",
     "text": "這樣影像 才會回到中間",
     "is_pinned": false,
@@ -459,8 +484,8 @@
     "commands": []
   },
   {
-    "start": 194.59,
-    "end": 199.42,
+    "start": 196.1,
+    "end": 200.93,
     "speaker": "曉臻",
     "text": "喔 所以戰士們 看到生物在右上",
     "is_pinned": false,
@@ -468,17 +493,19 @@
     "commands": []
   },
   {
-    "start": 199.62,
-    "end": 202.94,
+    "start": 201.13,
+    "end": 204.45,
     "speaker": "曉臻",
     "text": "你就追著它 往右上移就對了",
     "is_pinned": false,
     "pin_level": 0,
-    "commands": []
+    "commands": [
+      "清除釘選"
+    ]
   },
   {
-    "start": 203.14,
-    "end": 206.18,
+    "start": 204.65,
+    "end": 207.68,
     "speaker": "曉臻",
     "text": "那如果是 解剖顯微鏡呢",
     "is_pinned": false,
@@ -486,8 +513,8 @@
     "commands": []
   },
   {
-    "start": 206.38,
-    "end": 209.65,
+    "start": 207.88,
+    "end": 211.15,
     "speaker": "彥君",
     "text": "解剖顯微鏡 沒有顛倒",
     "is_pinned": false,
@@ -495,8 +522,8 @@
     "commands": []
   },
   {
-    "start": 209.85,
-    "end": 212.57,
+    "start": 211.35,
+    "end": 214.07,
     "speaker": "彥君",
     "text": "所見即所得",
     "is_pinned": false,
@@ -504,8 +531,8 @@
     "commands": []
   },
   {
-    "start": 212.77,
-    "end": 216.66,
+    "start": 214.27,
+    "end": 218.17,
     "speaker": "彥君",
     "text": "這通常用來看 比較大、 不透光",
     "is_pinned": false,
@@ -513,8 +540,8 @@
     "commands": []
   },
   {
-    "start": 216.86,
-    "end": 219.78,
+    "start": 218.37,
+    "end": 221.28,
     "speaker": "彥君",
     "text": "不需要切片的物體",
     "is_pinned": false,
@@ -522,8 +549,8 @@
     "commands": []
   },
   {
-    "start": 219.98,
-    "end": 223.18,
+    "start": 221.48,
+    "end": 224.68,
     "speaker": "曉臻",
     "text": "老師 由低倍換到高倍",
     "is_pinned": false,
@@ -531,8 +558,8 @@
     "commands": []
   },
   {
-    "start": 223.38,
-    "end": 225.86,
+    "start": 224.88,
+    "end": 227.36,
     "speaker": "曉臻",
     "text": "一定要照順序嗎",
     "is_pinned": false,
@@ -540,8 +567,8 @@
     "commands": []
   },
   {
-    "start": 226.06,
-    "end": 230.41,
+    "start": 227.56,
+    "end": 231.91,
     "speaker": "彥君",
     "text": "當然 這是保命符",
     "is_pinned": false,
@@ -549,17 +576,19 @@
     "commands": []
   },
   {
-    "start": 230.61,
-    "end": 233.14,
+    "start": 232.11,
+    "end": 9999.0,
     "speaker": "彥君",
-    "text": "第一步先置中",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "第一步先置中。",
+    "is_pinned": true,
+    "pin_level": 7,
+    "commands": [
+      "釘選"
+    ]
   },
   {
-    "start": 233.34,
-    "end": 237.38,
+    "start": 234.84,
+    "end": 238.88,
     "speaker": "彥君",
     "text": "在低倍下一定要 先把目標 移到正中間",
     "is_pinned": false,
@@ -567,8 +596,8 @@
     "commands": []
   },
   {
-    "start": 237.58,
-    "end": 241.71,
+    "start": 239.08,
+    "end": 243.22,
     "speaker": "曉臻",
     "text": "這步超重要 如果不先置中",
     "is_pinned": false,
@@ -576,8 +605,8 @@
     "commands": []
   },
   {
-    "start": 241.91,
-    "end": 245.5,
+    "start": 243.42,
+    "end": 247.0,
     "speaker": "曉臻",
     "text": "一換高倍 目標會直接消失",
     "is_pinned": false,
@@ -585,17 +614,19 @@
     "commands": []
   },
   {
-    "start": 245.7,
-    "end": 248.27,
+    "start": 247.2,
+    "end": 9999.0,
     "speaker": "彥君",
-    "text": "第二步換物鏡",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "第二步換物鏡。",
+    "is_pinned": true,
+    "pin_level": 8,
+    "commands": [
+      "釘選"
+    ]
   },
   {
-    "start": 248.47,
-    "end": 251.53,
+    "start": 249.98,
+    "end": 253.03,
     "speaker": "彥君",
     "text": "直接轉動旋轉盤",
     "is_pinned": false,
@@ -603,17 +634,19 @@
     "commands": []
   },
   {
-    "start": 251.73,
-    "end": 254.45,
+    "start": 253.23,
+    "end": 9999.0,
     "speaker": "彥君",
-    "text": "第三步調亮度",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "第三步調亮度。",
+    "is_pinned": true,
+    "pin_level": 9,
+    "commands": [
+      "釘選"
+    ]
   },
   {
-    "start": 254.65,
-    "end": 257.46,
+    "start": 256.15,
+    "end": 258.97,
     "speaker": "彥君",
     "text": "換到高倍會變暗",
     "is_pinned": false,
@@ -621,8 +654,8 @@
     "commands": []
   },
   {
-    "start": 257.66,
-    "end": 260.96,
+    "start": 259.17,
+    "end": 262.46,
     "speaker": "彥君",
     "text": "要調大光圈 或用凹面鏡",
     "is_pinned": false,
@@ -630,8 +663,8 @@
     "commands": []
   },
   {
-    "start": 261.16,
-    "end": 265.39,
+    "start": 262.66,
+    "end": 266.9,
     "speaker": "曉臻",
     "text": "大家記住 高倍就是要 大光圈配 凹面鏡",
     "is_pinned": false,
@@ -639,8 +672,8 @@
     "commands": []
   },
   {
-    "start": 265.59,
-    "end": 268.55,
+    "start": 267.1,
+    "end": 270.06,
     "speaker": "彥君",
     "text": "最後一步調焦距",
     "is_pinned": false,
@@ -648,26 +681,30 @@
     "commands": []
   },
   {
-    "start": 268.75,
-    "end": 271.74,
+    "start": 270.26,
+    "end": 9999.0,
     "speaker": "彥君",
-    "text": "嚴禁動粗調節輪",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "嚴禁動粗調節輪！",
+    "is_pinned": true,
+    "pin_level": 10,
+    "commands": [
+      "釘選"
+    ]
   },
   {
-    "start": 271.94,
-    "end": 274.9,
+    "start": 273.44,
+    "end": 9999.0,
     "speaker": "彥君",
-    "text": "只能動細調節輪",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "只能動細調節輪。",
+    "is_pinned": true,
+    "pin_level": 11,
+    "commands": [
+      "釘選"
+    ]
   },
   {
-    "start": 275.1,
-    "end": 278.42,
+    "start": 276.6,
+    "end": 279.92,
     "speaker": "曉臻",
     "text": "為什麼高倍 不能動粗調節輪",
     "is_pinned": false,
@@ -675,8 +712,8 @@
     "commands": []
   },
   {
-    "start": 278.62,
-    "end": 281.58,
+    "start": 280.12,
+    "end": 283.08,
     "speaker": "彥君",
     "text": "因為高倍物鏡很長",
     "is_pinned": false,
@@ -684,8 +721,8 @@
     "commands": []
   },
   {
-    "start": 281.78,
-    "end": 285.6,
+    "start": 283.28,
+    "end": 287.1,
     "speaker": "彥君",
     "text": "動粗調節輪 會直接壓碎玻片",
     "is_pinned": false,
@@ -693,17 +730,19 @@
     "commands": []
   },
   {
-    "start": 285.8,
-    "end": 288.66,
+    "start": 287.3,
+    "end": 290.17,
     "speaker": "彥君",
     "text": "甚至撞壞鏡頭",
     "is_pinned": false,
     "pin_level": 0,
-    "commands": []
+    "commands": [
+      "清除釘選"
+    ]
   },
   {
-    "start": 288.86,
-    "end": 292.02,
+    "start": 290.37,
+    "end": 293.52,
     "speaker": "彥君",
     "text": "最後複習 今天的核心",
     "is_pinned": false,
@@ -711,8 +750,8 @@
     "commands": []
   },
   {
-    "start": 292.22,
-    "end": 295.68,
+    "start": 293.72,
+    "end": 297.18,
     "speaker": "彥君",
     "text": "鏡頭目短物長 倍率最強",
     "is_pinned": false,
@@ -720,8 +759,8 @@
     "commands": []
   },
   {
-    "start": 295.88,
-    "end": 299.49,
+    "start": 297.38,
+    "end": 300.99,
     "speaker": "彥君",
     "text": "成像複式全反 解剖相同",
     "is_pinned": false,
@@ -729,8 +768,8 @@
     "commands": []
   },
   {
-    "start": 299.69,
-    "end": 303.13,
+    "start": 301.19,
+    "end": 304.63,
     "speaker": "彥君",
     "text": "位移 物在哪 就往哪移",
     "is_pinned": false,
@@ -738,8 +777,8 @@
     "commands": []
   },
   {
-    "start": 303.33,
-    "end": 307.2,
+    "start": 304.83,
+    "end": 308.7,
     "speaker": "彥君",
     "text": "高倍 先置中、 後換鏡、",
     "is_pinned": false,
@@ -747,8 +786,8 @@
     "commands": []
   },
   {
-    "start": 307.4,
-    "end": 310.36,
+    "start": 308.9,
+    "end": 311.86,
     "speaker": "彥君",
     "text": "只能動細調節輪",
     "is_pinned": false,
@@ -756,8 +795,8 @@
     "commands": []
   },
   {
-    "start": 310.56,
-    "end": 313.78,
+    "start": 312.06,
+    "end": 315.29,
     "speaker": "曉臻",
     "text": "戰士們放下手機 喝口水",
     "is_pinned": false,
@@ -765,8 +804,8 @@
     "commands": []
   },
   {
-    "start": 313.98,
-    "end": 315.91,
+    "start": 315.49,
+    "end": 317.42,
     "speaker": "曉臻",
     "text": "閉上眼睛",
     "is_pinned": false,
@@ -774,8 +813,8 @@
     "commands": []
   },
   {
-    "start": 316.11,
-    "end": 319.29,
+    "start": 317.62,
+    "end": 320.79,
     "speaker": "曉臻",
     "text": "在腦海裡操作一次 顯微鏡",
     "is_pinned": false,
@@ -783,8 +822,8 @@
     "commands": []
   },
   {
-    "start": 319.49,
-    "end": 322.35,
+    "start": 320.99,
+    "end": 323.86,
     "speaker": "彥君",
     "text": "閉上眼睛想一下喔",
     "is_pinned": false,
@@ -792,8 +831,8 @@
     "commands": []
   },
   {
-    "start": 322.55,
-    "end": 325.8,
+    "start": 324.06,
+    "end": 327.3,
     "speaker": "彥君",
     "text": "如果水蚤 往左上方游走",
     "is_pinned": false,
@@ -801,8 +840,8 @@
     "commands": []
   },
   {
-    "start": 326.0,
-    "end": 329.85,
+    "start": 327.5,
+    "end": 331.35,
     "speaker": "彥君",
     "text": "你要把玻片 往哪邊移 才能追到它",
     "is_pinned": false,
@@ -810,8 +849,8 @@
     "commands": []
   },
   {
-    "start": 330.05,
-    "end": 332.6,
+    "start": 331.55,
+    "end": 334.1,
     "speaker": "曉臻",
     "text": "物在哪就往哪移",
     "is_pinned": false,
@@ -819,8 +858,8 @@
     "commands": []
   },
   {
-    "start": 332.8,
-    "end": 335.74,
+    "start": 334.3,
+    "end": 337.24,
     "speaker": "曉臻",
     "text": "絕對是要 往左上方移",
     "is_pinned": false,
@@ -828,8 +867,8 @@
     "commands": []
   },
   {
-    "start": 335.94,
-    "end": 340.89,
+    "start": 337.44,
+    "end": 342.39,
     "speaker": "彥君",
     "text": "漂亮 這就是 A級戰士",
     "is_pinned": false,
@@ -837,8 +876,8 @@
     "commands": []
   },
   {
-    "start": 341.09,
-    "end": 343.74,
+    "start": 342.59,
+    "end": 345.24,
     "speaker": "彥君",
     "text": "該有的秒殺能力",
     "is_pinned": false,
@@ -846,8 +885,8 @@
     "commands": []
   },
   {
-    "start": 343.94,
-    "end": 346.54,
+    "start": 345.44,
+    "end": 348.04,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
@@ -855,8 +894,8 @@
     "commands": []
   },
   {
-    "start": 346.74,
-    "end": 349.07,
+    "start": 348.24,
+    "end": 350.58,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
@@ -864,8 +903,8 @@
     "commands": []
   },
   {
-    "start": 349.27,
-    "end": 351.99,
+    "start": 350.78,
+    "end": 353.5,
     "speaker": "合聲",
     "text": "我們下個單元見",
     "is_pinned": false,
