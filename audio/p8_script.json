@@ -1,230 +1,999 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.25,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 實驗題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 6.66,
+    "start": 3.45,
+    "end": 6.26,
     "speaker": "彥君",
-    "text": "各位衝 A的戰士們我是彥君老師"
+    "text": "是不是 每次都讓你",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.66,
-    "end": 10.96,
+    "start": 6.46,
+    "end": 8.7,
     "speaker": "彥君",
-    "text": "準備好迎接 會考實驗題的 兩大魔王了嗎"
+    "text": "懷疑 人生",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 10.96,
-    "end": 16.93,
+    "start": 8.9,
+    "end": 12.06,
     "speaker": "彥君",
-    "text": "這兩題實驗 出題率高達十顆星請大家 盯緊講義第八頁"
+    "text": "滴碘液、 滴本氏液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.93,
-    "end": 20.43,
+    "start": 12.26,
+    "end": 14.83,
+    "speaker": "彥君",
+    "text": "還要 隔水加熱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 15.03,
+    "end": 17.44,
+    "speaker": "彥君",
+    "text": "準備好 迎接",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 17.64,
+    "end": 20.6,
+    "speaker": "彥君",
+    "text": "實驗題的 兩大魔王了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.8,
+    "end": 23.74,
+    "speaker": "彥君",
+    "text": "歡迎來到 第八集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.94,
+    "end": 26.54,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 26.74,
+    "end": 28.47,
     "speaker": "曉臻",
-    "text": "大家好我是曉臻助教"
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 20.43,
-    "end": 27.19,
+    "start": 28.67,
+    "end": 31.01,
     "speaker": "曉臻",
-    "text": "老師第一個實驗是「唾液分解澱粉」這題的 顏色變化好多喔"
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.19,
-    "end": 32.56,
+    "start": 31.21,
+    "end": 33.88,
     "speaker": "彥君",
-    "text": "沒錯我們用碘液 來檢測澱粉"
+    "text": "這兩題 出題率",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 32.56,
-    "end": 36.86,
+    "start": 34.08,
+    "end": 36.54,
     "speaker": "彥君",
-    "text": "澱粉遇到碘液 會變成「藍黑色」"
+    "text": "高達 十顆星",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 36.86,
-    "end": 42.78,
+    "start": 36.74,
+    "end": 39.79,
     "speaker": "彥君",
-    "text": "如果澱粉 被唾液分解掉了碘液就會 維持原來的「黃褐色」"
+    "text": "請 盯緊講義 第八頁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 42.78,
-    "end": 47.02,
+    "start": 39.99,
+    "end": 42.81,
     "speaker": "曉臻",
-    "text": "那為什麼要 放進 三十七度的溫水裡呢"
+    "text": "老師 第一個魔王",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 47.02,
-    "end": 52.47,
-    "speaker": "彥君",
-    "text": "這是為了 模擬人體的體溫讓唾液裡的 酵素活性最高"
-  },
-  {
-    "start": 52.47,
-    "end": 57.22,
-    "speaker": "彥君",
-    "text": "接下來我們會用「本氏液」來檢測產物"
-  },
-  {
-    "start": 57.22,
-    "end": 63.98,
-    "speaker": "彥君",
-    "text": "本氏液 遇到葡萄糖或麥芽糖加熱後會 從藍色 變成綠黃橙紅色"
-  },
-  {
-    "start": 63.98,
-    "end": 70.84,
-    "speaker": "彥君",
-    "text": "記得喔本氏液必須「加熱」才會變色這跟碘液不一樣"
-  },
-  {
-    "start": 70.84,
-    "end": 74.1,
+    "start": 43.01,
+    "end": 45.25,
     "speaker": "曉臻",
-    "text": "「光合作用 產物檢測」呢"
+    "text": "唾液 分解澱粉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 74.1,
-    "end": 79.45,
+    "start": 45.45,
+    "end": 47.95,
     "speaker": "曉臻",
-    "text": "為什麼要 把葉片拿去煮沸還要用 酒精隔水加熱"
+    "text": "顏色變化 好多喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 79.45,
-    "end": 83.98,
+    "start": 48.15,
+    "end": 52.31,
     "speaker": "彥君",
-    "text": "戰士們這題是 會考中的 必考題"
+    "text": "沒錯 檢測澱粉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 83.98,
-    "end": 89.5,
+    "start": 52.51,
+    "end": 54.9,
     "speaker": "彥君",
-    "text": "先用熱水煮葉片是為了「軟化細胞」並殺死細胞"
+    "text": "我們用 碘液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 89.5,
-    "end": 95.01,
+    "start": 55.1,
+    "end": 57.58,
     "speaker": "彥君",
-    "text": "接著用「酒精隔水加熱」是為了 溶出「葉綠素」"
+    "text": "戰士們 記住",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 95.01,
-    "end": 101.13,
+    "start": 57.78,
+    "end": 60.45,
     "speaker": "彥君",
-    "text": "葉綠素去掉了我們最後滴碘液顏色變化 才看得清楚"
+    "text": "澱粉 遇到碘液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 101.13,
-    "end": 106.38,
+    "start": 60.65,
+    "end": 63.42,
+    "speaker": "彥君",
+    "text": "會變成 藍黑色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 63.62,
+    "end": 99.7,
+    "speaker": "彥君",
+    "text": "\\text{澱粉} + \\text{碘液} \\rightarrow \\text{藍黑色}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{澱粉} + \\text{碘液} \\rightarrow \\text{藍黑色}"
+    ]
+  },
+  {
+    "start": 67.93,
+    "end": 70.82,
+    "speaker": "彥君",
+    "text": "如果 澱粉被分解了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 71.02,
+    "end": 73.78,
+    "speaker": "彥君",
+    "text": "碘液 就會維持",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 73.98,
+    "end": 76.56,
+    "speaker": "彥君",
+    "text": "原來的 黃褐色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 76.76,
+    "end": 79.12,
     "speaker": "曉臻",
-    "text": "為什麼酒精要「隔水加熱」不能直接 在火上燒嗎"
+    "text": "那為什麼 要放進",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 106.38,
-    "end": 113.19,
-    "speaker": "彥君",
-    "text": "絕對不行因為酒精易燃直接加熱 會引起火災"
-  },
-  {
-    "start": 113.19,
-    "end": 117.39,
-    "speaker": "彥君",
-    "text": "這是 實驗安全題 最愛考的細節"
-  },
-  {
-    "start": 117.39,
-    "end": 122.26,
+    "start": 79.32,
+    "end": 82.16,
     "speaker": "曉臻",
-    "text": "那最後 滴下碘液後葉片變色 代表什麼意義"
+    "text": "三十七度的 溫水裡呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 122.26,
-    "end": 128.3,
+    "start": 82.36,
+    "end": 85.1,
     "speaker": "彥君",
-    "text": "葉片變藍黑色代表有澱粉也就是有 行光合作用"
+    "text": "這是 為了 模擬體溫",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.3,
-    "end": 131.73,
+    "start": 85.3,
+    "end": 88.02,
     "speaker": "彥君",
-    "text": "有用 鋁箔紙遮光 的地方"
+    "text": "讓 唾液裡的 酵素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "酵素"
+    ]
   },
   {
-    "start": 131.73,
-    "end": 138.01,
+    "start": 88.22,
+    "end": 90.94,
     "speaker": "彥君",
-    "text": "沒照光的地方 滴碘液不會變色這證明了 光合作用需要「光」"
+    "text": "活性 達到最高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 138.01,
-    "end": 142.14,
+    "start": 91.14,
+    "end": 99.7,
+    "speaker": "彥君",
+    "text": "37^\\circ\\text{C} \\rightarrow \\text{模擬體溫 (酵素活性最高)}",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "37^\\circ\\text{C} \\rightarrow \\text{模擬體溫 (酵素活性最高)}"
+    ]
+  },
+  {
+    "start": 99.7,
+    "end": 102.64,
+    "speaker": "彥君",
+    "text": "接下來 檢測產物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 102.84,
+    "end": 105.32,
+    "speaker": "彥君",
+    "text": "也就是 糖類",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 105.52,
+    "end": 108.0,
+    "speaker": "彥君",
+    "text": "我們用 本氏液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 108.2,
+    "end": 111.47,
+    "speaker": "彥君",
+    "text": "遇到 葡萄糖 或麥芽糖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 111.67,
+    "end": 114.08,
+    "speaker": "彥君",
+    "text": "會從 藍色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 114.28,
+    "end": 117.31,
+    "speaker": "彥君",
+    "text": "變成 綠黃橙紅色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 117.51,
+    "end": 121.29,
+    "speaker": "彥君",
+    "text": "記得喔 本氏液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 121.49,
+    "end": 124.5,
+    "speaker": "彥君",
+    "text": "必須 加熱 才會變色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 124.7,
+    "end": 127.39,
+    "speaker": "彥君",
+    "text": "這跟 碘液不一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 127.59,
+    "end": 135.62,
+    "speaker": "彥君",
+    "text": "\\text{本氏液} + \\text{加熱} \\rightarrow \\text{測糖 (綠黃橙紅)}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{本氏液} + \\text{加熱} \\rightarrow \\text{測糖 (綠黃橙紅)}"
+    ]
+  },
+  {
+    "start": 135.62,
+    "end": 137.29,
     "speaker": "曉臻",
-    "text": "黃褐色 變藍黑色代表有澱粉"
+    "text": "了解",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 142.14,
-    "end": 147.46,
+    "start": 137.49,
+    "end": 139.73,
     "speaker": "曉臻",
-    "text": "藍色變紅橙色代表有糖而且 一定要加熱"
+    "text": "那 第二個魔王",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 147.46,
-    "end": 151.99,
+    "start": 139.93,
+    "end": 142.7,
     "speaker": "曉臻",
-    "text": "是為了 洗掉葉綠素而且是為了 安全"
+    "text": "光合作用 產物檢測",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 151.99,
-    "end": 158.28,
+    "start": 142.9,
+    "end": 145.54,
+    "speaker": "曉臻",
+    "text": "為什麼 葉片要煮沸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 145.74,
+    "end": 148.44,
+    "speaker": "曉臻",
+    "text": "還要 酒精 隔水加熱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 148.64,
+    "end": 151.84,
     "speaker": "彥君",
-    "text": "如果我今天 把唾液先煮沸再去做第一個實驗結果會怎樣"
+    "text": "戰士們 這題必考",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 158.28,
-    "end": 164.56,
-    "speaker": "曉臻",
-    "text": "酵素變性壞掉了澱粉就不會被分解滴碘液會變藍黑色"
-  },
-  {
-    "start": 164.56,
-    "end": 166.91,
+    "start": 152.04,
+    "end": 154.57,
     "speaker": "彥君",
-    "text": "完美"
+    "text": "熱水 煮葉片",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 166.91,
-    "end": 171.03,
+    "start": 154.77,
+    "end": 157.44,
     "speaker": "彥君",
-    "text": "對了 講義上 實驗的順序是什麼"
+    "text": "是為了 軟化細胞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 171.03,
-    "end": 175.08,
-    "speaker": "曉臻",
-    "text": "答案是丁、丙、甲、乙、戊"
-  },
-  {
-    "start": 175.08,
-    "end": 179.64,
+    "start": 157.64,
+    "end": 160.29,
     "speaker": "彥君",
-    "text": "perfect我是彥君老師"
+    "text": "並且 殺死細胞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 179.64,
-    "end": 182.28,
+    "start": 160.49,
+    "end": 210.74,
+    "speaker": "彥君",
+    "text": "\\text{熱水煮葉片} \\rightarrow \\text{軟化並殺死細胞}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{熱水煮葉片} \\rightarrow \\text{軟化並殺死細胞}"
+    ]
+  },
+  {
+    "start": 165.45,
+    "end": 168.65,
+    "speaker": "彥君",
+    "text": "接著用 酒精 隔水加熱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 168.85,
+    "end": 171.78,
+    "speaker": "彥君",
+    "text": "是為了 溶出 葉綠素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 171.98,
+    "end": 174.46,
+    "speaker": "彥君",
+    "text": "葉綠素 去掉了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 174.66,
+    "end": 177.14,
+    "speaker": "彥君",
+    "text": "最後滴 碘液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 177.34,
+    "end": 180.57,
+    "speaker": "彥君",
+    "text": "顏色變化 才看得清楚",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 180.77,
+    "end": 210.74,
+    "speaker": "彥君",
+    "text": "\\text{酒精隔水加熱} \\rightarrow \\text{溶出葉綠素}",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "\\text{酒精隔水加熱} \\rightarrow \\text{溶出葉綠素}"
+    ]
+  },
+  {
+    "start": 185.37,
+    "end": 187.42,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "為什麼 酒精",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 182.28,
-    "end": 187.05,
+    "start": 187.62,
+    "end": 189.88,
+    "speaker": "曉臻",
+    "text": "必須 隔水加熱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 190.08,
+    "end": 192.92,
+    "speaker": "曉臻",
+    "text": "不能直接 在火上燒嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 193.12,
+    "end": 195.46,
+    "speaker": "彥君",
+    "text": "絕對不行",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 195.66,
+    "end": 198.3,
+    "speaker": "彥君",
+    "text": "因為 酒精易燃",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 198.5,
+    "end": 201.7,
+    "speaker": "彥君",
+    "text": "直接加熱 會引起火災",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 201.9,
+    "end": 204.77,
+    "speaker": "彥君",
+    "text": "這是 實驗安全題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 204.97,
+    "end": 207.54,
+    "speaker": "彥君",
+    "text": "最愛考的 細節",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 210.74,
+    "end": 213.25,
+    "speaker": "曉臻",
+    "text": "那最後 滴碘液後",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 213.45,
+    "end": 216.02,
+    "speaker": "曉臻",
+    "text": "葉片變色 代表什麼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 216.22,
+    "end": 218.97,
+    "speaker": "彥君",
+    "text": "葉片 變藍黑色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 219.17,
+    "end": 221.77,
+    "speaker": "彥君",
+    "text": "代表 有澱粉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 221.97,
+    "end": 224.95,
+    "speaker": "彥君",
+    "text": "也就是 有光合作用",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 225.15,
+    "end": 228.3,
+    "speaker": "彥君",
+    "text": "戰士們 注意看 對照組",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 228.5,
+    "end": 231.63,
+    "speaker": "彥君",
+    "text": "有用 鋁箔紙遮光 的地方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 231.83,
+    "end": 234.53,
+    "speaker": "彥君",
+    "text": "沒照光 滴碘液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 234.73,
+    "end": 237.4,
+    "speaker": "彥君",
+    "text": "絕對 不會變色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 237.6,
+    "end": 239.79,
+    "speaker": "彥君",
+    "text": "這證明了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 239.99,
+    "end": 242.78,
+    "speaker": "彥君",
+    "text": "光合作用 需要光",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 242.98,
+    "end": 251.02,
+    "speaker": "彥君",
+    "text": "\\text{鋁箔遮光處} \\rightarrow \\text{不變色 (證明需要光)}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{鋁箔遮光處} \\rightarrow \\text{不變色 (證明需要光)}"
+    ]
+  },
+  {
+    "start": 251.02,
+    "end": 252.78,
+    "speaker": "曉臻",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 252.98,
+    "end": 255.58,
+    "speaker": "曉臻",
+    "text": "顏色加強錠 複習",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 255.78,
+    "end": 258.16,
+    "speaker": "曉臻",
+    "text": "碘液 變藍黑色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 258.36,
+    "end": 260.43,
+    "speaker": "曉臻",
+    "text": "代表 有澱粉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 260.63,
+    "end": 263.21,
+    "speaker": "曉臻",
+    "text": "本氏液 變紅橙色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 263.41,
+    "end": 265.86,
+    "speaker": "曉臻",
+    "text": "代表 有糖 要加熱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 266.06,
+    "end": 268.45,
+    "speaker": "曉臻",
+    "text": "酒精 隔水加熱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 268.65,
+    "end": 271.42,
+    "speaker": "曉臻",
+    "text": "洗去葉綠素 保安全",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 271.62,
+    "end": 274.82,
+    "speaker": "彥君",
+    "text": "戰士們 閉上眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 275.02,
+    "end": 277.21,
+    "speaker": "彥君",
+    "text": "想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 277.41,
+    "end": 280.54,
+    "speaker": "彥君",
+    "text": "如果我 把唾液 先煮沸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 280.74,
+    "end": 283.62,
+    "speaker": "彥君",
+    "text": "再去做 第一個實驗",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 283.82,
+    "end": 286.28,
+    "speaker": "彥君",
+    "text": "結果 會怎樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 286.48,
+    "end": 289.06,
+    "speaker": "曉臻",
+    "text": "酵素 變性壞掉了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "酵素"
+    ]
+  },
+  {
+    "start": 289.26,
+    "end": 291.78,
+    "speaker": "曉臻",
+    "text": "澱粉 不會被分解",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 291.98,
+    "end": 294.73,
+    "speaker": "曉臻",
+    "text": "滴碘液 會變藍黑色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 294.93,
+    "end": 296.98,
+    "speaker": "彥君",
+    "text": "完美",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 297.18,
+    "end": 300.06,
+    "speaker": "彥君",
+    "text": "對了 講義上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 300.26,
+    "end": 303.32,
+    "speaker": "彥君",
+    "text": "光合作用 實驗順序",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 303.52,
+    "end": 305.81,
+    "speaker": "彥君",
+    "text": "到底是 什麼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 306.01,
+    "end": 307.82,
+    "speaker": "曉臻",
+    "text": "答案是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 308.02,
+    "end": 311.26,
+    "speaker": "曉臻",
+    "text": "丁、 丙、 甲、 乙、 戊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 311.46,
+    "end": 313.44,
+    "speaker": "彥君",
+    "text": "Perfect",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 313.64,
+    "end": 316.48,
+    "speaker": "彥君",
+    "text": "答案 釘在黑板上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 316.68,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "\\text{實驗順序： 丁} \\rightarrow \\text{丙} \\rightarrow \\text{甲} \\rightarrow \\text{乙} \\rightarrow \\text{戊}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{實驗順序： 丁} \\rightarrow \\text{丙} \\rightarrow \\text{甲} \\rightarrow \\text{乙} \\rightarrow \\text{戊}"
+    ]
+  },
+  {
+    "start": 322.89,
+    "end": 326.16,
+    "speaker": "彥君",
+    "text": "觀念通了 人生就通",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 326.36,
+    "end": 328.96,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 329.16,
+    "end": 331.5,
+    "speaker": "曉臻",
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 331.7,
+    "end": 335.14,
     "speaker": "合聲",
-    "text": "實驗看透分數入桶明天見"
+    "text": "實驗看透 分數入桶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 335.34,
+    "end": 338.63,
+    "speaker": "合聲",
+    "text": "戰士們 我們明天見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
