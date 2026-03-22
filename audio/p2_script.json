@@ -1,404 +1,632 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 2.0,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "哈囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.1,
+    "start": 2.2,
+    "end": 6.7,
     "speaker": "彥君",
-    "text": "各位衝 A 的戰士們 我是彥君老師"
+    "text": "各位衝 A 的戰士們 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.1,
-    "end": 10.02,
+    "start": 6.9,
+    "end": 9.52,
     "speaker": "彥君",
-    "text": "解決了顯微鏡"
+    "text": "解決了顯微鏡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 10.02,
-    "end": 14.0,
+    "start": 9.72,
+    "end": 13.4,
     "speaker": "彥君",
-    "text": "我們現在要 縮小鑽進細胞裡了"
+    "text": "我們現在要 縮小鑽進細胞裡了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 14.0,
-    "end": 16.59,
+    "start": 13.6,
+    "end": 15.89,
     "speaker": "曉臻",
-    "text": "戰士們大家好"
+    "text": "戰士們大家好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.59,
-    "end": 19.22,
+    "start": 16.09,
+    "end": 18.42,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.22,
-    "end": 22.1,
+    "start": 18.62,
+    "end": 21.2,
     "speaker": "曉臻",
-    "text": "細胞構造雖然多"
+    "text": "細胞構造雖然多",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.1,
-    "end": 25.41,
+    "start": 21.4,
+    "end": 24.41,
     "speaker": "曉臻",
-    "text": "但把它想像成一個工廠"
+    "text": "但把它想像成一個工廠",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 25.41,
-    "end": 28.26,
+    "start": 24.61,
+    "end": 27.16,
     "speaker": "曉臻",
-    "text": "其實非常好記喔"
+    "text": "其實非常好記喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 28.26,
-    "end": 32.14,
+    "start": 27.36,
+    "end": 30.94,
     "speaker": "彥君",
-    "text": "第一個要看 工廠的總理辦公室"
+    "text": "第一個要看 工廠的總理辦公室",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 32.14,
-    "end": 35.36,
+    "start": 31.14,
+    "end": 34.06,
     "speaker": "彥君",
-    "text": "就是『細胞核』"
+    "text": "就是『細胞核』",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 35.36,
-    "end": 38.18,
+    "start": 34.26,
+    "end": 36.78,
     "speaker": "彥君",
-    "text": "它是生命中樞"
+    "text": "它是生命中樞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 38.18,
-    "end": 42.74,
+    "start": 36.98,
+    "end": 41.24,
     "speaker": "彥君",
-    "text": "裡面藏著控制工廠的 滴、恩、A"
+    "text": "裡面藏著控制工廠的 滴、恩、A",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 42.74,
-    "end": 47.01,
+    "start": 41.44,
+    "end": 45.41,
     "speaker": "曉臻",
-    "text": "老師 所有的細胞 都有辦公室嗎"
+    "text": "老師 所有的細胞 都有辦公室嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 47.01,
-    "end": 49.91,
+    "start": 45.61,
+    "end": 48.21,
     "speaker": "彥君",
-    "text": "會考陷阱來了"
+    "text": "會考陷阱來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 49.91,
-    "end": 53.34,
+    "start": 48.41,
+    "end": 51.54,
     "speaker": "彥君",
-    "text": "原核生物 像是細菌"
+    "text": "原核生物 像是細菌",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 53.34,
-    "end": 57.2,
+    "start": 51.74,
+    "end": 55.3,
     "speaker": "彥君",
-    "text": "它們就沒有 核膜包圍的辦公室"
+    "text": "它們就沒有 核膜包圍的辦公室",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 57.2,
-    "end": 60.02,
+    "start": 55.5,
+    "end": 57.88,
     "speaker": "曉臻",
-    "text": "細菌沒有 細胞核"
+    "text": "戰士們圈起來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 60.02,
-    "end": 63.43,
-    "speaker": "彥君",
-    "text": "接著看工廠的發電廠"
-  },
-  {
-    "start": 63.43,
-    "end": 66.71,
-    "speaker": "彥君",
-    "text": "就是『粒線體』"
-  },
-  {
-    "start": 66.71,
-    "end": 70.09,
-    "speaker": "彥君",
-    "text": "它是行 呼吸作用的地方"
-  },
-  {
-    "start": 70.09,
-    "end": 73.81,
-    "speaker": "彥君",
-    "text": "負責把養分 轉化成能量"
-  },
-  {
-    "start": 73.81,
-    "end": 77.16,
+    "start": 58.08,
+    "end": 60.61,
     "speaker": "曉臻",
-    "text": "所以活動力越強的細胞"
+    "text": "細菌沒有 細胞核",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 77.16,
-    "end": 79.8,
+    "start": 60.81,
+    "end": 63.91,
+    "speaker": "彥君",
+    "text": "接著看工廠的發電廠",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 64.11,
+    "end": 67.1,
+    "speaker": "彥君",
+    "text": "就是『粒線體』",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 67.3,
+    "end": 70.38,
+    "speaker": "彥君",
+    "text": "它是行 呼吸作用的地方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 70.58,
+    "end": 73.99,
+    "speaker": "彥君",
+    "text": "負責把養分 轉化成能量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 74.19,
+    "end": 77.25,
     "speaker": "曉臻",
-    "text": "發電廠就越多"
+    "text": "所以活動力越強的細胞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 79.8,
-    "end": 83.18,
+    "start": 77.45,
+    "end": 79.78,
     "speaker": "曉臻",
-    "text": "像是運動員的 肌肉細胞"
+    "text": "發電廠就越多",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 83.18,
-    "end": 85.6,
-    "speaker": "彥君",
-    "text": "沒錯"
-  },
-  {
-    "start": 85.6,
-    "end": 89.68,
-    "speaker": "彥君",
-    "text": "接下來是工廠的 圍牆與大門"
-  },
-  {
-    "start": 89.68,
-    "end": 93.66,
-    "speaker": "彥君",
-    "text": "『細胞膜』 負責控制 物質進出"
-  },
-  {
-    "start": 93.66,
-    "end": 96.6,
-    "speaker": "彥君",
-    "text": "它是全自動門"
-  },
-  {
-    "start": 96.6,
-    "end": 99.6,
-    "speaker": "彥君",
-    "text": "氧氣養分進來"
-  },
-  {
-    "start": 99.6,
-    "end": 102.4,
-    "speaker": "彥君",
-    "text": "廢物排出去"
-  },
-  {
-    "start": 102.4,
-    "end": 105.47,
-    "speaker": "彥君",
-    "text": "通通由它把關"
-  },
-  {
-    "start": 105.47,
-    "end": 108.47,
+    "start": 79.98,
+    "end": 83.06,
     "speaker": "曉臻",
-    "text": "老師 那植物的"
+    "text": "像是運動員的 肌肉細胞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 108.47,
-    "end": 111.54,
+    "start": 83.26,
+    "end": 85.38,
+    "speaker": "彥君",
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 85.58,
+    "end": 89.36,
+    "speaker": "彥君",
+    "text": "接下來是工廠的 圍牆與大門",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 89.56,
+    "end": 93.24,
+    "speaker": "彥君",
+    "text": "『細胞膜』 負責控制 物質進出",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 93.44,
+    "end": 96.09,
+    "speaker": "彥君",
+    "text": "它是全自動門",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 96.29,
+    "end": 98.98,
+    "speaker": "彥君",
+    "text": "氧氣養分進來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 99.18,
+    "end": 101.69,
+    "speaker": "彥君",
+    "text": "廢物排出去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 101.89,
+    "end": 104.66,
+    "speaker": "彥君",
+    "text": "通通由它把關",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 104.86,
+    "end": 107.55,
     "speaker": "曉臻",
-    "text": "『細胞壁』 也是大門嗎"
+    "text": "老師 那植物的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 111.54,
-    "end": 113.81,
-    "speaker": "彥君",
-    "text": "不對"
-  },
-  {
-    "start": 113.81,
-    "end": 118.06,
-    "speaker": "彥君",
-    "text": "細胞壁只是 固定形狀的厚圍牆"
-  },
-  {
-    "start": 118.06,
-    "end": 121.48,
-    "speaker": "彥君",
-    "text": "它沒有控制進出的 功能喔"
-  },
-  {
-    "start": 121.48,
-    "end": 125.94,
+    "start": 107.75,
+    "end": 110.52,
     "speaker": "曉臻",
-    "text": "懂了 細胞膜才是 保全大叔"
+    "text": "『細胞壁』 也是大門嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 125.94,
-    "end": 129.18,
+    "start": 110.72,
+    "end": 112.7,
+    "speaker": "彥君",
+    "text": "不對",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 112.9,
+    "end": 116.84,
+    "speaker": "彥君",
+    "text": "細胞壁只是 固定形狀的厚圍牆",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 117.04,
+    "end": 120.17,
+    "speaker": "彥君",
+    "text": "它沒有控制進出的 功能喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 120.37,
+    "end": 124.53,
     "speaker": "曉臻",
-    "text": "細胞壁只是 堅固的牆"
+    "text": "懂了 細胞膜才是 保全大叔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 129.18,
-    "end": 132.99,
-    "speaker": "彥君",
-    "text": "接下來看 植物工廠的特產"
-  },
-  {
-    "start": 132.99,
-    "end": 135.7,
-    "speaker": "彥君",
-    "text": "『葉綠體』"
-  },
-  {
-    "start": 135.7,
-    "end": 139.49,
-    "speaker": "彥君",
-    "text": "它利用太陽能 生產養分"
-  },
-  {
-    "start": 139.49,
-    "end": 143.11,
-    "speaker": "彥君",
-    "text": "只有綠色植物細胞 才有喔"
-  },
-  {
-    "start": 143.11,
-    "end": 145.89,
+    "start": 124.73,
+    "end": 127.66,
     "speaker": "曉臻",
-    "text": "那工廠的倉庫呢"
+    "text": "細胞壁只是 堅固的牆",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 145.89,
-    "end": 149.22,
+    "start": 127.86,
+    "end": 131.38,
     "speaker": "彥君",
-    "text": "倉庫就是 『液胞』"
+    "text": "接下來看 植物工廠的特產",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 149.22,
-    "end": 152.26,
+    "start": 131.58,
+    "end": 133.98,
     "speaker": "彥君",
-    "text": "植物的液胞 很大"
+    "text": "『葉綠體』",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 152.26,
-    "end": 155.55,
+    "start": 134.18,
+    "end": 137.67,
     "speaker": "彥君",
-    "text": "佔了細胞大半空間"
+    "text": "它利用太陽能 生產養分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 155.55,
-    "end": 159.19,
+    "start": 137.87,
+    "end": 141.19,
     "speaker": "彥君",
-    "text": "用來儲存水分與廢物"
+    "text": "只有綠色植物細胞 才有喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 159.19,
-    "end": 162.67,
+    "start": 141.39,
+    "end": 143.87,
     "speaker": "曉臻",
-    "text": "植物液胞大 動物液胞小"
+    "text": "那工廠的倉庫呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 162.67,
-    "end": 166.31,
+    "start": 144.07,
+    "end": 147.1,
     "speaker": "彥君",
-    "text": "最後我們來 做個大總結"
+    "text": "倉庫就是 『液胞』",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 166.31,
-    "end": 170.58,
+    "start": 147.3,
+    "end": 150.05,
     "speaker": "彥君",
-    "text": "動物植物 都有膜、 核、 質"
+    "text": "植物的液胞 很大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 170.58,
-    "end": 173.94,
+    "start": 150.25,
+    "end": 153.23,
     "speaker": "彥君",
-    "text": "還有發電用的 粒線體"
+    "text": "佔了細胞大半空間",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 173.94,
-    "end": 177.08,
+    "start": 153.43,
+    "end": 156.78,
+    "speaker": "彥君",
+    "text": "用來儲存水分與廢物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 156.98,
+    "end": 159.14,
     "speaker": "曉臻",
-    "text": "但只有植物 有細胞壁"
+    "text": "戰士們筆記",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 177.08,
-    "end": 180.6,
+    "start": 159.34,
+    "end": 162.52,
     "speaker": "曉臻",
-    "text": "還有行光合作用的 葉綠體"
+    "text": "植物液胞大 動物液胞小",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 180.6,
-    "end": 183.69,
+    "start": 162.72,
+    "end": 166.06,
+    "speaker": "彥君",
+    "text": "最後我們來 做個大總結",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 166.26,
+    "end": 170.23,
+    "speaker": "彥君",
+    "text": "動物植物 都有膜、 核、 質",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 170.43,
+    "end": 173.49,
+    "speaker": "彥君",
+    "text": "還有發電用的 粒線體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 173.69,
+    "end": 176.53,
     "speaker": "曉臻",
-    "text": "以及那個 超級大的液胞"
+    "text": "但只有植物 有細胞壁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 183.69,
-    "end": 186.71,
-    "speaker": "彥君",
-    "text": "戰士們放下筆"
-  },
-  {
-    "start": 186.71,
-    "end": 189.37,
-    "speaker": "彥君",
-    "text": "閉上眼睛"
-  },
-  {
-    "start": 189.37,
-    "end": 193.14,
-    "speaker": "彥君",
-    "text": "在腦海裡逛一次 細胞工廠"
-  },
-  {
-    "start": 193.14,
-    "end": 196.44,
-    "speaker": "彥君",
-    "text": "如果我是一株 仙人掌"
-  },
-  {
-    "start": 196.44,
-    "end": 199.92,
-    "speaker": "彥君",
-    "text": "我的細胞裡 會有細胞壁嗎"
-  },
-  {
-    "start": 199.92,
-    "end": 202.65,
+    "start": 176.73,
+    "end": 179.95,
     "speaker": "曉臻",
-    "text": "仙人掌是植物"
+    "text": "還有行光合作用的 葉綠體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 202.65,
-    "end": 205.26,
+    "start": 180.15,
+    "end": 182.94,
     "speaker": "曉臻",
-    "text": "絕對有細胞壁"
+    "text": "以及那個 超級大的液胞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 205.26,
-    "end": 207.9,
-    "speaker": "曉臻",
-    "text": "幫它支撐身體"
-  },
-  {
-    "start": 207.9,
-    "end": 212.34,
+    "start": 183.14,
+    "end": 185.86,
     "speaker": "彥君",
-    "text": "漂亮 完全正確"
+    "text": "戰士們放下筆",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 212.34,
-    "end": 215.24,
+    "start": 186.06,
+    "end": 188.42,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "閉上眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 215.24,
-    "end": 217.87,
+    "start": 188.62,
+    "end": 192.09,
+    "speaker": "彥君",
+    "text": "在腦海裡逛一次 細胞工廠",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 192.29,
+    "end": 195.15,
+    "speaker": "彥君",
+    "text": "閉上眼睛想一下喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 195.35,
+    "end": 198.36,
+    "speaker": "彥君",
+    "text": "如果我是一株 仙人掌",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 198.56,
+    "end": 201.74,
+    "speaker": "彥君",
+    "text": "我的細胞裡 會有細胞壁嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 201.94,
+    "end": 204.37,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "仙人掌是植物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 217.87,
-    "end": 220.89,
+    "start": 204.57,
+    "end": 206.88,
+    "speaker": "曉臻",
+    "text": "絕對有細胞壁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 207.08,
+    "end": 209.42,
+    "speaker": "曉臻",
+    "text": "幫它支撐身體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 209.62,
+    "end": 213.75,
+    "speaker": "彥君",
+    "text": "漂亮 完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 213.95,
+    "end": 216.55,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 216.75,
+    "end": 219.09,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 219.29,
+    "end": 222.01,
     "speaker": "合聲",
-    "text": "我們下個單元見"
+    "text": "我們下個單元見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
