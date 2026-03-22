@@ -55,16 +55,16 @@
   },
   {
     "start": 18.91,
-    "end": 22.06,
+    "end": 22.26,
     "speaker": "彥君",
-    "text": "歡迎來到 第十八集",
+    "text": "歡迎來到 第29集",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 22.26,
-    "end": 24.86,
+    "start": 22.46,
+    "end": 25.06,
     "speaker": "彥君",
     "text": "我是 彥君老師",
     "is_pinned": false,
@@ -72,8 +72,8 @@
     "commands": []
   },
   {
-    "start": 25.06,
-    "end": 26.8,
+    "start": 25.26,
+    "end": 26.99,
     "speaker": "曉臻",
     "text": "大家好",
     "is_pinned": false,
@@ -81,8 +81,8 @@
     "commands": []
   },
   {
-    "start": 27.0,
-    "end": 29.34,
+    "start": 27.19,
+    "end": 29.53,
     "speaker": "曉臻",
     "text": "我是 曉臻助教",
     "is_pinned": false,
@@ -90,8 +90,8 @@
     "commands": []
   },
   {
-    "start": 29.54,
-    "end": 32.47,
+    "start": 29.73,
+    "end": 32.66,
     "speaker": "曉臻",
     "text": "老師 這種 闖關圖",
     "is_pinned": false,
@@ -99,8 +99,8 @@
     "commands": []
   },
   {
-    "start": 32.67,
-    "end": 35.58,
+    "start": 32.86,
+    "end": 35.78,
     "speaker": "曉臻",
     "text": "雖然 看起來 滿好玩的",
     "is_pinned": false,
@@ -108,8 +108,8 @@
     "commands": []
   },
   {
-    "start": 35.78,
-    "end": 38.19,
+    "start": 35.98,
+    "end": 38.38,
     "speaker": "曉臻",
     "text": "但如果 走錯一步",
     "is_pinned": false,
@@ -117,8 +117,8 @@
     "commands": []
   },
   {
-    "start": 38.39,
-    "end": 41.35,
+    "start": 38.58,
+    "end": 41.54,
     "speaker": "曉臻",
     "text": "好像就會 全盤皆輸耶",
     "is_pinned": false,
@@ -126,8 +126,8 @@
     "commands": []
   },
   {
-    "start": 41.55,
-    "end": 45.45,
+    "start": 41.74,
+    "end": 45.64,
     "speaker": "彥君",
     "text": "沒錯 戰士們",
     "is_pinned": false,
@@ -135,8 +135,8 @@
     "commands": []
   },
   {
-    "start": 45.65,
-    "end": 48.15,
+    "start": 45.84,
+    "end": 48.34,
     "speaker": "彥君",
     "text": "拿起 你的筆",
     "is_pinned": false,
@@ -144,8 +144,8 @@
     "commands": []
   },
   {
-    "start": 48.35,
-    "end": 51.29,
+    "start": 48.54,
+    "end": 51.48,
     "speaker": "彥君",
     "text": "我們 先看最上面的",
     "is_pinned": false,
@@ -153,8 +153,8 @@
     "commands": []
   },
   {
-    "start": 51.49,
-    "end": 54.02,
+    "start": 51.68,
+    "end": 54.21,
     "speaker": "彥君",
     "text": "第一個 分叉點",
     "is_pinned": false,
@@ -162,8 +162,8 @@
     "commands": []
   },
   {
-    "start": 54.22,
-    "end": 56.67,
+    "start": 54.41,
+    "end": 56.86,
     "speaker": "彥君",
     "text": "分類的標準",
     "is_pinned": false,
@@ -171,8 +171,8 @@
     "commands": []
   },
   {
-    "start": 56.87,
-    "end": 59.88,
+    "start": 57.06,
+    "end": 60.07,
     "speaker": "彥君",
     "text": "就是 你有沒有 維管束",
     "is_pinned": false,
@@ -180,8 +180,8 @@
     "commands": []
   },
   {
-    "start": 60.08,
-    "end": 62.7,
+    "start": 60.27,
+    "end": 62.9,
     "speaker": "彥君",
     "text": "也就是 吸水管",
     "is_pinned": false,
@@ -189,8 +189,8 @@
     "commands": []
   },
   {
-    "start": 62.9,
-    "end": 65.43,
+    "start": 63.1,
+    "end": 65.62,
     "speaker": "彥君",
     "text": "左邊 這條路",
     "is_pinned": false,
@@ -198,8 +198,8 @@
     "commands": []
   },
   {
-    "start": 65.63,
-    "end": 68.54,
+    "start": 65.82,
+    "end": 68.74,
     "speaker": "彥君",
     "text": "代表著 無維管束",
     "is_pinned": false,
@@ -207,8 +207,8 @@
     "commands": []
   },
   {
-    "start": 68.74,
-    "end": 72.21,
+    "start": 68.94,
+    "end": 72.4,
     "speaker": "彥君",
     "text": "戰士們 請在 第一格",
     "is_pinned": false,
@@ -216,8 +216,8 @@
     "commands": []
   },
   {
-    "start": 72.41,
-    "end": 75.15,
+    "start": 72.6,
+    "end": 75.34,
     "speaker": "彥君",
     "text": "寫下 蘚苔植物",
     "is_pinned": false,
@@ -227,8 +227,8 @@
     ]
   },
   {
-    "start": 75.35,
-    "end": 78.07,
+    "start": 75.54,
+    "end": 78.26,
     "speaker": "彥君",
     "text": "牠們的 代表生物",
     "is_pinned": false,
@@ -236,8 +236,8 @@
     "commands": []
   },
   {
-    "start": 78.27,
-    "end": 81.33,
+    "start": 78.46,
+    "end": 81.52,
     "speaker": "彥君",
     "text": "像是地錢 或 土馬騌",
     "is_pinned": false,
@@ -245,8 +245,8 @@
     "commands": []
   },
   {
-    "start": 81.53,
-    "end": 84.39,
+    "start": 81.72,
+    "end": 84.58,
     "speaker": "曉臻",
     "text": "戰士們 趁現在把",
     "is_pinned": false,
@@ -254,8 +254,8 @@
     "commands": []
   },
   {
-    "start": 84.59,
-    "end": 87.96,
+    "start": 84.78,
+    "end": 88.15,
     "speaker": "曉臻",
     "text": "蘚苔植物 趕快寫上去",
     "is_pinned": false,
@@ -265,8 +265,8 @@
     ]
   },
   {
-    "start": 88.16,
-    "end": 91.02,
+    "start": 88.35,
+    "end": 91.22,
     "speaker": "曉臻",
     "text": "蘚苔 因為沒有 維管束",
     "is_pinned": false,
@@ -276,8 +276,8 @@
     ]
   },
   {
-    "start": 91.22,
-    "end": 93.39,
+    "start": 91.42,
+    "end": 93.58,
     "speaker": "曉臻",
     "text": "所以 長不高",
     "is_pinned": false,
@@ -285,8 +285,8 @@
     "commands": []
   },
   {
-    "start": 93.59,
-    "end": 96.43,
+    "start": 93.78,
+    "end": 96.62,
     "speaker": "曉臻",
     "text": "它們 只能靠 擴散作用",
     "is_pinned": false,
@@ -294,8 +294,8 @@
     "commands": []
   },
   {
-    "start": 96.63,
-    "end": 99.14,
+    "start": 96.82,
+    "end": 99.33,
     "speaker": "曉臻",
     "text": "慢慢傳送 水分喔",
     "is_pinned": false,
@@ -303,20 +303,20 @@
     "commands": []
   },
   {
-    "start": 99.34,
-    "end": 107.9,
+    "start": 99.53,
+    "end": 108.09,
     "speaker": "彥君",
-    "text": "\\text{無維管束} \\rightarrow \\text{蘚苔植物 (地錢、土馬騌)}",
+    "text": "無維管束-蘚苔植物 (地錢、土馬騌)",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{無維管束} \\rightarrow \\text{蘚苔植物 (地錢、土馬騌)}"
+      "無維管束-蘚苔植物 (地錢、土馬騌)"
     ]
   },
   {
-    "start": 107.9,
-    "end": 110.83,
+    "start": 108.09,
+    "end": 111.02,
     "speaker": "彥君",
     "text": "好 大家 寫完了嗎",
     "is_pinned": false,
@@ -324,8 +324,8 @@
     "commands": []
   },
   {
-    "start": 111.03,
-    "end": 114.06,
+    "start": 111.22,
+    "end": 114.26,
     "speaker": "彥君",
     "text": "我們來看 右邊這條路",
     "is_pinned": false,
@@ -333,8 +333,8 @@
     "commands": []
   },
   {
-    "start": 114.26,
-    "end": 116.98,
+    "start": 114.46,
+    "end": 117.18,
     "speaker": "彥君",
     "text": "有維管束 的植物",
     "is_pinned": false,
@@ -342,8 +342,8 @@
     "commands": []
   },
   {
-    "start": 117.18,
-    "end": 120.98,
+    "start": 117.38,
+    "end": 121.18,
     "speaker": "彥君",
     "text": "接下來 我們要看 這群植物",
     "is_pinned": false,
@@ -351,8 +351,8 @@
     "commands": []
   },
   {
-    "start": 121.18,
-    "end": 123.69,
+    "start": 121.38,
+    "end": 123.88,
     "speaker": "彥君",
     "text": "怎麼 生小孩",
     "is_pinned": false,
@@ -360,8 +360,8 @@
     "commands": []
   },
   {
-    "start": 123.89,
-    "end": 126.94,
+    "start": 124.08,
+    "end": 127.14,
     "speaker": "彥君",
     "text": "所以 第二關的標準是",
     "is_pinned": false,
@@ -369,8 +369,8 @@
     "commands": []
   },
   {
-    "start": 127.14,
-    "end": 129.84,
+    "start": 127.34,
+    "end": 130.03,
     "speaker": "彥君",
     "text": "有沒有 長出種子",
     "is_pinned": false,
@@ -378,8 +378,8 @@
     "commands": []
   },
   {
-    "start": 130.04,
-    "end": 133.19,
+    "start": 130.23,
+    "end": 133.38,
     "speaker": "彥君",
     "text": "這裡是 重點中的重點",
     "is_pinned": false,
@@ -387,8 +387,8 @@
     "commands": []
   },
   {
-    "start": 133.39,
-    "end": 136.18,
+    "start": 133.58,
+    "end": 136.38,
     "speaker": "彥君",
     "text": "請大家 畫五顆星",
     "is_pinned": false,
@@ -396,8 +396,8 @@
     "commands": []
   },
   {
-    "start": 136.38,
-    "end": 139.27,
+    "start": 136.58,
+    "end": 139.46,
     "speaker": "彥君",
     "text": "往左邊 分出去的",
     "is_pinned": false,
@@ -405,8 +405,8 @@
     "commands": []
   },
   {
-    "start": 139.47,
-    "end": 142.12,
+    "start": 139.66,
+    "end": 142.31,
     "speaker": "彥君",
     "text": "是 不產生種子",
     "is_pinned": false,
@@ -414,8 +414,8 @@
     "commands": []
   },
   {
-    "start": 142.32,
-    "end": 145.26,
+    "start": 142.51,
+    "end": 145.45,
     "speaker": "彥君",
     "text": "只能靠 孢子繁殖",
     "is_pinned": false,
@@ -425,8 +425,8 @@
     ]
   },
   {
-    "start": 145.46,
-    "end": 148.18,
+    "start": 145.65,
+    "end": 148.37,
     "speaker": "曉臻",
     "text": "戰士們 趕快把",
     "is_pinned": false,
@@ -434,8 +434,8 @@
     "commands": []
   },
   {
-    "start": 148.38,
-    "end": 152.01,
+    "start": 148.57,
+    "end": 152.2,
     "speaker": "曉臻",
     "text": "蕨類植物 填進左邊的格子",
     "is_pinned": false,
@@ -443,8 +443,8 @@
     "commands": []
   },
   {
-    "start": 152.21,
-    "end": 155.0,
+    "start": 152.4,
+    "end": 155.19,
     "speaker": "曉臻",
     "text": "像山蘇 或是 筆筒樹",
     "is_pinned": false,
@@ -452,8 +452,8 @@
     "commands": []
   },
   {
-    "start": 155.2,
-    "end": 157.34,
+    "start": 155.39,
+    "end": 157.54,
     "speaker": "曉臻",
     "text": "雖然 長得高",
     "is_pinned": false,
@@ -461,8 +461,8 @@
     "commands": []
   },
   {
-    "start": 157.54,
-    "end": 160.46,
+    "start": 157.74,
+    "end": 160.65,
     "speaker": "曉臻",
     "text": "但受精 還是要 靠水喔",
     "is_pinned": false,
@@ -470,20 +470,20 @@
     "commands": []
   },
   {
-    "start": 160.66,
-    "end": 170.15,
+    "start": 160.85,
+    "end": 170.34,
     "speaker": "彥君",
-    "text": "\\text{無種子 (靠孢子)} \\rightarrow \\text{蕨類植物 (山蘇、筆筒樹)}",
+    "text": "無種子 (靠孢子)→蕨類植物 (山蘇、筆筒樹)",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{無種子 (靠孢子)} \\rightarrow \\text{蕨類植物 (山蘇、筆筒樹)}"
+      "無種子 (靠孢子)→蕨類植物 (山蘇、筆筒樹)"
     ]
   },
   {
-    "start": 170.15,
-    "end": 173.21,
+    "start": 170.34,
+    "end": 173.4,
     "speaker": "彥君",
     "text": "還有一條 剩下的右邊",
     "is_pinned": false,
@@ -491,8 +491,8 @@
     "commands": []
   },
   {
-    "start": 173.41,
-    "end": 176.44,
+    "start": 173.6,
+    "end": 176.63,
     "speaker": "彥君",
     "text": "就是 厲害的 種子植物",
     "is_pinned": false,
@@ -500,8 +500,8 @@
     "commands": []
   },
   {
-    "start": 176.64,
-    "end": 179.94,
+    "start": 176.83,
+    "end": 180.13,
     "speaker": "彥君",
     "text": "種子植物 還要再分兩類",
     "is_pinned": false,
@@ -509,8 +509,8 @@
     "commands": []
   },
   {
-    "start": 180.14,
-    "end": 182.62,
+    "start": 180.33,
+    "end": 182.81,
     "speaker": "彥君",
     "text": "進入 第三關",
     "is_pinned": false,
@@ -518,8 +518,8 @@
     "commands": []
   },
   {
-    "start": 182.82,
-    "end": 185.32,
+    "start": 183.01,
+    "end": 185.51,
     "speaker": "彥君",
     "text": "分類標準是",
     "is_pinned": false,
@@ -527,8 +527,8 @@
     "commands": []
   },
   {
-    "start": 185.52,
-    "end": 188.14,
+    "start": 185.71,
+    "end": 188.34,
     "speaker": "彥君",
     "text": "種子 有沒有被",
     "is_pinned": false,
@@ -536,8 +536,8 @@
     "commands": []
   },
   {
-    "start": 188.34,
-    "end": 190.73,
+    "start": 188.54,
+    "end": 190.92,
     "speaker": "彥君",
     "text": "果實保護",
     "is_pinned": false,
@@ -545,8 +545,8 @@
     "commands": []
   },
   {
-    "start": 190.93,
-    "end": 193.7,
+    "start": 191.12,
+    "end": 193.89,
     "speaker": "彥君",
     "text": "也就是 看你有沒有",
     "is_pinned": false,
@@ -554,8 +554,8 @@
     "commands": []
   },
   {
-    "start": 193.9,
-    "end": 196.64,
+    "start": 194.09,
+    "end": 196.83,
     "speaker": "彥君",
     "text": "子房 這個構造",
     "is_pinned": false,
@@ -563,8 +563,8 @@
     "commands": []
   },
   {
-    "start": 196.84,
-    "end": 199.73,
+    "start": 197.03,
+    "end": 199.92,
     "speaker": "彥君",
     "text": "往左邊 分出去的",
     "is_pinned": false,
@@ -572,8 +572,8 @@
     "commands": []
   },
   {
-    "start": 199.93,
-    "end": 202.72,
+    "start": 200.12,
+    "end": 202.91,
     "speaker": "彥君",
     "text": "是種子 裸露在外",
     "is_pinned": false,
@@ -581,8 +581,8 @@
     "commands": []
   },
   {
-    "start": 202.92,
-    "end": 206.43,
+    "start": 203.11,
+    "end": 206.62,
     "speaker": "曉臻",
     "text": "哇 這一格 太重要了",
     "is_pinned": false,
@@ -590,8 +590,8 @@
     "commands": []
   },
   {
-    "start": 206.63,
-    "end": 208.94,
+    "start": 206.82,
+    "end": 209.14,
     "speaker": "曉臻",
     "text": "大家 趕快填上",
     "is_pinned": false,
@@ -599,8 +599,8 @@
     "commands": []
   },
   {
-    "start": 209.14,
-    "end": 211.1,
+    "start": 209.34,
+    "end": 211.29,
     "speaker": "曉臻",
     "text": "裸子植物",
     "is_pinned": false,
@@ -608,8 +608,8 @@
     "commands": []
   },
   {
-    "start": 211.3,
-    "end": 213.94,
+    "start": 211.49,
+    "end": 214.14,
     "speaker": "曉臻",
     "text": "像是 松樹 和 柏樹",
     "is_pinned": false,
@@ -617,8 +617,8 @@
     "commands": []
   },
   {
-    "start": 214.14,
-    "end": 216.43,
+    "start": 214.34,
+    "end": 216.62,
     "speaker": "曉臻",
     "text": "雖然 沒果實",
     "is_pinned": false,
@@ -626,8 +626,8 @@
     "commands": []
   },
   {
-    "start": 216.63,
-    "end": 219.3,
+    "start": 216.82,
+    "end": 219.5,
     "speaker": "曉臻",
     "text": "但發明了 花粉管喔",
     "is_pinned": false,
@@ -635,20 +635,20 @@
     "commands": []
   },
   {
-    "start": 219.5,
-    "end": 228.62,
+    "start": 219.7,
+    "end": 228.81,
     "speaker": "彥君",
-    "text": "\\text{無果實 (種子裸露)} \\rightarrow \\text{裸子植物 (松、柏)}",
+    "text": "無果實 (種子裸露)→裸子植物 (松、柏)",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{無果實 (種子裸露)} \\rightarrow \\text{裸子植物 (松、柏)}"
+      "無果實 (種子裸露)→裸子植物 (松、柏)"
     ]
   },
   {
-    "start": 228.62,
-    "end": 231.53,
+    "start": 228.81,
+    "end": 231.72,
     "speaker": "彥君",
     "text": "最後 剩下的那一支",
     "is_pinned": false,
@@ -656,8 +656,8 @@
     "commands": []
   },
   {
-    "start": 231.73,
-    "end": 234.66,
+    "start": 231.92,
+    "end": 234.86,
     "speaker": "彥君",
     "text": "就是 最強的 演化巔峰",
     "is_pinned": false,
@@ -665,8 +665,8 @@
     "commands": []
   },
   {
-    "start": 234.86,
-    "end": 237.94,
+    "start": 235.06,
+    "end": 238.14,
     "speaker": "彥君",
     "text": "標準是 有果實保護",
     "is_pinned": false,
@@ -674,8 +674,8 @@
     "commands": []
   },
   {
-    "start": 238.14,
-    "end": 240.67,
+    "start": 238.34,
+    "end": 240.86,
     "speaker": "彥君",
     "text": "而且 還會開花",
     "is_pinned": false,
@@ -683,8 +683,8 @@
     "commands": []
   },
   {
-    "start": 240.87,
-    "end": 243.81,
+    "start": 241.06,
+    "end": 244.0,
     "speaker": "曉臻",
     "text": "戰士們 最後一格",
     "is_pinned": false,
@@ -692,8 +692,8 @@
     "commands": []
   },
   {
-    "start": 244.01,
-    "end": 246.42,
+    "start": 244.2,
+    "end": 246.61,
     "speaker": "曉臻",
     "text": "寫下 被子植物",
     "is_pinned": false,
@@ -701,8 +701,8 @@
     "commands": []
   },
   {
-    "start": 246.62,
-    "end": 249.41,
+    "start": 246.81,
+    "end": 249.6,
     "speaker": "曉臻",
     "text": "就像 杜鵑 和 百合花",
     "is_pinned": false,
@@ -710,8 +710,8 @@
     "commands": []
   },
   {
-    "start": 249.61,
-    "end": 252.71,
+    "start": 249.8,
+    "end": 252.9,
     "speaker": "曉臻",
     "text": "它們是 現在 地球上的霸主",
     "is_pinned": false,
@@ -719,20 +719,20 @@
     "commands": []
   },
   {
-    "start": 252.91,
-    "end": 261.5,
+    "start": 253.1,
+    "end": 261.69,
     "speaker": "彥君",
-    "text": "\\text{有花有果實} \\rightarrow \\text{被子植物 (地球霸主)}",
+    "text": "有花有果實→被子植物 (地球霸主)",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{有花有果實} \\rightarrow \\text{被子植物 (地球霸主)}"
+      "有花有果實→被子植物 (地球霸主)"
     ]
   },
   {
-    "start": 261.5,
-    "end": 264.6,
+    "start": 261.69,
+    "end": 264.79,
     "speaker": "曉臻",
     "text": "戰士們 植物大對決",
     "is_pinned": false,
@@ -740,8 +740,8 @@
     "commands": []
   },
   {
-    "start": 264.8,
-    "end": 267.3,
+    "start": 264.99,
+    "end": 267.5,
     "speaker": "曉臻",
     "text": "最終 總複習來了",
     "is_pinned": false,
@@ -749,8 +749,8 @@
     "commands": []
   },
   {
-    "start": 267.5,
-    "end": 270.08,
+    "start": 267.7,
+    "end": 270.27,
     "speaker": "曉臻",
     "text": "第一 蘚苔植物",
     "is_pinned": false,
@@ -760,8 +760,8 @@
     ]
   },
   {
-    "start": 270.28,
-    "end": 273.62,
+    "start": 270.47,
+    "end": 273.82,
     "speaker": "曉臻",
     "text": "無維管束 靠孢子繁殖",
     "is_pinned": false,
@@ -771,20 +771,20 @@
     ]
   },
   {
-    "start": 273.82,
-    "end": 318.48,
+    "start": 274.02,
+    "end": 318.67,
     "speaker": "彥君",
-    "text": "\\text{一、 蘚苔： 無維管束、 靠孢子繁殖}",
+    "text": "一、 蘚苔： 無維管束、 靠孢子繁殖",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{一、 蘚苔： 無維管束、 靠孢子繁殖}"
+      "一、 蘚苔： 無維管束、 靠孢子繁殖"
     ]
   },
   {
-    "start": 279.38,
-    "end": 281.96,
+    "start": 279.58,
+    "end": 282.15,
     "speaker": "曉臻",
     "text": "第二 蕨類植物",
     "is_pinned": false,
@@ -792,8 +792,8 @@
     "commands": []
   },
   {
-    "start": 282.16,
-    "end": 285.46,
+    "start": 282.35,
+    "end": 285.65,
     "speaker": "曉臻",
     "text": "有維管束 受精需要水",
     "is_pinned": false,
@@ -801,20 +801,20 @@
     "commands": []
   },
   {
-    "start": 285.66,
-    "end": 318.48,
+    "start": 285.85,
+    "end": 318.67,
     "speaker": "彥君",
-    "text": "\\text{二、 蕨類： 有維管束、 受精需要水}",
+    "text": "二、 蕨類： 有維管束、 受精需要水",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "\\text{二、 蕨類： 有維管束、 受精需要水}"
+      "二、 蕨類： 有維管束、 受精需要水"
     ]
   },
   {
-    "start": 291.24,
-    "end": 293.86,
+    "start": 291.43,
+    "end": 294.06,
     "speaker": "曉臻",
     "text": "第三 裸子植物",
     "is_pinned": false,
@@ -822,8 +822,8 @@
     "commands": []
   },
   {
-    "start": 294.06,
-    "end": 297.29,
+    "start": 294.26,
+    "end": 297.48,
     "speaker": "曉臻",
     "text": "種子裸露 具有花粉管",
     "is_pinned": false,
@@ -831,20 +831,20 @@
     "commands": []
   },
   {
-    "start": 297.49,
-    "end": 318.48,
+    "start": 297.68,
+    "end": 318.67,
     "speaker": "彥君",
-    "text": "\\text{三、 裸子： 種子裸露、 具有花粉管}",
+    "text": "三、 裸子： 種子裸露、 具有花粉管",
     "is_pinned": true,
     "pin_level": 3,
     "commands": [
       "釘選",
-      "\\text{三、 裸子： 種子裸露、 具有花粉管}"
+      "三、 裸子： 種子裸露、 具有花粉管"
     ]
   },
   {
-    "start": 303.17,
-    "end": 305.79,
+    "start": 303.36,
+    "end": 305.98,
     "speaker": "曉臻",
     "text": "第四 被子植物",
     "is_pinned": false,
@@ -852,8 +852,8 @@
     "commands": []
   },
   {
-    "start": 305.99,
-    "end": 309.46,
+    "start": 306.18,
+    "end": 309.65,
     "speaker": "曉臻",
     "text": "有花有果實 是最強霸主",
     "is_pinned": false,
@@ -861,20 +861,20 @@
     "commands": []
   },
   {
-    "start": 309.66,
-    "end": 318.48,
+    "start": 309.85,
+    "end": 318.67,
     "speaker": "彥君",
-    "text": "\\text{四、 被子： 有花有果實、 是最強霸主}",
+    "text": "四、 被子： 有花有果實、 是最強霸主",
     "is_pinned": true,
     "pin_level": 4,
     "commands": [
       "釘選",
-      "\\text{四、 被子： 有花有果實、 是最強霸主}"
+      "四、 被子： 有花有果實、 是最強霸主"
     ]
   },
   {
-    "start": 318.48,
-    "end": 321.68,
+    "start": 318.67,
+    "end": 321.87,
     "speaker": "彥君",
     "text": "戰士們 閉上眼睛",
     "is_pinned": false,
@@ -882,8 +882,8 @@
     "commands": []
   },
   {
-    "start": 321.88,
-    "end": 324.07,
+    "start": 322.07,
+    "end": 324.26,
     "speaker": "彥君",
     "text": "想一下",
     "is_pinned": false,
@@ -891,8 +891,8 @@
     "commands": []
   },
   {
-    "start": 324.27,
-    "end": 326.82,
+    "start": 324.46,
+    "end": 327.02,
     "speaker": "彥君",
     "text": "如果 考試問你",
     "is_pinned": false,
@@ -900,8 +900,8 @@
     "commands": []
   },
   {
-    "start": 327.02,
-    "end": 329.62,
+    "start": 327.22,
+    "end": 329.82,
     "speaker": "彥君",
     "text": "誰 有維管束",
     "is_pinned": false,
@@ -909,8 +909,8 @@
     "commands": []
   },
   {
-    "start": 329.82,
-    "end": 333.0,
+    "start": 330.02,
+    "end": 333.19,
     "speaker": "彥君",
     "text": "但 受精 還是必須靠水",
     "is_pinned": false,
@@ -918,8 +918,8 @@
     "commands": []
   },
   {
-    "start": 333.2,
-    "end": 335.7,
+    "start": 333.39,
+    "end": 335.9,
     "speaker": "曉臻",
     "text": "答案 絕對是蕨類",
     "is_pinned": false,
@@ -927,8 +927,8 @@
     "commands": []
   },
   {
-    "start": 335.9,
-    "end": 338.91,
+    "start": 336.1,
+    "end": 339.1,
     "speaker": "曉臻",
     "text": "它是靠 孢子繁殖的 代表",
     "is_pinned": false,
@@ -938,8 +938,8 @@
     ]
   },
   {
-    "start": 339.11,
-    "end": 341.16,
+    "start": 339.3,
+    "end": 341.35,
     "speaker": "彥君",
     "text": "漂亮",
     "is_pinned": false,
@@ -947,8 +947,8 @@
     "commands": []
   },
   {
-    "start": 341.36,
-    "end": 344.32,
+    "start": 341.55,
+    "end": 344.51,
     "speaker": "彥君",
     "text": "這就是 A 級戰士",
     "is_pinned": false,
@@ -956,8 +956,8 @@
     "commands": []
   },
   {
-    "start": 344.52,
-    "end": 347.17,
+    "start": 344.71,
+    "end": 347.36,
     "speaker": "彥君",
     "text": "該有的 秒殺能力",
     "is_pinned": false,
@@ -965,8 +965,8 @@
     "commands": []
   },
   {
-    "start": 347.37,
-    "end": 350.33,
+    "start": 347.56,
+    "end": 350.52,
     "speaker": "彥君",
     "text": "老師 陪你們戰到底",
     "is_pinned": false,
@@ -974,8 +974,8 @@
     "commands": []
   },
   {
-    "start": 350.53,
-    "end": 353.13,
+    "start": 350.72,
+    "end": 353.32,
     "speaker": "彥君",
     "text": "我是 彥君老師",
     "is_pinned": false,
@@ -983,8 +983,8 @@
     "commands": []
   },
   {
-    "start": 353.33,
-    "end": 355.66,
+    "start": 353.52,
+    "end": 355.86,
     "speaker": "曉臻",
     "text": "我是 曉臻助教",
     "is_pinned": false,
@@ -992,8 +992,8 @@
     "commands": []
   },
   {
-    "start": 355.86,
-    "end": 359.47,
+    "start": 356.06,
+    "end": 359.66,
     "speaker": "合聲",
     "text": "分類分得清 高分擋不住",
     "is_pinned": false,
@@ -1001,8 +1001,8 @@
     "commands": []
   },
   {
-    "start": 359.67,
-    "end": 362.97,
+    "start": 359.86,
+    "end": 363.16,
     "speaker": "合聲",
     "text": "戰士們 下一關見",
     "is_pinned": false,
