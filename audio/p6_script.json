@@ -257,12 +257,12 @@
     "start": 87.21,
     "end": 110.17,
     "speaker": "彥君",
-    "text": "\\text{口腔 (中性)} \\rightarrow \\text{分解醣類}",
+    "text": "口腔→分解醣類}",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{口腔 (中性)} \\rightarrow \\text{分解醣類}"
+      "口腔(中性)→分解醣類}"
     ]
   },
   {
@@ -386,12 +386,12 @@
     "start": 131.3,
     "end": 138.74,
     "speaker": "彥君",
-    "text": "\\text{胃 (酸性)} \\rightarrow \\text{殺菌、分解蛋白質}",
+    "text": "胃 (酸性)→殺菌、分解蛋白質",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{胃 (酸性)} \\rightarrow \\text{殺菌、分解蛋白質}"
+      "胃 (酸性)→殺菌、分解蛋白質"
     ]
   },
   {
@@ -638,12 +638,12 @@
     "start": 218.06,
     "end": 225.95,
     "speaker": "彥君",
-    "text": "\\text{膽汁 (肝臟製造)} \\rightarrow \\text{乳化脂質 (無酵素)}",
+    "text": "膽汁 (肝臟製造)→乳化脂質 (無酵素)",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{膽汁 (肝臟製造)} \\rightarrow \\text{乳化脂質 (無酵素)}"
+      "膽汁 (肝臟製造)→乳化脂質 (無酵素)"
     ]
   },
   {
@@ -782,12 +782,12 @@
     "start": 268.42,
     "end": 277.1,
     "speaker": "彥君",
-    "text": "\\text{絨毛、根毛、肺泡} \\rightarrow \\text{增加表面積}",
+    "text": "絨毛、根毛、肺泡→增加表面積}",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{絨毛、根毛、肺泡} \\rightarrow \\text{增加表面積}"
+      "絨毛、根毛、肺泡→增加表面積}"
     ]
   },
   {
@@ -980,12 +980,12 @@
     "start": 339.22,
     "end": 346.74,
     "speaker": "彥君",
-    "text": "\\text{糞便 (食物殘渣)} \\rightarrow \\text{排遺 (非排泄)}",
+    "text": "糞便 (食物殘渣)→排遺 (非排泄)",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{糞便 (食物殘渣)} \\rightarrow \\text{排遺 (非排泄)}"
+      "糞便 (食物殘渣)→排遺 (非排泄)"
     ]
   },
   {
