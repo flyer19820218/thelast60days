@@ -3,7 +3,7 @@
     "start": 0.0,
     "end": 3.01,
     "speaker": "彥君",
-    "text": "戰士們辛苦了",
+    "text": "戰士們 辛苦了",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -12,151 +12,206 @@
     "start": 3.21,
     "end": 6.82,
     "speaker": "彥君",
-    "text": "先揉揉眼睛放鬆一下",
+    "text": "先揉揉眼睛 放鬆一下",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
     "start": 7.02,
-    "end": 10.6,
+    "end": 10.29,
     "speaker": "彥君",
-    "text": "不要再只逼自己衝 A 了",
+    "text": "不要再只逼自己 衝 A 級了",
     "is_pinned": false,
     "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 10.49,
+    "end": 13.4,
+    "speaker": "彥君",
+    "text": "只要每天 進步一點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 13.6,
+    "end": 16.49,
+    "speaker": "彥君",
+    "text": "你就是 最大的贏家",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 16.69,
+    "end": 19.29,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 19.49,
+    "end": 22.38,
+    "speaker": "彥君",
+    "text": "翻開講義 第十八頁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 22.58,
+    "end": 25.44,
+    "speaker": "彥君",
+    "text": "這裡是遺傳學的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 25.64,
+    "end": 28.1,
+    "speaker": "彥君",
+    "text": "大魔王關卡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 28.3,
+    "end": 31.38,
+    "speaker": "彥君",
+    "text": "記住 遺傳學",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 31.58,
+    "end": 34.49,
+    "speaker": "彥君",
+    "text": "絕對不是 考數學",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 34.69,
+    "end": 37.58,
+    "speaker": "彥君",
+    "text": "它是考你的 邏輯推論喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 37.78,
+    "end": 39.51,
+    "speaker": "曉臻",
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 39.71,
+    "end": 42.05,
+    "speaker": "曉臻",
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 42.25,
+    "end": 44.94,
+    "speaker": "曉臻",
+    "text": "老師 這頁寫著",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 45.14,
+    "end": 47.55,
+    "speaker": "曉臻",
+    "text": "沒考 請喝飲料",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 47.75,
+    "end": 50.14,
+    "speaker": "曉臻",
+    "text": "看來這絕對是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 50.34,
+    "end": 52.46,
+    "speaker": "曉臻",
+    "text": "必考 大重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 52.66,
+    "end": 56.55,
+    "speaker": "彥君",
+    "text": "沒錯 戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 56.75,
+    "end": 60.02,
+    "speaker": "彥君",
+    "text": "請盯緊 這兩個黃金比例",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 60.22,
+    "end": 64.07,
+    "speaker": "彥君",
+    "text": "撐過這關 後面就是坦途",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 64.27,
+    "end": 67.38,
+    "speaker": "彥君",
+    "text": "我們先看 棋盤方格法",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 67.58,
+    "end": 115.13,
+    "speaker": "彥君",
+    "text": "1:1 比例 -> Aa x aa",
+    "is_pinned": true,
+    "pin_level": 1,
     "commands": [
-      "A"
+      "釘選",
+      "1:1 比例 -> Aa x aa"
     ]
   },
   {
-    "start": 10.8,
-    "end": 13.74,
-    "speaker": "彥君",
-    "text": "只要每天進步一點",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 13.94,
-    "end": 16.82,
-    "speaker": "彥君",
-    "text": "你就是最大的贏家",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 17.02,
-    "end": 19.62,
-    "speaker": "彥君",
-    "text": "我是彥君老師",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 19.82,
-    "end": 22.71,
-    "speaker": "彥君",
-    "text": "翻開講義第十八頁",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 22.91,
-    "end": 26.42,
-    "speaker": "彥君",
-    "text": "這裡是遺傳學的大魔王關卡",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 26.62,
-    "end": 30.93,
-    "speaker": "彥君",
-    "text": "記住遺傳學絕對不是考數學",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 31.13,
-    "end": 34.02,
-    "speaker": "彥君",
-    "text": "它是考你的邏輯推論喔",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 34.22,
-    "end": 37.42,
-    "speaker": "曉臻",
-    "text": "大家好我是曉臻助教",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 37.62,
-    "end": 41.39,
-    "speaker": "曉臻",
-    "text": "老師這頁寫著沒考請喝飲料",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 41.59,
-    "end": 44.82,
-    "speaker": "曉臻",
-    "text": "看來這絕對是必考大重點",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 45.02,
-    "end": 48.91,
-    "speaker": "彥君",
-    "text": "沒錯戰士們",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 49.11,
-    "end": 52.38,
-    "speaker": "彥君",
-    "text": "請盯緊這兩個黃金比例",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 52.58,
-    "end": 56.43,
-    "speaker": "彥君",
-    "text": "撐過這關後面就是坦途",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 56.63,
-    "end": 59.74,
-    "speaker": "彥君",
-    "text": "我們先看棋盤方格法",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
-  },
-  {
-    "start": 59.94,
-    "end": 62.92,
+    "start": 72.13,
+    "end": 75.11,
     "speaker": "彥君",
     "text": "如果顯隱性的比例",
     "is_pinned": false,
@@ -164,26 +219,26 @@
     "commands": []
   },
   {
-    "start": 63.12,
-    "end": 65.6,
+    "start": 75.31,
+    "end": 77.79,
     "speaker": "彥君",
-    "text": "剛好是一比一",
+    "text": "剛好是 一比一",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 65.8,
-    "end": 69.22,
+    "start": 77.99,
+    "end": 81.41,
     "speaker": "彥君",
-    "text": "親代一定是大A小a",
+    "text": "親代一定是 大A小a",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 69.42,
-    "end": 72.11,
+    "start": 81.61,
+    "end": 84.3,
     "speaker": "彥君",
     "text": "乘上小a小a",
     "is_pinned": false,
@@ -191,8 +246,8 @@
     "commands": []
   },
   {
-    "start": 72.31,
-    "end": 74.84,
+    "start": 84.5,
+    "end": 87.03,
     "speaker": "彥君",
     "text": "因為小a小a",
     "is_pinned": false,
@@ -200,89 +255,110 @@
     "commands": []
   },
   {
-    "start": 75.04,
-    "end": 77.81,
+    "start": 87.23,
+    "end": 90.0,
     "speaker": "彥君",
-    "text": "只能給隱性的小a",
+    "text": "只能給隱性的 小a",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 78.01,
-    "end": 82.07,
+    "start": 90.2,
+    "end": 92.82,
     "speaker": "彥君",
-    "text": "所以決定權都在另一個人身上",
+    "text": "所以決定權",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 82.27,
-    "end": 85.26,
+    "start": 93.02,
+    "end": 95.89,
     "speaker": "彥君",
-    "text": "他給大A就是顯性",
+    "text": "都在 另一個人身上",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 85.46,
-    "end": 88.37,
+    "start": 96.09,
+    "end": 99.07,
     "speaker": "彥君",
-    "text": "給小a就是隱性",
+    "text": "他給大A 就是顯性",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 88.57,
-    "end": 91.5,
+    "start": 99.27,
+    "end": 102.18,
     "speaker": "彥君",
-    "text": "這叫做測交實驗",
+    "text": "給小a 就是隱性",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 91.7,
-    "end": 94.57,
+    "start": 102.38,
+    "end": 105.32,
     "speaker": "彥君",
-    "text": "比例永遠是一比一",
+    "text": "這叫做 測交實驗",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 94.77,
-    "end": 98.11,
+    "start": 105.52,
+    "end": 108.38,
+    "speaker": "彥君",
+    "text": "比例永遠是 一比一",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 108.58,
+    "end": 111.93,
     "speaker": "曉臻",
-    "text": "那如果比例是三比一呢",
+    "text": "那如果 比例是三比一呢",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 98.31,
-    "end": 101.58,
+    "start": 115.13,
+    "end": 157.32,
     "speaker": "彥君",
-    "text": "這就是孟德爾的經典實驗",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "3:1 比例 -> Aa x Aa",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "3:1 比例 -> Aa x Aa"
+    ]
   },
   {
-    "start": 101.78,
-    "end": 105.2,
+    "start": 119.78,
+    "end": 123.05,
     "speaker": "彥君",
-    "text": "親代一定是大A小a",
+    "text": "這就是孟德爾的 經典實驗",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 105.4,
-    "end": 108.02,
+    "start": 123.25,
+    "end": 126.66,
+    "speaker": "彥君",
+    "text": "親代一定是 大A小a",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 126.86,
+    "end": 129.49,
     "speaker": "彥君",
     "text": "乘上大A小a",
     "is_pinned": false,
@@ -290,8 +366,8 @@
     "commands": []
   },
   {
-    "start": 108.22,
-    "end": 110.73,
+    "start": 129.69,
+    "end": 132.17,
     "speaker": "彥君",
     "text": "兩個人身上",
     "is_pinned": false,
@@ -299,17 +375,17 @@
     "commands": []
   },
   {
-    "start": 110.93,
-    "end": 113.74,
+    "start": 132.37,
+    "end": 135.18,
     "speaker": "彥君",
-    "text": "都有隱藏的小a基因",
+    "text": "都有隱藏的 小a基因",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 113.94,
-    "end": 116.26,
+    "start": 135.38,
+    "end": 137.67,
     "speaker": "彥君",
     "text": "碰在一起",
     "is_pinned": false,
@@ -317,116 +393,128 @@
     "commands": []
   },
   {
-    "start": 116.46,
-    "end": 119.39,
+    "start": 137.87,
+    "end": 140.81,
     "speaker": "彥君",
-    "text": "就有四分之一的機率",
+    "text": "就有四分之一 的機率",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 119.59,
-    "end": 122.94,
+    "start": 141.01,
+    "end": 144.35,
     "speaker": "彥君",
-    "text": "生出小a小a的隱性子代",
+    "text": "生出小a小a的 隱性子代",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 123.14,
-    "end": 126.72,
+    "start": 144.55,
+    "end": 148.14,
     "speaker": "彥君",
-    "text": "這兩個比例我講慢一點",
+    "text": "這兩個比例 我講慢一點",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 126.92,
-    "end": 129.47,
+    "start": 148.34,
+    "end": 150.89,
     "speaker": "彥君",
-    "text": "一比一配測交",
+    "text": "一比一 配測交",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 129.67,
-    "end": 132.7,
+    "start": 151.09,
+    "end": 154.12,
     "speaker": "彥君",
-    "text": "三比一配雙雜合",
+    "text": "三比一 配雙雜合",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 132.9,
-    "end": 136.37,
+    "start": 157.32,
+    "end": 160.78,
     "speaker": "曉臻",
-    "text": "老師那下面黑白格子的",
+    "text": "老師 那下面黑白格子的",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 136.57,
-    "end": 139.53,
+    "start": 160.98,
+    "end": 163.94,
     "speaker": "曉臻",
-    "text": "這種譜系圖要怎麼看呢",
+    "text": "這種譜系圖 要怎麼看呢",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 139.73,
-    "end": 143.0,
+    "start": 164.14,
+    "end": 167.42,
     "speaker": "彥君",
-    "text": "這題拿到你就贏了",
+    "text": "這題拿到 你就贏了",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 143.2,
-    "end": 146.35,
+    "start": 167.62,
+    "end": 170.77,
     "speaker": "彥君",
-    "text": "戰士們拿起筆",
+    "text": "戰士們 拿起筆",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 146.55,
-    "end": 149.99,
+    "start": 170.97,
+    "end": 174.41,
     "speaker": "彥君",
-    "text": "寫下最重要的破案口訣",
+    "text": "寫下最重要的 破案口訣",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 150.19,
-    "end": 153.61,
+    "start": 174.61,
+    "end": 227.64,
     "speaker": "彥君",
-    "text": "無中生有就是隱性",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "無中生有，為隱性",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "無中生有，為隱性"
+    ]
   },
   {
-    "start": 153.81,
-    "end": 157.49,
+    "start": 178.1,
+    "end": 181.52,
     "speaker": "彥君",
-    "text": "找尋隱性往上推親代",
+    "text": "無中生有 就是隱性",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 157.69,
-    "end": 159.78,
+    "start": 181.72,
+    "end": 185.4,
+    "speaker": "彥君",
+    "text": "找尋隱性 往上推親代",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 185.6,
+    "end": 187.7,
     "speaker": "彥君",
     "text": "在圖中",
     "is_pinned": false,
@@ -434,44 +522,62 @@
     "commands": []
   },
   {
-    "start": 159.98,
-    "end": 163.38,
+    "start": 187.9,
+    "end": 191.29,
     "speaker": "彥君",
-    "text": "看到患病或是隱性的人",
+    "text": "看到患病或是 隱性的人",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 163.58,
-    "end": 167.4,
+    "start": 191.49,
+    "end": 195.31,
     "speaker": "彥君",
-    "text": "先在他頭上寫下小a小a",
+    "text": "先在他頭上 寫下小a小a",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 167.6,
-    "end": 171.47,
+    "start": 195.51,
+    "end": 198.21,
     "speaker": "彥君",
-    "text": "因為其中一個小a一定來自爸爸",
+    "text": "因為其中 一個小a",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 171.67,
-    "end": 175.02,
+    "start": 198.41,
+    "end": 200.94,
     "speaker": "彥君",
-    "text": "另一個小a一定來自媽媽",
+    "text": "一定 來自爸爸",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 175.22,
-    "end": 177.77,
+    "start": 201.14,
+    "end": 203.38,
+    "speaker": "彥君",
+    "text": "另一個 小a",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 203.58,
+    "end": 205.98,
+    "speaker": "彥君",
+    "text": "一定 來自媽媽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 206.18,
+    "end": 208.74,
     "speaker": "彥君",
     "text": "只要這對父母",
     "is_pinned": false,
@@ -479,80 +585,89 @@
     "commands": []
   },
   {
-    "start": 177.97,
-    "end": 181.31,
+    "start": 208.94,
+    "end": 212.28,
     "speaker": "彥君",
-    "text": "外表看起來完全正常",
+    "text": "外表看起來 完全正常",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 181.51,
-    "end": 184.86,
+    "start": 212.48,
+    "end": 215.82,
     "speaker": "彥君",
-    "text": "卻生出小a小a的小孩",
+    "text": "卻生出小a小a的 小孩",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 185.06,
-    "end": 188.18,
+    "start": 216.02,
+    "end": 219.15,
     "speaker": "彥君",
-    "text": "就可以百分之百斷定",
+    "text": "就可以 百分之百斷定",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 188.38,
-    "end": 191.97,
+    "start": 219.35,
+    "end": 221.83,
     "speaker": "彥君",
-    "text": "父母兩個人都是大A小a",
+    "text": "父母兩個人",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 192.17,
-    "end": 195.54,
+    "start": 222.03,
+    "end": 224.44,
+    "speaker": "彥君",
+    "text": "都是 大A小a",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 227.64,
+    "end": 231.01,
     "speaker": "曉臻",
-    "text": "喔所以只要看到",
+    "text": "喔 所以只要看到",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 195.74,
-    "end": 198.5,
+    "start": 231.21,
+    "end": 233.98,
     "speaker": "曉臻",
-    "text": "正常生出不正常的",
+    "text": "正常 生出不正常的",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 198.7,
-    "end": 201.23,
+    "start": 234.18,
+    "end": 236.7,
     "speaker": "曉臻",
-    "text": "那個不正常的特徵",
+    "text": "那個 不正常的特徵",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 201.43,
-    "end": 203.86,
+    "start": 236.9,
+    "end": 239.34,
     "speaker": "曉臻",
-    "text": "就一定是隱性囉",
+    "text": "就一定是 隱性囉",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 204.06,
-    "end": 206.21,
+    "start": 239.54,
+    "end": 241.68,
     "speaker": "彥君",
     "text": "聰明",
     "is_pinned": false,
@@ -560,152 +675,218 @@
     "commands": []
   },
   {
-    "start": 206.41,
-    "end": 209.7,
+    "start": 241.88,
+    "end": 245.18,
     "speaker": "彥君",
-    "text": "這就是破案的關鍵證據",
+    "text": "這就是破案的 關鍵證據",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 209.9,
-    "end": 213.73,
+    "start": 245.38,
+    "end": 249.2,
     "speaker": "彥君",
-    "text": "同學們這裡真的非常重要",
+    "text": "同學們 這裡真的非常重要",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 213.93,
-    "end": 216.82,
+    "start": 249.4,
+    "end": 252.29,
     "speaker": "彥君",
-    "text": "先找隱性小a小a",
+    "text": "先找隱性 小a小a",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 217.02,
-    "end": 219.78,
+    "start": 252.49,
+    "end": 255.26,
     "speaker": "彥君",
-    "text": "再往上推親代",
+    "text": "再往上 推親代",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 219.98,
-    "end": 223.04,
+    "start": 255.46,
+    "end": 258.51,
     "speaker": "彥君",
-    "text": "只要親代外表正常",
+    "text": "只要親代 外表正常",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 223.24,
-    "end": 226.58,
+    "start": 258.71,
+    "end": 262.06,
     "speaker": "彥君",
-    "text": "就一定是帶有隱性基因的",
+    "text": "就一定是 帶有隱性基因的",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 226.78,
-    "end": 229.53,
+    "start": 262.26,
+    "end": 265.0,
     "speaker": "彥君",
-    "text": "雜合型大A小a",
+    "text": "雜合型 大A小a",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 229.73,
-    "end": 233.43,
+    "start": 265.2,
+    "end": 266.96,
     "speaker": "曉臻",
-    "text": "戰士們給大腦一點時間消化",
+    "text": "戰士們",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 233.63,
-    "end": 237.38,
+    "start": 267.16,
+    "end": 269.98,
     "speaker": "曉臻",
-    "text": "最後來個遺傳偵探總複習",
+    "text": "給大腦一點時間 消化",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 237.58,
-    "end": 243.71,
+    "start": 270.18,
+    "end": 273.57,
     "speaker": "曉臻",
-    "text": "先找 } aa \\text{ 推親代}]",
+    "text": "最後來個 遺傳偵探總複習",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 243.91,
-    "end": 247.86,
+    "start": 273.77,
+    "end": 297.26,
     "speaker": "彥君",
-    "text": "戰士們請閉上眼睛想一下喔",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "一、 比例 1:1 -> Aa x aa",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "一、 比例 1:1 -> Aa x aa"
+    ]
   },
   {
-    "start": 248.06,
-    "end": 252.22,
+    "start": 278.7,
+    "end": 297.26,
     "speaker": "彥君",
-    "text": "捲髮父母生出一個直髮小孩",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "二、 比例 3:1 -> Aa x Aa",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "二、 比例 3:1 -> Aa x Aa"
+    ]
   },
   {
-    "start": 252.42,
-    "end": 255.76,
+    "start": 283.64,
+    "end": 297.26,
     "speaker": "彥君",
-    "text": "請問哪一個是顯性",
+    "text": "三、 譜系圖： 先找 aa 推親代",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "三、 譜系圖： 先找 aa 推親代"
+    ]
+  },
+  {
+    "start": 289.08,
+    "end": 297.26,
+    "speaker": "彥君",
+    "text": "四、 正常生患病 -> 患病為隱性",
+    "is_pinned": true,
+    "pin_level": 4,
+    "commands": [
+      "釘選",
+      "四、 正常生患病 -> 患病為隱性"
+    ]
+  },
+  {
+    "start": 297.26,
+    "end": 300.46,
+    "speaker": "彥君",
+    "text": "戰士們 閉上眼睛",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 255.96,
-    "end": 258.68,
+    "start": 300.66,
+    "end": 302.78,
+    "speaker": "彥君",
+    "text": "想一下喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 302.98,
+    "end": 305.41,
+    "speaker": "彥君",
+    "text": "捲髮父母",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 305.61,
+    "end": 308.71,
+    "speaker": "彥君",
+    "text": "生出一個 直髮小孩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 308.91,
+    "end": 312.26,
+    "speaker": "彥君",
+    "text": "請問 哪一個是顯性",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 312.46,
+    "end": 315.18,
     "speaker": "曉臻",
-    "text": "正常生出不一樣的",
+    "text": "正常生出 不一樣的",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 258.88,
-    "end": 261.0,
+    "start": 315.38,
+    "end": 317.5,
     "speaker": "曉臻",
-    "text": "直髮是隱性",
+    "text": "直髮 是隱性",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 261.2,
-    "end": 264.23,
+    "start": 317.7,
+    "end": 320.73,
     "speaker": "曉臻",
-    "text": "所以捲髮就是顯性",
+    "text": "所以捲髮 就是顯性",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 264.43,
-    "end": 266.48,
+    "start": 320.93,
+    "end": 322.98,
     "speaker": "彥君",
     "text": "漂亮",
     "is_pinned": false,
@@ -713,64 +894,73 @@
     "commands": []
   },
   {
-    "start": 266.68,
-    "end": 270.38,
+    "start": 323.18,
+    "end": 326.09,
     "speaker": "彥君",
-    "text": "這就是頂級戰士該有的判斷力",
+    "text": "這就是 頂級戰士",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 270.58,
-    "end": 273.74,
+    "start": 326.29,
+    "end": 328.82,
     "speaker": "彥君",
-    "text": "你比想像中更強大",
+    "text": "該有的 判斷力",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 273.94,
-    "end": 276.97,
+    "start": 329.02,
+    "end": 332.17,
     "speaker": "彥君",
-    "text": "老師會陪你戰到底",
+    "text": "你比想像中 更強大",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 277.17,
-    "end": 279.77,
+    "start": 332.37,
+    "end": 335.4,
     "speaker": "彥君",
-    "text": "我是彥君老師",
+    "text": "老師會陪你 戰到底",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 279.97,
-    "end": 282.3,
+    "start": 335.6,
+    "end": 338.2,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 338.4,
+    "end": 340.74,
     "speaker": "曉臻",
-    "text": "我是曉臻助教",
+    "text": "我是 曉臻助教",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 282.5,
-    "end": 285.87,
+    "start": 340.94,
+    "end": 344.28,
     "speaker": "合聲",
-    "text": "遺傳破案高分必讚",
+    "text": "遺傳破案 高分必讚",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 286.07,
-    "end": 288.48,
+    "start": 344.48,
+    "end": 347.78,
     "speaker": "合聲",
-    "text": "下一關見",
+    "text": "戰士們 下一關見",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
