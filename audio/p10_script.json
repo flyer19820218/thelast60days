@@ -1,200 +1,728 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.44,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 摸著你的良心",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 6.66,
+    "start": 3.64,
+    "end": 6.91,
     "speaker": "彥君",
-    "text": "各位衝 A的戰士們我是彥君老師"
+    "text": "每次背 血液的 濃度變化",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.66,
-    "end": 13.36,
+    "start": 7.11,
+    "end": 10.0,
     "speaker": "彥君",
-    "text": "我們翻到 第十頁這裡是 生物最難的一關但我保證"
+    "text": "是不是 考試一緊張",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 13.36,
-    "end": 17.17,
+    "start": 10.2,
+    "end": 12.68,
     "speaker": "彥君",
-    "text": "聽完這段 你再也不用死背"
+    "text": "就全部 寫反了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 17.17,
-    "end": 20.67,
+    "start": 12.88,
+    "end": 15.89,
+    "speaker": "彥君",
+    "text": "歡迎來到 第十集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 16.09,
+    "end": 18.69,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 18.89,
+    "end": 20.62,
     "speaker": "曉臻",
-    "text": "大家好我是曉臻助教"
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 20.67,
-    "end": 24.77,
+    "start": 20.82,
+    "end": 23.16,
     "speaker": "曉臻",
-    "text": "老師這張圖上面的 字好密喔"
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 24.77,
-    "end": 31.65,
+    "start": 23.36,
+    "end": 26.34,
+    "speaker": "彥君",
+    "text": "請翻到 講義第十頁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 26.54,
+    "end": 29.53,
+    "speaker": "彥君",
+    "text": "這是 生物最難的一關",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 29.73,
+    "end": 32.66,
+    "speaker": "彥君",
+    "text": "但我保證 聽完這段",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 32.86,
+    "end": 35.75,
+    "speaker": "彥君",
+    "text": "你 再也不用 死背",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 35.95,
+    "end": 39.2,
     "speaker": "曉臻",
-    "text": "養分高、氧氣低 這種東西考試一緊張 就全部寫反了怎麼辦"
+    "text": "老師 這張圖上面的字",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 31.65,
-    "end": 36.04,
-    "speaker": "彥君",
-    "text": "不要死背要知道 送去目的是什麼"
-  },
-  {
-    "start": 36.04,
-    "end": 42.59,
-    "speaker": "彥君",
-    "text": "想像血液 是「外送員」外送員 去到 一般組織"
-  },
-  {
-    "start": 42.59,
-    "end": 48.25,
-    "speaker": "彥君",
-    "text": "像是你的 肌肉或大腦他是去「送貨」還是「取貨」"
-  },
-  {
-    "start": 48.25,
-    "end": 54.05,
+    "start": 39.4,
+    "end": 41.88,
     "speaker": "曉臻",
-    "text": "組織細胞 要工作所以 外送員是去 送氧氣和養分"
+    "text": "實在是 太密了啦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 54.05,
-    "end": 58.1,
+    "start": 42.08,
+    "end": 44.75,
     "speaker": "曉臻",
-    "text": "然後 順便 把細胞 產生的廢物 帶走"
+    "text": "養分高、 氧氣低",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 58.1,
-    "end": 64.94,
-    "speaker": "彥君",
-    "text": "沒錯所以 進入組織前養分和氧氣 當然「高」"
-  },
-  {
-    "start": 64.94,
-    "end": 70.67,
-    "speaker": "彥君",
-    "text": "交換完 出來後氧氣養分 被拿走了當然變「低」"
-  },
-  {
-    "start": 70.67,
-    "end": 74.82,
+    "start": 44.95,
+    "end": 47.17,
     "speaker": "曉臻",
-    "text": "哦那 小腸絨毛 這一站呢"
+    "text": "到底 該怎麼記",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 74.82,
-    "end": 81.68,
+    "start": 47.37,
+    "end": 50.33,
     "speaker": "彥君",
-    "text": "小腸 是我們全身的「補給中心」外送員 去到那裡"
+    "text": "戰士們 盯緊這句話",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 81.68,
-    "end": 87.6,
+    "start": 50.53,
+    "end": 52.82,
     "speaker": "彥君",
-    "text": "是為了 領取養分所以 進去時 養分很低"
+    "text": "不要死背",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 87.6,
-    "end": 92.88,
+    "start": 53.02,
+    "end": 56.22,
     "speaker": "彥君",
-    "text": "但在 小腸交換完 出來血液就變得 養分滿滿"
+    "text": "要知道 送去的目的 是什麼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 92.88,
-    "end": 97.0,
+    "start": 56.42,
+    "end": 59.64,
     "speaker": "彥君",
-    "text": "也就是 養分濃度 全身最高 的地方"
+    "text": "想像血液 是外送員",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 97.0,
-    "end": 101.39,
+    "start": 59.84,
+    "end": 62.9,
+    "speaker": "彥君",
+    "text": "外送員 去到 一般組織",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 63.1,
+    "end": 66.15,
+    "speaker": "彥君",
+    "text": "像是你的 肌肉或大腦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 66.35,
+    "end": 69.48,
+    "speaker": "彥君",
+    "text": "他是去送貨 還是取貨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 69.68,
+    "end": 72.18,
     "speaker": "曉臻",
-    "text": "老師那這兩站 的 二氧化碳 變化呢"
+    "text": "組織細胞 要工作",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 101.39,
-    "end": 107.41,
-    "speaker": "彥君",
-    "text": "記住除了 肺部以外流經 任何器官 都是 為了工作"
-  },
-  {
-    "start": 107.41,
-    "end": 114.39,
-    "speaker": "彥君",
-    "text": "工作 就會 產生廢物所以 不管是 流經 組織 還是 小腸"
-  },
-  {
-    "start": 114.39,
-    "end": 120.05,
-    "speaker": "彥君",
-    "text": "出來的 血液二氧化碳 和 氨 這類廢物 一定都會 變高"
-  },
-  {
-    "start": 120.05,
-    "end": 126.07,
+    "start": 72.38,
+    "end": 75.15,
     "speaker": "曉臻",
-    "text": "目的是 送貨進去 氧高 養分高出來 廢物高"
+    "text": "所以 外送員 是去送",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 126.07,
-    "end": 130.99,
+    "start": 75.35,
+    "end": 77.59,
     "speaker": "曉臻",
-    "text": "目的是 補給出來 養分 全台最高"
+    "text": "氧氣 和 養分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 130.99,
-    "end": 136.14,
+    "start": 77.79,
+    "end": 80.37,
     "speaker": "曉臻",
-    "text": "出來的血 都變成了 缺氧血也就是 二氧化碳高"
+    "text": "然後順便 把細胞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 136.14,
-    "end": 140.72,
-    "speaker": "彥君",
-    "text": "如果我 剛吃飽哪一個 器官出來的 血液"
-  },
-  {
-    "start": 140.72,
-    "end": 144.42,
-    "speaker": "彥君",
-    "text": "養分濃度 會是 全身最高 的"
-  },
-  {
-    "start": 144.42,
-    "end": 149.69,
+    "start": 80.57,
+    "end": 83.02,
     "speaker": "曉臻",
-    "text": "答案是 小腸因為它是 養分的 吸收中心"
+    "text": "產生的廢物 帶走",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 149.69,
-    "end": 152.04,
+    "start": 83.22,
+    "end": 85.32,
     "speaker": "彥君",
-    "text": "漂亮"
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 152.04,
-    "end": 154.94,
+    "start": 85.52,
+    "end": 88.48,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "所以 進入組織前",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 154.94,
-    "end": 157.58,
+    "start": 88.68,
+    "end": 91.69,
+    "speaker": "彥君",
+    "text": "養分和氧氣 當然高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 91.89,
+    "end": 94.58,
+    "speaker": "彥君",
+    "text": "交換完 出來後",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 94.78,
+    "end": 97.72,
+    "speaker": "彥君",
+    "text": "氧氣養分 被拿走了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 97.92,
+    "end": 100.47,
+    "speaker": "彥君",
+    "text": "當然 就變低了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 100.67,
+    "end": 108.37,
+    "speaker": "彥君",
+    "text": "\\text{一般組織： 進 (氧高) / 出 (廢物高)}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{一般組織： 進 (氧高) / 出 (廢物高)}"
+    ]
+  },
+  {
+    "start": 108.37,
+    "end": 111.52,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "哦 那 小腸絨毛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "絨毛"
+    ]
   },
   {
-    "start": 157.58,
-    "end": 162.95,
+    "start": 111.72,
+    "end": 113.6,
+    "speaker": "曉臻",
+    "text": "這一站 呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 113.8,
+    "end": 116.86,
+    "speaker": "彥君",
+    "text": "小腸 是我們全身的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 117.06,
+    "end": 119.63,
+    "speaker": "彥君",
+    "text": "終極 補給中心",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 119.83,
+    "end": 122.58,
+    "speaker": "彥君",
+    "text": "外送員 去到那裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 122.78,
+    "end": 125.62,
+    "speaker": "彥君",
+    "text": "是為了 領取養分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 125.82,
+    "end": 128.92,
+    "speaker": "彥君",
+    "text": "所以 進去時 養分很低",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 129.12,
+    "end": 132.34,
+    "speaker": "彥君",
+    "text": "但在 小腸交換完 出來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 132.54,
+    "end": 135.77,
+    "speaker": "彥君",
+    "text": "血液就變得 養分滿滿",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 135.97,
+    "end": 138.71,
+    "speaker": "彥君",
+    "text": "也就是 養分濃度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 138.91,
+    "end": 141.73,
+    "speaker": "彥君",
+    "text": "全身最高 的地方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 141.93,
+    "end": 149.7,
+    "speaker": "彥君",
+    "text": "\\text{小腸絨毛： 出來養分全台最高}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{小腸絨毛： 出來養分全台最高}"
+    ]
+  },
+  {
+    "start": 149.7,
+    "end": 152.58,
+    "speaker": "曉臻",
+    "text": "老師 那這兩站的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 152.78,
+    "end": 155.26,
+    "speaker": "曉臻",
+    "text": "二氧化碳 變化呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 155.46,
+    "end": 158.81,
+    "speaker": "彥君",
+    "text": "記住 除了 肺部以外",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 159.01,
+    "end": 161.66,
+    "speaker": "彥君",
+    "text": "流經 任何器官",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 161.86,
+    "end": 164.48,
+    "speaker": "彥君",
+    "text": "都是 為了工作",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 164.68,
+    "end": 167.74,
+    "speaker": "彥君",
+    "text": "工作 就會 產生廢物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 167.94,
+    "end": 171.09,
+    "speaker": "彥君",
+    "text": "所以 不管是 流經組織",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 171.29,
+    "end": 174.06,
+    "speaker": "彥君",
+    "text": "還是 流經小腸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 174.26,
+    "end": 176.71,
+    "speaker": "彥君",
+    "text": "出來的血液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 176.91,
+    "end": 179.61,
+    "speaker": "彥君",
+    "text": "二氧化碳 和 氨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "氨"
+    ]
+  },
+  {
+    "start": 179.81,
+    "end": 182.96,
+    "speaker": "彥君",
+    "text": "這類廢物 一定都會變高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 183.16,
+    "end": 191.94,
+    "speaker": "彥君",
+    "text": "\\text{所有器官 (除肺)： 出來皆為缺氧血}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{所有器官 (除肺)： 出來皆為缺氧血}"
+    ]
+  },
+  {
+    "start": 191.94,
+    "end": 195.26,
+    "speaker": "曉臻",
+    "text": "戰士們 外送邏輯 整理",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 195.46,
+    "end": 198.44,
+    "speaker": "曉臻",
+    "text": "第一 一般組織 送貨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 198.64,
+    "end": 201.86,
+    "speaker": "曉臻",
+    "text": "進去氧高 出來廢物高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 202.06,
+    "end": 205.1,
+    "speaker": "曉臻",
+    "text": "第二 小腸絨毛 補給",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "絨毛"
+    ]
+  },
+  {
+    "start": 205.3,
+    "end": 208.09,
+    "speaker": "曉臻",
+    "text": "出來 養分 全台最高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 208.29,
+    "end": 211.2,
+    "speaker": "曉臻",
+    "text": "第三 它們的共通點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 211.4,
+    "end": 214.31,
+    "speaker": "曉臻",
+    "text": "出來的血 都是缺氧血",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 214.51,
+    "end": 217.16,
+    "speaker": "曉臻",
+    "text": "也就是 二氧化碳高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 217.36,
+    "end": 220.56,
+    "speaker": "彥君",
+    "text": "戰士們 閉上眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 220.76,
+    "end": 222.95,
+    "speaker": "彥君",
+    "text": "想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 223.15,
+    "end": 225.75,
+    "speaker": "彥君",
+    "text": "如果我 剛吃飽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 225.95,
+    "end": 229.2,
+    "speaker": "彥君",
+    "text": "哪一個器官 出來的血液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 229.4,
+    "end": 232.72,
+    "speaker": "彥君",
+    "text": "養分濃度 會是全身最高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 232.92,
+    "end": 234.99,
+    "speaker": "曉臻",
+    "text": "答案是 小腸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 235.19,
+    "end": 237.86,
+    "speaker": "曉臻",
+    "text": "因為它是 吸收中心",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 238.06,
+    "end": 243.04,
+    "speaker": "彥君",
+    "text": "漂亮 觀念通了 人生就通",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 243.24,
+    "end": 245.84,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 246.04,
+    "end": 248.38,
+    "speaker": "曉臻",
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 248.58,
+    "end": 251.94,
     "speaker": "合聲",
-    "text": "邏輯通透魔王不難下一張投影片見"
+    "text": "邏輯通透 魔王不難",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 252.14,
+    "end": 255.78,
+    "speaker": "合聲",
+    "text": "戰士們 下張投影片見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
