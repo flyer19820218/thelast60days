@@ -30,9 +30,6 @@
 [清空釘選]
 彥君： 神經系統分成兩大派。
 
-
-[Image of the human central and peripheral nervous system]
-
 彥君： 中樞神經與周圍神經。
 彥君： 中樞神經就是你的總部。
 彥君： 包含腦跟[脊髓](幾隨)。
@@ -55,10 +52,6 @@
 彥君： 傳給肌肉！
 曉臻： 了解！這頁最重要的。
 曉臻： 傳導路徑圖怎麼看？
-
-
-[Image of human reflex arc pathway]
-
 彥君： 戰士們，請記住口訣。
 彥君： 受、感、中、運、動。
 彥君： 訊息從受器出發。
