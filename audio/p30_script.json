@@ -1,332 +1,1007 @@
 [
   {
     "start": 0.0,
-    "end": 4.8,
+    "end": 3.03,
     "speaker": "彥君",
-    "text": "各位衝 A 的戰士們 我是彥君老師"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 4.8,
-    "end": 10.1,
+    "start": 3.23,
+    "end": 5.98,
     "speaker": "彥君",
-    "text": "大家看這張表格 這就是生物界的 『社交圈』"
+    "text": "考前的 每個夜晚",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 10.1,
-    "end": 14.77,
+    "start": 6.18,
+    "end": 9.04,
     "speaker": "彥君",
-    "text": "有的生物是好朋友 有的是死對頭"
+    "text": "都是你 蛻變的養分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 14.77,
-    "end": 17.94,
+    "start": 9.24,
+    "end": 11.72,
     "speaker": "彥君",
-    "text": "有的則是相愛相殺"
+    "text": "再堅持一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 17.94,
-    "end": 22.52,
+    "start": 11.92,
+    "end": 15.5,
     "speaker": "彥君",
-    "text": "這頁真的是送分題 大家拿起筆"
+    "text": "我們來拿下 會考必考的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.52,
-    "end": 25.68,
+    "start": 15.7,
+    "end": 18.38,
     "speaker": "彥君",
-    "text": "我們來把表格填滿"
+    "text": "生物界 社交圈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 25.68,
-    "end": 31.08,
+    "start": 18.58,
+    "end": 21.8,
     "speaker": "彥君",
-    "text": "首先 看表格的第一行 也就是 『競爭』"
+    "text": "歡迎來到 第十九集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 31.08,
-    "end": 35.1,
+    "start": 22.0,
+    "end": 24.6,
     "speaker": "彥君",
-    "text": "競爭 就是兩個人搶同一個東西"
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 35.1,
-    "end": 38.51,
-    "speaker": "彥君",
-    "text": "最後兩個都累得半死"
-  },
-  {
-    "start": 38.51,
-    "end": 42.94,
-    "speaker": "彥君",
-    "text": "所以對甲生物是 X 對乙生物也是 X"
-  },
-  {
-    "start": 42.94,
-    "end": 46.44,
+    "start": 24.8,
+    "end": 26.54,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教"
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 46.44,
-    "end": 51.38,
+    "start": 26.74,
+    "end": 29.07,
     "speaker": "曉臻",
-    "text": "大家快填上去 競爭的結果就是兩敗俱傷"
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 51.38,
-    "end": 56.18,
+    "start": 29.27,
+    "end": 32.26,
+    "speaker": "彥君",
+    "text": "大家看 這張表格",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 32.46,
+    "end": 35.3,
+    "speaker": "彥君",
+    "text": "這真的是 送分題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 35.5,
+    "end": 38.0,
+    "speaker": "彥君",
+    "text": "拿起你的筆",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 38.2,
+    "end": 41.06,
+    "speaker": "彥君",
+    "text": "我們來把 表格填滿",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 41.26,
+    "end": 44.9,
+    "speaker": "彥君",
+    "text": "首先 看表格的 第一行",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 45.1,
+    "end": 47.53,
+    "speaker": "彥君",
+    "text": "也就是 競爭",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 47.73,
+    "end": 50.62,
+    "speaker": "彥君",
+    "text": "競爭 就是兩個人",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 50.82,
+    "end": 53.39,
+    "speaker": "彥君",
+    "text": "搶 同一個東西",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 53.59,
+    "end": 56.7,
+    "speaker": "彥君",
+    "text": "最後 兩個都 累得半死",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 56.9,
+    "end": 59.76,
+    "speaker": "彥君",
+    "text": "所以 對甲生物 是 X",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 59.96,
+    "end": 62.63,
+    "speaker": "彥君",
+    "text": "對乙生物 也是 X",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 62.83,
+    "end": 65.22,
     "speaker": "曉臻",
-    "text": "就像兩群獅子搶一隻斑馬 誰都沒好處"
+    "text": "大家 快填上去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 56.18,
-    "end": 60.81,
-    "speaker": "彥君",
-    "text": "接下來看第二行 也就是 『捕食』"
-  },
-  {
-    "start": 60.81,
-    "end": 65.29,
-    "speaker": "彥君",
-    "text": "這很簡單 一個吃人 一個被吃"
-  },
-  {
-    "start": 65.29,
-    "end": 69.87,
-    "speaker": "彥君",
-    "text": "吃人的甲生物打 O 被吃的乙生物打 X"
-  },
-  {
-    "start": 69.87,
-    "end": 74.16,
+    "start": 65.42,
+    "end": 68.9,
     "speaker": "曉臻",
-    "text": "這就是弱肉強食 贏家得到晚餐"
+    "text": "競爭的結果 就是兩敗俱傷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 74.16,
-    "end": 76.85,
+    "start": 69.1,
+    "end": 72.35,
     "speaker": "曉臻",
-    "text": "輸家失去生命"
+    "text": "就像 兩群獅子 搶一隻斑馬",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 76.85,
-    "end": 80.25,
-    "speaker": "彥君",
-    "text": "第三行是 『寄生』"
-  },
-  {
-    "start": 80.25,
-    "end": 83.32,
-    "speaker": "彥君",
-    "text": "這跟捕食有點像"
-  },
-  {
-    "start": 83.32,
-    "end": 87.59,
-    "speaker": "彥君",
-    "text": "但寄生蟲通常不會馬上弄死對方"
-  },
-  {
-    "start": 87.59,
-    "end": 91.16,
-    "speaker": "彥君",
-    "text": "得到好處的寄生蟲打 O"
-  },
-  {
-    "start": 91.16,
-    "end": 94.16,
-    "speaker": "彥君",
-    "text": "倒楣的宿主打 X"
-  },
-  {
-    "start": 94.16,
-    "end": 97.2,
+    "start": 72.55,
+    "end": 74.74,
     "speaker": "曉臻",
-    "text": "就像你肚子裡的蛔蟲"
+    "text": "誰都 沒好處",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 97.2,
-    "end": 100.22,
+    "start": 74.94,
+    "end": 113.62,
+    "speaker": "彥君",
+    "text": "\\text{競爭： 甲 (X) / 乙 (X) 兩敗俱傷}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{競爭： 甲 (X) / 乙 (X) 兩敗俱傷}"
+    ]
+  },
+  {
+    "start": 79.81,
+    "end": 82.67,
+    "speaker": "彥君",
+    "text": "接下來看 第二行",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 82.87,
+    "end": 85.4,
+    "speaker": "彥君",
+    "text": "也就是 捕食",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 85.6,
+    "end": 87.89,
+    "speaker": "彥君",
+    "text": "這很簡單",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 88.09,
+    "end": 91.24,
+    "speaker": "彥君",
+    "text": "一個吃人 一個被吃",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 91.44,
+    "end": 94.33,
+    "speaker": "彥君",
+    "text": "吃人的 甲生物 打 O",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 94.53,
+    "end": 97.42,
+    "speaker": "彥君",
+    "text": "被吃的 乙生物 打 X",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 97.62,
+    "end": 100.19,
     "speaker": "曉臻",
-    "text": "或是狗身上的壁蝨"
+    "text": "這就是 弱肉強食",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 100.22,
-    "end": 104.56,
+    "start": 100.39,
+    "end": 102.7,
     "speaker": "曉臻",
-    "text": "這種關係也是一個得利、 一個受害"
+    "text": "贏家 得到晚餐",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 104.56,
-    "end": 108.85,
-    "speaker": "彥君",
-    "text": "好 接下來是兩種共生關係"
-  },
-  {
-    "start": 108.85,
-    "end": 111.8,
-    "speaker": "彥君",
-    "text": "大家不要搞混喔"
-  },
-  {
-    "start": 111.8,
-    "end": 115.73,
-    "speaker": "彥君",
-    "text": "第四行是 『互利共生』"
-  },
-  {
-    "start": 115.73,
-    "end": 120.31,
-    "speaker": "彥君",
-    "text": "這就是最好的朋友 大家都有好處"
-  },
-  {
-    "start": 120.31,
-    "end": 124.65,
-    "speaker": "彥君",
-    "text": "所以甲生物打 O 乙生物也打 O"
-  },
-  {
-    "start": 124.65,
-    "end": 128.7,
+    "start": 102.9,
+    "end": 105.29,
     "speaker": "曉臻",
-    "text": "戰士們 這格要填兩個OO喔"
+    "text": "輸家 失去生命",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.7,
-    "end": 132.56,
-    "speaker": "曉臻",
-    "text": "代表生物 就是小丑魚跟海葵"
-  },
-  {
-    "start": 132.56,
-    "end": 135.3,
-    "speaker": "曉臻",
-    "text": "或是螞蟻跟蚜蟲"
-  },
-  {
-    "start": 135.3,
-    "end": 139.18,
-    "speaker": "曉臻",
-    "text": "大家互相幫忙 一起活下去"
-  },
-  {
-    "start": 139.18,
-    "end": 143.14,
+    "start": 105.49,
+    "end": 113.62,
     "speaker": "彥君",
-    "text": "最後一行是 『偏利共生』"
+    "text": "\\text{捕食： 甲 (O) / 乙 (X) 弱肉強食}",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "\\text{捕食： 甲 (O) / 乙 (X) 弱肉強食}"
+    ]
   },
   {
-    "start": 143.14,
-    "end": 147.62,
+    "start": 113.62,
+    "end": 116.26,
     "speaker": "彥君",
-    "text": "這就是我利用你 但對你完全沒影響"
+    "text": "第三行 是寄生",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 147.62,
-    "end": 150.74,
+    "start": 116.46,
+    "end": 119.26,
     "speaker": "彥君",
-    "text": "得利的甲生物打 O"
+    "text": "這跟捕食 有點像",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 150.74,
-    "end": 154.5,
+    "start": 119.46,
+    "end": 122.58,
     "speaker": "彥君",
-    "text": "沒感覺的乙生物打 △"
+    "text": "但 寄生蟲 通常不會",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 154.5,
-    "end": 158.07,
+    "start": 122.78,
+    "end": 125.31,
+    "speaker": "彥君",
+    "text": "馬上 弄死對方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 125.51,
+    "end": 128.81,
+    "speaker": "彥君",
+    "text": "得到好處的 寄生蟲 打 O",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 129.01,
+    "end": 131.7,
+    "speaker": "彥君",
+    "text": "倒楣的 宿主 打 X",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 131.9,
+    "end": 134.67,
     "speaker": "曉臻",
-    "text": "大家在乙那格畫個 △"
+    "text": "就像你 肚子裡的 蛔蟲",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "蛔蟲"
+    ]
   },
   {
-    "start": 158.07,
-    "end": 162.53,
+    "start": 134.87,
+    "end": 137.57,
     "speaker": "曉臻",
-    "text": "最經典的例子 就是印魚吸在鯊魚身上"
+    "text": "或是 狗身上的 壁蝨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "壁蝨"
+    ]
   },
   {
-    "start": 162.53,
-    "end": 166.03,
+    "start": 137.77,
+    "end": 140.75,
     "speaker": "曉臻",
-    "text": "印魚搭便車還有剩菜吃"
+    "text": "這種關係 也是 一個得利",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 166.03,
-    "end": 168.96,
+    "start": 140.95,
+    "end": 142.95,
     "speaker": "曉臻",
-    "text": "但鯊魚根本不在乎"
+    "text": "一個 受害",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 168.96,
-    "end": 172.48,
+    "start": 143.15,
+    "end": 151.26,
     "speaker": "彥君",
-    "text": "戰士們 表格填完了嗎"
+    "text": "\\text{寄生： 甲 (O) / 乙 (X) 宿主受害}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{寄生： 甲 (O) / 乙 (X) 宿主受害}"
+    ]
   },
   {
-    "start": 172.48,
-    "end": 176.36,
+    "start": 151.26,
+    "end": 154.17,
     "speaker": "彥君",
-    "text": "我們來看看下面的結論空格"
+    "text": "好 接下來是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 176.36,
-    "end": 180.51,
+    "start": 154.37,
+    "end": 157.11,
     "speaker": "彥君",
-    "text": "捕食、 寄生、 偏利共生"
+    "text": "兩種 共生關係",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 180.51,
-    "end": 183.34,
+    "start": 157.31,
+    "end": 160.34,
     "speaker": "彥君",
-    "text": "都是一方得利"
+    "text": "大家 千萬 不要搞混喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 183.34,
-    "end": 187.1,
+    "start": 160.54,
+    "end": 163.58,
     "speaker": "彥君",
-    "text": "但互利共生是兩方都得利"
+    "text": "第四行 是互利共生",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 187.1,
-    "end": 190.63,
+    "start": 163.78,
+    "end": 166.66,
     "speaker": "彥君",
-    "text": "競爭則是兩方都受害"
+    "text": "這就是 最好的朋友",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 190.63,
-    "end": 194.97,
+    "start": 166.86,
+    "end": 169.51,
+    "speaker": "彥君",
+    "text": "大家 都有好處",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 169.71,
+    "end": 172.5,
+    "speaker": "彥君",
+    "text": "所以 甲生物 打 O",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 172.7,
+    "end": 175.3,
+    "speaker": "彥君",
+    "text": "乙生物 也打 O",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 175.5,
+    "end": 177.26,
     "speaker": "曉臻",
-    "text": "大家記得把這些 OOXX記在腦袋裡"
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 194.97,
-    "end": 198.23,
+    "start": 177.46,
+    "end": 180.11,
     "speaker": "曉臻",
-    "text": "考試如果問你誰沒差"
+    "text": "這格要填 兩個 O 喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 198.23,
-    "end": 202.23,
+    "start": 180.31,
+    "end": 183.2,
     "speaker": "曉臻",
-    "text": "記得選那個打 △ 的偏利共生"
+    "text": "代表生物 就是小丑魚",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 202.23,
-    "end": 205.13,
+    "start": 183.4,
+    "end": 185.26,
+    "speaker": "曉臻",
+    "text": "跟 海葵",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 185.46,
+    "end": 187.94,
+    "speaker": "曉臻",
+    "text": "或是 螞蟻 跟 蚜蟲",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "蚜蟲"
+    ]
+  },
+  {
+    "start": 188.14,
+    "end": 190.42,
+    "speaker": "曉臻",
+    "text": "大家 互相幫忙",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 190.62,
+    "end": 192.79,
+    "speaker": "曉臻",
+    "text": "一起 活下去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 192.99,
+    "end": 201.46,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "\\text{互利共生： 甲 (O) / 乙 (O) 互相幫忙}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{互利共生： 甲 (O) / 乙 (O) 互相幫忙}"
+    ]
   },
   {
-    "start": 205.13,
-    "end": 207.77,
+    "start": 201.46,
+    "end": 204.63,
+    "speaker": "彥君",
+    "text": "最後一行 是偏利共生",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 204.83,
+    "end": 207.43,
+    "speaker": "彥君",
+    "text": "這就是 我利用你",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 207.63,
+    "end": 210.62,
+    "speaker": "彥君",
+    "text": "但對你 完全沒影響",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 210.82,
+    "end": 213.73,
+    "speaker": "彥君",
+    "text": "得利的 甲生物 打 O",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 213.93,
+    "end": 216.65,
+    "speaker": "彥君",
+    "text": "沒感覺的 乙生物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 216.85,
+    "end": 219.47,
+    "speaker": "彥君",
+    "text": "畫個 △",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 219.67,
+    "end": 222.01,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "大家 在乙那格",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 207.77,
-    "end": 212.64,
+    "start": 222.21,
+    "end": 224.4,
+    "speaker": "曉臻",
+    "text": "畫個 △",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 224.6,
+    "end": 226.91,
+    "speaker": "曉臻",
+    "text": "最經典的例子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 227.11,
+    "end": 230.12,
+    "speaker": "曉臻",
+    "text": "就是印魚 吸在鯊魚身上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 230.32,
+    "end": 233.52,
+    "speaker": "曉臻",
+    "text": "印魚 搭便車 還有剩菜吃",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 233.72,
+    "end": 236.34,
+    "speaker": "曉臻",
+    "text": "但鯊魚 根本不在乎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 236.54,
+    "end": 245.51,
+    "speaker": "彥君",
+    "text": "\\text{偏利共生： 甲 (O) / 乙 (\\triangle) 搭便車}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{偏利共生： 甲 (O) / 乙 (\\triangle) 搭便車}"
+    ]
+  },
+  {
+    "start": 245.51,
+    "end": 248.74,
+    "speaker": "彥君",
+    "text": "戰士們 表格填完了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 248.94,
+    "end": 253.0,
+    "speaker": "彥君",
+    "text": "我們來看看 下面的 結論空格",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 253.2,
+    "end": 257.05,
+    "speaker": "彥君",
+    "text": "撐過這關 後面就是坦途",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 257.25,
+    "end": 260.76,
+    "speaker": "曉臻",
+    "text": "戰士們 最終總複習來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 260.96,
+    "end": 263.13,
+    "speaker": "曉臻",
+    "text": "第一 競爭",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 263.33,
+    "end": 266.86,
+    "speaker": "曉臻",
+    "text": "雙方都受害 兩個都是 X",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 267.06,
+    "end": 315.47,
+    "speaker": "彥君",
+    "text": "\\text{一、 競爭： X X (雙方受害)}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{一、 競爭： X X (雙方受害)}"
+    ]
+  },
+  {
+    "start": 272.02,
+    "end": 274.72,
+    "speaker": "曉臻",
+    "text": "第二 捕食與寄生",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 274.92,
+    "end": 277.98,
+    "speaker": "曉臻",
+    "text": "一方得利 一方受害",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 278.18,
+    "end": 280.01,
+    "speaker": "曉臻",
+    "text": "O 跟 X",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 280.21,
+    "end": 315.47,
+    "speaker": "彥君",
+    "text": "\\text{二、 捕食 / 寄生： O X (一方得利，一方受害)}",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "\\text{二、 捕食 / 寄生： O X (一方得利，一方受害)}"
+    ]
+  },
+  {
+    "start": 285.67,
+    "end": 288.37,
+    "speaker": "曉臻",
+    "text": "第三 互利共生",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 288.57,
+    "end": 292.08,
+    "speaker": "曉臻",
+    "text": "雙方都得利 兩個都是 O",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 292.28,
+    "end": 315.47,
+    "speaker": "彥君",
+    "text": "\\text{三、 互利共生： O O (雙方得利)}",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "\\text{三、 互利共生： O O (雙方得利)}"
+    ]
+  },
+  {
+    "start": 297.6,
+    "end": 300.32,
+    "speaker": "曉臻",
+    "text": "第四 偏利共生",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 300.52,
+    "end": 303.65,
+    "speaker": "曉臻",
+    "text": "一方得利 一方沒影響",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 303.85,
+    "end": 306.04,
+    "speaker": "曉臻",
+    "text": "O 跟 △",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 306.24,
+    "end": 315.47,
+    "speaker": "彥君",
+    "text": "\\text{四、 偏利共生： O \\triangle (一方得利，一方沒差)}",
+    "is_pinned": true,
+    "pin_level": 4,
+    "commands": [
+      "釘選",
+      "\\text{四、 偏利共生： O \\triangle (一方得利，一方沒差)}"
+    ]
+  },
+  {
+    "start": 315.47,
+    "end": 318.67,
+    "speaker": "彥君",
+    "text": "戰士們 閉上眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 318.87,
+    "end": 321.06,
+    "speaker": "彥君",
+    "text": "想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 321.26,
+    "end": 324.3,
+    "speaker": "彥君",
+    "text": "考試 如果問你 誰沒差",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 324.5,
+    "end": 327.72,
+    "speaker": "彥君",
+    "text": "記得選 那個打 △的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 327.92,
+    "end": 330.62,
+    "speaker": "彥君",
+    "text": "也就是 偏利共生",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 330.82,
+    "end": 333.22,
+    "speaker": "曉臻",
+    "text": "大家記得 把這些",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 333.42,
+    "end": 336.67,
+    "speaker": "曉臻",
+    "text": "圈叉符號 記在腦袋裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 336.87,
+    "end": 338.92,
+    "speaker": "彥君",
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 339.12,
+    "end": 342.3,
+    "speaker": "彥君",
+    "text": "你比想像中 更強大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 342.5,
+    "end": 345.38,
+    "speaker": "彥君",
+    "text": "老師 陪你戰到底",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 345.58,
+    "end": 348.18,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 348.38,
+    "end": 350.72,
+    "speaker": "曉臻",
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 350.92,
+    "end": 354.53,
     "speaker": "合聲",
-    "text": "關係分得清 會考一定贏 明天見"
+    "text": "關係分得清 會考一定贏",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 354.73,
+    "end": 357.93,
+    "speaker": "合聲",
+    "text": "戰士們 明天見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
