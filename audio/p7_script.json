@@ -700,7 +700,7 @@
   },
   {
     "start": 246.56,
-    "end": 322.8,
+    "end": 322.56,
     "speaker": "彥君",
     "text": "專一性： 一把鑰匙開一把鎖",
     "is_pinned": true,
@@ -900,20 +900,19 @@
   },
   {
     "start": 312.27,
-    "end": 322.8,
+    "end": 322.56,
     "speaker": "彥君",
-    "text": "酵素特性： 蛋白質、專一性、可重複使用的三大特性： 成分是蛋白質、 具有專一性、 而且可以重複使用。)",
+    "text": "酵素特性： 蛋白質、專一性、可重複使用",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "酵素特性： 蛋白質、專一性、可重複使用",
-      "酵素"
+      "酵素特性： 蛋白質、專一性、可重複使用"
     ]
   },
   {
-    "start": 322.8,
-    "end": 325.47,
+    "start": 322.56,
+    "end": 325.23,
     "speaker": "曉臻",
     "text": "那老師 生活中",
     "is_pinned": false,
@@ -921,8 +920,8 @@
     "commands": []
   },
   {
-    "start": 325.67,
-    "end": 327.94,
+    "start": 325.43,
+    "end": 327.7,
     "speaker": "曉臻",
     "text": "還有 哪些地方",
     "is_pinned": false,
@@ -930,8 +929,8 @@
     "commands": []
   },
   {
-    "start": 328.14,
-    "end": 330.45,
+    "start": 327.9,
+    "end": 330.21,
     "speaker": "曉臻",
     "text": "買得到 酵素 嗎",
     "is_pinned": false,
@@ -941,8 +940,8 @@
     ]
   },
   {
-    "start": 330.65,
-    "end": 332.77,
+    "start": 330.41,
+    "end": 332.53,
     "speaker": "彥君",
     "text": "當然有",
     "is_pinned": false,
@@ -950,8 +949,8 @@
     "commands": []
   },
   {
-    "start": 332.97,
-    "end": 335.78,
+    "start": 332.73,
+    "end": 335.54,
     "speaker": "彥君",
     "text": "像是 嫩肉粉裡面",
     "is_pinned": false,
@@ -959,8 +958,8 @@
     "commands": []
   },
   {
-    "start": 335.98,
-    "end": 338.32,
+    "start": 335.74,
+    "end": 338.08,
     "speaker": "彥君",
     "text": "有蛋白酶",
     "is_pinned": false,
@@ -968,8 +967,8 @@
     "commands": []
   },
   {
-    "start": 338.52,
-    "end": 342.01,
+    "start": 338.28,
+    "end": 341.77,
     "speaker": "彥君",
     "text": "可以先幫你 分解肉的纖維",
     "is_pinned": false,
@@ -977,8 +976,8 @@
     "commands": []
   },
   {
-    "start": 342.21,
-    "end": 345.74,
+    "start": 341.97,
+    "end": 345.5,
     "speaker": "彥君",
     "text": "還有 洗衣精裡面 加入酵素",
     "is_pinned": false,
@@ -988,8 +987,8 @@
     ]
   },
   {
-    "start": 345.94,
-    "end": 349.31,
+    "start": 345.7,
+    "end": 349.07,
     "speaker": "彥君",
     "text": "也是為了 拆解 汗漬跟油垢",
     "is_pinned": false,
@@ -997,8 +996,8 @@
     "commands": []
   },
   {
-    "start": 349.51,
-    "end": 352.93,
+    "start": 349.27,
+    "end": 352.69,
     "speaker": "曉臻",
     "text": "戰士們 閉上眼睛 想一下",
     "is_pinned": false,
@@ -1006,8 +1005,8 @@
     "commands": []
   },
   {
-    "start": 353.13,
-    "end": 355.7,
+    "start": 352.89,
+    "end": 355.46,
     "speaker": "曉臻",
     "text": "為什麼我們 發高燒",
     "is_pinned": false,
@@ -1015,8 +1014,8 @@
     "commands": []
   },
   {
-    "start": 355.9,
-    "end": 358.96,
+    "start": 355.66,
+    "end": 358.72,
     "speaker": "曉臻",
     "text": "到 四十度以上 會很危險",
     "is_pinned": false,
@@ -1024,8 +1023,8 @@
     "commands": []
   },
   {
-    "start": 359.16,
-    "end": 361.83,
+    "start": 358.92,
+    "end": 361.59,
     "speaker": "彥君",
     "text": "因為體內的 酵素",
     "is_pinned": false,
@@ -1035,8 +1034,8 @@
     ]
   },
   {
-    "start": 362.03,
-    "end": 364.92,
+    "start": 361.79,
+    "end": 364.68,
     "speaker": "彥君",
     "text": "會因為 高溫變性",
     "is_pinned": false,
@@ -1044,8 +1043,8 @@
     "commands": []
   },
   {
-    "start": 365.12,
-    "end": 368.01,
+    "start": 364.88,
+    "end": 367.77,
     "speaker": "彥君",
     "text": "生命反應 就停擺了",
     "is_pinned": false,
@@ -1053,8 +1052,8 @@
     "commands": []
   },
   {
-    "start": 368.21,
-    "end": 371.58,
+    "start": 367.97,
+    "end": 371.34,
     "speaker": "彥君",
     "text": "戰士們 最後複習",
     "is_pinned": false,
@@ -1062,8 +1061,8 @@
     "commands": []
   },
   {
-    "start": 371.78,
-    "end": 375.19,
+    "start": 371.54,
+    "end": 374.95,
     "speaker": "彥君",
     "text": "低溫暫停 高溫報廢",
     "is_pinned": false,
@@ -1071,8 +1070,8 @@
     "commands": []
   },
   {
-    "start": 375.39,
-    "end": 378.66,
+    "start": 375.15,
+    "end": 378.42,
     "speaker": "彥君",
     "text": "專一性像 鎖頭與鑰匙",
     "is_pinned": false,
@@ -1080,7 +1079,7 @@
     "commands": []
   },
   {
-    "start": 378.86,
+    "start": 378.62,
     "end": 9999.0,
     "speaker": "彥君",
     "text": "低溫暫停，高溫報廢。專一性像鎖與鑰匙。",
@@ -1092,8 +1091,8 @@
     ]
   },
   {
-    "start": 385.72,
-    "end": 388.32,
+    "start": 385.48,
+    "end": 388.08,
     "speaker": "彥君",
     "text": "我是 彥君老師",
     "is_pinned": false,
@@ -1101,8 +1100,8 @@
     "commands": []
   },
   {
-    "start": 388.52,
-    "end": 390.86,
+    "start": 388.28,
+    "end": 390.62,
     "speaker": "曉臻",
     "text": "我是 曉臻助教",
     "is_pinned": false,
@@ -1110,8 +1109,8 @@
     "commands": []
   },
   {
-    "start": 391.06,
-    "end": 394.57,
+    "start": 390.82,
+    "end": 394.33,
     "speaker": "合聲",
     "text": "掌握酵素 反應神速",
     "is_pinned": false,
@@ -1121,8 +1120,8 @@
     ]
   },
   {
-    "start": 394.77,
-    "end": 398.23,
+    "start": 394.53,
+    "end": 397.99,
     "speaker": "合聲",
     "text": "戰士們 下個單元見",
     "is_pinned": false,
