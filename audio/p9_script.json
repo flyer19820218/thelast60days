@@ -201,12 +201,12 @@
     "start": 68.25,
     "end": 179.34,
     "speaker": "彥君",
-    "text": "\\text{單子葉散生 / 雙子葉環狀}",
+    "text": "單子葉散生 ; 雙子葉環狀",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{單子葉散生 / 雙子葉環狀}"
+      "單子葉散生 ; 雙子葉環狀"
     ]
   },
   {
@@ -638,24 +638,24 @@
     "start": 221.22,
     "end": 231.98,
     "speaker": "彥君",
-    "text": "\\text{木質部： 運水 (單向往上)}",
+    "text": "木質部： 運水 (單向往上)",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{木質部： 運水 (單向往上)}"
+      "木質部： 運水 (單向往上)"
     ]
   },
   {
     "start": 224.96,
     "end": 231.98,
     "speaker": "彥君",
-    "text": "\\text{韌皮部： 運養分 (雙向皆可)}",
+    "text": "韌皮部： 運養分 (雙向皆可)",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "\\text{韌皮部： 運養分 (雙向皆可)}"
+      "韌皮部： 運養分 (雙向皆可)"
     ]
   },
   {
@@ -788,12 +788,12 @@
     "start": 273.54,
     "end": 326.31,
     "speaker": "彥君",
-    "text": "\\text{葉片多} \\rightarrow \\text{蒸散拉力大} \\rightarrow \\text{吸水快}",
+    "text": "葉片多-蒸散拉力大-吸水快",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{葉片多} \\rightarrow \\text{蒸散拉力大} \\rightarrow \\text{吸水快}"
+      "葉片多-蒸散拉力大-吸水快"
     ]
   },
   {
@@ -917,12 +917,12 @@
     "start": 318.88,
     "end": 326.31,
     "speaker": "彥君",
-    "text": "\\text{塗凡士林} \\rightarrow \\text{堵住氣孔} \\rightarrow \\text{拉力消失}",
+    "text": "塗凡士林-堵住氣孔-拉力消失",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "\\text{塗凡士林} \\rightarrow \\text{堵住氣孔} \\rightarrow \\text{拉力消失}"
+      "塗凡士林-堵住氣孔-拉力消失"
     ]
   },
   {
@@ -979,12 +979,12 @@
     "start": 343.98,
     "end": 351.92,
     "speaker": "彥君",
-    "text": "\\text{環狀剝皮} \\rightarrow \\text{傷韌皮部} \\rightarrow \\text{根部先死}",
+    "text": "環狀剝皮-傷韌皮部-根部先死",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "\\text{環狀剝皮} \\rightarrow \\text{傷韌皮部} \\rightarrow \\text{根部先死}"
+      "環狀剝皮-傷韌皮部-根部先死"
     ]
   },
   {
