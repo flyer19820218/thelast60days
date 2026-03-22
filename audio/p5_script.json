@@ -1,200 +1,815 @@
 [
   {
     "start": 0.0,
-    "end": 5.66,
+    "end": 3.25,
     "speaker": "彥君",
-    "text": "哈囉各位即將衝A的會考戰士們我是彥君老師"
+    "text": "戰士們 歡迎來到",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 5.66,
-    "end": 11.61,
+    "start": 3.45,
+    "end": 6.29,
     "speaker": "彥君",
-    "text": "今天 這張圖是要 教大家 在生態系中「認清身份」"
+    "text": "第五集 的生物戰場",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.61,
-    "end": 17.77,
+    "start": 6.49,
+    "end": 9.81,
     "speaker": "彥君",
-    "text": "很多 戰士 分不清 消費者 與 分解者請看 第五頁 的 循環圖"
+    "text": "即將 衝刺 A 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 17.77,
-    "end": 21.27,
+    "start": 10.01,
+    "end": 12.61,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 12.81,
+    "end": 14.54,
     "speaker": "曉臻",
-    "text": "大家好我是 曉臻助教"
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 21.27,
-    "end": 25.56,
+    "start": 14.74,
+    "end": 17.08,
     "speaker": "曉臻",
-    "text": "老師這張圖 就是一個 大圓環耶"
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 25.56,
-    "end": 30.38,
+    "start": 17.28,
+    "end": 19.9,
+    "speaker": "彥君",
+    "text": "今天 這張圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.1,
+    "end": 23.06,
+    "speaker": "彥君",
+    "text": "教大家 在生態系中",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.26,
+    "end": 26.15,
+    "speaker": "彥君",
+    "text": "認清 自己的身分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 26.35,
+    "end": 29.17,
+    "speaker": "彥君",
+    "text": "很多戰士 分不清",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 29.37,
+    "end": 32.26,
+    "speaker": "彥君",
+    "text": "消費者 與 分解者",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 32.46,
+    "end": 35.58,
+    "speaker": "彥君",
+    "text": "請看 第五頁 的循環圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 35.78,
+    "end": 38.38,
     "speaker": "曉臻",
-    "text": "起點是在 左上角的「氧氣 氮氣 跟 二氧化碳」"
+    "text": "老師 這張圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 30.38,
-    "end": 37.53,
-    "speaker": "彥君",
-    "text": "沒錯這些 無機物必須 靠左下角的「生產者」抓進來"
-  },
-  {
-    "start": 37.53,
-    "end": 44.3,
-    "speaker": "彥君",
-    "text": "植物、藻類、藍綠菌 行 光合作用把它們 變成 有機養分"
-  },
-  {
-    "start": 44.3,
-    "end": 48.66,
-    "speaker": "彥君",
-    "text": "生產者 是 生態系的「能量源頭」"
-  },
-  {
-    "start": 48.66,
-    "end": 53.46,
+    "start": 38.58,
+    "end": 41.16,
     "speaker": "曉臻",
-    "text": "那 右下角的「消費者」就是 負責吃 的派系囉"
+    "text": "就是一個 大圓環耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 53.46,
-    "end": 58.71,
+    "start": 41.36,
+    "end": 43.89,
     "speaker": "曉臻",
-    "text": "但我看 旁邊括號 寫著「清除者」這也是 消費者嗎"
+    "text": "起點 在左上角的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 58.71,
-    "end": 62.64,
-    "speaker": "彥君",
-    "text": "戰士們這題 五顆星 必考"
-  },
-  {
-    "start": 62.64,
-    "end": 68.95,
-    "speaker": "彥君",
-    "text": "不管是 吃活的食物還是像 禿鷹、馬陸 吃「屍體 或 糞便」"
-  },
-  {
-    "start": 68.95,
-    "end": 73.5,
-    "speaker": "彥君",
-    "text": "只要你 有「吃」的動作你就是 消費者"
-  },
-  {
-    "start": 73.5,
-    "end": 79.88,
+    "start": 44.09,
+    "end": 47.29,
     "speaker": "曉臻",
-    "text": "但是老師清除者 吃掉屍體 排出的糞便不也是 在分解嗎"
+    "text": "氧氣、 氮氣 跟 二氧化碳",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 79.88,
-    "end": 85.74,
+    "start": 47.49,
+    "end": 51.74,
     "speaker": "彥君",
-    "text": "戰士們 注意這是 今天的「加強錠」內容"
+    "text": "沒錯 這些 無機物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 85.74,
-    "end": 91.04,
+    "start": 51.94,
+    "end": 55.26,
     "speaker": "彥君",
-    "text": "清除者 只是把 大塊的屍體變成 小塊的 糞便"
+    "text": "必須靠 左下角的 生產者",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 91.04,
-    "end": 96.72,
+    "start": 55.46,
+    "end": 58.04,
     "speaker": "彥君",
-    "text": "糞便本身「仍然是有機物」並沒有 真的 回歸大自然喔"
+    "text": "把它們 抓進來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 96.72,
-    "end": 102.81,
+    "start": 58.24,
+    "end": 62.11,
+    "speaker": "彥君",
+    "text": "植物、 藻類、 藍綠菌",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 62.31,
+    "end": 65.97,
+    "speaker": "彥君",
+    "text": "行光合作用 變成有機養分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 66.17,
+    "end": 117.85,
+    "speaker": "彥君",
+    "text": "\\text{生產者} \\rightarrow \\text{無機物變有機物}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{生產者} \\rightarrow \\text{無機物變有機物}"
+    ]
+  },
+  {
+    "start": 70.43,
+    "end": 74.52,
+    "speaker": "彥君",
+    "text": "記住 生產者",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 74.72,
+    "end": 77.99,
+    "speaker": "彥君",
+    "text": "就是 生態系的 能量源頭",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 78.19,
+    "end": 80.86,
     "speaker": "曉臻",
-    "text": "哦所以 真正的「歸還者」只有 右上角的 分解者囉"
+    "text": "那 右下角的 消費者",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 102.81,
-    "end": 109.82,
-    "speaker": "彥君",
-    "text": "沒錯分解者 包含 細菌、原生菌物、真菌"
-  },
-  {
-    "start": 109.82,
-    "end": 115.5,
-    "speaker": "彥君",
-    "text": "它們會 把物質 分解成 最小的分子也就是「無機物」"
-  },
-  {
-    "start": 115.5,
-    "end": 122.62,
-    "speaker": "彥君",
-    "text": "只有 變成 二氧化碳、氮氣、礦物質才能 重新給 生產者使用"
-  },
-  {
-    "start": 122.62,
-    "end": 128.45,
+    "start": 81.06,
+    "end": 83.86,
     "speaker": "曉臻",
-    "text": "消費者 排出的 糞便 是「有機物」不能 直接 給植物吃"
+    "text": "就是 負責吃的 派系囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.45,
-    "end": 134.02,
+    "start": 84.06,
+    "end": 86.99,
     "speaker": "曉臻",
-    "text": "必須 經過 分解者 拆解成「無機物」植物 才能吸收"
+    "text": "但我看 旁邊括號 寫著",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 134.02,
-    "end": 141.14,
+    "start": 87.19,
+    "end": 90.1,
+    "speaker": "曉臻",
+    "text": "清除者 也是消費者嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 90.3,
+    "end": 93.94,
     "speaker": "彥君",
-    "text": "聰明這就是 為什麼 分解者 是生態系的「最後處理廠」"
+    "text": "戰士們 這題 五顆星 必考",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 141.14,
-    "end": 147.62,
+    "start": 94.14,
+    "end": 97.14,
     "speaker": "彥君",
-    "text": "沒有 分解者物質循環 就會 卡在 有機物 的狀態轉不動了"
+    "text": "不管是 吃活的食物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 147.62,
-    "end": 151.48,
-    "speaker": "曉臻",
-    "text": "吃東西排出「有機」廢物"
-  },
-  {
-    "start": 151.48,
-    "end": 156.85,
-    "speaker": "曉臻",
-    "text": "拆解 有機物變回 最小的「無機分子」歸還自然"
-  },
-  {
-    "start": 156.85,
-    "end": 161.72,
+    "start": 97.34,
+    "end": 100.62,
     "speaker": "彥君",
-    "text": "森林裡的 糞金龜它是 消費者 還是 分解者"
+    "text": "還是像 禿鷹、 馬陸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 161.72,
-    "end": 163.87,
-    "speaker": "曉臻",
-    "text": "消費者"
-  },
-  {
-    "start": 163.87,
-    "end": 166.77,
+    "start": 100.82,
+    "end": 103.61,
     "speaker": "彥君",
-    "text": "我是 彥君老師"
+    "text": "吃屍體 或 糞便",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 166.77,
-    "end": 169.41,
+    "start": 103.81,
+    "end": 106.67,
+    "speaker": "彥君",
+    "text": "只要你 有吃的動作",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 106.87,
+    "end": 109.81,
+    "speaker": "彥君",
+    "text": "統統 都是消費者",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 110.01,
+    "end": 117.85,
+    "speaker": "彥君",
+    "text": "\\text{有吃} \\rightarrow \\text{消費者 (含清除者)}",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "\\text{有吃} \\rightarrow \\text{消費者 (含清除者)}"
+    ]
+  },
+  {
+    "start": 117.85,
+    "end": 119.85,
     "speaker": "曉臻",
-    "text": "我是 曉臻助教"
+    "text": "但是 老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 169.41,
-    "end": 174.66,
+    "start": 120.05,
+    "end": 122.67,
+    "speaker": "曉臻",
+    "text": "清除者 吃掉屍體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 122.87,
+    "end": 124.97,
+    "speaker": "曉臻",
+    "text": "排出的糞便",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 125.17,
+    "end": 127.58,
+    "speaker": "曉臻",
+    "text": "不也是 在分解嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 127.78,
+    "end": 130.21,
+    "speaker": "彥君",
+    "text": "戰士們 注意了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 130.41,
+    "end": 133.75,
+    "speaker": "彥君",
+    "text": "這是 今天的 加強錠內容",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 133.95,
+    "end": 136.62,
+    "speaker": "彥君",
+    "text": "清除者 只是把",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 136.82,
+    "end": 139.28,
+    "speaker": "彥君",
+    "text": "大塊的 屍體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 139.48,
+    "end": 142.37,
+    "speaker": "彥君",
+    "text": "變成 小塊的 糞便",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 142.57,
+    "end": 145.84,
+    "speaker": "彥君",
+    "text": "糞便 本身 還是有機物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 146.04,
+    "end": 149.26,
+    "speaker": "彥君",
+    "text": "並沒有 真的 歸還大自然喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 149.46,
+    "end": 153.29,
+    "speaker": "曉臻",
+    "text": "哦 所以 真正的歸還者",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 153.49,
+    "end": 156.52,
+    "speaker": "曉臻",
+    "text": "只有 右上角的 分解者囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 156.72,
+    "end": 161.12,
+    "speaker": "彥君",
+    "text": "沒錯 分解者 包含",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 161.32,
+    "end": 165.36,
+    "speaker": "彥君",
+    "text": "細菌、 原生菌物、 真菌",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 165.56,
+    "end": 168.62,
+    "speaker": "彥君",
+    "text": "它們 把物質 分解成",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 168.82,
+    "end": 171.32,
+    "speaker": "彥君",
+    "text": "最小的 分子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 171.52,
+    "end": 174.07,
+    "speaker": "彥君",
+    "text": "也就是 無機物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 174.27,
+    "end": 229.24,
+    "speaker": "彥君",
+    "text": "\\text{分解者} \\rightarrow \\text{有機物變無機物}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{分解者} \\rightarrow \\text{有機物變無機物}"
+    ]
+  },
+  {
+    "start": 178.44,
+    "end": 182.19,
+    "speaker": "彥君",
+    "text": "變成 碳、 氮、 礦物質",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 182.39,
+    "end": 185.95,
+    "speaker": "彥君",
+    "text": "才能 給生產者 重新使用",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 186.15,
+    "end": 189.16,
+    "speaker": "曉臻",
+    "text": "老師 你的意思是說",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 189.36,
+    "end": 192.1,
+    "speaker": "曉臻",
+    "text": "消費者 排出的 糞便",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 192.3,
+    "end": 194.33,
+    "speaker": "曉臻",
+    "text": "是有機物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 194.53,
+    "end": 197.15,
+    "speaker": "曉臻",
+    "text": "不能 直接給 植物吃",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 197.35,
+    "end": 200.22,
+    "speaker": "曉臻",
+    "text": "必須 經過 分解者 拆解",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 200.42,
+    "end": 202.56,
+    "speaker": "曉臻",
+    "text": "變成 無機物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 202.76,
+    "end": 205.26,
+    "speaker": "曉臻",
+    "text": "植物 才能 吸收嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 205.46,
+    "end": 207.66,
+    "speaker": "彥君",
+    "text": "太聰明了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 207.86,
+    "end": 210.34,
+    "speaker": "彥君",
+    "text": "這就是 為什麼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 210.54,
+    "end": 213.76,
+    "speaker": "彥君",
+    "text": "分解者 是 最後處理廠",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 213.96,
+    "end": 216.54,
+    "speaker": "彥君",
+    "text": "沒有 分解者",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 216.74,
+    "end": 219.38,
+    "speaker": "彥君",
+    "text": "物質循環 就會",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 219.58,
+    "end": 222.62,
+    "speaker": "彥君",
+    "text": "卡在 有機物的狀態",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 222.82,
+    "end": 226.04,
+    "speaker": "彥君",
+    "text": "整個生態系 就轉不動了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 229.24,
+    "end": 231.0,
+    "speaker": "曉臻",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 231.2,
+    "end": 233.9,
+    "speaker": "曉臻",
+    "text": "最後 我們 快速分辨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 234.1,
+    "end": 236.89,
+    "speaker": "曉臻",
+    "text": "消費者 包含 清除者",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 237.09,
+    "end": 240.34,
+    "speaker": "曉臻",
+    "text": "是吃東西 排出有機廢物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 240.54,
+    "end": 243.66,
+    "speaker": "曉臻",
+    "text": "分解者 則是 拆解有機物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 243.86,
+    "end": 246.73,
+    "speaker": "曉臻",
+    "text": "變回 最小的 無機分子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 246.93,
+    "end": 249.19,
+    "speaker": "曉臻",
+    "text": "歸還給 大自然",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 249.39,
+    "end": 252.71,
+    "speaker": "彥君",
+    "text": "戰士們 隨堂測驗",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 252.91,
+    "end": 255.66,
+    "speaker": "彥君",
+    "text": "森林裡的 糞金龜",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 255.86,
+    "end": 259.15,
+    "speaker": "彥君",
+    "text": "它是 消費者 還是 分解者",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 259.35,
+    "end": 262.07,
+    "speaker": "曉臻",
+    "text": "糞金龜 是吃糞便的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 262.27,
+    "end": 264.85,
+    "speaker": "曉臻",
+    "text": "有吃 就是消費者",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 265.05,
+    "end": 268.32,
+    "speaker": "彥君",
+    "text": "觀念 通了 人生就通",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 268.52,
+    "end": 271.38,
+    "speaker": "彥君",
+    "text": "答案 釘在黑板上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 271.58,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "\\text{糞金龜 (有吃動作)} \\rightarrow \\text{消費者}",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "\\text{糞金龜 (有吃動作)} \\rightarrow \\text{消費者}"
+    ]
+  },
+  {
+    "start": 275.97,
+    "end": 278.57,
+    "speaker": "彥君",
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 278.77,
+    "end": 281.1,
+    "speaker": "曉臻",
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 281.3,
+    "end": 284.79,
     "speaker": "合聲",
-    "text": "拆解難題衝刺A加我們明天見"
+    "text": "拆解難題 衝刺 A 級",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 284.99,
+    "end": 288.29,
+    "speaker": "合聲",
+    "text": "戰士們 我們明天見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
