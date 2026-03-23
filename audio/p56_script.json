@@ -1,320 +1,662 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.86,
+    "start": 3.21,
+    "end": 6.38,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的會考戰士們 我是彥君老師"
+    "text": "氣象圖上的神祕符號",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.86,
-    "end": 11.36,
+    "start": 6.58,
+    "end": 9.66,
     "speaker": "彥君",
-    "text": "今天來到 第五十六集"
+    "text": "藏著呼風喚雨的密碼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.36,
-    "end": 15.42,
+    "start": 9.86,
+    "end": 12.99,
     "speaker": "彥君",
-    "text": "我們要搞懂 氣象圖上的 Ｈ跟Ｌ"
+    "text": "你們每天累積的實力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 15.42,
-    "end": 18.92,
+    "start": 13.19,
+    "end": 16.37,
+    "speaker": "彥君",
+    "text": "終將吹散所有的烏雲",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 16.57,
+    "end": 19.77,
+    "speaker": "彥君",
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 19.97,
+    "end": 23.34,
+    "speaker": "彥君",
+    "text": "歡迎來到第五十六集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.54,
+    "end": 26.14,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 26.34,
+    "end": 28.82,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.92,
-    "end": 22.39,
+    "start": 29.02,
+    "end": 31.35,
     "speaker": "曉臻",
-    "text": "老師 講義上的 Ｈ跟Ｌ"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.39,
-    "end": 25.03,
+    "start": 31.55,
+    "end": 34.63,
+    "speaker": "彥君",
+    "text": "今天我們要來搞懂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 34.83,
+    "end": 37.86,
+    "speaker": "彥君",
+    "text": "氣象圖上的 $H$ 跟 $L$",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 38.06,
+    "end": 41.24,
     "speaker": "曉臻",
-    "text": "到底代表什麼啊"
+    "text": "老師 講義上的 $H$ 跟 $L$",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 25.03,
-    "end": 28.77,
-    "speaker": "彥君",
-    "text": "[戰士們 記住這個口訣]"
-  },
-  {
-    "start": 28.77,
-    "end": 32.27,
-    "speaker": "彥君",
-    "text": "Ｈ是 High 代表高氣壓"
-  },
-  {
-    "start": 32.27,
-    "end": 35.65,
-    "speaker": "彥君",
-    "text": "Ｌ是 Low 代表低氣壓"
-  },
-  {
-    "start": 35.65,
-    "end": 39.03,
+    "start": 41.44,
+    "end": 43.78,
     "speaker": "曉臻",
-    "text": "那為什麼 Ｈ的箭頭 往外跑"
+    "text": "到底代表什麼啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 39.03,
-    "end": 42.43,
+    "start": 43.98,
+    "end": 47.18,
+    "speaker": "彥君",
+    "text": "戰士們記住這個口訣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 47.38,
+    "end": 50.58,
+    "speaker": "彥君",
+    "text": "$H$ 是 $High$ 代表高氣壓",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 50.78,
+    "end": 53.86,
+    "speaker": "彥君",
+    "text": "$L$ 是 $Low$ 代表低氣壓",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 54.06,
+    "end": 56.66,
     "speaker": "曉臻",
-    "text": "Ｌ的箭頭 卻往裡面鑽呢"
+    "text": "那為什麼 $H$ 的箭頭",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 42.43,
-    "end": 45.67,
-    "speaker": "彥君",
-    "text": "因為風 就像水一樣"
-  },
-  {
-    "start": 45.67,
-    "end": 49.05,
-    "speaker": "彥君",
-    "text": "一定是從 氣壓高的地方"
-  },
-  {
-    "start": 49.05,
-    "end": 52.69,
-    "speaker": "彥君",
-    "text": "往氣壓低的地方 吹過去"
-  },
-  {
-    "start": 52.69,
-    "end": 56.02,
-    "speaker": "彥君",
-    "text": "所以高氣壓 會往外吹"
-  },
-  {
-    "start": 56.02,
-    "end": 59.24,
-    "speaker": "彥君",
-    "text": "低氣壓 則是往內吸"
-  },
-  {
-    "start": 59.24,
-    "end": 62.52,
+    "start": 56.86,
+    "end": 59.74,
     "speaker": "曉臻",
-    "text": "老師 圖上還寫著"
+    "text": "會一直往外面跑出去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 62.52,
-    "end": 65.88,
+    "start": 59.94,
+    "end": 63.05,
     "speaker": "曉臻",
-    "text": "可以用右手 來記方向耶"
+    "text": "$L$ 的箭頭卻往裡面鑽呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 65.88,
-    "end": 69.54,
+    "start": 63.25,
+    "end": 66.66,
+    "speaker": "彥君",
+    "text": "因為風的流動就像水一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 66.86,
+    "end": 69.97,
+    "speaker": "彥君",
+    "text": "一定是從氣壓高的地方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 70.17,
+    "end": 73.51,
+    "speaker": "彥君",
+    "text": "往氣壓低的地方吹過去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 73.71,
+    "end": 76.79,
+    "speaker": "彥君",
+    "text": "所以高氣壓會往外吹",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 76.99,
+    "end": 79.9,
+    "speaker": "彥君",
+    "text": "低氣壓則是往內吸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 80.1,
+    "end": 87.27,
+    "speaker": "彥君",
+    "text": "風從高氣壓吹向低氣壓",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "風從高氣壓吹向低氣壓"
+    ]
+  },
+  {
+    "start": 87.27,
+    "end": 90.28,
     "speaker": "曉臻",
-    "text": "這是理化的 安培右手定則嗎"
+    "text": "老師 圖上還寫著",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 69.54,
-    "end": 74.34,
-    "speaker": "彥君",
-    "text": "沒錯 完美跨科研究"
-  },
-  {
-    "start": 74.34,
-    "end": 77.98,
-    "speaker": "彥君",
-    "text": "[大家把右手 舉起來]"
-  },
-  {
-    "start": 77.98,
-    "end": 81.89,
-    "speaker": "彥君",
-    "text": "遇到高氣壓 大拇指 朝下"
-  },
-  {
-    "start": 81.89,
-    "end": 85.03,
-    "speaker": "彥君",
-    "text": "代表下沉氣流"
-  },
-  {
-    "start": 85.03,
-    "end": 88.36,
-    "speaker": "彥君",
-    "text": "四根手指頭 順著轉"
-  },
-  {
-    "start": 88.36,
-    "end": 91.74,
-    "speaker": "彥君",
-    "text": "就是順時鐘 往外吹"
-  },
-  {
-    "start": 91.74,
-    "end": 95.51,
+    "start": 90.48,
+    "end": 93.54,
     "speaker": "曉臻",
-    "text": "喔 那遇到 低氣壓呢"
+    "text": "可以用右手來記方向耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 95.51,
-    "end": 99.18,
-    "speaker": "彥君",
-    "text": "低氣壓 就是大拇指 朝上"
-  },
-  {
-    "start": 99.18,
-    "end": 102.36,
-    "speaker": "彥君",
-    "text": "代表上升氣流"
-  },
-  {
-    "start": 102.36,
-    "end": 105.98,
-    "speaker": "彥君",
-    "text": "四根手指頭 彎曲的方向"
-  },
-  {
-    "start": 105.98,
-    "end": 109.22,
-    "speaker": "彥君",
-    "text": "就是逆時鐘 往內吸"
-  },
-  {
-    "start": 109.22,
-    "end": 113.3,
+    "start": 93.74,
+    "end": 96.72,
     "speaker": "曉臻",
-    "text": "老師 上升氣流 跟 下沉氣流"
+    "text": "這是理化的安培右手嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 113.3,
-    "end": 115.96,
+    "start": 96.92,
+    "end": 101.42,
+    "speaker": "彥君",
+    "text": "沒錯 完美跨科研究",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 101.62,
+    "end": 104.65,
+    "speaker": "彥君",
+    "text": "大家把右手舉起來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 104.85,
+    "end": 107.78,
+    "speaker": "彥君",
+    "text": "遇到高氣壓的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 107.98,
+    "end": 110.63,
+    "speaker": "彥君",
+    "text": "大拇指要朝下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 110.83,
+    "end": 113.96,
+    "speaker": "彥君",
+    "text": "這代表下沉的氣流",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 114.16,
+    "end": 117.24,
+    "speaker": "彥君",
+    "text": "四根手指頭順著轉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 117.44,
+    "end": 120.52,
+    "speaker": "彥君",
+    "text": "就是順時鐘往外吹",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 120.72,
+    "end": 128.18,
+    "speaker": "彥君",
+    "text": "高氣壓拇指朝下順時鐘向外",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "高氣壓拇指朝下順時鐘向外"
+    ]
+  },
+  {
+    "start": 128.18,
+    "end": 131.64,
     "speaker": "曉臻",
-    "text": "會影響天氣嗎"
+    "text": "喔 那遇到低氣壓呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 115.96,
-    "end": 118.42,
+    "start": 131.84,
+    "end": 135.11,
     "speaker": "彥君",
-    "text": "當然會"
+    "text": "低氣壓大拇指就要朝上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 118.42,
-    "end": 121.73,
+    "start": 135.31,
+    "end": 138.44,
     "speaker": "彥君",
-    "text": "低氣壓的 空氣往上衝"
+    "text": "這代表上升的氣流",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 121.73,
-    "end": 124.85,
+    "start": 138.64,
+    "end": 141.96,
     "speaker": "彥君",
-    "text": "水氣遇冷 凝結"
+    "text": "四根手指頭彎曲的方向",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 124.85,
-    "end": 127.89,
+    "start": 142.16,
+    "end": 145.02,
     "speaker": "彥君",
-    "text": "就會變成 雲和雨"
+    "text": "就是逆時鐘往內吸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 127.89,
-    "end": 132.26,
+    "start": 145.22,
+    "end": 152.56,
     "speaker": "彥君",
-    "text": "所以低氣壓來了 天氣就會變壞"
+    "text": "低氣壓拇指朝上逆時鐘向內",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "低氣壓拇指朝上逆時鐘向內"
+    ]
   },
   {
-    "start": 132.26,
-    "end": 136.74,
-    "speaker": "彥君",
-    "text": "反過來 高氣壓是 下沉氣流"
-  },
-  {
-    "start": 136.74,
-    "end": 140.05,
-    "speaker": "彥君",
-    "text": "雲朵都被 壓扁吹散了"
-  },
-  {
-    "start": 140.05,
-    "end": 144.41,
-    "speaker": "彥君",
-    "text": "所以高氣壓 代表晴朗的好天氣"
-  },
-  {
-    "start": 144.41,
-    "end": 147.96,
+    "start": 152.56,
+    "end": 156.36,
     "speaker": "曉臻",
-    "text": "一、 風從高壓 吹向低壓"
+    "text": "老師 上升氣流跟下沉氣流",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 147.96,
-    "end": 153.36,
+    "start": 156.56,
+    "end": 159.21,
     "speaker": "曉臻",
-    "text": "二、 高氣壓下沉 順時鐘向外 天氣晴朗"
+    "text": "它們會影響天氣嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 153.36,
-    "end": 158.63,
-    "speaker": "曉臻",
-    "text": "三、 低氣壓上升 逆時鐘向內 容易下雨"
-  },
-  {
-    "start": 158.63,
-    "end": 162.56,
+    "start": 159.41,
+    "end": 163.9,
     "speaker": "彥君",
-    "text": "颱風來的時候 狂風暴雨"
+    "text": "當然會 低氣壓來的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 162.56,
-    "end": 166.88,
+    "start": 164.1,
+    "end": 167.3,
     "speaker": "彥君",
-    "text": "請問颱風 是高氣壓 還是低氣壓"
+    "text": "空氣往上衝水氣遇冷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 166.88,
-    "end": 170.98,
-    "speaker": "曉臻",
-    "text": "狂風暴雨 代表空氣 瘋狂上升"
-  },
-  {
-    "start": 170.98,
-    "end": 174.12,
-    "speaker": "曉臻",
-    "text": "絕對是 強烈的低氣壓"
-  },
-  {
-    "start": 174.12,
-    "end": 179.01,
+    "start": 167.5,
+    "end": 170.73,
     "speaker": "彥君",
-    "text": "漂亮 氣象觀念 一百分"
+    "text": "凝結就會變成雲和雨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 179.01,
-    "end": 181.91,
+    "start": 170.93,
+    "end": 174.51,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "所以低氣壓天氣就會變壞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 181.91,
-    "end": 184.55,
-    "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "start": 174.71,
+    "end": 178.42,
+    "speaker": "彥君",
+    "text": "反過來高氣壓是下沉氣流",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 184.55,
-    "end": 187.9,
-    "speaker": "曉臻",
-    "text": "高出低入 右手記住"
+    "start": 178.62,
+    "end": 181.65,
+    "speaker": "彥君",
+    "text": "雲朵都被壓扁吹散了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 187.9,
-    "end": 191.62,
+    "start": 181.85,
+    "end": 185.53,
+    "speaker": "彥君",
+    "text": "所以高氣壓代表晴朗好天氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 185.73,
+    "end": 193.18,
+    "speaker": "彥君",
+    "text": "高氣壓晴朗低氣壓容易下雨",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "高氣壓晴朗低氣壓容易下雨"
+    ]
+  },
+  {
+    "start": 193.18,
+    "end": 196.6,
     "speaker": "曉臻",
-    "text": "保持戰鬥力 繼續向前衝"
+    "text": "戰士們 我們來快速複習",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 196.8,
+    "end": 200.17,
+    "speaker": "曉臻",
+    "text": "第一 風從高壓吹向低壓",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 200.37,
+    "end": 203.21,
+    "speaker": "曉臻",
+    "text": "第二 高氣壓下沉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 203.41,
+    "end": 206.42,
+    "speaker": "曉臻",
+    "text": "順時鐘向外天氣晴朗",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 206.62,
+    "end": 209.43,
+    "speaker": "曉臻",
+    "text": "第三 低氣壓上升",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 209.63,
+    "end": 212.57,
+    "speaker": "曉臻",
+    "text": "逆時鐘向內容易下雨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 212.77,
+    "end": 214.89,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 215.09,
+    "end": 217.93,
+    "speaker": "彥君",
+    "text": "閉上眼睛想一想喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 218.13,
+    "end": 221.5,
+    "speaker": "彥君",
+    "text": "颱風來的時候狂風暴雨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 221.7,
+    "end": 224.75,
+    "speaker": "彥君",
+    "text": "請問颱風是高氣壓",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 224.95,
+    "end": 227.43,
+    "speaker": "彥君",
+    "text": "還是低氣壓呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 227.63,
+    "end": 231.05,
+    "speaker": "曉臻",
+    "text": "狂風暴雨代表空氣瘋狂上升",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 231.25,
+    "end": 234.09,
+    "speaker": "曉臻",
+    "text": "絕對是強烈的低氣壓",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 234.29,
+    "end": 238.88,
+    "speaker": "彥君",
+    "text": "漂亮 氣象觀念一百分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 239.08,
+    "end": 242.35,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 242.55,
+    "end": 245.15,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 245.35,
+    "end": 247.69,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 247.89,
+    "end": 251.33,
+    "speaker": "合聲",
+    "text": "高出低入 右手記住",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 251.53,
+    "end": 254.99,
+    "speaker": "合聲",
+    "text": "戰士們 我們下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
