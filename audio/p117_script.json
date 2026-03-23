@@ -1,370 +1,425 @@
 [
   {
     "start": 0.0,
-    "end": 3.25,
+    "end": 4.57,
     "speaker": "彥君",
-    "text": "戰士們 歡迎來到",
+    "text": "戰士們辛苦了 歡迎來到",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.45,
-    "end": 6.12,
+    "start": 4.77,
+    "end": 7.87,
     "speaker": "彥君",
-    "text": "第 117 集",
+    "text": "第一百一十七集的課堂",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.32,
-    "end": 10.19,
+    "start": 8.07,
+    "end": 11.44,
     "speaker": "彥君",
-    "text": "物理學說 你付出多少作用力",
+    "text": "物理學說付出多少作用力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 10.39,
-    "end": 13.98,
+    "start": 11.64,
+    "end": 15.08,
     "speaker": "彥君",
-    "text": "分數就會 給你多少反作用力",
+    "text": "分數就給你多少反作用力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 14.18,
-    "end": 17.45,
+    "start": 15.28,
+    "end": 18.58,
     "speaker": "彥君",
-    "text": "所有的努力 都不會白費",
+    "text": "你們所有的努力不白費",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 17.65,
-    "end": 20.25,
+    "start": 18.78,
+    "end": 22.29,
     "speaker": "彥君",
-    "text": "我是彥君老師",
+    "text": "戰士們好 我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 20.45,
-    "end": 22.18,
+    "start": 22.49,
+    "end": 25.78,
     "speaker": "曉臻",
-    "text": "大家好",
+    "text": "大家好啊 我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.38,
-    "end": 24.72,
-    "speaker": "曉臻",
-    "text": "我是曉臻助教",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 24.92,
-    "end": 27.38,
+    "start": 25.98,
+    "end": 29.4,
     "speaker": "彥君",
-    "text": "戰士們注意",
+    "text": "戰士們請特別注意聽好囉",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.58,
-    "end": 30.44,
+    "start": 29.6,
+    "end": 32.99,
     "speaker": "彥君",
-    "text": "牛頓第三定律 來了",
+    "text": "牛頓第三定律大魔王來了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 30.64,
-    "end": 34.06,
+    "start": 33.19,
+    "end": 36.58,
     "speaker": "曉臻",
-    "text": "老師 俗話說打人一拳",
+    "text": "老師俗話說你打別人一拳",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 34.26,
-    "end": 36.93,
+    "start": 36.78,
+    "end": 40.08,
     "speaker": "曉臻",
-    "text": "自己的手 也會痛耶",
+    "text": "你自己的手同時也會痛耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 37.13,
-    "end": 41.94,
+    "start": 40.28,
+    "end": 45.02,
     "speaker": "彥君",
     "text": "沒錯 力量永遠是互相的",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 42.14,
-    "end": 45.36,
+    "start": 45.22,
+    "end": 48.78,
     "speaker": "彥君",
-    "text": "而且 它們會同時出現",
+    "text": "而且它們絕對會同時出現",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 45.56,
-    "end": 48.16,
+    "start": 48.98,
+    "end": 52.22,
     "speaker": "彥君",
-    "text": "也會 同時消失喔",
+    "text": "當然也會同時一起消失喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 48.36,
-    "end": 98.51,
+    "start": 52.42,
+    "end": 60.17,
     "speaker": "彥君",
-    "text": "$\\text{牛三} \\rightarrow \\text{同時發生與消失}$",
+    "text": "牛頓第三定律同時發生消失",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "牛頓第三定律同時發生消失"
+    ]
   },
   {
-    "start": 53.1,
-    "end": 56.33,
+    "start": 60.17,
+    "end": 63.39,
     "speaker": "曉臻",
-    "text": "講義上寫著 大小相等、",
+    "text": "講義上面寫著大小會相等",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 56.53,
-    "end": 58.89,
+    "start": 63.59,
+    "end": 66.77,
     "speaker": "曉臻",
-    "text": "而且 方向相反",
+    "text": "而且它們的作用方向相反",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 59.09,
-    "end": 62.41,
+    "start": 66.97,
+    "end": 70.1,
     "speaker": "曉臻",
-    "text": "那加起來 不就抵消變成零了",
+    "text": "那加起來不就抵消變成零",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 62.61,
-    "end": 67.13,
+    "start": 70.3,
+    "end": 74.96,
     "speaker": "彥君",
-    "text": "嗶嗶 這是超級大陷阱",
+    "text": "嗶嗶 這可是超級大陷阱",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 67.33,
-    "end": 70.29,
+    "start": 75.16,
+    "end": 78.6,
     "speaker": "彥君",
-    "text": "注意看 講義的第二點",
+    "text": "戰士們注意看講義第二點",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 70.49,
-    "end": 73.5,
+    "start": 78.8,
+    "end": 82.22,
     "speaker": "彥君",
-    "text": "作用力 跟反作用力",
+    "text": "作用力還有它的反作用力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 73.7,
-    "end": 77.04,
+    "start": 82.42,
+    "end": 85.88,
     "speaker": "彥君",
-    "text": "是作用在 不同的物體上",
+    "text": "是作用在不同的物體上面",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 77.24,
-    "end": 80.99,
+    "start": 86.08,
+    "end": 89.5,
     "speaker": "彥君",
-    "text": "就像 你打牆壁 牆壁打你",
+    "text": "就像你打牆壁牆壁也打你",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 81.19,
-    "end": 84.42,
+    "start": 89.7,
+    "end": 93.16,
     "speaker": "彥君",
-    "text": "受傷的 是不一樣的東西",
+    "text": "受傷的完全是不一樣東西",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 84.62,
-    "end": 87.41,
+    "start": 93.36,
+    "end": 96.73,
     "speaker": "彥君",
-    "text": "絕對 不可以抵消",
+    "text": "既然不同絕對不可以抵消",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 87.61,
-    "end": 98.51,
+    "start": 96.93,
+    "end": 108.26,
     "speaker": "彥君",
-    "text": "$\\text{不同物體} \\rightarrow \\text{不可抵消}$",
+    "text": "作用在不同物體絕對不抵消",
     "is_pinned": true,
-    "pin_level": 2
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "作用在不同物體絕對不抵消"
+    ]
   },
   {
-    "start": 92.14,
-    "end": 95.31,
+    "start": 101.58,
+    "end": 105.06,
     "speaker": "彥君",
-    "text": "給你們 3 秒鐘打星號",
+    "text": "戰士們給你三秒鐘打星號",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 98.51,
-    "end": 101.52,
+    "start": 108.26,
+    "end": 111.9,
     "speaker": "曉臻",
-    "text": "老師 那下面這個圖",
+    "text": "老師 那我們看下面這張圖",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 101.72,
-    "end": 104.7,
+    "start": 112.1,
+    "end": 115.22,
     "speaker": "曉臻",
-    "text": "有 A 跟 B 兩個木塊",
+    "text": "有 A 還有 B 這兩個大木塊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 104.9,
-    "end": 108.13,
+    "start": 115.42,
+    "end": 118.84,
     "speaker": "彥君",
-    "text": "我們用 90 牛頓的力去推",
+    "text": "假設我們用九十牛頓去推",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 108.33,
-    "end": 111.48,
+    "start": 119.04,
+    "end": 121.93,
     "speaker": "彥君",
-    "text": "這裡 觀念比計算重要",
+    "text": "觀念比計算還重要喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 111.68,
-    "end": 114.93,
+    "start": 122.13,
+    "end": 125.47,
     "speaker": "彥君",
-    "text": "注意看 中間的兩個箭頭",
+    "text": "注意看中間的那兩個箭頭",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 115.13,
-    "end": 9999.0,
+    "start": 125.67,
+    "end": 132.36,
     "speaker": "彥君",
-    "text": "$F_{AB}$ \\text{ 與 } $F_{BA}$",
+    "text": "A推B以及B推A的兩種力量",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "A推B以及B推A的兩種力量"
+    ]
   },
   {
-    "start": 119.75,
-    "end": 122.93,
+    "start": 132.36,
+    "end": 136.16,
     "speaker": "曉臻",
-    "text": "喔 A 推 B",
+    "text": "喔我懂了 A 用力去推 B",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 123.13,
-    "end": 125.44,
+    "start": 136.36,
+    "end": 139.54,
     "speaker": "曉臻",
-    "text": "B 同時也推 A",
+    "text": "B 也會同時出力去推 A 耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 125.64,
-    "end": 129.8,
+    "start": 139.74,
+    "end": 144.59,
     "speaker": "彥君",
-    "text": "完全正確 記住",
+    "text": "完全正確 戰士們請記住",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 130.0,
-    "end": 133.44,
+    "start": 144.79,
+    "end": 148.23,
     "speaker": "彥君",
-    "text": "不管是 碰在一起的接觸力",
+    "text": "不管是碰在一起的接觸力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 133.64,
-    "end": 137.13,
+    "start": 148.43,
+    "end": 151.92,
     "speaker": "彥君",
-    "text": "還是 隔空吸引的萬有引力、",
+    "text": "還是隔空吸引的萬有引力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 137.33,
-    "end": 140.41,
+    "start": 152.12,
+    "end": 155.61,
     "speaker": "彥君",
-    "text": "甚至是 磁鐵的磁力",
+    "text": "甚至是兩塊磁鐵間的磁力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 140.61,
-    "end": 144.12,
+    "start": 155.81,
+    "end": 159.1,
     "speaker": "彥君",
-    "text": "全部都 遵守牛頓第三定律",
+    "text": "全部遵守牛頓第三定律喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 144.32,
-    "end": 147.76,
+    "start": 159.3,
+    "end": 162.96,
     "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
+    "text": "觀念全通了就能秒殺考題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 147.96,
-    "end": 150.56,
+    "start": 163.16,
+    "end": 166.43,
     "speaker": "彥君",
-    "text": "我是彥君老師",
+    "text": "帶著這份底氣迎戰會考吧",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 150.76,
-    "end": 153.1,
+    "start": 166.63,
+    "end": 170.12,
+    "speaker": "彥君",
+    "text": "戰士們 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 170.32,
+    "end": 173.62,
     "speaker": "曉臻",
-    "text": "我是曉臻助教",
+    "text": "大家好啊 我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 153.3,
-    "end": 156.66,
+    "start": 173.82,
+    "end": 177.18,
     "speaker": "合聲",
     "text": "不同物體 絕不抵消",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 156.86,
-    "end": 160.4,
+    "start": 177.38,
+    "end": 180.92,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
