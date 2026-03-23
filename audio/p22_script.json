@@ -163,16 +163,19 @@
   },
   {
     "start": 55.22,
-    "end": 62.77,
-    "speaker": "曉臻",
-    "text": "唯一無核膜 (細菌、藍菌)]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "原核生物界：唯一無核膜 (細菌、藍菌)",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "原核生物界：唯一無核膜 (細菌、藍菌)"
+    ]
   },
   {
-    "start": 62.97,
-    "end": 66.17,
+    "start": 60.88,
+    "end": 64.08,
     "speaker": "彥君",
     "text": "它是唯一的無核膜小組",
     "is_pinned": false,
@@ -180,8 +183,8 @@
     "commands": []
   },
   {
-    "start": 66.37,
-    "end": 69.5,
+    "start": 64.28,
+    "end": 67.41,
     "speaker": "彥君",
     "text": "這代表它的遺傳物質",
     "is_pinned": false,
@@ -189,8 +192,8 @@
     "commands": []
   },
   {
-    "start": 69.7,
-    "end": 73.14,
+    "start": 67.61,
+    "end": 71.05,
     "speaker": "彥君",
     "text": "直接散布在細胞質裡面",
     "is_pinned": false,
@@ -198,8 +201,8 @@
     "commands": []
   },
   {
-    "start": 73.34,
-    "end": 75.74,
+    "start": 71.25,
+    "end": 73.66,
     "speaker": "彥君",
     "text": "這個界裡面",
     "is_pinned": false,
@@ -207,8 +210,8 @@
     "commands": []
   },
   {
-    "start": 75.94,
-    "end": 78.88,
+    "start": 73.86,
+    "end": 76.79,
     "speaker": "彥君",
     "text": "住著細菌和藍菌",
     "is_pinned": false,
@@ -216,8 +219,8 @@
     "commands": []
   },
   {
-    "start": 79.08,
-    "end": 81.56,
+    "start": 76.99,
+    "end": 79.47,
     "speaker": "彥君",
     "text": "戰士們記住",
     "is_pinned": false,
@@ -225,8 +228,8 @@
     "commands": []
   },
   {
-    "start": 81.76,
-    "end": 84.58,
+    "start": 79.67,
+    "end": 82.49,
     "speaker": "彥君",
     "text": "藍菌具有葉綠素",
     "is_pinned": false,
@@ -234,8 +237,8 @@
     "commands": []
   },
   {
-    "start": 84.78,
-    "end": 87.81,
+    "start": 82.69,
+    "end": 85.72,
     "speaker": "彥君",
     "text": "可以進行光合作用",
     "is_pinned": false,
@@ -243,8 +246,8 @@
     "commands": []
   },
   {
-    "start": 88.01,
-    "end": 91.33,
+    "start": 85.92,
+    "end": 89.24,
     "speaker": "彥君",
     "text": "所以它是生態系裡面的",
     "is_pinned": false,
@@ -252,8 +255,8 @@
     "commands": []
   },
   {
-    "start": 91.53,
-    "end": 94.15,
+    "start": 89.44,
+    "end": 92.06,
     "speaker": "彥君",
     "text": "生產者角色",
     "is_pinned": false,
@@ -261,8 +264,8 @@
     "commands": []
   },
   {
-    "start": 94.35,
-    "end": 96.74,
+    "start": 92.26,
+    "end": 94.65,
     "speaker": "曉臻",
     "text": "那剩下的四界",
     "is_pinned": false,
@@ -270,8 +273,8 @@
     "commands": []
   },
   {
-    "start": 96.94,
-    "end": 99.94,
+    "start": 94.85,
+    "end": 97.86,
     "speaker": "曉臻",
     "text": "是不是都具有核膜了呢",
     "is_pinned": false,
@@ -279,8 +282,8 @@
     "commands": []
   },
   {
-    "start": 100.14,
-    "end": 102.53,
+    "start": 98.06,
+    "end": 100.44,
     "speaker": "彥君",
     "text": "完全正確",
     "is_pinned": false,
@@ -288,8 +291,8 @@
     "commands": []
   },
   {
-    "start": 102.73,
-    "end": 105.21,
+    "start": 100.64,
+    "end": 103.12,
     "speaker": "彥君",
     "text": "剩下的生物",
     "is_pinned": false,
@@ -297,8 +300,8 @@
     "commands": []
   },
   {
-    "start": 105.41,
-    "end": 108.3,
+    "start": 103.32,
+    "end": 106.21,
     "speaker": "彥君",
     "text": "都叫做真核生物",
     "is_pinned": false,
@@ -306,8 +309,8 @@
     "commands": []
   },
   {
-    "start": 108.5,
-    "end": 111.62,
+    "start": 106.41,
+    "end": 109.54,
     "speaker": "彥君",
     "text": "覺得讀到快喘不過氣了嗎",
     "is_pinned": false,
@@ -315,8 +318,8 @@
     "commands": []
   },
   {
-    "start": 111.82,
-    "end": 115.74,
+    "start": 109.74,
+    "end": 113.66,
     "speaker": "彥君",
     "text": "深呼吸我們一起拿下這局",
     "is_pinned": false,
@@ -324,8 +327,8 @@
     "commands": []
   },
   {
-    "start": 115.94,
-    "end": 119.22,
+    "start": 113.86,
+    "end": 117.13,
     "speaker": "彥君",
     "text": "我們先來看看最複雜的",
     "is_pinned": false,
@@ -333,8 +336,8 @@
     "commands": []
   },
   {
-    "start": 119.42,
-    "end": 121.94,
+    "start": 117.33,
+    "end": 119.86,
     "speaker": "彥君",
     "text": "原生生物界",
     "is_pinned": false,
@@ -342,17 +345,20 @@
     "commands": []
   },
   {
-    "start": 122.14,
-    "end": 131.66,
-    "speaker": "曉臻",
-    "text": "資源回收桶 (動物/藻類/菌類)]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "start": 120.06,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "原生生物界：資源回收桶 (動物/藻類/菌類)",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "原生生物界：資源回收桶 (動物/藻類/菌類)"
+    ]
   },
   {
-    "start": 131.86,
-    "end": 134.86,
+    "start": 126.34,
+    "end": 129.34,
     "speaker": "彥君",
     "text": "它們可以分成三大類",
     "is_pinned": false,
@@ -360,8 +366,8 @@
     "commands": []
   },
   {
-    "start": 135.06,
-    "end": 137.95,
+    "start": 129.54,
+    "end": 132.43,
     "speaker": "彥君",
     "text": "戰士們仔細聽好",
     "is_pinned": false,
@@ -369,8 +375,8 @@
     "commands": []
   },
   {
-    "start": 138.15,
-    "end": 140.37,
+    "start": 132.63,
+    "end": 134.85,
     "speaker": "曉臻",
     "text": "第一類是不是",
     "is_pinned": false,
@@ -378,8 +384,8 @@
     "commands": []
   },
   {
-    "start": 140.57,
-    "end": 143.17,
+    "start": 135.05,
+    "end": 137.65,
     "speaker": "曉臻",
     "text": "像動物的原生動物",
     "is_pinned": false,
@@ -387,8 +393,8 @@
     "commands": []
   },
   {
-    "start": 143.37,
-    "end": 145.46,
+    "start": 137.85,
+    "end": 139.94,
     "speaker": "彥君",
     "text": "沒錯",
     "is_pinned": false,
@@ -396,8 +402,8 @@
     "commands": []
   },
   {
-    "start": 145.66,
-    "end": 149.08,
+    "start": 140.14,
+    "end": 143.56,
     "speaker": "彥君",
     "text": "像是變形蟲跟草履蟲",
     "is_pinned": false,
@@ -405,8 +411,8 @@
     "commands": []
   },
   {
-    "start": 149.28,
-    "end": 151.95,
+    "start": 143.76,
+    "end": 146.43,
     "speaker": "彥君",
     "text": "它們沒有細胞壁",
     "is_pinned": false,
@@ -414,8 +420,8 @@
     "commands": []
   },
   {
-    "start": 152.15,
-    "end": 155.04,
+    "start": 146.63,
+    "end": 149.52,
     "speaker": "彥君",
     "text": "而且會攝取食物",
     "is_pinned": false,
@@ -423,8 +429,8 @@
     "commands": []
   },
   {
-    "start": 155.24,
-    "end": 157.62,
+    "start": 149.72,
+    "end": 152.1,
     "speaker": "彥君",
     "text": "是消費者",
     "is_pinned": false,
@@ -432,8 +438,8 @@
     "commands": []
   },
   {
-    "start": 157.82,
-    "end": 159.82,
+    "start": 152.3,
+    "end": 154.3,
     "speaker": "曉臻",
     "text": "那第二類",
     "is_pinned": false,
@@ -441,8 +447,8 @@
     "commands": []
   },
   {
-    "start": 160.02,
-    "end": 162.77,
+    "start": 154.5,
+    "end": 157.25,
     "speaker": "曉臻",
     "text": "就是像植物的藻類囉",
     "is_pinned": false,
@@ -450,8 +456,8 @@
     "commands": []
   },
   {
-    "start": 162.97,
-    "end": 165.11,
+    "start": 157.45,
+    "end": 159.59,
     "speaker": "彥君",
     "text": "聰明",
     "is_pinned": false,
@@ -459,8 +465,8 @@
     "commands": []
   },
   {
-    "start": 165.31,
-    "end": 168.13,
+    "start": 159.79,
+    "end": 162.61,
     "speaker": "彥君",
     "text": "藻類具有細胞壁",
     "is_pinned": false,
@@ -468,8 +474,8 @@
     "commands": []
   },
   {
-    "start": 168.33,
-    "end": 170.83,
+    "start": 162.81,
+    "end": 165.31,
     "speaker": "彥君",
     "text": "還有葉綠體",
     "is_pinned": false,
@@ -477,8 +483,8 @@
     "commands": []
   },
   {
-    "start": 171.03,
-    "end": 174.26,
+    "start": 165.51,
+    "end": 168.74,
     "speaker": "彥君",
     "text": "像是昆布還有石花菜",
     "is_pinned": false,
@@ -486,8 +492,8 @@
     "commands": []
   },
   {
-    "start": 174.46,
-    "end": 177.27,
+    "start": 168.94,
+    "end": 171.75,
     "speaker": "彥君",
     "text": "它們都是生產者",
     "is_pinned": false,
@@ -495,8 +501,8 @@
     "commands": []
   },
   {
-    "start": 177.47,
-    "end": 179.66,
+    "start": 171.95,
+    "end": 174.14,
     "speaker": "曉臻",
     "text": "那最後一類",
     "is_pinned": false,
@@ -504,8 +510,8 @@
     "commands": []
   },
   {
-    "start": 179.86,
-    "end": 183.06,
+    "start": 174.34,
+    "end": 177.54,
     "speaker": "曉臻",
     "text": "就是像真菌的原生菌類嗎",
     "is_pinned": false,
@@ -513,8 +519,8 @@
     "commands": []
   },
   {
-    "start": 183.26,
-    "end": 185.65,
+    "start": 177.74,
+    "end": 180.13,
     "speaker": "彥君",
     "text": "完全正確",
     "is_pinned": false,
@@ -522,8 +528,8 @@
     "commands": []
   },
   {
-    "start": 185.85,
-    "end": 189.05,
+    "start": 180.33,
+    "end": 183.53,
     "speaker": "彥君",
     "text": "像是水黴菌還有黏菌",
     "is_pinned": false,
@@ -531,8 +537,8 @@
     "commands": []
   },
   {
-    "start": 189.25,
-    "end": 191.85,
+    "start": 183.73,
+    "end": 186.33,
     "speaker": "彥君",
     "text": "它們有細胞壁",
     "is_pinned": false,
@@ -540,8 +546,8 @@
     "commands": []
   },
   {
-    "start": 192.05,
-    "end": 194.79,
+    "start": 186.53,
+    "end": 189.27,
     "speaker": "彥君",
     "text": "但是沒有葉綠體",
     "is_pinned": false,
@@ -549,8 +555,8 @@
     "commands": []
   },
   {
-    "start": 194.99,
-    "end": 198.58,
+    "start": 189.47,
+    "end": 193.06,
     "speaker": "彥君",
     "text": "只能靠分解食物吸收養分",
     "is_pinned": false,
@@ -558,8 +564,8 @@
     "commands": []
   },
   {
-    "start": 198.78,
-    "end": 201.21,
+    "start": 193.26,
+    "end": 195.69,
     "speaker": "彥君",
     "text": "扮演分解者",
     "is_pinned": false,
@@ -567,8 +573,8 @@
     "commands": []
   },
   {
-    "start": 201.41,
-    "end": 204.06,
+    "start": 195.89,
+    "end": 198.54,
     "speaker": "彥君",
     "text": "把它們湊在一起",
     "is_pinned": false,
@@ -576,8 +582,8 @@
     "commands": []
   },
   {
-    "start": 204.26,
-    "end": 207.43,
+    "start": 198.74,
+    "end": 201.91,
     "speaker": "彥君",
     "text": "就是演化上最原始的",
     "is_pinned": false,
@@ -585,8 +591,8 @@
     "commands": []
   },
   {
-    "start": 207.63,
-    "end": 210.04,
+    "start": 202.11,
+    "end": 204.52,
     "speaker": "彥君",
     "text": "真核生物",
     "is_pinned": false,
@@ -594,8 +600,8 @@
     "commands": []
   },
   {
-    "start": 210.24,
-    "end": 212.89,
+    "start": 204.72,
+    "end": 207.37,
     "speaker": "曉臻",
     "text": "那真菌界的生物呢",
     "is_pinned": false,
@@ -603,8 +609,8 @@
     "commands": []
   },
   {
-    "start": 213.09,
-    "end": 216.43,
+    "start": 207.57,
+    "end": 210.91,
     "speaker": "曉臻",
     "text": "聽起來跟原生菌類很像耶",
     "is_pinned": false,
@@ -612,8 +618,8 @@
     "commands": []
   },
   {
-    "start": 216.63,
-    "end": 219.06,
+    "start": 211.11,
+    "end": 213.54,
     "speaker": "彥君",
     "text": "絕對不一樣",
     "is_pinned": false,
@@ -621,8 +627,8 @@
     "commands": []
   },
   {
-    "start": 219.26,
-    "end": 221.96,
+    "start": 213.74,
+    "end": 216.44,
     "speaker": "彥君",
     "text": "這點非常重要",
     "is_pinned": false,
@@ -630,8 +636,8 @@
     "commands": []
   },
   {
-    "start": 222.16,
-    "end": 224.66,
+    "start": 216.64,
+    "end": 219.14,
     "speaker": "彥君",
     "text": "我要講兩次",
     "is_pinned": false,
@@ -639,17 +645,20 @@
     "commands": []
   },
   {
-    "start": 224.86,
-    "end": 232.7,
-    "speaker": "曉臻",
-    "text": "皆有核膜、皆為分解者、具細胞壁]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "start": 219.34,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "真菌界：皆有核膜、皆為分解者、具細胞壁",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "真菌界：皆有核膜、皆為分解者、具細胞壁"
+    ]
   },
   {
-    "start": 232.9,
-    "end": 235.78,
+    "start": 224.59,
+    "end": 227.48,
     "speaker": "彥君",
     "text": "真菌界都有核膜",
     "is_pinned": false,
@@ -657,8 +666,8 @@
     "commands": []
   },
   {
-    "start": 235.98,
-    "end": 238.99,
+    "start": 227.68,
+    "end": 230.69,
     "speaker": "彥君",
     "text": "而且它們通通都是",
     "is_pinned": false,
@@ -666,8 +675,8 @@
     "commands": []
   },
   {
-    "start": 239.19,
-    "end": 241.36,
+    "start": 230.89,
+    "end": 233.06,
     "speaker": "彥君",
     "text": "分解者",
     "is_pinned": false,
@@ -675,8 +684,8 @@
     "commands": []
   },
   {
-    "start": 241.56,
-    "end": 244.5,
+    "start": 233.26,
+    "end": 236.19,
     "speaker": "彥君",
     "text": "它們會分泌出酵素",
     "is_pinned": false,
@@ -684,8 +693,8 @@
     "commands": []
   },
   {
-    "start": 244.7,
-    "end": 247.39,
+    "start": 236.39,
+    "end": 239.09,
     "speaker": "彥君",
     "text": "把外面的養分",
     "is_pinned": false,
@@ -693,8 +702,8 @@
     "commands": []
   },
   {
-    "start": 247.59,
-    "end": 250.31,
+    "start": 239.29,
+    "end": 242.01,
     "speaker": "彥君",
     "text": "分解後再吸收",
     "is_pinned": false,
@@ -702,8 +711,8 @@
     "commands": []
   },
   {
-    "start": 250.51,
-    "end": 253.76,
+    "start": 242.21,
+    "end": 245.46,
     "speaker": "彥君",
     "text": "包含單細胞的酵母菌",
     "is_pinned": false,
@@ -711,8 +720,8 @@
     "commands": []
   },
   {
-    "start": 253.96,
-    "end": 256.82,
+    "start": 245.66,
+    "end": 248.52,
     "speaker": "彥君",
     "text": "還有菌絲構成的",
     "is_pinned": false,
@@ -720,8 +729,8 @@
     "commands": []
   },
   {
-    "start": 257.02,
-    "end": 259.58,
+    "start": 248.72,
+    "end": 251.27,
     "speaker": "彥君",
     "text": "黴菌跟蕈類",
     "is_pinned": false,
@@ -731,8 +740,8 @@
     ]
   },
   {
-    "start": 259.78,
-    "end": 261.82,
+    "start": 251.47,
+    "end": 253.52,
     "speaker": "曉臻",
     "text": "請問老師",
     "is_pinned": false,
@@ -740,8 +749,8 @@
     "commands": []
   },
   {
-    "start": 262.02,
-    "end": 265.18,
+    "start": 253.72,
+    "end": 256.87,
     "speaker": "曉臻",
     "text": "真菌是不是都有細胞壁呢",
     "is_pinned": false,
@@ -749,8 +758,8 @@
     "commands": []
   },
   {
-    "start": 265.38,
-    "end": 267.78,
+    "start": 257.07,
+    "end": 259.48,
     "speaker": "彥君",
     "text": "非常聰明",
     "is_pinned": false,
@@ -758,8 +767,8 @@
     "commands": []
   },
   {
-    "start": 267.98,
-    "end": 271.42,
+    "start": 259.68,
+    "end": 263.12,
     "speaker": "彥君",
     "text": "這裡當作閒聊聽一下就好",
     "is_pinned": false,
@@ -767,8 +776,8 @@
     "commands": []
   },
   {
-    "start": 271.62,
-    "end": 274.58,
+    "start": 263.32,
+    "end": 266.28,
     "speaker": "彥君",
     "text": "會考不會考這麼細",
     "is_pinned": false,
@@ -776,8 +785,8 @@
     "commands": []
   },
   {
-    "start": 274.78,
-    "end": 277.43,
+    "start": 266.48,
+    "end": 269.13,
     "speaker": "彥君",
     "text": "真菌的細胞壁",
     "is_pinned": false,
@@ -785,8 +794,8 @@
     "commands": []
   },
   {
-    "start": 277.63,
-    "end": 280.76,
+    "start": 269.33,
+    "end": 272.46,
     "speaker": "彥君",
     "text": "主要成分是幾丁質",
     "is_pinned": false,
@@ -796,8 +805,8 @@
     ]
   },
   {
-    "start": 280.96,
-    "end": 283.75,
+    "start": 272.66,
+    "end": 275.45,
     "speaker": "彥君",
     "text": "跟植物的纖維素",
     "is_pinned": false,
@@ -805,8 +814,8 @@
     "commands": []
   },
   {
-    "start": 283.95,
-    "end": 286.91,
+    "start": 275.65,
+    "end": 278.61,
     "speaker": "彥君",
     "text": "還有細菌的肽聚醣",
     "is_pinned": false,
@@ -817,8 +826,8 @@
     ]
   },
   {
-    "start": 287.11,
-    "end": 289.76,
+    "start": 278.81,
+    "end": 281.46,
     "speaker": "彥君",
     "text": "完全不相同",
     "is_pinned": false,
@@ -826,8 +835,8 @@
     "commands": []
   },
   {
-    "start": 289.96,
-    "end": 293.18,
+    "start": 281.66,
+    "end": 284.88,
     "speaker": "彥君",
     "text": "雖然成分不會直接考",
     "is_pinned": false,
@@ -835,8 +844,8 @@
     "commands": []
   },
   {
-    "start": 293.38,
-    "end": 296.18,
+    "start": 285.08,
+    "end": 287.87,
     "speaker": "彥君",
     "text": "但這可是分類學家",
     "is_pinned": false,
@@ -844,8 +853,8 @@
     "commands": []
   },
   {
-    "start": 296.38,
-    "end": 299.05,
+    "start": 288.07,
+    "end": 290.74,
     "speaker": "彥君",
     "text": "分類的重要依據喔",
     "is_pinned": false,
@@ -853,8 +862,8 @@
     "commands": []
   },
   {
-    "start": 299.25,
-    "end": 302.23,
+    "start": 290.94,
+    "end": 293.93,
     "speaker": "曉臻",
     "text": "老師這張圖中間",
     "is_pinned": false,
@@ -862,8 +871,8 @@
     "commands": []
   },
   {
-    "start": 302.43,
-    "end": 304.34,
+    "start": 294.13,
+    "end": 296.03,
     "speaker": "曉臻",
     "text": "那個病毒",
     "is_pinned": false,
@@ -871,8 +880,8 @@
     "commands": []
   },
   {
-    "start": 304.54,
-    "end": 307.38,
+    "start": 296.23,
+    "end": 299.07,
     "speaker": "曉臻",
     "text": "為什麼會被畫在外面",
     "is_pinned": false,
@@ -880,8 +889,8 @@
     "commands": []
   },
   {
-    "start": 307.58,
-    "end": 311.42,
+    "start": 299.27,
+    "end": 303.12,
     "speaker": "彥君",
     "text": "撐過這關後面就是坦途",
     "is_pinned": false,
@@ -889,8 +898,8 @@
     "commands": []
   },
   {
-    "start": 311.62,
-    "end": 313.74,
+    "start": 303.32,
+    "end": 305.44,
     "speaker": "彥君",
     "text": "戰士們",
     "is_pinned": false,
@@ -898,8 +907,8 @@
     "commands": []
   },
   {
-    "start": 313.94,
-    "end": 317.14,
+    "start": 305.64,
+    "end": 308.84,
     "speaker": "彥君",
     "text": "這是會考的大魔王陷阱",
     "is_pinned": false,
@@ -907,17 +916,20 @@
     "commands": []
   },
   {
-    "start": 317.34,
-    "end": 328.32,
-    "speaker": "曉臻",
-    "text": "不屬五界、無細胞構造、寄生才能繁殖]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "start": 309.04,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "病毒：不屬五界、無細胞構造、寄生才能繁殖",
+    "is_pinned": true,
+    "pin_level": 4,
+    "commands": [
+      "釘選",
+      "病毒：不屬五界、無細胞構造、寄生才能繁殖"
+    ]
   },
   {
-    "start": 328.52,
-    "end": 331.67,
+    "start": 317.17,
+    "end": 320.32,
     "speaker": "彥君",
     "text": "病毒不屬於五界中的",
     "is_pinned": false,
@@ -925,8 +937,8 @@
     "commands": []
   },
   {
-    "start": 331.87,
-    "end": 334.26,
+    "start": 320.52,
+    "end": 322.9,
     "speaker": "彥君",
     "text": "任何一界",
     "is_pinned": false,
@@ -934,8 +946,8 @@
     "commands": []
   },
   {
-    "start": 334.46,
-    "end": 337.49,
+    "start": 323.1,
+    "end": 326.14,
     "speaker": "彥君",
     "text": "因為它沒有細胞構造",
     "is_pinned": false,
@@ -943,8 +955,8 @@
     "commands": []
   },
   {
-    "start": 337.69,
-    "end": 340.58,
+    "start": 326.34,
+    "end": 329.22,
     "speaker": "彥君",
     "text": "在生命邊緣徘徊",
     "is_pinned": false,
@@ -952,8 +964,8 @@
     "commands": []
   },
   {
-    "start": 340.78,
-    "end": 343.88,
+    "start": 329.42,
+    "end": 332.53,
     "speaker": "彥君",
     "text": "它只有蛋白質外殼",
     "is_pinned": false,
@@ -961,8 +973,8 @@
     "commands": []
   },
   {
-    "start": 344.08,
-    "end": 346.97,
+    "start": 332.73,
+    "end": 335.62,
     "speaker": "彥君",
     "text": "跟裡面的遺傳物質",
     "is_pinned": false,
@@ -970,8 +982,8 @@
     "commands": []
   },
   {
-    "start": 347.17,
-    "end": 350.66,
+    "start": 335.82,
+    "end": 339.3,
     "speaker": "彥君",
     "text": "必須要寄生在活細胞裡面",
     "is_pinned": false,
@@ -979,8 +991,8 @@
     "commands": []
   },
   {
-    "start": 350.86,
-    "end": 353.86,
+    "start": 339.5,
+    "end": 342.51,
     "speaker": "彥君",
     "text": "才能夠進行繁殖",
     "is_pinned": false,
@@ -988,8 +1000,8 @@
     "commands": []
   },
   {
-    "start": 354.06,
-    "end": 356.66,
+    "start": 342.71,
+    "end": 345.31,
     "speaker": "彥君",
     "text": "考試如果問你",
     "is_pinned": false,
@@ -997,8 +1009,8 @@
     "commands": []
   },
   {
-    "start": 356.86,
-    "end": 359.92,
+    "start": 345.51,
+    "end": 348.57,
     "speaker": "彥君",
     "text": "病毒屬於原核生物界嗎",
     "is_pinned": false,
@@ -1006,8 +1018,8 @@
     "commands": []
   },
   {
-    "start": 360.12,
-    "end": 362.46,
+    "start": 348.77,
+    "end": 351.1,
     "speaker": "彥君",
     "text": "正確答案",
     "is_pinned": false,
@@ -1015,8 +1027,8 @@
     "commands": []
   },
   {
-    "start": 362.66,
-    "end": 365.06,
+    "start": 351.3,
+    "end": 353.71,
     "speaker": "彥君",
     "text": "絕對是不對",
     "is_pinned": false,
@@ -1024,8 +1036,8 @@
     "commands": []
   },
   {
-    "start": 365.26,
-    "end": 368.54,
+    "start": 353.91,
+    "end": 357.18,
     "speaker": "曉臻",
     "text": "戰士們給大腦一點時間",
     "is_pinned": false,
@@ -1033,8 +1045,8 @@
     "commands": []
   },
   {
-    "start": 368.74,
-    "end": 372.25,
+    "start": 357.38,
+    "end": 360.9,
     "speaker": "曉臻",
     "text": "最後來個五界大點名總複習",
     "is_pinned": false,
@@ -1042,44 +1054,56 @@
     "commands": []
   },
   {
-    "start": 372.45,
-    "end": 380.47,
+    "start": 361.1,
+    "end": 9999.0,
     "speaker": "曉臻",
-    "text": "無核膜 (細菌、藍菌)]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "一、原核：無核膜 (細菌、藍菌)",
+    "is_pinned": true,
+    "pin_level": 5,
+    "commands": [
+      "釘選",
+      "一、原核：無核膜 (細菌、藍菌)"
+    ]
   },
   {
-    "start": 380.67,
-    "end": 391.34,
+    "start": 366.94,
+    "end": 9999.0,
     "speaker": "曉臻",
-    "text": "大雜燴 (原生動物、藻類、原生菌類)]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "二、原生：大雜燴 (原生動物、藻類、原生菌類)",
+    "is_pinned": true,
+    "pin_level": 6,
+    "commands": [
+      "釘選",
+      "二、原生：大雜燴 (原生動物、藻類、原生菌類)"
+    ]
   },
   {
-    "start": 391.54,
-    "end": 400.74,
+    "start": 373.99,
+    "end": 9999.0,
     "speaker": "曉臻",
-    "text": "分解者、有細胞壁、無葉綠體]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "三、真菌：分解者、有細胞壁、無葉綠體",
+    "is_pinned": true,
+    "pin_level": 7,
+    "commands": [
+      "釘選",
+      "三、真菌：分解者、有細胞壁、無葉綠體"
+    ]
   },
   {
-    "start": 400.94,
-    "end": 408.5,
+    "start": 380.82,
+    "end": 9999.0,
     "speaker": "曉臻",
-    "text": "邊緣人無細胞構造]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "四、病毒：邊緣人，無細胞構造",
+    "is_pinned": true,
+    "pin_level": 8,
+    "commands": [
+      "釘選",
+      "四、病毒：邊緣人，無細胞構造"
+    ]
   },
   {
-    "start": 408.7,
-    "end": 412.12,
+    "start": 386.79,
+    "end": 390.21,
     "speaker": "彥君",
     "text": "戰士們請閉上眼睛",
     "is_pinned": false,
@@ -1087,8 +1111,8 @@
     "commands": []
   },
   {
-    "start": 412.32,
-    "end": 414.61,
+    "start": 390.41,
+    "end": 392.7,
     "speaker": "彥君",
     "text": "思考一下喔",
     "is_pinned": false,
@@ -1096,8 +1120,8 @@
     "commands": []
   },
   {
-    "start": 414.81,
-    "end": 417.53,
+    "start": 392.9,
+    "end": 395.62,
     "speaker": "彥君",
     "text": "昆布跟石花菜",
     "is_pinned": false,
@@ -1105,8 +1129,8 @@
     "commands": []
   },
   {
-    "start": 417.73,
-    "end": 420.52,
+    "start": 395.82,
+    "end": 398.61,
     "speaker": "彥君",
     "text": "可以行光合作用",
     "is_pinned": false,
@@ -1114,8 +1138,8 @@
     "commands": []
   },
   {
-    "start": 420.72,
-    "end": 423.1,
+    "start": 398.81,
+    "end": 401.19,
     "speaker": "彥君",
     "text": "它們是植物嗎",
     "is_pinned": false,
@@ -1123,8 +1147,8 @@
     "commands": []
   },
   {
-    "start": 423.3,
-    "end": 425.4,
+    "start": 401.39,
+    "end": 403.49,
     "speaker": "曉臻",
     "text": "絕對不是的",
     "is_pinned": false,
@@ -1132,8 +1156,8 @@
     "commands": []
   },
   {
-    "start": 425.6,
-    "end": 427.74,
+    "start": 403.69,
+    "end": 405.83,
     "speaker": "曉臻",
     "text": "它們是屬於",
     "is_pinned": false,
@@ -1141,8 +1165,8 @@
     "commands": []
   },
   {
-    "start": 427.94,
-    "end": 430.57,
+    "start": 406.03,
+    "end": 408.66,
     "speaker": "曉臻",
     "text": "原生生物界的藻類",
     "is_pinned": false,
@@ -1150,8 +1174,8 @@
     "commands": []
   },
   {
-    "start": 430.77,
-    "end": 433.51,
+    "start": 408.86,
+    "end": 411.6,
     "speaker": "彥君",
     "text": "那靈芝和細菌",
     "is_pinned": false,
@@ -1159,8 +1183,8 @@
     "commands": []
   },
   {
-    "start": 433.71,
-    "end": 436.67,
+    "start": 411.8,
+    "end": 414.76,
     "speaker": "彥君",
     "text": "都是生態系的分解者",
     "is_pinned": false,
@@ -1168,8 +1192,8 @@
     "commands": []
   },
   {
-    "start": 436.87,
-    "end": 439.14,
+    "start": 414.96,
+    "end": 417.22,
     "speaker": "彥君",
     "text": "它們同界嗎",
     "is_pinned": false,
@@ -1177,8 +1201,8 @@
     "commands": []
   },
   {
-    "start": 439.34,
-    "end": 441.05,
+    "start": 417.42,
+    "end": 419.14,
     "speaker": "曉臻",
     "text": "不是的",
     "is_pinned": false,
@@ -1186,8 +1210,8 @@
     "commands": []
   },
   {
-    "start": 441.25,
-    "end": 444.4,
+    "start": 419.34,
+    "end": 422.49,
     "speaker": "曉臻",
     "text": "靈芝是有核膜的真菌界",
     "is_pinned": false,
@@ -1195,8 +1219,8 @@
     "commands": []
   },
   {
-    "start": 444.6,
-    "end": 447.25,
+    "start": 422.69,
+    "end": 425.34,
     "speaker": "曉臻",
     "text": "細菌是沒有核膜的",
     "is_pinned": false,
@@ -1204,8 +1228,8 @@
     "commands": []
   },
   {
-    "start": 447.45,
-    "end": 449.64,
+    "start": 425.54,
+    "end": 427.73,
     "speaker": "曉臻",
     "text": "原核生物界",
     "is_pinned": false,
@@ -1213,8 +1237,8 @@
     "commands": []
   },
   {
-    "start": 449.84,
-    "end": 452.22,
+    "start": 427.93,
+    "end": 430.31,
     "speaker": "彥君",
     "text": "非常漂亮",
     "is_pinned": false,
@@ -1222,8 +1246,8 @@
     "commands": []
   },
   {
-    "start": 452.42,
-    "end": 455.46,
+    "start": 430.51,
+    "end": 433.54,
     "speaker": "彥君",
     "text": "這就是精熟級戰士",
     "is_pinned": false,
@@ -1231,8 +1255,8 @@
     "commands": []
   },
   {
-    "start": 455.66,
-    "end": 458.54,
+    "start": 433.74,
+    "end": 436.63,
     "speaker": "彥君",
     "text": "該有的最高準則",
     "is_pinned": false,
@@ -1240,8 +1264,8 @@
     "commands": []
   },
   {
-    "start": 458.74,
-    "end": 461.9,
+    "start": 436.83,
+    "end": 439.98,
     "speaker": "彥君",
     "text": "你比想像中更強大",
     "is_pinned": false,
@@ -1249,8 +1273,8 @@
     "commands": []
   },
   {
-    "start": 462.1,
-    "end": 465.13,
+    "start": 440.18,
+    "end": 443.22,
     "speaker": "彥君",
     "text": "老師會陪你戰到底",
     "is_pinned": false,
@@ -1258,8 +1282,8 @@
     "commands": []
   },
   {
-    "start": 465.33,
-    "end": 467.93,
+    "start": 443.42,
+    "end": 446.02,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
@@ -1267,8 +1291,8 @@
     "commands": []
   },
   {
-    "start": 468.13,
-    "end": 470.46,
+    "start": 446.22,
+    "end": 448.55,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
@@ -1276,8 +1300,8 @@
     "commands": []
   },
   {
-    "start": 470.66,
-    "end": 474.42,
+    "start": 448.75,
+    "end": 452.5,
     "speaker": "合聲",
     "text": "五界分清楚滿級分入手",
     "is_pinned": false,
@@ -1285,8 +1309,8 @@
     "commands": []
   },
   {
-    "start": 474.62,
-    "end": 477.02,
+    "start": 452.7,
+    "end": 455.11,
     "speaker": "合聲",
     "text": "下一關見",
     "is_pinned": false,
