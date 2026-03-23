@@ -1,322 +1,377 @@
 [
   {
     "start": 0.0,
-    "end": 3.25,
+    "end": 4.57,
     "speaker": "彥君",
-    "text": "戰士們 歡迎來到",
+    "text": "戰士們辛苦了 歡迎來到",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.45,
-    "end": 6.1,
+    "start": 4.77,
+    "end": 7.97,
     "speaker": "彥君",
-    "text": "第 112 集",
+    "text": "第113集的課堂",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.3,
-    "end": 8.9,
+    "start": 8.17,
+    "end": 11.37,
     "speaker": "彥君",
-    "text": "我是彥君老師",
+    "text": "各位衝刺 A 級的戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 9.1,
-    "end": 10.83,
+    "start": 11.57,
+    "end": 15.08,
+    "speaker": "彥君",
+    "text": "戰士們好 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 15.28,
+    "end": 18.58,
     "speaker": "曉臻",
-    "text": "大家好",
+    "text": "大家好啊 我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.03,
-    "end": 13.37,
+    "start": 18.78,
+    "end": 22.14,
+    "speaker": "彥君",
+    "text": "戰士們請特別注意聽好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 22.34,
+    "end": 25.57,
+    "speaker": "彥君",
+    "text": "牛頓第一定律大魔王來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 25.77,
+    "end": 29.16,
     "speaker": "曉臻",
-    "text": "我是曉臻助教",
+    "text": "老師 上面的這幾個圖形",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 13.57,
-    "end": 16.02,
-    "speaker": "彥君",
-    "text": "戰士們注意",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 16.22,
-    "end": 18.9,
-    "speaker": "彥君",
-    "text": "牛一 大魔王來了",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 19.1,
-    "end": 21.98,
+    "start": 29.36,
+    "end": 32.49,
     "speaker": "曉臻",
-    "text": "老師 上面的圖形",
+    "text": "怎麼每一張都有兩條線啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.18,
-    "end": 24.76,
-    "speaker": "曉臻",
-    "text": "怎麼 都有兩條線啊",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 24.96,
-    "end": 28.06,
+    "start": 32.69,
+    "end": 35.98,
     "speaker": "彥君",
-    "text": "助教 觀察非常敏銳",
+    "text": "助教的觀察非常的敏銳喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 28.26,
-    "end": 31.03,
+    "start": 36.18,
+    "end": 39.36,
     "speaker": "彥君",
-    "text": "因為 牛頓第一定律",
+    "text": "因為牛頓第一定律裡面",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 31.23,
-    "end": 34.07,
+    "start": 39.56,
+    "end": 42.81,
     "speaker": "彥君",
-    "text": "包含了 兩種狀態",
+    "text": "包含了兩種不同的狀態",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 34.27,
-    "end": 37.76,
+    "start": 43.01,
+    "end": 46.42,
     "speaker": "彥君",
-    "text": "動者恆動 靜者恆靜",
+    "text": "就是動者恆動靜者恆靜",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 37.96,
-    "end": 79.8,
+    "start": 46.62,
+    "end": 54.2,
     "speaker": "彥君",
-    "text": "$\\text{牛一} \\rightarrow \\text{等速或靜止}$",
+    "text": "牛頓第一定律包含等速與靜止",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "牛頓第一定律包含等速與靜止"
+    ]
   },
   {
-    "start": 42.54,
-    "end": 46.02,
+    "start": 54.2,
+    "end": 58.26,
     "speaker": "曉臻",
-    "text": "喔 所以位置圖裡",
+    "text": "喔 所以看最左邊位置圖",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 46.22,
-    "end": 48.92,
+    "start": 58.46,
+    "end": 61.69,
     "speaker": "曉臻",
-    "text": "藍色的平線 是靜止",
+    "text": "藍色的水平線代表是靜止",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 49.12,
-    "end": 52.01,
+    "start": 61.89,
+    "end": 65.18,
     "speaker": "曉臻",
-    "text": "紅色的斜線 是等速度",
+    "text": "紅色的斜直線就是等速度",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 52.21,
-    "end": 56.68,
+    "start": 65.38,
+    "end": 70.24,
     "speaker": "彥君",
-    "text": "完全正確 換速度圖",
+    "text": "完全正確 我們換看速度圖",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 56.88,
-    "end": 59.41,
+    "start": 70.44,
+    "end": 73.88,
     "speaker": "曉臻",
-    "text": "速度圖的 藍色線",
+    "text": "速度圖裡面的那一條藍色線",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 59.61,
-    "end": 62.62,
+    "start": 74.08,
+    "end": 77.35,
     "speaker": "曉臻",
-    "text": "貼在地板 代表靜止",
+    "text": "緊緊貼在地板就代表靜止",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 62.82,
-    "end": 65.97,
+    "start": 77.55,
+    "end": 80.85,
     "speaker": "曉臻",
-    "text": "紅色平線 則是等速",
+    "text": "紅色水平線則代表著等速",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 66.17,
-    "end": 70.52,
+    "start": 81.05,
+    "end": 85.95,
     "speaker": "彥君",
-    "text": "沒錯 那藍色的面積",
+    "text": "沒錯 那速度圖底下的面積",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 70.72,
-    "end": 73.46,
+    "start": 86.15,
+    "end": 89.33,
     "speaker": "彥君",
-    "text": "代表的 就是位移",
+    "text": "代表的就是走過的位移喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 73.66,
-    "end": 76.6,
+    "start": 89.53,
+    "end": 93.38,
     "speaker": "彥君",
-    "text": "給你們 3 秒鐘對照",
+    "text": "戰士們給你三秒鐘對照圖形",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 79.8,
-    "end": 83.0,
+    "start": 93.58,
+    "end": 97.35,
     "speaker": "彥君",
-    "text": "戰士們 陷阱來了",
+    "text": "戰士們 最可怕的陷阱來了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 83.2,
-    "end": 86.16,
+    "start": 97.55,
+    "end": 101.11,
     "speaker": "彥君",
-    "text": "為什麼 最右邊的圖",
+    "text": "為什麼最右邊的加速度圖",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 86.36,
-    "end": 89.54,
+    "start": 101.31,
+    "end": 104.61,
     "speaker": "彥君",
-    "text": "加速度 只剩下一條線",
+    "text": "竟然只剩下唯一的一條線",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 89.74,
-    "end": 92.19,
+    "start": 104.81,
+    "end": 107.86,
     "speaker": "曉臻",
-    "text": "因為 不管是靜止",
+    "text": "因為不管物體是靜止不動",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 92.39,
-    "end": 94.9,
+    "start": 108.06,
+    "end": 111.24,
     "speaker": "曉臻",
-    "text": "還是 等速度運動",
+    "text": "還是正在做等速度的運動",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 95.1,
-    "end": 97.62,
+    "start": 111.44,
+    "end": 114.69,
     "speaker": "曉臻",
-    "text": "速度 都沒有改變",
+    "text": "它的速度通通都沒有改變",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 97.82,
-    "end": 101.94,
+    "start": 114.89,
+    "end": 119.36,
     "speaker": "彥君",
-    "text": "答對了 速度不變",
+    "text": "答對了 只要速度不改變",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 102.14,
-    "end": 105.19,
+    "start": 119.56,
+    "end": 123.12,
     "speaker": "彥君",
-    "text": "加速度 當然等於 0",
+    "text": "加速度當然就直接等於零",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 105.39,
-    "end": 9999.0,
+    "start": 123.32,
+    "end": 130.82,
     "speaker": "彥君",
-    "text": "$\\Delta V = 0 \\rightarrow a = 0$",
+    "text": "速度不變加速度就等於零",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "速度不變加速度就等於零"
+    ]
   },
   {
-    "start": 109.9,
-    "end": 112.88,
+    "start": 130.82,
+    "end": 134.46,
     "speaker": "彥君",
-    "text": "而且 速度沒有變化",
+    "text": "而且因為速度沒有產生變化",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 113.08,
-    "end": 115.87,
+    "start": 134.66,
+    "end": 137.95,
     "speaker": "彥君",
-    "text": "外力作功 也是 0 喔",
+    "text": "外力作功當然也就是零喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 116.07,
-    "end": 119.51,
+    "start": 138.15,
+    "end": 141.81,
     "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
+    "text": "觀念全通了就能秒殺考題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 119.71,
-    "end": 122.31,
+    "start": 142.01,
+    "end": 145.28,
     "speaker": "彥君",
-    "text": "我是彥君老師",
+    "text": "帶著這份底氣迎戰會考吧",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 122.51,
-    "end": 124.85,
+    "start": 145.48,
+    "end": 148.97,
+    "speaker": "彥君",
+    "text": "戰士們 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 149.17,
+    "end": 152.46,
     "speaker": "曉臻",
-    "text": "我是曉臻助教",
+    "text": "大家好啊 我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 125.05,
-    "end": 128.49,
+    "start": 152.66,
+    "end": 156.1,
     "speaker": "合聲",
     "text": "動靜兩態 三圖秒解",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.69,
-    "end": 132.22,
+    "start": 156.3,
+    "end": 159.84,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
