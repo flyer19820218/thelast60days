@@ -1,380 +1,662 @@
 [
   {
     "start": 0.0,
-    "end": 3.55,
+    "end": 3.39,
     "speaker": "彥君",
-    "text": "各位衝 A 的戰士們"
+    "text": "各位瞄準第一志願的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.55,
-    "end": 6.45,
+    "start": 3.59,
+    "end": 6.19,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.45,
-    "end": 9.25,
+    "start": 6.39,
+    "end": 8.9,
     "speaker": "曉臻",
-    "text": "戰士們大家好啊"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 9.25,
-    "end": 11.89,
+    "start": 9.1,
+    "end": 11.43,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.89,
-    "end": 16.47,
+    "start": 11.63,
+    "end": 16.2,
     "speaker": "彥君",
-    "text": "歡迎來到考前60天第33集"
+    "text": "歡迎來到考前六十天第三十三集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.47,
-    "end": 22.34,
+    "start": 16.4,
+    "end": 21.98,
     "speaker": "彥君",
-    "text": "上一集我們算出了地球只有可憐的 076% 淡水"
+    "text": "上一集我們算出了地球只有可憐的 0.76% 淡水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.34,
-    "end": 26.47,
+    "start": 22.18,
+    "end": 26.0,
     "speaker": "曉臻",
-    "text": "對啊那這些珍貴的淡水"
+    "text": "對啊那這些珍貴的淡水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 26.47,
-    "end": 29.37,
+    "start": 26.2,
+    "end": 28.8,
     "speaker": "曉臻",
-    "text": "到底都藏在哪裡呢"
+    "text": "到底都藏在哪裡呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 29.37,
-    "end": 32.99,
+    "start": 29.0,
+    "end": 32.32,
     "speaker": "彥君",
-    "text": "戰士們看這張投影片"
+    "text": "戰士們看這張投影片",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 32.99,
-    "end": 36.87,
+    "start": 32.52,
+    "end": 35.86,
     "speaker": "彥君",
-    "text": "最大的寶庫就是『地下水』"
+    "text": "最大的寶庫就是地下水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 36.87,
-    "end": 40.9,
+    "start": 36.06,
+    "end": 39.79,
     "speaker": "曉臻",
-    "text": "老師地下水是從哪裡來的啊"
+    "text": "老師地下水是從哪裡來的啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 40.9,
-    "end": 44.26,
+    "start": 39.99,
+    "end": 43.05,
     "speaker": "曉臻",
-    "text": "難道地底下有水龍頭嗎"
+    "text": "難道地底下有水龍頭嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 44.26,
-    "end": 50.23,
+    "start": 43.25,
+    "end": 48.63,
     "speaker": "彥君",
-    "text": "當然不是啦它的來源其實就是『雨水』"
+    "text": "當然不是啦它的來源其實就是雨水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 50.23,
-    "end": 55.94,
+    "start": 48.83,
+    "end": 54.24,
     "speaker": "彥君",
-    "text": "下雨之後水慢慢滲透進土裡就形成地下水"
+    "text": "下雨之後水慢慢滲透進土裡就形成地下水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 55.94,
-    "end": 58.98,
+    "start": 54.44,
+    "end": 57.18,
     "speaker": "曉臻",
-    "text": "那地下水在土裡面"
+    "text": "那地下水在土裡面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 58.98,
-    "end": 62.43,
+    "start": 57.38,
+    "end": 60.54,
     "speaker": "曉臻",
-    "text": "會像河流一樣流得很快嗎"
+    "text": "會像河流一樣流得很快嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 62.43,
-    "end": 65.38,
+    "start": 60.74,
+    "end": 63.38,
     "speaker": "彥君",
-    "text": "這是一個大陷阱喔"
+    "text": "這是一個大陷阱喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 65.38,
-    "end": 70.8,
+    "start": 63.58,
+    "end": 68.73,
     "speaker": "彥君",
-    "text": "地下水在岩石縫隙裡流動速度是『非常緩慢』的"
+    "text": "地下水在岩石縫隙裡流動速度是非常緩慢的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 70.8,
-    "end": 73.6,
+    "start": 68.93,
+    "end": 92.72,
+    "speaker": "彥君",
+    "text": "地下水流速極慢，且水面隨地形與季節起伏",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "地下水流速極慢，且水面隨地形與季節起伏"
+    ]
+  },
+  {
+    "start": 74.49,
+    "end": 76.99,
     "speaker": "曉臻",
-    "text": "而且投影片上說"
+    "text": "而且投影片上說",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 73.6,
-    "end": 77.2,
+    "start": 77.19,
+    "end": 80.32,
     "speaker": "曉臻",
-    "text": "地下水面『不一定是平的』耶"
+    "text": "地下水面不一定是平的耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 77.2,
-    "end": 81.47,
+    "start": 80.52,
+    "end": 84.49,
     "speaker": "彥君",
-    "text": "沒錯它會跟著地形起伏"
+    "text": "沒錯它會跟著地形起伏",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 81.47,
-    "end": 86.6,
+    "start": 84.69,
+    "end": 89.52,
     "speaker": "彥君",
-    "text": "而且旱季跟雨季的地下水面高度也會不一樣喔"
+    "text": "而且旱季跟雨季的地下水面高度也會不一樣喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 86.6,
-    "end": 90.75,
+    "start": 92.72,
+    "end": 96.33,
     "speaker": "曉臻",
-    "text": "什麼是『透水層』跟『不透水層』啊"
+    "text": "老師旁邊那個圖有分層耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 90.75,
-    "end": 94.49,
-    "speaker": "彥君",
-    "text": "這就像是海綿跟保鮮膜"
-  },
-  {
-    "start": 94.49,
-    "end": 99.57,
-    "speaker": "彥君",
-    "text": "『透水層』就像海綿縫隙很大可以吸水"
-  },
-  {
-    "start": 99.57,
-    "end": 103.62,
-    "speaker": "彥君",
-    "text": "最常見的岩石就是『砂岩』"
-  },
-  {
-    "start": 103.62,
-    "end": 107.29,
+    "start": 96.53,
+    "end": 99.99,
     "speaker": "曉臻",
-    "text": "那『不透水層』就是保鮮膜囉"
+    "text": "什麼是透水層跟不透水層啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 107.29,
-    "end": 110.22,
+    "start": 100.19,
+    "end": 103.63,
+    "speaker": "彥君",
+    "text": "這就像是海綿跟保鮮膜",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 103.83,
+    "end": 108.5,
+    "speaker": "彥君",
+    "text": "透水層就像海綿縫隙很大可以吸水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 108.7,
+    "end": 112.16,
+    "speaker": "彥君",
+    "text": "最常見的岩石就是砂岩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 112.36,
+    "end": 115.51,
     "speaker": "曉臻",
-    "text": "水完全穿不過去"
+    "text": "那不透水層就是保鮮膜囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 110.22,
-    "end": 115.88,
-    "speaker": "彥君",
-    "text": "答對了像是『頁岩』就是不透水層"
-  },
-  {
-    "start": 115.88,
-    "end": 120.58,
-    "speaker": "彥君",
-    "text": "水滲不下去就會積在透水層裡面"
-  },
-  {
-    "start": 120.58,
-    "end": 123.36,
+    "start": 115.71,
+    "end": 118.34,
     "speaker": "曉臻",
-    "text": "充滿水的這一層"
+    "text": "水完全穿不過去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 123.36,
-    "end": 126.93,
+    "start": 118.54,
+    "end": 123.73,
+    "speaker": "彥君",
+    "text": "答對了像是頁岩就是不透水層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 123.93,
+    "end": 128.33,
+    "speaker": "彥君",
+    "text": "水滲不下去就會積在透水層裡面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 128.53,
+    "end": 183.56,
+    "speaker": "彥君",
+    "text": "透水層是砂岩像海綿，不透水層是頁岩像保鮮膜",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "透水層是砂岩像海綿，不透水層是頁岩像保鮮膜"
+    ]
+  },
+  {
+    "start": 133.92,
+    "end": 136.4,
     "speaker": "曉臻",
-    "text": "就叫做圖上的『飽和帶』對吧"
+    "text": "充滿水的這一層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 126.93,
-    "end": 132.4,
-    "speaker": "彥君",
-    "text": "沒錯接著我們來看下面的『井』"
-  },
-  {
-    "start": 132.4,
-    "end": 136.57,
+    "start": 136.6,
+    "end": 139.8,
     "speaker": "曉臻",
-    "text": "只要往下挖挖到地下水面以下"
+    "text": "就叫做圖上的飽和帶對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 136.57,
-    "end": 139.78,
+    "start": 140.0,
+    "end": 145.1,
+    "speaker": "彥君",
+    "text": "沒錯接著我們來看下面的水井",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 145.3,
+    "end": 149.17,
     "speaker": "曉臻",
-    "text": "就可以開始抽水了對吧"
+    "text": "只要往下挖挖到地下水面以下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 139.78,
-    "end": 143.66,
-    "speaker": "彥君",
-    "text": "是的這是普通的水井"
-  },
-  {
-    "start": 143.66,
-    "end": 147.67,
-    "speaker": "彥君",
-    "text": "但還有一種不用馬達的『自流井』喔"
-  },
-  {
-    "start": 147.67,
-    "end": 152.42,
+    "start": 149.37,
+    "end": 152.28,
     "speaker": "曉臻",
-    "text": "自流井難道水會自己噴出來嗎"
+    "text": "就可以開始抽水了對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 152.42,
-    "end": 157.98,
+    "start": 152.48,
+    "end": 156.06,
     "speaker": "彥君",
-    "text": "沒錯這是利用『連通管原理』"
+    "text": "是的這是普通的水井",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 157.98,
-    "end": 163.4,
+    "start": 156.26,
+    "end": 159.78,
     "speaker": "彥君",
-    "text": "如果井口比地下水面還要低水就會受壓力自動噴出"
+    "text": "但還有一種不用馬達的自流井喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 163.4,
-    "end": 166.16,
+    "start": 159.98,
+    "end": 164.42,
     "speaker": "曉臻",
-    "text": "哇太神奇了"
+    "text": "自流井難道水會自己噴出來嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 166.16,
-    "end": 170.42,
+    "start": 164.62,
+    "end": 169.58,
+    "speaker": "彥君",
+    "text": "沒錯這是利用連通管原理",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 169.78,
+    "end": 174.9,
+    "speaker": "彥君",
+    "text": "如果井口比地下水面還要低水就會受壓力自動噴出",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 175.1,
+    "end": 183.56,
+    "speaker": "彥君",
+    "text": "自流井：利用連通管原理，井口需低於地下水面",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "自流井：利用連通管原理，井口需低於地下水面"
+    ]
+  },
+  {
+    "start": 183.56,
+    "end": 186.02,
     "speaker": "曉臻",
-    "text": "那我們不就可以無限瘋狂抽地下水了嗎"
+    "text": "哇太神奇了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 170.42,
-    "end": 174.0,
-    "speaker": "彥君",
-    "text": "『超抽地下水的影響』"
-  },
-  {
-    "start": 174.0,
-    "end": 178.14,
+    "start": 186.22,
+    "end": 190.18,
     "speaker": "曉臻",
-    "text": "哎呀投影片寫會『地層下陷』耶"
+    "text": "那我們不就可以無限瘋狂抽地下水了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 178.14,
-    "end": 183.13,
+    "start": 190.38,
+    "end": 195.91,
     "speaker": "彥君",
-    "text": "對想像充滿水的海綿水被抽光了"
+    "text": "千萬不行戰士們請看最後一個重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 183.13,
-    "end": 187.35,
+    "start": 196.11,
+    "end": 199.12,
     "speaker": "彥君",
-    "text": "一旦地層下陷就再也回不去了喔"
+    "text": "超抽地下水的影響",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 187.35,
-    "end": 190.97,
+    "start": 199.32,
+    "end": 203.02,
     "speaker": "曉臻",
-    "text": "而且如果是靠近海邊的地方"
+    "text": "哎呀投影片寫會地層下陷耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 190.97,
-    "end": 194.28,
+    "start": 203.22,
+    "end": 207.91,
+    "speaker": "彥君",
+    "text": "對想像充滿水的海綿水被抽光了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 208.11,
+    "end": 211.29,
+    "speaker": "彥君",
+    "text": "海綿就會整個被壓扁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 211.49,
+    "end": 215.41,
+    "speaker": "彥君",
+    "text": "一旦地層下陷就再也回不去了喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 215.61,
+    "end": 218.93,
     "speaker": "曉臻",
-    "text": "還會發生很可怕的事喔"
+    "text": "而且如果是靠近海邊的地方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 194.28,
-    "end": 200.13,
-    "speaker": "彥君",
-    "text": "沒錯沒有了地下水的壓力海水就會灌進來"
-  },
-  {
-    "start": 200.13,
-    "end": 204.62,
-    "speaker": "彥君",
-    "text": "造成『地下水鹹化』跟『海水倒灌』"
-  },
-  {
-    "start": 204.62,
-    "end": 207.95,
-    "speaker": "彥君",
-    "text": "這塊土地就徹底毀了"
-  },
-  {
-    "start": 207.95,
-    "end": 211.45,
+    "start": 219.13,
+    "end": 222.14,
     "speaker": "曉臻",
-    "text": "戰士們一定要把『地層下陷』"
+    "text": "還會發生很可怕的事喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 211.45,
-    "end": 215.33,
+    "start": 222.34,
+    "end": 227.89,
+    "speaker": "彥君",
+    "text": "沒錯沒有了地下水的壓力海水就會灌進來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 228.09,
+    "end": 232.01,
+    "speaker": "彥君",
+    "text": "造成地下水鹹化跟海水倒灌",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 232.21,
+    "end": 235.24,
+    "speaker": "彥君",
+    "text": "這塊土地就徹底毀了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 235.44,
+    "end": 238.59,
     "speaker": "曉臻",
-    "text": "跟『地下水鹹化』畫上大星星"
+    "text": "戰士們一定要把地層下陷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 215.33,
-    "end": 218.54,
-    "speaker": "彥君",
-    "text": "戰士們閉上眼睛"
-  },
-  {
-    "start": 218.54,
-    "end": 223.05,
-    "speaker": "彥君",
-    "text": "如果我們想在地底蓋一座天然地下水庫"
-  },
-  {
-    "start": 223.05,
-    "end": 227.46,
-    "speaker": "彥君",
-    "text": "水庫的底部應該要是砂岩還是頁岩呢"
-  },
-  {
-    "start": 227.46,
-    "end": 231.68,
+    "start": 238.79,
+    "end": 242.04,
     "speaker": "曉臻",
-    "text": "當然是要用不透水的保鮮膜『頁岩』啊"
+    "text": "跟地下水鹹化畫上大星星",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 231.68,
-    "end": 234.99,
+    "start": 242.24,
+    "end": 251.21,
+    "speaker": "彥君",
+    "text": "超抽地下水：導致地層下陷不可逆與地下水鹹化",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "超抽地下水：導致地層下陷不可逆與地下水鹹化"
+    ]
+  },
+  {
+    "start": 251.21,
+    "end": 254.62,
+    "speaker": "彥君",
+    "text": "戰士們請閉上眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 254.82,
+    "end": 257.23,
+    "speaker": "彥君",
+    "text": "好好想一下喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 257.43,
+    "end": 261.64,
+    "speaker": "彥君",
+    "text": "如果我們想在地底蓋一座天然地下水庫",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 261.84,
+    "end": 265.95,
+    "speaker": "彥君",
+    "text": "水庫的底部應該要是砂岩還是頁岩呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 266.15,
+    "end": 269.88,
     "speaker": "曉臻",
-    "text": "不然水全部都漏光光了"
+    "text": "當然是要用不透水的保鮮膜頁岩啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 234.99,
-    "end": 240.44,
-    "speaker": "彥君",
-    "text": "漂亮這就是衝 A 的戰士"
-  },
-  {
-    "start": 240.44,
-    "end": 243.77,
-    "speaker": "彥君",
-    "text": "該有的解題反射神經"
-  },
-  {
-    "start": 243.77,
-    "end": 246.67,
-    "speaker": "彥君",
-    "text": "我是彥君老師"
-  },
-  {
-    "start": 246.67,
-    "end": 249.3,
+    "start": 270.08,
+    "end": 273.09,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "不然水全部都漏光光了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 249.3,
-    "end": 254.05,
+    "start": 273.29,
+    "end": 278.05,
+    "speaker": "彥君",
+    "text": "漂亮這就是滿級分戰士",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 278.25,
+    "end": 281.28,
+    "speaker": "彥君",
+    "text": "該有的解題反射神經",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 281.48,
+    "end": 284.08,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 284.28,
+    "end": 286.62,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 286.82,
+    "end": 290.35,
     "speaker": "合聲",
-    "text": "珍惜地下水資源戰士們下一關見"
+    "text": "珍貴淡水永續相隨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 290.55,
+    "end": 293.85,
+    "speaker": "合聲",
+    "text": "戰士們下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
