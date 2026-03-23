@@ -1,308 +1,623 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.86,
+    "start": 3.21,
+    "end": 6.46,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的會考戰士們 我是彥君老師"
+    "text": "時間的齒輪不停轉動",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.86,
-    "end": 11.29,
+    "start": 6.66,
+    "end": 9.83,
     "speaker": "彥君",
-    "text": "今天來到 第五十二集"
+    "text": "你們累積的每一分努力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.29,
-    "end": 15.03,
+    "start": 10.03,
+    "end": 13.42,
     "speaker": "彥君",
-    "text": "我們要解開 潮汐的 時間密碼"
+    "text": "終將掀起最壯闊的浪潮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 15.03,
-    "end": 18.39,
+    "start": 13.62,
+    "end": 16.82,
     "speaker": "彥君",
-    "text": "為什麼每天的 滿潮時間"
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.39,
-    "end": 21.41,
+    "start": 17.02,
+    "end": 20.3,
     "speaker": "彥君",
-    "text": "都會晚 五十分鐘呢"
+    "text": "歡迎來到第五十二集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 21.41,
-    "end": 24.91,
+    "start": 20.5,
+    "end": 23.1,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.3,
+    "end": 25.78,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 24.91,
-    "end": 28.34,
+    "start": 25.98,
+    "end": 28.31,
     "speaker": "曉臻",
-    "text": "老師 這張圖的第一天"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 28.34,
-    "end": 32.72,
+    "start": 28.51,
+    "end": 31.57,
+    "speaker": "彥君",
+    "text": "今天我們要來解開",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 31.77,
+    "end": 34.56,
+    "speaker": "彥君",
+    "text": "潮汐的時間密碼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 34.76,
+    "end": 37.82,
+    "speaker": "彥君",
+    "text": "為什麼每天的滿潮時間",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 38.02,
+    "end": 40.74,
+    "speaker": "彥君",
+    "text": "都會晚 $50$ 分鐘呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 40.94,
+    "end": 44.06,
     "speaker": "曉臻",
-    "text": "地球上的小紅旗 剛好對著月球"
+    "text": "老師 這張圖的第一天",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 32.72,
-    "end": 36.01,
+    "start": 44.26,
+    "end": 46.91,
     "speaker": "曉臻",
-    "text": "這時候 就是滿潮對吧"
+    "text": "地球上的小紅旗",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 36.01,
-    "end": 38.4,
-    "speaker": "彥君",
-    "text": "沒錯"
-  },
-  {
-    "start": 38.4,
-    "end": 41.76,
-    "speaker": "彥君",
-    "text": "經過了 二十四小時"
-  },
-  {
-    "start": 41.76,
-    "end": 44.97,
-    "speaker": "彥君",
-    "text": "地球自轉 了一整圈"
-  },
-  {
-    "start": 44.97,
-    "end": 48.59,
-    "speaker": "彥君",
-    "text": "小紅旗 回到原來的位置"
-  },
-  {
-    "start": 48.59,
-    "end": 52.04,
-    "speaker": "彥君",
-    "text": "可是月球 卻不在那裡了"
-  },
-  {
-    "start": 52.04,
-    "end": 55.93,
+    "start": 47.11,
+    "end": 49.45,
     "speaker": "曉臻",
-    "text": "對耶 看第二天的圖"
+    "text": "剛好對著月球",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 55.93,
-    "end": 59.26,
+    "start": 49.65,
+    "end": 52.63,
     "speaker": "曉臻",
-    "text": "月球偷偷 往前跑了一段"
+    "text": "這時候就是滿潮對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 59.26,
-    "end": 62.86,
-    "speaker": "曉臻",
-    "text": "小紅旗 已經對不到 月球了"
-  },
-  {
-    "start": 62.86,
-    "end": 66.24,
+    "start": 52.83,
+    "end": 57.69,
     "speaker": "彥君",
-    "text": "這是因為 月球會公轉"
+    "text": "沒錯 經過了 $24$ 小時",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 66.24,
-    "end": 70.19,
+    "start": 57.89,
+    "end": 60.8,
     "speaker": "彥君",
-    "text": "月球繞地球 一圈大約 三十天"
+    "text": "地球自轉了一整圈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 70.19,
-    "end": 74.24,
+    "start": 61.0,
+    "end": 64.32,
     "speaker": "彥君",
-    "text": "所以一天 大約會往前 走十二度"
+    "text": "小紅旗回到原來的位置",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 74.24,
-    "end": 78.78,
+    "start": 64.52,
+    "end": 67.67,
+    "speaker": "彥君",
+    "text": "可是月球卻不在那裡了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 67.87,
+    "end": 71.46,
     "speaker": "曉臻",
-    "text": "喔 所以地球 要再多轉 一點點"
+    "text": "對耶 看第二天的圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 78.78,
-    "end": 82.01,
+    "start": 71.66,
+    "end": 74.69,
     "speaker": "曉臻",
-    "text": "才能再次 對準月球嗎"
+    "text": "月球偷偷往前跑了一段",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 82.01,
+    "start": 74.89,
+    "end": 78.18,
+    "speaker": "曉臻",
+    "text": "小紅旗已經對不到月球了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 78.38,
+    "end": 81.46,
+    "speaker": "彥君",
+    "text": "這是因為月球會公轉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 81.66,
     "end": 84.46,
     "speaker": "彥君",
-    "text": "聰明"
+    "text": "月球繞地球一圈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 84.46,
-    "end": 88.12,
+    "start": 84.66,
+    "end": 87.45,
     "speaker": "彥君",
-    "text": "地球為了 追上這十二度"
+    "text": "大約需要 $30$ 天",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 88.12,
-    "end": 91.58,
+    "start": 87.65,
+    "end": 90.94,
     "speaker": "彥君",
-    "text": "大約需要 多花 五十分鐘"
+    "text": "所以一天大約會往前",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 91.58,
-    "end": 95.27,
+    "start": 91.14,
+    "end": 93.89,
     "speaker": "彥君",
-    "text": "這就是為什麼 每天的滿潮"
+    "text": "走 $12$ 度的距離",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 95.27,
-    "end": 98.86,
-    "speaker": "彥君",
-    "text": "都會延遲 五十分鐘的原因"
-  },
-  {
-    "start": 98.86,
-    "end": 103.44,
+    "start": 94.09,
+    "end": 97.82,
     "speaker": "曉臻",
-    "text": "老師 那圖標題寫著 延遲二十五分"
+    "text": "喔 所以地球要再多轉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 103.44,
-    "end": 106.1,
+    "start": 98.02,
+    "end": 100.28,
     "speaker": "曉臻",
-    "text": "又是怎麼回事"
+    "text": "一點點的距離",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 106.1,
-    "end": 108.96,
-    "speaker": "彥君",
-    "text": "戰士們 想一下喔"
-  },
-  {
-    "start": 108.96,
-    "end": 113.03,
-    "speaker": "彥君",
-    "text": "台灣通常 一天有 兩次滿潮"
-  },
-  {
-    "start": 113.03,
-    "end": 116.63,
-    "speaker": "彥君",
-    "text": "如果相隔一天 晚五十分鐘"
-  },
-  {
-    "start": 116.63,
-    "end": 120.32,
-    "speaker": "彥君",
-    "text": "那半天後的 下一次滿潮"
-  },
-  {
-    "start": 120.32,
-    "end": 123.94,
-    "speaker": "彥君",
-    "text": "當然就是 晚二十五分鐘囉"
-  },
-  {
-    "start": 123.94,
-    "end": 128.14,
+    "start": 100.48,
+    "end": 103.42,
     "speaker": "曉臻",
-    "text": "哇 這個數學 真的很簡單"
+    "text": "才能再次對準月球嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.14,
-    "end": 131.61,
+    "start": 103.62,
+    "end": 105.76,
+    "speaker": "彥君",
+    "text": "聰明",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 105.96,
+    "end": 109.33,
+    "speaker": "彥君",
+    "text": "地球為了追上這 $12$ 度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 109.53,
+    "end": 112.68,
+    "speaker": "彥君",
+    "text": "大約需要多花 $50$ 分鐘",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 112.88,
+    "end": 116.25,
+    "speaker": "彥君",
+    "text": "這就是為什麼每天的滿潮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 116.45,
+    "end": 119.74,
+    "speaker": "彥君",
+    "text": "都會延遲 $50$ 分鐘的原因",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 119.94,
+    "end": 127.11,
+    "speaker": "彥君",
+    "text": "滿潮每天晚五十分鐘",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "滿潮每天晚五十分鐘"
+    ]
+  },
+  {
+    "start": 127.11,
+    "end": 130.24,
     "speaker": "曉臻",
-    "text": "只要記得 地球自轉的同時"
+    "text": "老師 那圖標題寫著",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 131.61,
-    "end": 134.75,
+    "start": 130.44,
+    "end": 132.9,
     "speaker": "曉臻",
-    "text": "月球也在公轉 就對了"
+    "text": "延遲 $25$ 分鐘",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 134.75,
-    "end": 138.59,
-    "speaker": "彥君",
-    "text": "滿潮時間 每天晚 五十分"
-  },
-  {
-    "start": 138.59,
-    "end": 142.74,
-    "speaker": "彥君",
-    "text": "下次滿潮 就是晚 二十五分"
-  },
-  {
-    "start": 142.74,
-    "end": 146.26,
-    "speaker": "彥君",
-    "text": "關鍵原因 是月球公轉"
-  },
-  {
-    "start": 146.26,
-    "end": 150.07,
-    "speaker": "彥君",
-    "text": "如果今天 中午十二點 滿潮"
-  },
-  {
-    "start": 150.07,
-    "end": 153.31,
-    "speaker": "彥君",
-    "text": "明天中午 十二點"
-  },
-  {
-    "start": 153.31,
-    "end": 156.33,
-    "speaker": "彥君",
-    "text": "海水會是 滿潮嗎"
-  },
-  {
-    "start": 156.33,
-    "end": 160.76,
+    "start": 133.1,
+    "end": 135.46,
     "speaker": "曉臻",
-    "text": "不會 明天的滿潮 會延遲"
+    "text": "又是怎麼回事",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 160.76,
-    "end": 163.69,
-    "speaker": "曉臻",
-    "text": "變成 十二點五十分"
-  },
-  {
-    "start": 163.69,
-    "end": 168.03,
+    "start": 135.66,
+    "end": 138.21,
     "speaker": "彥君",
-    "text": "漂亮 邏輯滿分"
+    "text": "戰士們想一下喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 168.03,
-    "end": 170.93,
+    "start": 138.41,
+    "end": 142.18,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "台灣通常一天有兩次滿潮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 170.93,
-    "end": 173.56,
+    "start": 142.38,
+    "end": 145.68,
+    "speaker": "彥君",
+    "text": "如果相隔一天晚 $50$ 分鐘",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 145.88,
+    "end": 149.25,
+    "speaker": "彥君",
+    "text": "那半天後的下一次滿潮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 149.45,
+    "end": 152.77,
+    "speaker": "彥君",
+    "text": "當然就是晚 $25$ 分鐘囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 152.97,
+    "end": 160.23,
+    "speaker": "彥君",
+    "text": "下一次滿潮晚二十五分",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "下一次滿潮晚二十五分"
+    ]
+  },
+  {
+    "start": 160.23,
+    "end": 164.13,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "哇 這個數學真的很簡單",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 173.56,
-    "end": 177.18,
+    "start": 164.33,
+    "end": 167.5,
+    "speaker": "曉臻",
+    "text": "只要記得地球自轉的同時",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 167.7,
+    "end": 170.54,
+    "speaker": "曉臻",
+    "text": "月球也在公轉就對了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 170.74,
+    "end": 174.4,
+    "speaker": "彥君",
+    "text": "戰士們 我們來快速複習",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 174.6,
+    "end": 178.04,
+    "speaker": "彥君",
+    "text": "滿潮時間每天晚 $50$ 分鐘",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 178.24,
+    "end": 181.8,
+    "speaker": "彥君",
+    "text": "下次滿潮就是晚 $25$ 分鐘",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 182.0,
+    "end": 185.44,
+    "speaker": "彥君",
+    "text": "關鍵原因就是月球公轉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 185.64,
+    "end": 192.86,
+    "speaker": "彥君",
+    "text": "延遲原因是月球公轉",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "延遲原因是月球公轉"
+    ]
+  },
+  {
+    "start": 192.86,
+    "end": 194.98,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 195.18,
+    "end": 198.02,
+    "speaker": "彥君",
+    "text": "閉上眼睛想一想喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 198.22,
+    "end": 201.75,
+    "speaker": "彥君",
+    "text": "如果今天中午十二點滿潮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 201.95,
+    "end": 204.89,
+    "speaker": "彥君",
+    "text": "明天中午十二點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 205.09,
+    "end": 207.81,
+    "speaker": "彥君",
+    "text": "海水會是滿潮嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 208.01,
+    "end": 212.14,
+    "speaker": "曉臻",
+    "text": "不會 明天的滿潮會延遲",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 212.34,
+    "end": 214.97,
+    "speaker": "曉臻",
+    "text": "變成十二點 $50$ 分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 215.17,
+    "end": 219.21,
+    "speaker": "彥君",
+    "text": "漂亮 邏輯滿分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 219.41,
+    "end": 222.68,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 222.88,
+    "end": 225.48,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 225.68,
+    "end": 228.02,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 228.22,
+    "end": 231.54,
     "speaker": "合聲",
-    "text": "潮汐時辰晚五十分"
+    "text": "潮汐時辰 晚五十分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 177.18,
-    "end": 180.04,
+    "start": 231.74,
+    "end": 235.2,
     "speaker": "合聲",
-    "text": "下一關卡見"
+    "text": "戰士們 下一關卡見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
