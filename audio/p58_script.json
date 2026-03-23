@@ -1,296 +1,791 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.86,
+    "start": 3.21,
+    "end": 6.31,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的會考戰士們 我是彥君老師"
+    "text": "天氣圖上的風雲變幻",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.86,
-    "end": 11.22,
+    "start": 6.51,
+    "end": 9.59,
     "speaker": "彥君",
-    "text": "今天來到 第五十八集"
+    "text": "就像考場上的挑戰",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.22,
-    "end": 15.51,
+    "start": 9.79,
+    "end": 12.92,
     "speaker": "彥君",
-    "text": "我們要來破解 天氣圖上的 六大陣地"
+    "text": "你們運籌帷幄的實力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 15.51,
-    "end": 19.01,
+    "start": 13.12,
+    "end": 16.18,
+    "speaker": "彥君",
+    "text": "終將破解所有的難關",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 16.38,
+    "end": 19.58,
+    "speaker": "彥君",
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 19.78,
+    "end": 23.0,
+    "speaker": "彥君",
+    "text": "歡迎來到第五十八集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.2,
+    "end": 25.8,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 26.0,
+    "end": 28.48,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.01,
-    "end": 23.16,
+    "start": 28.68,
+    "end": 31.02,
     "speaker": "曉臻",
-    "text": "老師 這張圖根本是 大魔王吧"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 23.16,
-    "end": 27.57,
+    "start": 31.22,
+    "end": 34.37,
     "speaker": "曉臻",
-    "text": "總共有 甲乙丙丁戊己 六個地方耶"
+    "text": "老師 這張圖根本是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.57,
-    "end": 31.46,
+    "start": 34.57,
+    "end": 37.07,
     "speaker": "曉臻",
-    "text": "到底誰冷誰熱、 誰會下雨啊"
+    "text": "氣象的大魔王吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 31.46,
-    "end": 35.82,
-    "speaker": "彥君",
-    "text": "[戰士們 不要慌 我們分組來看]"
+    "start": 37.27,
+    "end": 40.21,
+    "speaker": "曉臻",
+    "text": "總共有甲乙丙丁戊己",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 35.82,
-    "end": 39.3,
-    "speaker": "彥君",
-    "text": "第一組是 左邊的甲和乙"
+    "start": 40.41,
+    "end": 43.06,
+    "speaker": "曉臻",
+    "text": "總共有六個地方耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 39.3,
-    "end": 42.89,
-    "speaker": "彥君",
-    "text": "它們離 Ｈ高氣壓 最近"
-  },
-  {
-    "start": 42.89,
-    "end": 46.68,
-    "speaker": "彥君",
-    "text": "也就是在 冷氣團的 勢力範圍"
+    "start": 43.26,
+    "end": 46.48,
+    "speaker": "曉臻",
+    "text": "到底誰冷誰熱誰會下雨啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 46.68,
-    "end": 51.38,
+    "end": 49.71,
     "speaker": "彥君",
-    "text": "所以甲和乙 氣壓最高、 都是晴朗乾冷"
+    "text": "戰士們千萬不要慌",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 51.38,
-    "end": 56.13,
+    "start": 49.91,
+    "end": 52.44,
     "speaker": "彥君",
-    "text": "其中甲 離中心最近 所以溫度最低"
+    "text": "我們分組來看",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 56.13,
-    "end": 60.23,
+    "start": 52.64,
+    "end": 55.79,
+    "speaker": "彥君",
+    "text": "第一組是左邊的甲和乙",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 55.99,
+    "end": 59.29,
+    "speaker": "彥君",
+    "text": "它們離 $H$ 高氣壓最近",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 59.49,
+    "end": 62.42,
+    "speaker": "彥君",
+    "text": "也就是在冷氣團的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 62.62,
+    "end": 65.34,
+    "speaker": "彥君",
+    "text": "核心勢力範圍",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 65.54,
+    "end": 68.7,
+    "speaker": "彥君",
+    "text": "所以甲和乙氣壓最高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 68.9,
+    "end": 71.93,
+    "speaker": "彥君",
+    "text": "都是晴朗乾冷的天氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 72.13,
+    "end": 75.3,
+    "speaker": "彥君",
+    "text": "其中甲離中心最近",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 75.5,
+    "end": 78.46,
+    "speaker": "彥君",
+    "text": "所以溫度是最低的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 78.66,
+    "end": 86.72,
+    "speaker": "彥君",
+    "text": "甲乙近高壓氣壓高晴朗乾冷",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "甲乙近高壓氣壓高晴朗乾冷"
+    ]
+  },
+  {
+    "start": 86.72,
+    "end": 90.52,
     "speaker": "曉臻",
-    "text": "喔 高壓就是 冷跟晴朗"
+    "text": "喔 高壓就是冷跟晴朗",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 60.23,
-    "end": 63.3,
+    "start": 90.72,
+    "end": 93.46,
     "speaker": "曉臻",
-    "text": "那第二組的 丙和戊呢"
+    "text": "那第二組的丙和戊呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 63.3,
-    "end": 66.94,
+    "start": 93.66,
+    "end": 96.67,
     "speaker": "曉臻",
-    "text": "它們都在 黑色三角形的 後面"
+    "text": "它們都在黑色三角形的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 66.94,
-    "end": 70.56,
-    "speaker": "彥君",
-    "text": "黑色三角形 叫做冷鋒"
-  },
-  {
-    "start": 70.56,
-    "end": 74.73,
-    "speaker": "彥君",
-    "text": "冷鋒的必考特色 是「鋒後降雨」"
-  },
-  {
-    "start": 74.73,
-    "end": 78.26,
-    "speaker": "彥君",
-    "text": "丙和戊 剛好在冷鋒後方"
-  },
-  {
-    "start": 78.26,
-    "end": 81.73,
-    "speaker": "彥君",
-    "text": "所以 氣溫正在急降"
-  },
-  {
-    "start": 81.73,
-    "end": 84.97,
-    "speaker": "彥君",
-    "text": "而且 正在下著 陣雨喔"
-  },
-  {
-    "start": 84.97,
-    "end": 88.32,
+    "start": 96.87,
+    "end": 99.06,
     "speaker": "曉臻",
-    "text": "老師 那 己 這個地方呢"
+    "text": "後方位置耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 88.32,
-    "end": 91.97,
-    "speaker": "曉臻",
-    "text": "它被夾在 兩個鋒面的 中間耶"
-  },
-  {
-    "start": 91.97,
-    "end": 96.52,
+    "start": 99.26,
+    "end": 102.58,
     "speaker": "彥君",
-    "text": "己地 在冷鋒的前面、 暖鋒的後面"
+    "text": "黑色三角形叫做冷鋒",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 96.52,
-    "end": 99.88,
+    "start": 102.78,
+    "end": 105.65,
     "speaker": "彥君",
-    "text": "這裡受 暖空氣控制"
+    "text": "冷鋒的必考特色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 99.88,
-    "end": 104.72,
+    "start": 105.85,
+    "end": 108.52,
     "speaker": "彥君",
-    "text": "所以己地 是全場溫度最高、 氣壓較低的"
+    "text": "就是鋒後降雨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 104.72,
-    "end": 108.13,
+    "start": 108.72,
+    "end": 111.9,
     "speaker": "彥君",
-    "text": "目前天氣 溫暖晴朗"
+    "text": "丙和戊剛好在冷鋒後方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 108.13,
-    "end": 111.7,
-    "speaker": "曉臻",
-    "text": "最後一個 最右邊的 丁地"
-  },
-  {
-    "start": 111.7,
-    "end": 114.62,
-    "speaker": "曉臻",
-    "text": "它在 半圓形的 前面"
-  },
-  {
-    "start": 114.62,
-    "end": 117.84,
+    "start": 112.1,
+    "end": 115.27,
     "speaker": "彥君",
-    "text": "半圓形 叫做暖鋒"
+    "text": "所以氣溫正在急降",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 117.84,
-    "end": 121.79,
+    "start": 115.47,
+    "end": 118.41,
     "speaker": "彥君",
-    "text": "暖鋒的特色 是「鋒前降雨」"
+    "text": "而且正在下著陣雨喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 121.79,
-    "end": 125.2,
+    "start": 118.61,
+    "end": 126.64,
     "speaker": "彥君",
-    "text": "丁地 剛好在 暖鋒前方"
+    "text": "冷鋒過境鋒後降雨氣溫急降",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "冷鋒過境鋒後降雨氣溫急降"
+    ]
   },
   {
-    "start": 125.2,
-    "end": 128.31,
+    "start": 126.64,
+    "end": 129.7,
+    "speaker": "曉臻",
+    "text": "老師 那己這個地方呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 129.9,
+    "end": 132.64,
+    "speaker": "曉臻",
+    "text": "它被夾在兩個鋒面的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 132.84,
+    "end": 134.84,
+    "speaker": "曉臻",
+    "text": "正中間耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 135.04,
+    "end": 138.02,
     "speaker": "彥君",
-    "text": "所以 氣溫偏涼"
+    "text": "己地在冷鋒的前面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.31,
-    "end": 131.91,
+    "start": 138.22,
+    "end": 140.97,
     "speaker": "彥君",
-    "text": "正在下 連續性的綿綿細雨"
+    "text": "還有暖鋒的後面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 131.91,
-    "end": 135.31,
-    "speaker": "曉臻",
-    "text": "高壓控制 最冷最晴"
-  },
-  {
-    "start": 135.31,
-    "end": 138.69,
-    "speaker": "曉臻",
-    "text": "冷鋒後方 降溫陣雨"
-  },
-  {
-    "start": 138.69,
-    "end": 142.14,
-    "speaker": "曉臻",
-    "text": "暖空氣區 溫度最高"
-  },
-  {
-    "start": 142.14,
-    "end": 145.57,
-    "speaker": "曉臻",
-    "text": "暖鋒前方 綿綿細雨"
-  },
-  {
-    "start": 145.57,
-    "end": 148.69,
+    "start": 141.17,
+    "end": 144.22,
     "speaker": "彥君",
-    "text": "看看圖上的 台灣"
+    "text": "這裡受暖空氣控制",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 148.69,
-    "end": 153.12,
+    "start": 144.42,
+    "end": 147.86,
     "speaker": "彥君",
-    "text": "台灣 接下來的天氣 會怎麼變化"
+    "text": "所以己地是全場溫度最高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 153.12,
-    "end": 156.43,
-    "speaker": "曉臻",
-    "text": "台灣現在在 己地的暖區"
-  },
-  {
-    "start": 156.43,
-    "end": 159.26,
-    "speaker": "曉臻",
-    "text": "等冷鋒 一刮過去"
-  },
-  {
-    "start": 159.26,
-    "end": 163.79,
-    "speaker": "曉臻",
-    "text": "就會變成 戊地那樣 氣溫驟降下大雨"
-  },
-  {
-    "start": 163.79,
-    "end": 168.88,
+    "start": 148.06,
+    "end": 150.86,
     "speaker": "彥君",
-    "text": "漂亮 讀圖能力 宇宙無敵"
+    "text": "氣壓比較低的地方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 168.88,
-    "end": 171.78,
+    "start": 151.06,
+    "end": 154.16,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "目前天氣溫暖晴朗",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 171.78,
-    "end": 174.41,
-    "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "start": 154.36,
+    "end": 162.01,
+    "speaker": "彥君",
+    "text": "己地受暖空氣控制溫暖晴朗",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "己地受暖空氣控制溫暖晴朗"
+    ]
   },
   {
-    "start": 174.41,
-    "end": 177.84,
+    "start": 162.01,
+    "end": 164.92,
     "speaker": "曉臻",
-    "text": "冷後暖前 鋒面雨連"
+    "text": "最後一個最右邊的丁地",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 177.84,
-    "end": 182.06,
+    "start": 165.12,
+    "end": 167.74,
     "speaker": "曉臻",
-    "text": "距離會考 又近一步 我們明天見"
+    "text": "它在半圓形的前面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 167.94,
+    "end": 170.86,
+    "speaker": "彥君",
+    "text": "半圓形叫做暖鋒",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 171.06,
+    "end": 174.45,
+    "speaker": "彥君",
+    "text": "暖鋒的特色是鋒前降雨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 174.65,
+    "end": 177.7,
+    "speaker": "彥君",
+    "text": "丁地剛好在暖鋒前方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 177.9,
+    "end": 180.77,
+    "speaker": "彥君",
+    "text": "所以氣溫偏涼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 180.97,
+    "end": 184.12,
+    "speaker": "彥君",
+    "text": "正在下連續的綿綿細雨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 184.32,
+    "end": 192.4,
+    "speaker": "彥君",
+    "text": "暖鋒過境鋒前降雨綿綿細雨",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "暖鋒過境鋒前降雨綿綿細雨"
+    ]
+  },
+  {
+    "start": 192.4,
+    "end": 194.16,
+    "speaker": "曉臻",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 194.36,
+    "end": 197.25,
+    "speaker": "曉臻",
+    "text": "六大地盤總複習來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 197.45,
+    "end": 200.41,
+    "speaker": "曉臻",
+    "text": "第一 甲乙高壓控制",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 200.61,
+    "end": 203.35,
+    "speaker": "曉臻",
+    "text": "溫度最冷天氣最晴",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 203.55,
+    "end": 244.49,
+    "speaker": "彥君",
+    "text": "一甲乙高壓控制最冷最晴",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "一甲乙高壓控制最冷最晴"
+    ]
+  },
+  {
+    "start": 208.61,
+    "end": 211.54,
+    "speaker": "曉臻",
+    "text": "第二 丙戊冷鋒後方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 211.74,
+    "end": 214.39,
+    "speaker": "曉臻",
+    "text": "溫度急降下著陣雨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 214.59,
+    "end": 244.49,
+    "speaker": "彥君",
+    "text": "二丙戊冷鋒後方降溫陣雨",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "二丙戊冷鋒後方降溫陣雨"
+    ]
+  },
+  {
+    "start": 219.36,
+    "end": 222.42,
+    "speaker": "曉臻",
+    "text": "第三 己地暖空氣區",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 222.62,
+    "end": 225.41,
+    "speaker": "曉臻",
+    "text": "全場溫度是最高的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 225.61,
+    "end": 244.49,
+    "speaker": "彥君",
+    "text": "三己地暖空氣區溫度最高",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "三己地暖空氣區溫度最高"
+    ]
+  },
+  {
+    "start": 230.23,
+    "end": 233.24,
+    "speaker": "曉臻",
+    "text": "第四 丁地暖鋒前方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 233.44,
+    "end": 236.21,
+    "speaker": "曉臻",
+    "text": "下著連續綿綿細雨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 236.41,
+    "end": 244.49,
+    "speaker": "彥君",
+    "text": "四丁地暖鋒前方綿綿細雨",
+    "is_pinned": true,
+    "pin_level": 4,
+    "commands": [
+      "釘選",
+      "四丁地暖鋒前方綿綿細雨"
+    ]
+  },
+  {
+    "start": 244.49,
+    "end": 246.61,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 246.81,
+    "end": 249.65,
+    "speaker": "彥君",
+    "text": "閉上眼睛想一想喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 249.85,
+    "end": 252.66,
+    "speaker": "彥君",
+    "text": "看看圖上的台灣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 252.86,
+    "end": 255.9,
+    "speaker": "彥君",
+    "text": "台灣接下來的天氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 256.1,
+    "end": 258.53,
+    "speaker": "彥君",
+    "text": "會怎麼變化呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 258.73,
+    "end": 261.74,
+    "speaker": "曉臻",
+    "text": "台灣現在在己地的暖區",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 261.94,
+    "end": 264.44,
+    "speaker": "曉臻",
+    "text": "等冷鋒一刮過去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 264.64,
+    "end": 267.26,
+    "speaker": "曉臻",
+    "text": "就會變成戊地那樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 267.46,
+    "end": 269.99,
+    "speaker": "曉臻",
+    "text": "氣溫驟降下大雨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 270.19,
+    "end": 272.24,
+    "speaker": "彥君",
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 272.44,
+    "end": 275.47,
+    "speaker": "彥君",
+    "text": "讀圖能力宇宙無敵",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 275.67,
+    "end": 278.94,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 279.14,
+    "end": 281.74,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 281.94,
+    "end": 284.28,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 284.48,
+    "end": 287.92,
+    "speaker": "合聲",
+    "text": "冷後暖前 鋒面雨連",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 288.12,
+    "end": 291.58,
+    "speaker": "合聲",
+    "text": "戰士們 我們下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
