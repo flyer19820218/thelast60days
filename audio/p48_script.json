@@ -1,344 +1,713 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 5.42,
+    "start": 3.21,
+    "end": 6.84,
     "speaker": "彥君",
-    "text": "各位衝 A的戰士們"
+    "text": "太陽的軌跡始終有跡可循",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 5.42,
-    "end": 8.32,
+    "start": 7.04,
+    "end": 10.24,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "你們追逐夢想的腳步",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 8.32,
-    "end": 11.74,
+    "start": 10.44,
+    "end": 13.57,
     "speaker": "彥君",
-    "text": "接續 剛才的四季概念"
+    "text": "終將把陰影拋在腦後",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.74,
-    "end": 14.96,
+    "start": 13.77,
+    "end": 16.97,
     "speaker": "彥君",
-    "text": "我們要進攻 觀念題"
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 14.96,
-    "end": 18.5,
+    "start": 17.17,
+    "end": 20.46,
     "speaker": "彥君",
-    "text": "太陽直射 與 影子方位"
+    "text": "歡迎來到第四十八集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.5,
-    "end": 22.0,
+    "start": 20.66,
+    "end": 23.26,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.46,
+    "end": 25.94,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.0,
-    "end": 25.34,
+    "start": 26.14,
+    "end": 28.48,
     "speaker": "曉臻",
-    "text": "老師 考直射的次數"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 25.34,
-    "end": 27.97,
+    "start": 28.68,
+    "end": 31.81,
+    "speaker": "彥君",
+    "text": "接續剛才的四季概念",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 32.01,
+    "end": 34.92,
+    "speaker": "彥君",
+    "text": "我們要進攻觀念題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 35.12,
+    "end": 38.37,
+    "speaker": "彥君",
+    "text": "太陽直射與影子方位",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 38.57,
+    "end": 41.62,
     "speaker": "曉臻",
-    "text": "到底要怎麼背 呢"
+    "text": "老師 考直射的次數",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.97,
-    "end": 31.28,
-    "speaker": "彥君",
-    "text": "我們先看 太陽的走位"
-  },
-  {
-    "start": 31.28,
-    "end": 34.32,
-    "speaker": "彥君",
-    "text": "太陽在地球上"
-  },
-  {
-    "start": 34.32,
-    "end": 37.58,
-    "speaker": "彥君",
-    "text": "有 專屬的活動範圍"
-  },
-  {
-    "start": 37.58,
-    "end": 41.23,
-    "speaker": "彥君",
-    "text": "只在 北緯 235 度"
-  },
-  {
-    "start": 41.23,
-    "end": 44.87,
-    "speaker": "彥君",
-    "text": "到 南緯 235 度移動"
-  },
-  {
-    "start": 44.87,
-    "end": 47.87,
+    "start": 41.82,
+    "end": 44.16,
     "speaker": "曉臻",
-    "text": "太陽 就像在回歸線"
+    "text": "到底要怎麼背呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 47.87,
-    "end": 50.77,
+    "start": 44.36,
+    "end": 47.37,
+    "speaker": "彥君",
+    "text": "我們先看太陽的走位",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 47.57,
+    "end": 50.74,
+    "speaker": "彥君",
+    "text": "太陽在地球的表面上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 50.94,
+    "end": 54.02,
+    "speaker": "彥君",
+    "text": "都有專屬的活動範圍",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 54.22,
+    "end": 57.57,
+    "speaker": "彥君",
+    "text": "只在北緯 $23.5$ 度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 57.77,
+    "end": 61.11,
+    "speaker": "彥君",
+    "text": "到南緯 $23.5$ 度移動",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 61.31,
+    "end": 64.25,
     "speaker": "曉臻",
-    "text": "不停的 來回折返跑"
+    "text": "太陽就像在回歸線上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 50.77,
-    "end": 55.59,
-    "speaker": "彥君",
-    "text": "聰明 因為範圍有限"
-  },
-  {
-    "start": 55.59,
-    "end": 58.87,
-    "speaker": "彥君",
-    "text": "所以有 次數的差別"
-  },
-  {
-    "start": 58.87,
-    "end": 62.18,
-    "speaker": "彥君",
-    "text": "先找 直射 0 次的人"
-  },
-  {
-    "start": 62.18,
-    "end": 65.39,
-    "speaker": "彥君",
-    "text": "既然 太陽不出去"
-  },
-  {
-    "start": 65.39,
-    "end": 68.63,
-    "speaker": "彥君",
-    "text": "住得比 回歸線還北"
-  },
-  {
-    "start": 68.63,
-    "end": 72.06,
-    "speaker": "彥君",
-    "text": "像是 台北 或是 日本"
-  },
-  {
-    "start": 72.06,
-    "end": 75.08,
+    "start": 64.45,
+    "end": 67.02,
     "speaker": "曉臻",
-    "text": "等不到 太陽在正頭頂"
+    "text": "不停地來回折返跑",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 75.08,
-    "end": 78.17,
+    "start": 67.22,
+    "end": 71.67,
+    "speaker": "彥君",
+    "text": "聰明 因為範圍有限",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 71.87,
+    "end": 75.22,
+    "speaker": "彥君",
+    "text": "所以就有次數的差別",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 75.42,
+    "end": 78.42,
+    "speaker": "彥君",
+    "text": "先找直射 $0$ 次的人",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 78.62,
+    "end": 81.87,
+    "speaker": "彥君",
+    "text": "既然太陽不會跑出去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 82.07,
+    "end": 85.22,
+    "speaker": "彥君",
+    "text": "住得比回歸線還要北",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 85.42,
+    "end": 88.7,
+    "speaker": "彥君",
+    "text": "就像是台北或是日本",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 88.9,
+    "end": 91.81,
     "speaker": "曉臻",
-    "text": "所以 直射 就是 0 次"
+    "text": "就等不到太陽在正頭頂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 78.17,
-    "end": 80.88,
-    "speaker": "彥君",
-    "text": "完全正確"
-  },
-  {
-    "start": 80.88,
-    "end": 84.33,
-    "speaker": "彥君",
-    "text": "來看 直射 1 次的幸運兒"
-  },
-  {
-    "start": 84.33,
-    "end": 87.66,
-    "speaker": "彥君",
-    "text": "住在 跑道折返點上"
-  },
-  {
-    "start": 87.66,
-    "end": 91.14,
-    "speaker": "彥君",
-    "text": "像是 北回歸線的嘉義"
-  },
-  {
-    "start": 91.14,
-    "end": 94.64,
-    "speaker": "彥君",
-    "text": "或是 南回歸線的城市"
-  },
-  {
-    "start": 94.64,
-    "end": 97.73,
+    "start": 92.01,
+    "end": 94.8,
     "speaker": "曉臻",
-    "text": "太陽 碰到 就回頭了"
+    "text": "所以直射就是 $0$ 次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 97.73,
-    "end": 100.34,
+    "start": 95.0,
+    "end": 97.41,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 97.61,
+    "end": 105.02,
+    "speaker": "彥君",
+    "text": "回歸線外直射零次",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "回歸線外直射零次"
+    ]
+  },
+  {
+    "start": 105.02,
+    "end": 108.17,
+    "speaker": "彥君",
+    "text": "來看直射 $1$ 次的幸運兒",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 108.37,
+    "end": 111.52,
+    "speaker": "彥君",
+    "text": "剛好住在跑道折返點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 111.72,
+    "end": 114.9,
+    "speaker": "彥君",
+    "text": "像是北回歸線的嘉義",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 115.1,
+    "end": 118.3,
+    "speaker": "彥君",
+    "text": "或是南回歸線的城市",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 118.5,
+    "end": 121.43,
     "speaker": "曉臻",
-    "text": "所以 只有 1 次"
+    "text": "太陽一碰到就回頭了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 100.34,
-    "end": 102.69,
-    "speaker": "彥君",
-    "text": "漂亮"
-  },
-  {
-    "start": 102.69,
-    "end": 105.97,
-    "speaker": "彥君",
-    "text": "那 直射 2 次的 ＶＩＰ呢"
-  },
-  {
-    "start": 105.97,
-    "end": 109.42,
-    "speaker": "彥君",
-    "text": "住在 回歸線中間的人"
-  },
-  {
-    "start": 109.42,
-    "end": 112.73,
-    "speaker": "彥君",
-    "text": "像是 赤道 或是 屏東"
-  },
-  {
-    "start": 112.73,
-    "end": 115.75,
-    "speaker": "彥君",
-    "text": "太陽 過去一次"
-  },
-  {
-    "start": 115.75,
-    "end": 118.53,
-    "speaker": "彥君",
-    "text": "回來 又一次"
-  },
-  {
-    "start": 118.53,
-    "end": 122.08,
-    "speaker": "彥君",
-    "text": "總共會 經過頭頂 2 次"
-  },
-  {
-    "start": 122.08,
-    "end": 124.98,
+    "start": 121.63,
+    "end": 124.57,
     "speaker": "曉臻",
-    "text": "那 影子方位 怎麼看"
+    "text": "所以直射就只有 $1$ 次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 124.98,
-    "end": 128.62,
+    "start": 124.77,
+    "end": 126.82,
     "speaker": "彥君",
-    "text": "影子 在太陽相反方向"
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.62,
-    "end": 131.76,
+    "start": 127.02,
+    "end": 134.23,
     "speaker": "彥君",
-    "text": "我們拿 台北 當例子"
+    "text": "住在回歸線上直射一次",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "住在回歸線上直射一次"
+    ]
   },
   {
-    "start": 131.76,
-    "end": 135.19,
+    "start": 134.23,
+    "end": 137.26,
     "speaker": "彥君",
-    "text": "太陽 永遠在 台北南方"
+    "text": "那直射 $2$ 次的 $V I P$ 呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 135.19,
-    "end": 138.19,
+    "start": 137.46,
+    "end": 140.57,
+    "speaker": "彥君",
+    "text": "住在回歸線中間的人",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 140.77,
+    "end": 143.9,
+    "speaker": "彥君",
+    "text": "就像是赤道或是屏東",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 144.1,
+    "end": 147.27,
+    "speaker": "彥君",
+    "text": "太陽過去會經過一次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 147.47,
+    "end": 150.65,
+    "speaker": "彥君",
+    "text": "回來的時候又會一次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 150.85,
+    "end": 154.1,
+    "speaker": "彥君",
+    "text": "總共會經過頭頂 $2$ 次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 154.3,
+    "end": 161.63,
+    "speaker": "彥君",
+    "text": "回歸線中間直射兩次",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "回歸線中間直射兩次"
+    ]
+  },
+  {
+    "start": 161.63,
+    "end": 164.23,
     "speaker": "曉臻",
-    "text": "中午時 太陽在南邊"
+    "text": "那影子方位怎麼看",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 138.19,
-    "end": 141.45,
-    "speaker": "曉臻",
-    "text": "台北人 影子就朝正北"
-  },
-  {
-    "start": 141.45,
-    "end": 146.17,
+    "start": 164.43,
+    "end": 167.78,
     "speaker": "彥君",
-    "text": "沒錯 這就是秒殺法"
+    "text": "影子在太陽相反方向",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 146.17,
-    "end": 149.53,
-    "speaker": "曉臻",
-    "text": "回歸線外 影子朝北"
-  },
-  {
-    "start": 149.53,
-    "end": 152.36,
-    "speaker": "曉臻",
-    "text": "剛好在 回歸線上"
-  },
-  {
-    "start": 152.36,
-    "end": 155.21,
-    "speaker": "曉臻",
-    "text": "住在 回歸線裡面"
-  },
-  {
-    "start": 155.21,
-    "end": 158.42,
+    "start": 167.98,
+    "end": 170.98,
     "speaker": "彥君",
-    "text": "考試問 台北的夏至"
+    "text": "我們拿台北當作例子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 158.42,
-    "end": 161.49,
+    "start": 171.18,
+    "end": 174.31,
     "speaker": "彥君",
-    "text": "太陽直射 幾次"
+    "text": "太陽永遠在台北南方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 161.49,
-    "end": 164.44,
-    "speaker": "彥君",
-    "text": "影子 朝向哪邊"
-  },
-  {
-    "start": 164.44,
-    "end": 168.66,
+    "start": 174.51,
+    "end": 177.35,
     "speaker": "曉臻",
-    "text": "直射 0 次 影子朝正北"
+    "text": "中午的時候太陽在南",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 168.66,
-    "end": 173.07,
-    "speaker": "彥君",
-    "text": "漂亮 邏輯全拿了"
-  },
-  {
-    "start": 173.07,
-    "end": 175.97,
-    "speaker": "彥君",
-    "text": "我是彥君老師"
-  },
-  {
-    "start": 175.97,
-    "end": 178.6,
+    "start": 177.55,
+    "end": 180.51,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "台北人影子就朝正北",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 178.6,
-    "end": 182.39,
+    "start": 180.71,
+    "end": 185.14,
+    "speaker": "彥君",
+    "text": "沒錯 這就是秒殺法",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 185.34,
+    "end": 188.13,
+    "speaker": "曉臻",
+    "text": "老師 我整理一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 188.33,
+    "end": 190.95,
+    "speaker": "曉臻",
+    "text": "大魔王總複習來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 191.15,
+    "end": 193.78,
+    "speaker": "曉臻",
+    "text": "第一 直射 $0$ 次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 193.98,
+    "end": 196.7,
+    "speaker": "曉臻",
+    "text": "回歸線外影子朝北",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 196.9,
+    "end": 225.69,
+    "speaker": "彥君",
+    "text": "一直射零次回歸線外影子朝北",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "一直射零次回歸線外影子朝北"
+    ]
+  },
+  {
+    "start": 201.81,
+    "end": 204.43,
+    "speaker": "曉臻",
+    "text": "第二 直射 $1$ 次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 204.63,
+    "end": 207.16,
+    "speaker": "曉臻",
+    "text": "剛好在回歸線上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 207.36,
+    "end": 225.69,
+    "speaker": "彥君",
+    "text": "二直射一次剛好在回歸線上",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "二直射一次剛好在回歸線上"
+    ]
+  },
+  {
+    "start": 212.08,
+    "end": 214.8,
+    "speaker": "曉臻",
+    "text": "第三 直射 $2$ 次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 215.0,
+    "end": 217.55,
+    "speaker": "曉臻",
+    "text": "住在回歸線裡面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 217.75,
+    "end": 225.69,
+    "speaker": "彥君",
+    "text": "三直射兩次住在回歸線裡面",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "三直射兩次住在回歸線裡面"
+    ]
+  },
+  {
+    "start": 225.69,
+    "end": 227.81,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 228.01,
+    "end": 230.9,
+    "speaker": "彥君",
+    "text": "請閉上眼想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 231.1,
+    "end": 234.03,
+    "speaker": "彥君",
+    "text": "考試問台北的夏至",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 234.23,
+    "end": 237.14,
+    "speaker": "彥君",
+    "text": "太陽會直射幾次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 237.34,
+    "end": 240.11,
+    "speaker": "彥君",
+    "text": "影子會朝向哪邊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 240.31,
+    "end": 242.67,
+    "speaker": "曉臻",
+    "text": "台北直射 $0$ 次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 242.87,
+    "end": 245.4,
+    "speaker": "曉臻",
+    "text": "中午影子朝正北",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 245.6,
+    "end": 249.71,
+    "speaker": "彥君",
+    "text": "漂亮 邏輯全拿了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 249.91,
+    "end": 253.18,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 253.38,
+    "end": 255.98,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 256.18,
+    "end": 258.52,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 258.72,
+    "end": 262.11,
     "speaker": "合聲",
-    "text": "邏輯通透 地科神準"
+    "text": "直射走位 滿分到位",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 182.39,
-    "end": 185.65,
+    "start": 262.31,
+    "end": 265.78,
     "speaker": "合聲",
-    "text": "下一張投影片見"
+    "text": "戰士們 我們下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
