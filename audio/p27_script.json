@@ -163,16 +163,19 @@
   },
   {
     "start": 56.28,
-    "end": 67.52,
-    "speaker": "曉臻",
-    "text": "用鰓呼吸、體外受精、變溫動物]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "魚類：用鰓呼吸、體外受精、變溫動物",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "魚類：用鰓呼吸、體外受精、變溫動物"
+    ]
   },
   {
-    "start": 67.72,
-    "end": 70.39,
+    "start": 65.54,
+    "end": 68.21,
     "speaker": "彥君",
     "text": "呼吸都是用鰓",
     "is_pinned": false,
@@ -182,8 +185,8 @@
     ]
   },
   {
-    "start": 70.59,
-    "end": 73.07,
+    "start": 68.41,
+    "end": 70.89,
     "speaker": "彥君",
     "text": "多為體外受精",
     "is_pinned": false,
@@ -191,8 +194,8 @@
     "commands": []
   },
   {
-    "start": 73.27,
-    "end": 76.18,
+    "start": 71.09,
+    "end": 74.0,
     "speaker": "彥君",
     "text": "卵生且是變溫的",
     "is_pinned": false,
@@ -200,8 +203,8 @@
     "commands": []
   },
   {
-    "start": 76.38,
-    "end": 78.74,
+    "start": 74.2,
+    "end": 76.56,
     "speaker": "曉臻",
     "text": "硬骨魚有鰓蓋喔",
     "is_pinned": false,
@@ -211,8 +214,8 @@
     ]
   },
   {
-    "start": 78.94,
-    "end": 81.47,
+    "start": 76.76,
+    "end": 79.29,
     "speaker": "曉臻",
     "text": "老師我請問一下",
     "is_pinned": false,
@@ -220,8 +223,8 @@
     "commands": []
   },
   {
-    "start": 81.67,
-    "end": 84.61,
+    "start": 79.49,
+    "end": 82.42,
     "speaker": "曉臻",
     "text": "軟骨魚代表是鯊魚嗎",
     "is_pinned": false,
@@ -229,8 +232,8 @@
     "commands": []
   },
   {
-    "start": 84.81,
-    "end": 88.27,
+    "start": 82.62,
+    "end": 86.09,
     "speaker": "彥君",
     "text": "沒錯鯊魚很特別",
     "is_pinned": false,
@@ -238,8 +241,8 @@
     "commands": []
   },
   {
-    "start": 88.47,
-    "end": 91.34,
+    "start": 86.29,
+    "end": 89.15,
     "speaker": "彥君",
     "text": "有些還是卵胎生喔",
     "is_pinned": false,
@@ -247,8 +250,8 @@
     "commands": []
   },
   {
-    "start": 91.54,
-    "end": 94.45,
+    "start": 89.35,
+    "end": 92.26,
     "speaker": "彥君",
     "text": "大家趕快填上去",
     "is_pinned": false,
@@ -256,8 +259,8 @@
     "commands": []
   },
   {
-    "start": 94.65,
-    "end": 97.49,
+    "start": 92.46,
+    "end": 95.3,
     "speaker": "彥君",
     "text": "鰓裂與體外受精",
     "is_pinned": false,
@@ -267,8 +270,8 @@
     ]
   },
   {
-    "start": 97.69,
-    "end": 100.34,
+    "start": 95.5,
+    "end": 98.15,
     "speaker": "彥君",
     "text": "還有變溫動物",
     "is_pinned": false,
@@ -276,8 +279,8 @@
     "commands": []
   },
   {
-    "start": 100.54,
-    "end": 102.92,
+    "start": 98.35,
+    "end": 100.74,
     "speaker": "曉臻",
     "text": "大家字寫快一點",
     "is_pinned": false,
@@ -285,8 +288,8 @@
     "commands": []
   },
   {
-    "start": 103.12,
-    "end": 105.67,
+    "start": 100.94,
+    "end": 103.49,
     "speaker": "曉臻",
     "text": "鯊魚正在看你喔",
     "is_pinned": false,
@@ -294,8 +297,8 @@
     "commands": []
   },
   {
-    "start": 105.87,
-    "end": 108.45,
+    "start": 103.69,
+    "end": 106.26,
     "speaker": "彥君",
     "text": "接著看第二列",
     "is_pinned": false,
@@ -303,8 +306,8 @@
     "commands": []
   },
   {
-    "start": 108.65,
-    "end": 111.97,
+    "start": 106.46,
+    "end": 109.78,
     "speaker": "彥君",
     "text": "兩生類代表是青蛙",
     "is_pinned": false,
@@ -312,17 +315,20 @@
     "commands": []
   },
   {
-    "start": 112.17,
-    "end": 122.33,
-    "speaker": "曉臻",
-    "text": "幼體鰓、成體肺與皮膚、體外受精]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "start": 109.98,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "兩生類：幼體鰓、成體肺與皮膚、體外受精",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "兩生類：幼體鰓、成體肺與皮膚、體外受精"
+    ]
   },
   {
-    "start": 122.53,
-    "end": 125.56,
+    "start": 118.09,
+    "end": 121.12,
     "speaker": "彥君",
     "text": "小時候用鰓呼吸",
     "is_pinned": false,
@@ -332,8 +338,8 @@
     ]
   },
   {
-    "start": 125.76,
-    "end": 128.58,
+    "start": 121.32,
+    "end": 124.14,
     "speaker": "彥君",
     "text": "長大用肺和皮膚",
     "is_pinned": false,
@@ -341,8 +347,8 @@
     "commands": []
   },
   {
-    "start": 128.78,
-    "end": 131.54,
+    "start": 124.34,
+    "end": 127.1,
     "speaker": "彥君",
     "text": "因為沒脫離水域",
     "is_pinned": false,
@@ -350,8 +356,8 @@
     "commands": []
   },
   {
-    "start": 131.74,
-    "end": 134.61,
+    "start": 127.3,
+    "end": 130.17,
     "speaker": "彥君",
     "text": "所以是體外受精",
     "is_pinned": false,
@@ -359,8 +365,8 @@
     "commands": []
   },
   {
-    "start": 134.81,
-    "end": 137.34,
+    "start": 130.37,
+    "end": 132.9,
     "speaker": "彥君",
     "text": "一樣是變溫的喔",
     "is_pinned": false,
@@ -368,8 +374,8 @@
     "commands": []
   },
   {
-    "start": 137.54,
-    "end": 140.02,
+    "start": 133.1,
+    "end": 135.58,
     "speaker": "曉臻",
     "text": "記得寫肺和皮膚",
     "is_pinned": false,
@@ -377,8 +383,8 @@
     "commands": []
   },
   {
-    "start": 140.22,
-    "end": 142.77,
+    "start": 135.78,
+    "end": 138.33,
     "speaker": "曉臻",
     "text": "青蛙皮膚要保濕",
     "is_pinned": false,
@@ -386,8 +392,8 @@
     "commands": []
   },
   {
-    "start": 142.97,
-    "end": 145.45,
+    "start": 138.53,
+    "end": 141.01,
     "speaker": "曉臻",
     "text": "才能順利地呼吸",
     "is_pinned": false,
@@ -395,8 +401,8 @@
     "commands": []
   },
   {
-    "start": 145.65,
-    "end": 148.22,
+    "start": 141.21,
+    "end": 143.78,
     "speaker": "曉臻",
     "text": "不能離開水太遠喔",
     "is_pinned": false,
@@ -404,8 +410,8 @@
     "commands": []
   },
   {
-    "start": 148.42,
-    "end": 150.93,
+    "start": 143.98,
+    "end": 146.49,
     "speaker": "彥君",
     "text": "大家都寫完了嗎",
     "is_pinned": false,
@@ -413,8 +419,8 @@
     "commands": []
   },
   {
-    "start": 151.13,
-    "end": 154.42,
+    "start": 146.69,
+    "end": 149.98,
     "speaker": "彥君",
     "text": "戰士們我們要登陸了",
     "is_pinned": false,
@@ -422,8 +428,8 @@
     "commands": []
   },
   {
-    "start": 154.62,
-    "end": 157.42,
+    "start": 150.18,
+    "end": 152.98,
     "speaker": "彥君",
     "text": "真正的爬蟲類來了",
     "is_pinned": false,
@@ -431,17 +437,20 @@
     "commands": []
   },
   {
-    "start": 157.62,
-    "end": 171.76,
-    "speaker": "曉臻",
-    "text": "肺呼吸、體內受精、有殼卵、變溫]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "start": 153.18,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "爬蟲類：肺呼吸、體內受精、有殼卵、變溫",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "爬蟲類：肺呼吸、體內受精、有殼卵、變溫"
+    ]
   },
   {
-    "start": 171.96,
-    "end": 174.9,
+    "start": 164.69,
+    "end": 167.62,
     "speaker": "彥君",
     "text": "呼吸完全改用肺",
     "is_pinned": false,
@@ -449,8 +458,8 @@
     "commands": []
   },
   {
-    "start": 175.1,
-    "end": 177.91,
+    "start": 167.82,
+    "end": 170.64,
     "speaker": "彥君",
     "text": "因為在陸地生活",
     "is_pinned": false,
@@ -458,8 +467,8 @@
     "commands": []
   },
   {
-    "start": 178.11,
-    "end": 180.88,
+    "start": 170.84,
+    "end": 173.61,
     "speaker": "彥君",
     "text": "變成體內受精了",
     "is_pinned": false,
@@ -467,8 +476,8 @@
     "commands": []
   },
   {
-    "start": 181.08,
-    "end": 184.02,
+    "start": 173.81,
+    "end": 176.74,
     "speaker": "彥君",
     "text": "為了保護卵不乾掉",
     "is_pinned": false,
@@ -476,8 +485,8 @@
     "commands": []
   },
   {
-    "start": 184.22,
-    "end": 187.08,
+    "start": 176.94,
+    "end": 179.81,
     "speaker": "彥君",
     "text": "會產下有殼的卵喔",
     "is_pinned": false,
@@ -485,8 +494,8 @@
     "commands": []
   },
   {
-    "start": 187.28,
-    "end": 189.9,
+    "start": 180.01,
+    "end": 182.63,
     "speaker": "曉臻",
     "text": "老師我問一下",
     "is_pinned": false,
@@ -494,8 +503,8 @@
     "commands": []
   },
   {
-    "start": 190.1,
-    "end": 192.92,
+    "start": 182.83,
+    "end": 185.65,
     "speaker": "曉臻",
     "text": "烏龜跟蛇也是變溫嗎",
     "is_pinned": false,
@@ -503,8 +512,8 @@
     "commands": []
   },
   {
-    "start": 193.12,
-    "end": 196.3,
+    "start": 185.85,
+    "end": 189.02,
     "speaker": "彥君",
     "text": "是的所以要冬眠喔",
     "is_pinned": false,
@@ -512,8 +521,8 @@
     "commands": []
   },
   {
-    "start": 196.5,
-    "end": 199.36,
+    "start": 189.22,
+    "end": 192.09,
     "speaker": "彥君",
     "text": "大家快點填上去",
     "is_pinned": false,
@@ -521,8 +530,8 @@
     "commands": []
   },
   {
-    "start": 199.56,
-    "end": 202.16,
+    "start": 192.29,
+    "end": 194.89,
     "speaker": "彥君",
     "text": "肺和體內受精",
     "is_pinned": false,
@@ -530,8 +539,8 @@
     "commands": []
   },
   {
-    "start": 202.36,
-    "end": 205.1,
+    "start": 195.09,
+    "end": 197.83,
     "speaker": "彥君",
     "text": "有殼卵以及變溫",
     "is_pinned": false,
@@ -539,8 +548,8 @@
     "commands": []
   },
   {
-    "start": 205.3,
-    "end": 207.76,
+    "start": 198.03,
+    "end": 200.49,
     "speaker": "曉臻",
     "text": "這格內容比較多",
     "is_pinned": false,
@@ -548,8 +557,8 @@
     "commands": []
   },
   {
-    "start": 207.96,
-    "end": 210.42,
+    "start": 200.69,
+    "end": 203.14,
     "speaker": "曉臻",
     "text": "大家可以慢慢寫",
     "is_pinned": false,
@@ -557,8 +566,8 @@
     "commands": []
   },
   {
-    "start": 210.62,
-    "end": 213.05,
+    "start": 203.34,
+    "end": 205.78,
     "speaker": "曉臻",
     "text": "我們稍微等一下",
     "is_pinned": false,
@@ -566,8 +575,8 @@
     "commands": []
   },
   {
-    "start": 213.25,
-    "end": 217.1,
+    "start": 205.98,
+    "end": 209.82,
     "speaker": "彥君",
     "text": "撐過這關後面就是坦途",
     "is_pinned": false,
@@ -575,8 +584,8 @@
     "commands": []
   },
   {
-    "start": 217.3,
-    "end": 220.06,
+    "start": 210.02,
+    "end": 212.79,
     "speaker": "彥君",
     "text": "下一列是鳥類了",
     "is_pinned": false,
@@ -584,8 +593,8 @@
     "commands": []
   },
   {
-    "start": 220.26,
-    "end": 222.89,
+    "start": 212.99,
+    "end": 215.62,
     "speaker": "彥君",
     "text": "牠們有獨門秘方",
     "is_pinned": false,
@@ -593,8 +602,8 @@
     "commands": []
   },
   {
-    "start": 223.09,
-    "end": 226.05,
+    "start": 215.82,
+    "end": 218.78,
     "speaker": "彥君",
     "text": "那就是厲害的氣囊",
     "is_pinned": false,
@@ -602,17 +611,20 @@
     "commands": []
   },
   {
-    "start": 226.25,
-    "end": 240.06,
-    "speaker": "曉臻",
-    "text": "氣囊輔助、體內受精、有殼卵、恆溫]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "start": 218.98,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "鳥類：氣囊輔助、體內受精、有殼卵、恆溫",
+    "is_pinned": true,
+    "pin_level": 4,
+    "commands": [
+      "釘選",
+      "鳥類：氣囊輔助、體內受精、有殼卵、恆溫"
+    ]
   },
   {
-    "start": 240.26,
-    "end": 243.29,
+    "start": 230.39,
+    "end": 233.42,
     "speaker": "彥君",
     "text": "飛翔時補足氧氣",
     "is_pinned": false,
@@ -620,8 +632,8 @@
     "commands": []
   },
   {
-    "start": 243.49,
-    "end": 246.86,
+    "start": 233.62,
+    "end": 236.99,
     "speaker": "彥君",
     "text": "體內受精產有殼卵",
     "is_pinned": false,
@@ -629,8 +641,8 @@
     "commands": []
   },
   {
-    "start": 247.06,
-    "end": 250.59,
+    "start": 237.19,
+    "end": 240.73,
     "speaker": "彥君",
     "text": "重點是從鳥類開始",
     "is_pinned": false,
@@ -638,8 +650,8 @@
     "commands": []
   },
   {
-    "start": 250.79,
-    "end": 253.54,
+    "start": 240.93,
+    "end": 243.67,
     "speaker": "彥君",
     "text": "變成恆溫動物了",
     "is_pinned": false,
@@ -647,8 +659,8 @@
     "commands": []
   },
   {
-    "start": 253.74,
-    "end": 256.6,
+    "start": 243.87,
+    "end": 246.74,
     "speaker": "曉臻",
     "text": "戰士們注意小字",
     "is_pinned": false,
@@ -656,8 +668,8 @@
     "commands": []
   },
   {
-    "start": 256.8,
-    "end": 259.28,
+    "start": 246.94,
+    "end": 249.42,
     "speaker": "曉臻",
     "text": "企鵝與骨骼中空",
     "is_pinned": false,
@@ -667,8 +679,8 @@
     ]
   },
   {
-    "start": 259.48,
-    "end": 261.84,
+    "start": 249.62,
+    "end": 251.98,
     "speaker": "曉臻",
     "text": "氣囊還有瞬膜",
     "is_pinned": false,
@@ -678,8 +690,8 @@
     ]
   },
   {
-    "start": 262.04,
-    "end": 264.86,
+    "start": 252.18,
+    "end": 254.99,
     "speaker": "曉臻",
     "text": "都是適應環境的特徵",
     "is_pinned": false,
@@ -687,8 +699,8 @@
     "commands": []
   },
   {
-    "start": 265.06,
-    "end": 267.58,
+    "start": 255.19,
+    "end": 257.72,
     "speaker": "曉臻",
     "text": "記得把它圈起來",
     "is_pinned": false,
@@ -696,8 +708,8 @@
     "commands": []
   },
   {
-    "start": 267.78,
-    "end": 270.43,
+    "start": 257.92,
+    "end": 260.57,
     "speaker": "彥君",
     "text": "最後一個壓軸",
     "is_pinned": false,
@@ -705,8 +717,8 @@
     "commands": []
   },
   {
-    "start": 270.63,
-    "end": 273.33,
+    "start": 260.77,
+    "end": 263.46,
     "speaker": "彥君",
     "text": "就是我們哺乳類",
     "is_pinned": false,
@@ -714,17 +726,20 @@
     "commands": []
   },
   {
-    "start": 273.53,
-    "end": 285.06,
-    "speaker": "曉臻",
-    "text": "肺呼吸、體內受精、分泌乳汁、恆溫]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "start": 263.66,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "哺乳類：肺呼吸、體內受精、分泌乳汁、恆溫",
+    "is_pinned": true,
+    "pin_level": 5,
+    "commands": [
+      "釘選",
+      "哺乳類：肺呼吸、體內受精、分泌乳汁、恆溫"
+    ]
   },
   {
-    "start": 285.26,
-    "end": 288.55,
+    "start": 272.18,
+    "end": 275.47,
     "speaker": "彥君",
     "text": "用肺呼吸體內受精",
     "is_pinned": false,
@@ -732,8 +747,8 @@
     "commands": []
   },
   {
-    "start": 288.75,
-    "end": 291.98,
+    "start": 275.67,
+    "end": 278.9,
     "speaker": "彥君",
     "text": "最大特徵是會分泌乳汁",
     "is_pinned": false,
@@ -741,8 +756,8 @@
     "commands": []
   },
   {
-    "start": 292.18,
-    "end": 295.66,
+    "start": 279.1,
+    "end": 282.58,
     "speaker": "彥君",
     "text": "還有我們是恆溫動物",
     "is_pinned": false,
@@ -750,8 +765,8 @@
     "commands": []
   },
   {
-    "start": 295.86,
-    "end": 298.8,
+    "start": 282.78,
+    "end": 285.72,
     "speaker": "曉臻",
     "text": "老師講義上寫著",
     "is_pinned": false,
@@ -759,8 +774,8 @@
     "commands": []
   },
   {
-    "start": 299.0,
-    "end": 301.74,
+    "start": 285.92,
+    "end": 288.66,
     "speaker": "曉臻",
     "text": "哺乳類分成三種耶",
     "is_pinned": false,
@@ -768,8 +783,8 @@
     "commands": []
   },
   {
-    "start": 301.94,
-    "end": 304.93,
+    "start": 288.86,
+    "end": 291.85,
     "speaker": "曉臻",
     "text": "難道不是全部都胎生嗎",
     "is_pinned": false,
@@ -777,8 +792,8 @@
     "commands": []
   },
   {
-    "start": 305.13,
-    "end": 307.22,
+    "start": 292.05,
+    "end": 294.14,
     "speaker": "彥君",
     "text": "沒錯",
     "is_pinned": false,
@@ -786,8 +801,8 @@
     "commands": []
   },
   {
-    "start": 307.42,
-    "end": 310.6,
+    "start": 294.34,
+    "end": 297.52,
     "speaker": "彥君",
     "text": "這可是必考的超大星號",
     "is_pinned": false,
@@ -795,8 +810,8 @@
     "commands": []
   },
   {
-    "start": 310.8,
-    "end": 314.17,
+    "start": 297.72,
+    "end": 301.09,
     "speaker": "彥君",
     "text": "哺乳類其實分成三大類喔",
     "is_pinned": false,
@@ -804,8 +819,8 @@
     "commands": []
   },
   {
-    "start": 314.37,
-    "end": 317.95,
+    "start": 301.29,
+    "end": 304.87,
     "speaker": "彥君",
     "text": "第一種是最原始的卵生",
     "is_pinned": false,
@@ -813,17 +828,20 @@
     "commands": []
   },
   {
-    "start": 318.15,
-    "end": 329.42,
-    "speaker": "曉臻",
-    "text": "會生蛋、會哺乳 (鴨嘴獸、針鼴)]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "start": 305.07,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "1. 卵生哺乳類：會生蛋、會哺乳 (鴨嘴獸、針鼴)",
+    "is_pinned": true,
+    "pin_level": 6,
+    "commands": [
+      "釘選",
+      "1. 卵生哺乳類：會生蛋、會哺乳 (鴨嘴獸、針鼴)"
+    ]
   },
   {
-    "start": 329.62,
-    "end": 332.67,
+    "start": 313.46,
+    "end": 316.52,
     "speaker": "彥君",
     "text": "像是鴨嘴獸跟針鼴",
     "is_pinned": false,
@@ -833,8 +851,8 @@
     ]
   },
   {
-    "start": 332.87,
-    "end": 335.35,
+    "start": 316.72,
+    "end": 319.2,
     "speaker": "彥君",
     "text": "牠們會生蛋",
     "is_pinned": false,
@@ -842,8 +860,8 @@
     "commands": []
   },
   {
-    "start": 335.55,
-    "end": 338.08,
+    "start": 319.4,
+    "end": 321.93,
     "speaker": "彥君",
     "text": "但一樣會餵奶",
     "is_pinned": false,
@@ -851,8 +869,8 @@
     "commands": []
   },
   {
-    "start": 338.28,
-    "end": 340.59,
+    "start": 322.13,
+    "end": 324.44,
     "speaker": "曉臻",
     "text": "生蛋的哺乳類",
     "is_pinned": false,
@@ -860,8 +878,8 @@
     "commands": []
   },
   {
-    "start": 340.79,
-    "end": 343.44,
+    "start": 324.64,
+    "end": 327.29,
     "speaker": "曉臻",
     "text": "實在也太特別了吧",
     "is_pinned": false,
@@ -869,8 +887,8 @@
     "commands": []
   },
   {
-    "start": 343.64,
-    "end": 346.65,
+    "start": 327.49,
+    "end": 330.5,
     "speaker": "曉臻",
     "text": "那第二種是有育兒袋的",
     "is_pinned": false,
@@ -878,8 +896,8 @@
     "commands": []
   },
   {
-    "start": 346.85,
-    "end": 348.44,
+    "start": 330.7,
+    "end": 332.29,
     "speaker": "曉臻",
     "text": "對吧",
     "is_pinned": false,
@@ -887,8 +905,8 @@
     "commands": []
   },
   {
-    "start": 348.64,
-    "end": 351.0,
+    "start": 332.49,
+    "end": 334.85,
     "speaker": "彥君",
     "text": "完全答對了",
     "is_pinned": false,
@@ -896,17 +914,20 @@
     "commands": []
   },
   {
-    "start": 351.2,
-    "end": 365.1,
-    "speaker": "曉臻",
-    "text": "發育不全、具育兒袋 (袋鼠、無尾熊)]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "start": 335.05,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "2. 有袋類：發育不全、具育兒袋 (袋鼠、無尾熊)",
+    "is_pinned": true,
+    "pin_level": 7,
+    "commands": [
+      "釘選",
+      "2. 有袋類：發育不全、具育兒袋 (袋鼠、無尾熊)"
+    ]
   },
   {
-    "start": 365.3,
-    "end": 368.41,
+    "start": 345.62,
+    "end": 348.73,
     "speaker": "彥君",
     "text": "像是袋鼠跟無尾熊",
     "is_pinned": false,
@@ -914,8 +935,8 @@
     "commands": []
   },
   {
-    "start": 368.61,
-    "end": 371.5,
+    "start": 348.93,
+    "end": 351.82,
     "speaker": "彥君",
     "text": "寶寶發育不完全",
     "is_pinned": false,
@@ -923,8 +944,8 @@
     "commands": []
   },
   {
-    "start": 371.7,
-    "end": 374.37,
+    "start": 352.02,
+    "end": 354.69,
     "speaker": "彥君",
     "text": "就直接生出來",
     "is_pinned": false,
@@ -932,8 +953,8 @@
     "commands": []
   },
   {
-    "start": 374.57,
-    "end": 377.58,
+    "start": 354.89,
+    "end": 357.9,
     "speaker": "彥君",
     "text": "要躲進媽媽的育兒袋裡",
     "is_pinned": false,
@@ -941,8 +962,8 @@
     "commands": []
   },
   {
-    "start": 377.78,
-    "end": 380.54,
+    "start": 358.1,
+    "end": 360.86,
     "speaker": "彥君",
     "text": "吸奶慢慢長大",
     "is_pinned": false,
@@ -950,8 +971,8 @@
     "commands": []
   },
   {
-    "start": 380.74,
-    "end": 382.82,
+    "start": 361.06,
+    "end": 363.14,
     "speaker": "曉臻",
     "text": "那最後一種",
     "is_pinned": false,
@@ -959,8 +980,8 @@
     "commands": []
   },
   {
-    "start": 383.02,
-    "end": 385.4,
+    "start": 363.34,
+    "end": 365.72,
     "speaker": "曉臻",
     "text": "就是我們人類了",
     "is_pinned": false,
@@ -968,8 +989,8 @@
     "commands": []
   },
   {
-    "start": 385.6,
-    "end": 388.56,
+    "start": 365.92,
+    "end": 368.88,
     "speaker": "彥君",
     "text": "是的第三種",
     "is_pinned": false,
@@ -977,8 +998,8 @@
     "commands": []
   },
   {
-    "start": 388.76,
-    "end": 391.43,
+    "start": 369.08,
+    "end": 371.75,
     "speaker": "彥君",
     "text": "就是真正的胎生",
     "is_pinned": false,
@@ -986,17 +1007,20 @@
     "commands": []
   },
   {
-    "start": 391.63,
-    "end": 407.5,
-    "speaker": "曉臻",
-    "text": "子宮內發育完全 (人類、穿山甲、鯨魚)]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "start": 371.95,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "3. 胎生哺乳類：子宮內發育完全 (人類、穿山甲、鯨魚)",
+    "is_pinned": true,
+    "pin_level": 8,
+    "commands": [
+      "釘選",
+      "3. 胎生哺乳類：子宮內發育完全 (人類、穿山甲、鯨魚)"
+    ]
   },
   {
-    "start": 407.7,
-    "end": 410.33,
+    "start": 384.42,
+    "end": 387.05,
     "speaker": "彥君",
     "text": "寶寶在子宮裡",
     "is_pinned": false,
@@ -1004,8 +1028,8 @@
     "commands": []
   },
   {
-    "start": 410.53,
-    "end": 413.34,
+    "start": 387.25,
+    "end": 390.06,
     "speaker": "彥君",
     "text": "發育完全才出生",
     "is_pinned": false,
@@ -1013,8 +1037,8 @@
     "commands": []
   },
   {
-    "start": 413.54,
-    "end": 416.07,
+    "start": 390.26,
+    "end": 392.79,
     "speaker": "彥君",
     "text": "除了我們人類",
     "is_pinned": false,
@@ -1022,8 +1046,8 @@
     "commands": []
   },
   {
-    "start": 416.27,
-    "end": 419.33,
+    "start": 392.99,
+    "end": 396.05,
     "speaker": "彥君",
     "text": "大家常誤會的穿山甲",
     "is_pinned": false,
@@ -1031,8 +1055,8 @@
     "commands": []
   },
   {
-    "start": 419.53,
-    "end": 422.39,
+    "start": 396.25,
+    "end": 399.11,
     "speaker": "彥君",
     "text": "全身長滿鱗片",
     "is_pinned": false,
@@ -1040,8 +1064,8 @@
     "commands": []
   },
   {
-    "start": 422.59,
-    "end": 425.48,
+    "start": 399.31,
+    "end": 402.2,
     "speaker": "彥君",
     "text": "但也是標準的胎生喔",
     "is_pinned": false,
@@ -1049,8 +1073,8 @@
     "commands": []
   },
   {
-    "start": 425.68,
-    "end": 428.35,
+    "start": 402.4,
+    "end": 405.07,
     "speaker": "曉臻",
     "text": "那蝙蝠還有鯨魚呢",
     "is_pinned": false,
@@ -1058,8 +1082,8 @@
     "commands": []
   },
   {
-    "start": 428.55,
-    "end": 430.79,
+    "start": 405.27,
+    "end": 407.51,
     "speaker": "曉臻",
     "text": "也是哺乳類嗎",
     "is_pinned": false,
@@ -1067,8 +1091,8 @@
     "commands": []
   },
   {
-    "start": 430.99,
-    "end": 434.5,
+    "start": 407.71,
+    "end": 411.22,
     "speaker": "彥君",
     "text": "沒錯會飛又會游",
     "is_pinned": false,
@@ -1076,8 +1100,8 @@
     "commands": []
   },
   {
-    "start": 434.7,
-    "end": 437.47,
+    "start": 411.42,
+    "end": 414.19,
     "speaker": "彥君",
     "text": "但只要牠們會餵奶",
     "is_pinned": false,
@@ -1085,8 +1109,8 @@
     "commands": []
   },
   {
-    "start": 437.67,
-    "end": 440.92,
+    "start": 414.39,
+    "end": 417.64,
     "speaker": "彥君",
     "text": "通通都是恆溫的哺乳類",
     "is_pinned": false,
@@ -1094,8 +1118,8 @@
     "commands": []
   },
   {
-    "start": 441.12,
-    "end": 444.39,
+    "start": 417.84,
+    "end": 421.11,
     "speaker": "曉臻",
     "text": "戰士們給大腦一點時間",
     "is_pinned": false,
@@ -1103,8 +1127,8 @@
     "commands": []
   },
   {
-    "start": 444.59,
-    "end": 446.98,
+    "start": 421.31,
+    "end": 423.7,
     "speaker": "曉臻",
     "text": "表格填完之後",
     "is_pinned": false,
@@ -1112,8 +1136,8 @@
     "commands": []
   },
   {
-    "start": 447.18,
-    "end": 449.56,
+    "start": 423.9,
+    "end": 426.28,
     "speaker": "曉臻",
     "text": "脊椎動物的觀念",
     "is_pinned": false,
@@ -1121,8 +1145,8 @@
     "commands": []
   },
   {
-    "start": 449.76,
-    "end": 452.1,
+    "start": 426.48,
+    "end": 428.82,
     "speaker": "曉臻",
     "text": "絕對就無敵啦",
     "is_pinned": false,
@@ -1130,8 +1154,8 @@
     "commands": []
   },
   {
-    "start": 452.3,
-    "end": 454.92,
+    "start": 429.02,
+    "end": 431.64,
     "speaker": "曉臻",
     "text": "演化關鍵總複習",
     "is_pinned": false,
@@ -1139,35 +1163,44 @@
     "commands": []
   },
   {
-    "start": 455.12,
-    "end": 460.84,
+    "start": 431.84,
+    "end": 9999.0,
     "speaker": "曉臻",
-    "text": "鰓} \\rightarrow \\text{肺與氣囊]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "一、呼吸器官：鰓} \\rightarrow \\text{肺與氣囊",
+    "is_pinned": true,
+    "pin_level": 9,
+    "commands": [
+      "釘選",
+      "一、呼吸器官：鰓} \\rightarrow \\text{肺與氣囊"
+    ]
   },
   {
-    "start": 461.04,
-    "end": 467.36,
+    "start": 436.2,
+    "end": 9999.0,
     "speaker": "曉臻",
-    "text": "體外受精} \\rightarrow \\text{體內受精]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "二、受精方式：體外受精} \\rightarrow \\text{體內受精",
+    "is_pinned": true,
+    "pin_level": 10,
+    "commands": [
+      "釘選",
+      "二、受精方式：體外受精} \\rightarrow \\text{體內受精"
+    ]
   },
   {
-    "start": 467.56,
-    "end": 473.78,
+    "start": 440.66,
+    "end": 9999.0,
     "speaker": "曉臻",
-    "text": "變溫動物} \\rightarrow \\text{恆溫動物]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "三、體溫調節：變溫動物} \\rightarrow \\text{恆溫動物",
+    "is_pinned": true,
+    "pin_level": 11,
+    "commands": [
+      "釘選",
+      "三、體溫調節：變溫動物} \\rightarrow \\text{恆溫動物"
+    ]
   },
   {
-    "start": 473.98,
-    "end": 476.44,
+    "start": 445.09,
+    "end": 447.54,
     "speaker": "曉臻",
     "text": "第一點關於呼吸",
     "is_pinned": false,
@@ -1175,8 +1208,8 @@
     "commands": []
   },
   {
-    "start": 476.64,
-    "end": 479.41,
+    "start": 447.74,
+    "end": 450.51,
     "speaker": "曉臻",
     "text": "鰓演化成肺與氣囊",
     "is_pinned": false,
@@ -1186,8 +1219,8 @@
     ]
   },
   {
-    "start": 479.61,
-    "end": 482.23,
+    "start": 450.71,
+    "end": 453.34,
     "speaker": "曉臻",
     "text": "第二是受精方式",
     "is_pinned": false,
@@ -1195,8 +1228,8 @@
     "commands": []
   },
   {
-    "start": 482.43,
-    "end": 484.96,
+    "start": 453.54,
+    "end": 456.06,
     "speaker": "曉臻",
     "text": "體外演變成體內",
     "is_pinned": false,
@@ -1204,8 +1237,8 @@
     "commands": []
   },
   {
-    "start": 485.16,
-    "end": 487.76,
+    "start": 456.26,
+    "end": 458.86,
     "speaker": "曉臻",
     "text": "第三是體溫調節",
     "is_pinned": false,
@@ -1213,8 +1246,8 @@
     "commands": []
   },
   {
-    "start": 487.96,
-    "end": 490.46,
+    "start": 459.06,
+    "end": 461.57,
     "speaker": "曉臻",
     "text": "變溫演化成恆溫",
     "is_pinned": false,
@@ -1222,8 +1255,8 @@
     "commands": []
   },
   {
-    "start": 490.66,
-    "end": 494.08,
+    "start": 461.77,
+    "end": 465.18,
     "speaker": "彥君",
     "text": "戰士們請閉上眼睛",
     "is_pinned": false,
@@ -1231,8 +1264,8 @@
     "commands": []
   },
   {
-    "start": 494.28,
-    "end": 496.69,
+    "start": 465.38,
+    "end": 467.79,
     "speaker": "彥君",
     "text": "好好想一下喔",
     "is_pinned": false,
@@ -1240,8 +1273,8 @@
     "commands": []
   },
   {
-    "start": 496.89,
-    "end": 500.09,
+    "start": 467.99,
+    "end": 471.19,
     "speaker": "彥君",
     "text": "鯨魚一生都住在水裡",
     "is_pinned": false,
@@ -1249,8 +1282,8 @@
     "commands": []
   },
   {
-    "start": 500.29,
-    "end": 502.94,
+    "start": 471.39,
+    "end": 474.04,
     "speaker": "彥君",
     "text": "請問牠是用鰓",
     "is_pinned": false,
@@ -1260,8 +1293,8 @@
     ]
   },
   {
-    "start": 503.14,
-    "end": 505.74,
+    "start": 474.24,
+    "end": 476.84,
     "speaker": "彥君",
     "text": "還是用肺呼吸呢",
     "is_pinned": false,
@@ -1269,8 +1302,8 @@
     "commands": []
   },
   {
-    "start": 505.94,
-    "end": 508.56,
+    "start": 477.04,
+    "end": 479.66,
     "speaker": "曉臻",
     "text": "鯨魚可是哺乳類喔",
     "is_pinned": false,
@@ -1278,8 +1311,8 @@
     "commands": []
   },
   {
-    "start": 508.76,
-    "end": 511.46,
+    "start": 479.86,
+    "end": 482.56,
     "speaker": "曉臻",
     "text": "絕對是用肺呼吸的",
     "is_pinned": false,
@@ -1287,8 +1320,8 @@
     "commands": []
   },
   {
-    "start": 511.66,
-    "end": 514.86,
+    "start": 482.76,
+    "end": 485.96,
     "speaker": "曉臻",
     "text": "所以還要浮出水面換氣",
     "is_pinned": false,
@@ -1296,8 +1329,8 @@
     "commands": []
   },
   {
-    "start": 515.06,
-    "end": 519.17,
+    "start": 486.16,
+    "end": 490.27,
     "speaker": "彥君",
     "text": "漂亮完全正確喔",
     "is_pinned": false,
@@ -1305,8 +1338,8 @@
     "commands": []
   },
   {
-    "start": 519.37,
-    "end": 522.38,
+    "start": 490.47,
+    "end": 493.48,
     "speaker": "彥君",
     "text": "這就是滿級分戰士",
     "is_pinned": false,
@@ -1314,8 +1347,8 @@
     "commands": []
   },
   {
-    "start": 522.58,
-    "end": 525.73,
+    "start": 493.68,
+    "end": 496.83,
     "speaker": "彥君",
     "text": "該有的分類核心邏輯",
     "is_pinned": false,
@@ -1323,8 +1356,8 @@
     "commands": []
   },
   {
-    "start": 525.93,
-    "end": 529.08,
+    "start": 497.03,
+    "end": 500.18,
     "speaker": "彥君",
     "text": "你比想像中更強大",
     "is_pinned": false,
@@ -1332,8 +1365,8 @@
     "commands": []
   },
   {
-    "start": 529.28,
-    "end": 532.31,
+    "start": 500.38,
+    "end": 503.42,
     "speaker": "彥君",
     "text": "老師會陪你戰到底",
     "is_pinned": false,
@@ -1341,8 +1374,8 @@
     "commands": []
   },
   {
-    "start": 532.51,
-    "end": 535.11,
+    "start": 503.62,
+    "end": 506.22,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
@@ -1350,8 +1383,8 @@
     "commands": []
   },
   {
-    "start": 535.31,
-    "end": 537.65,
+    "start": 506.42,
+    "end": 508.75,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
@@ -1359,8 +1392,8 @@
     "commands": []
   },
   {
-    "start": 537.85,
-    "end": 541.53,
+    "start": 508.95,
+    "end": 512.63,
     "speaker": "合聲",
     "text": "脊椎分清楚滿血來通關",
     "is_pinned": false,
@@ -1368,8 +1401,8 @@
     "commands": []
   },
   {
-    "start": 541.73,
-    "end": 544.14,
+    "start": 512.83,
+    "end": 515.24,
     "speaker": "合聲",
     "text": "下一關見",
     "is_pinned": false,
