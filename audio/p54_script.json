@@ -1,350 +1,746 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.86,
+    "start": 3.21,
+    "end": 6.41,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的會考戰士們 我是彥君老師"
+    "text": "抬頭仰望的無垠天際",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.86,
-    "end": 11.36,
+    "start": 6.61,
+    "end": 9.74,
     "speaker": "彥君",
-    "text": "今天來到 第五十四集"
+    "text": "藏著保護地球的屏障",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.36,
-    "end": 14.58,
+    "start": 9.94,
+    "end": 13.06,
     "speaker": "彥君",
-    "text": "大氣的 四大分層"
+    "text": "你們每天累積的實力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 14.58,
-    "end": 18.08,
+    "start": 13.26,
+    "end": 16.44,
+    "speaker": "彥君",
+    "text": "終將突破大氣的極限",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 16.64,
+    "end": 19.84,
+    "speaker": "彥君",
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.04,
+    "end": 23.41,
+    "speaker": "彥君",
+    "text": "歡迎來到第五十四集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.61,
+    "end": 26.21,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 26.41,
+    "end": 28.89,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.08,
-    "end": 22.34,
+    "start": 29.09,
+    "end": 31.42,
     "speaker": "曉臻",
-    "text": "老師 這張圖的曲線 彎彎曲曲的"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.34,
-    "end": 25.27,
+    "start": 31.62,
+    "end": 34.68,
+    "speaker": "彥君",
+    "text": "今天我們要來攻克",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 34.88,
+    "end": 37.89,
+    "speaker": "彥君",
+    "text": "地科的三星級關卡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 38.09,
+    "end": 41.0,
+    "speaker": "彥君",
+    "text": "大氣的四大分層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 41.2,
+    "end": 44.28,
     "speaker": "曉臻",
-    "text": "到底是在 畫什麼呀"
+    "text": "老師 這張圖的曲線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 25.27,
-    "end": 28.6,
-    "speaker": "彥君",
-    "text": "大氣分層的 唯一標準"
-  },
-  {
-    "start": 28.6,
-    "end": 32.03,
-    "speaker": "彥君",
-    "text": "就是看 『溫度的變化』"
-  },
-  {
-    "start": 32.03,
-    "end": 34.4,
+    "start": 44.48,
+    "end": 46.6,
     "speaker": "曉臻",
-    "text": "溫度的變化"
+    "text": "彎彎曲曲的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 34.4,
-    "end": 37.52,
+    "start": 46.8,
+    "end": 49.42,
     "speaker": "曉臻",
-    "text": "所以曲線 轉折的地方"
+    "text": "到底是在畫什麼呀",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 37.52,
-    "end": 40.85,
+    "start": 49.62,
+    "end": 52.75,
+    "speaker": "彥君",
+    "text": "戰士們請看右邊的字喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 52.95,
+    "end": 55.98,
+    "speaker": "彥君",
+    "text": "大氣分層的唯一標準",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 56.18,
+    "end": 59.07,
+    "speaker": "彥君",
+    "text": "就是看溫度的變化",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 59.27,
+    "end": 61.34,
     "speaker": "曉臻",
-    "text": "就是 切換分層的 邊界嗎"
+    "text": "溫度的變化",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 40.85,
-    "end": 43.29,
-    "speaker": "彥君",
-    "text": "聰明"
-  },
-  {
-    "start": 43.29,
-    "end": 47.03,
-    "speaker": "彥君",
-    "text": "只要溫度 從變冷 變成變熱"
-  },
-  {
-    "start": 47.03,
-    "end": 50.44,
-    "speaker": "彥君",
-    "text": "或是從變熱 變成變冷"
-  },
-  {
-    "start": 50.44,
-    "end": 54.01,
-    "speaker": "彥君",
-    "text": "就會 劃分出 一個新的層"
-  },
-  {
-    "start": 54.01,
-    "end": 57.48,
+    "start": 61.54,
+    "end": 64.36,
     "speaker": "曉臻",
-    "text": "那我們先看 最底下的 丁層"
+    "text": "所以曲線轉折的地方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 57.48,
-    "end": 61.03,
+    "start": 64.56,
+    "end": 67.59,
     "speaker": "曉臻",
-    "text": "圖上寫著 這是 『對流層』"
+    "text": "就是切換分層的邊界嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 61.03,
-    "end": 65.16,
+    "start": 67.79,
+    "end": 69.94,
     "speaker": "彥君",
-    "text": "沒錯 這是我們 生活的地方"
+    "text": "聰明",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 65.16,
-    "end": 68.92,
+    "start": 70.14,
+    "end": 73.58,
     "speaker": "彥君",
-    "text": "這裡的空氣 會上下對流"
+    "text": "只要溫度從變冷變成變熱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 68.92,
-    "end": 72.97,
+    "start": 73.78,
+    "end": 76.88,
     "speaker": "彥君",
-    "text": "所有的天氣現象"
+    "text": "或是從變熱變成變冷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 72.97,
-    "end": 77.29,
+    "start": 77.08,
+    "end": 80.35,
     "speaker": "彥君",
-    "text": "像是下雨、 颱風 都在這裡"
+    "text": "就會劃分出一個新的層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 77.29,
-    "end": 81.46,
+    "start": 80.55,
+    "end": 88.1,
     "speaker": "彥君",
-    "text": "特色是 越往上爬 溫度越低"
+    "text": "大氣分層標準是溫度變化",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "大氣分層標準是溫度變化"
+    ]
   },
   {
-    "start": 81.46,
-    "end": 84.67,
+    "start": 88.1,
+    "end": 91.28,
     "speaker": "曉臻",
-    "text": "接下來 往上來到 丙層"
+    "text": "那我們先看最底下的丁層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 84.67,
-    "end": 87.88,
+    "start": 91.48,
+    "end": 94.42,
     "speaker": "曉臻",
-    "text": "這裡的溫度 怎麼反過來"
+    "text": "圖上寫著這是對流層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 87.88,
-    "end": 90.45,
+    "start": 94.62,
+    "end": 98.44,
+    "speaker": "彥君",
+    "text": "沒錯 這是我們生活的地方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 98.64,
+    "end": 102.1,
+    "speaker": "彥君",
+    "text": "這裡的空氣會上下對流",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 102.3,
+    "end": 106.08,
+    "speaker": "彥君",
+    "text": "所以啊 所有的天氣現象",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 106.28,
+    "end": 109.6,
+    "speaker": "彥君",
+    "text": "像是下雨颱風都在這裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 109.8,
+    "end": 113.36,
+    "speaker": "彥君",
+    "text": "特色是越往上爬溫度越低",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 113.56,
+    "end": 121.45,
+    "speaker": "彥君",
+    "text": "丁對流層有天氣現象越高越冷",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "丁對流層有天氣現象越高越冷"
+    ]
+  },
+  {
+    "start": 121.45,
+    "end": 124.36,
     "speaker": "曉臻",
-    "text": "變得 越來越熱了"
+    "text": "接下來往上來到丙層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 90.45,
-    "end": 93.92,
-    "speaker": "彥君",
-    "text": "丙層是 『平流層』"
-  },
-  {
-    "start": 93.92,
-    "end": 97.64,
-    "speaker": "彥君",
-    "text": "越來越熱 是因為有 臭氧層"
-  },
-  {
-    "start": 97.64,
-    "end": 101.48,
-    "speaker": "彥君",
-    "text": "臭氧會吸收 太陽的 紫外線"
-  },
-  {
-    "start": 101.48,
-    "end": 105.89,
-    "speaker": "彥君",
-    "text": "空氣很穩定 是飛機 飛行的地方"
-  },
-  {
-    "start": 105.89,
-    "end": 108.38,
+    "start": 124.56,
+    "end": 127.47,
     "speaker": "曉臻",
-    "text": "那上面的 乙層"
+    "text": "這裡的溫度怎麼反過來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 108.38,
-    "end": 111.74,
+    "start": 127.67,
+    "end": 129.94,
     "speaker": "曉臻",
-    "text": "溫度又 往左邊降下來了"
+    "text": "變得越來越熱了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 111.74,
-    "end": 114.25,
+    "start": 130.14,
+    "end": 133.0,
+    "speaker": "彥君",
+    "text": "丙層是平流層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 133.2,
+    "end": 136.62,
+    "speaker": "彥君",
+    "text": "越來越熱是因為有臭氧層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 136.82,
+    "end": 140.35,
+    "speaker": "彥君",
+    "text": "臭氧會吸收太陽的紫外線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 140.55,
+    "end": 144.23,
+    "speaker": "彥君",
+    "text": "空氣很穩定是飛機飛行的地方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 144.43,
+    "end": 152.87,
+    "speaker": "彥君",
+    "text": "丙平流層有臭氧層飛機飛行",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "丙平流層有臭氧層飛機飛行"
+    ]
+  },
+  {
+    "start": 152.87,
+    "end": 155.09,
     "speaker": "曉臻",
-    "text": "這又是 什麼層"
+    "text": "那上面的乙層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 114.25,
-    "end": 117.63,
-    "speaker": "彥君",
-    "text": "乙層叫 『中氣層』"
-  },
-  {
-    "start": 117.63,
-    "end": 121.78,
-    "speaker": "彥君",
-    "text": "它是大氣層中 溫度最低的地方"
-  },
-  {
-    "start": 121.78,
-    "end": 124.7,
-    "speaker": "彥君",
-    "text": "大多數的 隕石"
-  },
-  {
-    "start": 124.7,
-    "end": 127.92,
-    "speaker": "彥君",
-    "text": "都在這裡 燃燒殆盡"
-  },
-  {
-    "start": 127.92,
-    "end": 132.06,
+    "start": 155.29,
+    "end": 158.34,
     "speaker": "曉臻",
-    "text": "難怪 那最上面的 甲層"
+    "text": "溫度又往左邊降下來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 132.06,
-    "end": 135.25,
+    "start": 158.54,
+    "end": 160.76,
     "speaker": "曉臻",
-    "text": "溫度又 往右邊飆高了"
+    "text": "這又是什麼層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 135.25,
-    "end": 138.68,
+    "start": 160.96,
+    "end": 163.94,
+    "speaker": "彥君",
+    "text": "乙層叫做中氣層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 164.14,
+    "end": 167.54,
+    "speaker": "彥君",
+    "text": "它是大氣層中溫度最低的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 167.74,
+    "end": 170.36,
+    "speaker": "彥君",
+    "text": "大多數的隕石",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 170.56,
+    "end": 173.47,
+    "speaker": "彥君",
+    "text": "都在這裡燃燒殆盡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 173.67,
+    "end": 181.56,
+    "speaker": "彥君",
+    "text": "乙中氣層溫度最低燒毀隕石",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "乙中氣層溫度最低燒毀隕石"
+    ]
+  },
+  {
+    "start": 181.56,
+    "end": 185.41,
     "speaker": "曉臻",
-    "text": "圖上寫著 它是增溫層耶"
+    "text": "難怪 那最上面的甲層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 138.68,
-    "end": 143.07,
-    "speaker": "彥君",
-    "text": "沒錯 這裡空氣 非常稀薄"
-  },
-  {
-    "start": 143.07,
-    "end": 146.3,
-    "speaker": "彥君",
-    "text": "吸收到 太陽輻射"
-  },
-  {
-    "start": 146.3,
-    "end": 149.66,
-    "speaker": "彥君",
-    "text": "溫度就會 飆得非常高"
-  },
-  {
-    "start": 149.66,
-    "end": 153.69,
-    "speaker": "彥君",
-    "text": "美麗的極光 還有 人造衛星"
-  },
-  {
-    "start": 153.69,
-    "end": 156.35,
-    "speaker": "彥君",
-    "text": "都在這一層喔"
-  },
-  {
-    "start": 156.35,
-    "end": 159.58,
+    "start": 185.61,
+    "end": 188.5,
     "speaker": "曉臻",
-    "text": "天氣變化 越高越冷"
+    "text": "溫度又往右邊飆高了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 159.58,
-    "end": 162.99,
+    "start": 188.7,
+    "end": 191.82,
     "speaker": "曉臻",
-    "text": "臭氧吸收 飛機在這"
+    "text": "圖上寫著它是增溫層耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 162.99,
-    "end": 166.46,
-    "speaker": "曉臻",
-    "text": "溫度最低 燒毀隕石"
-  },
-  {
-    "start": 166.46,
-    "end": 169.75,
-    "speaker": "曉臻",
-    "text": "溫度最高 極光衛星"
-  },
-  {
-    "start": 169.75,
-    "end": 173.8,
+    "start": 192.02,
+    "end": 196.11,
     "speaker": "彥君",
-    "text": "造成大氣分層的 最主要標準"
+    "text": "沒錯 這裡空氣非常稀薄",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 173.8,
-    "end": 176.39,
+    "start": 196.31,
+    "end": 199.27,
     "speaker": "彥君",
-    "text": "到底是什麼"
+    "text": "吸收到太陽輻射",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 176.39,
-    "end": 179.53,
-    "speaker": "曉臻",
-    "text": "是依據 高度改變時"
-  },
-  {
-    "start": 179.53,
-    "end": 182.86,
-    "speaker": "曉臻",
-    "text": "溫度的 變化趨勢來分的"
-  },
-  {
-    "start": 182.86,
-    "end": 187.66,
+    "start": 199.47,
+    "end": 202.53,
     "speaker": "彥君",
-    "text": "漂亮 觀念完全命中"
+    "text": "溫度就會飆得非常高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 187.66,
-    "end": 190.56,
+    "start": 202.73,
+    "end": 206.22,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "美麗的極光還有人造衛星",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 190.56,
-    "end": 193.19,
+    "start": 206.42,
+    "end": 208.78,
+    "speaker": "彥君",
+    "text": "都在這一層喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 208.98,
+    "end": 217.25,
+    "speaker": "彥君",
+    "text": "甲增溫層溫度最高極光衛星",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "甲增溫層溫度最高極光衛星"
+    ]
+  },
+  {
+    "start": 217.25,
+    "end": 220.66,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "戰士們 我們來快速複習",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 193.19,
-    "end": 196.81,
+    "start": 220.86,
+    "end": 223.08,
+    "speaker": "曉臻",
+    "text": "丁是對流層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 223.28,
+    "end": 225.93,
+    "speaker": "曉臻",
+    "text": "天氣變化越高越冷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 226.13,
+    "end": 228.37,
+    "speaker": "曉臻",
+    "text": "丙是平流層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 228.57,
+    "end": 231.38,
+    "speaker": "曉臻",
+    "text": "臭氧吸收飛機在這",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 231.58,
+    "end": 233.78,
+    "speaker": "曉臻",
+    "text": "乙是中氣層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 233.98,
+    "end": 236.82,
+    "speaker": "曉臻",
+    "text": "溫度最低燒毀隕石",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 237.02,
+    "end": 239.28,
+    "speaker": "曉臻",
+    "text": "甲是增溫層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 239.48,
+    "end": 242.1,
+    "speaker": "曉臻",
+    "text": "溫度最高極光衛星",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 242.3,
+    "end": 244.42,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 244.62,
+    "end": 247.46,
+    "speaker": "彥君",
+    "text": "閉上眼睛想一想喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 247.66,
+    "end": 251.37,
+    "speaker": "彥君",
+    "text": "造成大氣分層的最主要標準",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 251.57,
+    "end": 253.86,
+    "speaker": "彥君",
+    "text": "到底是什麼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 254.06,
+    "end": 257.11,
+    "speaker": "曉臻",
+    "text": "是依據高度改變的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 257.31,
+    "end": 260.34,
+    "speaker": "曉臻",
+    "text": "溫度的變化趨勢來分的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 260.54,
+    "end": 265.04,
+    "speaker": "彥君",
+    "text": "漂亮 觀念完全命中",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 265.24,
+    "end": 268.51,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 268.71,
+    "end": 271.31,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 271.51,
+    "end": 273.85,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 274.05,
+    "end": 277.37,
     "speaker": "合聲",
-    "text": "溫度變化 大氣分家"
+    "text": "溫度變化 大氣分家",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 196.81,
-    "end": 199.66,
+    "start": 277.57,
+    "end": 281.03,
     "speaker": "合聲",
-    "text": "下一關卡見"
+    "text": "戰士們 下一關卡見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
