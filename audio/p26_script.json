@@ -136,16 +136,19 @@
   },
   {
     "start": 49.39,
-    "end": 56.02,
-    "speaker": "曉臻",
-    "text": "古生代、中生代、新生代]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "三大時代：古生代、中生代、新生代",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "三大時代：古生代、中生代、新生代"
+    ]
   },
   {
-    "start": 56.22,
-    "end": 59.09,
+    "start": 54.09,
+    "end": 56.95,
     "speaker": "彥君",
     "text": "古生代與中生代",
     "is_pinned": false,
@@ -153,8 +156,8 @@
     "commands": []
   },
   {
-    "start": 59.29,
-    "end": 62.25,
+    "start": 57.15,
+    "end": 60.11,
     "speaker": "彥君",
     "text": "還有最後的新生代",
     "is_pinned": false,
@@ -162,8 +165,8 @@
     "commands": []
   },
   {
-    "start": 62.45,
-    "end": 65.58,
+    "start": 60.31,
+    "end": 63.44,
     "speaker": "彥君",
     "text": "每代都有標準化石",
     "is_pinned": false,
@@ -171,8 +174,8 @@
     "commands": []
   },
   {
-    "start": 65.78,
-    "end": 68.66,
+    "start": 63.64,
+    "end": 66.53,
     "speaker": "彥君",
     "text": "也就是當時的霸主",
     "is_pinned": false,
@@ -180,8 +183,8 @@
     "commands": []
   },
   {
-    "start": 68.86,
-    "end": 71.61,
+    "start": 66.73,
+    "end": 69.47,
     "speaker": "曉臻",
     "text": "什麼叫做標準化石",
     "is_pinned": false,
@@ -189,8 +192,8 @@
     "commands": []
   },
   {
-    "start": 71.81,
-    "end": 74.38,
+    "start": 69.67,
+    "end": 72.25,
     "speaker": "曉臻",
     "text": "是長得很標準嗎",
     "is_pinned": false,
@@ -198,8 +201,8 @@
     "commands": []
   },
   {
-    "start": 74.58,
-    "end": 77.54,
+    "start": 72.45,
+    "end": 75.41,
     "speaker": "彥君",
     "text": "哈哈當然不是啦",
     "is_pinned": false,
@@ -207,8 +210,8 @@
     "commands": []
   },
   {
-    "start": 77.74,
-    "end": 80.97,
+    "start": 75.61,
+    "end": 78.83,
     "speaker": "彥君",
     "text": "牠必須符合兩個條件",
     "is_pinned": false,
@@ -216,17 +219,20 @@
     "commands": []
   },
   {
-    "start": 81.17,
-    "end": 88.95,
-    "speaker": "曉臻",
-    "text": "生存時間短 + 分布範圍廣]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "start": 79.03,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "標準化石：生存時間短 + 分布範圍廣",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "標準化石：生存時間短 + 分布範圍廣"
+    ]
   },
   {
-    "start": 89.15,
-    "end": 92.47,
+    "start": 85.46,
+    "end": 88.78,
     "speaker": "彥君",
     "text": "第一生存時間要短",
     "is_pinned": false,
@@ -234,8 +240,8 @@
     "commands": []
   },
   {
-    "start": 92.67,
-    "end": 95.92,
+    "start": 88.98,
+    "end": 92.22,
     "speaker": "彥君",
     "text": "第二分布範圍要廣",
     "is_pinned": false,
@@ -243,8 +249,8 @@
     "commands": []
   },
   {
-    "start": 96.12,
-    "end": 98.98,
+    "start": 92.42,
+    "end": 95.29,
     "speaker": "彥君",
     "text": "只要在地層看到牠",
     "is_pinned": false,
@@ -252,8 +258,8 @@
     "commands": []
   },
   {
-    "start": 99.18,
-    "end": 102.17,
+    "start": 95.49,
+    "end": 98.47,
     "speaker": "彥君",
     "text": "就能立刻知道年代",
     "is_pinned": false,
@@ -261,8 +267,8 @@
     "commands": []
   },
   {
-    "start": 102.37,
-    "end": 105.28,
+    "start": 98.67,
+    "end": 101.58,
     "speaker": "彥君",
     "text": "就像看到三葉蟲",
     "is_pinned": false,
@@ -270,8 +276,8 @@
     "commands": []
   },
   {
-    "start": 105.48,
-    "end": 108.44,
+    "start": 101.78,
+    "end": 104.74,
     "speaker": "彥君",
     "text": "絕對就是古生代",
     "is_pinned": false,
@@ -279,8 +285,8 @@
     "commands": []
   },
   {
-    "start": 108.64,
-    "end": 111.7,
+    "start": 104.94,
+    "end": 108.0,
     "speaker": "曉臻",
     "text": "戰士們趕快拿起筆",
     "is_pinned": false,
@@ -288,8 +294,8 @@
     "commands": []
   },
   {
-    "start": 111.9,
-    "end": 114.9,
+    "start": 108.2,
+    "end": 111.21,
     "speaker": "曉臻",
     "text": "第一個抽屜古生代",
     "is_pinned": false,
@@ -297,17 +303,20 @@
     "commands": []
   },
   {
-    "start": 115.1,
-    "end": 124.42,
+    "start": 111.41,
+    "end": 9999.0,
     "speaker": "曉臻",
-    "text": "三葉蟲 (海洋)]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "古生代霸主：三葉蟲 (海洋)",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "古生代霸主：三葉蟲 (海洋)"
+    ]
   },
   {
-    "start": 124.62,
-    "end": 127.44,
+    "start": 119.3,
+    "end": 122.11,
     "speaker": "曉臻",
     "text": "請在圖上寫三葉蟲",
     "is_pinned": false,
@@ -315,8 +324,8 @@
     "commands": []
   },
   {
-    "start": 127.64,
-    "end": 130.38,
+    "start": 122.31,
+    "end": 125.06,
     "speaker": "曉臻",
     "text": "牠可是海洋霸主喔",
     "is_pinned": false,
@@ -324,8 +333,8 @@
     "commands": []
   },
   {
-    "start": 130.58,
-    "end": 133.35,
+    "start": 125.26,
+    "end": 128.02,
     "speaker": "曉臻",
     "text": "看到牠就是古生代",
     "is_pinned": false,
@@ -333,8 +342,8 @@
     "commands": []
   },
   {
-    "start": 133.55,
-    "end": 136.9,
+    "start": 128.22,
+    "end": 131.57,
     "speaker": "彥君",
     "text": "第二個抽屜中生代",
     "is_pinned": false,
@@ -342,8 +351,8 @@
     "commands": []
   },
   {
-    "start": 137.1,
-    "end": 139.89,
+    "start": 131.77,
+    "end": 134.56,
     "speaker": "彥君",
     "text": "是大家最熟悉的喔",
     "is_pinned": false,
@@ -351,17 +360,20 @@
     "commands": []
   },
   {
-    "start": 140.09,
-    "end": 151.14,
-    "speaker": "曉臻",
-    "text": "恐龍 (陸地) + 菊石 (海洋)]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "start": 134.76,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "中生代霸主：恐龍 (陸地) + 菊石 (海洋)",
+    "is_pinned": true,
+    "pin_level": 4,
+    "commands": [
+      "釘選",
+      "中生代霸主：恐龍 (陸地) + 菊石 (海洋)"
+    ]
   },
   {
-    "start": 151.34,
-    "end": 154.61,
+    "start": 143.92,
+    "end": 147.19,
     "speaker": "彥君",
     "text": "快寫下恐龍與菊石",
     "is_pinned": false,
@@ -369,8 +381,8 @@
     "commands": []
   },
   {
-    "start": 154.81,
-    "end": 157.84,
+    "start": 147.39,
+    "end": 150.42,
     "speaker": "彥君",
     "text": "恐龍生活在陸地上",
     "is_pinned": false,
@@ -378,8 +390,8 @@
     "commands": []
   },
   {
-    "start": 158.04,
-    "end": 161.34,
+    "start": 150.62,
+    "end": 153.92,
     "speaker": "彥君",
     "text": "菊石則是生活在海裡",
     "is_pinned": false,
@@ -387,8 +399,8 @@
     "commands": []
   },
   {
-    "start": 161.54,
-    "end": 164.18,
+    "start": 154.12,
+    "end": 156.77,
     "speaker": "曉臻",
     "text": "戰士們寫下恐龍了",
     "is_pinned": false,
@@ -396,8 +408,8 @@
     "commands": []
   },
   {
-    "start": 164.38,
-    "end": 167.46,
+    "start": 156.97,
+    "end": 160.05,
     "speaker": "曉臻",
     "text": "恐龍滅絕後誰當家",
     "is_pinned": false,
@@ -405,8 +417,8 @@
     "commands": []
   },
   {
-    "start": 167.66,
-    "end": 170.7,
+    "start": 160.25,
+    "end": 163.28,
     "speaker": "彥君",
     "text": "最後一個是新生代",
     "is_pinned": false,
@@ -414,8 +426,8 @@
     "commands": []
   },
   {
-    "start": 170.9,
-    "end": 173.9,
+    "start": 163.48,
+    "end": 166.49,
     "speaker": "彥君",
     "text": "大型哺乳類的天地",
     "is_pinned": false,
@@ -423,17 +435,20 @@
     "commands": []
   },
   {
-    "start": 174.1,
-    "end": 182.68,
-    "speaker": "曉臻",
-    "text": "長毛象 + 人類]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "start": 166.69,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "新生代霸主：長毛象 + 人類",
+    "is_pinned": true,
+    "pin_level": 5,
+    "commands": [
+      "釘選",
+      "新生代霸主：長毛象 + 人類"
+    ]
   },
   {
-    "start": 182.88,
-    "end": 186.03,
+    "start": 175.46,
+    "end": 178.62,
     "speaker": "彥君",
     "text": "指標化石是長毛象",
     "is_pinned": false,
@@ -443,8 +458,8 @@
     ]
   },
   {
-    "start": 186.23,
-    "end": 189.36,
+    "start": 178.82,
+    "end": 181.94,
     "speaker": "彥君",
     "text": "還有會考陷阱提醒",
     "is_pinned": false,
@@ -452,8 +467,8 @@
     "commands": []
   },
   {
-    "start": 189.56,
-    "end": 192.5,
+    "start": 182.14,
+    "end": 185.08,
     "speaker": "彥君",
     "text": "人類也是新生代喔",
     "is_pinned": false,
@@ -461,8 +476,8 @@
     "commands": []
   },
   {
-    "start": 192.7,
-    "end": 195.82,
+    "start": 185.28,
+    "end": 188.41,
     "speaker": "曉臻",
     "text": "老師講義右上角寫",
     "is_pinned": false,
@@ -470,8 +485,8 @@
     "commands": []
   },
   {
-    "start": 196.02,
-    "end": 198.53,
+    "start": 188.61,
+    "end": 191.11,
     "speaker": "曉臻",
     "text": "活化石是什麼呢",
     "is_pinned": false,
@@ -479,8 +494,8 @@
     "commands": []
   },
   {
-    "start": 198.73,
-    "end": 202.58,
+    "start": 191.31,
+    "end": 195.16,
     "speaker": "彥君",
     "text": "撐過這關後面就是坦途",
     "is_pinned": false,
@@ -488,8 +503,8 @@
     "commands": []
   },
   {
-    "start": 202.78,
-    "end": 205.64,
+    "start": 195.36,
+    "end": 198.22,
     "speaker": "彥君",
     "text": "這也是愛考的觀念",
     "is_pinned": false,
@@ -497,8 +512,8 @@
     "commands": []
   },
   {
-    "start": 205.84,
-    "end": 208.8,
+    "start": 198.42,
+    "end": 201.38,
     "speaker": "彥君",
     "text": "有些生物都沒改變",
     "is_pinned": false,
@@ -506,17 +521,20 @@
     "commands": []
   },
   {
-    "start": 209.0,
-    "end": 219.04,
-    "speaker": "曉臻",
-    "text": "銀杏、鱟、腔棘魚]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "start": 201.58,
+    "end": 9999.0,
+    "speaker": "彥君",
+    "text": "活化石：銀杏、鱟、腔棘魚",
+    "is_pinned": true,
+    "pin_level": 6,
+    "commands": [
+      "釘選",
+      "活化石：銀杏、鱟、腔棘魚"
+    ]
   },
   {
-    "start": 219.24,
-    "end": 223.26,
+    "start": 211.2,
+    "end": 215.22,
     "speaker": "彥君",
     "text": "比如銀杏、鱟、腔棘魚",
     "is_pinned": false,
@@ -527,8 +545,8 @@
     ]
   },
   {
-    "start": 223.46,
-    "end": 226.49,
+    "start": 215.42,
+    "end": 218.45,
     "speaker": "彥君",
     "text": "牠們見證悠久歷史",
     "is_pinned": false,
@@ -536,8 +554,8 @@
     "commands": []
   },
   {
-    "start": 226.69,
-    "end": 229.62,
+    "start": 218.65,
+    "end": 221.58,
     "speaker": "彥君",
     "text": "所以叫作活化石",
     "is_pinned": false,
@@ -545,8 +563,8 @@
     "commands": []
   },
   {
-    "start": 229.82,
-    "end": 233.1,
+    "start": 221.78,
+    "end": 225.06,
     "speaker": "曉臻",
     "text": "戰士們給大腦一點時間",
     "is_pinned": false,
@@ -554,8 +572,8 @@
     "commands": []
   },
   {
-    "start": 233.3,
-    "end": 235.82,
+    "start": 225.26,
+    "end": 227.78,
     "speaker": "曉臻",
     "text": "演化過程先跳過",
     "is_pinned": false,
@@ -563,8 +581,8 @@
     "commands": []
   },
   {
-    "start": 236.02,
-    "end": 238.74,
+    "start": 227.98,
+    "end": 230.7,
     "speaker": "曉臻",
     "text": "先把年代記熟就好",
     "is_pinned": false,
@@ -572,8 +590,8 @@
     "commands": []
   },
   {
-    "start": 238.94,
-    "end": 242.14,
+    "start": 230.9,
+    "end": 234.1,
     "speaker": "曉臻",
     "text": "地質時光機總複習",
     "is_pinned": false,
@@ -581,44 +599,56 @@
     "commands": []
   },
   {
-    "start": 242.34,
-    "end": 245.93,
+    "start": 234.3,
+    "end": 9999.0,
     "speaker": "曉臻",
-    "text": "三葉蟲]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "一、古生代：三葉蟲",
+    "is_pinned": true,
+    "pin_level": 7,
+    "commands": [
+      "釘選",
+      "一、古生代：三葉蟲"
+    ]
   },
   {
-    "start": 246.13,
-    "end": 254.06,
+    "start": 237.44,
+    "end": 9999.0,
     "speaker": "曉臻",
-    "text": "恐龍 (陸)、菊石 (海)]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "二、中生代：恐龍 (陸)、菊石 (海)",
+    "is_pinned": true,
+    "pin_level": 8,
+    "commands": [
+      "釘選",
+      "二、中生代：恐龍 (陸)、菊石 (海)"
+    ]
   },
   {
-    "start": 254.26,
-    "end": 258.63,
+    "start": 243.05,
+    "end": 9999.0,
     "speaker": "曉臻",
-    "text": "長毛象、人類]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "三、新生代：長毛象、人類",
+    "is_pinned": true,
+    "pin_level": 9,
+    "commands": [
+      "釘選",
+      "三、新生代：長毛象、人類"
+    ]
   },
   {
-    "start": 258.83,
-    "end": 265.56,
+    "start": 246.3,
+    "end": 9999.0,
     "speaker": "曉臻",
-    "text": "生存短、分布廣]",
-    "is_pinned": false,
-    "pin_level": 0,
-    "commands": []
+    "text": "四、標準化石：生存短、分布廣",
+    "is_pinned": true,
+    "pin_level": 10,
+    "commands": [
+      "釘選",
+      "四、標準化石：生存短、分布廣"
+    ]
   },
   {
-    "start": 265.76,
-    "end": 268.5,
+    "start": 251.79,
+    "end": 254.54,
     "speaker": "曉臻",
     "text": "一、古生代三葉蟲",
     "is_pinned": false,
@@ -626,8 +656,8 @@
     "commands": []
   },
   {
-    "start": 268.7,
-    "end": 271.5,
+    "start": 254.74,
+    "end": 257.53,
     "speaker": "曉臻",
     "text": "二、中生代有恐龍",
     "is_pinned": false,
@@ -635,8 +665,8 @@
     "commands": []
   },
   {
-    "start": 271.7,
-    "end": 274.42,
+    "start": 257.73,
+    "end": 260.45,
     "speaker": "曉臻",
     "text": "還有海洋裡的菊石",
     "is_pinned": false,
@@ -644,8 +674,8 @@
     "commands": []
   },
   {
-    "start": 274.62,
-    "end": 277.55,
+    "start": 260.65,
+    "end": 263.58,
     "speaker": "曉臻",
     "text": "三、新生代長毛象",
     "is_pinned": false,
@@ -655,8 +685,8 @@
     ]
   },
   {
-    "start": 277.75,
-    "end": 280.9,
+    "start": 263.78,
+    "end": 266.94,
     "speaker": "曉臻",
     "text": "四、標準化石兩條件",
     "is_pinned": false,
@@ -664,8 +694,8 @@
     "commands": []
   },
   {
-    "start": 281.1,
-    "end": 283.87,
+    "start": 267.14,
+    "end": 269.9,
     "speaker": "曉臻",
     "text": "生存短且分布要廣",
     "is_pinned": false,
@@ -673,8 +703,8 @@
     "commands": []
   },
   {
-    "start": 284.07,
-    "end": 287.49,
+    "start": 270.1,
+    "end": 273.52,
     "speaker": "彥君",
     "text": "戰士們請閉上眼睛",
     "is_pinned": false,
@@ -682,8 +712,8 @@
     "commands": []
   },
   {
-    "start": 287.69,
-    "end": 290.1,
+    "start": 273.72,
+    "end": 276.13,
     "speaker": "彥君",
     "text": "好好想一下喔",
     "is_pinned": false,
@@ -691,8 +721,8 @@
     "commands": []
   },
   {
-    "start": 290.3,
-    "end": 293.3,
+    "start": 276.33,
+    "end": 279.34,
     "speaker": "彥君",
     "text": "若同一地層被發現",
     "is_pinned": false,
@@ -700,8 +730,8 @@
     "commands": []
   },
   {
-    "start": 293.5,
-    "end": 296.7,
+    "start": 279.54,
+    "end": 282.74,
     "speaker": "彥君",
     "text": "挖出三葉蟲和恐龍",
     "is_pinned": false,
@@ -709,8 +739,8 @@
     "commands": []
   },
   {
-    "start": 296.9,
-    "end": 299.89,
+    "start": 282.94,
+    "end": 285.92,
     "speaker": "彥君",
     "text": "這樣合理嗎戰士們",
     "is_pinned": false,
@@ -718,8 +748,8 @@
     "commands": []
   },
   {
-    "start": 300.09,
-    "end": 302.64,
+    "start": 286.12,
+    "end": 288.67,
     "speaker": "曉臻",
     "text": "絕對是不合理的喔",
     "is_pinned": false,
@@ -727,8 +757,8 @@
     "commands": []
   },
   {
-    "start": 302.84,
-    "end": 305.58,
+    "start": 288.87,
+    "end": 291.62,
     "speaker": "曉臻",
     "text": "三葉蟲早就滅絕了",
     "is_pinned": false,
@@ -736,8 +766,8 @@
     "commands": []
   },
   {
-    "start": 305.78,
-    "end": 308.36,
+    "start": 291.82,
+    "end": 294.39,
     "speaker": "曉臻",
     "text": "不可能跟恐龍見面",
     "is_pinned": false,
@@ -745,8 +775,8 @@
     "commands": []
   },
   {
-    "start": 308.56,
-    "end": 312.62,
+    "start": 294.59,
+    "end": 298.66,
     "speaker": "彥君",
     "text": "答得漂亮這就對了",
     "is_pinned": false,
@@ -754,8 +784,8 @@
     "commands": []
   },
   {
-    "start": 312.82,
-    "end": 315.83,
+    "start": 298.86,
+    "end": 301.86,
     "speaker": "彥君",
     "text": "這就是滿級分戰士",
     "is_pinned": false,
@@ -763,8 +793,8 @@
     "commands": []
   },
   {
-    "start": 316.03,
-    "end": 319.18,
+    "start": 302.06,
+    "end": 305.22,
     "speaker": "彥君",
     "text": "該有的年代判斷邏輯",
     "is_pinned": false,
@@ -772,8 +802,8 @@
     "commands": []
   },
   {
-    "start": 319.38,
-    "end": 322.54,
+    "start": 305.42,
+    "end": 308.57,
     "speaker": "彥君",
     "text": "你比想像中更強大",
     "is_pinned": false,
@@ -781,8 +811,8 @@
     "commands": []
   },
   {
-    "start": 322.74,
-    "end": 325.77,
+    "start": 308.77,
+    "end": 311.8,
     "speaker": "彥君",
     "text": "老師會陪你戰到底",
     "is_pinned": false,
@@ -790,8 +820,8 @@
     "commands": []
   },
   {
-    "start": 325.97,
-    "end": 328.57,
+    "start": 312.0,
+    "end": 314.6,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
@@ -799,8 +829,8 @@
     "commands": []
   },
   {
-    "start": 328.77,
-    "end": 331.1,
+    "start": 314.8,
+    "end": 317.14,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
@@ -808,8 +838,8 @@
     "commands": []
   },
   {
-    "start": 331.3,
-    "end": 335.06,
+    "start": 317.34,
+    "end": 321.09,
     "speaker": "合聲",
     "text": "時空記清楚滿血來通關",
     "is_pinned": false,
@@ -817,8 +847,8 @@
     "commands": []
   },
   {
-    "start": 335.26,
-    "end": 337.66,
+    "start": 321.29,
+    "end": 323.7,
     "speaker": "合聲",
     "text": "下一關見",
     "is_pinned": false,
