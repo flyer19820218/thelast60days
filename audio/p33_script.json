@@ -1,320 +1,521 @@
 [
   {
     "start": 0.0,
-    "end": 3.55,
+    "end": 3.39,
     "speaker": "彥君",
-    "text": "各位衝 A 的戰士們"
+    "text": "各位瞄準第一志願的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.55,
-    "end": 6.45,
+    "start": 3.59,
+    "end": 6.19,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.45,
-    "end": 9.25,
+    "start": 6.39,
+    "end": 8.9,
     "speaker": "曉臻",
-    "text": "戰士們大家好啊"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 9.25,
-    "end": 11.89,
+    "start": 9.1,
+    "end": 11.43,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.89,
-    "end": 15.2,
+    "start": 11.63,
+    "end": 14.64,
     "speaker": "彥君",
-    "text": "恭喜大家成功跨界"
+    "text": "恭喜大家成功跨界",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 15.2,
-    "end": 19.63,
+    "start": 14.84,
+    "end": 18.98,
     "speaker": "彥君",
-    "text": "脫離生物我們要進入地科大冒險了"
+    "text": "脫離生物我們要進入地科大冒險了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.63,
-    "end": 24.4,
+    "start": 19.18,
+    "end": 23.65,
     "speaker": "曉臻",
-    "text": "耶地球科學聽起來就很好玩"
+    "text": "耶地球科學聽起來就很好玩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 24.4,
-    "end": 28.02,
+    "start": 23.85,
+    "end": 27.17,
     "speaker": "曉臻",
-    "text": "老師我們第一關要看什麼"
+    "text": "老師我們第一關要看什麼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 28.02,
-    "end": 31.81,
+    "start": 27.37,
+    "end": 30.86,
     "speaker": "彥君",
-    "text": "戰士們請看這張投影片"
+    "text": "戰士們請看這張投影片",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 31.81,
-    "end": 35.82,
+    "start": 31.06,
+    "end": 34.42,
     "speaker": "彥君",
-    "text": "主題是『地球上的水資源』"
+    "text": "主題是地球上的水資源",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 35.82,
-    "end": 40.16,
+    "start": 34.62,
+    "end": 38.66,
     "speaker": "彥君",
-    "text": "大家都知道地球是一顆藍色水之星"
+    "text": "大家都知道地球是一顆藍色水之星",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 40.16,
-    "end": 44.64,
+    "start": 38.86,
+    "end": 43.05,
     "speaker": "彥君",
-    "text": "但你有想過這些水我們真的都能喝嗎"
+    "text": "但你有想過這些水我們真的都能喝嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 44.64,
-    "end": 50.04,
+    "start": 43.25,
+    "end": 48.34,
     "speaker": "曉臻",
-    "text": "當然不行啊去海邊玩不小心喝到海水"
+    "text": "當然不行啊去海邊玩不小心喝到海水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 50.04,
-    "end": 52.82,
+    "start": 48.54,
+    "end": 51.02,
     "speaker": "曉臻",
-    "text": "超級無敵鹹的耶"
+    "text": "超級無敵鹹的耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 52.82,
-    "end": 57.97,
+    "start": 51.22,
+    "end": 56.08,
     "speaker": "彥君",
-    "text": "沒錯戰士們看第一個重點"
+    "text": "沒錯戰士們看第一個重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 57.97,
-    "end": 63.06,
+    "start": 56.28,
+    "end": 60.82,
     "speaker": "彥君",
-    "text": "地球上高達 975% 都是『海水』"
+    "text": "地球上高達 97.5% 都是海水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 63.06,
-    "end": 68.6,
+    "start": 61.02,
+    "end": 66.26,
     "speaker": "彥君",
-    "text": "裡面有氯化鈉也就是我們吃的鹽所以很鹹"
+    "text": "裡面有氯化鈉也就是我們吃的鹽所以很鹹",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 68.6,
-    "end": 72.86,
+    "start": 66.46,
+    "end": 70.38,
     "speaker": "曉臻",
-    "text": "老師投影片上還寫了『氯化鎂』"
+    "text": "老師投影片上還寫了氯化鎂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 72.86,
-    "end": 77.11,
+    "start": 70.58,
+    "end": 74.29,
     "speaker": "曉臻",
-    "text": "旁邊括號寫『苦』這是什麼意思啊"
+    "text": "旁邊寫著苦這是什麼意思啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 77.11,
-    "end": 80.49,
+    "start": 74.49,
+    "end": 77.57,
     "speaker": "彥君",
-    "text": "這是會考常出的陷阱喔"
+    "text": "這是會考常出的陷阱喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 80.49,
-    "end": 87.37,
+    "start": 77.77,
+    "end": 84.35,
     "speaker": "彥君",
-    "text": "海水不只鹹還會苦那個苦味就是來自氯化鎂"
+    "text": "海水不只鹹還會苦那個苦味就是來自氯化鎂",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 87.37,
-    "end": 93.06,
+    "start": 84.55,
+    "end": 90.03,
     "speaker": "彥君",
-    "text": "所以這 975% 的水我們是『不可直接利用』的"
+    "text": "所以這 97.5% 的水我們是不可直接利用的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 93.06,
-    "end": 96.34,
+    "start": 90.23,
+    "end": 225.24,
+    "speaker": "彥君",
+    "text": "海水 97.5%：含氯化鈉變鹹、氯化鎂變苦，不可直接用",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 97.5,
+    "end": 100.48,
     "speaker": "曉臻",
-    "text": "哇把海水扣掉之後"
+    "text": "哇把海水扣掉之後",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 96.34,
-    "end": 101.04,
+    "start": 100.68,
+    "end": 105.08,
     "speaker": "曉臻",
-    "text": "地球上的淡水只剩下 25% 了耶"
+    "text": "地球上的淡水只剩下 2.5% 了耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 101.04,
-    "end": 105.21,
+    "start": 105.28,
+    "end": 109.15,
     "speaker": "彥君",
-    "text": "別急著高興你看看第二點"
+    "text": "別急著高興你看看第二點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 105.21,
-    "end": 110.97,
+    "start": 109.35,
+    "end": 114.5,
     "speaker": "彥君",
-    "text": "剩下的淡水裡面有 174% 都是『冰川』"
+    "text": "剩下的淡水裡面有 1.74% 都是冰川",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 110.97,
-    "end": 115.43,
+    "start": 114.7,
+    "end": 118.86,
     "speaker": "曉臻",
-    "text": "冰川那不都在南極跟北極"
+    "text": "冰川那不都在南極跟北極",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 115.43,
-    "end": 118.71,
+    "start": 119.06,
+    "end": 122.04,
     "speaker": "曉臻",
-    "text": "還有很高很高的山上嗎"
+    "text": "還有很高很高的山上嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 118.71,
-    "end": 125.6,
+    "start": 122.24,
+    "end": 128.61,
     "speaker": "彥君",
-    "text": "答對了所以冰川雖然是地球上『最大的淡水來源』"
+    "text": "答對了所以冰川雖然是地球上最大的淡水來源",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 125.6,
-    "end": 130.49,
+    "start": 128.81,
+    "end": 133.18,
     "speaker": "彥君",
-    "text": "但全部都結冰了我們一樣『不可直接利用』喔"
+    "text": "但全部都結冰了我們一樣不可直接利用喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 130.49,
-    "end": 134.06,
+    "start": 133.38,
+    "end": 225.24,
+    "speaker": "彥君",
+    "text": "冰川 1.74%：最大淡水來源，結冰不可直接用",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 139.66,
+    "end": 142.94,
     "speaker": "曉臻",
-    "text": "老師我來算一下數學"
+    "text": "老師我來算一下數學",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 134.06,
-    "end": 138.45,
+    "start": 143.14,
+    "end": 147.22,
     "speaker": "曉臻",
-    "text": "100 減掉 975 再減掉 174"
+    "text": "100 減掉 97.5 再減掉 1.74",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 138.45,
-    "end": 143.36,
+    "start": 147.42,
+    "end": 152.04,
     "speaker": "曉臻",
-    "text": "天啊只剩下 076% 耶"
+    "text": "天啊只剩下 0.76% 耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 143.36,
-    "end": 147.75,
+    "start": 152.24,
+    "end": 156.33,
     "speaker": "彥君",
-    "text": "沒錯這就是最殘酷的真相"
+    "text": "沒錯這就是最殘酷的真相",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 147.75,
-    "end": 151.64,
+    "start": 156.53,
+    "end": 160.11,
     "speaker": "彥君",
-    "text": "我們全人類跟動植物能用的水"
+    "text": "我們全人類跟動植物能用的水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 151.64,
-    "end": 155.76,
+    "start": 160.31,
+    "end": 164.14,
     "speaker": "彥君",
-    "text": "就只有這可憐的 076%"
+    "text": "就只有這可憐的 0.76%",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 155.76,
-    "end": 159.33,
+    "start": 164.34,
+    "end": 167.61,
     "speaker": "曉臻",
-    "text": "難怪大家都說要節約用水"
+    "text": "難怪大家都說要節約用水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 159.33,
-    "end": 162.66,
+    "start": 167.81,
+    "end": 170.84,
     "speaker": "曉臻",
-    "text": "原來我們能用的水這麼少"
+    "text": "原來我們能用的水這麼少",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 162.66,
-    "end": 166.91,
+    "start": 171.04,
+    "end": 174.98,
     "speaker": "彥君",
-    "text": "戰士們請把最後一行畫上大星星"
+    "text": "戰士們請把最後一行畫上大星星",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 166.91,
-    "end": 171.54,
+    "start": 175.18,
+    "end": 179.51,
     "speaker": "彥君",
-    "text": "這 076% 的水到底藏在哪裡呢"
+    "text": "這 0.76% 的水到底藏在哪裡呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 171.54,
-    "end": 174.17,
+    "start": 179.71,
+    "end": 182.05,
     "speaker": "曉臻",
-    "text": "投影片上有寫"
+    "text": "投影片上有寫",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 174.17,
-    "end": 178.2,
+    "start": 182.25,
+    "end": 185.76,
     "speaker": "曉臻",
-    "text": "是『地下水』、『河水』跟『淡水湖』"
+    "text": "是地下水、河水跟淡水湖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 178.2,
-    "end": 180.88,
+    "start": 185.96,
+    "end": 188.34,
     "speaker": "彥君",
-    "text": "完全正確"
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 180.88,
-    "end": 184.1,
+    "start": 188.54,
+    "end": 225.24,
     "speaker": "彥君",
-    "text": "戰士們閉上眼睛"
+    "text": "可用淡水 0.76%：地下水、河水、淡水湖",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選"
+    ]
   },
   {
-    "start": 184.1,
-    "end": 188.08,
+    "start": 195.06,
+    "end": 198.48,
     "speaker": "彥君",
-    "text": "地球上最大的淡水來源是哪裡"
+    "text": "戰士們請閉上眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 188.08,
-    "end": 190.83,
+    "start": 198.68,
+    "end": 201.09,
+    "speaker": "彥君",
+    "text": "好好想一下喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 201.29,
+    "end": 204.97,
+    "speaker": "彥君",
+    "text": "地球上最大的淡水來源是哪裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 205.17,
+    "end": 207.62,
     "speaker": "曉臻",
-    "text": "千萬不要被騙囉"
+    "text": "千萬不要被騙囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 190.83,
-    "end": 194.72,
+    "start": 207.82,
+    "end": 211.38,
     "speaker": "曉臻",
-    "text": "最大的淡水來源是結冰的『冰川』"
+    "text": "最大的淡水來源是結冰的冰川",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 194.72,
-    "end": 197.66,
+    "start": 211.58,
+    "end": 214.23,
     "speaker": "曉臻",
-    "text": "絕對不是地下水喔"
+    "text": "絕對不是地下水喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 197.66,
-    "end": 203.11,
+    "start": 214.43,
+    "end": 219.19,
     "speaker": "彥君",
-    "text": "漂亮這就是衝 A 的戰士"
+    "text": "漂亮這就是滿級分戰士",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 203.11,
-    "end": 206.06,
+    "start": 219.39,
+    "end": 222.04,
     "speaker": "彥君",
-    "text": "該有的避坑能力"
+    "text": "該有的避坑能力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 206.06,
-    "end": 208.96,
+    "start": 225.24,
+    "end": 227.84,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 208.96,
-    "end": 211.59,
+    "start": 228.04,
+    "end": 230.38,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 211.59,
-    "end": 216.2,
+    "start": 230.58,
+    "end": 234.88,
     "speaker": "合聲",
-    "text": "水資源超珍貴戰士們下一關見"
+    "text": "水資源超珍貴戰士們下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
