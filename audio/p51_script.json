@@ -1,302 +1,659 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.34,
+    "start": 3.21,
+    "end": 6.26,
     "speaker": "彥君",
-    "text": "各位即將衝A的會考戰士們 我是彥君老師"
+    "text": "海岸線的潮起潮落",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.34,
-    "end": 10.74,
+    "start": 6.46,
+    "end": 9.3,
     "speaker": "彥君",
-    "text": "今天來到 第五十一集"
+    "text": "就像大自然的呼吸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 10.74,
-    "end": 14.79,
+    "start": 9.5,
+    "end": 12.68,
     "speaker": "彥君",
-    "text": "海岸線的呼吸 也就是 潮汐"
+    "text": "你們日復一日的堅持",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 14.79,
-    "end": 18.29,
+    "start": 12.88,
+    "end": 16.06,
+    "speaker": "彥君",
+    "text": "終將推動命運的浪潮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 16.26,
+    "end": 19.46,
+    "speaker": "彥君",
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 19.66,
+    "end": 22.88,
+    "speaker": "彥君",
+    "text": "歡迎來到第五十一集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.08,
+    "end": 25.68,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 25.88,
+    "end": 28.36,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.29,
-    "end": 22.37,
+    "start": 28.56,
+    "end": 30.9,
     "speaker": "曉臻",
-    "text": "老師 潮汐到底是 誰造成的啊"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.37,
-    "end": 26.32,
+    "start": 31.1,
+    "end": 34.15,
     "speaker": "彥君",
-    "text": "第一是月球 第二是太陽"
+    "text": "今天我們要來攻克",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 26.32,
-    "end": 29.85,
+    "start": 34.35,
+    "end": 37.17,
     "speaker": "彥君",
-    "text": "雖然太陽 質量非常大"
+    "text": "地科的必考關卡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 29.85,
-    "end": 33.28,
+    "start": 37.37,
+    "end": 39.97,
     "speaker": "彥君",
-    "text": "但月球 離我們比較近"
+    "text": "海岸線的呼吸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 33.28,
-    "end": 37.62,
+    "start": 40.17,
+    "end": 42.94,
     "speaker": "彥君",
-    "text": "月球的影響力 遠遠大於太陽"
+    "text": "也就是潮汐變化",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 37.62,
-    "end": 39.92,
+    "start": 43.14,
+    "end": 46.12,
     "speaker": "曉臻",
-    "text": "原來如此"
+    "text": "老師 潮汐到底是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 39.92,
-    "end": 43.34,
+    "start": 46.32,
+    "end": 48.39,
     "speaker": "曉臻",
-    "text": "那圖上寫的 大潮跟小潮"
+    "text": "誰造成的啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 43.34,
-    "end": 45.91,
+    "start": 48.59,
+    "end": 51.62,
+    "speaker": "彥君",
+    "text": "影響潮汐最主要的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 51.82,
+    "end": 54.3,
+    "speaker": "彥君",
+    "text": "有兩個天體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 54.5,
+    "end": 58.16,
+    "speaker": "彥君",
+    "text": "第一是月球 第二是太陽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 58.36,
+    "end": 61.68,
+    "speaker": "彥君",
+    "text": "雖然太陽的質量非常大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 61.88,
+    "end": 65.01,
+    "speaker": "彥君",
+    "text": "但月球離我們比較近",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 65.21,
+    "end": 68.65,
+    "speaker": "彥君",
+    "text": "所以戰士們請看投影片",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 68.85,
+    "end": 71.52,
+    "speaker": "彥君",
+    "text": "月球的影響力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 71.72,
+    "end": 74.39,
+    "speaker": "彥君",
+    "text": "遠遠大於太陽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 74.59,
+    "end": 76.59,
     "speaker": "曉臻",
-    "text": "是怎麼發生的"
+    "text": "原來如此",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 45.91,
-    "end": 50.15,
-    "speaker": "彥君",
-    "text": "當太陽、 地球、 月球"
-  },
-  {
-    "start": 50.15,
-    "end": 54.2,
-    "speaker": "彥君",
-    "text": "三顆星球 排成一直線的時候"
-  },
-  {
-    "start": 54.2,
-    "end": 57.37,
-    "speaker": "彥君",
-    "text": "他們的引力 會相加"
-  },
-  {
-    "start": 57.37,
-    "end": 60.65,
-    "speaker": "彥君",
-    "text": "把海水 拉到最極致"
-  },
-  {
-    "start": 60.65,
-    "end": 63.96,
-    "speaker": "彥君",
-    "text": "這時候 潮差最大"
-  },
-  {
-    "start": 63.96,
-    "end": 66.86,
-    "speaker": "彥君",
-    "text": "我們稱為大潮"
-  },
-  {
-    "start": 66.86,
-    "end": 69.28,
+    "start": 76.79,
+    "end": 79.92,
     "speaker": "曉臻",
-    "text": "排成一直線"
+    "text": "那圖上寫的大潮跟小潮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 69.28,
-    "end": 72.32,
+    "start": 80.12,
+    "end": 82.7,
     "speaker": "曉臻",
-    "text": "不就是 農曆初一的 朔"
+    "text": "到底是怎麼發生的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 72.32,
-    "end": 75.03,
-    "speaker": "曉臻",
-    "text": "還有 十五的望嗎"
-  },
-  {
-    "start": 75.03,
-    "end": 77.43,
+    "start": 82.9,
+    "end": 86.22,
     "speaker": "彥君",
-    "text": "沒錯"
+    "text": "當太陽地球還有月球",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 77.43,
-    "end": 80.52,
+    "start": 86.42,
+    "end": 89.74,
     "speaker": "彥君",
-    "text": "所以新月 和滿月"
+    "text": "三顆星球排成一直線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 80.52,
-    "end": 83.64,
+    "start": 89.94,
+    "end": 92.85,
     "speaker": "彥君",
-    "text": "都會出現大潮"
+    "text": "他們的引力會相加",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 83.64,
-    "end": 86.32,
-    "speaker": "曉臻",
-    "text": "那右邊 這張圖"
-  },
-  {
-    "start": 86.32,
-    "end": 90.59,
-    "speaker": "曉臻",
-    "text": "太陽、 地球、 月球 呈現直角呢"
-  },
-  {
-    "start": 90.59,
-    "end": 94.26,
+    "start": 93.05,
+    "end": 96.13,
     "speaker": "彥君",
-    "text": "這時候引力 會互相抵銷"
+    "text": "把海水拉到最極致",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 94.26,
-    "end": 97.11,
+    "start": 96.33,
+    "end": 99.0,
     "speaker": "彥君",
-    "text": "潮差會變小"
+    "text": "潮差變得最大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 97.11,
-    "end": 100.06,
+    "start": 99.2,
+    "end": 102.02,
     "speaker": "彥君",
-    "text": "我們稱為小潮"
+    "text": "我們就稱為大潮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 100.06,
-    "end": 102.91,
+    "start": 102.22,
+    "end": 104.84,
     "speaker": "曉臻",
-    "text": "呈現直角的時候"
+    "text": "排成一直線的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 102.91,
-    "end": 106.43,
+    "start": 105.04,
+    "end": 107.69,
     "speaker": "曉臻",
-    "text": "剛好就是 看見一半月亮的"
+    "text": "就是農曆初一的朔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 106.43,
-    "end": 109.72,
+    "start": 107.89,
+    "end": 110.3,
     "speaker": "曉臻",
-    "text": "上弦月 跟下弦月 對吧"
+    "text": "還有十五的望嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 109.72,
-    "end": 112.42,
+    "start": 110.5,
+    "end": 112.59,
     "speaker": "彥君",
-    "text": "完全正確"
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 112.42,
-    "end": 116.07,
+    "start": 112.79,
+    "end": 116.06,
     "speaker": "彥君",
-    "text": "大約是 農曆初七、 初八"
+    "text": "所以新月和滿月的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 116.07,
-    "end": 119.54,
+    "start": 116.26,
+    "end": 119.08,
     "speaker": "彥君",
-    "text": "以及 二十二、 二十三"
+    "text": "都會出現大潮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 119.54,
-    "end": 122.56,
-    "speaker": "曉臻",
-    "text": "一直線 是朔望"
-  },
-  {
-    "start": 122.56,
-    "end": 125.73,
-    "speaker": "曉臻",
-    "text": "潮差最大 叫大潮"
-  },
-  {
-    "start": 125.73,
-    "end": 129.23,
-    "speaker": "曉臻",
-    "text": "呈直角 是上下弦月"
-  },
-  {
-    "start": 129.23,
-    "end": 132.51,
-    "speaker": "曉臻",
-    "text": "潮差最小 叫小潮"
-  },
-  {
-    "start": 132.51,
-    "end": 135.48,
+    "start": 119.28,
+    "end": 127.31,
     "speaker": "彥君",
-    "text": "如果去海邊玩"
+    "text": "一直線大潮潮差最大",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "一直線大潮潮差最大"
+    ]
   },
   {
-    "start": 135.48,
-    "end": 138.91,
-    "speaker": "彥君",
-    "text": "發現海水 退得特別遠"
-  },
-  {
-    "start": 138.91,
-    "end": 142.48,
-    "speaker": "彥君",
-    "text": "請問今天是 農曆初幾"
-  },
-  {
-    "start": 142.48,
-    "end": 145.67,
+    "start": 127.31,
+    "end": 129.79,
     "speaker": "曉臻",
-    "text": "退得很遠 代表潮差大"
+    "text": "那右邊的這張圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 145.67,
-    "end": 147.88,
+    "start": 129.99,
+    "end": 133.26,
     "speaker": "曉臻",
-    "text": "是大潮"
+    "text": "太陽地球月球呈現直角呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 147.88,
-    "end": 150.92,
-    "speaker": "曉臻",
-    "text": "所以是 初一或十五"
-  },
-  {
-    "start": 150.92,
-    "end": 155.26,
+    "start": 133.46,
+    "end": 136.83,
     "speaker": "彥君",
-    "text": "漂亮 邏輯滿分"
+    "text": "這時候引力會互相抵銷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 155.26,
-    "end": 158.16,
+    "start": 137.03,
+    "end": 139.56,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "潮差會變小",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 158.16,
-    "end": 160.8,
+    "start": 139.76,
+    "end": 142.58,
+    "speaker": "彥君",
+    "text": "我們就稱為小潮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 142.78,
+    "end": 145.33,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "呈現直角的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 160.8,
-    "end": 164.58,
+    "start": 145.53,
+    "end": 148.78,
+    "speaker": "曉臻",
+    "text": "剛好就是看見一半月亮的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 148.98,
+    "end": 151.96,
+    "speaker": "曉臻",
+    "text": "上弦月跟下弦月對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 152.16,
+    "end": 154.57,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 154.77,
+    "end": 157.8,
+    "speaker": "彥君",
+    "text": "大約是農曆初七跟初八",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 158.0,
+    "end": 160.98,
+    "speaker": "彥君",
+    "text": "以及二十二跟二十三",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 161.18,
+    "end": 169.12,
+    "speaker": "彥君",
+    "text": "呈直角小潮潮差最小",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "呈直角小潮潮差最小"
+    ]
+  },
+  {
+    "start": 169.12,
+    "end": 172.54,
+    "speaker": "曉臻",
+    "text": "戰士們 我們來快速複習",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 172.74,
+    "end": 175.46,
+    "speaker": "曉臻",
+    "text": "一直線 是朔望",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 175.66,
+    "end": 178.71,
+    "speaker": "曉臻",
+    "text": "潮差最大 叫做大潮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 178.91,
+    "end": 182.11,
+    "speaker": "曉臻",
+    "text": "呈直角 是上下弦月",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 182.31,
+    "end": 185.49,
+    "speaker": "曉臻",
+    "text": "潮差最小 叫做小潮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 185.69,
+    "end": 192.71,
+    "speaker": "彥君",
+    "text": "一直線大潮呈直角小潮",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "一直線大潮呈直角小潮"
+    ]
+  },
+  {
+    "start": 192.71,
+    "end": 194.83,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 195.03,
+    "end": 198.09,
+    "speaker": "彥君",
+    "text": "請閉上眼睛想一想喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 198.29,
+    "end": 200.98,
+    "speaker": "彥君",
+    "text": "如果去海邊玩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 201.18,
+    "end": 204.31,
+    "speaker": "彥君",
+    "text": "發現海水退得特別遠",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 204.51,
+    "end": 207.78,
+    "speaker": "彥君",
+    "text": "請問今天是農曆初幾",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 207.98,
+    "end": 210.82,
+    "speaker": "曉臻",
+    "text": "退得很遠代表潮差大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 211.02,
+    "end": 213.26,
+    "speaker": "曉臻",
+    "text": "絕對是大潮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 213.46,
+    "end": 216.57,
+    "speaker": "曉臻",
+    "text": "所以絕對是初一或十五",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 216.77,
+    "end": 220.81,
+    "speaker": "彥君",
+    "text": "漂亮 邏輯滿分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 221.01,
+    "end": 224.28,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 224.48,
+    "end": 227.08,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 227.28,
+    "end": 229.62,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 229.82,
+    "end": 233.28,
     "speaker": "合聲",
-    "text": "戰士們 下一關卡見"
+    "text": "潮汐規律 滿分絕對",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 233.48,
+    "end": 236.94,
+    "speaker": "合聲",
+    "text": "戰士們 下一關卡見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
