@@ -1,278 +1,1007 @@
 [
   {
     "start": 0.0,
-    "end": 3.98,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "戰士們 我們繼續往下看"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.98,
-    "end": 8.92,
+    "start": 3.21,
+    "end": 6.43,
+    "speaker": "彥君",
+    "text": "腳下的大地雖然沉默",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 6.63,
+    "end": 10.1,
+    "speaker": "彥君",
+    "text": "卻蘊含著造山的巨大能量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 10.3,
+    "end": 13.35,
+    "speaker": "彥君",
+    "text": "你們日積月累的實力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 13.55,
+    "end": 17.02,
+    "speaker": "彥君",
+    "text": "終將爆發出最耀眼的光芒",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 17.22,
+    "end": 20.42,
+    "speaker": "彥君",
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.62,
+    "end": 23.98,
+    "speaker": "彥君",
+    "text": "歡迎來到第四十三集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 24.18,
+    "end": 26.78,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 26.98,
+    "end": 29.46,
     "speaker": "曉臻",
-    "text": "接下來這張板塊運動的圖 也是必考重點喔"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 8.92,
-    "end": 14.77,
-    "speaker": "彥君",
-    "text": "沒錯 剛剛說過軟流圈 就像濃稠的熱巧克力"
-  },
-  {
-    "start": 14.77,
-    "end": 19.57,
+    "start": 29.66,
+    "end": 32.0,
     "speaker": "曉臻",
-    "text": "投影片上有寫 軟流圈會發生『熱對流』"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.57,
-    "end": 24.41,
+    "start": 32.2,
+    "end": 34.32,
     "speaker": "彥君",
-    "text": "對 這就是帶動板塊移動的巨大引擎"
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 24.41,
-    "end": 29.69,
+    "start": 34.52,
+    "end": 37.26,
     "speaker": "彥君",
-    "text": "考試最愛考兩種板塊交界 第一種是拉開的"
+    "text": "我們繼續往下看",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 29.69,
-    "end": 34.53,
+    "start": 37.46,
+    "end": 40.66,
     "speaker": "曉臻",
-    "text": "就像把披薩從中間拉開 會牽絲一樣嗎"
+    "text": "接下來這張板塊運動的圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 34.53,
-    "end": 39.52,
-    "speaker": "彥君",
-    "text": "這個比喻很好 這叫做『張裂性』板塊交界"
-  },
-  {
-    "start": 39.52,
-    "end": 44.7,
+    "start": 40.86,
+    "end": 43.37,
     "speaker": "曉臻",
-    "text": "披薩底下的熱起司冒出來 就像岩漿湧出對吧"
+    "text": "也是必考重點喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 44.7,
-    "end": 50.29,
+    "start": 43.57,
+    "end": 45.69,
     "speaker": "彥君",
-    "text": "完全正確 岩漿冷卻後 就會變成新的地殼"
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 50.29,
-    "end": 54.92,
+    "start": 45.89,
+    "end": 48.75,
+    "speaker": "彥君",
+    "text": "剛剛說過軟流圈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 48.95,
+    "end": 52.01,
+    "speaker": "彥君",
+    "text": "就像濃稠的熱巧克力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 52.21,
+    "end": 54.59,
     "speaker": "曉臻",
-    "text": "如果在海底被拉開 會變成什麼地形啊"
+    "text": "投影片上有寫",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 54.92,
-    "end": 60.07,
-    "speaker": "彥君",
-    "text": "會形成海底的火山山脈 叫做『中洋脊』"
-  },
-  {
-    "start": 60.07,
-    "end": 65.08,
+    "start": 54.79,
+    "end": 57.78,
     "speaker": "曉臻",
-    "text": "老師 那世界上有什麼必考的張裂性例子嗎"
+    "text": "軟流圈會發生熱對流",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 65.08,
-    "end": 69.23,
+    "start": 57.98,
+    "end": 62.74,
     "speaker": "彥君",
-    "text": "第一個必考點 就是『冰島』"
+    "text": "對 這就是帶動板塊移動的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 69.23,
-    "end": 74.51,
+    "start": 62.94,
+    "end": 65.34,
+    "speaker": "彥君",
+    "text": "巨大引擎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 65.54,
+    "end": 69.18,
+    "speaker": "彥君",
+    "text": "考試最愛考兩種板塊交界",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 69.38,
+    "end": 72.1,
+    "speaker": "彥君",
+    "text": "第一種是拉開的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 72.3,
+    "end": 75.47,
     "speaker": "曉臻",
-    "text": "冰島剛好在中洋脊上 正在被慢慢拉成兩半喔"
+    "text": "就像把披薩從中間拉開",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 74.51,
-    "end": 79.71,
-    "speaker": "彥君",
-    "text": "沒錯 還有第二個例子 發生在陸地上"
-  },
-  {
-    "start": 79.71,
-    "end": 82.66,
+    "start": 75.67,
+    "end": 77.96,
     "speaker": "曉臻",
-    "text": "陸地也會被拉開嗎"
+    "text": "會牽絲一樣嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 82.66,
-    "end": 87.34,
+    "start": 78.16,
+    "end": 80.64,
     "speaker": "彥君",
-    "text": "會的 像是著名的『東非大裂谷』"
+    "text": "這個比喻很好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 87.34,
-    "end": 92.68,
+    "start": 80.84,
+    "end": 84.28,
+    "speaker": "彥君",
+    "text": "這叫做張裂性板塊交界",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 84.48,
+    "end": 87.73,
     "speaker": "曉臻",
-    "text": "哇 那邊的大地正在裂開 以後會變成海洋嗎"
+    "text": "披薩底下的熱起司冒出來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 92.68,
-    "end": 97.94,
-    "speaker": "彥君",
-    "text": "很有可能喔這就是張裂性的威力"
-  },
-  {
-    "start": 97.94,
-    "end": 102.47,
-    "speaker": "彥君",
-    "text": "那第二種交界 如果兩個板塊對撞呢"
-  },
-  {
-    "start": 102.47,
-    "end": 107.67,
+    "start": 87.93,
+    "end": 90.65,
     "speaker": "曉臻",
-    "text": "碰的一聲這叫做『聚合性』板塊交界"
+    "text": "就像岩漿湧出對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 107.67,
-    "end": 113.64,
+    "start": 90.85,
+    "end": 93.26,
     "speaker": "彥君",
-    "text": "沒錯 就像兩台車對撞 引擎蓋會擠壓凸起來"
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 113.64,
-    "end": 118.22,
-    "speaker": "曉臻",
-    "text": "岩石被擠壓凸起 就會變成高山對吧"
-  },
-  {
-    "start": 118.22,
-    "end": 123.93,
+    "start": 93.46,
+    "end": 95.91,
     "speaker": "彥君",
-    "text": "對 這叫做『造山運動』 台灣就是最好的例子"
+    "text": "岩漿冷卻後",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 123.93,
-    "end": 129.18,
-    "speaker": "曉臻",
-    "text": "歐亞板塊跟菲律賓海板塊 就在我們這裡相撞"
-  },
-  {
-    "start": 129.18,
-    "end": 134.2,
+    "start": 96.11,
+    "end": 99.02,
     "speaker": "彥君",
-    "text": "所以台灣才有這麼多高山 像是中央山脈"
+    "text": "就會變成新的地殼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 134.2,
-    "end": 139.26,
+    "start": 99.22,
+    "end": 101.85,
     "speaker": "曉臻",
-    "text": "老師 那世界上還有其他聚合性的例子嗎"
+    "text": "如果在海底被拉開",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 139.26,
-    "end": 145.35,
+    "start": 102.05,
+    "end": 104.7,
+    "speaker": "曉臻",
+    "text": "會變成什麼地形啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 104.9,
+    "end": 108.12,
     "speaker": "彥君",
-    "text": "當然有全世界最高的『喜馬拉雅山』"
+    "text": "會形成海底的火山山脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 145.35,
-    "end": 148.92,
-    "speaker": "曉臻",
-    "text": "這是哪兩個板塊撞出來的啊"
-  },
-  {
-    "start": 148.92,
-    "end": 153.55,
+    "start": 108.32,
+    "end": 110.94,
     "speaker": "彥君",
-    "text": "是歐亞板塊 迎面撞上印澳板塊"
+    "text": "叫做中洋脊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 153.55,
-    "end": 158.68,
+    "start": 111.14,
+    "end": 112.93,
     "speaker": "曉臻",
-    "text": "難怪山會這麼高 原來是陸地跟陸地的大車禍"
+    "text": "老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 158.68,
-    "end": 164.32,
+    "start": 113.13,
+    "end": 116.04,
+    "speaker": "曉臻",
+    "text": "世界上有什麼必考的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 116.24,
+    "end": 118.5,
+    "speaker": "曉臻",
+    "text": "張裂性例子嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 118.7,
+    "end": 121.23,
     "speaker": "彥君",
-    "text": "形容得很好 但如果是海洋撞上陸地呢"
+    "text": "第一個必考點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 164.32,
-    "end": 168.75,
-    "speaker": "曉臻",
-    "text": "海洋板塊比較重 應該會往下鑽吧"
-  },
-  {
-    "start": 168.75,
-    "end": 174.29,
+    "start": 121.43,
+    "end": 123.7,
     "speaker": "彥君",
-    "text": "沒錯 往下鑽的深溝 就會形成『海溝』"
+    "text": "就是冰島",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 174.29,
-    "end": 178.54,
+    "start": 123.9,
+    "end": 126.76,
     "speaker": "曉臻",
-    "text": "像是世界上最深的『馬里亞納海溝』"
+    "text": "冰島剛好在中洋脊上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 178.54,
-    "end": 185.18,
+    "start": 126.96,
+    "end": 129.97,
+    "speaker": "曉臻",
+    "text": "正在被慢慢拉成兩半喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 130.17,
+    "end": 133.75,
     "speaker": "彥君",
-    "text": "答對了 而且板塊往下鑽的時候 會摩擦生熱"
+    "text": "沒錯 還有第二個例子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 185.18,
-    "end": 189.59,
-    "speaker": "曉臻",
-    "text": "岩漿往上噴發 就會形成火山了嗎"
-  },
-  {
-    "start": 189.59,
-    "end": 193.79,
+    "start": 133.95,
+    "end": 136.72,
     "speaker": "彥君",
-    "text": "對 這就是『火山島弧』的由來"
+    "text": "發生在陸地上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 193.79,
-    "end": 198.39,
+    "start": 136.92,
+    "end": 139.57,
     "speaker": "曉臻",
-    "text": "老師 那日本是不是就是這樣形成的"
+    "text": "陸地也會被拉開嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 198.39,
-    "end": 203.52,
+    "start": 139.77,
+    "end": 143.02,
     "speaker": "彥君",
-    "text": "完全正確 包含太平洋周圍的火環帶都是"
+    "text": "會的 像是著名的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 203.52,
-    "end": 208.25,
-    "speaker": "曉臻",
-    "text": "原來聚合性交界 不只會有高山跟海溝"
-  },
-  {
-    "start": 208.25,
-    "end": 212.49,
-    "speaker": "曉臻",
-    "text": "還會伴隨著大量的地震跟火山活動"
-  },
-  {
-    "start": 212.49,
-    "end": 217.91,
+    "start": 143.22,
+    "end": 145.65,
     "speaker": "彥君",
-    "text": "戰士們 張裂跟聚合的例子 絕對要分清楚"
+    "text": "東非大裂谷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 217.91,
-    "end": 222.35,
-    "speaker": "彥君",
-    "text": "這個段落的重點 我們先整理到這邊"
-  },
-  {
-    "start": 222.35,
-    "end": 226.95,
+    "start": 145.85,
+    "end": 149.22,
     "speaker": "曉臻",
-    "text": "大家把圖表的例子看熟 我們等等繼續"
+    "text": "哇 那邊的大地正在裂開",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 149.42,
+    "end": 152.14,
+    "speaker": "曉臻",
+    "text": "以後會變成海洋嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 152.34,
+    "end": 154.58,
+    "speaker": "彥君",
+    "text": "很有可能喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 154.78,
+    "end": 157.81,
+    "speaker": "彥君",
+    "text": "這就是張裂性的威力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 158.01,
+    "end": 166.66,
+    "speaker": "彥君",
+    "text": "張裂性拉開冰島東非裂谷",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "張裂性拉開冰島東非裂谷"
+    ]
+  },
+  {
+    "start": 166.66,
+    "end": 169.26,
+    "speaker": "彥君",
+    "text": "那第二種交界",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 169.46,
+    "end": 172.42,
+    "speaker": "彥君",
+    "text": "如果兩個板塊對撞呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 172.62,
+    "end": 174.5,
+    "speaker": "曉臻",
+    "text": "碰的一聲",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 174.7,
+    "end": 177.83,
+    "speaker": "曉臻",
+    "text": "這叫做聚合性板塊交界",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 178.03,
+    "end": 181.81,
+    "speaker": "彥君",
+    "text": "沒錯 就像兩台車對撞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 182.01,
+    "end": 185.16,
+    "speaker": "彥君",
+    "text": "引擎蓋會擠壓凸起來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 185.36,
+    "end": 187.94,
+    "speaker": "曉臻",
+    "text": "岩石被擠壓凸起",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 188.14,
+    "end": 190.83,
+    "speaker": "曉臻",
+    "text": "就會變成高山對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 191.03,
+    "end": 194.62,
+    "speaker": "彥君",
+    "text": "對 這叫做造山運動",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 194.82,
+    "end": 198.02,
+    "speaker": "彥君",
+    "text": "台灣就是最好的例子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 198.22,
+    "end": 201.58,
+    "speaker": "曉臻",
+    "text": "歐亞板塊跟菲律賓海板塊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 201.78,
+    "end": 204.38,
+    "speaker": "曉臻",
+    "text": "就在我們這裡相撞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 204.58,
+    "end": 207.93,
+    "speaker": "彥君",
+    "text": "所以台灣才有這麼多高山",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 208.13,
+    "end": 210.92,
+    "speaker": "彥君",
+    "text": "像是中央山脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 211.12,
+    "end": 214.63,
+    "speaker": "曉臻",
+    "text": "老師 那世界上還有其他",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 214.83,
+    "end": 217.31,
+    "speaker": "曉臻",
+    "text": "聚合性的例子嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 217.51,
+    "end": 219.63,
+    "speaker": "彥君",
+    "text": "當然有",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 219.83,
+    "end": 223.25,
+    "speaker": "彥君",
+    "text": "全世界最高的喜馬拉雅山",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 223.45,
+    "end": 226.72,
+    "speaker": "曉臻",
+    "text": "這是哪兩個板塊撞出來的啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 226.92,
+    "end": 229.47,
+    "speaker": "彥君",
+    "text": "是歐亞板塊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 229.67,
+    "end": 232.73,
+    "speaker": "彥君",
+    "text": "迎面撞上印澳板塊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 232.93,
+    "end": 235.41,
+    "speaker": "曉臻",
+    "text": "難怪山會這麼高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 235.61,
+    "end": 239.02,
+    "speaker": "曉臻",
+    "text": "原來是陸地跟陸地的大車禍",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 239.22,
+    "end": 241.61,
+    "speaker": "彥君",
+    "text": "形容得很好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 241.81,
+    "end": 245.06,
+    "speaker": "彥君",
+    "text": "但如果是海洋撞上陸地呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 245.26,
+    "end": 247.74,
+    "speaker": "曉臻",
+    "text": "海洋板塊比較重",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 247.94,
+    "end": 250.44,
+    "speaker": "曉臻",
+    "text": "應該會往下鑽吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 250.64,
+    "end": 254.01,
+    "speaker": "彥君",
+    "text": "沒錯 往下鑽的深溝",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 254.21,
+    "end": 256.95,
+    "speaker": "彥君",
+    "text": "就會形成海溝",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 257.15,
+    "end": 259.97,
+    "speaker": "曉臻",
+    "text": "像是世界上最深的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 260.17,
+    "end": 262.48,
+    "speaker": "曉臻",
+    "text": "馬里亞納海溝",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 262.68,
+    "end": 264.78,
+    "speaker": "彥君",
+    "text": "答對了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 264.98,
+    "end": 268.39,
+    "speaker": "彥君",
+    "text": "而且板塊往下鑽的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 268.59,
+    "end": 271.1,
+    "speaker": "彥君",
+    "text": "會摩擦生熱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 271.3,
+    "end": 273.68,
+    "speaker": "曉臻",
+    "text": "岩漿往上噴發",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 273.88,
+    "end": 276.58,
+    "speaker": "曉臻",
+    "text": "就會形成火山了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 276.78,
+    "end": 280.7,
+    "speaker": "彥君",
+    "text": "對 這就是火山島弧的由來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 280.9,
+    "end": 283.95,
+    "speaker": "曉臻",
+    "text": "老師 那日本是不是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 284.15,
+    "end": 286.56,
+    "speaker": "曉臻",
+    "text": "就是這樣形成的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 286.76,
+    "end": 289.17,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 289.37,
+    "end": 292.93,
+    "speaker": "彥君",
+    "text": "包含太平洋周圍的火環帶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 293.13,
+    "end": 295.51,
+    "speaker": "彥君",
+    "text": "全部都是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 295.71,
+    "end": 298.31,
+    "speaker": "曉臻",
+    "text": "原來聚合性交界",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 298.51,
+    "end": 301.33,
+    "speaker": "曉臻",
+    "text": "不只會有高山跟海溝",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 301.53,
+    "end": 304.94,
+    "speaker": "曉臻",
+    "text": "還會伴隨大量的地震與火山",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 305.14,
+    "end": 313.82,
+    "speaker": "彥君",
+    "text": "聚合性對撞台灣喜馬拉雅山",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "聚合性對撞台灣喜馬拉雅山"
+    ]
+  },
+  {
+    "start": 313.82,
+    "end": 315.94,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 316.14,
+    "end": 319.15,
+    "speaker": "彥君",
+    "text": "張裂跟聚合的例子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 319.35,
+    "end": 322.17,
+    "speaker": "彥君",
+    "text": "絕對要分清楚",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 322.37,
+    "end": 325.09,
+    "speaker": "彥君",
+    "text": "這個段落的重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 325.29,
+    "end": 328.01,
+    "speaker": "彥君",
+    "text": "我們先整理到這邊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 328.21,
+    "end": 331.24,
+    "speaker": "曉臻",
+    "text": "大家把圖表的例子看熟",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 331.44,
+    "end": 333.73,
+    "speaker": "曉臻",
+    "text": "我們等等繼續",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 333.93,
+    "end": 337.2,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 337.4,
+    "end": 340.0,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 340.2,
+    "end": 342.54,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 342.74,
+    "end": 346.18,
+    "speaker": "合聲",
+    "text": "板塊交界 考場無畏",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 346.38,
+    "end": 349.84,
+    "speaker": "合聲",
+    "text": "戰士們 我們下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
