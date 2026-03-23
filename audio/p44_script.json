@@ -1,200 +1,803 @@
 [
   {
     "start": 0.0,
-    "end": 3.98,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "戰士們 我們繼續往下看"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.98,
-    "end": 8.63,
+    "start": 3.21,
+    "end": 6.36,
+    "speaker": "彥君",
+    "text": "台灣這座堅韌的島嶼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 6.56,
+    "end": 9.81,
+    "speaker": "彥君",
+    "text": "是板塊推擠出的奇蹟",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 10.01,
+    "end": 13.21,
+    "speaker": "彥君",
+    "text": "你們扛住壓力的苦讀",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 13.41,
+    "end": 16.54,
+    "speaker": "彥君",
+    "text": "也將創造自己的奇蹟",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 16.74,
+    "end": 19.94,
+    "speaker": "彥君",
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.14,
+    "end": 23.62,
+    "speaker": "彥君",
+    "text": "歡迎來到第四十四集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.82,
+    "end": 26.42,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 26.62,
+    "end": 29.1,
     "speaker": "曉臻",
-    "text": "接下來這張圖 是我們最熟悉的台灣喔"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 8.63,
-    "end": 15.44,
-    "speaker": "彥君",
-    "text": "沒錯 上一集我們說過 台灣是板塊擠壓出來的"
-  },
-  {
-    "start": 15.44,
-    "end": 19.02,
+    "start": 29.3,
+    "end": 31.64,
     "speaker": "曉臻",
-    "text": "也就是『聚合性』板塊交界"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.02,
-    "end": 26.04,
+    "start": 31.84,
+    "end": 33.96,
     "speaker": "彥君",
-    "text": "完全正確 戰士們看圖 台灣主要由兩個板塊組成"
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 26.04,
-    "end": 30.1,
+    "start": 34.16,
+    "end": 36.9,
+    "speaker": "彥君",
+    "text": "我們繼續往下看",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 37.1,
+    "end": 39.46,
     "speaker": "曉臻",
-    "text": "左邊綠色這塊 是『歐亞板塊』"
+    "text": "接下來這張圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 30.1,
-    "end": 34.53,
+    "start": 39.66,
+    "end": 42.65,
     "speaker": "曉臻",
-    "text": "右邊紫色這塊 是『菲律賓海板塊』"
+    "text": "是我們最熟悉的台灣喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 34.53,
-    "end": 40.1,
+    "start": 42.85,
+    "end": 44.97,
     "speaker": "彥君",
-    "text": "考試最愛考的 就是這兩個板塊的『交界帶』在哪裡"
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 40.1,
-    "end": 44.65,
+    "start": 45.17,
+    "end": 47.94,
+    "speaker": "彥君",
+    "text": "上一集我們說過",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 48.14,
+    "end": 51.55,
+    "speaker": "彥君",
+    "text": "台灣是板塊擠壓出來的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 51.75,
+    "end": 54.86,
     "speaker": "曉臻",
-    "text": "老師 圖上有畫一條紅色的虛線耶"
+    "text": "也就是聚合性板塊交界",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 44.65,
-    "end": 51.39,
+    "start": 55.06,
+    "end": 57.46,
     "speaker": "彥君",
-    "text": "沒錯 這條紅線就是板塊交界帶 叫做『花東縱谷』"
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 51.39,
-    "end": 56.57,
+    "start": 57.66,
+    "end": 60.22,
+    "speaker": "彥君",
+    "text": "戰士們看圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 60.42,
+    "end": 63.93,
+    "speaker": "彥君",
+    "text": "台灣主要由兩個板塊組成",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 64.13,
+    "end": 66.51,
     "speaker": "曉臻",
-    "text": "原來花東縱谷就是兩個板塊相撞的那條縫隙啊"
+    "text": "左邊綠色這塊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 56.57,
-    "end": 61.99,
-    "speaker": "彥君",
-    "text": "所以花東縱谷常常發生地震 就是這個原因"
-  },
-  {
-    "start": 61.99,
-    "end": 67.92,
-    "speaker": "彥君",
-    "text": "接下來進入重點 花東縱谷的兩側 各有一座山脈"
-  },
-  {
-    "start": 67.92,
-    "end": 71.63,
+    "start": 66.71,
+    "end": 68.98,
     "speaker": "曉臻",
-    "text": "戰士們快看圖表下面的整理"
+    "text": "是歐亞板塊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 71.63,
-    "end": 76.48,
-    "speaker": "彥君",
-    "text": "縱谷的『西邊』 也就是靠近台灣本島這邊"
-  },
-  {
-    "start": 76.48,
-    "end": 79.54,
+    "start": 69.18,
+    "end": 71.56,
     "speaker": "曉臻",
-    "text": "是綠色的『中央山脈』"
+    "text": "右邊紫色這塊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 79.54,
-    "end": 84.22,
-    "speaker": "彥君",
-    "text": "對 因為中央山脈屬於歐亞板塊"
-  },
-  {
-    "start": 84.22,
-    "end": 88.82,
+    "start": 71.76,
+    "end": 74.41,
     "speaker": "曉臻",
-    "text": "那縱谷的『東邊』 也就是靠近太平洋那邊呢"
+    "text": "是菲律賓海板塊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 88.82,
-    "end": 92.54,
+    "start": 74.61,
+    "end": 82.59,
     "speaker": "彥君",
-    "text": "是紫色的『海岸山脈』"
+    "text": "左歐亞右菲律賓海板塊",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "左歐亞右菲律賓海板塊"
+    ]
   },
   {
-    "start": 92.54,
-    "end": 98.75,
+    "start": 82.59,
+    "end": 85.17,
+    "speaker": "彥君",
+    "text": "考試最愛考的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 85.37,
+    "end": 88.26,
+    "speaker": "彥君",
+    "text": "就是這兩個板塊的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 88.46,
+    "end": 91.37,
+    "speaker": "彥君",
+    "text": "交界帶到底在哪裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 91.57,
+    "end": 93.35,
     "speaker": "曉臻",
-    "text": "喔所以海岸山脈 其實是屬於菲律賓海板塊的"
+    "text": "老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 98.75,
-    "end": 104.51,
-    "speaker": "彥君",
-    "text": "漂亮這個相對位置絕對不能搞混"
-  },
-  {
-    "start": 104.51,
-    "end": 108.32,
-    "speaker": "彥君",
-    "text": "從中央山脈走到海岸山脈"
-  },
-  {
-    "start": 108.32,
-    "end": 111.44,
-    "speaker": "彥君",
-    "text": "中間會經過哪裡"
-  },
-  {
-    "start": 111.44,
-    "end": 116.5,
+    "start": 93.55,
+    "end": 96.8,
     "speaker": "曉臻",
-    "text": "當然會先經過板塊交界帶 也就是『花東縱谷』"
+    "text": "圖上有畫一條紅色的虛線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 116.5,
-    "end": 120.96,
+    "start": 97.0,
+    "end": 100.3,
     "speaker": "彥君",
-    "text": "跨過花東縱谷 就等於跨過了什麼"
+    "text": "沒錯 這條紅線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 120.96,
-    "end": 124.07,
+    "start": 100.5,
+    "end": 103.31,
+    "speaker": "彥君",
+    "text": "就是板塊交界帶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 103.51,
+    "end": 106.33,
+    "speaker": "彥君",
+    "text": "叫做花東縱谷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 106.53,
+    "end": 108.79,
     "speaker": "曉臻",
-    "text": "等於跨越了兩個板塊"
+    "text": "原來花東縱谷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 124.07,
-    "end": 128.75,
+    "start": 108.99,
+    "end": 111.78,
     "speaker": "曉臻",
-    "text": "從歐亞板塊 踩到了菲律賓海板塊上"
+    "text": "就是兩個板塊相撞的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.75,
-    "end": 135.39,
-    "speaker": "彥君",
-    "text": "答對了戰士們 這張圖的顏色分類非常清楚"
-  },
-  {
-    "start": 135.39,
-    "end": 139.73,
-    "speaker": "彥君",
-    "text": "西邊是歐亞板塊、 中央山脈"
-  },
-  {
-    "start": 139.73,
-    "end": 144.22,
-    "speaker": "彥君",
-    "text": "東邊是菲律賓海板塊、 海岸山脈"
-  },
-  {
-    "start": 144.22,
-    "end": 148.48,
-    "speaker": "彥君",
-    "text": "中間的縫隙 就是花東縱谷"
-  },
-  {
-    "start": 148.48,
-    "end": 152.08,
-    "speaker": "彥君",
-    "text": "這個段落我們先停在這裡"
-  },
-  {
-    "start": 152.08,
-    "end": 157.02,
+    "start": 111.98,
+    "end": 114.15,
     "speaker": "曉臻",
-    "text": "大家把這三個地理位置記熟 我們等等繼續"
+    "text": "那條縫隙啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 114.35,
+    "end": 117.22,
+    "speaker": "彥君",
+    "text": "所以花東縱谷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 117.42,
+    "end": 120.33,
+    "speaker": "彥君",
+    "text": "常常發生地震",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 120.53,
+    "end": 123.03,
+    "speaker": "彥君",
+    "text": "就是這個原因",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 123.23,
+    "end": 130.47,
+    "speaker": "彥君",
+    "text": "花東縱谷是板塊交界帶",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "花東縱谷是板塊交界帶"
+    ]
+  },
+  {
+    "start": 130.47,
+    "end": 133.36,
+    "speaker": "彥君",
+    "text": "接下來進入重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 133.56,
+    "end": 136.42,
+    "speaker": "彥君",
+    "text": "花東縱谷的兩側",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 136.62,
+    "end": 139.1,
+    "speaker": "彥君",
+    "text": "各有一座山脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 139.3,
+    "end": 141.45,
+    "speaker": "曉臻",
+    "text": "戰士們快看",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 141.65,
+    "end": 144.15,
+    "speaker": "曉臻",
+    "text": "圖表下面的整理",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 144.35,
+    "end": 146.76,
+    "speaker": "彥君",
+    "text": "縱谷的西邊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 146.96,
+    "end": 150.26,
+    "speaker": "彥君",
+    "text": "也就是靠近台灣本島這邊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 150.46,
+    "end": 153.2,
+    "speaker": "曉臻",
+    "text": "是綠色的中央山脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 153.4,
+    "end": 156.6,
+    "speaker": "彥君",
+    "text": "對 因為中央山脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 156.8,
+    "end": 159.57,
+    "speaker": "彥君",
+    "text": "屬於歐亞板塊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 159.77,
+    "end": 161.98,
+    "speaker": "曉臻",
+    "text": "那縱谷的東邊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 162.18,
+    "end": 165.34,
+    "speaker": "曉臻",
+    "text": "也就是靠近太平洋那邊呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 165.54,
+    "end": 168.47,
+    "speaker": "彥君",
+    "text": "是紫色的海岸山脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 168.67,
+    "end": 172.14,
+    "speaker": "曉臻",
+    "text": "喔 所以海岸山脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 172.34,
+    "end": 175.78,
+    "speaker": "曉臻",
+    "text": "其實是屬於菲律賓海板塊的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 175.98,
+    "end": 178.02,
+    "speaker": "彥君",
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 178.22,
+    "end": 180.9,
+    "speaker": "彥君",
+    "text": "這個相對位置",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 181.1,
+    "end": 183.79,
+    "speaker": "彥君",
+    "text": "絕對不能搞混",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 183.99,
+    "end": 192.58,
+    "speaker": "彥君",
+    "text": "西歐亞中央東菲律賓海岸",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "西歐亞中央東菲律賓海岸"
+    ]
+  },
+  {
+    "start": 192.58,
+    "end": 195.32,
+    "speaker": "彥君",
+    "text": "考題常常會問",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 195.52,
+    "end": 199.03,
+    "speaker": "彥君",
+    "text": "從中央山脈走到海岸山脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 199.23,
+    "end": 202.05,
+    "speaker": "彥君",
+    "text": "中間會經過哪裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 202.25,
+    "end": 205.47,
+    "speaker": "曉臻",
+    "text": "當然會先經過板塊交界帶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 205.67,
+    "end": 208.1,
+    "speaker": "曉臻",
+    "text": "也就是花東縱谷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 208.3,
+    "end": 210.83,
+    "speaker": "彥君",
+    "text": "那如果再問你",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 211.03,
+    "end": 213.85,
+    "speaker": "彥君",
+    "text": "跨過花東縱谷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 214.05,
+    "end": 216.74,
+    "speaker": "彥君",
+    "text": "就等於跨過了什麼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 216.94,
+    "end": 219.76,
+    "speaker": "曉臻",
+    "text": "等於跨越了兩個板塊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 219.96,
+    "end": 222.22,
+    "speaker": "曉臻",
+    "text": "從歐亞板塊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 222.42,
+    "end": 225.48,
+    "speaker": "曉臻",
+    "text": "踩到了菲律賓海板塊上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 225.68,
+    "end": 229.58,
+    "speaker": "彥君",
+    "text": "答對了 戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 229.78,
+    "end": 232.64,
+    "speaker": "彥君",
+    "text": "這張圖的顏色分類",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 232.84,
+    "end": 235.3,
+    "speaker": "彥君",
+    "text": "非常清楚",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 235.5,
+    "end": 238.46,
+    "speaker": "彥君",
+    "text": "西邊是歐亞板塊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 238.66,
+    "end": 241.3,
+    "speaker": "彥君",
+    "text": "以及中央山脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 241.5,
+    "end": 244.73,
+    "speaker": "彥君",
+    "text": "東邊是菲律賓海板塊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 244.93,
+    "end": 247.53,
+    "speaker": "彥君",
+    "text": "以及海岸山脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 247.73,
+    "end": 250.23,
+    "speaker": "彥君",
+    "text": "中間的縫隙",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 250.43,
+    "end": 253.2,
+    "speaker": "彥君",
+    "text": "就是花東縱谷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 253.4,
+    "end": 256.7,
+    "speaker": "彥君",
+    "text": "這個段落我們先停在這裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 256.9,
+    "end": 260.26,
+    "speaker": "曉臻",
+    "text": "大家把這三個地理位置記熟",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 260.46,
+    "end": 262.75,
+    "speaker": "曉臻",
+    "text": "我們等等繼續",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 262.95,
+    "end": 266.22,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 266.42,
+    "end": 269.02,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 269.22,
+    "end": 271.7,
+    "speaker": "曉臻",
+    "text": "我我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 271.9,
+    "end": 275.37,
+    "speaker": "合聲",
+    "text": "台灣板塊 滿分入袋",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 275.57,
+    "end": 279.03,
+    "speaker": "合聲",
+    "text": "戰士們 我們下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
