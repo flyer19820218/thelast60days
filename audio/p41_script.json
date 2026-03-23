@@ -1,272 +1,626 @@
 [
   {
     "start": 0.0,
-    "end": 3.55,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "各位衝 A 的戰士們"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.55,
-    "end": 6.45,
+    "start": 3.21,
+    "end": 5.71,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "地底的最深處",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.45,
-    "end": 9.25,
-    "speaker": "曉臻",
-    "text": "戰士們大家好啊"
+    "start": 5.91,
+    "end": 8.8,
+    "speaker": "彥君",
+    "text": "藏著最穩固的力量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 9.25,
+    "start": 9.0,
     "end": 11.89,
+    "speaker": "彥君",
+    "text": "你們扎實的苦讀",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 12.09,
+    "end": 15.58,
+    "speaker": "彥君",
+    "text": "終將成為無可撼動的基石",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 15.78,
+    "end": 18.98,
+    "speaker": "彥君",
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 19.18,
+    "end": 22.52,
+    "speaker": "彥君",
+    "text": "歡迎來到第四十一集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 22.72,
+    "end": 25.32,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 25.52,
+    "end": 28.0,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.89,
-    "end": 15.46,
-    "speaker": "彥君",
-    "text": "歡迎來到科學大冒險"
-  },
-  {
-    "start": 15.46,
-    "end": 19.08,
-    "speaker": "彥君",
-    "text": "今天要帶大家鑽進地心"
-  },
-  {
-    "start": 19.08,
-    "end": 22.56,
+    "start": 28.2,
+    "end": 30.54,
     "speaker": "曉臻",
-    "text": "老師地底下黑漆漆的"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.56,
-    "end": 25.94,
+    "start": 30.74,
+    "end": 34.01,
+    "speaker": "彥君",
+    "text": "歡迎回到科學大冒險",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 34.21,
+    "end": 37.53,
+    "speaker": "彥君",
+    "text": "今天要帶大家鑽進地心",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 37.73,
+    "end": 40.88,
     "speaker": "曉臻",
-    "text": "我們怎麼知道裡面長怎樣"
+    "text": "老師 地底下黑漆漆的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 25.94,
-    "end": 29.22,
-    "speaker": "彥君",
-    "text": "我們可是有透視眼的"
-  },
-  {
-    "start": 29.22,
-    "end": 32.72,
-    "speaker": "彥君",
-    "text": "靠的就是『地震波』"
-  },
-  {
-    "start": 32.72,
-    "end": 36.63,
+    "start": 41.08,
+    "end": 44.16,
     "speaker": "曉臻",
-    "text": "就像幫地球照超音波一樣對吧"
+    "text": "我們怎麼知道裡面長怎樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 36.63,
-    "end": 41.4,
+    "start": 44.36,
+    "end": 47.34,
     "speaker": "彥君",
-    "text": "沒錯地球從外到內"
+    "text": "我們可是有透視眼的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 41.4,
-    "end": 45.36,
+    "start": 47.54,
+    "end": 50.34,
     "speaker": "彥君",
-    "text": "分成地殼、地函跟地核"
+    "text": "靠的就是地震波",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 45.36,
-    "end": 49.07,
+    "start": 50.54,
+    "end": 53.42,
     "speaker": "曉臻",
-    "text": "戰士們快看投影片上的成分"
+    "text": "就像幫地球照超音波",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 49.07,
-    "end": 52.33,
-    "speaker": "彥君",
-    "text": "地殼主要是氧和矽"
-  },
-  {
-    "start": 52.33,
-    "end": 56.26,
-    "speaker": "彥君",
-    "text": "地函則是氧、矽還有鋁"
-  },
-  {
-    "start": 56.26,
-    "end": 59.74,
-    "speaker": "彥君",
-    "text": "最深的地核是鐵和鎳"
-  },
-  {
-    "start": 59.74,
-    "end": 63.84,
+    "start": 53.62,
+    "end": 56.3,
     "speaker": "曉臻",
-    "text": "哇越往裡面重金屬就越多耶"
+    "text": "是一樣的道理對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 63.84,
-    "end": 67.58,
+    "start": 56.5,
+    "end": 58.62,
     "speaker": "彥君",
-    "text": "接著看右邊這張必考圖"
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 67.58,
-    "end": 71.25,
+    "start": 58.82,
+    "end": 61.49,
     "speaker": "彥君",
-    "text": "這是用『軟硬狀態』來分的喔"
+    "text": "地球從外到內",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 71.25,
-    "end": 75.04,
+    "start": 61.69,
+    "end": 64.96,
+    "speaker": "彥君",
+    "text": "分成地殼地函跟地核",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 65.16,
+    "end": 72.88,
+    "speaker": "彥君",
+    "text": "由外到內地殼地函地核",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "由外到內地殼地函地核"
+    ]
+  },
+  {
+    "start": 72.88,
+    "end": 75.82,
     "speaker": "曉臻",
-    "text": "表面 100 公里厚硬梆梆的"
+    "text": "戰士們快看投影片上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 75.04,
-    "end": 77.58,
+    "start": 76.02,
+    "end": 78.98,
     "speaker": "曉臻",
-    "text": "叫做『岩石圈』"
+    "text": "它們的成分有什麼不同",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 77.58,
-    "end": 81.17,
+    "start": 79.18,
+    "end": 82.14,
     "speaker": "彥君",
-    "text": "岩石圈包含了整個地殼"
+    "text": "地殼主要是氧和矽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 81.17,
-    "end": 84.48,
+    "start": 82.34,
+    "end": 85.46,
     "speaker": "彥君",
-    "text": "還有地函的最上層"
+    "text": "地函則是氧矽還有鋁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 84.48,
-    "end": 87.38,
+    "start": 85.66,
+    "end": 88.84,
+    "speaker": "彥君",
+    "text": "最深的地核是鐵和鎳",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 89.04,
+    "end": 96.5,
+    "speaker": "彥君",
+    "text": "地殼氧矽地核鐵鎳",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "地殼氧矽地核鐵鎳"
+    ]
+  },
+  {
+    "start": 96.5,
+    "end": 99.07,
     "speaker": "曉臻",
-    "text": "那岩石圈的下面呢"
+    "text": "哇 越往裡面走",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 87.38,
-    "end": 91.29,
-    "speaker": "彥君",
-    "text": "就是會考最愛的『軟流圈』"
-  },
-  {
-    "start": 91.29,
-    "end": 94.43,
-    "speaker": "彥君",
-    "text": "戰士們想像一下"
-  },
-  {
-    "start": 94.43,
-    "end": 98.72,
-    "speaker": "彥君",
-    "text": "軟流圈就像是一杯『熱巧克力』"
-  },
-  {
-    "start": 98.72,
-    "end": 102.36,
+    "start": 99.27,
+    "end": 101.82,
     "speaker": "曉臻",
-    "text": "哇濃濃稠稠的"
+    "text": "重金屬就越多耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 102.36,
-    "end": 105.65,
+    "start": 102.02,
+    "end": 105.46,
+    "speaker": "彥君",
+    "text": "接著看右邊這張必考圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 105.66,
+    "end": 108.74,
+    "speaker": "彥君",
+    "text": "這是用軟硬狀態來分的喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 108.94,
+    "end": 111.42,
     "speaker": "曉臻",
-    "text": "還會熱騰騰地慢慢流動"
+    "text": "表面一百公里厚",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 105.65,
-    "end": 110.61,
-    "speaker": "彥君",
-    "text": "沒錯硬梆梆的岩石圈就像餅乾"
-  },
-  {
-    "start": 110.61,
-    "end": 114.26,
-    "speaker": "彥君",
-    "text": "浮在熱巧克力上面漂移"
-  },
-  {
-    "start": 114.26,
-    "end": 118.36,
+    "start": 111.62,
+    "end": 114.46,
     "speaker": "曉臻",
-    "text": "天啊這畫面太有感了"
+    "text": "硬梆梆的叫做岩石圈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 118.36,
-    "end": 122.1,
+    "start": 114.66,
+    "end": 117.94,
+    "speaker": "彥君",
+    "text": "岩石圈包含了整個地殼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 118.14,
+    "end": 121.22,
+    "speaker": "彥君",
+    "text": "還有地函的最上層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 121.42,
+    "end": 128.75,
+    "speaker": "彥君",
+    "text": "岩石圈包含地殼與部分地函",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "岩石圈包含地殼與部分地函"
+    ]
+  },
+  {
+    "start": 128.75,
+    "end": 131.35,
     "speaker": "曉臻",
-    "text": "這就是板塊運動的動力來源"
+    "text": "那岩石圈的下面呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 122.1,
-    "end": 125.86,
+    "start": 131.55,
+    "end": 134.68,
     "speaker": "彥君",
-    "text": "戰士們紅筆拿出來"
+    "text": "就是會考最愛的軟流圈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 125.86,
-    "end": 129.48,
+    "start": 134.88,
+    "end": 137.72,
     "speaker": "彥君",
-    "text": "軟流圈就是岩漿的故鄉"
+    "text": "戰士們想像一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 129.48,
-    "end": 132.69,
+    "start": 137.92,
+    "end": 140.9,
     "speaker": "彥君",
-    "text": "戰士們閉上眼睛"
+    "text": "軟流圈就像是一杯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 132.69,
-    "end": 136.5,
+    "start": 141.1,
+    "end": 143.8,
     "speaker": "彥君",
-    "text": "帶動地球板塊移動的引擎"
+    "text": "濃濃的熱巧克力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 136.5,
-    "end": 140.0,
-    "speaker": "彥君",
-    "text": "到底是地核還是軟流圈"
-  },
-  {
-    "start": 140.0,
-    "end": 143.72,
+    "start": 144.0,
+    "end": 147.34,
     "speaker": "曉臻",
-    "text": "當然是像熱巧克力的『軟流圈』"
+    "text": "哇 濃濃稠稠的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 143.72,
-    "end": 148.68,
-    "speaker": "彥君",
-    "text": "漂亮這就是秒殺的直覺"
-  },
-  {
-    "start": 148.68,
-    "end": 151.58,
-    "speaker": "彥君",
-    "text": "我是彥君老師"
-  },
-  {
-    "start": 151.58,
-    "end": 154.22,
+    "start": 147.54,
+    "end": 150.53,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "還會熱騰騰地慢慢流動",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 154.22,
-    "end": 158.94,
+    "start": 150.73,
+    "end": 152.85,
+    "speaker": "彥君",
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 153.05,
+    "end": 156.61,
+    "speaker": "彥君",
+    "text": "硬梆梆的岩石圈就像餅乾",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 156.81,
+    "end": 160.15,
+    "speaker": "彥君",
+    "text": "浮在熱巧克力上面漂移",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 160.35,
+    "end": 164.15,
+    "speaker": "曉臻",
+    "text": "天啊 這畫面太有感了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 164.35,
+    "end": 167.0,
+    "speaker": "曉臻",
+    "text": "這就是板塊運動的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 167.2,
+    "end": 169.49,
+    "speaker": "曉臻",
+    "text": "動力來源對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 169.69,
+    "end": 173.15,
+    "speaker": "彥君",
+    "text": "戰士們 紅筆拿出來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 173.35,
+    "end": 176.67,
+    "speaker": "彥君",
+    "text": "軟流圈就是岩漿的故鄉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 176.87,
+    "end": 184.33,
+    "speaker": "彥君",
+    "text": "軟流圈是板塊運動動力來源",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "軟流圈是板塊運動動力來源"
+    ]
+  },
+  {
+    "start": 184.33,
+    "end": 186.45,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 186.65,
+    "end": 189.75,
+    "speaker": "彥君",
+    "text": "請閉上眼睛想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 189.95,
+    "end": 193.1,
+    "speaker": "彥君",
+    "text": "帶動地球板塊移動的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 193.3,
+    "end": 196.0,
+    "speaker": "彥君",
+    "text": "最核心的引擎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 196.2,
+    "end": 199.4,
+    "speaker": "彥君",
+    "text": "到底是地核還是軟流圈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 199.6,
+    "end": 202.42,
+    "speaker": "曉臻",
+    "text": "當然是像熱巧克力的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 202.62,
+    "end": 204.59,
+    "speaker": "曉臻",
+    "text": "軟流圈啦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 204.79,
+    "end": 206.84,
+    "speaker": "彥君",
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 207.04,
+    "end": 210.34,
+    "speaker": "彥君",
+    "text": "這就是衝刺 $A$ 級的戰士",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 210.54,
+    "end": 213.28,
+    "speaker": "彥君",
+    "text": "該有的秒殺直覺",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 213.48,
+    "end": 216.75,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 216.95,
+    "end": 219.55,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 219.75,
+    "end": 222.09,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 222.29,
+    "end": 225.61,
     "speaker": "合聲",
-    "text": "地球構造記清楚會考拿分擋不住"
+    "text": "地心構造 滿分報到",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 158.94,
-    "end": 163.38,
+    "start": 225.81,
+    "end": 229.27,
     "speaker": "合聲",
-    "text": "戰士們 881我們下一關見"
+    "text": "戰士們 我們下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
