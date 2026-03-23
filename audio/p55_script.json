@@ -1,278 +1,605 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.86,
+    "start": 3.21,
+    "end": 6.29,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的會考戰士們 我是彥君老師"
+    "text": "空氣中隱形的重量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.86,
-    "end": 11.34,
+    "start": 6.49,
+    "end": 9.76,
     "speaker": "彥君",
-    "text": "今天來到 第五十五集"
+    "text": "蘊藏著呼風喚雨的能量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.34,
-    "end": 14.43,
+    "start": 9.96,
+    "end": 13.04,
     "speaker": "彥君",
-    "text": "也就是 相對溼度"
+    "text": "你們默默累積的汗水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 14.43,
-    "end": 17.93,
+    "start": 13.24,
+    "end": 16.39,
+    "speaker": "彥君",
+    "text": "終將化為最耀眼的雲彩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 16.59,
+    "end": 19.79,
+    "speaker": "彥君",
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 19.99,
+    "end": 23.34,
+    "speaker": "彥君",
+    "text": "歡迎來到第五十五集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.54,
+    "end": 26.14,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 26.34,
+    "end": 28.82,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 17.93,
-    "end": 21.38,
+    "start": 29.02,
+    "end": 31.35,
     "speaker": "曉臻",
-    "text": "老師 講義上的公式"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 21.38,
-    "end": 24.74,
+    "start": 31.55,
+    "end": 34.63,
+    "speaker": "彥君",
+    "text": "今天我們要來聊聊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 34.83,
+    "end": 37.26,
+    "speaker": "彥君",
+    "text": "空氣的食量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 37.46,
+    "end": 40.26,
+    "speaker": "彥君",
+    "text": "也就是相對溼度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 40.46,
+    "end": 43.56,
     "speaker": "曉臻",
-    "text": "看起來 好像在算成績喔"
+    "text": "老師 講義上的公式",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 24.74,
-    "end": 29.97,
-    "speaker": "彥君",
-    "text": "沒錯 [戰士們可以這樣想]"
-  },
-  {
-    "start": 29.97,
-    "end": 33.23,
-    "speaker": "彥君",
-    "text": "分母的 飽和水氣量"
-  },
-  {
-    "start": 33.23,
-    "end": 36.27,
-    "speaker": "彥君",
-    "text": "就是空氣的 總分"
-  },
-  {
-    "start": 36.27,
-    "end": 39.53,
-    "speaker": "彥君",
-    "text": "分子的 實際水氣量"
-  },
-  {
-    "start": 39.53,
-    "end": 42.89,
-    "speaker": "彥君",
-    "text": "就是空氣 考到的分數"
-  },
-  {
-    "start": 42.89,
-    "end": 46.99,
-    "speaker": "彥君",
-    "text": "兩個相除 就是相對溼度"
-  },
-  {
-    "start": 46.99,
-    "end": 49.6,
+    "start": 43.76,
+    "end": 46.82,
     "speaker": "曉臻",
-    "text": "那圖上的 曲線"
+    "text": "看起來好像在算成績喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 49.6,
-    "end": 52.88,
+    "start": 47.02,
+    "end": 51.7,
+    "speaker": "彥君",
+    "text": "沒錯 戰士們可以這樣想",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 51.9,
+    "end": 54.86,
+    "speaker": "彥君",
+    "text": "分母的飽和水氣量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 55.06,
+    "end": 57.81,
+    "speaker": "彥君",
+    "text": "就是空氣的總分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 58.01,
+    "end": 61.02,
+    "speaker": "彥君",
+    "text": "分子的實際水氣量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 61.22,
+    "end": 64.27,
+    "speaker": "彥君",
+    "text": "就是空氣考到的分數",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 64.47,
+    "end": 66.88,
+    "speaker": "彥君",
+    "text": "兩個相除",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 67.08,
+    "end": 69.8,
+    "speaker": "彥君",
+    "text": "就是相對溼度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 70.0,
+    "end": 77.86,
+    "speaker": "彥君",
+    "text": "飽和水氣當分母實際水氣當分子",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "飽和水氣當分母實際水氣當分子"
+    ]
+  },
+  {
+    "start": 77.86,
+    "end": 80.54,
     "speaker": "曉臻",
-    "text": "為什麼 越往右邊 越高啊"
+    "text": "那圖上的這條曲線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 52.88,
-    "end": 55.71,
-    "speaker": "彥君",
-    "text": "因為溫度 越高"
-  },
-  {
-    "start": 55.71,
-    "end": 58.9,
-    "speaker": "彥君",
-    "text": "空氣的胃口 就越大"
-  },
-  {
-    "start": 58.9,
-    "end": 62.62,
-    "speaker": "彥君",
-    "text": "它可以 吃下更多的 水蒸氣"
-  },
-  {
-    "start": 62.62,
-    "end": 66.45,
-    "speaker": "彥君",
-    "text": "所以 飽和水氣量 就會變大"
-  },
-  {
-    "start": 66.45,
-    "end": 70.26,
+    "start": 80.74,
+    "end": 83.72,
     "speaker": "曉臻",
-    "text": "老師 那圖上橘色的 箭頭"
+    "text": "為什麼越往右邊越高啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 70.26,
-    "end": 73.43,
-    "speaker": "曉臻",
-    "text": "往左邊退 是什麼意思"
-  },
-  {
-    "start": 73.43,
-    "end": 77.0,
+    "start": 83.92,
+    "end": 86.66,
     "speaker": "彥君",
-    "text": "戰士們 盯緊這個箭頭"
+    "text": "因為溫度越高的話",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 77.0,
-    "end": 79.85,
+    "start": 86.86,
+    "end": 89.92,
     "speaker": "彥君",
-    "text": "當空氣 往上升"
+    "text": "空氣的胃口就會越大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 79.85,
-    "end": 83.11,
+    "start": 90.12,
+    "end": 93.54,
     "speaker": "彥君",
-    "text": "溫度會 開始下降"
+    "text": "它可以吃下更多的水蒸氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 83.11,
-    "end": 86.73,
+    "start": 93.74,
+    "end": 97.27,
     "speaker": "彥君",
-    "text": "空氣的胃口 就跟著縮小了"
+    "text": "所以飽和水氣量就會變大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 86.73,
-    "end": 90.09,
-    "speaker": "曉臻",
-    "text": "啊 胃口縮小"
-  },
-  {
-    "start": 90.09,
-    "end": 94.0,
-    "speaker": "曉臻",
-    "text": "可是肚子裡的 水氣 還是那麼多"
-  },
-  {
-    "start": 94.0,
-    "end": 96.82,
-    "speaker": "曉臻",
-    "text": "那會發生 什麼事"
-  },
-  {
-    "start": 96.82,
-    "end": 99.75,
+    "start": 97.47,
+    "end": 104.57,
     "speaker": "彥君",
-    "text": "吃不下的 水氣"
+    "text": "溫度越高飽和水氣量越大",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "溫度越高飽和水氣量越大"
+    ]
   },
   {
-    "start": 99.75,
-    "end": 102.65,
+    "start": 104.57,
+    "end": 107.96,
+    "speaker": "曉臻",
+    "text": "老師 那圖上橘色箭頭",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 108.16,
+    "end": 111.02,
+    "speaker": "曉臻",
+    "text": "往左邊退是什麼意思",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 111.22,
+    "end": 114.5,
     "speaker": "彥君",
-    "text": "就會被 吐出來"
+    "text": "戰士們盯緊這個箭頭",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 102.65,
-    "end": 106.8,
+    "start": 114.7,
+    "end": 117.87,
     "speaker": "彥君",
-    "text": "這就是 圖上往下的 橘色箭頭"
+    "text": "當空氣往上升的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 106.8,
-    "end": 111.33,
+    "start": 118.07,
+    "end": 121.3,
     "speaker": "彥君",
-    "text": "多出來的水氣 會凝結成 小水滴"
+    "text": "溫度會開始慢慢下降",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 111.33,
-    "end": 115.09,
+    "start": 121.5,
+    "end": 124.82,
     "speaker": "彥君",
-    "text": "這就是 形成雲雨的 真正原因"
+    "text": "空氣的胃口就跟著縮小了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 115.09,
-    "end": 119.29,
+    "start": 125.02,
+    "end": 128.24,
     "speaker": "曉臻",
-    "text": "一、 溫度越高 水氣胃口越大"
+    "text": "啊 胃口縮小了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 119.29,
-    "end": 123.63,
+    "start": 128.44,
+    "end": 131.9,
     "speaker": "曉臻",
-    "text": "二、 溫度下降 胃口會跟著變小"
+    "text": "可是肚子裡水氣還是那麼多",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 123.63,
-    "end": 128.5,
+    "start": 132.1,
+    "end": 134.75,
     "speaker": "曉臻",
-    "text": "三、 多餘的水氣 凝結 就會形成雲雨"
+    "text": "那會發生什麼事啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.5,
-    "end": 132.45,
+    "start": 134.95,
+    "end": 137.96,
     "speaker": "彥君",
-    "text": "如果在 密閉的房間裡 開冷氣"
+    "text": "吃不下的這些水氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 132.45,
-    "end": 136.31,
+    "start": 138.16,
+    "end": 141.1,
     "speaker": "彥君",
-    "text": "相對溼度 會變大 還是變小"
+    "text": "就會全部被吐出來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 136.31,
-    "end": 139.36,
-    "speaker": "曉臻",
-    "text": "開冷氣 溫度會下降"
-  },
-  {
-    "start": 139.36,
-    "end": 143.55,
-    "speaker": "曉臻",
-    "text": "空氣胃口 變小了 很容易就飽了"
-  },
-  {
-    "start": 143.55,
-    "end": 146.84,
-    "speaker": "曉臻",
-    "text": "所以 相對溼度 會變大"
-  },
-  {
-    "start": 146.84,
-    "end": 151.63,
+    "start": 141.3,
+    "end": 145.14,
     "speaker": "彥君",
-    "text": "漂亮 觀念完全命中"
+    "text": "這就是圖上往下的橘色箭頭",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 151.63,
-    "end": 154.53,
+    "start": 145.34,
+    "end": 149.0,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "多出來的水氣會凝結成水滴",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 154.53,
-    "end": 157.17,
-    "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "start": 149.2,
+    "end": 152.66,
+    "speaker": "彥君",
+    "text": "這就是形成雲雨的真正原因",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 157.17,
-    "end": 160.5,
-    "speaker": "曉臻",
-    "text": "溫度降低 凝結水滴"
+    "start": 152.86,
+    "end": 160.18,
+    "speaker": "彥君",
+    "text": "溫度下降多餘水氣凝結成雲雨",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "溫度下降多餘水氣凝結成雲雨"
+    ]
   },
   {
-    "start": 160.5,
-    "end": 163.95,
+    "start": 160.18,
+    "end": 163.59,
     "speaker": "曉臻",
-    "text": "戰士們 我們頂峰相見"
+    "text": "戰士們 我們來快速複習",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 163.79,
+    "end": 166.42,
+    "speaker": "曉臻",
+    "text": "第一 溫度越高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 166.62,
+    "end": 169.17,
+    "speaker": "曉臻",
+    "text": "水氣胃口就越大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 169.37,
+    "end": 172.02,
+    "speaker": "曉臻",
+    "text": "第二 溫度下降",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 172.22,
+    "end": 174.67,
+    "speaker": "曉臻",
+    "text": "胃口會跟著變小",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 174.87,
+    "end": 178.0,
+    "speaker": "曉臻",
+    "text": "第三 多餘水氣凝結",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 178.2,
+    "end": 180.56,
+    "speaker": "曉臻",
+    "text": "就會形成雲雨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 180.76,
+    "end": 182.88,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 183.08,
+    "end": 185.92,
+    "speaker": "彥君",
+    "text": "閉上眼睛想一想喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 186.12,
+    "end": 189.63,
+    "speaker": "彥君",
+    "text": "如果在密閉房間裡開冷氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 189.83,
+    "end": 193.39,
+    "speaker": "彥君",
+    "text": "相對溼度會變大還是變小",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 193.59,
+    "end": 196.34,
+    "speaker": "曉臻",
+    "text": "開冷氣溫度會下降",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 196.54,
+    "end": 199.06,
+    "speaker": "曉臻",
+    "text": "空氣胃口變小了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 199.26,
+    "end": 201.77,
+    "speaker": "曉臻",
+    "text": "很容易就吃飽了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 201.97,
+    "end": 204.95,
+    "speaker": "曉臻",
+    "text": "所以相對溼度會變大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 205.15,
+    "end": 209.65,
+    "speaker": "彥君",
+    "text": "漂亮 觀念完全命中",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 209.85,
+    "end": 213.12,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 213.32,
+    "end": 215.92,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 216.12,
+    "end": 218.46,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 218.66,
+    "end": 222.0,
+    "speaker": "合聲",
+    "text": "溫度降低 凝結水滴",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 222.2,
+    "end": 225.74,
+    "speaker": "合聲",
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
