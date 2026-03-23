@@ -1,282 +1,578 @@
 [
   {
     "start": 0.0,
-    "end": 3.61,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "戰士們 伸出你的一隻手",
+    "text": "戰士們 辛苦了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.81,
-    "end": 7.06,
+    "start": 3.21,
+    "end": 6.62,
     "speaker": "彥君",
-    "text": "你有辦法 舉起一輛汽車嗎",
+    "text": "歡迎來到液體壓力下半場",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.26,
-    "end": 9.9,
-    "speaker": "曉臻",
-    "text": "老師 怎麼可能",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 10.1,
-    "end": 13.09,
-    "speaker": "曉臻",
-    "text": "汽車 可是有兩噸重耶",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 13.29,
-    "end": 16.51,
+    "start": 6.82,
+    "end": 10.02,
     "speaker": "彥君",
-    "text": "只要學會 帕斯卡原理",
+    "text": "各位衝刺 $A$ 級的戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.71,
-    "end": 19.86,
+    "start": 10.22,
+    "end": 13.59,
     "speaker": "彥君",
-    "text": "你就是 物理界的超人",
+    "text": "歡迎來到第一百零七集",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 20.06,
-    "end": 23.41,
-    "speaker": "彥君",
-    "text": "歡迎來到 第 107 集",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 23.61,
-    "end": 26.81,
-    "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 27.01,
-    "end": 29.46,
-    "speaker": "彥君",
-    "text": "戰士們注意",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 29.66,
-    "end": 33.15,
-    "speaker": "彥君",
-    "text": "看看這張 千斤頂的圖",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 33.35,
-    "end": 36.12,
-    "speaker": "曉臻",
-    "text": "左邊 是小小的活塞",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 36.32,
-    "end": 39.21,
-    "speaker": "曉臻",
-    "text": "右邊 是超級大的活塞",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 39.41,
-    "end": 42.54,
-    "speaker": "彥君",
-    "text": "帕斯卡 發現了一個秘密",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 42.74,
-    "end": 45.72,
-    "speaker": "彥君",
-    "text": "在密閉的 液體裡面",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 45.92,
-    "end": 49.19,
-    "speaker": "彥君",
-    "text": "壓力會 原封不動傳遞",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 49.39,
-    "end": 106.34,
-    "speaker": "彥君",
-    "text": "$\\text{帕斯卡} \\rightarrow \\text{壓力同等傳遞}$",
-    "is_pinned": true,
-    "pin_level": 1
-  },
-  {
-    "start": 53.51,
-    "end": 56.4,
-    "speaker": "曉臻",
-    "text": "所以 左邊產生的壓力",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 56.6,
-    "end": 59.22,
-    "speaker": "曉臻",
-    "text": "會等於 右邊的壓力",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 59.42,
-    "end": 64.28,
-    "speaker": "彥君",
-    "text": "沒錯 壓力是力量除以面積",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 64.48,
-    "end": 106.34,
-    "speaker": "彥君",
-    "text": "$\\frac{F_{小}}{A_{小}} = \\frac{F_{大}}{A_{大}}$",
-    "is_pinned": true,
-    "pin_level": 2
-  },
-  {
-    "start": 68.74,
-    "end": 72.14,
-    "speaker": "曉臻",
-    "text": "老師 如果左邊面積是 1",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 72.34,
-    "end": 74.96,
-    "speaker": "曉臻",
-    "text": "右邊 面積是 100 呢",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 75.16,
-    "end": 78.43,
-    "speaker": "彥君",
-    "text": "那你只要 在左邊推 1 公斤",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 78.63,
-    "end": 81.81,
-    "speaker": "彥君",
-    "text": "右邊就會 舉起 100 公斤",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 82.01,
-    "end": 85.95,
-    "speaker": "曉臻",
-    "text": "哇 力量直接 放大一百倍",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 86.15,
-    "end": 89.23,
-    "speaker": "彥君",
-    "text": "這就是 帕斯卡的魔法",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 89.43,
-    "end": 106.34,
-    "speaker": "彥君",
-    "text": "$\\text{面積越大} \\rightarrow \\text{力量越大}$",
-    "is_pinned": true,
-    "pin_level": 3
-  },
-  {
-    "start": 93.62,
-    "end": 96.51,
-    "speaker": "彥君",
-    "text": "只要 活塞面積夠大",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 96.71,
-    "end": 99.89,
-    "speaker": "彥君",
-    "text": "單手舉車 絕對不是夢",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 100.09,
-    "end": 103.14,
-    "speaker": "彥君",
-    "text": "給你們 3 秒鐘想像",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 106.34,
-    "end": 109.78,
-    "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 109.98,
-    "end": 112.58,
+    "start": 13.79,
+    "end": 16.39,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 112.78,
-    "end": 115.12,
+    "start": 16.59,
+    "end": 19.07,
+    "speaker": "曉臻",
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 19.27,
+    "end": 21.61,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 115.32,
-    "end": 118.66,
-    "speaker": "合聲",
-    "text": "壓力傳遞 以小搏大",
+    "start": 21.81,
+    "end": 24.89,
+    "speaker": "彥君",
+    "text": "戰士們請注意聽好囉",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 118.86,
-    "end": 122.4,
+    "start": 25.09,
+    "end": 28.26,
+    "speaker": "彥君",
+    "text": "上一集我們已經學到了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 28.46,
+    "end": 31.69,
+    "speaker": "彥君",
+    "text": "壓力是由深度來決定的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 31.89,
+    "end": 35.11,
+    "speaker": "曉臻",
+    "text": "老師 左邊的這張圖上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 35.31,
+    "end": 38.39,
+    "speaker": "曉臻",
+    "text": "畫了好多的紅色箭頭喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 38.59,
+    "end": 41.94,
+    "speaker": "彥君",
+    "text": "仔細看這些箭頭的方向",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 42.14,
+    "end": 45.17,
+    "speaker": "彥君",
+    "text": "不管物體怎麼傾斜",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 45.37,
+    "end": 48.69,
+    "speaker": "彥君",
+    "text": "箭頭永遠垂直於表面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 48.89,
+    "end": 56.13,
+    "speaker": "彥君",
+    "text": "液體壓力永遠垂直於表面",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "液體壓力永遠垂直於表面"
+    ]
+  },
+  {
+    "start": 56.13,
+    "end": 60.1,
+    "speaker": "曉臻",
+    "text": "真的耶 全部都是 $90$ 度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 60.3,
+    "end": 63.38,
+    "speaker": "曉臻",
+    "text": "而且越下面的紅色箭頭",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 63.58,
+    "end": 66.37,
+    "speaker": "曉臻",
+    "text": "畫得長度就越長耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 66.57,
+    "end": 69.77,
+    "speaker": "彥君",
+    "text": "這就是我們的核心觀念",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 69.97,
+    "end": 73.02,
+    "speaker": "彥君",
+    "text": "因為越深的水中底部",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 73.22,
+    "end": 76.5,
+    "speaker": "彥君",
+    "text": "上方壓著的水就越重",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 76.7,
+    "end": 80.06,
+    "speaker": "彥君",
+    "text": "所以液體壓力就會越大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 80.26,
+    "end": 87.46,
+    "speaker": "彥君",
+    "text": "深度越深液體壓力就會越大",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "深度越深液體壓力就會越大"
+    ]
+  },
+  {
+    "start": 87.46,
+    "end": 90.51,
+    "speaker": "曉臻",
+    "text": "老師 那水庫的水壩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 90.71,
+    "end": 93.67,
+    "speaker": "曉臻",
+    "text": "底下承受的壓力超大吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 93.87,
+    "end": 98.39,
+    "speaker": "彥君",
+    "text": "沒錯 為了防止被衝垮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 98.59,
+    "end": 101.96,
+    "speaker": "彥君",
+    "text": "水壩最底部的建築結構",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 102.16,
+    "end": 104.98,
+    "speaker": "彥君",
+    "text": "一定要蓋得特別的厚",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 105.18,
+    "end": 108.54,
+    "speaker": "彥君",
+    "text": "呈現上窄下寬的形狀",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 108.74,
+    "end": 111.78,
+    "speaker": "曉臻",
+    "text": "原來建築也充滿了物理",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 111.98,
+    "end": 115.44,
+    "speaker": "彥君",
+    "text": "戰士們給你三秒鐘看圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 118.64,
+    "end": 121.74,
+    "speaker": "彥君",
+    "text": "接下來我們看到右邊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 121.94,
+    "end": 125.14,
+    "speaker": "彥君",
+    "text": "這是必考的連通管原理",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 125.34,
+    "end": 128.38,
+    "speaker": "曉臻",
+    "text": "這些管子長得好奇怪喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 128.58,
+    "end": 131.44,
+    "speaker": "曉臻",
+    "text": "有粗有細還有彎曲的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 131.64,
+    "end": 134.77,
+    "speaker": "曉臻",
+    "text": "可是水面竟然都一樣高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 134.97,
+    "end": 138.02,
+    "speaker": "彥君",
+    "text": "這就是水的奇妙魔法",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 138.22,
+    "end": 141.35,
+    "speaker": "彥君",
+    "text": "只要底部互相連通著",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 141.55,
+    "end": 144.78,
+    "speaker": "彥君",
+    "text": "裡面裝著同一種液體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 144.98,
+    "end": 147.72,
+    "speaker": "彥君",
+    "text": "靜止不動的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 147.92,
+    "end": 151.22,
+    "speaker": "彥君",
+    "text": "水面一定會保持齊平",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 151.42,
+    "end": 158.68,
+    "speaker": "彥君",
+    "text": "連通管原理水面一定會齊平",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "連通管原理水面一定會齊平"
+    ]
+  },
+  {
+    "start": 158.68,
+    "end": 161.74,
+    "speaker": "曉臻",
+    "text": "為什麼會發生這種事啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 161.94,
+    "end": 165.11,
+    "speaker": "彥君",
+    "text": "這是為了維持力平衡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 165.31,
+    "end": 168.63,
+    "speaker": "彥君",
+    "text": "每個管子最底部的壓力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 168.83,
+    "end": 171.98,
+    "speaker": "彥君",
+    "text": "必須要一模一樣大才行",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 172.18,
+    "end": 175.31,
+    "speaker": "彥君",
+    "text": "我們剛剛說壓力看什麼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 175.51,
+    "end": 178.4,
+    "speaker": "曉臻",
+    "text": "壓力只看垂直的深度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 178.6,
+    "end": 183.58,
+    "speaker": "彥君",
+    "text": "答對了 垂直深度必須相同",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 183.78,
+    "end": 186.95,
+    "speaker": "彥君",
+    "text": "水面才會保持一樣高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 187.15,
+    "end": 190.93,
+    "speaker": "曉臻",
+    "text": "哇 跟管子本身的形狀",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 191.13,
+    "end": 193.78,
+    "speaker": "曉臻",
+    "text": "一點關係都沒有耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 193.98,
+    "end": 198.62,
+    "speaker": "彥君",
+    "text": "沒錯 像是家裡的茶壺",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 198.82,
+    "end": 201.9,
+    "speaker": "彥君",
+    "text": "或是頂樓的大型水塔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 202.1,
+    "end": 204.86,
+    "speaker": "彥君",
+    "text": "都是連通管的應用喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 205.06,
+    "end": 208.65,
+    "speaker": "彥君",
+    "text": "圖形看懂 陷阱全破",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 208.85,
+    "end": 212.29,
+    "speaker": "彥君",
+    "text": "觀念通了就能秒殺考題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 212.49,
+    "end": 215.76,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 215.96,
+    "end": 218.56,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 218.76,
+    "end": 221.1,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 221.3,
+    "end": 224.88,
+    "speaker": "合聲",
+    "text": "垂直作用 連通齊平",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 225.08,
+    "end": 228.62,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
