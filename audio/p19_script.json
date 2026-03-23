@@ -122,12 +122,12 @@
     "start": 43.24,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "血型顯性：I^A, I^B  隱性：i",
+    "text": "血型顯性：$I^A$, $I^B$  隱性：i",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "血型顯性：I^A, I^B  隱性：i"
+      "血型顯性：$I^A$, $I^B$  隱性：i"
     ]
   },
   {
@@ -317,12 +317,12 @@
     "start": 112.02,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "AB型 I^AI^B →父母各給 I^A, I^B",
+    "text": "AB型 $I^A$ $I^B$ →父母各給 $I^A$, $I^B$",
     "is_pinned": true,
     "pin_level": 3,
     "commands": [
       "釘選",
-      "AB型 I^AI^B →父母各給 I^A, I^B"
+      "AB型 $I^A$ $I^B$ →父母各給 $I^A$, $I^B$"
     ]
   },
   {
@@ -800,12 +800,12 @@
     "start": 280.18,
     "end": 9999.0,
     "speaker": "曉臻",
-    "text": "一、血型：I^A, I^B 顯性，i 隱性",
+    "text": "一、血型：$I^A$, $I^B$ 顯性，i 隱性",
     "is_pinned": true,
     "pin_level": 5,
     "commands": [
       "釘選",
-      "一、血型：I^A, I^B 顯性，i 隱性"
+      "一、血型：$I^A$, $I^B$ 顯性，i 隱性"
     ]
   },
   {
