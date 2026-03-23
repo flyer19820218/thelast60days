@@ -1,182 +1,782 @@
 [
   {
     "start": 0.0,
-    "end": 3.98,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "戰士們 我們繼續往下看"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.98,
-    "end": 9.09,
+    "start": 3.21,
+    "end": 6.24,
+    "speaker": "彥君",
+    "text": "每一層岩石的堆疊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 6.44,
+    "end": 9.38,
+    "speaker": "彥君",
+    "text": "都是歲月無聲的累積",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 9.58,
+    "end": 12.56,
+    "speaker": "彥君",
+    "text": "你們每一天的苦讀",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 12.76,
+    "end": 16.2,
+    "speaker": "彥君",
+    "text": "也將刻畫出最輝煌的歷史",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 16.4,
+    "end": 19.6,
+    "speaker": "彥君",
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 19.8,
+    "end": 23.24,
+    "speaker": "彥君",
+    "text": "歡迎來到第四十五集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.44,
+    "end": 26.04,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 26.24,
+    "end": 28.72,
     "speaker": "曉臻",
-    "text": "這張圖畫了好幾層石頭 還有斷層跟岩脈耶"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 9.09,
-    "end": 14.58,
-    "speaker": "彥君",
-    "text": "沒錯 這是會考最愛出的『地質事件順序』題"
-  },
-  {
-    "start": 14.58,
-    "end": 20.1,
-    "speaker": "彥君",
-    "text": "這種題目看起來很複雜 但其實是超級送分題"
-  },
-  {
-    "start": 20.1,
-    "end": 24.36,
+    "start": 28.92,
+    "end": 31.26,
     "speaker": "曉臻",
-    "text": "老師 這要怎麼判斷誰先誰後啊"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 24.36,
-    "end": 27.58,
+    "start": 31.46,
+    "end": 33.58,
     "speaker": "彥君",
-    "text": "『先來的在下面』"
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.58,
-    "end": 31.68,
+    "start": 33.78,
+    "end": 36.52,
+    "speaker": "彥君",
+    "text": "我們繼續往下看",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 36.72,
+    "end": 39.08,
     "speaker": "曉臻",
-    "text": "因為泥沙是一層一層疊上去的對吧"
+    "text": "接下來這張圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 31.68,
-    "end": 36.28,
-    "speaker": "彥君",
-    "text": "完全正確 這叫做『疊置定律』"
-  },
-  {
-    "start": 36.28,
-    "end": 41.08,
+    "start": 39.28,
+    "end": 41.88,
     "speaker": "曉臻",
-    "text": "所以圖上的甲乙丙丁 最下面的『甲』最老"
+    "text": "畫了好幾層石頭",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 41.08,
-    "end": 47.05,
-    "speaker": "彥君",
-    "text": "沒錯甲乙丙丁是乖乖排隊的沉積岩"
-  },
-  {
-    "start": 47.05,
-    "end": 51.44,
-    "speaker": "彥君",
-    "text": "『切斷別人的 就是最年輕的』"
-  },
-  {
-    "start": 51.44,
-    "end": 57.41,
+    "start": 42.08,
+    "end": 44.85,
     "speaker": "曉臻",
-    "text": "也就是說 誰把別人切成兩半 誰就是後來才發生的"
+    "text": "還有斷層跟岩脈耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 57.41,
-    "end": 63.19,
+    "start": 45.05,
+    "end": 48.9,
     "speaker": "彥君",
-    "text": "沒錯 戰士們看圖上的『岩脈戊』"
+    "text": "沒錯 這是會考最愛出的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 63.19,
-    "end": 68.2,
+    "start": 49.1,
+    "end": 52.06,
+    "speaker": "彥君",
+    "text": "地質事件順序題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 52.26,
+    "end": 55.72,
+    "speaker": "彥君",
+    "text": "這種題目看起來很複雜",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 55.92,
+    "end": 59.29,
+    "speaker": "彥君",
+    "text": "但其實是超級送分題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 59.49,
+    "end": 62.5,
     "speaker": "曉臻",
-    "text": "哇 岩脈戊像一把刀 把甲乙丙丁都切開了"
+    "text": "老師 這要怎麼判斷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 68.2,
-    "end": 73.86,
-    "speaker": "彥君",
-    "text": "這代表什麼代表甲乙丙丁先排好隊"
-  },
-  {
-    "start": 73.86,
-    "end": 80.19,
-    "speaker": "彥君",
-    "text": "然後『岩脈戊』才像擠奶油一樣 從下面擠上來切斷它們"
-  },
-  {
-    "start": 80.19,
-    "end": 86.5,
+    "start": 62.7,
+    "end": 65.46,
     "speaker": "曉臻",
-    "text": "原來如此所以岩脈戊 比甲乙丙丁都還要年輕"
+    "text": "到底是誰先誰後啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 86.5,
-    "end": 92.33,
+    "start": 65.66,
+    "end": 68.55,
     "speaker": "彥君",
-    "text": "漂亮那最後我們來看『斷層己』"
+    "text": "記住兩個大原則",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 92.33,
-    "end": 97.77,
+    "start": 68.75,
+    "end": 72.0,
+    "speaker": "彥君",
+    "text": "第一 先來的在下面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 72.2,
+    "end": 75.02,
     "speaker": "曉臻",
-    "text": "老師我看到了斷層己把岩脈戊也切斷了"
+    "text": "因為泥沙是一層一層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 97.77,
-    "end": 105.21,
-    "speaker": "彥君",
-    "text": "沒錯斷層己不但切斷了甲乙丙丁 連岩脈戊都切成了兩半"
-  },
-  {
-    "start": 105.21,
-    "end": 111.54,
+    "start": 75.22,
+    "end": 77.86,
     "speaker": "曉臻",
-    "text": "所以『斷層己』是最晚發生的它是最年輕的事件"
+    "text": "慢慢疊上去的對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 111.54,
-    "end": 116.77,
+    "start": 78.06,
+    "end": 80.47,
     "speaker": "彥君",
-    "text": "完全正確我們來排一次順序"
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 116.77,
-    "end": 122.19,
+    "start": 80.67,
+    "end": 83.56,
     "speaker": "彥君",
-    "text": "最老的是最下面的甲 接著是乙、丙、丁"
+    "text": "這叫做疊置定律",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 122.19,
-    "end": 126.72,
+    "start": 83.76,
+    "end": 86.6,
     "speaker": "曉臻",
-    "text": "然後岩脈戊擠上來 切斷了甲乙丙丁"
+    "text": "所以圖上的甲乙丙丁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 126.72,
-    "end": 132.07,
-    "speaker": "彥君",
-    "text": "最後發生大地震 斷層己把所有東西都切斷了"
-  },
-  {
-    "start": 132.07,
-    "end": 138.52,
+    "start": 86.8,
+    "end": 89.23,
     "speaker": "曉臻",
-    "text": "哇 照著『下面最老、切人的最年輕』這兩招 真的秒殺耶"
+    "text": "最下面的甲最老",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 138.52,
-    "end": 142.93,
+    "start": 89.43,
+    "end": 93.62,
     "speaker": "彥君",
-    "text": "戰士們 這種題目千萬不能失分"
+    "text": "沒錯 甲乙丙丁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 142.93,
-    "end": 148.88,
+    "start": 93.82,
+    "end": 97.04,
     "speaker": "彥君",
-    "text": "先找沉積岩的順序 再找誰切斷誰 答案就出來了"
+    "text": "是乖乖排隊的沉積岩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 148.88,
-    "end": 152.48,
+    "start": 97.24,
+    "end": 104.34,
     "speaker": "彥君",
-    "text": "這個段落我們先停在這裡"
+    "text": "先來的在下面最底下的最老",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "先來的在下面最底下的最老"
+    ]
   },
   {
-    "start": 152.48,
-    "end": 157.3,
+    "start": 104.34,
+    "end": 107.06,
+    "speaker": "彥君",
+    "text": "那第二個大原則",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 107.26,
+    "end": 109.76,
+    "speaker": "彥君",
+    "text": "切斷別人的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 109.96,
+    "end": 112.51,
+    "speaker": "彥君",
+    "text": "就是最年輕的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 112.71,
+    "end": 114.71,
     "speaker": "曉臻",
-    "text": "大家把這個找碴的技巧記熟 我們等等繼續"
+    "text": "也就是說",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 114.91,
+    "end": 117.66,
+    "speaker": "曉臻",
+    "text": "誰把別人切成兩半",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 117.86,
+    "end": 120.79,
+    "speaker": "曉臻",
+    "text": "誰就是後來才發生的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 120.99,
+    "end": 125.73,
+    "speaker": "彥君",
+    "text": "沒錯 戰士們看圖上的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 125.93,
+    "end": 128.34,
+    "speaker": "彥君",
+    "text": "那個岩脈戊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 128.54,
+    "end": 131.42,
+    "speaker": "曉臻",
+    "text": "哇 岩脈戊像一把刀",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 131.62,
+    "end": 134.44,
+    "speaker": "曉臻",
+    "text": "把甲乙丙丁都切開了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 134.64,
+    "end": 136.95,
+    "speaker": "彥君",
+    "text": "這代表什麼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 137.15,
+    "end": 140.5,
+    "speaker": "彥君",
+    "text": "代表甲乙丙丁先排好隊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 140.7,
+    "end": 143.25,
+    "speaker": "彥君",
+    "text": "然後岩脈戊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 143.45,
+    "end": 146.26,
+    "speaker": "彥君",
+    "text": "才像擠奶油一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 146.46,
+    "end": 149.93,
+    "speaker": "彥君",
+    "text": "從下面擠上來切斷它們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 150.13,
+    "end": 152.15,
+    "speaker": "曉臻",
+    "text": "原來如此",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 152.35,
+    "end": 154.5,
+    "speaker": "曉臻",
+    "text": "所以岩脈戊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 154.7,
+    "end": 157.68,
+    "speaker": "曉臻",
+    "text": "比甲乙丙丁都還要年輕",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 157.88,
+    "end": 162.42,
+    "speaker": "彥君",
+    "text": "漂亮 那最後我們來看",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 162.62,
+    "end": 165.22,
+    "speaker": "彥君",
+    "text": "那條斷層己",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 165.42,
+    "end": 167.64,
+    "speaker": "曉臻",
+    "text": "老師我看到了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 167.84,
+    "end": 170.32,
+    "speaker": "曉臻",
+    "text": "斷層己把岩脈戊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 170.52,
+    "end": 172.74,
+    "speaker": "曉臻",
+    "text": "也一起切斷了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 172.94,
+    "end": 176.9,
+    "speaker": "彥君",
+    "text": "沒錯 斷層己",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 177.1,
+    "end": 180.16,
+    "speaker": "彥君",
+    "text": "不但切斷了甲乙丙丁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 180.36,
+    "end": 183.56,
+    "speaker": "彥君",
+    "text": "連岩脈戊都切成了兩半",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 183.76,
+    "end": 187.08,
+    "speaker": "曉臻",
+    "text": "所以斷層己是最晚發生的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 187.28,
+    "end": 190.0,
+    "speaker": "曉臻",
+    "text": "它是最年輕的事件",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 190.2,
+    "end": 197.99,
+    "speaker": "彥君",
+    "text": "切人的最年輕切斷代表晚發生",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "切人的最年輕切斷代表晚發生"
+    ]
+  },
+  {
+    "start": 197.99,
+    "end": 200.38,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 200.58,
+    "end": 203.42,
+    "speaker": "彥君",
+    "text": "我們來排一次順序",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 203.62,
+    "end": 206.65,
+    "speaker": "彥君",
+    "text": "最老的是最下面的甲",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 206.85,
+    "end": 209.62,
+    "speaker": "彥君",
+    "text": "接著是乙丙跟丁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 209.82,
+    "end": 212.56,
+    "speaker": "曉臻",
+    "text": "然後岩脈戊擠上來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 212.76,
+    "end": 215.22,
+    "speaker": "曉臻",
+    "text": "切斷了甲乙丙丁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 215.42,
+    "end": 218.45,
+    "speaker": "彥君",
+    "text": "最後發生大地震",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 218.65,
+    "end": 221.66,
+    "speaker": "彥君",
+    "text": "斷層己把所有東西",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 221.86,
+    "end": 224.43,
+    "speaker": "彥君",
+    "text": "全部都切斷了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 224.63,
+    "end": 227.47,
+    "speaker": "曉臻",
+    "text": "哇 照著這個邏輯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 227.67,
+    "end": 230.73,
+    "speaker": "曉臻",
+    "text": "下面最老切人的最年輕",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 230.93,
+    "end": 233.58,
+    "speaker": "曉臻",
+    "text": "這兩招真的秒殺耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 233.78,
+    "end": 235.9,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 236.1,
+    "end": 239.37,
+    "speaker": "彥君",
+    "text": "這種題目千萬不能失分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 239.57,
+    "end": 242.62,
+    "speaker": "彥君",
+    "text": "先找沉積岩的順序",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 242.82,
+    "end": 245.57,
+    "speaker": "彥君",
+    "text": "再找誰切斷誰",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 245.77,
+    "end": 248.39,
+    "speaker": "彥君",
+    "text": "答案就出來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 248.59,
+    "end": 251.89,
+    "speaker": "彥君",
+    "text": "這個段落我們先停在這裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 252.09,
+    "end": 255.43,
+    "speaker": "曉臻",
+    "text": "大家把這個找碴的技巧記熟",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 255.63,
+    "end": 257.92,
+    "speaker": "曉臻",
+    "text": "我們等等繼續",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 258.12,
+    "end": 261.39,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 261.59,
+    "end": 264.19,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 264.39,
+    "end": 266.73,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 266.93,
+    "end": 270.3,
+    "speaker": "合聲",
+    "text": "順序排好 滿分拿到",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 270.5,
+    "end": 273.96,
+    "speaker": "合聲",
+    "text": "戰士們 我們下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
