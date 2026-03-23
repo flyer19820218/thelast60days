@@ -1166,36 +1166,36 @@
     "start": 431.84,
     "end": 9999.0,
     "speaker": "曉臻",
-    "text": "一、呼吸器官：鰓} \\rightarrow \\text{肺與氣囊",
+    "text": "一、呼吸器官：鰓→肺與氣囊",
     "is_pinned": true,
     "pin_level": 9,
     "commands": [
       "釘選",
-      "一、呼吸器官：鰓} \\rightarrow \\text{肺與氣囊"
+      "一、呼吸器官：鰓→肺與氣囊"
     ]
   },
   {
     "start": 436.2,
     "end": 9999.0,
     "speaker": "曉臻",
-    "text": "二、受精方式：體外受精} \\rightarrow \\text{體內受精",
+    "text": "二、受精方式：體外受精→體內受精",
     "is_pinned": true,
     "pin_level": 10,
     "commands": [
       "釘選",
-      "二、受精方式：體外受精} \\rightarrow \\text{體內受精"
+      "二、受精方式：體外受精→體內受精"
     ]
   },
   {
     "start": 440.66,
     "end": 9999.0,
     "speaker": "曉臻",
-    "text": "三、體溫調節：變溫動物} \\rightarrow \\text{恆溫動物",
+    "text": "三、體溫調節：變溫動物→恆溫動物",
     "is_pinned": true,
     "pin_level": 11,
     "commands": [
       "釘選",
-      "三、體溫調節：變溫動物} \\rightarrow \\text{恆溫動物"
+      "三、體溫調節：變溫動物→恆溫動物"
     ]
   },
   {
