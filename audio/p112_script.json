@@ -1,402 +1,488 @@
 [
   {
     "start": 0.0,
-    "end": 3.25,
+    "end": 4.57,
     "speaker": "彥君",
-    "text": "戰士們 歡迎來到",
+    "text": "戰士們辛苦了 歡迎來到",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.45,
-    "end": 6.22,
+    "start": 4.77,
+    "end": 7.97,
     "speaker": "彥君",
-    "text": "直線運動的 世界",
+    "text": "直線運動的奇妙世界",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.42,
-    "end": 9.02,
+    "start": 8.17,
+    "end": 11.37,
     "speaker": "彥君",
-    "text": "我是彥君老師",
+    "text": "各位衝刺 A 級的戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 9.22,
-    "end": 10.95,
+    "start": 11.57,
+    "end": 15.08,
+    "speaker": "彥君",
+    "text": "歡迎來到第一百一十二集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 15.28,
+    "end": 18.79,
+    "speaker": "彥君",
+    "text": "戰士們好 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 18.99,
+    "end": 22.29,
     "speaker": "曉臻",
-    "text": "大家好",
+    "text": "大家好啊 我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.15,
-    "end": 13.49,
+    "start": 22.49,
+    "end": 25.86,
+    "speaker": "彥君",
+    "text": "戰士們請特別注意聽好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 26.06,
+    "end": 29.38,
+    "speaker": "彥君",
+    "text": "這一集可是大考送分題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 29.58,
+    "end": 32.85,
+    "speaker": "彥君",
+    "text": "絕對不能在這裡大失血",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 33.05,
+    "end": 36.39,
     "speaker": "曉臻",
-    "text": "我是曉臻助教",
+    "text": "老師 第一個觀念是位移",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 13.69,
-    "end": 16.14,
-    "speaker": "彥君",
-    "text": "戰士們注意",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 16.34,
-    "end": 19.52,
-    "speaker": "彥君",
-    "text": "這一集 是大考送分題",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 19.72,
-    "end": 22.87,
-    "speaker": "彥君",
-    "text": "絕對不能 在這裡失血",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 23.07,
-    "end": 26.06,
+    "start": 36.59,
+    "end": 39.55,
     "speaker": "曉臻",
-    "text": "老師 第一個是位移",
+    "text": "跟路徑長有什麼不一樣",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 26.26,
-    "end": 29.22,
-    "speaker": "曉臻",
-    "text": "跟路徑長 有什麼不一樣",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 29.42,
-    "end": 32.83,
+    "start": 39.75,
+    "end": 43.17,
     "speaker": "彥君",
-    "text": "想像你 從家裡走到學校",
+    "text": "想像你從家裡走到學校",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 33.03,
-    "end": 36.47,
+    "start": 43.37,
+    "end": 46.76,
     "speaker": "彥君",
-    "text": "實際走過的 腳印總長度",
+    "text": "實際走過的腳印總長度",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 36.67,
-    "end": 39.42,
+    "start": 46.96,
+    "end": 50.16,
     "speaker": "彥君",
-    "text": "就是 你的路徑長",
+    "text": "就是我們說的路徑長度",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 39.62,
-    "end": 73.74,
+    "start": 50.36,
+    "end": 57.84,
     "speaker": "彥君",
-    "text": "$\\text{路徑長} \\rightarrow \\text{走過的實際距離}$",
+    "text": "路徑長就是實際走過的總距離",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "路徑長就是實際走過的總距離"
+    ]
   },
   {
-    "start": 44.1,
-    "end": 46.0,
+    "start": 57.84,
+    "end": 60.54,
     "speaker": "曉臻",
-    "text": "那位移呢",
+    "text": "那物理學上的位移呢",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 46.2,
-    "end": 49.54,
+    "start": 60.74,
+    "end": 64.08,
     "speaker": "彥君",
-    "text": "位移 是直接拉一條直線",
+    "text": "位移是直接拉一條直線",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 49.74,
-    "end": 52.99,
+    "start": 64.28,
+    "end": 67.62,
     "speaker": "彥君",
-    "text": "從起點 直接指向終點",
+    "text": "從起點直接指向了終點",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 53.19,
-    "end": 56.32,
+    "start": 67.82,
+    "end": 70.95,
     "speaker": "彥君",
-    "text": "記得 它是包含方向的喔",
+    "text": "記得它是包含方向的喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 56.52,
-    "end": 73.74,
+    "start": 71.15,
+    "end": 78.49,
     "speaker": "彥君",
-    "text": "$\\text{位移} \\rightarrow \\text{起點到終點直線}$",
+    "text": "位移就是從起點到終點的直線",
     "is_pinned": true,
-    "pin_level": 2
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "位移就是從起點到終點的直線"
+    ]
   },
   {
-    "start": 60.86,
-    "end": 64.73,
+    "start": 78.49,
+    "end": 82.38,
     "speaker": "曉臻",
     "text": "原來如此 腳印是路徑",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 64.93,
-    "end": 67.36,
+    "start": 82.58,
+    "end": 85.74,
     "speaker": "曉臻",
-    "text": "直線 就是位移",
+    "text": "拉直線的距離就是位移",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 67.56,
-    "end": 70.54,
+    "start": 85.94,
+    "end": 89.23,
     "speaker": "彥君",
-    "text": "給你們 3 秒鐘抄寫",
+    "text": "戰士們給你三秒鐘抄寫",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 73.74,
-    "end": 76.85,
+    "start": 89.43,
+    "end": 92.92,
     "speaker": "彥君",
-    "text": "接下來 講速度跟速率",
+    "text": "接下來我們講速度跟速率",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 77.05,
-    "end": 80.42,
+    "start": 93.12,
+    "end": 96.46,
     "speaker": "曉臻",
     "text": "老師 平均速度跟速率",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 80.62,
-    "end": 83.19,
+    "start": 96.66,
+    "end": 99.62,
     "speaker": "曉臻",
-    "text": "聽起來 根本一樣啊",
+    "text": "聽起來根本是一樣的啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 83.39,
-    "end": 86.33,
+    "start": 99.82,
+    "end": 103.07,
     "speaker": "彥君",
-    "text": "只要 看到「度」這個字",
+    "text": "只要看到度這個字出現",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 86.53,
-    "end": 89.46,
+    "start": 103.27,
+    "end": 106.47,
     "speaker": "彥君",
-    "text": "它就跟 方向有關係",
+    "text": "它就一定跟方向有關係",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 89.66,
-    "end": 92.98,
+    "start": 106.67,
+    "end": 109.99,
     "speaker": "彥君",
-    "text": "所以 速度要用位移去算",
+    "text": "所以速度要用位移去算",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 93.18,
-    "end": 117.09,
+    "start": 110.19,
+    "end": 117.29,
     "speaker": "彥君",
-    "text": "$\\text{平均速度} \\rightarrow \\frac{\\text{位移}}{\\text{時間}}$",
+    "text": "平均速度等於位移除以時間",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "平均速度等於位移除以時間"
+    ]
   },
   {
-    "start": 97.28,
-    "end": 100.14,
+    "start": 117.29,
+    "end": 120.22,
     "speaker": "曉臻",
-    "text": "那「速率」沒有方向",
+    "text": "那速率這個詞沒有方向",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 100.34,
-    "end": 103.18,
+    "start": 120.42,
+    "end": 123.48,
     "speaker": "曉臻",
-    "text": "就是用 路徑長去算囉",
+    "text": "就是用路徑長去算對囉",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 103.38,
-    "end": 106.06,
+    "start": 123.68,
+    "end": 126.59,
     "speaker": "彥君",
-    "text": "助教 舉一反三喔",
+    "text": "助教懂得舉一反三喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 106.26,
-    "end": 117.09,
+    "start": 126.79,
+    "end": 134.2,
     "speaker": "彥君",
-    "text": "$\\text{平均速率} \\rightarrow \\frac{\\text{路徑長}}{\\text{時間}}$",
+    "text": "平均速率等於路徑長除以時間",
     "is_pinned": true,
-    "pin_level": 2
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "平均速率等於路徑長除以時間"
+    ]
   },
   {
-    "start": 110.66,
-    "end": 113.89,
+    "start": 134.2,
+    "end": 137.64,
     "speaker": "彥君",
-    "text": "戰士們 換下一組",
+    "text": "戰士們 我們換下一組",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 117.09,
-    "end": 120.55,
+    "start": 137.84,
+    "end": 141.3,
     "speaker": "曉臻",
     "text": "老師 那瞬時是什麼意思",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 120.75,
-    "end": 124.1,
+    "start": 141.5,
+    "end": 144.94,
     "speaker": "彥君",
-    "text": "瞬時 就是看測速照相",
+    "text": "瞬時就是看測速照相機",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 124.3,
-    "end": 127.21,
+    "start": 145.14,
+    "end": 148.27,
     "speaker": "彥君",
-    "text": "被拍到的 那一個瞬間",
+    "text": "被拍到的那一個瞬間點",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 127.41,
-    "end": 9999.0,
+    "start": 148.47,
+    "end": 156.24,
     "speaker": "彥君",
-    "text": "$\\text{瞬時} \\rightarrow \\text{特定的時間點}$",
+    "text": "瞬時就是發生在特定時間點",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "瞬時就是發生在特定時間點"
+    ]
   },
   {
-    "start": 132.18,
-    "end": 134.82,
+    "start": 156.24,
+    "end": 159.32,
     "speaker": "曉臻",
-    "text": "最後一個 是軌跡圖",
+    "text": "最後一個重點是軌跡圖",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 135.02,
-    "end": 138.06,
+    "start": 159.52,
+    "end": 162.6,
     "speaker": "曉臻",
-    "text": "加速度運動 長什麼樣子",
+    "text": "加速度運動長什麼樣子",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 138.26,
-    "end": 141.6,
+    "start": 162.8,
+    "end": 166.14,
     "speaker": "彥君",
-    "text": "想像 打點計時器的紙帶",
+    "text": "想像打點計時器的紙帶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 141.8,
-    "end": 144.81,
+    "start": 166.34,
+    "end": 169.66,
     "speaker": "彥君",
-    "text": "只要 點跟點的距離",
+    "text": "只要點跟點之間的距離",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 145.01,
-    "end": 148.21,
+    "start": 169.86,
+    "end": 173.04,
     "speaker": "彥君",
-    "text": "越來越大 越拉越開",
+    "text": "變得越來越大越拉越開",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 148.41,
-    "end": 151.61,
+    "start": 173.24,
+    "end": 176.51,
     "speaker": "彥君",
-    "text": "代表 車子正在加速中",
+    "text": "代表車子正在加速當中",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 151.81,
-    "end": 9999.0,
+    "start": 176.71,
+    "end": 184.34,
     "speaker": "彥君",
-    "text": "$\\text{加速度} \\rightarrow \\text{點的間距改變}$",
+    "text": "加速度軌跡的間距會不斷改變",
     "is_pinned": true,
-    "pin_level": 2
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "加速度軌跡的間距會不斷改變"
+    ]
   },
   {
-    "start": 156.43,
-    "end": 159.87,
+    "start": 184.34,
+    "end": 187.99,
     "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
+    "text": "觀念全通了就能秒殺考題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 160.07,
-    "end": 162.67,
+    "start": 188.19,
+    "end": 191.46,
     "speaker": "彥君",
-    "text": "我是彥君老師",
+    "text": "帶著這份底氣迎戰會考吧",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 162.87,
-    "end": 165.21,
+    "start": 191.66,
+    "end": 195.15,
+    "speaker": "彥君",
+    "text": "戰士們 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 195.35,
+    "end": 198.65,
     "speaker": "曉臻",
-    "text": "我是曉臻助教",
+    "text": "大家好啊 我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 165.41,
-    "end": 168.78,
+    "start": 198.85,
+    "end": 202.22,
     "speaker": "合聲",
     "text": "腳印路徑 直線位移",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 168.98,
-    "end": 172.51,
+    "start": 202.42,
+    "end": 205.95,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
