@@ -1,290 +1,764 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.86,
+    "start": 3.21,
+    "end": 6.26,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的會考戰士們 我是彥君老師"
+    "text": "宇宙的陰影與光芒",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.86,
-    "end": 11.29,
+    "start": 6.46,
+    "end": 9.47,
     "speaker": "彥君",
-    "text": "今天來到 第五十三集"
+    "text": "交織成最美的奇觀",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.29,
-    "end": 15.39,
+    "start": 9.67,
+    "end": 12.9,
     "speaker": "彥君",
-    "text": "我們要解開 天狗食月的 宇宙奧秘"
+    "text": "你們在黑暗中的苦讀",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 15.39,
-    "end": 18.89,
+    "start": 13.1,
+    "end": 16.3,
+    "speaker": "彥君",
+    "text": "終將迎來最耀眼的破曉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 16.5,
+    "end": 19.7,
+    "speaker": "彥君",
+    "text": "各位衝刺 A 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 19.9,
+    "end": 23.22,
+    "speaker": "彥君",
+    "text": "歡迎來到第五十三集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.42,
+    "end": 26.02,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 26.22,
+    "end": 28.7,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.89,
-    "end": 22.06,
+    "start": 28.9,
+    "end": 31.23,
     "speaker": "曉臻",
-    "text": "老師 講義上的圖"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.06,
-    "end": 26.13,
+    "start": 31.43,
+    "end": 34.49,
+    "speaker": "彥君",
+    "text": "今天我們要來解開",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 34.69,
+    "end": 37.74,
+    "speaker": "彥君",
+    "text": "天狗食月的宇宙奧秘",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 37.94,
+    "end": 41.19,
     "speaker": "曉臻",
-    "text": "太陽、 地球、 月球排成一線"
+    "text": "老師 講義上的這張圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 26.13,
-    "end": 29.42,
+    "start": 41.39,
+    "end": 44.52,
     "speaker": "曉臻",
-    "text": "這是日食 還是月食啊"
+    "text": "太陽地球月球排成一線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 29.42,
-    "end": 32.84,
-    "speaker": "彥君",
-    "text": "太陽光 被地球擋住了"
-  },
-  {
-    "start": 32.84,
-    "end": 36.27,
-    "speaker": "彥君",
-    "text": "影子剛好 落在月球上"
-  },
-  {
-    "start": 36.27,
-    "end": 39.94,
-    "speaker": "彥君",
-    "text": "這是 發生在滿月的 月食"
-  },
-  {
-    "start": 39.94,
-    "end": 42.65,
+    "start": 44.72,
+    "end": 47.7,
     "speaker": "曉臻",
-    "text": "那如果是 日食呢"
+    "text": "這是日食還是月食啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 42.65,
-    "end": 46.32,
+    "start": 47.9,
+    "end": 50.82,
     "speaker": "彥君",
-    "text": "日食 就是月球跑到 中間"
+    "text": "戰士們請看仔細喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 46.32,
-    "end": 49.22,
+    "start": 51.02,
+    "end": 54.14,
     "speaker": "彥君",
-    "text": "擋住了 太陽光"
+    "text": "太陽光被地球擋住了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 49.22,
-    "end": 52.88,
+    "start": 54.34,
+    "end": 57.47,
     "speaker": "彥君",
-    "text": "這只會 發生在初一的 朔"
+    "text": "影子剛好落在月球上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 52.88,
-    "end": 56.89,
+    "start": 57.67,
+    "end": 60.68,
+    "speaker": "彥君",
+    "text": "這是發生在滿月的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 60.88,
+    "end": 63.24,
+    "speaker": "彥君",
+    "text": "月食現象",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 63.44,
+    "end": 65.85,
     "speaker": "曉臻",
-    "text": "可是老師 每個月都有 朔望啊"
+    "text": "那如果是日食呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 56.89,
-    "end": 60.15,
+    "start": 66.05,
+    "end": 69.42,
+    "speaker": "彥君",
+    "text": "日食就是月球跑到中間",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 69.62,
+    "end": 72.6,
+    "speaker": "彥君",
+    "text": "擋住了太陽的光線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 72.8,
+    "end": 76.12,
+    "speaker": "彥君",
+    "text": "這只會發生在農曆初一",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 76.32,
+    "end": 79.18,
+    "speaker": "彥君",
+    "text": "也就是朔月的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 79.38,
+    "end": 87.56,
+    "speaker": "彥君",
+    "text": "月食在滿月望日食在初一朔",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "月食在滿月望日食在初一朔"
+    ]
+  },
+  {
+    "start": 87.56,
+    "end": 89.66,
     "speaker": "曉臻",
-    "text": "為什麼 沒有每個月 都發生"
+    "text": "可是老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 60.15,
-    "end": 63.36,
-    "speaker": "彥君",
-    "text": "因為地球的 黃道面"
-  },
-  {
-    "start": 63.36,
-    "end": 66.33,
-    "speaker": "彥君",
-    "text": "跟月球的 白道面"
-  },
-  {
-    "start": 66.33,
-    "end": 69.57,
-    "speaker": "彥君",
-    "text": "中間有 五度的 傾角"
-  },
-  {
-    "start": 69.57,
-    "end": 73.6,
-    "speaker": "彥君",
-    "text": "它們並不是 永遠在 同一個平面"
-  },
-  {
-    "start": 73.6,
-    "end": 77.94,
+    "start": 89.86,
+    "end": 92.48,
     "speaker": "曉臻",
-    "text": "喔 必須要 剛剛好 交會才行"
+    "text": "每個月都有朔望啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 77.94,
-    "end": 81.72,
+    "start": 92.68,
+    "end": 95.18,
     "speaker": "曉臻",
-    "text": "那日環食 跟 日全食 差在哪裡"
+    "text": "為什麼沒有每個月",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 81.72,
-    "end": 85.63,
-    "speaker": "彥君",
-    "text": "關鍵在於 月亮到地球的距離"
-  },
-  {
-    "start": 85.63,
-    "end": 89.01,
-    "speaker": "彥君",
-    "text": "當月球 離我們比較遠"
-  },
-  {
-    "start": 89.01,
-    "end": 92.13,
-    "speaker": "彥君",
-    "text": "看起來 比較小顆"
-  },
-  {
-    "start": 92.13,
-    "end": 95.34,
-    "speaker": "彥君",
-    "text": "遮不住 整個太陽"
-  },
-  {
-    "start": 95.34,
-    "end": 98.5,
-    "speaker": "彥君",
-    "text": "就會變成 日環食"
-  },
-  {
-    "start": 98.5,
-    "end": 101.14,
+    "start": 95.38,
+    "end": 97.84,
     "speaker": "曉臻",
-    "text": "最後一個問題"
+    "text": "都發生這種現象",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 101.14,
-    "end": 104.4,
-    "speaker": "曉臻",
-    "text": "為什麼 圖上的月全食"
-  },
-  {
-    "start": 104.4,
-    "end": 107.13,
-    "speaker": "曉臻",
-    "text": "會畫成 紅色的啊"
-  },
-  {
-    "start": 107.13,
-    "end": 110.34,
+    "start": 98.04,
+    "end": 100.9,
     "speaker": "彥君",
-    "text": "因為地球的 大氣層"
+    "text": "因為地球的黃道面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 101.1,
+    "end": 103.78,
+    "speaker": "彥君",
+    "text": "跟月球的白道面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 103.98,
+    "end": 106.91,
+    "speaker": "彥君",
+    "text": "中間有五度的傾角",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 107.11,
+    "end": 110.14,
+    "speaker": "彥君",
+    "text": "它們並不是永遠都在",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 110.34,
-    "end": 113.75,
+    "end": 112.94,
     "speaker": "彥君",
-    "text": "會把波長較長的 紅光"
+    "text": "同一個平面上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 113.75,
-    "end": 117.01,
+    "start": 113.14,
+    "end": 120.38,
     "speaker": "彥君",
-    "text": "折射到 月球表面"
+    "text": "白道黃道有五度傾角",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "白道黃道有五度傾角"
+    ]
   },
   {
-    "start": 117.01,
-    "end": 120.68,
+    "start": 120.38,
+    "end": 123.68,
+    "speaker": "曉臻",
+    "text": "喔 必須要剛剛好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 123.88,
+    "end": 126.55,
+    "speaker": "曉臻",
+    "text": "兩個軌道交會才行",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 126.75,
+    "end": 129.62,
+    "speaker": "曉臻",
+    "text": "那日環食跟日全食",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 129.82,
+    "end": 132.32,
+    "speaker": "曉臻",
+    "text": "到底差在哪裡啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 132.52,
+    "end": 135.82,
     "speaker": "彥君",
-    "text": "讓月亮 披上了 紅色的面紗"
+    "text": "關鍵在於月亮到地球",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 120.68,
-    "end": 124.44,
-    "speaker": "曉臻",
-    "text": "一、 月食在望 日食在朔"
-  },
-  {
-    "start": 124.44,
-    "end": 128.78,
-    "speaker": "曉臻",
-    "text": "二、 沒每月發生 是因為有傾角"
-  },
-  {
-    "start": 128.78,
-    "end": 133.1,
-    "speaker": "曉臻",
-    "text": "三、 距離較遠 形成日環食"
-  },
-  {
-    "start": 133.1,
-    "end": 137.2,
-    "speaker": "曉臻",
-    "text": "四、 月全食 是因為紅光折射"
-  },
-  {
-    "start": 137.2,
-    "end": 140.1,
+    "start": 136.02,
+    "end": 138.76,
     "speaker": "彥君",
-    "text": "月全食的時候"
+    "text": "它們之間的距離",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 140.1,
-    "end": 142.97,
+    "start": 138.96,
+    "end": 142.04,
     "speaker": "彥君",
-    "text": "我們看得到 月亮嗎"
+    "text": "當月球離我們比較遠",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 142.97,
-    "end": 144.98,
-    "speaker": "曉臻",
-    "text": "看得到"
-  },
-  {
-    "start": 144.98,
-    "end": 147.88,
-    "speaker": "曉臻",
-    "text": "是暗紅色的 滿月"
-  },
-  {
-    "start": 147.88,
-    "end": 152.7,
+    "start": 142.24,
+    "end": 145.32,
     "speaker": "彥君",
-    "text": "漂亮 觀念非常清楚"
+    "text": "看起來就會比較小顆",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 152.7,
-    "end": 155.6,
+    "start": 145.52,
+    "end": 148.38,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "遮不住整個太陽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 155.6,
-    "end": 158.24,
+    "start": 148.58,
+    "end": 151.45,
+    "speaker": "彥君",
+    "text": "就會變成日環食",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 151.65,
+    "end": 159.7,
+    "speaker": "彥君",
+    "text": "月球較遠遮不住變日環食",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "月球較遠遮不住變日環食"
+    ]
+  },
+  {
+    "start": 159.7,
+    "end": 162.86,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "老師 最後一個問題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 158.24,
-    "end": 161.96,
+    "start": 163.06,
+    "end": 166.02,
+    "speaker": "曉臻",
+    "text": "為什麼圖上的月全食",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 166.22,
+    "end": 168.65,
+    "speaker": "曉臻",
+    "text": "會畫成紅色的啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 168.85,
+    "end": 171.76,
+    "speaker": "彥君",
+    "text": "因為地球的大氣層",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 171.96,
+    "end": 175.11,
+    "speaker": "彥君",
+    "text": "會把波長較長的紅光",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 175.31,
+    "end": 178.39,
+    "speaker": "彥君",
+    "text": "折射到月球的表面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 178.59,
+    "end": 181.12,
+    "speaker": "彥君",
+    "text": "讓月亮披上了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 181.32,
+    "end": 184.06,
+    "speaker": "彥君",
+    "text": "紅色的神祕面紗",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 184.26,
+    "end": 192.34,
+    "speaker": "彥君",
+    "text": "地球大氣層折射紅光成紅月",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "地球大氣層折射紅光成紅月"
+    ]
+  },
+  {
+    "start": 192.34,
+    "end": 195.38,
+    "speaker": "曉臻",
+    "text": "戰士們 快速複習",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 195.58,
+    "end": 198.08,
+    "speaker": "曉臻",
+    "text": "大魔王四大重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 198.28,
+    "end": 200.88,
+    "speaker": "曉臻",
+    "text": "第一 月食在望",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 201.08,
+    "end": 203.56,
+    "speaker": "曉臻",
+    "text": "日食則是在朔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 203.76,
+    "end": 243.71,
+    "speaker": "彥君",
+    "text": "一月食在望日食在朔",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "一月食在望日食在朔"
+    ]
+  },
+  {
+    "start": 208.0,
+    "end": 211.01,
+    "speaker": "曉臻",
+    "text": "第二 沒有每個月發生",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 211.21,
+    "end": 213.95,
+    "speaker": "曉臻",
+    "text": "是因為有五度傾角",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 214.15,
+    "end": 243.71,
+    "speaker": "彥君",
+    "text": "二沒有每月發生因為有傾角",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "二沒有每月發生因為有傾角"
+    ]
+  },
+  {
+    "start": 218.92,
+    "end": 221.93,
+    "speaker": "曉臻",
+    "text": "第三 月球距離較遠",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 222.13,
+    "end": 224.78,
+    "speaker": "曉臻",
+    "text": "就會形成日環食",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 224.98,
+    "end": 243.71,
+    "speaker": "彥君",
+    "text": "三距離較遠形成日環食",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "三距離較遠形成日環食"
+    ]
+  },
+  {
+    "start": 229.6,
+    "end": 232.66,
+    "speaker": "曉臻",
+    "text": "第四 月全食會偏紅",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 232.86,
+    "end": 235.43,
+    "speaker": "曉臻",
+    "text": "是因為紅光折射",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 235.63,
+    "end": 243.71,
+    "speaker": "彥君",
+    "text": "四月全食偏紅是因為紅光折射",
+    "is_pinned": true,
+    "pin_level": 4,
+    "commands": [
+      "釘選",
+      "四月全食偏紅是因為紅光折射"
+    ]
+  },
+  {
+    "start": 243.71,
+    "end": 245.83,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 246.03,
+    "end": 248.87,
+    "speaker": "彥君",
+    "text": "閉上眼睛想一想喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 249.07,
+    "end": 252.13,
+    "speaker": "彥君",
+    "text": "發生月全食的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 252.33,
+    "end": 254.9,
+    "speaker": "彥君",
+    "text": "我們看得到月亮嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 255.1,
+    "end": 257.15,
+    "speaker": "曉臻",
+    "text": "當然看得到",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 257.35,
+    "end": 260.05,
+    "speaker": "曉臻",
+    "text": "是暗紅色的滿月喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 260.25,
+    "end": 264.77,
+    "speaker": "彥君",
+    "text": "漂亮 觀念非常清楚",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 264.97,
+    "end": 268.24,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 268.44,
+    "end": 271.04,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 271.24,
+    "end": 273.58,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 273.78,
+    "end": 277.19,
     "speaker": "合聲",
-    "text": "日朔月望 考點全上"
+    "text": "日朔月望 考點全上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 161.96,
-    "end": 164.81,
+    "start": 277.39,
+    "end": 280.86,
     "speaker": "合聲",
-    "text": "下一關卡見"
+    "text": "戰士們 下一關卡見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
