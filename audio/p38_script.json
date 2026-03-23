@@ -1,254 +1,722 @@
 [
   {
     "start": 0.0,
-    "end": 3.55,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "各位衝 A 的戰士們"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.55,
-    "end": 6.45,
+    "start": 3.21,
+    "end": 5.47,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "地底的岩漿",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.45,
-    "end": 9.25,
+    "start": 5.67,
+    "end": 8.39,
+    "speaker": "彥君",
+    "text": "歷經千度的高溫",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 8.59,
+    "end": 11.05,
+    "speaker": "彥君",
+    "text": "你們的努力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 11.25,
+    "end": 14.74,
+    "speaker": "彥君",
+    "text": "終將淬鍊出最耀眼的寶石",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 14.94,
+    "end": 18.14,
+    "speaker": "彥君",
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 18.34,
+    "end": 21.68,
+    "speaker": "彥君",
+    "text": "歡迎來到第三十八集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 21.88,
+    "end": 24.48,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 24.68,
+    "end": 27.16,
     "speaker": "曉臻",
-    "text": "戰士們大家好啊"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 9.25,
-    "end": 11.89,
+    "start": 27.36,
+    "end": 29.7,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.89,
-    "end": 15.46,
+    "start": 29.9,
+    "end": 33.17,
     "speaker": "彥君",
-    "text": "歡迎回到科學大冒險"
+    "text": "歡迎回到科學大冒險",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 15.46,
-    "end": 19.34,
+    "start": 33.37,
+    "end": 35.82,
     "speaker": "彥君",
-    "text": "今天要揭開石頭的身世之謎"
+    "text": "今天要揭開",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.34,
-    "end": 23.23,
+    "start": 36.02,
+    "end": 38.84,
+    "speaker": "彥君",
+    "text": "石頭的身世之謎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 39.04,
+    "end": 40.82,
     "speaker": "曉臻",
-    "text": "老師投影片上的『火成岩』"
+    "text": "老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 23.23,
-    "end": 26.61,
+    "start": 41.02,
+    "end": 43.72,
     "speaker": "曉臻",
-    "text": "它們的長相有什麼不同啊"
+    "text": "投影片上的火成岩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 26.61,
-    "end": 32.15,
-    "speaker": "彥君",
-    "text": "這可是必考題我們把它們放大看"
-  },
-  {
-    "start": 32.15,
-    "end": 36.37,
-    "speaker": "彥君",
-    "text": "第一個『玄武岩』通常黑黑的"
-  },
-  {
-    "start": 36.37,
-    "end": 40.97,
-    "speaker": "彥君",
-    "text": "因為冷卻太快結晶顆粒非常細小"
-  },
-  {
-    "start": 40.97,
-    "end": 45.94,
+    "start": 43.92,
+    "end": 47.0,
     "speaker": "曉臻",
-    "text": "老師我去澎湖玩的時候有看到"
+    "text": "它們的長相有什麼不同啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 45.94,
-    "end": 49.92,
+    "start": 47.2,
+    "end": 49.87,
+    "speaker": "彥君",
+    "text": "這可是必考題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 50.07,
+    "end": 52.94,
+    "speaker": "彥君",
+    "text": "我們把它們放大看",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 53.14,
+    "end": 55.78,
+    "speaker": "彥君",
+    "text": "第一個玄武岩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 55.98,
+    "end": 58.49,
+    "speaker": "彥君",
+    "text": "通常黑黑的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 58.69,
+    "end": 61.22,
+    "speaker": "彥君",
+    "text": "因為冷卻太快",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 61.42,
+    "end": 64.5,
+    "speaker": "彥君",
+    "text": "結晶顆粒非常細小",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 64.7,
+    "end": 68.09,
     "speaker": "曉臻",
-    "text": "是不是那個直直的『柱狀玄武岩』"
+    "text": "老師 我去澎湖玩的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 49.92,
-    "end": 55.14,
-    "speaker": "彥君",
-    "text": "完全正確那第二個『安山岩』呢"
-  },
-  {
-    "start": 55.14,
-    "end": 58.93,
-    "speaker": "彥君",
-    "text": "它也是噴出地表極速冷卻"
-  },
-  {
-    "start": 58.93,
-    "end": 63.73,
-    "speaker": "彥君",
-    "text": "顏色偏灰台灣的『大屯火山』都是它喔"
-  },
-  {
-    "start": 63.73,
-    "end": 67.25,
+    "start": 68.29,
+    "end": 70.86,
     "speaker": "曉臻",
-    "text": "那躲在地底『緩慢冷卻』的呢"
+    "text": "有看到那個直直的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 67.25,
-    "end": 71.28,
+    "start": 71.06,
+    "end": 73.28,
     "speaker": "曉臻",
-    "text": "我看到了是『花岡岩』"
+    "text": "柱狀玄武岩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 71.28,
-    "end": 76.41,
+    "start": 73.48,
+    "end": 75.86,
     "speaker": "彥君",
-    "text": "沒錯因為在地底慢慢冷卻"
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 76.41,
-    "end": 81.42,
+    "start": 76.06,
+    "end": 78.71,
     "speaker": "彥君",
-    "text": "它的結晶顆粒就會特別粗大、特別漂亮"
+    "text": "那第二個安山岩呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 81.42,
-    "end": 86.63,
+    "start": 78.91,
+    "end": 82.4,
+    "speaker": "彥君",
+    "text": "它也是噴出地表極速冷卻",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 82.6,
+    "end": 84.89,
+    "speaker": "彥君",
+    "text": "顏色偏灰",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 85.09,
+    "end": 88.38,
+    "speaker": "彥君",
+    "text": "台灣的大屯火山都是它喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 88.58,
+    "end": 91.64,
     "speaker": "曉臻",
-    "text": "哇難怪金門有很多花岡岩蓋的房子"
+    "text": "那躲在地底緩慢冷卻的呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 86.63,
-    "end": 90.2,
-    "speaker": "彥君",
-    "text": "接著看二哥『沉積岩』"
-  },
-  {
-    "start": 90.2,
-    "end": 94.23,
+    "start": 91.84,
+    "end": 95.4,
     "speaker": "曉臻",
-    "text": "大自然一層一層疊起來的千層派"
+    "text": "我看到了 是花岡岩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 94.23,
-    "end": 99.17,
+    "start": 95.6,
+    "end": 97.7,
     "speaker": "彥君",
-    "text": "沒錯礫岩、砂岩跟頁岩都是"
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 99.17,
-    "end": 102.84,
+    "start": 97.9,
+    "end": 101.0,
+    "speaker": "彥君",
+    "text": "因為在地底慢慢冷卻",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 101.2,
+    "end": 103.9,
+    "speaker": "彥君",
+    "text": "它的結晶顆粒",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 104.1,
+    "end": 107.42,
+    "speaker": "彥君",
+    "text": "就會特別粗大特別漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 107.62,
+    "end": 111.22,
     "speaker": "曉臻",
-    "text": "還有會藏著化石的『石灰岩』"
+    "text": "哇 難怪金門有很多",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 102.84,
-    "end": 108.78,
-    "speaker": "彥君",
-    "text": "答對了最後是脾氣最硬的『變質岩』"
-  },
-  {
-    "start": 108.78,
-    "end": 112.69,
-    "speaker": "彥君",
-    "text": "它需要『高溫高壓』的瘋狂擠壓"
-  },
-  {
-    "start": 112.69,
-    "end": 116.96,
+    "start": 111.42,
+    "end": 113.9,
     "speaker": "曉臻",
-    "text": "像是在台灣的『中央山脈』裡面對吧"
+    "text": "花岡岩蓋的房子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 116.96,
-    "end": 121.71,
+    "start": 114.1,
+    "end": 121.85,
     "speaker": "彥君",
-    "text": "沒錯還要記住最重要的變身公式"
+    "text": "玄武安山冷卻快花岡冷卻慢",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "玄武安山冷卻快花岡冷卻慢"
+    ]
   },
   {
-    "start": 121.71,
-    "end": 125.95,
+    "start": 121.85,
+    "end": 124.88,
+    "speaker": "彥君",
+    "text": "接著看二哥沉積岩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 125.08,
+    "end": 128.23,
     "speaker": "曉臻",
-    "text": "頁岩變板岩石灰岩變『大理岩』"
+    "text": "大自然一層一層疊起來的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 125.95,
-    "end": 131.56,
-    "speaker": "彥君",
-    "text": "非常好這幾招變身公式超愛考"
-  },
-  {
-    "start": 131.56,
-    "end": 133.98,
-    "speaker": "彥君",
-    "text": "戰士們"
-  },
-  {
-    "start": 133.98,
-    "end": 138.25,
-    "speaker": "彥君",
-    "text": "想要看到結晶顆粒最粗大的石頭"
-  },
-  {
-    "start": 138.25,
-    "end": 142.26,
-    "speaker": "彥君",
-    "text": "應該去找玄武岩還是花岡岩"
-  },
-  {
-    "start": 142.26,
-    "end": 145.47,
+    "start": 128.43,
+    "end": 130.34,
     "speaker": "曉臻",
-    "text": "慢慢冷卻結晶才會大"
+    "text": "千層派",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 145.47,
-    "end": 149.06,
+    "start": 130.54,
+    "end": 132.66,
+    "speaker": "彥君",
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 132.86,
+    "end": 136.08,
+    "speaker": "彥君",
+    "text": "礫岩砂岩跟頁岩都是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 136.28,
+    "end": 139.0,
     "speaker": "曉臻",
-    "text": "絕對是躲在地底的『花岡岩』"
+    "text": "還有會藏著化石的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 149.06,
-    "end": 154.51,
-    "speaker": "彥君",
-    "text": "漂亮這就是衝 A 的戰士"
-  },
-  {
-    "start": 154.51,
-    "end": 157.55,
-    "speaker": "彥君",
-    "text": "該有的秒殺直覺"
-  },
-  {
-    "start": 157.55,
-    "end": 160.45,
-    "speaker": "彥君",
-    "text": "我是彥君老師"
-  },
-  {
-    "start": 160.45,
-    "end": 163.09,
+    "start": 139.2,
+    "end": 141.1,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "石灰岩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 163.09,
-    "end": 167.79,
+    "start": 141.3,
+    "end": 143.38,
+    "speaker": "彥君",
+    "text": "答對了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 143.58,
+    "end": 150.67,
+    "speaker": "彥君",
+    "text": "沉積岩有層理藏化石",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "沉積岩有層理藏化石"
+    ]
+  },
+  {
+    "start": 150.67,
+    "end": 154.21,
+    "speaker": "彥君",
+    "text": "最後是脾氣最硬的變質岩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 154.41,
+    "end": 157.3,
+    "speaker": "彥君",
+    "text": "它需要高溫高壓的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 157.5,
+    "end": 159.76,
+    "speaker": "彥君",
+    "text": "瘋狂擠壓",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 159.96,
+    "end": 163.18,
+    "speaker": "曉臻",
+    "text": "像是在台灣的中央山脈裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 163.38,
+    "end": 165.02,
+    "speaker": "曉臻",
+    "text": "對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 165.22,
+    "end": 167.34,
+    "speaker": "彥君",
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 167.54,
+    "end": 170.5,
+    "speaker": "彥君",
+    "text": "還要記住最重要的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 170.7,
+    "end": 173.06,
+    "speaker": "彥君",
+    "text": "變身公式",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 173.26,
+    "end": 175.43,
+    "speaker": "曉臻",
+    "text": "頁岩變板岩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 175.63,
+    "end": 178.21,
+    "speaker": "曉臻",
+    "text": "石灰岩變大理岩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 178.41,
+    "end": 180.58,
+    "speaker": "彥君",
+    "text": "非常好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 180.78,
+    "end": 184.24,
+    "speaker": "彥君",
+    "text": "這幾招變身公式超愛考",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 184.44,
+    "end": 191.94,
+    "speaker": "彥君",
+    "text": "頁岩變板岩石灰岩變大理岩",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "頁岩變板岩石灰岩變大理岩"
+    ]
+  },
+  {
+    "start": 191.94,
+    "end": 194.06,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 194.26,
+    "end": 197.37,
+    "speaker": "彥君",
+    "text": "請閉上眼睛想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 197.57,
+    "end": 200.62,
+    "speaker": "彥君",
+    "text": "想要看到結晶顆粒",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 200.82,
+    "end": 203.42,
+    "speaker": "彥君",
+    "text": "最粗大的石頭",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 203.62,
+    "end": 206.49,
+    "speaker": "彥君",
+    "text": "應該去找玄武岩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 206.69,
+    "end": 209.24,
+    "speaker": "彥君",
+    "text": "還是花岡岩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 209.44,
+    "end": 212.35,
+    "speaker": "曉臻",
+    "text": "慢慢冷卻結晶才會大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 212.55,
+    "end": 215.18,
+    "speaker": "曉臻",
+    "text": "絕對是躲在地底的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 215.38,
+    "end": 217.18,
+    "speaker": "曉臻",
+    "text": "花岡岩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 217.38,
+    "end": 219.43,
+    "speaker": "彥君",
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 219.63,
+    "end": 222.93,
+    "speaker": "彥君",
+    "text": "這就是衝刺 $A$ 級的戰士",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 223.13,
+    "end": 225.87,
+    "speaker": "彥君",
+    "text": "該有的秒殺直覺",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 226.07,
+    "end": 228.67,
+    "speaker": "彥君",
+    "text": "帶著這份底氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 228.87,
+    "end": 231.28,
+    "speaker": "彥君",
+    "text": "迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 231.48,
+    "end": 234.08,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 234.28,
+    "end": 236.62,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 236.82,
+    "end": 240.35,
     "speaker": "合聲",
-    "text": "石頭特性記心間會考自然衝破天"
+    "text": "岩石變身 考場稱神",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 167.79,
-    "end": 171.55,
+    "start": 240.55,
+    "end": 244.02,
     "speaker": "合聲",
-    "text": "戰士們我們下一關見"
+    "text": "戰士們 我們下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
