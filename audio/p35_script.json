@@ -1,278 +1,1010 @@
 [
   {
     "start": 0.0,
-    "end": 3.55,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "各位衝 A 的戰士們"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.55,
-    "end": 6.45,
+    "start": 3.21,
+    "end": 5.74,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "滴水能穿石",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.45,
-    "end": 9.25,
+    "start": 5.94,
+    "end": 8.73,
+    "speaker": "彥君",
+    "text": "你們每天的努力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 8.93,
+    "end": 11.96,
+    "speaker": "彥君",
+    "text": "終將改變命運的地貌",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 12.16,
+    "end": 15.36,
+    "speaker": "彥君",
+    "text": "各位衝刺 A 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 15.56,
+    "end": 19.0,
+    "speaker": "彥君",
+    "text": "歡迎來到第三十五集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 19.2,
+    "end": 21.8,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 22.0,
+    "end": 24.48,
     "speaker": "曉臻",
-    "text": "戰士們大家好啊"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 9.25,
-    "end": 11.89,
+    "start": 24.68,
+    "end": 27.02,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.89,
-    "end": 16.44,
+    "start": 27.22,
+    "end": 30.27,
     "speaker": "彥君",
-    "text": "歡迎來到考前60天第 35 集"
+    "text": "今天我們要來對付",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.44,
-    "end": 22.54,
+    "start": 30.47,
+    "end": 32.83,
     "speaker": "彥君",
-    "text": "今天我們要來對付投影片上 打了兩顆大星星的『地表作用』"
+    "text": "投影片上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.54,
-    "end": 28.34,
+    "start": 33.03,
+    "end": 35.92,
+    "speaker": "彥君",
+    "text": "打了兩顆大星星的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 36.12,
+    "end": 38.43,
+    "speaker": "彥君",
+    "text": "地表作用",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 38.63,
+    "end": 42.14,
     "speaker": "曉臻",
-    "text": "哇兩顆大星星耶這一定是超級必考題"
+    "text": "哇 兩顆大星星耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 28.34,
-    "end": 34.41,
-    "speaker": "彥君",
-    "text": "沒錯改變地球表面的力量有四大天王"
-  },
-  {
-    "start": 34.41,
-    "end": 38.12,
-    "speaker": "彥君",
-    "text": "第一個就是『風化作用』"
-  },
-  {
-    "start": 38.12,
-    "end": 42.51,
+    "start": 42.34,
+    "end": 45.28,
     "speaker": "曉臻",
-    "text": "老師風化就是被風吹到化掉嗎"
+    "text": "這一定是超級必考題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 42.51,
-    "end": 49.71,
+    "start": 45.48,
+    "end": 47.58,
     "speaker": "彥君",
-    "text": "哈哈當然不是啦風化是岩石在原地慢慢碎裂的過程"
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 49.71,
-    "end": 54.12,
+    "start": 47.78,
+    "end": 50.81,
     "speaker": "彥君",
-    "text": "分成『物理風化』跟『化學風化』"
+    "text": "改變地球表面的力量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 54.12,
-    "end": 57.5,
+    "start": 51.01,
+    "end": 53.63,
+    "speaker": "彥君",
+    "text": "有四大天王",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 53.83,
+    "end": 56.89,
+    "speaker": "彥君",
+    "text": "第一個就是風化作用",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 57.09,
+    "end": 58.87,
     "speaker": "曉臻",
-    "text": "物理跟化學差在哪裡啊"
+    "text": "老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 57.5,
-    "end": 63.95,
-    "speaker": "彥君",
-    "text": "物理風化就像你把餅乾捏碎 本質還是餅乾例如熱脹冷縮"
-  },
-  {
-    "start": 63.95,
-    "end": 69.42,
-    "speaker": "彥君",
-    "text": "化學風化就像鐵釘生鏽 成分已經完全改變了喔"
-  },
-  {
-    "start": 69.42,
-    "end": 73.74,
+    "start": 59.07,
+    "end": 62.2,
     "speaker": "曉臻",
-    "text": "那石頭碎掉之後就會留在原地嗎"
+    "text": "風化是被風吹到化掉嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 73.74,
-    "end": 79.11,
+    "start": 62.4,
+    "end": 65.36,
     "speaker": "彥君",
-    "text": "當然不會接著會被第二大天王『侵蝕』給帶走"
+    "text": "哈哈 當然不是啦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 79.11,
-    "end": 84.26,
+    "start": 65.56,
+    "end": 68.74,
     "speaker": "彥君",
-    "text": "戰士們看投影片 河流侵蝕有三個方向喔"
+    "text": "風化是岩石在原地",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 84.26,
-    "end": 89.2,
+    "start": 68.94,
+    "end": 71.78,
+    "speaker": "彥君",
+    "text": "慢慢碎裂的過程",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 71.98,
+    "end": 74.7,
+    "speaker": "彥君",
+    "text": "分成物理風化",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 74.9,
+    "end": 77.42,
+    "speaker": "彥君",
+    "text": "跟化學風化",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 77.62,
+    "end": 80.7,
     "speaker": "曉臻",
-    "text": "這裡寫了向源、向下 還有側向侵蝕"
+    "text": "物理跟化學差在哪裡啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 89.2,
-    "end": 95.58,
+    "start": 80.9,
+    "end": 84.22,
     "speaker": "彥君",
-    "text": "沒錯『向下』會把河床挖深切出又深又窄的 V 型谷"
+    "text": "物理風化就像捏碎餅乾",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 95.58,
-    "end": 101.22,
+    "start": 84.42,
+    "end": 87.17,
     "speaker": "彥君",
-    "text": "『向源』則是向源頭侵蝕會讓河流變得越來越長"
+    "text": "本質還是餅乾",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 101.22,
-    "end": 107.89,
+    "start": 87.37,
+    "end": 90.09,
+    "speaker": "彥君",
+    "text": "例如熱脹冷縮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 90.29,
+    "end": 93.78,
+    "speaker": "彥君",
+    "text": "化學風化就像鐵釘生鏽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 93.98,
+    "end": 97.15,
+    "speaker": "彥君",
+    "text": "成分已經完全改變了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 97.35,
+    "end": 104.64,
+    "speaker": "彥君",
+    "text": "物理本質不變化學成分改變",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "物理本質不變化學成分改變"
+    ]
+  },
+  {
+    "start": 104.64,
+    "end": 107.17,
     "speaker": "曉臻",
-    "text": "老師那後面括號寫的『風、水、冰蝕的差異』是什麼陷阱啊"
+    "text": "那石頭碎掉之後",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 107.89,
-    "end": 114.84,
-    "speaker": "彥君",
-    "text": "這是會考最愛考的河流切出來是 V 型谷那冰川呢"
-  },
-  {
-    "start": 114.84,
-    "end": 121.06,
+    "start": 107.37,
+    "end": 109.82,
     "speaker": "曉臻",
-    "text": "我知道冰川很胖 所以切出來是胖胖的 U 型谷"
+    "text": "就會留在原地嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 121.06,
-    "end": 128.16,
+    "start": 110.02,
+    "end": 112.31,
     "speaker": "彥君",
-    "text": "漂亮完全正確大家千萬別被騙了"
+    "text": "當然不會",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.16,
-    "end": 132.59,
+    "start": 112.51,
+    "end": 115.64,
     "speaker": "彥君",
-    "text": "接下來進入第三步 『搬運』"
+    "text": "接著會被第二大天王",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 132.59,
-    "end": 138.61,
+    "start": 115.84,
+    "end": 118.32,
     "speaker": "彥君",
-    "text": "戰士們看投影片 上游的水流很急 搬得動大石頭"
+    "text": "侵蝕給帶走",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 138.61,
-    "end": 144.2,
+    "start": 118.52,
+    "end": 121.5,
+    "speaker": "彥君",
+    "text": "戰士們看投影片",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 121.7,
+    "end": 125.05,
+    "speaker": "彥君",
+    "text": "河流侵蝕有三個方向",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 125.25,
+    "end": 128.35,
     "speaker": "曉臻",
-    "text": "那到了下游水流變慢 就只剩下小石子或砂了對吧"
+    "text": "這裡寫了向源、 向下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 144.2,
-    "end": 151.37,
-    "speaker": "彥君",
-    "text": "沒錯那曉臻我問你 又圓又滑的『鵝卵石』是怎麼來的"
-  },
-  {
-    "start": 151.37,
-    "end": 157.3,
+    "start": 128.55,
+    "end": 130.94,
     "speaker": "曉臻",
-    "text": "嗯 是被河水一邊沖 一邊滾來滾去磨圓的嗎"
+    "text": "還有側向侵蝕",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 157.3,
-    "end": 164.59,
+    "start": 131.14,
+    "end": 133.23,
     "speaker": "彥君",
-    "text": "答對了搬運過程中的不斷碰撞跟摩擦 造就了圓潤的鵝卵石"
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 164.59,
-    "end": 170.97,
+    "start": 133.43,
+    "end": 136.49,
     "speaker": "彥君",
-    "text": "最後一個天王當水流真的流不動了 泥沙就會『沉積』下來"
+    "text": "向下會把河床挖深",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 136.69,
+    "end": 139.96,
+    "speaker": "彥君",
+    "text": "切出又深又窄的 $V$ 型谷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 140.16,
+    "end": 143.5,
+    "speaker": "彥君",
+    "text": "向源則是向源頭侵蝕",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 143.7,
+    "end": 146.71,
+    "speaker": "彥君",
+    "text": "會讓河流越來越長",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 146.91,
+    "end": 150.16,
+    "speaker": "曉臻",
+    "text": "老師 那後面括號寫的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 150.36,
+    "end": 152.84,
+    "speaker": "曉臻",
+    "text": "風水冰蝕的差異",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 153.04,
+    "end": 155.35,
+    "speaker": "曉臻",
+    "text": "是什麼陷阱啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 155.55,
+    "end": 158.46,
+    "speaker": "彥君",
+    "text": "這是會考最愛考的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 158.66,
+    "end": 161.65,
+    "speaker": "彥君",
+    "text": "河流切出 $V$ 型谷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 161.85,
+    "end": 163.99,
+    "speaker": "彥君",
+    "text": "那冰川呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 164.19,
+    "end": 167.63,
+    "speaker": "曉臻",
+    "text": "我知道 冰川很胖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 167.83,
+    "end": 170.77,
+    "speaker": "曉臻",
+    "text": "所以切出來是胖胖的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 170.97,
-    "end": 177.52,
+    "end": 172.78,
     "speaker": "曉臻",
-    "text": "老師投影片這裡有『三角洲』跟『沖積扇』 聽起來超像的耶"
+    "text": "$U$ 型谷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 177.52,
-    "end": 183.2,
+    "start": 172.98,
+    "end": 177.11,
     "speaker": "彥君",
-    "text": "這就是最後的奪分關鍵 戰士們快拿起紅筆圈起來"
+    "text": "漂亮 完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 183.2,
-    "end": 188.91,
+    "start": 177.31,
+    "end": 180.27,
     "speaker": "彥君",
-    "text": "『三角洲』是在河流的『出海口』 泥沙堆積到海裡"
+    "text": "大家千萬別被騙了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 188.91,
-    "end": 195.7,
+    "start": 180.47,
+    "end": 188.17,
     "speaker": "彥君",
-    "text": "『沖積扇』則是河流從高山突然流到『平地』 在陸地上呈扇形散開喔"
+    "text": "河流深谷冰川寬谷",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "河流深谷冰川寬谷"
+    ]
   },
   {
-    "start": 195.7,
-    "end": 201.02,
+    "start": 188.17,
+    "end": 191.25,
+    "speaker": "彥君",
+    "text": "接下來進入第三步",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 191.45,
+    "end": 193.5,
+    "speaker": "彥君",
+    "text": "搬運",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 193.7,
+    "end": 196.68,
+    "speaker": "彥君",
+    "text": "戰士們看投影片",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 196.88,
+    "end": 199.84,
+    "speaker": "彥君",
+    "text": "上游的水流很急",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 200.04,
+    "end": 202.62,
+    "speaker": "彥君",
+    "text": "搬得動大石頭",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 202.82,
+    "end": 205.68,
     "speaker": "曉臻",
-    "text": "原來如此一個在海邊 一個在陸地"
+    "text": "那到了下游水流變慢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 201.02,
-    "end": 204.23,
-    "speaker": "彥君",
-    "text": "戰士們閉上眼睛"
-  },
-  {
-    "start": 204.23,
-    "end": 209.51,
-    "speaker": "彥君",
-    "text": "如果我們在河川的出海口 看到一大片泥沙堆積"
-  },
-  {
-    "start": 209.51,
-    "end": 213.37,
-    "speaker": "彥君",
-    "text": "這叫做沖積扇還是三角洲呢"
-  },
-  {
-    "start": 213.37,
-    "end": 220.71,
+    "start": 205.88,
+    "end": 208.98,
     "speaker": "曉臻",
-    "text": "剛剛才圈過出海口絕對是『三角洲』千萬別選錯囉"
+    "text": "只剩小石子或砂了對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 220.71,
-    "end": 226.15,
+    "start": 209.18,
+    "end": 211.3,
     "speaker": "彥君",
-    "text": "漂亮這就是衝 A 的戰士"
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 226.15,
-    "end": 229.12,
+    "start": 211.5,
+    "end": 214.01,
     "speaker": "彥君",
-    "text": "該有的秒殺能力"
+    "text": "那曉臻我問你",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 229.12,
-    "end": 232.02,
+    "start": 214.21,
+    "end": 217.22,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "又圓又滑的鵝卵石",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 232.02,
-    "end": 234.66,
+    "start": 217.42,
+    "end": 219.73,
+    "speaker": "彥君",
+    "text": "是怎麼來的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 219.93,
+    "end": 222.94,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "嗯 是被河水一邊沖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 234.66,
-    "end": 239.19,
+    "start": 223.14,
+    "end": 226.1,
+    "speaker": "曉臻",
+    "text": "一邊滾來滾去磨圓的嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 226.3,
+    "end": 228.37,
+    "speaker": "彥君",
+    "text": "答對了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 228.57,
+    "end": 231.62,
+    "speaker": "彥君",
+    "text": "搬運過程的不斷碰撞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 231.82,
+    "end": 235.24,
+    "speaker": "彥君",
+    "text": "摩擦造就了圓潤的鵝卵石",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 235.44,
+    "end": 238.18,
+    "speaker": "彥君",
+    "text": "最後一個天王",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 238.38,
+    "end": 241.34,
+    "speaker": "彥君",
+    "text": "當水流真的流不動了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 241.54,
+    "end": 244.65,
+    "speaker": "彥君",
+    "text": "泥沙就會沉積下來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 244.85,
+    "end": 247.83,
+    "speaker": "曉臻",
+    "text": "老師 投影片這裡有",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 248.03,
+    "end": 250.63,
+    "speaker": "曉臻",
+    "text": "三角洲跟沖積扇",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 250.83,
+    "end": 253.24,
+    "speaker": "曉臻",
+    "text": "聽起來超像的耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 253.44,
+    "end": 256.81,
+    "speaker": "彥君",
+    "text": "這就是最後的奪分關鍵",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 257.01,
+    "end": 260.38,
+    "speaker": "彥君",
+    "text": "戰士們快拿紅筆圈起來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 260.58,
+    "end": 263.66,
+    "speaker": "彥君",
+    "text": "三角洲是在河流的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 263.86,
+    "end": 266.07,
+    "speaker": "彥君",
+    "text": "出海口",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 266.27,
+    "end": 269.16,
+    "speaker": "彥君",
+    "text": "泥沙堆積到海裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 269.36,
+    "end": 272.39,
+    "speaker": "彥君",
+    "text": "沖積扇則是河流",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 272.59,
+    "end": 276.03,
+    "speaker": "彥君",
+    "text": "從高山突然流到平地",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 276.23,
+    "end": 279.53,
+    "speaker": "彥君",
+    "text": "在陸地上呈扇形散開喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 279.73,
+    "end": 281.75,
+    "speaker": "曉臻",
+    "text": "原來如此",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 281.95,
+    "end": 284.12,
+    "speaker": "曉臻",
+    "text": "一個在海邊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 284.32,
+    "end": 286.39,
+    "speaker": "曉臻",
+    "text": "一個在陸地",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 286.59,
+    "end": 293.95,
+    "speaker": "彥君",
+    "text": "三角洲在海邊沖積扇在陸地",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "三角洲在海邊沖積扇在陸地"
+    ]
+  },
+  {
+    "start": 293.95,
+    "end": 296.07,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 296.27,
+    "end": 299.38,
+    "speaker": "彥君",
+    "text": "請閉上眼睛想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 299.58,
+    "end": 302.9,
+    "speaker": "彥君",
+    "text": "如果我們在河川的出海口",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 303.1,
+    "end": 306.27,
+    "speaker": "彥君",
+    "text": "看到一大片泥沙堆積",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 306.47,
+    "end": 309.24,
+    "speaker": "彥君",
+    "text": "這叫做沖積扇",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 309.44,
+    "end": 311.97,
+    "speaker": "彥君",
+    "text": "還是三角洲呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 312.17,
+    "end": 314.34,
+    "speaker": "曉臻",
+    "text": "剛剛才圈過",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 314.54,
+    "end": 317.57,
+    "speaker": "曉臻",
+    "text": "出海口絕對是三角洲",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 317.77,
+    "end": 320.13,
+    "speaker": "曉臻",
+    "text": "千萬別選錯囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 320.33,
+    "end": 322.38,
+    "speaker": "彥君",
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 322.58,
+    "end": 325.87,
+    "speaker": "彥君",
+    "text": "這就是衝刺 A 級的戰士",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 326.07,
+    "end": 328.74,
+    "speaker": "彥君",
+    "text": "該有的秒殺能力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 328.94,
+    "end": 331.54,
+    "speaker": "彥君",
+    "text": "帶著這份底氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 331.74,
+    "end": 334.15,
+    "speaker": "彥君",
+    "text": "迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 334.35,
+    "end": 336.95,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 337.15,
+    "end": 339.49,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 339.69,
+    "end": 343.01,
     "speaker": "合聲",
-    "text": "地表作用拿滿分 戰士們下一關見"
+    "text": "地表天王 必拿滿分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 343.21,
+    "end": 346.5,
+    "speaker": "合聲",
+    "text": "戰士們 下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
