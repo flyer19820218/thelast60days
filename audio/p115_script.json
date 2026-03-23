@@ -1,338 +1,395 @@
 [
   {
     "start": 0.0,
-    "end": 3.25,
+    "end": 4.57,
     "speaker": "彥君",
-    "text": "戰士們 歡迎來到",
+    "text": "戰士們辛苦了 歡迎來到",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.45,
-    "end": 6.12,
+    "start": 4.77,
+    "end": 7.85,
     "speaker": "彥君",
-    "text": "第 115 集",
+    "text": "第一百一十五集的課堂",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.32,
-    "end": 8.92,
+    "start": 8.05,
+    "end": 11.25,
     "speaker": "彥君",
-    "text": "我是彥君老師",
+    "text": "各位衝刺 A 級的戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 9.12,
-    "end": 10.86,
+    "start": 11.45,
+    "end": 14.96,
+    "speaker": "彥君",
+    "text": "戰士們好 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 15.16,
+    "end": 18.46,
     "speaker": "曉臻",
-    "text": "大家好",
+    "text": "大家好啊 我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.06,
-    "end": 13.39,
+    "start": 18.66,
+    "end": 22.07,
+    "speaker": "彥君",
+    "text": "戰士們請特別注意聽好囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 22.27,
+    "end": 25.66,
+    "speaker": "彥君",
+    "text": "今天的重點是要來折返跑",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 25.86,
+    "end": 28.97,
     "speaker": "曉臻",
-    "text": "我是曉臻助教",
+    "text": "老師你看上下這兩張圖",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 13.59,
-    "end": 16.05,
-    "speaker": "彥君",
-    "text": "戰士們注意",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 16.25,
-    "end": 19.21,
-    "speaker": "彥君",
-    "text": "今天要來 跑折返跑",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 19.41,
-    "end": 22.39,
+    "start": 29.17,
+    "end": 32.3,
     "speaker": "曉臻",
-    "text": "老師 上下兩張圖",
+    "text": "長得根本就是一模一樣啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.59,
-    "end": 25.38,
+    "start": 32.5,
+    "end": 35.7,
     "speaker": "曉臻",
-    "text": "長得 根本一模一樣啊",
+    "text": "它們都是尖尖的鋸齒狀耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 25.58,
-    "end": 28.5,
+    "start": 35.9,
+    "end": 39.48,
+    "speaker": "彥君",
+    "text": "沒錯這就是考題的大魔王",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 39.68,
+    "end": 43.19,
+    "speaker": "彥君",
+    "text": "我們先看上面紅色位置圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 43.39,
+    "end": 46.71,
     "speaker": "曉臻",
-    "text": "都是 尖尖的鋸齒狀耶",
+    "text": "往上的線條是離開了起點",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 28.7,
-    "end": 31.73,
-    "speaker": "彥君",
-    "text": "這就是 考題的大魔王",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 31.93,
-    "end": 35.32,
-    "speaker": "彥君",
-    "text": "先看上面 紅色的位置圖",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 35.52,
-    "end": 38.07,
+    "start": 46.91,
+    "end": 50.28,
     "speaker": "曉臻",
-    "text": "往上 是離開起點",
+    "text": "往下的線條就是跑回來了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 38.27,
-    "end": 40.87,
-    "speaker": "曉臻",
-    "text": "往下 就是跑回來",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 41.07,
-    "end": 45.57,
+    "start": 50.48,
+    "end": 55.29,
     "speaker": "彥君",
-    "text": "沒錯 既然是折返跑",
+    "text": "沒錯 既然它是在折返跑",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 45.77,
-    "end": 48.51,
+    "start": 55.49,
+    "end": 58.69,
     "speaker": "彥君",
-    "text": "轉身的那一瞬間",
+    "text": "轉身的那一個短短的瞬間",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 48.71,
-    "end": 51.53,
+    "start": 58.89,
+    "end": 62.21,
     "speaker": "彥君",
-    "text": "就在 軌跡的最尖端",
+    "text": "就在整個軌跡的最尖端處",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 51.73,
-    "end": 62.25,
+    "start": 62.41,
+    "end": 73.14,
     "speaker": "彥君",
-    "text": "$x-t \\text{ 圖} \\rightarrow \\text{折返看尖端}$",
+    "text": "位置圖找尖端就是折返點",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "位置圖找尖端就是折返點"
+    ]
   },
   {
-    "start": 55.9,
-    "end": 59.05,
+    "start": 66.58,
+    "end": 69.94,
     "speaker": "彥君",
-    "text": "給你們 3 秒鐘找尖端",
+    "text": "戰士們給你三秒鐘找尖端",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 62.25,
-    "end": 65.81,
+    "start": 73.14,
+    "end": 76.66,
     "speaker": "彥君",
-    "text": "接著看下面 藍色的速度圖",
+    "text": "接著看下面藍色的速度圖",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 66.01,
-    "end": 68.78,
+    "start": 76.86,
+    "end": 80.18,
     "speaker": "曉臻",
-    "text": "速度圖 也有尖端啊",
+    "text": "藍色速度圖也有尖端點啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 68.98,
-    "end": 71.65,
+    "start": 80.38,
+    "end": 83.53,
     "speaker": "曉臻",
-    "text": "那裡也是 折返點嗎",
+    "text": "那裡也是所謂的折返點嗎",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 71.85,
-    "end": 75.77,
+    "start": 83.73,
+    "end": 88.46,
     "speaker": "彥君",
-    "text": "嗶嗶 掉進陷阱了",
+    "text": "嗶嗶 你又掉進陷阱裡面了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 75.97,
-    "end": 79.46,
+    "start": 88.66,
+    "end": 92.08,
     "speaker": "彥君",
-    "text": "速度圖的 最高點跟最低點",
+    "text": "速度圖的最高點跟最低點",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 79.66,
-    "end": 82.64,
+    "start": 92.28,
+    "end": 95.6,
     "speaker": "彥君",
-    "text": "代表 跑得最快的時候",
+    "text": "代表的是跑得最快的時候",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 82.84,
-    "end": 86.18,
+    "start": 95.8,
+    "end": 99.19,
     "speaker": "彥君",
-    "text": "戰士們 仔細想一下",
+    "text": "戰士們請你們仔細想一下",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 86.38,
-    "end": 89.46,
+    "start": 99.39,
+    "end": 102.66,
     "speaker": "彥君",
-    "text": "轉身折返的 那一個瞬間",
+    "text": "轉身折返的那一個小瞬間",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 89.66,
-    "end": 92.55,
+    "start": 102.86,
+    "end": 106.16,
     "speaker": "彥君",
-    "text": "速度 會變成多少",
+    "text": "當時的速度到底會變多少",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 92.75,
-    "end": 95.52,
+    "start": 106.36,
+    "end": 109.75,
     "speaker": "曉臻",
-    "text": "轉身 必須先停下來",
+    "text": "轉身的時候必須先停下來",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 95.72,
-    "end": 98.46,
+    "start": 109.95,
+    "end": 113.2,
     "speaker": "曉臻",
-    "text": "所以 速度會變成 0",
+    "text": "所以當時的速度會變成零",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 98.66,
-    "end": 103.4,
+    "start": 113.4,
+    "end": 118.28,
     "speaker": "彥君",
-    "text": "漂亮 所以在速度圖上",
+    "text": "漂亮 所以在速度圖形上",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 103.6,
-    "end": 106.97,
+    "start": 118.48,
+    "end": 121.94,
     "speaker": "彥君",
-    "text": "必須要 穿過中間的橫軸",
+    "text": "必須要穿過中間的橫軸線",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 107.17,
-    "end": 110.73,
+    "start": 122.14,
+    "end": 125.85,
     "speaker": "彥君",
-    "text": "上面是去 下面是回",
+    "text": "上方是去下方就是跑回來",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 110.93,
-    "end": 114.1,
+    "start": 126.05,
+    "end": 129.56,
     "speaker": "彥君",
-    "text": "穿過橫軸 才是折返點",
+    "text": "穿過橫軸才是真正的折返",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 114.3,
-    "end": 9999.0,
+    "start": 129.76,
+    "end": 137.14,
     "speaker": "彥君",
-    "text": "$v-t \\text{ 圖} \\rightarrow \\text{折返看過軸}$",
+    "text": "速度圖穿過時間軸是折返",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "速度圖穿過時間軸是折返"
+    ]
   },
   {
-    "start": 118.69,
-    "end": 122.2,
+    "start": 137.14,
+    "end": 140.99,
     "speaker": "曉臻",
-    "text": "哇 長得一樣的圖形",
+    "text": "哇 長得一模一樣的圖形",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 122.4,
-    "end": 125.31,
+    "start": 141.19,
+    "end": 144.56,
     "speaker": "曉臻",
-    "text": "折返點 竟然完全不同",
+    "text": "折返點竟然會完全不相同",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 125.51,
-    "end": 128.95,
+    "start": 144.76,
+    "end": 148.42,
     "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
+    "text": "觀念全通了就能秒殺考題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 129.15,
-    "end": 131.75,
+    "start": 148.62,
+    "end": 151.89,
     "speaker": "彥君",
-    "text": "我是彥君老師",
+    "text": "帶著這份底氣迎戰會考吧",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 131.95,
-    "end": 134.29,
+    "start": 152.09,
+    "end": 155.58,
+    "speaker": "彥君",
+    "text": "戰士們 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 155.78,
+    "end": 159.07,
     "speaker": "曉臻",
-    "text": "我是曉臻助教",
+    "text": "大家好啊 我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 134.49,
-    "end": 137.98,
+    "start": 159.27,
+    "end": 162.76,
     "speaker": "合聲",
     "text": "位置看尖 速度看軸",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 138.18,
-    "end": 141.71,
+    "start": 162.96,
+    "end": 166.5,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
