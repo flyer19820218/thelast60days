@@ -1,266 +1,641 @@
 [
   {
     "start": 0.0,
-    "end": 3.55,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "各位衝 A 的戰士們"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.55,
-    "end": 6.45,
+    "start": 3.21,
+    "end": 6.05,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "地底的璀璨礦石",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.45,
-    "end": 9.25,
+    "start": 6.25,
+    "end": 9.62,
+    "speaker": "彥君",
+    "text": "需要千百年的高壓沉澱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 9.82,
+    "end": 12.97,
+    "speaker": "彥君",
+    "text": "你們日夜累積的努力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 13.17,
+    "end": 16.42,
+    "speaker": "彥君",
+    "text": "終將閃耀出最美的光芒",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 16.62,
+    "end": 19.82,
+    "speaker": "彥君",
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.02,
+    "end": 23.43,
+    "speaker": "彥君",
+    "text": "歡迎來到第三十九集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.63,
+    "end": 26.23,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 26.43,
+    "end": 28.91,
     "speaker": "曉臻",
-    "text": "戰士們大家好啊"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 9.25,
-    "end": 11.89,
+    "start": 29.11,
+    "end": 31.45,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.89,
-    "end": 15.46,
+    "start": 31.65,
+    "end": 34.92,
     "speaker": "彥君",
-    "text": "歡迎回到科學大冒險"
+    "text": "歡迎回到科學大冒險",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 15.46,
-    "end": 20.28,
+    "start": 35.12,
+    "end": 38.18,
     "speaker": "彥君",
-    "text": "剛剛學完了岩石 現在要來學『礦物』"
+    "text": "剛剛我們學完了岩石",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 20.28,
-    "end": 24.69,
+    "start": 38.38,
+    "end": 41.53,
+    "speaker": "彥君",
+    "text": "現在要來學習礦物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 41.73,
+    "end": 44.64,
     "speaker": "曉臻",
-    "text": "老師岩石跟礦物有什麼不一樣啊"
+    "text": "老師 岩石跟礦物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 24.69,
-    "end": 29.32,
-    "speaker": "彥君",
-    "text": "想像一下 岩石就像一座積木城堡"
-  },
-  {
-    "start": 29.32,
-    "end": 33.61,
-    "speaker": "彥君",
-    "text": "而礦物 就是那一塊一塊的積木喔"
-  },
-  {
-    "start": 33.61,
-    "end": 39.03,
+    "start": 44.84,
+    "end": 47.49,
     "speaker": "曉臻",
-    "text": "原來如此投影片第一個是『方解石』耶"
+    "text": "到底有什麼不一樣啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 39.03,
-    "end": 43.76,
+    "start": 47.69,
+    "end": 50.65,
     "speaker": "彥君",
-    "text": "沒錯 它的成分是『碳酸鈣』"
+    "text": "你們可以想像一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 43.76,
-    "end": 47.9,
+    "start": 50.85,
+    "end": 54.26,
     "speaker": "彥君",
-    "text": "滴到稀鹽酸 可是會冒出泡泡的喔"
+    "text": "岩石就像一座積木城堡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 47.9,
-    "end": 51.16,
+    "start": 54.46,
+    "end": 57.81,
+    "speaker": "彥君",
+    "text": "而礦物就是組成城堡的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 58.01,
+    "end": 60.7,
+    "speaker": "彥君",
+    "text": "一塊一塊的積木喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 60.9,
+    "end": 64.63,
     "speaker": "曉臻",
-    "text": "下一個是『矽酸鹽』類"
+    "text": "原來如此 投影片上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 51.16,
-    "end": 54.21,
+    "start": 64.83,
+    "end": 67.46,
     "speaker": "曉臻",
-    "text": "包含了石英跟長石"
+    "text": "第一個是方解石耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 54.21,
-    "end": 60.23,
+    "start": 67.66,
+    "end": 71.72,
     "speaker": "彥君",
-    "text": "答對了石英的主要成分是『二氧化矽』"
+    "text": "沒錯 它的成分是碳酸鈣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 60.23,
-    "end": 64.11,
+    "start": 71.92,
+    "end": 74.83,
     "speaker": "彥君",
-    "text": "也就是我們做『玻璃』的重要原料"
+    "text": "滴到稀鹽酸的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 64.11,
-    "end": 66.92,
+    "start": 75.03,
+    "end": 77.8,
+    "speaker": "彥君",
+    "text": "可是會冒出泡泡的喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 78.0,
+    "end": 85.91,
+    "speaker": "彥君",
+    "text": "方解石碳酸鈣滴鹽酸冒泡",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "方解石碳酸鈣滴鹽酸冒泡"
+    ]
+  },
+  {
+    "start": 85.91,
+    "end": 88.63,
     "speaker": "曉臻",
-    "text": "那旁邊的『長石』呢"
+    "text": "下一個是矽酸鹽類",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 66.92,
-    "end": 71.9,
-    "speaker": "彥君",
-    "text": "長石風化之後 會變成『黏土礦物』"
-  },
-  {
-    "start": 71.9,
-    "end": 75.6,
-    "speaker": "彥君",
-    "text": "這是我們燒陶瓷的必備材料喔"
-  },
-  {
-    "start": 75.6,
-    "end": 80.37,
+    "start": 88.83,
+    "end": 91.62,
     "speaker": "曉臻",
-    "text": "哇投影片上還有『金剛石』耶"
+    "text": "包含了石英跟長石",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 80.37,
-    "end": 83.92,
+    "start": 91.82,
+    "end": 96.15,
+    "speaker": "彥君",
+    "text": "答對了 石英的成分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 96.35,
+    "end": 99.02,
+    "speaker": "彥君",
+    "text": "就是二氧化矽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 99.22,
+    "end": 102.4,
+    "speaker": "彥君",
+    "text": "也是做玻璃的重要原料",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 102.6,
+    "end": 105.08,
     "speaker": "曉臻",
-    "text": "那不就是超級昂貴的鑽石嗎"
+    "text": "那旁邊的長石呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 83.92,
-    "end": 89.48,
+    "start": 105.28,
+    "end": 108.48,
     "speaker": "彥君",
-    "text": "沒錯它是自然界中『最硬』的礦物"
+    "text": "長石經過風化之後",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 89.48,
-    "end": 94.4,
+    "start": 108.68,
+    "end": 111.62,
+    "speaker": "彥君",
+    "text": "會變成黏土礦物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 111.82,
+    "end": 114.99,
+    "speaker": "彥君",
+    "text": "是燒陶瓷的必備材料喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 115.19,
+    "end": 122.86,
+    "speaker": "彥君",
+    "text": "石英做玻璃長石變黏土",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "石英做玻璃長石變黏土"
+    ]
+  },
+  {
+    "start": 122.86,
+    "end": 127.05,
     "speaker": "曉臻",
-    "text": "老師 說到硬度 要怎麼比誰比較硬啊"
+    "text": "哇 投影片上還有金剛石",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 94.4,
-    "end": 97.9,
-    "speaker": "彥君",
-    "text": "這就是最後的必考重點"
-  },
-  {
-    "start": 97.9,
-    "end": 102.04,
-    "speaker": "彥君",
-    "text": "『硬度、條痕跟刻痕』的差別"
-  },
-  {
-    "start": 102.04,
-    "end": 107.49,
-    "speaker": "彥君",
-    "text": "把兩個石頭拿來互相刮來刮去 叫做『刻痕』"
-  },
-  {
-    "start": 107.49,
-    "end": 112.02,
+    "start": 127.25,
+    "end": 130.5,
     "speaker": "曉臻",
-    "text": "被刮出傷口的那個 就是比較軟的對吧"
+    "text": "那不就是超級昂貴的鑽石嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 112.02,
-    "end": 117.01,
+    "start": 130.7,
+    "end": 135.05,
     "speaker": "彥君",
-    "text": "漂亮那『條痕』又是什麼呢"
+    "text": "沒錯 它是自然界中",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 117.01,
-    "end": 121.59,
+    "start": 135.25,
+    "end": 137.97,
+    "speaker": "彥君",
+    "text": "硬度最硬的礦物",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 138.17,
+    "end": 141.01,
     "speaker": "曉臻",
-    "text": "括號裡寫著 就像黑板上的粉筆痕跡"
+    "text": "老師 說到了硬度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 121.59,
-    "end": 127.13,
-    "speaker": "彥君",
-    "text": "完全正確把礦物拿去畫陶瓷板"
-  },
-  {
-    "start": 127.13,
-    "end": 131.8,
-    "speaker": "彥君",
-    "text": "磨出來的『粉末顏色』 就叫做條痕"
-  },
-  {
-    "start": 131.8,
-    "end": 135.95,
+    "start": 141.21,
+    "end": 143.98,
     "speaker": "曉臻",
-    "text": "所以條痕看粉末 刻痕比硬度"
+    "text": "要怎麼比誰比較硬啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 135.95,
-    "end": 139.28,
+    "start": 144.18,
+    "end": 147.38,
+    "speaker": "彥君",
+    "text": "這就是最後的必考重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 147.58,
+    "end": 150.94,
+    "speaker": "彥君",
+    "text": "硬度條痕跟刻痕的差別",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 151.14,
+    "end": 154.37,
+    "speaker": "彥君",
+    "text": "把兩個石頭拿來互相刮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 154.57,
+    "end": 157.79,
+    "speaker": "彥君",
+    "text": "這個動作就叫做刻痕",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 157.99,
+    "end": 160.62,
     "speaker": "曉臻",
-    "text": "戰士們千萬不要搞混囉"
+    "text": "被刮出傷口的那個",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 139.28,
-    "end": 141.7,
-    "speaker": "彥君",
-    "text": "戰士們"
-  },
-  {
-    "start": 141.7,
-    "end": 146.02,
-    "speaker": "彥君",
-    "text": "如果想知道礦物的粉末是什麼顏色"
-  },
-  {
-    "start": 146.02,
-    "end": 149.78,
-    "speaker": "彥君",
-    "text": "應該要看條痕還是看刻痕呢"
-  },
-  {
-    "start": 149.78,
-    "end": 153.02,
+    "start": 160.82,
+    "end": 163.42,
     "speaker": "曉臻",
-    "text": "就像粉筆畫黑板一樣"
+    "text": "就是比較軟的對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 153.02,
-    "end": 155.99,
+    "start": 163.62,
+    "end": 168.11,
+    "speaker": "彥君",
+    "text": "漂亮 那條痕又是什麼呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 168.31,
+    "end": 171.39,
     "speaker": "曉臻",
-    "text": "絕對是看『條痕』啦"
+    "text": "括號裡寫著就像黑板上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 155.99,
-    "end": 161.44,
-    "speaker": "彥君",
-    "text": "漂亮這就是衝 A 的戰士"
-  },
-  {
-    "start": 161.44,
-    "end": 164.48,
-    "speaker": "彥君",
-    "text": "該有的秒殺直覺"
-  },
-  {
-    "start": 164.48,
-    "end": 167.38,
-    "speaker": "彥君",
-    "text": "我是彥君老師"
-  },
-  {
-    "start": 167.38,
-    "end": 170.02,
+    "start": 171.59,
+    "end": 174.24,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "畫過去的粉筆痕跡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 170.02,
-    "end": 174.6,
+    "start": 174.44,
+    "end": 179.15,
+    "speaker": "彥君",
+    "text": "完全正確 把它畫陶瓷板",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 179.35,
+    "end": 182.34,
+    "speaker": "彥君",
+    "text": "磨出來的粉末顏色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 182.54,
+    "end": 185.3,
+    "speaker": "彥君",
+    "text": "我們就叫做條痕",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 185.5,
+    "end": 189.02,
+    "speaker": "曉臻",
+    "text": "所以條痕看粉末刻痕比硬度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 189.22,
+    "end": 192.25,
+    "speaker": "曉臻",
+    "text": "戰士們千萬不要搞混囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 192.45,
+    "end": 199.69,
+    "speaker": "彥君",
+    "text": "刻痕比硬度條痕看粉末",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "刻痕比硬度條痕看粉末"
+    ]
+  },
+  {
+    "start": 199.69,
+    "end": 201.81,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 202.01,
+    "end": 205.11,
+    "speaker": "彥君",
+    "text": "請閉上眼睛想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 205.31,
+    "end": 208.54,
+    "speaker": "彥君",
+    "text": "如果想知道礦物的粉末",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 208.74,
+    "end": 211.55,
+    "speaker": "彥君",
+    "text": "到底是什麼顏色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 211.75,
+    "end": 215.22,
+    "speaker": "彥君",
+    "text": "應該要看條痕還是看刻痕",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 215.42,
+    "end": 218.35,
+    "speaker": "曉臻",
+    "text": "就像粉筆畫黑板一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 218.55,
+    "end": 221.1,
+    "speaker": "曉臻",
+    "text": "絕對是看條痕啦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 221.3,
+    "end": 226.33,
+    "speaker": "彥君",
+    "text": "漂亮 這就是衝刺 $A$ 級的戰士",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 226.53,
+    "end": 229.27,
+    "speaker": "彥君",
+    "text": "該有的秒殺直覺",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 229.47,
+    "end": 232.74,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 232.94,
+    "end": 235.54,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 235.74,
+    "end": 238.08,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 238.28,
+    "end": 241.46,
     "speaker": "合聲",
-    "text": "礦物特徵看分明 會考自然一定贏"
+    "text": "礦物特徵 滿分必爭",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 174.6,
-    "end": 178.36,
+    "start": 241.66,
+    "end": 245.12,
     "speaker": "合聲",
-    "text": "戰士們我們下一關見"
+    "text": "戰士們 我們下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
