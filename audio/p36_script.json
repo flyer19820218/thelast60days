@@ -1,326 +1,902 @@
 [
   {
     "start": 0.0,
-    "end": 3.55,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "各位衝 A 的戰士們"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.55,
-    "end": 6.45,
+    "start": 3.21,
+    "end": 5.71,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "堅硬的岩石",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.45,
-    "end": 9.25,
+    "start": 5.91,
+    "end": 8.68,
+    "speaker": "彥君",
+    "text": "都能被水滴穿透",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 8.88,
+    "end": 11.67,
+    "speaker": "彥君",
+    "text": "你們每天的努力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 11.87,
+    "end": 15.07,
+    "speaker": "彥君",
+    "text": "終將刻畫出最美的成績",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 15.27,
+    "end": 18.47,
+    "speaker": "彥君",
+    "text": "各位衝刺 A 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 18.67,
+    "end": 22.14,
+    "speaker": "彥君",
+    "text": "歡迎來到第三十六集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 22.34,
+    "end": 24.94,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 25.14,
+    "end": 27.62,
     "speaker": "曉臻",
-    "text": "戰士們大家好啊"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 9.25,
-    "end": 11.89,
+    "start": 27.82,
+    "end": 30.15,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.89,
-    "end": 15.46,
+    "start": 30.35,
+    "end": 33.62,
     "speaker": "彥君",
-    "text": "歡迎回到科學大冒險"
+    "text": "歡迎回到科學大冒險",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 15.46,
-    "end": 19.66,
+    "start": 33.82,
+    "end": 36.64,
     "speaker": "彥君",
-    "text": "今天要繼續破解『侵蝕作用』"
+    "text": "今天要繼續破解",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.66,
-    "end": 23.68,
+    "start": 36.84,
+    "end": 39.2,
+    "speaker": "彥君",
+    "text": "侵蝕作用",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 39.4,
+    "end": 41.18,
     "speaker": "曉臻",
-    "text": "老師投影片第一行好難懂喔"
+    "text": "老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 23.68,
-    "end": 27.02,
+    "start": 41.38,
+    "end": 44.42,
     "speaker": "曉臻",
-    "text": "什麼是『侵蝕基準面』啊"
+    "text": "投影片第一行好難懂喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.02,
-    "end": 31.48,
-    "speaker": "彥君",
-    "text": "基準面就是河流往下挖的『極限』"
-  },
-  {
-    "start": 31.48,
-    "end": 35.24,
-    "speaker": "彥君",
-    "text": "挖到底就再也挖不動了"
-  },
-  {
-    "start": 35.24,
-    "end": 38.38,
+    "start": 44.62,
+    "end": 47.46,
     "speaker": "曉臻",
-    "text": "那『最終』的極限在哪裡"
+    "text": "什麼是侵蝕基準面啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 38.38,
-    "end": 43.15,
+    "start": 47.66,
+    "end": 51.24,
     "speaker": "彥君",
-    "text": "最終侵蝕基準面就是『海平面』"
+    "text": "基準面就是河流往下挖的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 43.15,
-    "end": 46.1,
-    "speaker": "曉臻",
-    "text": "那『暫時』的基準面呢"
-  },
-  {
-    "start": 46.1,
-    "end": 50.13,
+    "start": 51.44,
+    "end": 53.87,
     "speaker": "彥君",
-    "text": "像是內陸的『湖泊』或是『水庫』喔"
+    "text": "最終極限",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 50.13,
-    "end": 52.45,
-    "speaker": "曉臻",
-    "text": "原來如此"
-  },
-  {
-    "start": 52.45,
-    "end": 55.71,
-    "speaker": "曉臻",
-    "text": "接下來是『差異侵蝕』"
-  },
-  {
-    "start": 55.71,
-    "end": 59.4,
-    "speaker": "曉臻",
-    "text": "旁邊寫著頁岩容易受侵蝕"
-  },
-  {
-    "start": 59.4,
-    "end": 64.82,
+    "start": 54.07,
+    "end": 56.29,
     "speaker": "彥君",
-    "text": "沒錯大自然的岩石有軟有硬"
+    "text": "挖到底",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 64.82,
-    "end": 69.19,
+    "start": 56.49,
+    "end": 59.02,
     "speaker": "彥君",
-    "text": "頁岩比較軟容易被侵蝕凹進去"
+    "text": "就再也挖不動了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 69.19,
-    "end": 73.31,
-    "speaker": "彥君",
-    "text": "砂岩比較硬就會凸出來"
-  },
-  {
-    "start": 73.31,
-    "end": 77.03,
+    "start": 59.22,
+    "end": 62.06,
     "speaker": "曉臻",
-    "text": "軟的凹進去硬的凸出來"
+    "text": "那最終的極限在哪裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 77.03,
-    "end": 80.22,
-    "speaker": "曉臻",
-    "text": "這就是差異侵蝕對吧"
-  },
-  {
-    "start": 80.22,
-    "end": 85.68,
+    "start": 62.26,
+    "end": 65.29,
     "speaker": "彥君",
-    "text": "漂亮接著來看大自然的雕刻品"
+    "text": "最終侵蝕基準面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 85.68,
-    "end": 90.22,
+    "start": 65.49,
+    "end": 67.97,
     "speaker": "彥君",
-    "text": "被風夾帶沙子一直吹會磨出稜角"
+    "text": "就是海平面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 90.22,
-    "end": 93.84,
-    "speaker": "曉臻",
-    "text": "這就是投影片上的『風稜石』"
-  },
-  {
-    "start": 93.84,
-    "end": 99.11,
+    "start": 68.17,
+    "end": 88.58,
     "speaker": "彥君",
-    "text": "沒錯那如果是被冰川刮過去呢"
+    "text": "最終侵蝕基準面是海平面",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "最終侵蝕基準面是海平面"
+    ]
   },
   {
-    "start": 99.11,
-    "end": 103.19,
+    "start": 72.6,
+    "end": 75.18,
     "speaker": "曉臻",
-    "text": "冰川夾著石頭會留下『擦痕』"
+    "text": "那暫時的基準面呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 103.19,
-    "end": 106.45,
-    "speaker": "曉臻",
-    "text": "也就是括號裡寫的特徵"
-  },
-  {
-    "start": 106.45,
-    "end": 111.77,
+    "start": 75.38,
+    "end": 78.24,
     "speaker": "彥君",
-    "text": "很好那考考你上一集的重點"
+    "text": "像是內陸的湖泊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 111.77,
-    "end": 115.66,
+    "start": 78.44,
+    "end": 80.78,
     "speaker": "彥君",
-    "text": "U 型谷跟 V 型谷是誰切出來的"
+    "text": "或是水庫喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 115.66,
-    "end": 118.87,
-    "speaker": "曉臻",
-    "text": "U 型谷是胖胖的冰川"
-  },
-  {
-    "start": 118.87,
-    "end": 122.15,
-    "speaker": "曉臻",
-    "text": "V 型谷是細細的河流"
-  },
-  {
-    "start": 122.15,
-    "end": 127.67,
+    "start": 80.98,
+    "end": 88.58,
     "speaker": "彥君",
-    "text": "完全正確戰士們給助教拍拍手"
+    "text": "暫時基準面是湖泊或水庫",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "暫時基準面是湖泊或水庫"
+    ]
   },
   {
-    "start": 127.67,
-    "end": 131.36,
-    "speaker": "彥君",
-    "text": "最後我們來看海浪的傑作"
-  },
-  {
-    "start": 131.36,
-    "end": 134.88,
-    "speaker": "彥君",
-    "text": "這是一個連續的破壞過程喔"
-  },
-  {
-    "start": 134.88,
-    "end": 138.79,
+    "start": 88.58,
+    "end": 90.6,
     "speaker": "曉臻",
-    "text": "海浪拍打岩壁先挖出一個洞"
+    "text": "原來如此",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 138.79,
-    "end": 141.31,
+    "start": 90.8,
+    "end": 93.52,
     "speaker": "曉臻",
-    "text": "叫做『海蝕洞』"
+    "text": "接下來是差異侵蝕",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 141.31,
-    "end": 145.43,
+    "start": 93.72,
+    "end": 96.15,
+    "speaker": "曉臻",
+    "text": "旁邊寫著頁岩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 96.35,
+    "end": 98.59,
+    "speaker": "曉臻",
+    "text": "容易受侵蝕",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 98.79,
+    "end": 100.89,
     "speaker": "彥君",
-    "text": "洞越挖越深最後竟然打穿了"
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 145.43,
-    "end": 149.48,
-    "speaker": "曉臻",
-    "text": "哇變成『海蝕拱門』了"
-  },
-  {
-    "start": 149.48,
-    "end": 153.94,
+    "start": 101.09,
+    "end": 104.43,
     "speaker": "彥君",
-    "text": "接著拱門的屋頂撐不住塌下來了"
+    "text": "大自然的岩石有軟有硬",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 153.94,
-    "end": 158.57,
-    "speaker": "曉臻",
-    "text": "天啊只剩下一根柱子在海裡"
-  },
-  {
-    "start": 158.57,
-    "end": 161.3,
-    "speaker": "曉臻",
-    "text": "變成了『海石柱』"
-  },
-  {
-    "start": 161.3,
-    "end": 166.29,
+    "start": 104.63,
+    "end": 107.14,
     "speaker": "彥君",
-    "text": "沒錯最後岸邊被削成平平的台地"
+    "text": "頁岩比較軟",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 166.29,
-    "end": 170.58,
+    "start": 107.34,
+    "end": 110.34,
     "speaker": "彥君",
-    "text": "就是『海蝕平台』與『海蝕崖』"
+    "text": "容易被侵蝕凹進去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 170.58,
-    "end": 174.44,
-    "speaker": "曉臻",
-    "text": "洞、拱門、柱子、平台"
-  },
-  {
-    "start": 174.44,
-    "end": 177.9,
-    "speaker": "曉臻",
-    "text": "連續動作絕對不能背錯喔"
-  },
-  {
-    "start": 177.9,
-    "end": 181.11,
+    "start": 110.54,
+    "end": 113.12,
     "speaker": "彥君",
-    "text": "戰士們閉上眼睛"
+    "text": "砂岩比較硬",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 181.11,
-    "end": 185.35,
+    "start": 113.32,
+    "end": 115.8,
     "speaker": "彥君",
-    "text": "河流往下侵蝕的最終極限在哪裡"
+    "text": "就會凸出來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 185.35,
-    "end": 187.77,
+    "start": 116.0,
+    "end": 118.22,
     "speaker": "曉臻",
-    "text": "這題超簡單"
+    "text": "軟的凹進去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 187.77,
-    "end": 191.61,
+    "start": 118.42,
+    "end": 120.54,
     "speaker": "曉臻",
-    "text": "最終極限絕對是『海平面』"
+    "text": "硬的凸出來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 191.61,
-    "end": 196.57,
+    "start": 120.74,
+    "end": 123.62,
+    "speaker": "曉臻",
+    "text": "這就是差異侵蝕對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 123.82,
+    "end": 131.23,
     "speaker": "彥君",
-    "text": "漂亮這就是秒殺的直覺"
+    "text": "頁岩軟凹砂岩硬凸",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "頁岩軟凹砂岩硬凸"
+    ]
   },
   {
-    "start": 196.57,
-    "end": 199.47,
+    "start": 131.23,
+    "end": 135.27,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "漂亮 接著來看",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 199.47,
-    "end": 202.11,
+    "start": 135.47,
+    "end": 138.14,
+    "speaker": "彥君",
+    "text": "大自然的雕刻品",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 138.34,
+    "end": 141.47,
+    "speaker": "彥君",
+    "text": "被風夾帶沙子一直吹",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 141.67,
+    "end": 144.15,
+    "speaker": "彥君",
+    "text": "會磨出稜角",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 144.35,
+    "end": 147.0,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "這就是投影片上的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 202.11,
-    "end": 206.4,
+    "start": 147.2,
+    "end": 149.06,
+    "speaker": "曉臻",
+    "text": "風稜石",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 149.26,
+    "end": 151.35,
+    "speaker": "彥君",
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 151.55,
+    "end": 154.78,
+    "speaker": "彥君",
+    "text": "那如果是被冰川刮過去呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 154.98,
+    "end": 157.34,
+    "speaker": "曉臻",
+    "text": "冰川夾著石頭",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 157.54,
+    "end": 159.66,
+    "speaker": "曉臻",
+    "text": "會留下擦痕",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 159.86,
+    "end": 162.82,
+    "speaker": "曉臻",
+    "text": "也就是括號裡寫的特徵",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 163.02,
+    "end": 170.47,
+    "speaker": "彥君",
+    "text": "風吹出風稜石冰川刮出擦痕",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "風吹出風稜石冰川刮出擦痕"
+    ]
+  },
+  {
+    "start": 170.47,
+    "end": 172.47,
+    "speaker": "彥君",
+    "text": "很好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 172.67,
+    "end": 176.02,
+    "speaker": "彥君",
+    "text": "那考考你上一集的重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 176.22,
+    "end": 178.91,
+    "speaker": "彥君",
+    "text": "$U$ 型谷跟 $V$ 型谷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 179.11,
+    "end": 181.78,
+    "speaker": "彥君",
+    "text": "是誰切出來的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 181.98,
+    "end": 184.9,
+    "speaker": "曉臻",
+    "text": "$U$ 型谷是胖胖的冰川",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 185.1,
+    "end": 188.08,
+    "speaker": "曉臻",
+    "text": "$V$ 型谷是細細的河流",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 188.28,
+    "end": 195.57,
+    "speaker": "彥君",
+    "text": "河流微型谷冰川優型谷",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "河流微型谷冰川優型谷"
+    ]
+  },
+  {
+    "start": 195.57,
+    "end": 197.95,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 198.15,
+    "end": 201.3,
+    "speaker": "彥君",
+    "text": "戰士們給助教拍拍手",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 201.5,
+    "end": 204.15,
+    "speaker": "彥君",
+    "text": "最後我們來看",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 204.35,
+    "end": 206.88,
+    "speaker": "彥君",
+    "text": "海浪的傑作",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 207.08,
+    "end": 210.42,
+    "speaker": "彥君",
+    "text": "這是一個連續的破壞過程",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 210.62,
+    "end": 212.96,
+    "speaker": "曉臻",
+    "text": "海浪拍打岩壁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 213.16,
+    "end": 215.38,
+    "speaker": "曉臻",
+    "text": "先挖出一個洞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 215.58,
+    "end": 217.7,
+    "speaker": "曉臻",
+    "text": "叫做海蝕洞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 217.9,
+    "end": 220.26,
+    "speaker": "彥君",
+    "text": "洞越挖越深",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 220.46,
+    "end": 223.22,
+    "speaker": "彥君",
+    "text": "最後竟然打穿了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 223.42,
+    "end": 224.87,
+    "speaker": "曉臻",
+    "text": "哇",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 225.07,
+    "end": 227.55,
+    "speaker": "曉臻",
+    "text": "變成海蝕拱門了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 227.75,
+    "end": 230.98,
+    "speaker": "彥君",
+    "text": "接著拱門的屋頂撐不住",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 231.18,
+    "end": 233.39,
+    "speaker": "彥君",
+    "text": "塌下來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 233.59,
+    "end": 235.21,
+    "speaker": "曉臻",
+    "text": "天啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 235.41,
+    "end": 238.44,
+    "speaker": "曉臻",
+    "text": "只剩下一根柱子在海裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 238.64,
+    "end": 241.02,
+    "speaker": "曉臻",
+    "text": "變成了海蝕柱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 241.22,
+    "end": 245.07,
+    "speaker": "彥君",
+    "text": "沒錯 最後岸邊被削成",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 245.27,
+    "end": 247.75,
+    "speaker": "彥君",
+    "text": "平平的台地",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 247.95,
+    "end": 250.7,
+    "speaker": "彥君",
+    "text": "就是海蝕平台",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 250.9,
+    "end": 253.21,
+    "speaker": "彥君",
+    "text": "與海蝕崖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 253.41,
+    "end": 256.97,
+    "speaker": "曉臻",
+    "text": "洞、 拱門、 柱子、 平台",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 257.17,
+    "end": 260.32,
+    "speaker": "曉臻",
+    "text": "連續動作絕對不能背錯喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 260.52,
+    "end": 268.58,
+    "speaker": "彥君",
+    "text": "海蝕洞變成拱門變成柱子",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "海蝕洞變成拱門變成柱子"
+    ]
+  },
+  {
+    "start": 268.58,
+    "end": 270.7,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 270.9,
+    "end": 274.0,
+    "speaker": "彥君",
+    "text": "請閉上眼睛想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 274.2,
+    "end": 277.71,
+    "speaker": "彥君",
+    "text": "河流往下侵蝕的最終極限",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 277.91,
+    "end": 280.27,
+    "speaker": "彥君",
+    "text": "到底在哪裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 280.47,
+    "end": 282.59,
+    "speaker": "曉臻",
+    "text": "這題超簡單",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 282.79,
+    "end": 284.79,
+    "speaker": "曉臻",
+    "text": "最終極限",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 284.99,
+    "end": 287.33,
+    "speaker": "曉臻",
+    "text": "絕對是海平面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 287.53,
+    "end": 289.58,
+    "speaker": "彥君",
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 289.78,
+    "end": 292.71,
+    "speaker": "彥君",
+    "text": "這就是秒殺的直覺",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 292.91,
+    "end": 295.51,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 295.71,
+    "end": 298.05,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 298.25,
+    "end": 301.76,
     "speaker": "合聲",
-    "text": "科學大冒險戰士們下一關見"
+    "text": "海浪雕刻 基準定奪",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 301.96,
+    "end": 305.26,
+    "speaker": "合聲",
+    "text": "戰士們 下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
