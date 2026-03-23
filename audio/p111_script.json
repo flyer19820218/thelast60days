@@ -1,410 +1,485 @@
 [
   {
     "start": 0.0,
-    "end": 3.27,
+    "end": 4.57,
     "speaker": "彥君",
-    "text": "戰士們 歡迎回到",
+    "text": "戰士們辛苦了 歡迎來到",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.47,
-    "end": 6.48,
+    "start": 4.77,
+    "end": 7.78,
     "speaker": "彥君",
-    "text": "浮力大魔王的 下半場",
+    "text": "浮力大魔王的下半場",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.68,
-    "end": 9.28,
+    "start": 7.98,
+    "end": 11.18,
     "speaker": "彥君",
-    "text": "我是彥君老師",
+    "text": "各位衝刺 A 級的戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 9.48,
-    "end": 11.22,
+    "start": 11.38,
+    "end": 14.82,
+    "speaker": "彥君",
+    "text": "歡迎來到第一百一十一集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 15.02,
+    "end": 18.53,
+    "speaker": "彥君",
+    "text": "戰士們好 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 18.73,
+    "end": 22.02,
     "speaker": "曉臻",
-    "text": "大家好",
+    "text": "大家好啊 我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.42,
-    "end": 13.75,
-    "speaker": "曉臻",
-    "text": "我是曉臻助教",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 13.95,
-    "end": 16.41,
+    "start": 22.22,
+    "end": 25.59,
     "speaker": "彥君",
-    "text": "戰士們注意",
+    "text": "戰士們請特別注意聽好",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.61,
-    "end": 19.66,
+    "start": 25.79,
+    "end": 28.99,
     "speaker": "彥君",
-    "text": "這集 要教你們開外掛",
+    "text": "這一集要教你們開外掛",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.86,
-    "end": 22.46,
+    "start": 29.19,
+    "end": 32.44,
     "speaker": "曉臻",
-    "text": "老師 這張圖",
+    "text": "老師 講義上的這張圖",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.66,
-    "end": 25.62,
+    "start": 32.64,
+    "end": 35.96,
     "speaker": "曉臻",
-    "text": "把沉下去 還有浮起來",
+    "text": "把它分成沉下去跟浮起來",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 25.82,
-    "end": 28.42,
+    "start": 36.16,
+    "end": 39.31,
     "speaker": "曉臻",
-    "text": "分成 兩種算法耶",
+    "text": "分成了兩種不同的算法耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 28.62,
-    "end": 33.31,
+    "start": 39.51,
+    "end": 44.22,
     "speaker": "彥君",
-    "text": "沒錯 先看左邊的沉體",
+    "text": "沒錯 我們先看左邊沉體",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 33.51,
-    "end": 36.23,
+    "start": 44.42,
+    "end": 47.48,
     "speaker": "彥君",
-    "text": "因為 它整塊滅頂了",
+    "text": "因為整塊物體都滅頂了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 36.43,
-    "end": 39.94,
+    "start": 47.68,
+    "end": 51.17,
     "speaker": "彥君",
-    "text": "排開水的體積 就是最大值",
+    "text": "排開水的體積就是最大值",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 40.14,
-    "end": 43.94,
+    "start": 51.37,
+    "end": 54.81,
     "speaker": "彥君",
-    "text": "帶入公式 就能算出浮力",
+    "text": "帶入公式就能算出浮力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 44.14,
-    "end": 47.08,
+    "start": 55.01,
+    "end": 58.47,
     "speaker": "曉臻",
-    "text": "可是 浮力還是不夠大",
+    "text": "可是產生的浮力還是不夠大",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 47.28,
-    "end": 50.46,
+    "start": 58.67,
+    "end": 61.99,
     "speaker": "曉臻",
-    "text": "撐不住重量 就沉底了",
+    "text": "撐不住重量就直接沉底了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 50.66,
-    "end": 55.1,
+    "start": 62.19,
+    "end": 66.64,
     "speaker": "彥君",
     "text": "觀念很好 那右邊的浮體呢",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 55.3,
-    "end": 57.69,
+    "start": 66.84,
+    "end": 69.97,
     "speaker": "曉臻",
-    "text": "它浮在水面上",
+    "text": "既然它能夠浮在水面上",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 57.89,
-    "end": 60.97,
+    "start": 70.17,
+    "end": 73.37,
     "speaker": "曉臻",
-    "text": "代表 浮力把它撐起來了",
+    "text": "就代表浮力把它撐起來了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 61.17,
-    "end": 63.65,
+    "start": 73.57,
+    "end": 76.67,
     "speaker": "彥君",
-    "text": "既然撐得住",
+    "text": "既然浮力能夠撐得住它",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 63.85,
-    "end": 67.07,
+    "start": 76.87,
+    "end": 80.1,
     "speaker": "彥君",
-    "text": "代表 浮力剛好抵銷重量",
+    "text": "代表浮力剛好抵銷重量",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 67.27,
-    "end": 70.18,
+    "start": 80.3,
+    "end": 83.64,
     "speaker": "彥君",
-    "text": "所以 只要遇到浮體",
+    "text": "所以之後只要遇到浮體",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 70.38,
-    "end": 73.56,
+    "start": 83.84,
+    "end": 87.02,
     "speaker": "彥君",
-    "text": "直接找 物體的重量就好",
+    "text": "直接找物體的重量就好",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 73.76,
-    "end": 88.57,
+    "start": 87.22,
+    "end": 94.72,
     "speaker": "彥君",
-    "text": "$\\text{浮體} \\rightarrow B_{浮力} = \\text{物重}$",
+    "text": "浮體的浮力直接等於物體重量",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "浮體的浮力直接等於物體重量"
+    ]
   },
   {
-    "start": 78.14,
-    "end": 82.18,
+    "start": 94.72,
+    "end": 99.1,
     "speaker": "曉臻",
-    "text": "哇 連公式 都不用算了耶",
+    "text": "哇 這樣連公式都不用算了耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 82.38,
-    "end": 85.37,
+    "start": 99.3,
+    "end": 102.59,
     "speaker": "彥君",
-    "text": "給你們 3 秒鐘抄寫",
+    "text": "戰士們給你三秒鐘抄寫",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 88.57,
-    "end": 91.91,
+    "start": 102.79,
+    "end": 106.47,
     "speaker": "彥君",
-    "text": "戰士們 情境題來了",
+    "text": "戰士們 必考的情境題來了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 92.11,
-    "end": 94.98,
+    "start": 106.67,
+    "end": 109.97,
     "speaker": "彥君",
-    "text": "一艘 巨大的貨輪",
+    "text": "有一艘超級巨大的貨輪",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 95.18,
-    "end": 98.47,
+    "start": 110.17,
+    "end": 113.68,
     "speaker": "彥君",
-    "text": "從海裡 開進了淡水河",
+    "text": "從海裡開進了淡水河裡面",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 98.67,
-    "end": 101.78,
+    "start": 113.88,
+    "end": 117.37,
     "speaker": "彥君",
-    "text": "請問 船受到的浮力",
+    "text": "請問這艘船受到的浮力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 101.98,
-    "end": 104.65,
+    "start": 117.57,
+    "end": 120.7,
     "speaker": "彥君",
-    "text": "變大 還是變小",
+    "text": "到底是變大還是變小呢",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 104.85,
-    "end": 107.3,
+    "start": 120.9,
+    "end": 123.76,
     "speaker": "曉臻",
-    "text": "淡水 密度比較小",
+    "text": "因為淡水的密度比較小",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 107.5,
-    "end": 110.73,
+    "start": 123.96,
+    "end": 127.42,
     "speaker": "曉臻",
-    "text": "公式算起來 浮力應該變小",
+    "text": "帶公式算起來浮力應該變小",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 110.93,
-    "end": 114.85,
+    "start": 127.62,
+    "end": 132.22,
     "speaker": "彥君",
-    "text": "嗶嗶 掉進陷阱了",
+    "text": "嗶嗶 你掉進考試陷阱了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 115.05,
-    "end": 117.77,
+    "start": 132.42,
+    "end": 135.62,
     "speaker": "彥君",
-    "text": "船 在海裡跟河裡",
+    "text": "這艘船在海裡跟在河裡",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 117.97,
-    "end": 121.02,
+    "start": 135.82,
+    "end": 139.28,
     "speaker": "彥君",
-    "text": "是不是 都浮在水面上",
+    "text": "請問是不是都浮在水面上",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 121.22,
-    "end": 124.5,
+    "start": 139.48,
+    "end": 143.66,
     "speaker": "曉臻",
-    "text": "對耶 都是浮體",
+    "text": "對耶 兩種情況都是浮體",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 124.7,
-    "end": 128.26,
+    "start": 143.86,
+    "end": 147.42,
     "speaker": "彥君",
     "text": "既然是浮體 船有變輕嗎",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.46,
-    "end": 132.21,
+    "start": 147.62,
+    "end": 151.78,
     "speaker": "曉臻",
-    "text": "沒有 所以浮力一樣大",
+    "text": "船的重量沒變 浮力一樣大",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 132.41,
-    "end": 9999.0,
+    "start": 151.98,
+    "end": 159.68,
     "speaker": "彥君",
-    "text": "$\\text{海入河} \\rightarrow \\text{浮力不變}$",
+    "text": "從海水開進淡水浮力保持不變",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "從海水開進淡水浮力保持不變"
+    ]
   },
   {
-    "start": 136.98,
-    "end": 140.14,
+    "start": 159.68,
+    "end": 162.95,
     "speaker": "彥君",
-    "text": "可是 淡水密度比較小啊",
+    "text": "可是淡水的密度比較小啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 140.34,
-    "end": 143.32,
+    "start": 163.15,
+    "end": 166.47,
     "speaker": "彥君",
-    "text": "為了 維持一樣大的浮力",
+    "text": "為了維持一模一樣大的浮力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 143.52,
-    "end": 146.58,
+    "start": 166.67,
+    "end": 170.14,
     "speaker": "彥君",
-    "text": "船 只能排開更多水",
+    "text": "這艘船只能排開更多的水",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 146.78,
-    "end": 150.82,
+    "start": 170.34,
+    "end": 174.5,
     "speaker": "曉臻",
-    "text": "喔 所以船會往下沉一點",
+    "text": "喔 所以船會往下沉一點點",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 151.02,
-    "end": 153.52,
+    "start": 174.7,
+    "end": 177.92,
     "speaker": "曉臻",
-    "text": "吃水 變得更深了",
+    "text": "吃水的深度就變得更深了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 153.72,
-    "end": 158.55,
+    "start": 178.12,
+    "end": 182.95,
     "speaker": "彥君",
     "text": "完全正確 這就是大考最愛",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 158.75,
-    "end": 162.19,
+    "start": 183.15,
+    "end": 186.81,
     "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
+    "text": "觀念全通了就能秒殺考題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 162.39,
-    "end": 164.99,
+    "start": 187.01,
+    "end": 190.28,
     "speaker": "彥君",
-    "text": "我是彥君老師",
+    "text": "帶著這份底氣迎戰會考吧",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 165.19,
-    "end": 167.53,
+    "start": 190.48,
+    "end": 193.97,
+    "speaker": "彥君",
+    "text": "戰士們 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 194.17,
+    "end": 197.46,
     "speaker": "曉臻",
-    "text": "我是曉臻助教",
+    "text": "大家好啊 我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 167.73,
-    "end": 171.24,
+    "start": 197.66,
+    "end": 201.18,
     "speaker": "合聲",
     "text": "浮體看重 沉體看體",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 171.44,
-    "end": 174.98,
+    "start": 201.38,
+    "end": 204.91,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
