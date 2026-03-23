@@ -1,320 +1,824 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.86,
+    "start": 3.21,
+    "end": 6.79,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的會考戰士們 我是彥君老師"
+    "text": "季節的風向雖然不斷改變",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.86,
-    "end": 11.32,
+    "start": 6.99,
+    "end": 10.14,
     "speaker": "彥君",
-    "text": "今天來到 第五十七集"
+    "text": "但你們朝向滿分的目標",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.32,
-    "end": 15.9,
+    "start": 10.34,
+    "end": 13.23,
     "speaker": "彥君",
-    "text": "我們要來打一場 台灣氣候的 三星級戰役"
+    "text": "永遠都不會轉向",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 15.9,
-    "end": 19.4,
+    "start": 13.43,
+    "end": 16.63,
+    "speaker": "彥君",
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 16.83,
+    "end": 20.15,
+    "speaker": "彥君",
+    "text": "歡迎來到第五十七集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.35,
+    "end": 22.95,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.15,
+    "end": 25.63,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.4,
-    "end": 22.61,
+    "start": 25.83,
+    "end": 28.17,
     "speaker": "曉臻",
-    "text": "老師 台灣小小的"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.61,
-    "end": 26.08,
+    "start": 28.37,
+    "end": 31.52,
+    "speaker": "彥君",
+    "text": "今天我們要來打一場",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 31.72,
+    "end": 35.09,
+    "speaker": "彥君",
+    "text": "台灣氣候的三星級戰役",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 35.29,
+    "end": 38.2,
     "speaker": "曉臻",
-    "text": "怎麼天氣變化 這麼複雜啊"
+    "text": "老師 台灣小小的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 26.08,
-    "end": 29.68,
-    "speaker": "彥君",
-    "text": "[戰士們 打起精神來]"
-  },
-  {
-    "start": 29.68,
-    "end": 33.88,
-    "speaker": "彥君",
-    "text": "因為台灣 剛好卡在 兩大氣團的中間"
-  },
-  {
-    "start": 33.88,
-    "end": 38.05,
-    "speaker": "彥君",
-    "text": "冬天的時候 大陸冷氣團 發威"
-  },
-  {
-    "start": 38.05,
-    "end": 41.14,
-    "speaker": "彥君",
-    "text": "吹的是 東北季風"
-  },
-  {
-    "start": 41.14,
-    "end": 46.08,
-    "speaker": "彥君",
-    "text": "迎風面的 北部和東部 就會一直下 地形雨"
-  },
-  {
-    "start": 46.08,
-    "end": 50.68,
-    "speaker": "彥君",
-    "text": "如果冷空氣 太強 就會變成 寒流"
-  },
-  {
-    "start": 50.68,
-    "end": 54.74,
+    "start": 38.4,
+    "end": 41.58,
     "speaker": "曉臻",
-    "text": "那夏天呢 夏天好熱喔"
+    "text": "怎麼天氣變化這麼複雜啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 54.74,
-    "end": 59.17,
+    "start": 41.78,
+    "end": 44.81,
     "speaker": "彥君",
-    "text": "夏天換成 太平洋暖氣團 當老大"
+    "text": "戰士們打起精神來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 59.17,
-    "end": 62.91,
+    "start": 45.01,
+    "end": 47.92,
     "speaker": "彥君",
-    "text": "加上亞洲大陸 變成低氣壓"
+    "text": "因為台灣剛好卡在",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 62.91,
-    "end": 66.48,
+    "start": 48.12,
+    "end": 50.98,
     "speaker": "彥君",
-    "text": "所以台灣 改吹 西南季風"
+    "text": "兩大氣團的正中間",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 66.48,
-    "end": 69.96,
+    "start": 51.18,
+    "end": 53.64,
     "speaker": "彥君",
-    "text": "帶來 溫暖潮濕的空氣"
+    "text": "冬天的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 69.96,
-    "end": 75.19,
+    "start": 53.84,
+    "end": 56.99,
+    "speaker": "彥君",
+    "text": "大陸冷氣團開始發威",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 57.19,
+    "end": 59.98,
+    "speaker": "彥君",
+    "text": "吹的是東北季風",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 60.18,
+    "end": 63.36,
+    "speaker": "彥君",
+    "text": "迎風面的北部和東部",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 63.56,
+    "end": 66.54,
+    "speaker": "彥君",
+    "text": "就會一直下地形雨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 66.74,
+    "end": 69.78,
+    "speaker": "彥君",
+    "text": "如果冷空氣太強的話",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 69.98,
+    "end": 72.65,
+    "speaker": "彥君",
+    "text": "就會變成寒流",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 72.85,
+    "end": 74.73,
     "speaker": "曉臻",
-    "text": "喔 所以冬天吹東北 夏天吹西南"
+    "text": "那夏天呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 75.19,
-    "end": 78.76,
+    "start": 74.93,
+    "end": 77.91,
     "speaker": "曉臻",
-    "text": "那講義上寫的 秋冬鋒面過境"
+    "text": "夏天的台灣真的好熱喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 78.76,
-    "end": 81.23,
+    "start": 78.11,
+    "end": 81.58,
+    "speaker": "彥君",
+    "text": "夏天換太平洋暖氣團",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 81.78,
+    "end": 84.5,
+    "speaker": "彥君",
+    "text": "跑出來當老大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 84.7,
+    "end": 87.51,
+    "speaker": "彥君",
+    "text": "加上亞洲的大陸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 87.71,
+    "end": 90.22,
+    "speaker": "彥君",
+    "text": "變成了低氣壓",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 90.42,
+    "end": 93.71,
+    "speaker": "彥君",
+    "text": "所以台灣改吹西南季風",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 93.91,
+    "end": 97.09,
+    "speaker": "彥君",
+    "text": "帶來溫暖潮濕的空氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 97.29,
+    "end": 104.82,
+    "speaker": "彥君",
+    "text": "冬天吹東北季風夏天吹西南季風",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "冬天吹東北季風夏天吹西南季風"
+    ]
+  },
+  {
+    "start": 104.82,
+    "end": 108.42,
     "speaker": "曉臻",
-    "text": "是什麼意思"
+    "text": "喔 所以冬天吹東北",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 81.23,
-    "end": 84.99,
-    "speaker": "彥君",
-    "text": "當冷氣團 準備南下的時候"
-  },
-  {
-    "start": 84.99,
-    "end": 89.09,
-    "speaker": "彥君",
-    "text": "冷鋒一過境 台灣的風向"
-  },
-  {
-    "start": 89.09,
-    "end": 93.41,
-    "speaker": "彥君",
-    "text": "就會瞬間 從西南風 轉成東北風"
-  },
-  {
-    "start": 93.41,
-    "end": 96.86,
-    "speaker": "彥君",
-    "text": "氣溫也會 跟著溜滑梯"
-  },
-  {
-    "start": 96.86,
-    "end": 100.19,
+    "start": 108.62,
+    "end": 111.22,
     "speaker": "曉臻",
-    "text": "老師 那台灣的 水庫"
+    "text": "夏天改吹西南風",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 100.19,
-    "end": 103.72,
+    "start": 111.42,
+    "end": 113.71,
     "speaker": "曉臻",
-    "text": "主要是靠 什麼時候來補水"
+    "text": "那講義上寫的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 103.72,
-    "end": 106.74,
-    "speaker": "彥君",
-    "text": "戰士們 畫重點囉"
-  },
-  {
-    "start": 106.74,
-    "end": 110.31,
-    "speaker": "彥君",
-    "text": "第一個 是春末夏初的 梅雨"
-  },
-  {
-    "start": 110.31,
-    "end": 113.86,
-    "speaker": "彥君",
-    "text": "第二個 是夏秋之際的 颱風"
-  },
-  {
-    "start": 113.86,
-    "end": 117.19,
-    "speaker": "彥君",
-    "text": "雖然它們 是救命水"
-  },
-  {
-    "start": 117.19,
-    "end": 121.19,
-    "speaker": "彥君",
-    "text": "但雨下太大 也會造成水災"
-  },
-  {
-    "start": 121.19,
-    "end": 124.31,
+    "start": 113.91,
+    "end": 116.2,
     "speaker": "曉臻",
-    "text": "那為什麼 西半部地區"
+    "text": "秋冬鋒面過境",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 124.31,
-    "end": 127.16,
+    "start": 116.4,
+    "end": 118.95,
     "speaker": "曉臻",
-    "text": "常常在 喊缺水啊"
+    "text": "到底是什麼意思啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 127.16,
-    "end": 130.92,
+    "start": 119.15,
+    "end": 122.62,
     "speaker": "彥君",
-    "text": "因為冬天 吹東北風的時候"
+    "text": "當冷氣團準備南下的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 130.92,
-    "end": 134.95,
+    "start": 122.82,
+    "end": 125.37,
     "speaker": "彥君",
-    "text": "西半部 剛好被 中央山脈擋住"
+    "text": "冷鋒一過境",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 134.95,
-    "end": 137.85,
+    "start": 125.57,
+    "end": 128.1,
     "speaker": "彥君",
-    "text": "變成了 背風面"
+    "text": "台灣的風向",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 137.85,
-    "end": 141.16,
+    "start": 128.3,
+    "end": 131.35,
     "speaker": "彥君",
-    "text": "所以整個 秋天跟冬天"
+    "text": "就會瞬間從西南風",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 141.16,
-    "end": 145.5,
+    "start": 131.55,
+    "end": 134.1,
     "speaker": "彥君",
-    "text": "幾乎都不下雨 容易發生乾旱"
+    "text": "轉成東北風",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 145.5,
-    "end": 148.78,
+    "start": 134.3,
+    "end": 137.46,
+    "speaker": "彥君",
+    "text": "氣溫也會跟著溜滑梯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 137.66,
+    "end": 145.28,
+    "speaker": "彥君",
+    "text": "冷鋒過境西南風轉東北風",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "冷鋒過境西南風轉東北風"
+    ]
+  },
+  {
+    "start": 145.28,
+    "end": 148.26,
     "speaker": "曉臻",
-    "text": "東北季風 迎風下雨"
+    "text": "老師 那台灣的水庫",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 148.78,
-    "end": 152.16,
+    "start": 148.46,
+    "end": 151.11,
     "speaker": "曉臻",
-    "text": "西南季風 高溫潮濕"
+    "text": "主要是靠什麼時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 152.16,
-    "end": 154.54,
+    "start": 151.31,
+    "end": 153.72,
     "speaker": "曉臻",
-    "text": "梅雨跟颱風"
+    "text": "來大進補補水呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 154.54,
-    "end": 157.68,
-    "speaker": "曉臻",
-    "text": "背風面 容易乾旱"
-  },
-  {
-    "start": 157.68,
-    "end": 161.1,
+    "start": 153.92,
+    "end": 156.64,
     "speaker": "彥君",
-    "text": "如果今天 氣象預報說"
+    "text": "戰士們畫重點囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 161.1,
-    "end": 164.36,
+    "start": 156.84,
+    "end": 160.04,
     "speaker": "彥君",
-    "text": "會有 冷鋒過境台灣"
+    "text": "台灣的兩大降水主力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 164.36,
-    "end": 167.86,
+    "start": 160.24,
+    "end": 163.03,
     "speaker": "彥君",
-    "text": "請問風向 會怎麼改變"
+    "text": "第一個是春末夏初",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 167.86,
-    "end": 171.36,
-    "speaker": "曉臻",
-    "text": "冷鋒要把 夏天的勢力 趕走"
-  },
-  {
-    "start": 171.36,
-    "end": 175.97,
-    "speaker": "曉臻",
-    "text": "所以風向 會從 西南風 轉成 東北風"
-  },
-  {
-    "start": 175.97,
-    "end": 180.93,
+    "start": 163.23,
+    "end": 165.86,
     "speaker": "彥君",
-    "text": "漂亮 氣候邏輯 一百分"
+    "text": "滴滴答答的梅雨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 180.93,
-    "end": 183.83,
+    "start": 166.06,
+    "end": 168.92,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "第二個是夏秋之際",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 183.83,
-    "end": 186.47,
-    "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "start": 169.12,
+    "end": 171.79,
+    "speaker": "彥君",
+    "text": "狂風暴雨的颱風",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 186.47,
-    "end": 189.92,
-    "speaker": "曉臻",
-    "text": "冷暖氣團 四季輪轉"
+    "start": 171.99,
+    "end": 175.24,
+    "speaker": "彥君",
+    "text": "雖然它們都是救命水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 189.92,
-    "end": 193.83,
+    "start": 175.44,
+    "end": 178.21,
+    "speaker": "彥君",
+    "text": "但如果雨下太大了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 178.41,
+    "end": 181.39,
+    "speaker": "彥君",
+    "text": "也是會造成水災的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 181.59,
+    "end": 189.48,
+    "speaker": "彥君",
+    "text": "降水雙主力春末梅雨夏秋颱風",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "降水雙主力春末梅雨夏秋颱風"
+    ]
+  },
+  {
+    "start": 189.48,
+    "end": 192.27,
     "speaker": "曉臻",
-    "text": "自然科 Ａ加加 絕對沒問題"
+    "text": "那為什麼西半部地區",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 192.47,
+    "end": 195.02,
+    "speaker": "曉臻",
+    "text": "常常在喊缺水啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 195.22,
+    "end": 198.69,
+    "speaker": "彥君",
+    "text": "因為冬天吹東北風的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 198.89,
+    "end": 201.56,
+    "speaker": "彥君",
+    "text": "西半部剛好被",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 201.76,
+    "end": 204.67,
+    "speaker": "彥君",
+    "text": "中央山脈給擋住了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 204.87,
+    "end": 207.47,
+    "speaker": "彥君",
+    "text": "變成了背風面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 207.67,
+    "end": 210.75,
+    "speaker": "彥君",
+    "text": "所以整個秋天跟冬天",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 210.95,
+    "end": 213.58,
+    "speaker": "彥君",
+    "text": "幾乎都不下雨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 213.78,
+    "end": 216.64,
+    "speaker": "彥君",
+    "text": "很容易發生乾旱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 216.84,
+    "end": 224.82,
+    "speaker": "彥君",
+    "text": "冬季吹東北風西半部背風易乾旱",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "冬季吹東北風西半部背風易乾旱"
+    ]
+  },
+  {
+    "start": 224.82,
+    "end": 228.24,
+    "speaker": "曉臻",
+    "text": "戰士們 我們來快速複習",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 228.44,
+    "end": 231.26,
+    "speaker": "曉臻",
+    "text": "第一 冬季冷氣團",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 231.46,
+    "end": 234.37,
+    "speaker": "曉臻",
+    "text": "吹東北季風迎風下雨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 234.57,
+    "end": 237.48,
+    "speaker": "曉臻",
+    "text": "第二 夏季暖氣團",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 237.68,
+    "end": 240.69,
+    "speaker": "曉臻",
+    "text": "吹西南季風高溫潮濕",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 240.89,
+    "end": 243.97,
+    "speaker": "曉臻",
+    "text": "第三 降水的雙主力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 244.17,
+    "end": 246.58,
+    "speaker": "曉臻",
+    "text": "就是梅雨跟颱風",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 246.78,
+    "end": 249.78,
+    "speaker": "曉臻",
+    "text": "第四 西半部的冬天",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 249.98,
+    "end": 252.8,
+    "speaker": "曉臻",
+    "text": "因為背風面容易乾旱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 253.0,
+    "end": 255.12,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 255.32,
+    "end": 258.16,
+    "speaker": "彥君",
+    "text": "閉上眼睛想一想喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 258.36,
+    "end": 261.51,
+    "speaker": "彥君",
+    "text": "如果今天氣象預報說",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 261.71,
+    "end": 264.67,
+    "speaker": "彥君",
+    "text": "會有冷鋒過境台灣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 264.87,
+    "end": 268.07,
+    "speaker": "彥君",
+    "text": "請問風向會怎麼改變",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 268.27,
+    "end": 271.38,
+    "speaker": "曉臻",
+    "text": "冷鋒要把夏天勢力趕走",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 271.58,
+    "end": 274.54,
+    "speaker": "曉臻",
+    "text": "所以風向會從西南風",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 274.74,
+    "end": 277.34,
+    "speaker": "曉臻",
+    "text": "瞬間轉成東北風",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 277.54,
+    "end": 282.2,
+    "speaker": "彥君",
+    "text": "漂亮 氣候邏輯一百分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 282.4,
+    "end": 285.67,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 285.87,
+    "end": 288.47,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 288.67,
+    "end": 291.01,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 291.21,
+    "end": 294.72,
+    "speaker": "合聲",
+    "text": "冷暖氣團 四季輪轉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 294.92,
+    "end": 298.38,
+    "speaker": "合聲",
+    "text": "戰士們 我們下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
