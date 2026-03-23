@@ -1,242 +1,821 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 6.66,
+    "start": 3.21,
+    "end": 6.74,
     "speaker": "彥君",
-    "text": "各位衝 A的戰士們 我是彥君老師"
+    "text": "晝夜交替 四季輪轉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.66,
-    "end": 10.09,
+    "start": 6.94,
+    "end": 10.14,
     "speaker": "彥君",
-    "text": "接續 剛才的宇宙概念"
+    "text": "你們流下的每一滴汗水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 10.09,
-    "end": 14.26,
+    "start": 10.34,
+    "end": 13.57,
     "speaker": "彥君",
-    "text": "我們要進攻 最容易搞混的 神祕站點"
+    "text": "終將迎來最溫暖的夏至",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 14.26,
-    "end": 18.58,
+    "start": 13.77,
+    "end": 16.97,
     "speaker": "彥君",
-    "text": "分別是 夏至、春秋分 與 冬至"
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.58,
-    "end": 22.08,
+    "start": 17.17,
+    "end": 20.54,
+    "speaker": "彥君",
+    "text": "歡迎來到第四十七集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.74,
+    "end": 23.34,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.54,
+    "end": 26.02,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.08,
-    "end": 26.44,
+    "start": 26.22,
+    "end": 28.55,
     "speaker": "曉臻",
-    "text": "老師 這三站 日照時間 完全不同"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 26.44,
-    "end": 30.64,
+    "start": 28.75,
+    "end": 31.83,
+    "speaker": "彥君",
+    "text": "接續剛才的宇宙概念",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 32.03,
+    "end": 35.4,
+    "speaker": "彥君",
+    "text": "我們要進攻最容易搞混的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 35.6,
+    "end": 37.94,
+    "speaker": "彥君",
+    "text": "神祕站點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 38.14,
+    "end": 41.74,
+    "speaker": "彥君",
+    "text": "分別是夏至春秋分與冬至",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 41.94,
+    "end": 45.41,
     "speaker": "曉臻",
-    "text": "我們 看這張圖 也是為了「找線索」嗎"
+    "text": "老師 這三站的日照時間",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 30.64,
-    "end": 35.65,
-    "speaker": "彥君",
-    "text": "沒錯我們 先看左邊的圖"
-  },
-  {
-    "start": 35.65,
-    "end": 40.06,
-    "speaker": "彥君",
-    "text": "戰士們 這是 會考 最重要的觀念"
-  },
-  {
-    "start": 40.06,
-    "end": 44.81,
-    "speaker": "彥君",
-    "text": "地球的 自轉軸 傾斜了 235 度"
-  },
-  {
-    "start": 44.81,
-    "end": 49.46,
-    "speaker": "彥君",
-    "text": "先看圖上 陽光 是從右邊照過來的"
-  },
-  {
-    "start": 49.46,
-    "end": 54.07,
-    "speaker": "彥君",
-    "text": "此時 北半球的亮面 最長 暗面 最短"
-  },
-  {
-    "start": 54.07,
-    "end": 58.31,
+    "start": 45.61,
+    "end": 48.23,
     "speaker": "曉臻",
-    "text": "哦所以 北半球 傾向太陽"
+    "text": "可是完全不同的耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 58.31,
-    "end": 62.41,
+    "start": 48.43,
+    "end": 50.74,
     "speaker": "曉臻",
-    "text": "這就是 晝長夜短的「夏至」對吧"
+    "text": "我們看這張圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 62.41,
-    "end": 67.59,
-    "speaker": "彥君",
-    "text": "聰明而且 北極整個在亮面"
-  },
-  {
-    "start": 67.59,
-    "end": 73.16,
-    "speaker": "彥君",
-    "text": "形成永晝接下來 看中間的圖"
-  },
-  {
-    "start": 73.16,
-    "end": 77.18,
-    "speaker": "彥君",
-    "text": "地球 繞著太陽「逆時針」公轉"
-  },
-  {
-    "start": 77.18,
-    "end": 81.36,
-    "speaker": "彥君",
-    "text": "走到 夏至和冬至 中間的過渡期"
-  },
-  {
-    "start": 81.36,
-    "end": 84.88,
-    "speaker": "彥君",
-    "text": "陽光 會剛好 直射赤道"
-  },
-  {
-    "start": 84.88,
-    "end": 87.68,
+    "start": 50.94,
+    "end": 53.57,
     "speaker": "曉臻",
-    "text": "那 這兩站 叫什麼 呢"
+    "text": "也是為了找線索嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 87.68,
-    "end": 93.99,
+    "start": 53.77,
+    "end": 58.48,
     "speaker": "彥君",
-    "text": "這兩站 是 春分與秋分地球 側身對著太陽"
+    "text": "沒錯 我們先看左邊的圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 93.99,
-    "end": 98.0,
+    "start": 58.68,
+    "end": 61.95,
     "speaker": "彥君",
-    "text": "這時候 全世界 每一個地方"
+    "text": "戰士們 這是會考中",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 98.0,
-    "end": 101.3,
+    "start": 62.15,
+    "end": 64.7,
     "speaker": "彥君",
-    "text": "都是 完美的 晝夜等長"
+    "text": "最重要的觀念",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 101.3,
-    "end": 105.96,
+    "start": 64.9,
+    "end": 67.55,
+    "speaker": "彥君",
+    "text": "地球的自轉軸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 67.75,
+    "end": 70.9,
+    "speaker": "彥君",
+    "text": "傾斜了 $23.5$ 度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 71.1,
+    "end": 74.42,
+    "speaker": "彥君",
+    "text": "先看圖上 陽光是",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 74.62,
+    "end": 77.54,
+    "speaker": "彥君",
+    "text": "從右邊照過來的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 77.74,
+    "end": 81.08,
+    "speaker": "彥君",
+    "text": "此時北半球的亮面最長",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 81.28,
+    "end": 83.9,
+    "speaker": "彥君",
+    "text": "暗面則是最短",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 84.1,
+    "end": 88.07,
     "speaker": "曉臻",
-    "text": "老師 我懂了 那右邊的圖 呢"
+    "text": "喔 所以北半球傾向太陽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 105.96,
-    "end": 111.5,
-    "speaker": "彥君",
-    "text": "戰士們 我們接下來看 右邊的圖"
-  },
-  {
-    "start": 111.5,
-    "end": 116.8,
-    "speaker": "彥君",
-    "text": "地球 繞到了太陽的另一邊 陽光從 左邊照過來"
-  },
-  {
-    "start": 116.8,
-    "end": 121.38,
-    "speaker": "彥君",
-    "text": "所以 這一次 北半球「遠離」了太陽"
-  },
-  {
-    "start": 121.38,
-    "end": 125.84,
-    "speaker": "彥君",
-    "text": "北半球 暗面變得最長 亮面 最短"
-  },
-  {
-    "start": 125.84,
-    "end": 130.54,
+    "start": 88.27,
+    "end": 91.33,
     "speaker": "曉臻",
-    "text": "夏至晝長、春秋分等長、冬至晝短"
+    "text": "這就是晝長夜短的夏至",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 130.54,
-    "end": 135.45,
+    "start": 91.53,
+    "end": 93.6,
     "speaker": "曉臻",
-    "text": "北半球 傾向太陽 晝長夜短、北極永晝"
+    "text": "我說的對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 135.45,
-    "end": 139.94,
-    "speaker": "曉臻",
-    "text": "陽光 直射赤道 所以 全球晝夜等長"
-  },
-  {
-    "start": 139.94,
-    "end": 144.88,
-    "speaker": "曉臻",
-    "text": "北半球 遠離太陽 晝短夜長、北極永夜"
-  },
-  {
-    "start": 144.88,
-    "end": 149.36,
+    "start": 93.8,
+    "end": 98.63,
     "speaker": "彥君",
-    "text": "如果 考試問你 哪一個 日子出現時"
+    "text": "聰明 而且北極整個在亮面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 149.36,
-    "end": 154.06,
+    "start": 98.83,
+    "end": 101.31,
     "speaker": "彥君",
-    "text": "北極點 是一整天 都照不到太陽的「永夜」"
+    "text": "形成了永晝",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 154.06,
-    "end": 159.24,
+    "start": 101.51,
+    "end": 109.18,
+    "speaker": "彥君",
+    "text": "夏至北半球傾向太陽晝長夜短",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "夏至北半球傾向太陽晝長夜短"
+    ]
+  },
+  {
+    "start": 109.18,
+    "end": 112.34,
+    "speaker": "彥君",
+    "text": "接下來看中間的圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 112.54,
+    "end": 115.38,
+    "speaker": "彥君",
+    "text": "地球繞著太陽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 115.58,
+    "end": 118.63,
+    "speaker": "彥君",
+    "text": "逆時針方向公轉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 118.83,
+    "end": 122.25,
+    "speaker": "彥君",
+    "text": "走到夏至和冬至中間的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 122.45,
+    "end": 124.93,
+    "speaker": "彥君",
+    "text": "這個過渡期",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 125.13,
+    "end": 127.68,
+    "speaker": "彥君",
+    "text": "有一個大重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 127.88,
+    "end": 131.13,
+    "speaker": "彥君",
+    "text": "陽光會剛好直射赤道",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 131.33,
+    "end": 133.83,
     "speaker": "曉臻",
-    "text": "答案是 冬至因為它 剛好 遠離了太陽"
+    "text": "那這兩站叫什麼呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 159.24,
-    "end": 164.92,
+    "start": 134.03,
+    "end": 137.18,
     "speaker": "彥君",
-    "text": "漂亮這 四季變化 的 邏輯你已經 全拿了"
+    "text": "這兩站是春分與秋分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 164.92,
-    "end": 167.82,
+    "start": 137.38,
+    "end": 140.56,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "地球側身對著太陽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 167.82,
-    "end": 170.46,
+    "start": 140.76,
+    "end": 144.1,
+    "speaker": "彥君",
+    "text": "這時候全世界每一個地方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 144.3,
+    "end": 147.31,
+    "speaker": "彥君",
+    "text": "都是完美的晝夜等長",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 147.51,
+    "end": 155.11,
+    "speaker": "彥君",
+    "text": "春秋分直射赤道全球晝夜等長",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "春秋分直射赤道全球晝夜等長"
+    ]
+  },
+  {
+    "start": 155.11,
+    "end": 157.54,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "老師 我懂了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 170.46,
-    "end": 175.81,
+    "start": 157.74,
+    "end": 159.98,
+    "speaker": "曉臻",
+    "text": "那右邊的圖呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 160.18,
+    "end": 163.65,
+    "speaker": "彥君",
+    "text": "戰士們 我們接下來看",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 163.85,
+    "end": 166.57,
+    "speaker": "彥君",
+    "text": "右邊的這張圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 166.77,
+    "end": 170.09,
+    "speaker": "彥君",
+    "text": "地球繞到了太陽的另一邊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 170.29,
+    "end": 173.37,
+    "speaker": "彥君",
+    "text": "陽光從左邊照過來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 173.57,
+    "end": 176.0,
+    "speaker": "彥君",
+    "text": "所以這一次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 176.2,
+    "end": 179.26,
+    "speaker": "彥君",
+    "text": "北半球遠離了太陽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 179.46,
+    "end": 182.63,
+    "speaker": "彥君",
+    "text": "北半球暗面變得最長",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 182.83,
+    "end": 185.41,
+    "speaker": "彥君",
+    "text": "亮面變得最短",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 185.61,
+    "end": 188.62,
+    "speaker": "曉臻",
+    "text": "老師 我來整理一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 188.82,
+    "end": 191.87,
+    "speaker": "曉臻",
+    "text": "夏至晝長春秋分等長",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 192.07,
+    "end": 194.43,
+    "speaker": "曉臻",
+    "text": "冬至就是晝短",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 194.63,
+    "end": 202.21,
+    "speaker": "彥君",
+    "text": "冬至北半球遠離太陽晝短夜長",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "冬至北半球遠離太陽晝短夜長"
+    ]
+  },
+  {
+    "start": 202.21,
+    "end": 203.97,
+    "speaker": "曉臻",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 204.17,
+    "end": 207.37,
+    "speaker": "曉臻",
+    "text": "最後的大魔王總複習來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 207.57,
+    "end": 210.22,
+    "speaker": "曉臻",
+    "text": "第一 左圖夏至",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 210.42,
+    "end": 212.99,
+    "speaker": "曉臻",
+    "text": "北半球傾向太陽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 213.19,
+    "end": 215.91,
+    "speaker": "曉臻",
+    "text": "晝長夜短北極永晝",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 216.11,
+    "end": 251.03,
+    "speaker": "彥君",
+    "text": "一左圖夏至晝長夜短北極永晝",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "一左圖夏至晝長夜短北極永晝"
+    ]
+  },
+  {
+    "start": 221.02,
+    "end": 223.89,
+    "speaker": "曉臻",
+    "text": "第二 中圖春秋分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 224.09,
+    "end": 226.47,
+    "speaker": "曉臻",
+    "text": "陽光直射赤道",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 226.67,
+    "end": 229.49,
+    "speaker": "曉臻",
+    "text": "所以全球晝夜等長",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 229.69,
+    "end": 251.03,
+    "speaker": "彥君",
+    "text": "二中圖春秋分全球晝夜等長",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "二中圖春秋分全球晝夜等長"
+    ]
+  },
+  {
+    "start": 234.48,
+    "end": 237.18,
+    "speaker": "曉臻",
+    "text": "第三 右圖冬至",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 237.38,
+    "end": 239.86,
+    "speaker": "曉臻",
+    "text": "北半球遠離太陽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 240.06,
+    "end": 242.85,
+    "speaker": "曉臻",
+    "text": "晝短夜長北極永夜",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 243.05,
+    "end": 251.03,
+    "speaker": "彥君",
+    "text": "三右圖冬至晝短夜長北極永夜",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "三右圖冬至晝短夜長北極永夜"
+    ]
+  },
+  {
+    "start": 251.03,
+    "end": 253.15,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 253.35,
+    "end": 256.46,
+    "speaker": "彥君",
+    "text": "請閉上眼睛想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 256.66,
+    "end": 259.21,
+    "speaker": "彥君",
+    "text": "如果考試問你",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 259.41,
+    "end": 262.7,
+    "speaker": "彥君",
+    "text": "哪一個日子出現的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 262.9,
+    "end": 265.74,
+    "speaker": "彥君",
+    "text": "北極點是一整天",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 265.94,
+    "end": 268.9,
+    "speaker": "彥君",
+    "text": "都照不到太陽的永夜",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 269.1,
+    "end": 271.58,
+    "speaker": "曉臻",
+    "text": "答案絕對是冬至",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 271.78,
+    "end": 274.82,
+    "speaker": "曉臻",
+    "text": "因為它剛好遠離了太陽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 275.02,
+    "end": 277.06,
+    "speaker": "彥君",
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 277.26,
+    "end": 280.18,
+    "speaker": "彥君",
+    "text": "這四季變化的邏輯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 280.38,
+    "end": 283.0,
+    "speaker": "彥君",
+    "text": "你已經全拿了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 283.2,
+    "end": 286.47,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 286.67,
+    "end": 289.27,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 289.47,
+    "end": 291.81,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 292.01,
+    "end": 295.42,
     "speaker": "合聲",
-    "text": "邏輯通透 地科神準 下一張投影片見"
+    "text": "四季分明 考場必贏",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 295.62,
+    "end": 299.09,
+    "speaker": "合聲",
+    "text": "戰士們 我們下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
