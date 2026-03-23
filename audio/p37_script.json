@@ -1,248 +1,710 @@
 [
   {
     "start": 0.0,
-    "end": 3.55,
+    "end": 3.01,
     "speaker": "彥君",
-    "text": "各位衝 A 的戰士們"
+    "text": "戰士們 辛苦了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.55,
-    "end": 6.45,
+    "start": 3.21,
+    "end": 6.31,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "百川終能匯聚成海",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.45,
-    "end": 9.23,
+    "start": 6.51,
+    "end": 9.76,
+    "speaker": "彥君",
+    "text": "你們累積的每一滴汗水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 9.96,
+    "end": 13.26,
+    "speaker": "彥君",
+    "text": "終將匯聚成勝利的汪洋",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 13.46,
+    "end": 16.66,
+    "speaker": "彥君",
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 16.86,
+    "end": 20.22,
+    "speaker": "彥君",
+    "text": "歡迎來到第三十七集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.42,
+    "end": 23.02,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.22,
+    "end": 25.7,
     "speaker": "曉臻",
-    "text": "戰士們大家好啊"
+    "text": "戰士們大家好啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 9.23,
-    "end": 11.86,
+    "start": 25.9,
+    "end": 28.24,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.86,
-    "end": 15.44,
+    "start": 28.44,
+    "end": 31.71,
     "speaker": "彥君",
-    "text": "歡迎回到科學大冒險"
+    "text": "歡迎回到科學大冒險",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 15.44,
-    "end": 19.61,
+    "start": 31.91,
+    "end": 34.78,
     "speaker": "彥君",
-    "text": "今天要帶大家看『河道平衡』"
+    "text": "今天要帶大家看",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.61,
-    "end": 24.07,
+    "start": 34.98,
+    "end": 37.46,
+    "speaker": "彥君",
+    "text": "河道平衡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 37.66,
+    "end": 39.44,
     "speaker": "曉臻",
-    "text": "老師 投影片上有『曲流』跟『河階』"
+    "text": "老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 24.07,
-    "end": 27.16,
+    "start": 39.64,
+    "end": 42.82,
     "speaker": "曉臻",
-    "text": "這些是河流的傑作嗎"
+    "text": "投影片上有曲流跟河階",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.16,
-    "end": 32.05,
-    "speaker": "彥君",
-    "text": "沒錯彎彎曲曲的河流"
-  },
-  {
-    "start": 32.05,
-    "end": 37.06,
-    "speaker": "彥君",
-    "text": "還有階梯狀的河床 都是大自然的藝術品"
-  },
-  {
-    "start": 37.06,
-    "end": 40.8,
+    "start": 43.02,
+    "end": 45.81,
     "speaker": "曉臻",
-    "text": "那後面的『橋墩裸露』好可怕"
+    "text": "這些是河流的傑作嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 40.8,
-    "end": 43.22,
+    "start": 46.01,
+    "end": 48.1,
+    "speaker": "彥君",
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 48.3,
+    "end": 51.1,
+    "speaker": "彥君",
+    "text": "彎彎曲曲的河流",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 51.3,
+    "end": 54.3,
+    "speaker": "彥君",
+    "text": "還有階梯狀的河床",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 54.5,
+    "end": 57.46,
+    "speaker": "彥君",
+    "text": "都是大自然的藝術品",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 57.66,
+    "end": 60.26,
     "speaker": "曉臻",
-    "text": "橋都快垮了"
+    "text": "那後面的橋墩裸露",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 43.22,
-    "end": 46.92,
-    "speaker": "彥君",
-    "text": "這可是會考的超級大魔王"
-  },
-  {
-    "start": 46.92,
-    "end": 51.35,
-    "speaker": "彥君",
-    "text": "橋墩裸露 是因為河床被挖深了"
-  },
-  {
-    "start": 51.35,
-    "end": 54.71,
+    "start": 60.46,
+    "end": 62.56,
     "speaker": "曉臻",
-    "text": "為什麼河床會突然變深"
+    "text": "真的好可怕",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 54.71,
-    "end": 58.66,
-    "speaker": "彥君",
-    "text": "因為有人在『下游』偷挖砂石"
-  },
-  {
-    "start": 58.66,
-    "end": 63.96,
+    "start": 62.76,
+    "end": 64.88,
     "speaker": "曉臻",
-    "text": "咦在下游挖 怎麼會害到上游的橋"
+    "text": "橋都快垮了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 63.96,
-    "end": 67.92,
+    "start": 65.08,
+    "end": 67.63,
     "speaker": "彥君",
-    "text": "因為河流為了 填補下游的坑洞"
+    "text": "這可是會考的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 67.92,
-    "end": 71.88,
+    "start": 67.83,
+    "end": 70.38,
     "speaker": "彥君",
-    "text": "會把上游的沙子瘋狂往下沖"
+    "text": "超級大魔王",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 71.88,
-    "end": 77.44,
+    "start": 70.58,
+    "end": 72.97,
+    "speaker": "彥君",
+    "text": "橋墩裸露",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 73.17,
+    "end": 76.22,
+    "speaker": "彥君",
+    "text": "是因為河床被挖深了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 76.42,
+    "end": 78.57,
     "speaker": "曉臻",
-    "text": "哇上游沙子流失橋墩就露出來了"
+    "text": "為什麼河床",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 77.44,
-    "end": 83.27,
-    "speaker": "彥君",
-    "text": "完全正確接著看『海岸線的推移』"
-  },
-  {
-    "start": 83.27,
-    "end": 85.98,
+    "start": 78.77,
+    "end": 80.89,
     "speaker": "曉臻",
-    "text": "海岸線會『退縮』"
+    "text": "會突然變深",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 85.98,
-    "end": 89.76,
+    "start": 81.09,
+    "end": 83.9,
+    "speaker": "彥君",
+    "text": "因為有人在下游",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 84.1,
+    "end": 86.51,
+    "speaker": "彥君",
+    "text": "偷挖砂石",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 86.71,
+    "end": 89.79,
     "speaker": "曉臻",
-    "text": "也就是海邊的沙灘變小了對吧"
+    "text": "咦 在下游挖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 89.76,
-    "end": 94.7,
-    "speaker": "彥君",
-    "text": "沒錯沙灘的沙子都是河流帶來的"
-  },
-  {
-    "start": 94.7,
-    "end": 99.0,
-    "speaker": "彥君",
-    "text": "如果沙子變少沙灘就會退縮"
-  },
-  {
-    "start": 99.0,
-    "end": 102.57,
+    "start": 89.99,
+    "end": 92.78,
     "speaker": "曉臻",
-    "text": "投影片寫了三個退縮的原因"
+    "text": "怎麼會害到上游的橋",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 102.57,
-    "end": 107.1,
+    "start": 92.98,
+    "end": 95.54,
+    "speaker": "彥君",
+    "text": "因為河流為了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 95.74,
+    "end": 98.53,
+    "speaker": "彥君",
+    "text": "填補下游的坑洞",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 98.73,
+    "end": 101.57,
+    "speaker": "彥君",
+    "text": "會把上游的沙子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 101.77,
+    "end": 104.25,
+    "speaker": "彥君",
+    "text": "瘋狂往下沖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 104.45,
+    "end": 108.01,
     "speaker": "曉臻",
-    "text": "地層下陷、盜採砂石還有水庫"
+    "text": "哇 上游沙子流失",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 107.1,
-    "end": 113.29,
-    "speaker": "彥君",
-    "text": "沒錯水庫不只擋水還會『擋沙』"
-  },
-  {
-    "start": 113.29,
-    "end": 116.5,
+    "start": 108.21,
+    "end": 110.74,
     "speaker": "曉臻",
-    "text": "沙子全部被卡在山上"
+    "text": "橋墩就露出來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 116.5,
-    "end": 120.24,
+    "start": 110.94,
+    "end": 118.25,
+    "speaker": "彥君",
+    "text": "下游挖沙上游橋墩裸露",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "下游挖沙上游橋墩裸露"
+    ]
+  },
+  {
+    "start": 118.25,
+    "end": 120.63,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 120.83,
+    "end": 123.96,
+    "speaker": "彥君",
+    "text": "接著看海岸線的推移",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 124.16,
+    "end": 126.5,
     "speaker": "曉臻",
-    "text": "那海邊就沒沙子可以補充了"
+    "text": "海岸線會退縮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 120.24,
-    "end": 125.54,
-    "speaker": "彥君",
-    "text": "漂亮這三個原因一定要記熟喔"
-  },
-  {
-    "start": 125.54,
-    "end": 128.75,
-    "speaker": "彥君",
-    "text": "戰士們閉上眼睛"
-  },
-  {
-    "start": 128.75,
-    "end": 132.83,
-    "speaker": "彥君",
-    "text": "蓋水庫會讓海岸線往海裡延伸"
-  },
-  {
-    "start": 132.83,
-    "end": 135.82,
-    "speaker": "彥君",
-    "text": "還是往陸地退縮"
-  },
-  {
-    "start": 135.82,
-    "end": 138.65,
+    "start": 126.7,
+    "end": 129.32,
     "speaker": "曉臻",
-    "text": "沙子都被沒收了"
+    "text": "也就是海邊的沙灘",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 138.65,
-    "end": 141.7,
+    "start": 129.52,
+    "end": 131.62,
     "speaker": "曉臻",
-    "text": "當然是往陸地『退縮』"
+    "text": "變小了對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 141.7,
-    "end": 146.66,
+    "start": 131.82,
+    "end": 133.94,
     "speaker": "彥君",
-    "text": "漂亮這就是秒殺的直覺"
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 146.66,
-    "end": 149.56,
+    "start": 134.14,
+    "end": 136.66,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "沙灘的沙子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 149.56,
-    "end": 152.2,
+    "start": 136.86,
+    "end": 139.58,
+    "speaker": "彥君",
+    "text": "都是河流帶來的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 139.78,
+    "end": 142.46,
+    "speaker": "彥君",
+    "text": "如果沙子變少",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 142.66,
+    "end": 145.45,
+    "speaker": "彥君",
+    "text": "沙灘就會退縮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 145.65,
+    "end": 147.77,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "投影片寫了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 152.2,
-    "end": 156.8,
+    "start": 147.97,
+    "end": 150.42,
+    "speaker": "曉臻",
+    "text": "三個退縮的原因",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 150.62,
+    "end": 153.46,
+    "speaker": "曉臻",
+    "text": "地層下陷盜採砂石",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 153.66,
+    "end": 155.66,
+    "speaker": "曉臻",
+    "text": "還有水庫",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 155.86,
+    "end": 157.98,
+    "speaker": "彥君",
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 158.18,
+    "end": 161.0,
+    "speaker": "彥君",
+    "text": "水庫不只擋水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 161.2,
+    "end": 163.44,
+    "speaker": "彥君",
+    "text": "還會擋沙",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 163.64,
+    "end": 166.55,
+    "speaker": "曉臻",
+    "text": "沙子全部被卡在山上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 166.75,
+    "end": 169.35,
+    "speaker": "曉臻",
+    "text": "那海邊就沒沙子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 169.55,
+    "end": 171.6,
+    "speaker": "曉臻",
+    "text": "可以補充了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 171.8,
+    "end": 178.94,
+    "speaker": "彥君",
+    "text": "建水庫擋沙海岸線退縮",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "建水庫擋沙海岸線退縮"
+    ]
+  },
+  {
+    "start": 178.94,
+    "end": 180.99,
+    "speaker": "彥君",
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 181.19,
+    "end": 183.55,
+    "speaker": "彥君",
+    "text": "這三個原因",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 183.75,
+    "end": 186.09,
+    "speaker": "彥君",
+    "text": "一定要記熟喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 186.29,
+    "end": 188.41,
+    "speaker": "彥君",
+    "text": "戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 188.61,
+    "end": 191.71,
+    "speaker": "彥君",
+    "text": "請閉上眼睛想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 191.91,
+    "end": 194.97,
+    "speaker": "彥君",
+    "text": "蓋水庫會讓海岸線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 195.17,
+    "end": 197.55,
+    "speaker": "彥君",
+    "text": "往海裡延伸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 197.75,
+    "end": 200.45,
+    "speaker": "彥君",
+    "text": "還是往陸地退縮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 200.65,
+    "end": 203.18,
+    "speaker": "曉臻",
+    "text": "沙子都被沒收了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 203.38,
+    "end": 206.0,
+    "speaker": "曉臻",
+    "text": "當然是往陸地退縮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 206.2,
+    "end": 208.25,
+    "speaker": "彥君",
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 208.45,
+    "end": 211.38,
+    "speaker": "彥君",
+    "text": "這就是秒殺的直覺",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 211.58,
+    "end": 214.21,
+    "speaker": "彥君",
+    "text": "帶著這份底氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 214.41,
+    "end": 216.82,
+    "speaker": "彥君",
+    "text": "迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 217.02,
+    "end": 219.62,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 219.82,
+    "end": 222.15,
+    "speaker": "曉臻",
+    "text": "我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 222.35,
+    "end": 225.89,
     "speaker": "合聲",
-    "text": "河道海岸保平衡會考自然拿高分"
+    "text": "河岸平衡 考場稱神",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 156.8,
-    "end": 161.24,
+    "start": 226.09,
+    "end": 229.38,
     "speaker": "合聲",
-    "text": "戰士們 881我們下一關見"
+    "text": "戰士們 下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
