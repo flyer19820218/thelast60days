@@ -1,450 +1,455 @@
 [
   {
     "start": 0.0,
-    "end": 1.98,
+    "end": 4.14,
     "speaker": "彥君",
-    "text": "哈囉",
+    "text": "各位準備在理化拿滿分的會考戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.18,
-    "end": 5.45,
-    "speaker": "彥君",
-    "text": "各位即將衝 A 的",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 5.65,
-    "end": 8.1,
-    "speaker": "彥君",
-    "text": "會考戰士們",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 8.3,
-    "end": 10.9,
+    "start": 4.34,
+    "end": 6.94,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.1,
-    "end": 14.11,
-    "speaker": "彥君",
-    "text": "今天來到 第九十集",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 14.31,
-    "end": 16.05,
+    "start": 7.14,
+    "end": 9.42,
     "speaker": "曉臻",
-    "text": "大家好",
+    "text": "戰士們大家好",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.25,
-    "end": 18.58,
+    "start": 9.62,
+    "end": 11.96,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.78,
-    "end": 21.24,
+    "start": 12.16,
+    "end": 15.29,
     "speaker": "彥君",
-    "text": "戰士們注意",
+    "text": "歡迎來到第九十集",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 21.44,
-    "end": 24.52,
+    "start": 15.49,
+    "end": 19.98,
     "speaker": "彥君",
-    "text": "右邊 這個活性表格",
+    "text": "戰士們注意右邊這個金屬活性表格",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 24.72,
-    "end": 27.46,
+    "start": 20.18,
+    "end": 23.7,
     "speaker": "彥君",
-    "text": "必須 倒背如流",
+    "text": "上考場前必須倒背如流",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.66,
-    "end": 30.86,
+    "start": 23.9,
+    "end": 27.96,
     "speaker": "曉臻",
-    "text": "老師 上面好多空格",
+    "text": "老師這表格上面有好多空格耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 31.06,
-    "end": 34.14,
+    "start": 28.16,
+    "end": 32.58,
     "speaker": "彥君",
-    "text": "我們現在 就來填滿它",
+    "text": "沒問題我們現在就來一步步填滿它",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 34.34,
-    "end": 37.35,
+    "start": 32.78,
+    "end": 35.96,
     "speaker": "曉臻",
-    "text": "第一排 鉀鈉鈣鎂鋁",
+    "text": "第一排是鉀鈉鈣鎂鋁",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 37.55,
-    "end": 64.57,
+    "start": 36.16,
+    "end": 64.54,
     "speaker": "彥君",
-    "text": "$K > Na > Ca > Mg > Al$",
+    "text": "$$K > Na > Ca > Mg > Al$$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "$$K > Na > Ca > Mg > Al$$"
+    ]
   },
   {
-    "start": 41.05,
-    "end": 44.27,
+    "start": 39.66,
+    "end": 43.19,
     "speaker": "曉臻",
-    "text": "第二排 碳鋅鐵錫鉛氫",
+    "text": "第二排是碳鋅鉻鐵錫鉛氫",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 44.47,
-    "end": 64.57,
+    "start": 43.39,
+    "end": 64.54,
     "speaker": "彥君",
-    "text": "$C > Zn > Cr > Fe > Sn > Pb > H$",
+    "text": "$$C > Zn > Cr > Fe > Sn > Pb > H$$",
     "is_pinned": true,
-    "pin_level": 2
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "$$C > Zn > Cr > Fe > Sn > Pb > H$$"
+    ]
   },
   {
-    "start": 48.4,
-    "end": 51.36,
+    "start": 47.32,
+    "end": 50.52,
     "speaker": "曉臻",
-    "text": "第三排 銅汞銀鉑金",
+    "text": "第三排是銅汞銀鉑金",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 51.56,
-    "end": 64.57,
+    "start": 50.72,
+    "end": 64.54,
     "speaker": "彥君",
-    "text": "$Cu > Hg > Ag > Pt > Au$",
+    "text": "$$Cu > Hg > Ag > Pt > Au$$",
     "is_pinned": true,
-    "pin_level": 3
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "$$Cu > Hg > Ag > Pt > Au$$"
+    ]
   },
   {
-    "start": 55.15,
-    "end": 57.94,
+    "start": 54.31,
+    "end": 57.27,
     "speaker": "彥君",
-    "text": "助教 背得非常熟",
+    "text": "助教背得非常熟練",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 58.14,
-    "end": 61.37,
+    "start": 57.47,
+    "end": 61.34,
     "speaker": "彥君",
-    "text": "戰士們 快抄起來",
+    "text": "戰士們趕快把代號抄起來",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 64.57,
-    "end": 67.58,
+    "start": 64.54,
+    "end": 67.82,
     "speaker": "彥君",
-    "text": "接著 來看左邊重點",
+    "text": "接著我們來看左邊的重點",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 67.78,
-    "end": 70.18,
+    "start": 68.02,
+    "end": 70.69,
     "speaker": "彥君",
-    "text": "什麼是 氧化",
+    "text": "到底什麼是氧化",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 70.38,
-    "end": 72.48,
+    "start": 70.89,
+    "end": 74.66,
     "speaker": "曉臻",
-    "text": "就是 得到氧",
+    "text": "這個我知道就是得到氧",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 72.68,
-    "end": 75.04,
+    "start": 74.86,
+    "end": 77.37,
     "speaker": "曉臻",
-    "text": "或是 失去電子",
+    "text": "或者是失去電子",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 75.24,
-    "end": 79.95,
+    "start": 77.57,
+    "end": 82.45,
     "speaker": "彥君",
-    "text": "沒錯 那還原 剛好相反",
+    "text": "沒錯那還原就剛好相反",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 80.15,
-    "end": 82.56,
+    "start": 82.65,
+    "end": 86.62,
     "speaker": "曉臻",
-    "text": "還原 是失去氧",
+    "text": "還原是失去氧或者是得到電子",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 82.76,
-    "end": 85.07,
-    "speaker": "曉臻",
-    "text": "或是 得到電子",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 85.27,
-    "end": 88.69,
+    "start": 86.82,
+    "end": 89.56,
     "speaker": "彥君",
-    "text": "記住 氧化跟還原",
+    "text": "記住一個大鐵則",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 88.89,
-    "end": 91.49,
+    "start": 89.76,
+    "end": 93.63,
     "speaker": "彥君",
-    "text": "一定會 一起發生",
+    "text": "氧化跟還原一定會同時發生",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 91.69,
-    "end": 94.7,
+    "start": 93.83,
+    "end": 97.54,
     "speaker": "彥君",
-    "text": "我們看 下面的方程式",
+    "text": "我們來看下面這個經典方程式",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 94.9,
-    "end": 97.83,
+    "start": 97.74,
+    "end": 100.67,
     "speaker": "彥君",
-    "text": "鎂 加上二氧化碳",
+    "text": "鎂加上二氧化碳",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 98.03,
-    "end": 100.54,
+    "start": 100.87,
+    "end": 103.95,
     "speaker": "曉臻",
-    "text": "鎂 變成了氧化鎂",
+    "text": "鎂反應後變成了氧化鎂",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 100.74,
-    "end": 103.19,
+    "start": 104.15,
+    "end": 107.16,
     "speaker": "曉臻",
-    "text": "它 把氧搶過來了",
+    "text": "代表它把氧給搶過來了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 103.39,
-    "end": 106.33,
+    "start": 107.36,
+    "end": 112.38,
     "speaker": "彥君",
-    "text": "所以 鎂發生了氧化",
+    "text": "漂亮所以鎂發生了氧化反應",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 106.53,
-    "end": 108.62,
+    "start": 112.58,
+    "end": 116.05,
     "speaker": "曉臻",
-    "text": "那 二氧化碳",
+    "text": "那二氧化碳失去氧變成了碳",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 108.82,
-    "end": 111.4,
+    "start": 116.25,
+    "end": 119.16,
     "speaker": "曉臻",
-    "text": "失去氧 變成了碳",
+    "text": "就是發生還原反應囉",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 111.6,
-    "end": 114.01,
-    "speaker": "曉臻",
-    "text": "就是 發生還原",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 114.21,
-    "end": 116.59,
+    "start": 119.36,
+    "end": 121.74,
     "speaker": "彥君",
     "text": "完全正確",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 116.79,
-    "end": 119.85,
+    "start": 121.94,
+    "end": 125.48,
     "speaker": "彥君",
-    "text": "為什麼 鎂可以搶走氧",
+    "text": "可是為什麼鎂可以把氧搶走啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 120.05,
-    "end": 122.26,
+    "start": 125.68,
+    "end": 129.07,
     "speaker": "曉臻",
-    "text": "因為 鎂的活性",
+    "text": "因為鎂的活性比碳還要大",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 122.46,
-    "end": 124.61,
+    "start": 129.27,
+    "end": 132.59,
+    "speaker": "彥君",
+    "text": "戰士們隨堂考來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 132.79,
+    "end": 135.87,
+    "speaker": "彥君",
+    "text": "如果我們把鎂換成銅",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 136.07,
+    "end": 140.16,
+    "speaker": "彥君",
+    "text": "丟進二氧化碳裡面會發生反應嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 140.36,
+    "end": 142.26,
     "speaker": "曉臻",
-    "text": "比碳 還要大",
+    "text": "我想想喔...",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 124.81,
-    "end": 128.13,
-    "speaker": "彥君",
-    "text": "戰士們 隨堂考來了",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 128.33,
-    "end": 131.24,
-    "speaker": "彥君",
-    "text": "如果 把鎂換成銅",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 131.44,
-    "end": 134.16,
-    "speaker": "彥君",
-    "text": "丟進 二氧化碳裡",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 134.36,
-    "end": 136.84,
-    "speaker": "彥君",
-    "text": "會發生 反應嗎",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 137.04,
-    "end": 138.78,
+    "start": 142.46,
+    "end": 146.65,
     "speaker": "曉臻",
-    "text": "我想想...",
+    "text": "銅的活性排在很後面比碳還要小",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 138.98,
-    "end": 141.48,
+    "start": 146.85,
+    "end": 149.76,
     "speaker": "曉臻",
-    "text": "銅的活性 比碳小",
+    "text": "所以它根本搶不走氧",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 141.68,
-    "end": 144.06,
-    "speaker": "曉臻",
-    "text": "所以 搶不走氧",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 144.26,
-    "end": 148.57,
+    "start": 149.96,
+    "end": 154.46,
     "speaker": "彥君",
-    "text": "答對了 完全不反應",
+    "text": "答對了完全不會反應",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 148.77,
-    "end": 9999.0,
+    "start": 154.66,
+    "end": 167.58,
     "speaker": "彥君",
-    "text": "$Cu + CO_2 \\rightarrow \\text{不反應}$",
+    "text": "$$Cu + CO_2 \\rightarrow$$ 不反應",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "$$Cu + CO_2 \\rightarrow$$ 不反應"
+    ]
   },
   {
-    "start": 152.89,
-    "end": 156.52,
+    "start": 159.04,
+    "end": 164.38,
     "speaker": "曉臻",
-    "text": "哇 這樣觀念 超清楚",
+    "text": "哇用搶氧大戰來記觀念超級清楚耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 156.72,
-    "end": 160.16,
+    "start": 167.58,
+    "end": 171.42,
     "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
+    "text": "觀念一旦打通大考直接秒殺",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 160.36,
-    "end": 162.96,
+    "start": 171.62,
+    "end": 174.22,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 163.16,
-    "end": 165.5,
+    "start": 174.42,
+    "end": 176.76,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 165.7,
-    "end": 169.11,
+    "start": 176.96,
+    "end": 180.38,
     "speaker": "合聲",
-    "text": "搶氧大戰 活性來判",
+    "text": "搶氧大戰活性來判",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 169.31,
-    "end": 172.85,
+    "start": 180.58,
+    "end": 184.11,
     "speaker": "合聲",
-    "text": "戰士們 我們頂峰相見",
+    "text": "戰士們我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
