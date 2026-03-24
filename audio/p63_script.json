@@ -1,206 +1,545 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 5.1,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 每天堅持努力一點點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.86,
+    "start": 5.3,
+    "end": 8.9,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的會考戰士們 我是彥君老師"
+    "text": "累積起來就會是會考大躍進",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.86,
-    "end": 11.39,
+    "start": 9.1,
+    "end": 12.3,
     "speaker": "彥君",
-    "text": "今天來到 第六十三集"
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$A$"
+    ]
   },
   {
-    "start": 11.39,
-    "end": 14.6,
+    "start": 12.5,
+    "end": 16.04,
     "speaker": "彥君",
-    "text": "物理與化學的 變化"
+    "text": "恭喜大家來到第六十三集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 14.6,
-    "end": 18.1,
+    "start": 16.24,
+    "end": 19.75,
+    "speaker": "彥君",
+    "text": "戰士們好 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 19.95,
+    "end": 23.25,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教"
+    "text": "大家好啊 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.1,
-    "end": 22.66,
+    "start": 23.45,
+    "end": 27.3,
+    "speaker": "彥君",
+    "text": "今天要拿理化最佛心送分題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 27.5,
+    "end": 30.84,
+    "speaker": "彥君",
+    "text": "也就是物理與化學的變化",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 31.04,
+    "end": 34.22,
     "speaker": "曉臻",
-    "text": "老師 講義上寫 物理變化 本質不變"
+    "text": "老師講義寫著物理的變化",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.66,
-    "end": 25.36,
+    "start": 34.42,
+    "end": 37.62,
     "speaker": "曉臻",
-    "text": "這是什麼意思啊"
+    "text": "說它的本質是不會改變的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 25.36,
-    "end": 30.02,
-    "speaker": "彥君",
-    "text": "物理變化 就像是 換衣服 或是 變換姿勢"
-  },
-  {
-    "start": 30.02,
-    "end": 35.03,
-    "speaker": "彥君",
-    "text": "比如 冰塊融化成水、 或是糖 溶解 在水裡"
-  },
-  {
-    "start": 35.03,
-    "end": 40.3,
-    "speaker": "彥君",
-    "text": "雖然外觀變了 但水還是水、 糖還是糖"
-  },
-  {
-    "start": 40.3,
-    "end": 44.02,
-    "speaker": "彥君",
-    "text": "沒有產生 任何新的東西"
-  },
-  {
-    "start": 44.02,
-    "end": 46.66,
+    "start": 37.82,
+    "end": 40.82,
     "speaker": "曉臻",
-    "text": "那化學變化呢"
+    "text": "這到底是什麼樣的意思啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 46.66,
-    "end": 51.28,
+    "start": 41.02,
+    "end": 44.49,
+    "speaker": "彥君",
+    "text": "戰士們用這個方式想最快",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 44.69,
+    "end": 48.34,
+    "speaker": "彥君",
+    "text": "物理變化就像是換了套衣服",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 48.54,
+    "end": 52.1,
+    "speaker": "彥君",
+    "text": "或者是單純變換一下姿勢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 52.3,
+    "end": 55.94,
+    "speaker": "彥君",
+    "text": "比如說冰塊受熱融化成水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 56.14,
+    "end": 59.58,
+    "speaker": "彥君",
+    "text": "或是把糖溶解在白開水裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 59.78,
+    "end": 63.24,
+    "speaker": "彥君",
+    "text": "雖然它的外觀看起來變了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 63.44,
+    "end": 67.19,
+    "speaker": "彥君",
+    "text": "但是水還是水糖也還是糖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 67.39,
+    "end": 71.07,
+    "speaker": "彥君",
+    "text": "完全沒有產生任何新物質",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 71.27,
+    "end": 78.15,
+    "speaker": "彥君",
+    "text": "物理變化本質不變無新物質",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 78.15,
+    "end": 81.33,
     "speaker": "曉臻",
-    "text": "講義說 原子重新排列 產生新物質"
+    "text": "老師那化學變化的定義呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 51.28,
-    "end": 57.38,
-    "speaker": "彥君",
-    "text": "沒錯 化學變化 就像是 去動了 整形手術"
-  },
-  {
-    "start": 57.38,
-    "end": 61.26,
-    "speaker": "彥君",
-    "text": "像是 燃燒紙張 變成灰燼"
-  },
-  {
-    "start": 61.26,
-    "end": 66.03,
-    "speaker": "彥君",
-    "text": "或是 把大理石 丟進酸裡面 製造二氧化碳"
-  },
-  {
-    "start": 66.03,
-    "end": 70.23,
-    "speaker": "彥君",
-    "text": "東西完全不一樣了 根本 回不去啦"
-  },
-  {
-    "start": 70.23,
-    "end": 74.64,
+    "start": 81.53,
+    "end": 84.9,
     "speaker": "曉臻",
-    "text": "老師 那下面的 「性質」 又是什麼"
+    "text": "講義寫著原子會重新排列",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 74.64,
-    "end": 78.55,
-    "speaker": "彥君",
-    "text": "性質就是 它們的「特色」"
-  },
-  {
-    "start": 78.55,
-    "end": 82.67,
-    "speaker": "彥君",
-    "text": "物理性質 是用 儀器量出來的"
-  },
-  {
-    "start": 82.67,
-    "end": 87.08,
-    "speaker": "彥君",
-    "text": "像 長度、 密度、 或是 熔點"
-  },
-  {
-    "start": 87.08,
-    "end": 92.07,
-    "speaker": "彥君",
-    "text": "化學性質 則是 發生化學變化時的 現象"
-  },
-  {
-    "start": 92.07,
-    "end": 96.08,
-    "speaker": "彥君",
-    "text": "像是 酸鹼性 或是 燃點"
-  },
-  {
-    "start": 96.08,
-    "end": 100.15,
+    "start": 85.1,
+    "end": 88.42,
     "speaker": "曉臻",
-    "text": "本質不變 例如 熔化、 溶解"
+    "text": "並且還會產生出新的物質",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 100.15,
-    "end": 104.52,
-    "speaker": "曉臻",
-    "text": "產生新物質 例如 燃燒、 生鏽"
-  },
-  {
-    "start": 104.52,
-    "end": 109.1,
-    "speaker": "曉臻",
-    "text": "儀器量的是 物理 產生反應的是 化學"
-  },
-  {
-    "start": 109.1,
-    "end": 113.58,
+    "start": 88.62,
+    "end": 93.33,
     "speaker": "彥君",
-    "text": "把一張白紙 撕成兩半 是什麼變化"
+    "text": "沒錯 發生了化學的變化",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 113.58,
-    "end": 118.09,
-    "speaker": "曉臻",
-    "text": "紙撕破了 還是紙 沒有變成別的東西"
-  },
-  {
-    "start": 118.09,
-    "end": 120.96,
-    "speaker": "曉臻",
-    "text": "所以是 物理變化"
-  },
-  {
-    "start": 120.96,
-    "end": 125.78,
+    "start": 93.53,
+    "end": 97.06,
     "speaker": "彥君",
-    "text": "漂亮 觀念非常清楚"
+    "text": "就像是跑去動了整形手術",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 125.78,
-    "end": 128.68,
+    "start": 97.26,
+    "end": 100.94,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "像是把紙張燃燒變成灰燼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.68,
-    "end": 131.32,
+    "start": 101.14,
+    "end": 104.73,
+    "speaker": "彥君",
+    "text": "把大理石丟進強酸水裡面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 104.93,
+    "end": 108.63,
+    "speaker": "彥君",
+    "text": "製造出 $\\text{CO}_2$ 氣體出來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$\\text{CO}_2$"
+    ]
+  },
+  {
+    "start": 108.83,
+    "end": 112.34,
+    "speaker": "彥君",
+    "text": "東西完全不一樣根本回不去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 112.54,
+    "end": 119.59,
+    "speaker": "彥君",
+    "text": "化學變化原子重排生新物質",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 119.59,
+    "end": 122.77,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "老師那講義下面的性質呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 131.32,
-    "end": 135.01,
+    "start": 122.97,
+    "end": 126.02,
+    "speaker": "曉臻",
+    "text": "這兩個字到底又是什麼啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 126.22,
+    "end": 129.93,
+    "speaker": "彥君",
+    "text": "性質其實就是它們的特色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 130.13,
+    "end": 133.71,
+    "speaker": "彥君",
+    "text": "物理性質是用儀器量出來的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 133.91,
+    "end": 137.5,
+    "speaker": "彥君",
+    "text": "像是長度密度或者是熔點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 137.7,
+    "end": 144.48,
+    "speaker": "彥君",
+    "text": "物理性質是用測量儀器量出",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 144.48,
+    "end": 148.16,
+    "speaker": "彥君",
+    "text": "化學性質則是化學變化時",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 148.36,
+    "end": 151.97,
+    "speaker": "彥君",
+    "text": "所表現出來的特性或現象",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 152.17,
+    "end": 155.82,
+    "speaker": "彥君",
+    "text": "像是酸鹼性或者是看燃點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 156.02,
+    "end": 163.12,
+    "speaker": "彥君",
+    "text": "化學性質是發生變化時現象",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 163.12,
+    "end": 166.61,
+    "speaker": "曉臻",
+    "text": "戰士們 快速複習必考點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 166.81,
+    "end": 170.08,
+    "speaker": "曉臻",
+    "text": "第一 物理變化本質不變",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 170.28,
+    "end": 173.79,
+    "speaker": "曉臻",
+    "text": "例如冰塊熔化和糖水溶解",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 173.99,
+    "end": 177.48,
+    "speaker": "曉臻",
+    "text": "第二 化學變化生新物質",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 177.68,
+    "end": 181.07,
+    "speaker": "曉臻",
+    "text": "例如紙張燃燒和鐵釘生鏽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 181.27,
+    "end": 184.88,
+    "speaker": "曉臻",
+    "text": "第三 儀器能量出物理性質",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 185.08,
+    "end": 188.4,
+    "speaker": "曉臻",
+    "text": "會產生反應的叫化學性質",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 188.6,
+    "end": 191.75,
+    "speaker": "彥君",
+    "text": "戰士們閉上眼想一想喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 191.95,
+    "end": 195.3,
+    "speaker": "彥君",
+    "text": "如果把一張白紙撕成兩半",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 195.5,
+    "end": 198.72,
+    "speaker": "彥君",
+    "text": "請問這到底是什麼變化呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 198.92,
+    "end": 202.14,
+    "speaker": "曉臻",
+    "text": "白紙撕破了它還是一張紙",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 202.34,
+    "end": 205.5,
+    "speaker": "曉臻",
+    "text": "並沒有變成別的全新東西",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 205.7,
+    "end": 208.85,
+    "speaker": "曉臻",
+    "text": "所以這當然是物理變化啦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 209.05,
+    "end": 214.02,
+    "speaker": "彥君",
+    "text": "漂亮 觀念非常清楚正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 214.22,
+    "end": 217.5,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 217.7,
+    "end": 221.18,
+    "speaker": "彥君",
+    "text": "戰士們 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 221.38,
+    "end": 224.68,
+    "speaker": "曉臻",
+    "text": "大家好啊 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 224.88,
+    "end": 228.27,
     "speaker": "合聲",
-    "text": "本質不變 化學換面"
+    "text": "本質不變 化學換面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 135.01,
-    "end": 139.04,
+    "start": 228.47,
+    "end": 232.2,
     "speaker": "合聲",
-    "text": "保持戰鬥力 繼續向前衝"
+    "text": "保持戰鬥力 繼續向前衝",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
