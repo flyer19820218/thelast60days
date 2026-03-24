@@ -1,442 +1,501 @@
 [
   {
     "start": 0.0,
-    "end": 1.98,
+    "end": 4.66,
     "speaker": "彥君",
-    "text": "哈囉",
+    "text": "戰士們 咬緊牙關往前衝",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.18,
-    "end": 5.45,
+    "start": 4.86,
+    "end": 8.42,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的",
+    "text": "剩最後一段路我們絕不放棄",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 5.65,
-    "end": 8.1,
+    "start": 8.62,
+    "end": 12.33,
     "speaker": "彥君",
-    "text": "會考戰士們",
+    "text": "各位準備衝向 $A^{++}$ 的戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$A^{++}$"
+    ]
   },
   {
-    "start": 8.3,
-    "end": 10.9,
+    "start": 12.53,
+    "end": 16.14,
+    "speaker": "彥君",
+    "text": "恭喜大家來到第一百零三集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 16.34,
+    "end": 18.94,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.1,
-    "end": 14.33,
-    "speaker": "彥君",
-    "text": "今天來到 第 103 集",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 14.53,
-    "end": 16.26,
+    "start": 19.14,
+    "end": 22.34,
     "speaker": "曉臻",
-    "text": "大家好",
+    "text": "大家好 我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.46,
-    "end": 18.8,
+    "start": 22.54,
+    "end": 26.19,
+    "speaker": "彥君",
+    "text": "戰士們請把注意力集中過來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 26.39,
+    "end": 29.86,
+    "speaker": "彥君",
+    "text": "這集要講理化必考的摩擦力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 30.06,
+    "end": 33.54,
+    "speaker": "彥君",
+    "text": "這裡有超多必殺的圖表陷阱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 33.74,
+    "end": 37.38,
     "speaker": "曉臻",
-    "text": "我是曉臻助教",
+    "text": "老師右邊畫的這張摩擦力圖表",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.0,
-    "end": 21.46,
-    "speaker": "彥君",
-    "text": "戰士們注意",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 21.66,
-    "end": 24.45,
-    "speaker": "彥君",
-    "text": "這集 要講摩擦力",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 24.65,
-    "end": 27.7,
-    "speaker": "彥君",
-    "text": "這裡有 必殺陷阱題",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 27.9,
-    "end": 30.74,
-    "speaker": "曉臻",
-    "text": "老師 右邊的圖表",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 30.94,
-    "end": 33.57,
-    "speaker": "曉臻",
-    "text": "一開始 是一條斜線",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 33.77,
-    "end": 38.17,
-    "speaker": "彥君",
-    "text": "沒錯 只要物體沒動",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 38.37,
+    "start": 37.58,
     "end": 40.92,
-    "speaker": "彥君",
-    "text": "這條 斜直線",
+    "speaker": "曉臻",
+    "text": "一開始是一條斜斜的直線耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 41.12,
-    "end": 43.72,
+    "end": 46.19,
     "speaker": "彥君",
-    "text": "就是 靜摩擦力",
+    "text": "沒錯 只要這個物體沒有被推動",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 43.92,
-    "end": 46.93,
+    "start": 46.39,
+    "end": 49.83,
+    "speaker": "彥君",
+    "text": "這條往上爬升的斜直線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 50.03,
+    "end": 53.33,
+    "speaker": "彥君",
+    "text": "就是我們所說的靜摩擦力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 53.53,
+    "end": 57.4,
     "speaker": "曉臻",
-    "text": "為什麼 角度是 45 度",
+    "text": "為什麼這條線的角度是 45 度啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 47.13,
-    "end": 49.99,
+    "start": 57.6,
+    "end": 61.3,
     "speaker": "彥君",
-    "text": "因為 只要物體靜止",
+    "text": "因為只要物體保持在靜止狀態",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 50.19,
-    "end": 52.91,
+    "start": 61.5,
+    "end": 65.4,
     "speaker": "彥君",
-    "text": "推力 等於摩擦力",
+    "text": "你的推力就剛好會等於摩擦力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 53.11,
-    "end": 100.06,
+    "start": 65.6,
+    "end": 123.88,
     "speaker": "彥君",
-    "text": "$\\text{靜止} \\rightarrow \\text{推力} = \\text{摩擦力}$",
+    "text": "① $\\text{靜止狀態} \\rightarrow \\text{推力} = \\text{靜摩擦力}$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "① $\\text{靜止狀態} \\rightarrow \\text{推力} = \\text{靜摩擦力}$"
+    ]
   },
   {
-    "start": 57.21,
-    "end": 60.38,
+    "start": 69.7,
+    "end": 74.1,
     "speaker": "曉臻",
-    "text": "喔 我推 5 公斤",
+    "text": "喔 所以如果我用力推了 5 公斤",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 60.58,
-    "end": 62.82,
+    "start": 74.3,
+    "end": 77.95,
     "speaker": "曉臻",
-    "text": "摩擦力 就是 5",
+    "text": "當時的摩擦力就剛好也是 5 囉",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 63.02,
-    "end": 67.11,
+    "start": 78.15,
+    "end": 83.03,
     "speaker": "彥君",
-    "text": "答對了 靜摩擦力",
+    "text": "答對了 所以靜摩擦力的大小",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 67.31,
-    "end": 70.15,
+    "start": 83.23,
+    "end": 86.62,
     "speaker": "彥君",
-    "text": "是 會跟著改變的",
+    "text": "它是會跟著你的推力改變的",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 70.35,
-    "end": 73.41,
+    "start": 86.82,
+    "end": 90.48,
     "speaker": "彥君",
-    "text": "一直推 到斜線頂點",
+    "text": "當你一直推到斜線的最高頂點",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 73.61,
-    "end": 76.14,
+    "start": 90.68,
+    "end": 94.0,
     "speaker": "彥君",
-    "text": "那一點 叫什麼",
+    "text": "戰士們那一點叫什麼名字",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 76.34,
-    "end": 79.03,
+    "start": 94.2,
+    "end": 97.35,
     "speaker": "曉臻",
-    "text": "叫做 最大靜摩擦力",
+    "text": "那個點叫做最大靜摩擦力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 79.23,
-    "end": 82.05,
+    "start": 97.55,
+    "end": 101.38,
     "speaker": "彥君",
-    "text": "突破 這一點之後",
+    "text": "只要順利突破了這個最高點之後",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 82.25,
-    "end": 85.06,
+    "start": 101.58,
+    "end": 105.3,
     "speaker": "彥君",
-    "text": "物體 就開始滑動了",
+    "text": "物體就會瞬間開始往前滑動了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 85.26,
-    "end": 88.03,
+    "start": 105.5,
+    "end": 109.11,
     "speaker": "曉臻",
-    "text": "滑動之後 的水平線",
+    "text": "開始滑動之後的那一條水平線",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 88.23,
-    "end": 90.5,
+    "start": 109.31,
+    "end": 112.63,
     "speaker": "曉臻",
-    "text": "就是 動摩擦力",
+    "text": "就是所謂的動摩擦力對不對",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 90.7,
-    "end": 93.61,
+    "start": 112.83,
+    "end": 116.61,
     "speaker": "彥君",
-    "text": "助教 觀察很敏銳",
+    "text": "助教觀察非常敏銳觀念正確",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 93.81,
-    "end": 96.86,
+    "start": 116.81,
+    "end": 123.88,
     "speaker": "彥君",
-    "text": "給你們 3 秒鐘看圖",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 100.06,
-    "end": 102.71,
-    "speaker": "彥君",
-    "text": "接下來 看左邊",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 102.91,
-    "end": 105.51,
-    "speaker": "彥君",
-    "text": "什麼 是正向力",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 105.71,
-    "end": 107.09,
-    "speaker": "曉臻",
-    "text": "講義 寫著代號 $N$",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 107.29,
-    "end": 109.65,
-    "speaker": "曉臻",
-    "text": "是讓 兩個物體",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 109.85,
-    "end": 112.28,
-    "speaker": "曉臻",
-    "text": "夾在一起 的力量",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 112.48,
-    "end": 115.66,
-    "speaker": "彥君",
-    "text": "想像一下 壓著橡皮擦",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 115.86,
-    "end": 118.77,
-    "speaker": "彥君",
-    "text": "你往下 壓得越大力",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 118.97,
-    "end": 121.86,
-    "speaker": "彥君",
-    "text": "是不是 越難往前推",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 122.06,
-    "end": 125.28,
-    "speaker": "曉臻",
-    "text": "真的耶 壓越緊",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 125.48,
-    "end": 127.7,
-    "speaker": "曉臻",
-    "text": "就越難 推得動",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 127.9,
-    "end": 130.74,
-    "speaker": "彥君",
-    "text": "這就是 核心觀念",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 130.94,
-    "end": 133.82,
-    "speaker": "彥君",
-    "text": "正向力 越大的時候",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 134.02,
-    "end": 136.62,
-    "speaker": "彥君",
-    "text": "最大 靜摩擦力",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 136.82,
-    "end": 139.5,
-    "speaker": "彥君",
-    "text": "還有 動摩擦力",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 139.7,
-    "end": 142.25,
-    "speaker": "彥君",
-    "text": "都會 跟著變大喔",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 142.45,
-    "end": 9999.0,
-    "speaker": "彥君",
-    "text": "$N\\text{越大} \\rightarrow \\text{摩擦力變大}$",
+    "text": "② $\\text{突破最大值} \\rightarrow \\text{變成動摩擦力}$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "② $\\text{突破最大值} \\rightarrow \\text{變成動摩擦力}$"
+    ]
   },
   {
-    "start": 146.64,
-    "end": 150.27,
-    "speaker": "曉臻",
-    "text": "哇 用壓橡皮擦來想",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 150.47,
-    "end": 152.88,
-    "speaker": "曉臻",
-    "text": "瞬間 就秒懂了",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 153.08,
-    "end": 156.52,
+    "start": 123.88,
+    "end": 127.46,
     "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
+    "text": "接下來我們來看講義的左半邊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 156.72,
-    "end": 159.32,
+    "start": 127.66,
+    "end": 130.98,
+    "speaker": "彥君",
+    "text": "到底什麼東西叫做正向力啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 131.18,
+    "end": 134.58,
+    "speaker": "曉臻",
+    "text": "講義上面寫著它的代號是 $N$",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$N$"
+    ]
+  },
+  {
+    "start": 134.78,
+    "end": 138.43,
+    "speaker": "曉臻",
+    "text": "說是讓兩個物體緊緊夾在一起",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 138.63,
+    "end": 142.05,
+    "speaker": "曉臻",
+    "text": "互相垂直壓迫的那種力量耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 142.25,
+    "end": 146.1,
+    "speaker": "彥君",
+    "text": "戰士們想像一下用手壓著橡皮擦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 146.3,
+    "end": 149.83,
+    "speaker": "彥君",
+    "text": "如果你往下壓得越大力的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 150.03,
+    "end": 153.71,
+    "speaker": "彥君",
+    "text": "是不是就越難把它往前推動",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 153.91,
+    "end": 158.12,
+    "speaker": "曉臻",
+    "text": "真的耶 只要我往下壓得越緊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 158.32,
+    "end": 161.71,
+    "speaker": "曉臻",
+    "text": "橡皮擦就越難被我給推得動",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 161.91,
+    "end": 167.06,
+    "speaker": "彥君",
+    "text": "沒錯 這就是摩擦力的核心觀念",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 167.26,
+    "end": 170.6,
+    "speaker": "彥君",
+    "text": "當我們的正向力越大的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 170.8,
+    "end": 174.34,
+    "speaker": "彥君",
+    "text": "最大靜摩擦力以及動摩擦力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 174.54,
+    "end": 177.93,
+    "speaker": "彥君",
+    "text": "兩者的數值都會跟著變大喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 178.13,
+    "end": 185.46,
+    "speaker": "彥君",
+    "text": "③ $N \\text{ 越大} \\rightarrow \\text{摩擦力就會變大}$",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "③ $N \\text{ 越大} \\rightarrow \\text{摩擦力就會變大}$"
+    ]
+  },
+  {
+    "start": 185.46,
+    "end": 189.65,
+    "speaker": "曉臻",
+    "text": "哇 只要用壓橡皮擦來想像",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 189.85,
+    "end": 193.34,
+    "speaker": "曉臻",
+    "text": "這些抽象觀念瞬間就秒懂了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 193.54,
+    "end": 197.43,
+    "speaker": "彥君",
+    "text": "觀念全通了秒殺考題沒問題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 197.63,
+    "end": 200.9,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 201.1,
+    "end": 203.7,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 159.52,
-    "end": 161.86,
+    "start": 203.9,
+    "end": 206.24,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 162.06,
-    "end": 165.66,
+    "start": 206.44,
+    "end": 210.05,
     "speaker": "合聲",
     "text": "靜止相抵 正向無敵",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 165.86,
-    "end": 169.4,
+    "start": 210.25,
+    "end": 213.78,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
