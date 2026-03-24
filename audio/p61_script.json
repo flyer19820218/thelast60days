@@ -1,284 +1,743 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 4.4,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們辛苦了 準備好了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.86,
+    "start": 4.6,
+    "end": 7.8,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的會考戰士們 我是彥君老師"
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$A$"
+    ]
   },
   {
-    "start": 7.86,
-    "end": 11.34,
+    "start": 8.0,
+    "end": 11.49,
     "speaker": "彥君",
-    "text": "今天來到 第六十一集"
+    "text": "恭喜大家來到第六十一集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.34,
-    "end": 14.12,
+    "start": 11.69,
+    "end": 15.2,
     "speaker": "彥君",
-    "text": "測量與誤差"
+    "text": "戰士們好 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 14.12,
-    "end": 17.62,
+    "start": 15.4,
+    "end": 18.7,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教"
+    "text": "大家好啊 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 17.62,
-    "end": 22.56,
+    "start": 18.9,
+    "end": 22.31,
+    "speaker": "彥君",
+    "text": "戰士們請特別注意聽好囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 22.51,
+    "end": 26.1,
+    "speaker": "彥君",
+    "text": "今天要進入理化的計算基礎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 26.3,
+    "end": 29.64,
+    "speaker": "彥君",
+    "text": "也就是測量與誤差單元",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 29.84,
+    "end": 34.48,
     "speaker": "曉臻",
-    "text": "老師 這張圖上的數字 一百二十三點四五"
+    "text": "老師 這張圖上的數字 $123.45$",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$123.45$"
+    ]
   },
   {
-    "start": 22.56,
-    "end": 26.66,
+    "start": 34.68,
+    "end": 37.69,
     "speaker": "曉臻",
-    "text": "為什麼 最後一個五 顏色不一樣啊"
+    "text": "為什麼最後面的這一個 $5$",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$5$"
+    ]
   },
   {
-    "start": 26.66,
-    "end": 31.46,
-    "speaker": "彥君",
-    "text": "想像一下 我們拿 一般的直尺 量鉛筆"
-  },
-  {
-    "start": 31.46,
-    "end": 35.89,
-    "speaker": "彥君",
-    "text": "直尺上 最小的刻度 是一公釐"
-  },
-  {
-    "start": 35.89,
-    "end": 40.93,
-    "speaker": "彥君",
-    "text": "如果鉛筆的長度 剛好卡在 兩個刻度中間"
-  },
-  {
-    "start": 40.93,
-    "end": 47.12,
-    "speaker": "彥君",
-    "text": "前面的 一百二十三點四 是我們眼睛 確定看到的 準確值"
-  },
-  {
-    "start": 47.12,
-    "end": 51.7,
-    "speaker": "彥君",
-    "text": "最後那個五 是我們用眼睛 猜出來的"
-  },
-  {
-    "start": 51.7,
-    "end": 55.87,
-    "speaker": "彥君",
-    "text": "只要是猜的 就叫做 估計值"
-  },
-  {
-    "start": 55.87,
-    "end": 59.78,
+    "start": 37.89,
+    "end": 41.04,
     "speaker": "曉臻",
-    "text": "喔 所以完整的測量"
+    "text": "它的顏色看起來不一樣啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 59.78,
-    "end": 64.43,
+    "start": 41.24,
+    "end": 44.44,
+    "speaker": "彥君",
+    "text": "戰士們仔細聽這個例子喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 44.64,
+    "end": 48.18,
+    "speaker": "彥君",
+    "text": "想像一下我們拿一般的直尺",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 48.38,
+    "end": 52.06,
+    "speaker": "彥君",
+    "text": "來測量這支鉛筆的實際長度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 52.26,
+    "end": 55.62,
+    "speaker": "彥君",
+    "text": "直尺上面最小的刻度單位",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 55.82,
+    "end": 59.14,
+    "speaker": "彥君",
+    "text": "假設它是一公釐的長度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 59.34,
+    "end": 62.9,
+    "speaker": "彥君",
+    "text": "如果鉛筆長度剛好卡在中間",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 63.1,
+    "end": 67.26,
+    "speaker": "彥君",
+    "text": "前面 $123.4$ 是確定看到的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$123.4$"
+    ]
+  },
+  {
+    "start": 67.46,
+    "end": 70.78,
+    "speaker": "彥君",
+    "text": "也就是我們所說的準確值喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 70.98,
+    "end": 74.06,
+    "speaker": "彥君",
+    "text": "最後面那個 $5$ 這個數字呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$5$"
+    ]
+  },
+  {
+    "start": 74.26,
+    "end": 77.75,
+    "speaker": "彥君",
+    "text": "是我們用眼睛去猜出來的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 77.95,
+    "end": 81.51,
+    "speaker": "彥君",
+    "text": "只要是猜的就叫做估計值",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 81.71,
+    "end": 88.59,
+    "speaker": "彥君",
+    "text": "完整測量包含一位估計值",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 88.59,
+    "end": 92.7,
     "speaker": "曉臻",
-    "text": "一定是 準確值 加上 「一位」的估計值"
+    "text": "喔我懂了 所以完整的測量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 64.43,
-    "end": 70.64,
-    "speaker": "彥君",
-    "text": "沒錯 既然有猜的成分 就一定會有 誤差"
-  },
-  {
-    "start": 70.64,
-    "end": 74.72,
-    "speaker": "彥君",
-    "text": "要減少誤差 最簡單的方法"
-  },
-  {
-    "start": 74.72,
-    "end": 79.18,
-    "speaker": "彥君",
-    "text": "就是 多量幾次 然後算 平均值"
-  },
-  {
-    "start": 79.18,
-    "end": 83.44,
+    "start": 92.9,
+    "end": 96.25,
     "speaker": "曉臻",
-    "text": "了解 那下面的 天平使用"
+    "text": "絕對是包含前面的準確值",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 83.44,
-    "end": 87.06,
+    "start": 96.45,
+    "end": 99.67,
     "speaker": "曉臻",
-    "text": "有什麼 會考愛出的陷阱題嗎"
+    "text": "加上最後一位的估計值囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 87.06,
-    "end": 91.24,
+    "start": 99.87,
+    "end": 104.06,
     "speaker": "彥君",
-    "text": "天平的 砝碼 絕對不能 用手拿"
+    "text": "沒錯 既然裡面有猜的成分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 91.24,
-    "end": 94.62,
+    "start": 104.26,
+    "end": 107.53,
     "speaker": "彥君",
-    "text": "因為我們 手上有汗水"
+    "text": "測量結果就一定會有誤差",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 94.62,
-    "end": 97.95,
+    "start": 107.73,
+    "end": 111.02,
     "speaker": "彥君",
-    "text": "會讓砝碼 生鏽變重"
+    "text": "要減少誤差最簡單方法",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 97.95,
-    "end": 103.92,
+    "start": 111.22,
+    "end": 114.66,
     "speaker": "彥君",
-    "text": "測出來的結果 就不準確了 一定要用 鑷子夾"
+    "text": "就是我們實際多測量個幾次",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 103.92,
-    "end": 107.25,
+    "start": 114.86,
+    "end": 118.47,
+    "speaker": "彥君",
+    "text": "然後把結果拿來算平均值",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 118.67,
+    "end": 125.31,
+    "speaker": "彥君",
+    "text": "減少誤差的方法是算平均",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 125.31,
+    "end": 129.28,
     "speaker": "曉臻",
-    "text": "哇 這陷阱很心機耶"
+    "text": "了解 那下面天平的使用",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 107.25,
-    "end": 110.54,
+    "start": 129.48,
+    "end": 132.61,
     "speaker": "曉臻",
-    "text": "那最後一項的 體積測量"
+    "text": "有什麼會考愛出的陷阱嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 110.54,
-    "end": 114.52,
+    "start": 132.81,
+    "end": 136.37,
+    "speaker": "彥君",
+    "text": "天平的砝碼這項測量工具",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 136.57,
+    "end": 139.86,
+    "speaker": "彥君",
+    "text": "絕對不可以直接用手去拿",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 140.06,
+    "end": 143.22,
+    "speaker": "彥君",
+    "text": "因為我們每個人的手上面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 143.42,
+    "end": 146.64,
+    "speaker": "彥君",
+    "text": "都會有看不到的微小汗水喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 146.84,
+    "end": 150.21,
+    "speaker": "彥君",
+    "text": "汗水會讓砝碼生鏽變重",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 150.41,
+    "end": 153.87,
+    "speaker": "彥君",
+    "text": "測量出來的結果就不準確了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 154.07,
+    "end": 157.63,
+    "speaker": "彥君",
+    "text": "所以一定要用鑷子來夾取",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 157.83,
+    "end": 164.57,
+    "speaker": "彥君",
+    "text": "防止生鏽拿砝碼必用鑷子",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 164.57,
+    "end": 168.27,
     "speaker": "曉臻",
-    "text": "什麼是 重錘法 跟 飽和溶液法啊"
+    "text": "哇 這個陷阱題真的好心機耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 114.52,
-    "end": 120.56,
-    "speaker": "彥君",
-    "text": "排水法 大家都會 但如果你要量 乒乓球"
-  },
-  {
-    "start": 120.56,
-    "end": 123.6,
-    "speaker": "彥君",
-    "text": "它會 浮在水面上啊"
-  },
-  {
-    "start": 123.6,
-    "end": 130.54,
-    "speaker": "彥君",
-    "text": "你就必須 綁一顆鐵塊 把它硬拉進水裡 這叫 重錘法"
-  },
-  {
-    "start": 130.54,
-    "end": 135.74,
-    "speaker": "彥君",
-    "text": "那如果你要量 一顆方糖 丟進水裡 就融化了"
-  },
-  {
-    "start": 135.74,
-    "end": 140.37,
-    "speaker": "彥君",
-    "text": "你就必須 把它丟進 「已經飽和的」 糖水裡"
-  },
-  {
-    "start": 140.37,
-    "end": 143.87,
-    "speaker": "彥君",
-    "text": "這樣方糖 就不會縮水啦"
-  },
-  {
-    "start": 143.87,
-    "end": 147.3,
+    "start": 168.47,
+    "end": 171.5,
     "speaker": "曉臻",
-    "text": "準確值 加上 一位估計值"
+    "text": "那最後一項的體積測量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 147.3,
-    "end": 150.15,
+    "start": 171.7,
+    "end": 174.98,
     "speaker": "曉臻",
-    "text": "多測幾次 算平均"
+    "text": "什麼是重錘法測量方式",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 150.15,
-    "end": 153.65,
+    "start": 175.18,
+    "end": 178.16,
     "speaker": "曉臻",
-    "text": "會生鏽 只能用 鑷子夾"
+    "text": "還有什麼飽和溶液法啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 153.65,
-    "end": 157.39,
-    "speaker": "曉臻",
-    "text": "會融化 要用 飽和糖水法"
-  },
-  {
-    "start": 157.39,
-    "end": 160.86,
+    "start": 178.36,
+    "end": 181.7,
     "speaker": "彥君",
-    "text": "一百二十三點四五 公分"
+    "text": "這個也是超愛考的活用題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 160.86,
-    "end": 165.61,
+    "start": 181.9,
+    "end": 185.39,
     "speaker": "彥君",
-    "text": "請問 這個測量儀器 最小刻度 是多少"
+    "text": "排水法測量大家都一定會",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 165.61,
-    "end": 169.74,
-    "speaker": "曉臻",
-    "text": "倒數第二位 就是準確的最後一位"
-  },
-  {
-    "start": 169.74,
-    "end": 172.76,
-    "speaker": "曉臻",
-    "text": "所以是 零點一 公分"
-  },
-  {
-    "start": 172.76,
-    "end": 176.09,
-    "speaker": "曉臻",
-    "text": "也就是 最小刻度 一公釐"
-  },
-  {
-    "start": 176.09,
-    "end": 180.88,
+    "start": 185.59,
+    "end": 188.91,
     "speaker": "彥君",
-    "text": "漂亮 觀念完全命中"
+    "text": "但如果你要測量乒乓球",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 180.88,
-    "end": 183.78,
+    "start": 189.11,
+    "end": 192.17,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "它一定會浮在水面上啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 183.78,
-    "end": 186.42,
+    "start": 192.37,
+    "end": 195.95,
+    "speaker": "彥君",
+    "text": "妳就必須在下面綁顆鐵塊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 196.15,
+    "end": 199.42,
+    "speaker": "彥君",
+    "text": "把它硬拉進去水面底下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 199.62,
+    "end": 202.78,
+    "speaker": "彥君",
+    "text": "這個方法就叫重錘法",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 202.98,
+    "end": 209.69,
+    "speaker": "彥君",
+    "text": "測量浮體必須使用重錘法",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 209.69,
+    "end": 212.96,
+    "speaker": "彥君",
+    "text": "那如果你要量一顆方糖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 213.16,
+    "end": 216.72,
+    "speaker": "彥君",
+    "text": "丟進水裡面它就直接融化了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 216.92,
+    "end": 220.34,
+    "speaker": "彥君",
+    "text": "你就必須把它給丟進去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 220.54,
+    "end": 223.98,
+    "speaker": "彥君",
+    "text": "已經完全飽和的糖水裡面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 224.18,
+    "end": 227.38,
+    "speaker": "彥君",
+    "text": "這樣方糖就不會縮小啦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 227.58,
+    "end": 234.17,
+    "speaker": "彥君",
+    "text": "測會溶物體用飽和溶液法",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 234.17,
+    "end": 237.66,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "戰士們 快速複習必考點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 186.42,
-    "end": 190.06,
+    "start": 237.86,
+    "end": 241.22,
+    "speaker": "曉臻",
+    "text": "第一 準確加上一位估計",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 241.42,
+    "end": 245.1,
+    "speaker": "曉臻",
+    "text": "第二 多測量幾次算平均值",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 245.3,
+    "end": 248.7,
+    "speaker": "曉臻",
+    "text": "第三 拿砝碼只能用鑷子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 248.9,
+    "end": 252.48,
+    "speaker": "曉臻",
+    "text": "第四 怕融化用飽和溶液法",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 252.68,
+    "end": 255.83,
+    "speaker": "彥君",
+    "text": "戰士們閉上眼想一想喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 256.03,
+    "end": 259.71,
+    "speaker": "彥君",
+    "text": "$123.45 \\text{ cm}$ 的紀錄",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$123.45 \\text{ cm}$"
+    ]
+  },
+  {
+    "start": 259.91,
+    "end": 263.28,
+    "speaker": "彥君",
+    "text": "請問這個測量儀器上面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 263.48,
+    "end": 266.61,
+    "speaker": "彥君",
+    "text": "最小刻度到底是多少呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 266.81,
+    "end": 269.74,
+    "speaker": "曉臻",
+    "text": "倒數的第二位那個數字",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 269.94,
+    "end": 273.34,
+    "speaker": "曉臻",
+    "text": "也就是 $4$ 那個準確最後一位",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$4$"
+    ]
+  },
+  {
+    "start": 273.54,
+    "end": 276.59,
+    "speaker": "曉臻",
+    "text": "所以答案是 $0.1 \\text{ cm}$",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$0.1 \\text{ cm}$"
+    ]
+  },
+  {
+    "start": 276.79,
+    "end": 279.82,
+    "speaker": "曉臻",
+    "text": "也就是最小刻度 $1 \\text{ mm}$",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$1 \\text{ mm}$"
+    ]
+  },
+  {
+    "start": 280.02,
+    "end": 284.93,
+    "speaker": "彥君",
+    "text": "漂亮 實驗觀念完全命中",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 285.13,
+    "end": 288.4,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 288.6,
+    "end": 292.09,
+    "speaker": "彥君",
+    "text": "戰士們 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 292.29,
+    "end": 295.58,
+    "speaker": "曉臻",
+    "text": "大家好啊 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 295.78,
+    "end": 299.13,
     "speaker": "合聲",
-    "text": "估計一位 單位寫對"
+    "text": "估計一位 單位寫對",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 190.06,
-    "end": 194.09,
+    "start": 299.33,
+    "end": 302.79,
     "speaker": "合聲",
-    "text": "自然科 Ａ加加 絕對沒問題"
+    "text": "自然科 $A^{++}$ 絕對沒問題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$A^{++}$"
+    ]
   }
 ]
