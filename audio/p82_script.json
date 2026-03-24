@@ -1,434 +1,455 @@
 [
   {
     "start": 0.0,
-    "end": 1.98,
+    "end": 4.14,
     "speaker": "彥君",
-    "text": "哈囉",
+    "text": "各位準備在理化拿高分的會考戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.18,
-    "end": 5.45,
-    "speaker": "彥君",
-    "text": "各位即將衝 A 的",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 5.65,
-    "end": 8.1,
-    "speaker": "彥君",
-    "text": "會考戰士們",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 8.3,
-    "end": 10.9,
+    "start": 4.34,
+    "end": 6.94,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.1,
-    "end": 14.33,
-    "speaker": "彥君",
-    "text": "今天來到 第八十二集",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 14.53,
-    "end": 16.26,
+    "start": 7.14,
+    "end": 9.42,
     "speaker": "曉臻",
-    "text": "大家好",
+    "text": "戰士們大家好",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.46,
-    "end": 18.8,
+    "start": 9.62,
+    "end": 11.96,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.0,
-    "end": 21.96,
+    "start": 12.16,
+    "end": 17.95,
+    "speaker": "彥君",
+    "text": "歡迎來到第八十二集熱量計算大公開",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 18.15,
+    "end": 21.81,
     "speaker": "曉臻",
-    "text": "老師 上面的公式",
+    "text": "老師講義上面的熱量公式",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.16,
-    "end": 24.66,
+    "start": 22.01,
+    "end": 25.16,
     "speaker": "曉臻",
-    "text": "看起來 好複雜喔",
+    "text": "看起來密密麻麻好複雜喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 24.86,
-    "end": 27.78,
+    "start": 25.36,
+    "end": 29.21,
     "speaker": "彥君",
-    "text": "戰士們 別怕",
+    "text": "戰士們別怕其實非常簡單",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.98,
-    "end": 31.13,
+    "start": 29.41,
+    "end": 33.4,
     "speaker": "彥君",
-    "text": "熱量 就是三個相乘",
+    "text": "熱量就是把三個東西全部相乘",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 31.33,
-    "end": 34.12,
+    "start": 33.6,
+    "end": 37.78,
     "speaker": "彥君",
-    "text": "質量 乘以比熱",
+    "text": "質量乘以比熱再乘以溫度變化",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 34.32,
-    "end": 37.14,
+    "start": 37.98,
+    "end": 98.06,
     "speaker": "彥君",
-    "text": "再乘以 溫度變化",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 37.34,
-    "end": 9999.0,
-    "speaker": "彥君",
-    "text": "\\Delta H = M \\times S \\times \\Delta T",
+    "text": "$$\\Delta H = M \\times S \\times \\Delta T$$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "$$\\Delta H = M \\times S \\times \\Delta T$$"
+    ]
   },
   {
-    "start": 41.29,
-    "end": 44.06,
+    "start": 41.46,
+    "end": 44.56,
     "speaker": "曉臻",
-    "text": "那下面 熱平衡的題目",
+    "text": "那下面熱平衡的計算題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 44.26,
-    "end": 46.81,
+    "start": 44.76,
+    "end": 48.42,
     "speaker": "曉臻",
-    "text": "我們 該怎麼列式子",
+    "text": "我們到底該怎麼列式子才不會錯",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 47.01,
-    "end": 49.8,
+    "start": 48.62,
+    "end": 52.32,
     "speaker": "彥君",
-    "text": "記住 一個大原則",
+    "text": "記住一個最重要的熱學大原則",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 50.0,
-    "end": 52.74,
+    "start": 52.52,
+    "end": 55.65,
     "speaker": "彥君",
-    "text": "高溫 放出來的熱",
+    "text": "高溫物體放出來的熱量",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 52.94,
-    "end": 55.86,
+    "start": 55.85,
+    "end": 59.36,
     "speaker": "彥君",
-    "text": "等於 低溫吸收的熱",
+    "text": "一定等於低溫物體吸收的熱量",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 56.06,
-    "end": 58.56,
+    "start": 59.56,
+    "end": 62.78,
     "speaker": "曉臻",
-    "text": "就像 哥哥給十塊",
+    "text": "就像哥哥口袋掏出十塊錢",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 58.76,
-    "end": 61.36,
+    "start": 62.98,
+    "end": 66.47,
     "speaker": "曉臻",
-    "text": "妹妹 就收到十塊",
+    "text": "妹妹就剛好收到十塊錢對吧",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 61.56,
-    "end": 66.06,
+    "start": 66.67,
+    "end": 72.27,
     "speaker": "彥君",
-    "text": "沒錯 假設平衡是Ｔ",
+    "text": "沒錯假設最後混合的平衡溫度是 $$T$$",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 66.26,
-    "end": 69.14,
+    "start": 72.47,
+    "end": 76.92,
     "speaker": "彥君",
-    "text": "高溫 減掉平衡的Ｔ",
+    "text": "高溫減掉平衡溫度 $$T$$就是下降的溫度",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 69.34,
-    "end": 72.11,
+    "start": 77.12,
+    "end": 81.57,
     "speaker": "彥君",
-    "text": "就是 下降的溫度",
+    "text": "平衡溫度 $$T$$ 減掉低溫就是上升的溫度",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 72.31,
-    "end": 75.18,
+    "start": 81.77,
+    "end": 98.06,
     "speaker": "彥君",
-    "text": "平衡的Ｔ 減掉低溫",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 75.38,
-    "end": 78.17,
-    "speaker": "彥君",
-    "text": "就是 上升的溫度",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 78.37,
-    "end": 9999.0,
-    "speaker": "彥君",
-    "text": "[M_1 \\times S_1 \\times",
+    "text": "$$M_1 \\times S_1 \\times (T_1-T) = M_2 \\times S_2 \\times (T-T_2)$$",
     "is_pinned": true,
-    "pin_level": 2
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "$$M_1 \\times S_1 \\times (T_1-T) = M_2 \\times S_2 \\times (T-T_2)$$"
+    ]
   },
   {
-    "start": 86.47,
-    "end": 89.74,
+    "start": 86.61,
+    "end": 90.89,
     "speaker": "曉臻",
-    "text": "哇 這樣列出來",
+    "text": "哇只要依照這個邏輯列出來",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 89.94,
-    "end": 92.54,
+    "start": 91.09,
+    "end": 94.86,
     "speaker": "曉臻",
-    "text": "就可以 解方程式了",
+    "text": "就可以輕鬆解一元一次方程式了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 92.74,
-    "end": 95.82,
+    "start": 98.06,
+    "end": 102.1,
     "speaker": "彥君",
-    "text": "接著看 右下角的圖",
+    "text": "接著我們來看右下角的溫度時間圖",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 96.02,
-    "end": 98.94,
+    "start": 102.3,
+    "end": 106.27,
     "speaker": "彥君",
-    "text": "這是 必考的圖表題",
+    "text": "這可是大考最愛出的必考圖表題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 99.14,
-    "end": 101.9,
+    "start": 106.47,
+    "end": 110.1,
     "speaker": "曉臻",
-    "text": "老師 這三條線",
+    "text": "老師圖上有三條斜斜的線",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 102.1,
-    "end": 104.51,
+    "start": 110.3,
+    "end": 113.14,
     "speaker": "曉臻",
-    "text": "要怎麼 比大小啊",
+    "text": "這到底要怎麼比大小啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 104.71,
-    "end": 107.98,
+    "start": 113.34,
+    "end": 117.58,
     "speaker": "彥君",
-    "text": "戰士們 拿出直尺",
+    "text": "戰士們想像你在考場拿出直尺",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 108.18,
-    "end": 111.34,
+    "start": 117.78,
+    "end": 121.62,
     "speaker": "彥君",
-    "text": "畫一條 鉛直線下來",
+    "text": "找個時間點畫一條鉛直線下來",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 111.54,
-    "end": 114.54,
+    "start": 121.82,
+    "end": 125.74,
     "speaker": "彥君",
-    "text": "代表 加熱時間一樣",
+    "text": "這代表大家的加熱時間一模一樣",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 114.74,
-    "end": 117.54,
+    "start": 125.94,
+    "end": 129.62,
     "speaker": "彥君",
-    "text": "也就是 吸熱一樣多",
+    "text": "也就是吸收的熱量完全一樣多",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 117.74,
-    "end": 121.18,
+    "start": 129.82,
+    "end": 133.79,
     "speaker": "曉臻",
-    "text": "哇 黑色的那條線",
+    "text": "哇我發現黑色的那條線",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 121.38,
-    "end": 123.86,
+    "start": 133.99,
+    "end": 137.19,
     "speaker": "曉臻",
-    "text": "溫度 衝得最高耶",
+    "text": "它的溫度瞬間衝得最高耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 124.06,
-    "end": 126.58,
+    "start": 137.39,
+    "end": 141.5,
     "speaker": "彥君",
-    "text": "溫度 衝得最快",
+    "text": "溫度衝得最快代表它很容易熱",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 126.78,
-    "end": 129.58,
+    "start": 141.7,
+    "end": 145.43,
     "speaker": "彥君",
-    "text": "代表 它很容易熱",
+    "text": "容易熱也就代表它的比熱最小",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 129.78,
-    "end": 132.54,
+    "start": 145.63,
+    "end": 181.75,
     "speaker": "彥君",
-    "text": "也就是 比熱最小",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 132.74,
-    "end": 9999.0,
-    "speaker": "彥君",
-    "text": "\\text{線越陡} \\rightarrow \\text{溫度升得快} \\rightarrow \\text{比熱小}",
+    "text": "線越陡 $$\\rightarrow$$ 溫度升得快 $$\\rightarrow$$ 比熱小",
     "is_pinned": true,
-    "pin_level": 3
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "線越陡 $$\\rightarrow$$ 溫度升得快 $$\\rightarrow$$ 比熱小"
+    ]
   },
   {
-    "start": 137.54,
-    "end": 140.21,
+    "start": 150.42,
+    "end": 153.5,
     "speaker": "曉臻",
-    "text": "那最下面 黃色的線",
+    "text": "那最下面黃色的那條線",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 140.41,
-    "end": 142.82,
+    "start": 153.7,
+    "end": 156.21,
     "speaker": "曉臻",
-    "text": "溫度 上升最慢",
+    "text": "溫度上升得最慢",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 143.02,
-    "end": 145.62,
+    "start": 156.41,
+    "end": 159.3,
     "speaker": "曉臻",
-    "text": "代表 它比熱最大囉",
+    "text": "就代表它的比熱最大囉",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 145.82,
-    "end": 148.2,
+    "start": 159.5,
+    "end": 161.88,
     "speaker": "彥君",
     "text": "完全正確",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 148.4,
-    "end": 9999.0,
+    "start": 162.08,
+    "end": 181.75,
     "speaker": "彥君",
-    "text": "\\text{線越平} \\rightarrow \\text{溫度升得慢} \\rightarrow \\text{比熱大}",
+    "text": "線越平 $$\\rightarrow$$ 溫度升得慢 $$\\rightarrow$$ 比熱大",
     "is_pinned": true,
-    "pin_level": 4
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "線越平 $$\\rightarrow$$ 溫度升得慢 $$\\rightarrow$$ 比熱大"
+    ]
   },
   {
-    "start": 153.19,
-    "end": 156.39,
+    "start": 166.85,
+    "end": 170.62,
     "speaker": "曉臻",
-    "text": "這樣看圖 真的秒解耶",
+    "text": "哇原來只要這樣看圖",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 156.59,
-    "end": 160.03,
+    "start": 170.82,
+    "end": 174.38,
+    "speaker": "曉臻",
+    "text": "找鉛直線真的可以秒解考題耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 174.58,
+    "end": 178.55,
     "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
+    "text": "觀念一旦打通就能秒殺考題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 160.23,
-    "end": 162.83,
+    "start": 181.75,
+    "end": 184.35,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 163.03,
-    "end": 165.37,
+    "start": 184.55,
+    "end": 186.89,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 165.57,
-    "end": 169.06,
+    "start": 187.09,
+    "end": 190.58,
     "speaker": "合聲",
-    "text": "平衡列式 陡小平大",
+    "text": "平衡列式陡小平大",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 169.26,
-    "end": 172.79,
+    "start": 190.78,
+    "end": 194.31,
     "speaker": "合聲",
-    "text": "戰士們 我們頂峰相見",
+    "text": "戰士們我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
