@@ -353,12 +353,12 @@
     "start": 151.4,
     "end": 187.65,
     "speaker": "彥君",
-    "text": "③ $\\text{感應起電} \\rightarrow \\text{帶異性(幸)電}$",
+    "text": "③ $\\text{感應起電} \\rightarrow \\text{帶異性電}$",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "③ $\\text{感應起電} \\rightarrow \\text{帶異性(幸)電}$"
+      "③ $\\text{感應起電} \\rightarrow \\text{帶異性電}$"
     ]
   },
   {
@@ -419,12 +419,12 @@
     "start": 180.53,
     "end": 187.65,
     "speaker": "彥君",
-    "text": "④ $\\text{接觸起電} \\rightarrow \\text{帶同性(幸)電}$",
+    "text": "④ $\\text{接觸起電} \\rightarrow \\text{帶同性電}$",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "④ $\\text{接觸起電} \\rightarrow \\text{帶同性(幸)電}$"
+      "④ $\\text{接觸起電} \\rightarrow \\text{帶同性電}$"
     ]
   },
   {
