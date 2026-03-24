@@ -1,362 +1,400 @@
 [
   {
     "start": 0.0,
-    "end": 1.98,
+    "end": 4.52,
     "speaker": "彥君",
-    "text": "哈囉",
+    "text": "戰士們 破百大關來臨啦",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.18,
-    "end": 5.45,
+    "start": 4.72,
+    "end": 8.4,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的",
+    "text": "跨越這條線就是全新的境界",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 5.65,
-    "end": 8.1,
+    "start": 8.6,
+    "end": 12.16,
     "speaker": "彥君",
-    "text": "會考戰士們",
+    "text": "各位衝刺 $A^{++}$ 級的戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$A^{++}$"
+    ]
   },
   {
-    "start": 8.3,
-    "end": 10.9,
+    "start": 12.36,
+    "end": 15.92,
     "speaker": "彥君",
-    "text": "我是彥君老師",
+    "text": "恭喜大家來到第一百零一集",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.1,
-    "end": 13.7,
+    "start": 16.12,
+    "end": 19.63,
     "speaker": "彥君",
-    "text": "恭喜 破百大關",
+    "text": "戰士們好 我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 13.9,
-    "end": 17.18,
-    "speaker": "彥君",
-    "text": "今天來到 第 101 集",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 17.38,
-    "end": 19.11,
+    "start": 19.83,
+    "end": 23.13,
     "speaker": "曉臻",
-    "text": "大家好",
+    "text": "大家好啊 我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.31,
-    "end": 21.65,
+    "start": 23.33,
+    "end": 26.98,
+    "speaker": "彥君",
+    "text": "戰士們請把注意力集中過來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 27.18,
+    "end": 30.38,
+    "speaker": "彥君",
+    "text": "我們正式進入物理的領域囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 30.58,
+    "end": 33.83,
     "speaker": "曉臻",
-    "text": "我是曉臻助教",
+    "text": "老師這左邊畫出來的圖形",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 21.85,
-    "end": 24.3,
-    "speaker": "彥君",
-    "text": "戰士們注意",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 24.5,
-    "end": 27.32,
-    "speaker": "彥君",
-    "text": "我們 正式進入物理",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 27.52,
-    "end": 30.24,
+    "start": 34.03,
+    "end": 37.45,
     "speaker": "曉臻",
-    "text": "老師 左邊的圖",
+    "text": "有 $F_1$ 還有 $F_2$ 兩個力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$F_1$",
+      "$F_2$"
+    ]
   },
   {
-    "start": 30.44,
-    "end": 33.4,
+    "start": 37.65,
+    "end": 41.18,
     "speaker": "曉臻",
-    "text": "有 $F_1$",
+    "text": "它們的箭頭指向不同的兩邊耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 33.6,
-    "end": 36.13,
+    "start": 41.38,
+    "end": 45.98,
+    "speaker": "彥君",
+    "text": "沒錯 這就是力的合成",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 46.18,
+    "end": 49.81,
+    "speaker": "彥君",
+    "text": "想像有兩個人在拉同個東西",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 50.01,
+    "end": 53.38,
+    "speaker": "彥君",
+    "text": "到底它最後會往哪邊跑掉呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 53.58,
+    "end": 57.52,
     "speaker": "曉臻",
-    "text": "箭頭 指向不同邊",
+    "text": "喔 只要沿著旁邊的虛線",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 36.33,
-    "end": 39.14,
-    "speaker": "彥君",
-    "text": "這就是 力的合成",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 39.34,
-    "end": 42.3,
-    "speaker": "彥君",
-    "text": "想像 2 個人拉東西",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 42.5,
-    "end": 45.18,
-    "speaker": "彥君",
-    "text": "到底 會往哪邊跑",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 45.38,
-    "end": 48.46,
+    "start": 57.72,
+    "end": 61.09,
     "speaker": "曉臻",
-    "text": "喔 沿著虛線",
+    "text": "畫出一個平行四邊形就對了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 48.66,
-    "end": 51.26,
-    "speaker": "曉臻",
-    "text": "畫出 平行四邊形",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 51.46,
-    "end": 56.05,
+    "start": 61.29,
+    "end": 66.14,
     "speaker": "彥君",
-    "text": "沒錯 中間的對角線",
+    "text": "沒錯 圖形中間的對角線",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 56.25,
-    "end": 59.42,
+    "start": 66.34,
+    "end": 69.83,
     "speaker": "彥君",
-    "text": "紅色 那根合力箭頭",
+    "text": "紅色的那根合力的長箭頭",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 59.62,
-    "end": 62.44,
+    "start": 70.03,
+    "end": 73.33,
     "speaker": "彥君",
-    "text": "就是 最終的方向",
+    "text": "也就是它最終移動的方向",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 62.64,
-    "end": 75.5,
+    "start": 73.53,
+    "end": 139.74,
     "speaker": "彥君",
-    "text": "$\\text{力的合成} \\rightarrow \\text{平行四邊形}$",
+    "text": "① $\\text{力的合成} \\rightarrow \\text{畫平行四邊形}$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "① $\\text{力的合成} \\rightarrow \\text{畫平行四邊形}$"
+    ]
   },
   {
-    "start": 66.66,
-    "end": 69.05,
+    "start": 77.72,
+    "end": 82.17,
     "speaker": "曉臻",
-    "text": "原來 這麼直覺",
+    "text": "哇 原來圖形看起來這麼直覺",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 69.25,
-    "end": 72.3,
+    "start": 82.37,
+    "end": 85.86,
     "speaker": "彥君",
-    "text": "給你們 3 秒鐘看圖",
+    "text": "接著我們來看右邊這個重點",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 75.5,
-    "end": 78.06,
-    "speaker": "彥君",
-    "text": "接著 來看右邊",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 78.26,
-    "end": 80.66,
+    "start": 86.06,
+    "end": 89.45,
     "speaker": "曉臻",
-    "text": "右邊 只有一個力",
+    "text": "老師右邊明明只有一個力啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 80.86,
-    "end": 83.22,
+    "start": 89.65,
+    "end": 92.73,
     "speaker": "曉臻",
-    "text": "怎麼 變成兩個了",
+    "text": "它怎麼突然間變成兩個了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 83.42,
-    "end": 85.95,
+    "start": 92.93,
+    "end": 96.42,
     "speaker": "彥君",
-    "text": "這是 力的分解",
+    "text": "這是物理上所說的力的分解",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 86.15,
-    "end": 88.7,
+    "start": 96.62,
+    "end": 99.98,
     "speaker": "彥君",
-    "text": "把斜斜的 力量",
+    "text": "把原本斜斜拉出去的力量",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 88.9,
-    "end": 91.67,
+    "start": 100.18,
+    "end": 103.79,
     "speaker": "彥君",
-    "text": "拆成 2 個方向",
+    "text": "直接拆解成兩個不同方向",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 91.87,
-    "end": 94.23,
+    "start": 103.99,
+    "end": 108.08,
     "speaker": "曉臻",
-    "text": "變成 水平分力",
+    "text": "喔 變成了橫向的水平分力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 94.43,
-    "end": 96.74,
+    "start": 108.28,
+    "end": 111.55,
     "speaker": "曉臻",
-    "text": "還有 垂直分力",
+    "text": "還有另一個直直的垂直分力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 96.94,
-    "end": 101.27,
+    "start": 111.75,
+    "end": 116.9,
     "speaker": "彥君",
-    "text": "沒錯 你看圖形",
+    "text": "沒錯 仔細看右邊這張圖形",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 101.47,
-    "end": 104.02,
+    "start": 117.1,
+    "end": 120.25,
     "speaker": "彥君",
-    "text": "它們 組成了什麼",
+    "text": "它們三個邊組合成了什麼",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 104.22,
-    "end": 106.92,
+    "start": 120.45,
+    "end": 123.82,
     "speaker": "曉臻",
-    "text": "是一個 直角三角形",
+    "text": "它是一個直角三角形的圖案",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 107.12,
-    "end": 109.5,
+    "start": 124.02,
+    "end": 128.73,
     "speaker": "彥君",
-    "text": "完全正確",
+    "text": "助教完全正確 觀念很棒",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 109.7,
-    "end": 112.59,
+    "start": 128.93,
+    "end": 132.68,
     "speaker": "彥君",
-    "text": "分解 就是畫直角",
+    "text": "力的分解就是畫直角三角形",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 112.79,
-    "end": 9999.0,
+    "start": 132.88,
+    "end": 139.74,
     "speaker": "彥君",
-    "text": "$\\text{力的分解} \\rightarrow \\text{直角三角形}$",
+    "text": "② $\\text{力的分解} \\rightarrow \\text{畫直角三角形}$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "② $\\text{力的分解} \\rightarrow \\text{畫直角三角形}$"
+    ]
   },
   {
-    "start": 116.82,
-    "end": 119.58,
+    "start": 139.74,
+    "end": 143.15,
     "speaker": "曉臻",
-    "text": "幾何圖形 配上物理",
+    "text": "原來幾何圖形配上了物理學",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 119.78,
-    "end": 121.88,
+    "start": 143.35,
+    "end": 146.77,
     "speaker": "曉臻",
-    "text": "真的 秒懂耶",
+    "text": "真的讓人一秒鐘就看懂了耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 122.08,
-    "end": 125.52,
+    "start": 146.97,
+    "end": 150.86,
     "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
+    "text": "觀念全通了秒殺考題沒問題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 125.72,
-    "end": 128.32,
+    "start": 151.06,
+    "end": 154.34,
     "speaker": "彥君",
-    "text": "我是彥君老師",
+    "text": "帶著這份底氣迎戰會考吧",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.52,
-    "end": 130.86,
+    "start": 154.54,
+    "end": 158.02,
+    "speaker": "彥君",
+    "text": "戰士們 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 158.22,
+    "end": 161.52,
     "speaker": "曉臻",
-    "text": "我是曉臻助教",
+    "text": "大家好啊 我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 131.06,
-    "end": 134.57,
+    "start": 161.72,
+    "end": 165.23,
     "speaker": "合聲",
     "text": "合成對角 分解直角",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 134.77,
-    "end": 138.3,
+    "start": 165.43,
+    "end": 168.97,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
