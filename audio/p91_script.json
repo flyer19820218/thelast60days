@@ -46,7 +46,7 @@
   },
   {
     "start": 15.27,
-    "end": 20.39,
+    "end": 20.37,
     "speaker": "彥君",
     "text": "戰士們注意我們正式進入「酸鹼鹽」的大魔王關卡",
     "is_pinned": false,
@@ -54,8 +54,8 @@
     "commands": []
   },
   {
-    "start": 20.59,
-    "end": 25.02,
+    "start": 20.57,
+    "end": 24.99,
     "speaker": "曉臻",
     "text": "老師講義上寫著「強酸會完全解離」",
     "is_pinned": false,
@@ -63,8 +63,8 @@
     "commands": []
   },
   {
-    "start": 25.22,
-    "end": 28.56,
+    "start": 25.19,
+    "end": 28.54,
     "speaker": "曉臻",
     "text": "可是這不代表它一定很酸嗎",
     "is_pinned": false,
@@ -72,8 +72,8 @@
     "commands": []
   },
   {
-    "start": 28.76,
-    "end": 33.98,
+    "start": 28.74,
+    "end": 33.95,
     "speaker": "彥君",
     "text": "沒錯這可是超常考的文字陷阱",
     "is_pinned": false,
@@ -81,8 +81,8 @@
     "commands": []
   },
   {
-    "start": 34.18,
-    "end": 39.03,
+    "start": 34.15,
+    "end": 39.01,
     "speaker": "彥君",
     "text": "強酸只代表它溶於水會百分之百解離",
     "is_pinned": false,
@@ -90,8 +90,8 @@
     "commands": []
   },
   {
-    "start": 39.23,
-    "end": 42.67,
+    "start": 39.21,
+    "end": 42.65,
     "speaker": "彥君",
     "text": "但如果我們只拿一小滴的強酸",
     "is_pinned": false,
@@ -99,8 +99,8 @@
     "commands": []
   },
   {
-    "start": 42.87,
-    "end": 46.98,
+    "start": 42.85,
+    "end": 46.96,
     "speaker": "彥君",
     "text": "滴進整整一百公升的純水游泳池裡",
     "is_pinned": false,
@@ -108,8 +108,8 @@
     "commands": []
   },
   {
-    "start": 47.18,
-    "end": 52.06,
+    "start": 47.16,
+    "end": 52.04,
     "speaker": "曉臻",
     "text": "哇那這樣濃度就被稀釋得超級低耶",
     "is_pinned": false,
@@ -117,8 +117,8 @@
     "commands": []
   },
   {
-    "start": 52.26,
-    "end": 56.28,
+    "start": 52.24,
+    "end": 56.26,
     "speaker": "彥君",
     "text": "所以到底酸不酸、會不會腐蝕",
     "is_pinned": false,
@@ -126,8 +126,8 @@
     "commands": []
   },
   {
-    "start": 56.48,
-    "end": 59.94,
+    "start": 56.46,
+    "end": 59.92,
     "speaker": "彥君",
     "text": "完全是由「濃度」來決定的",
     "is_pinned": false,
@@ -135,8 +135,8 @@
     "commands": []
   },
   {
-    "start": 60.14,
-    "end": 64.74,
+    "start": 60.12,
+    "end": 64.71,
     "speaker": "曉臻",
     "text": "喔所以弱酸雖然只有部分解離",
     "is_pinned": false,
@@ -144,8 +144,8 @@
     "commands": []
   },
   {
-    "start": 64.94,
-    "end": 68.45,
+    "start": 64.91,
+    "end": 68.42,
     "speaker": "曉臻",
     "text": "但如果是濃度極高的冰醋酸",
     "is_pinned": false,
@@ -153,8 +153,8 @@
     "commands": []
   },
   {
-    "start": 68.65,
-    "end": 72.21,
+    "start": 68.62,
+    "end": 72.18,
     "speaker": "曉臻",
     "text": "不小心碰到一樣會受重傷對吧",
     "is_pinned": false,
@@ -162,8 +162,8 @@
     "commands": []
   },
   {
-    "start": 72.41,
-    "end": 75.18,
+    "start": 72.38,
+    "end": 75.15,
     "speaker": "彥君",
     "text": "觀念非常清楚",
     "is_pinned": false,
@@ -171,8 +171,8 @@
     "commands": []
   },
   {
-    "start": 75.38,
-    "end": 80.64,
+    "start": 75.35,
+    "end": 80.62,
     "speaker": "彥君",
     "text": "接下來黑板準備我們要來盤點國中必考的五大酸",
     "is_pinned": false,
@@ -180,8 +180,8 @@
     "commands": []
   },
   {
-    "start": 80.84,
-    "end": 115.63,
+    "start": 80.82,
+    "end": 115.61,
     "speaker": "彥君",
     "text": "$$HCl$$",
     "is_pinned": true,
@@ -192,8 +192,8 @@
     ]
   },
   {
-    "start": 83.04,
-    "end": 115.63,
+    "start": 83.02,
+    "end": 115.61,
     "speaker": "彥君",
     "text": "$$H_2SO_4$$",
     "is_pinned": true,
@@ -204,8 +204,8 @@
     ]
   },
   {
-    "start": 85.29,
-    "end": 115.63,
+    "start": 85.26,
+    "end": 115.61,
     "speaker": "彥君",
     "text": "$$HNO_3$$",
     "is_pinned": true,
@@ -216,8 +216,8 @@
     ]
   },
   {
-    "start": 87.68,
-    "end": 115.63,
+    "start": 87.66,
+    "end": 115.61,
     "speaker": "彥君",
     "text": "$$CH_3COOH$$",
     "is_pinned": true,
@@ -228,8 +228,8 @@
     ]
   },
   {
-    "start": 89.93,
-    "end": 115.63,
+    "start": 89.9,
+    "end": 115.61,
     "speaker": "彥君",
     "text": "$$H_2CO_3$$",
     "is_pinned": true,
@@ -240,8 +240,8 @@
     ]
   },
   {
-    "start": 92.18,
-    "end": 97.37,
+    "start": 92.15,
+    "end": 97.34,
     "speaker": "曉臻",
     "text": "我背過前面的鹽酸、硫酸、硝酸",
     "is_pinned": false,
@@ -249,8 +249,8 @@
     "commands": []
   },
   {
-    "start": 97.57,
-    "end": 100.46,
+    "start": 97.54,
+    "end": 100.43,
     "speaker": "曉臻",
     "text": "它們三個是三大強酸",
     "is_pinned": false,
@@ -258,8 +258,8 @@
     "commands": []
   },
   {
-    "start": 100.66,
-    "end": 104.74,
+    "start": 100.63,
+    "end": 104.72,
     "speaker": "曉臻",
     "text": "而後面的醋酸跟碳酸則是弱酸",
     "is_pinned": false,
@@ -267,8 +267,8 @@
     "commands": []
   },
   {
-    "start": 104.94,
-    "end": 107.69,
+    "start": 104.92,
+    "end": 107.66,
     "speaker": "彥君",
     "text": "助教整理得太好了",
     "is_pinned": false,
@@ -276,8 +276,8 @@
     "commands": []
   },
   {
-    "start": 107.89,
-    "end": 112.43,
+    "start": 107.86,
+    "end": 112.41,
     "speaker": "彥君",
     "text": "給你們三秒鐘把化學式跟強弱抄起來",
     "is_pinned": false,
@@ -285,8 +285,8 @@
     "commands": []
   },
   {
-    "start": 115.63,
-    "end": 121.09,
+    "start": 115.61,
+    "end": 121.06,
     "speaker": "彥君",
     "text": "接著我們換常見的五大鹼戰士們跟上",
     "is_pinned": false,
@@ -294,8 +294,8 @@
     "commands": []
   },
   {
-    "start": 121.29,
-    "end": 176.06,
+    "start": 121.26,
+    "end": 176.04,
     "speaker": "彥君",
     "text": "$$NaOH$$",
     "is_pinned": true,
@@ -306,8 +306,8 @@
     ]
   },
   {
-    "start": 123.82,
-    "end": 176.06,
+    "start": 123.8,
+    "end": 176.04,
     "speaker": "彥君",
     "text": "$$Ca_2$$",
     "is_pinned": true,
@@ -318,8 +318,8 @@
     ]
   },
   {
-    "start": 126.36,
-    "end": 176.06,
+    "start": 126.34,
+    "end": 176.04,
     "speaker": "彥君",
     "text": "$$NH_3$$",
     "is_pinned": true,
@@ -330,8 +330,8 @@
     ]
   },
   {
-    "start": 128.66,
-    "end": 176.06,
+    "start": 128.63,
+    "end": 176.04,
     "speaker": "彥君",
     "text": "$$Na_2CO_3$$",
     "is_pinned": true,
@@ -342,8 +342,8 @@
     ]
   },
   {
-    "start": 131.05,
-    "end": 176.06,
+    "start": 131.02,
+    "end": 176.04,
     "speaker": "彥君",
     "text": "$$NaHCO_3$$",
     "is_pinned": true,
@@ -354,8 +354,8 @@
     ]
   },
   {
-    "start": 133.61,
-    "end": 137.7,
+    "start": 133.58,
+    "end": 137.67,
     "speaker": "曉臻",
     "text": "氫氧化鈉跟氫氧化鈣都是強鹼",
     "is_pinned": false,
@@ -363,8 +363,8 @@
     "commands": []
   },
   {
-    "start": 137.9,
-    "end": 142.13,
+    "start": 137.87,
+    "end": 142.1,
     "speaker": "曉臻",
     "text": "而氨氣溶於水變成氨水它是弱鹼",
     "is_pinned": false,
@@ -372,8 +372,8 @@
     "commands": []
   },
   {
-    "start": 142.33,
-    "end": 145.91,
+    "start": 142.3,
+    "end": 145.89,
     "speaker": "彥君",
     "text": "戰士們終極陷阱又來了",
     "is_pinned": false,
@@ -381,8 +381,8 @@
     "commands": []
   },
   {
-    "start": 146.11,
-    "end": 150.51,
+    "start": 146.09,
+    "end": 150.49,
     "speaker": "彥君",
     "text": "仔細看最後兩個碳酸鈉是洗滌鹼",
     "is_pinned": false,
@@ -390,8 +390,8 @@
     "commands": []
   },
   {
-    "start": 150.71,
-    "end": 154.27,
+    "start": 150.69,
+    "end": 154.25,
     "speaker": "彥君",
     "text": "碳酸氫鈉是做麵包的小蘇打",
     "is_pinned": false,
@@ -399,8 +399,8 @@
     "commands": []
   },
   {
-    "start": 154.47,
-    "end": 158.25,
+    "start": 154.45,
+    "end": 158.22,
     "speaker": "彥君",
     "text": "它們在分類上其實是「鹽類」喔",
     "is_pinned": false,
@@ -408,8 +408,8 @@
     "commands": []
   },
   {
-    "start": 158.45,
-    "end": 164.46,
+    "start": 158.42,
+    "end": 164.43,
     "speaker": "曉臻",
     "text": "咦既然是鹽類那為什麼要把它們放在鹼性這邊啊",
     "is_pinned": false,
@@ -417,8 +417,8 @@
     "commands": []
   },
   {
-    "start": 164.66,
-    "end": 168.94,
+    "start": 164.63,
+    "end": 168.91,
     "speaker": "彥君",
     "text": "因為它們溶於水之後會呈現鹼性",
     "is_pinned": false,
@@ -426,8 +426,8 @@
     "commands": []
   },
   {
-    "start": 169.14,
-    "end": 172.86,
+    "start": 169.11,
+    "end": 172.84,
     "speaker": "彥君",
     "text": "大考最愛考這種跨界陷阱題了",
     "is_pinned": false,
@@ -435,8 +435,8 @@
     "commands": []
   },
   {
-    "start": 176.06,
-    "end": 179.91,
+    "start": 176.04,
+    "end": 179.89,
     "speaker": "彥君",
     "text": "觀念一旦通了大考直接秒殺",
     "is_pinned": false,
@@ -444,8 +444,8 @@
     "commands": []
   },
   {
-    "start": 180.11,
-    "end": 182.71,
+    "start": 180.09,
+    "end": 182.69,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
@@ -453,8 +453,8 @@
     "commands": []
   },
   {
-    "start": 182.91,
-    "end": 185.25,
+    "start": 182.89,
+    "end": 185.22,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
@@ -462,8 +462,8 @@
     "commands": []
   },
   {
-    "start": 185.45,
-    "end": 188.89,
+    "start": 185.42,
+    "end": 188.86,
     "speaker": "合聲",
     "text": "解離完全濃度關鍵",
     "is_pinned": false,
@@ -471,8 +471,8 @@
     "commands": []
   },
   {
-    "start": 189.09,
-    "end": 192.62,
+    "start": 189.06,
+    "end": 192.6,
     "speaker": "合聲",
     "text": "戰士們我們頂峰相見",
     "is_pinned": false,
