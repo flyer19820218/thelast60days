@@ -1,362 +1,455 @@
 [
   {
     "start": 0.0,
-    "end": 1.98,
+    "end": 3.68,
     "speaker": "彥君",
-    "text": "哈囉",
+    "text": "各位準備突破自我的會考戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.18,
-    "end": 5.45,
-    "speaker": "彥君",
-    "text": "各位即將衝 A 的",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 5.65,
-    "end": 8.1,
-    "speaker": "彥君",
-    "text": "會考戰士們",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 8.3,
-    "end": 10.9,
+    "start": 3.88,
+    "end": 6.48,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.1,
-    "end": 14.4,
-    "speaker": "彥君",
-    "text": "今天來到 第八十四集",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 14.6,
-    "end": 16.34,
+    "start": 6.68,
+    "end": 8.97,
     "speaker": "曉臻",
-    "text": "大家好",
+    "text": "戰士們大家好",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.54,
-    "end": 18.87,
+    "start": 9.17,
+    "end": 11.5,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.07,
-    "end": 21.94,
+    "start": 11.7,
+    "end": 17.57,
+    "speaker": "彥君",
+    "text": "歡迎來到第八十四集原子結構大解密",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 17.77,
+    "end": 21.16,
     "speaker": "曉臻",
-    "text": "老師 上面的四點",
+    "text": "老師講義上寫的這四點",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.14,
-    "end": 25.07,
+    "start": 21.36,
+    "end": 25.28,
     "speaker": "曉臻",
-    "text": "不能分割 還有比例",
+    "text": "說什麼不能分割還有固定比例",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 25.27,
-    "end": 27.63,
+    "start": 25.48,
+    "end": 28.56,
     "speaker": "曉臻",
-    "text": "這是 誰的理論啊",
+    "text": "這是哪位科學家的理論啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.83,
-    "end": 30.74,
+    "start": 28.76,
+    "end": 32.51,
     "speaker": "彥君",
-    "text": "這是 第一代祖師爺",
+    "text": "戰士們這是第一代祖師爺",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 30.94,
-    "end": 33.57,
+    "start": 32.71,
+    "end": 35.74,
     "speaker": "彥君",
-    "text": "道耳吞的 原子說",
+    "text": "道耳吞提出的原子說",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 33.77,
-    "end": 36.97,
+    "start": 35.94,
+    "end": 39.46,
     "speaker": "彥君",
-    "text": "他認為 原子像撞球",
+    "text": "他認為原子就像撞球一樣",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 37.17,
-    "end": 40.15,
+    "start": 39.66,
+    "end": 42.95,
     "speaker": "彥君",
-    "text": "是一顆 實心的球體",
+    "text": "是一顆完美實心的球體",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 40.35,
-    "end": 43.1,
+    "start": 43.15,
+    "end": 156.42,
+    "speaker": "彥君",
+    "text": "道耳吞：提出原子說，認為原子是實心球體",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "道耳吞：提出原子說，認為原子是實心球體"
+    ]
+  },
+  {
+    "start": 48.09,
+    "end": 51.24,
     "speaker": "曉臻",
-    "text": "可是 第一點不能分割",
+    "text": "可是他第一點說不能分割",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 43.3,
-    "end": 45.73,
+    "start": 51.44,
+    "end": 54.26,
     "speaker": "曉臻",
-    "text": "好像 被打破了耶",
+    "text": "後來好像被打破了耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 45.93,
-    "end": 48.6,
+    "start": 54.46,
+    "end": 57.61,
     "speaker": "彥君",
-    "text": "助教 突破盲點了",
+    "text": "助教完全突破盲點了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 48.8,
-    "end": 51.3,
+    "start": 57.81,
+    "end": 61.54,
     "speaker": "彥君",
-    "text": "第二代 湯木生",
+    "text": "因為第二代掌門人湯木生",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 51.5,
-    "end": 54.3,
+    "start": 61.74,
+    "end": 64.98,
     "speaker": "彥君",
-    "text": "發現了 帶負電的",
+    "text": "他發現了帶負電的電子",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 54.5,
-    "end": 56.5,
+    "start": 65.18,
+    "end": 156.42,
     "speaker": "彥君",
-    "text": "電子",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "湯木生：發現帶負電的電子，提出西瓜模型",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "湯木生：發現帶負電的電子，提出西瓜模型"
+    ]
   },
   {
-    "start": 56.7,
-    "end": 60.14,
+    "start": 70.31,
+    "end": 74.14,
     "speaker": "曉臻",
-    "text": "喔 就像西瓜 裡面",
+    "text": "喔所以就像西瓜裡面",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 60.34,
-    "end": 63.01,
+    "start": 74.34,
+    "end": 77.68,
     "speaker": "曉臻",
-    "text": "塞滿了 西瓜子一樣",
+    "text": "塞滿了帶負電的西瓜子對吧",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 63.21,
-    "end": 66.1,
+    "start": 77.88,
+    "end": 83.0,
+    "speaker": "彥君",
+    "text": "沒錯這就是著名的西瓜模型",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 83.2,
+    "end": 86.18,
     "speaker": "曉臻",
-    "text": "接著是 第三代拉塞福",
+    "text": "接著是第三代的拉塞福",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 66.3,
-    "end": 68.92,
+    "start": 86.38,
+    "end": 90.62,
     "speaker": "曉臻",
-    "text": "為什麼 叫行星式啊",
+    "text": "老師為什麼他的模型叫做行星式啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 69.12,
-    "end": 72.03,
+    "start": 90.82,
+    "end": 94.09,
     "speaker": "彥君",
-    "text": "因為 他打穿了原子",
+    "text": "因為他用粒子打穿了原子",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 72.23,
-    "end": 75.02,
+    "start": 94.29,
+    "end": 98.64,
     "speaker": "彥君",
-    "text": "發現 正中央有",
+    "text": "發現正中央有一個超小超重的原子核",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 75.22,
-    "end": 78.11,
+    "start": 98.84,
+    "end": 102.11,
     "speaker": "彥君",
-    "text": "原子核 還有質子",
+    "text": "裡面還有帶正電的質子",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 78.31,
-    "end": 81.73,
-    "speaker": "曉臻",
-    "text": "喔 電子就像行星",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 81.93,
-    "end": 84.7,
-    "speaker": "曉臻",
-    "text": "繞著 原子核轉對吧",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 84.9,
-    "end": 87.28,
+    "start": 102.31,
+    "end": 156.42,
     "speaker": "彥君",
-    "text": "完全正確",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "拉塞福：發現原子核與質子，提出行星模型",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "拉塞福：發現原子核與質子，提出行星模型"
+    ]
   },
   {
-    "start": 87.48,
-    "end": 90.06,
-    "speaker": "曉臻",
-    "text": "最後一位 查兌克",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 90.26,
-    "end": 92.93,
-    "speaker": "曉臻",
-    "text": "他的圖 變好複雜喔",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 93.13,
-    "end": 95.61,
-    "speaker": "彥君",
-    "text": "因為 他找到了",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 95.81,
-    "end": 98.7,
-    "speaker": "彥君",
-    "text": "躲在 原子核裡面",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 98.9,
-    "end": 101.42,
-    "speaker": "彥君",
-    "text": "不帶電的 中子",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 101.62,
-    "end": 104.39,
-    "speaker": "彥君",
-    "text": "到這裡 整個原子",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 104.59,
-    "end": 107.53,
-    "speaker": "彥君",
-    "text": "才終於 拼湊完整",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 107.73,
+    "start": 107.49,
     "end": 110.64,
     "speaker": "曉臻",
-    "text": "道、 湯、 拉、 查",
+    "text": "喔我徹底懂了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 110.84,
-    "end": 113.63,
+    "end": 114.04,
     "speaker": "曉臻",
-    "text": "這個順序 絕對不忘記",
+    "text": "電子就像是太陽系的行星",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 113.83,
-    "end": 117.27,
+    "start": 114.24,
+    "end": 118.02,
+    "speaker": "曉臻",
+    "text": "繞著正中央的原子核一直轉對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 118.22,
+    "end": 123.31,
     "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
+    "text": "完全正確畫面感非常精準",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 117.47,
-    "end": 120.07,
+    "start": 123.51,
+    "end": 126.28,
+    "speaker": "曉臻",
+    "text": "那最後一位查兌克",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 126.48,
+    "end": 130.35,
+    "speaker": "曉臻",
+    "text": "他的原子構造圖怎麼變得好複雜喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 130.55,
+    "end": 134.06,
+    "speaker": "彥君",
+    "text": "因為他找到了最後一塊拼圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 134.26,
+    "end": 137.44,
+    "speaker": "彥君",
+    "text": "就是躲在原子核裡面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 137.64,
+    "end": 140.62,
+    "speaker": "彥君",
+    "text": "完全不帶電的中子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 140.82,
+    "end": 156.42,
+    "speaker": "彥君",
+    "text": "查兌克：發現不帶電的中子，原子結構完整",
+    "is_pinned": true,
+    "pin_level": 4,
+    "commands": [
+      "釘選",
+      "查兌克：發現不帶電的中子，原子結構完整"
+    ]
+  },
+  {
+    "start": 146.36,
+    "end": 149.39,
+    "speaker": "曉臻",
+    "text": "哇到了這裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 149.59,
+    "end": 153.22,
+    "speaker": "曉臻",
+    "text": "整個原子才終於拼湊完整了耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 156.42,
+    "end": 159.31,
+    "speaker": "曉臻",
+    "text": "道、湯、拉、查",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 159.51,
+    "end": 163.38,
+    "speaker": "曉臻",
+    "text": "這個科學家的順序我絕對不會忘記",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 163.58,
+    "end": 166.18,
+    "speaker": "彥君",
+    "text": "觀念一旦打通",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 166.38,
+    "end": 169.51,
+    "speaker": "彥君",
+    "text": "大考絕對秒殺考題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 169.71,
+    "end": 172.31,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 120.27,
-    "end": 122.61,
+    "start": 172.51,
+    "end": 174.85,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 122.81,
-    "end": 126.3,
+    "start": 175.05,
+    "end": 178.54,
     "speaker": "合聲",
-    "text": "湯木找電 拉塞找核",
+    "text": "湯木找電拉塞找核",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 126.5,
-    "end": 129.98,
+    "start": 178.74,
+    "end": 182.22,
     "speaker": "合聲",
-    "text": "查兌找中 原子集合",
+    "text": "查兌找中原子集合",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 130.18,
-    "end": 133.72,
+    "start": 182.42,
+    "end": 185.96,
     "speaker": "合聲",
-    "text": "戰士們 我們頂峰相見",
+    "text": "戰士們我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
