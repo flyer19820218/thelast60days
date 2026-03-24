@@ -1,914 +1,1034 @@
 [
   {
     "start": 0.0,
-    "end": 3.25,
+    "end": 4.71,
     "speaker": "彥君",
-    "text": "戰士們 歡迎來到",
+    "text": "戰士們 歡迎來到第一屆",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.45,
-    "end": 6.74,
+    "start": 4.91,
+    "end": 8.74,
     "speaker": "彥君",
-    "text": "第一屆 君臻盃羽球大賽",
+    "text": "史上最熱血的君臻盃羽球大賽",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.94,
-    "end": 9.98,
+    "start": 8.94,
+    "end": 12.02,
     "speaker": "彥君",
-    "text": "我是 賽評彥君老師",
+    "text": "我是賽評彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 10.18,
-    "end": 11.91,
+    "start": 12.22,
+    "end": 15.97,
     "speaker": "曉臻",
-    "text": "大家好",
+    "text": "大家好 我是轉播員曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 12.11,
-    "end": 15.0,
+    "start": 16.17,
+    "end": 19.8,
+    "speaker": "彥君",
+    "text": "戰士們請把注意力集中過來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.0,
+    "end": 23.61,
+    "speaker": "彥君",
+    "text": "今天我們絕對不只是看比賽",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 23.81,
+    "end": 27.32,
+    "speaker": "彥君",
+    "text": "我們要用這顆羽毛球來破解",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 27.52,
+    "end": 31.34,
+    "speaker": "彥君",
+    "text": "會考理化最經典的物理大魔王",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 31.54,
+    "end": 35.7,
     "speaker": "曉臻",
-    "text": "我是 轉播員曉臻助教",
+    "text": "哇 我記得幾年前的會考題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 15.2,
-    "end": 17.66,
-    "speaker": "彥君",
-    "text": "戰士們注意",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 17.86,
-    "end": 20.79,
-    "speaker": "彥君",
-    "text": "今天 不只是看比賽",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 20.99,
-    "end": 24.17,
-    "speaker": "彥君",
-    "text": "我們要 用羽毛球來破解",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 24.37,
-    "end": 27.57,
-    "speaker": "彥君",
-    "text": "會考 最經典的物理題",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 27.77,
-    "end": 31.52,
+    "start": 35.9,
+    "end": 39.01,
     "speaker": "曉臻",
-    "text": "哇 幾年前的會考題",
+    "text": "真的考過羽毛球的軌跡耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 31.72,
-    "end": 34.34,
+    "start": 39.21,
+    "end": 43.51,
+    "speaker": "彥君",
+    "text": "沒錯 大家準備好了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 43.71,
+    "end": 47.18,
+    "speaker": "彥君",
+    "text": "冠亞軍總決賽正式開始",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 47.38,
+    "end": 50.96,
     "speaker": "曉臻",
-    "text": "真的考過 羽毛球耶",
+    "text": "老師你看 對手用力發球了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 34.54,
-    "end": 38.54,
-    "speaker": "彥君",
-    "text": "沒錯 準備好了嗎",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 38.74,
-    "end": 41.48,
-    "speaker": "彥君",
-    "text": "比賽 正式開始",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 41.68,
-    "end": 44.62,
+    "start": 51.16,
+    "end": 54.58,
     "speaker": "曉臻",
-    "text": "老師 對手發球了",
+    "text": "是一個打得超高的防守長球",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 44.82,
-    "end": 47.56,
+    "start": 54.78,
+    "end": 58.07,
     "speaker": "曉臻",
-    "text": "是一個 超高的長球",
+    "text": "羽毛球往上飛得越來越高了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 47.76,
-    "end": 50.41,
+    "start": 58.27,
+    "end": 62.05,
+    "speaker": "彥君",
+    "text": "戰士們 仔細注意它的能量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 62.25,
+    "end": 65.86,
+    "speaker": "彥君",
+    "text": "當球剛離開球拍的那一個瞬間",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 66.06,
+    "end": 69.83,
+    "speaker": "彥君",
+    "text": "它的飛行速度最快動能也最大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 70.03,
+    "end": 73.47,
     "speaker": "曉臻",
-    "text": "羽毛球 越飛越高了",
+    "text": "可是我看它往上飛的過程中",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 50.61,
-    "end": 54.07,
-    "speaker": "彥君",
-    "text": "戰士們 注意它的能量",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 54.27,
-    "end": 57.47,
-    "speaker": "彥君",
-    "text": "球 剛離開球拍的時候",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 57.67,
-    "end": 61.06,
-    "speaker": "彥君",
-    "text": "速度最快 動能最大",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 61.26,
-    "end": 64.18,
+    "start": 73.67,
+    "end": 77.26,
     "speaker": "曉臻",
-    "text": "可是 它往上飛的過程",
+    "text": "飛行的速度好像慢慢變慢了耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 64.38,
-    "end": 67.12,
-    "speaker": "曉臻",
-    "text": "速度 好像變慢了耶",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 67.32,
-    "end": 71.72,
+    "start": 77.46,
+    "end": 82.17,
     "speaker": "彥君",
-    "text": "沒錯 因為高度增加了",
+    "text": "沒錯 因為它的高度增加了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 71.92,
-    "end": 75.02,
+    "start": 82.37,
+    "end": 86.02,
     "speaker": "彥君",
-    "text": "動能 正在瘋狂轉換",
+    "text": "原本的動能正在瘋狂地轉換",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 75.22,
-    "end": 78.3,
+    "start": 86.22,
+    "end": 89.62,
     "speaker": "彥君",
-    "text": "全部 變成了重力位能",
+    "text": "已經全部變成了重力位能囉",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 78.5,
-    "end": 119.12,
+    "start": 89.82,
+    "end": 131.16,
     "speaker": "彥君",
-    "text": "$\\text{上升} \\rightarrow \\text{動能換位能}$",
+    "text": "① $\\text{上升} \\rightarrow \\text{動能換位能}$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "① $\\text{上升} \\rightarrow \\text{動能換位能}$"
+    ]
   },
   {
-    "start": 82.58,
-    "end": 85.78,
+    "start": 93.91,
+    "end": 97.45,
     "speaker": "曉臻",
-    "text": "老師 球飛到最高點了",
+    "text": "老師你看 球飛到最高點了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 85.98,
-    "end": 88.94,
+    "start": 97.65,
+    "end": 101.02,
     "speaker": "曉臻",
-    "text": "好像 停在空中一瞬間",
+    "text": "好像停在半空中一瞬間耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 89.14,
-    "end": 92.19,
+    "start": 101.22,
+    "end": 104.82,
     "speaker": "彥君",
-    "text": "這就是 能量的轉折點",
+    "text": "這就是物理能量的關鍵轉折點",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 92.39,
-    "end": 95.76,
+    "start": 105.02,
+    "end": 108.8,
     "speaker": "彥君",
-    "text": "在最高點 高度最大",
+    "text": "在軌跡的最高點高度是最大的",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 95.96,
-    "end": 99.21,
+    "start": 109.0,
+    "end": 112.73,
     "speaker": "彥君",
-    "text": "所以 重力位能達到頂峰",
+    "text": "所以重力位能瞬間達到頂峰",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 99.41,
-    "end": 102.18,
+    "start": 112.93,
+    "end": 116.34,
     "speaker": "曉臻",
-    "text": "那動能 跑到哪裡去了",
+    "text": "那原本一開始的動能跑去哪了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 102.38,
-    "end": 105.46,
+    "start": 116.54,
+    "end": 119.94,
     "speaker": "彥君",
-    "text": "幾乎 全部都轉換掉了",
+    "text": "幾乎全部都已經轉換掉囉",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 105.66,
-    "end": 108.74,
+    "start": 120.14,
+    "end": 123.89,
     "speaker": "彥君",
-    "text": "所以 速度變得非常慢",
+    "text": "所以在那瞬間速度變得非常慢",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 108.94,
-    "end": 119.12,
+    "start": 124.09,
+    "end": 131.16,
     "speaker": "彥君",
-    "text": "$\\text{最高點} \\rightarrow \\text{位能最大}$",
+    "text": "② $\\text{最高點} \\rightarrow \\text{重(仲)力位能最大}$",
     "is_pinned": true,
-    "pin_level": 2
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "② $\\text{最高點} \\rightarrow \\text{重(仲)力位能最大}$"
+    ]
   },
   {
-    "start": 112.91,
-    "end": 115.92,
-    "speaker": "彥君",
-    "text": "給你們 3 秒鐘截圖",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 119.12,
-    "end": 122.3,
+    "start": 131.16,
+    "end": 134.7,
     "speaker": "曉臻",
-    "text": "接著 球開始往下掉了",
+    "text": "接著 羽毛球開始往下掉了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 122.5,
-    "end": 124.9,
+    "start": 134.9,
+    "end": 138.24,
     "speaker": "曉臻",
-    "text": "速度 越來越快",
+    "text": "下墜的速度變得越來越快耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 125.1,
-    "end": 128.28,
+    "start": 138.44,
+    "end": 141.9,
     "speaker": "彥君",
-    "text": "因為 力學能守恆啟動了",
+    "text": "因為力學能守恆定律啟動了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.48,
-    "end": 131.8,
+    "start": 142.1,
+    "end": 145.74,
     "speaker": "彥君",
-    "text": "累積在 高空的重力位能",
+    "text": "剛剛累積在高空的重力位能",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 132.0,
-    "end": 135.2,
+    "start": 145.94,
+    "end": 149.69,
     "speaker": "彥君",
-    "text": "現在 全部釋放出來",
+    "text": "現在正準備要全部釋放出來",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 135.4,
-    "end": 138.77,
+    "start": 149.89,
+    "end": 153.42,
     "speaker": "彥君",
-    "text": "高度下降 位能減少",
+    "text": "高度不斷下降讓位能減少",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 138.97,
-    "end": 142.26,
+    "start": 153.62,
+    "end": 157.4,
     "speaker": "彥君",
-    "text": "速度變快 動能增加",
+    "text": "速度變快代表動能正在增加",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 142.46,
-    "end": 171.3,
+    "start": 157.6,
+    "end": 185.44,
     "speaker": "彥君",
-    "text": "$\\text{下降} \\rightarrow \\text{位能換動能}$",
+    "text": "③ $\\text{下降} \\rightarrow \\text{位能換動能}$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "③ $\\text{下降} \\rightarrow \\text{位能換動能}$"
+    ]
   },
   {
-    "start": 146.63,
-    "end": 150.17,
+    "start": 161.72,
+    "end": 165.74,
     "speaker": "曉臻",
-    "text": "哇 這樣上上下下",
+    "text": "哇 這樣飛上去又掉下來",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 150.37,
-    "end": 153.21,
+    "start": 165.94,
+    "end": 169.52,
     "speaker": "曉臻",
-    "text": "能量 根本就在玩變身",
+    "text": "能量根本就是在玩變身遊戲嘛",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 153.41,
-    "end": 158.05,
+    "start": 169.72,
+    "end": 174.72,
     "speaker": "彥君",
-    "text": "沒錯 只要沒有空氣阻力",
+    "text": "沒錯 只要沒有空氣阻力影響",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 158.25,
-    "end": 161.28,
+    "start": 174.92,
+    "end": 178.5,
     "speaker": "彥君",
-    "text": "動能 加位能的總和",
+    "text": "動能加上位能的總和大小",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 161.48,
-    "end": 164.68,
+    "start": 178.7,
+    "end": 182.24,
     "speaker": "彥君",
-    "text": "從頭到尾 都不會改變",
+    "text": "其實從頭到尾都不會改變喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 164.88,
-    "end": 168.1,
-    "speaker": "彥君",
-    "text": "戰士們 屏息以待",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 171.3,
-    "end": 175.1,
+    "start": 185.44,
+    "end": 189.79,
     "speaker": "曉臻",
-    "text": "老師 選手跳起來了",
+    "text": "老師快看 選手用力跳起來了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 175.3,
-    "end": 177.98,
+    "start": 189.99,
+    "end": 193.17,
     "speaker": "曉臻",
-    "text": "他在最高點 揮拍了",
+    "text": "他在最高點用力地揮拍了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 178.18,
-    "end": 181.02,
+    "start": 193.37,
+    "end": 196.57,
     "speaker": "曉臻",
-    "text": "是一記 超猛的殺球",
+    "text": "是一記超猛的直線殺球",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 181.22,
-    "end": 185.38,
+    "start": 196.77,
+    "end": 201.48,
     "speaker": "彥君",
-    "text": "來了 最熱血的瞬間",
+    "text": "來了 全場最熱血的瞬間",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 185.58,
-    "end": 188.63,
+    "start": 201.68,
+    "end": 205.46,
     "speaker": "彥君",
-    "text": "選手 為什麼要跳這麼高",
+    "text": "戰士們想想選手為何跳這麼高",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 188.83,
-    "end": 191.82,
+    "start": 205.66,
+    "end": 209.14,
     "speaker": "曉臻",
-    "text": "為了 爭取最高的擊球點",
+    "text": "為了爭取在最高的地方擊球啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 192.02,
-    "end": 194.66,
+    "start": 209.34,
+    "end": 212.93,
     "speaker": "彥君",
-    "text": "從物理學 來看",
+    "text": "如果我們從物理學的角度來看",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 194.86,
-    "end": 198.18,
+    "start": 213.13,
+    "end": 216.78,
     "speaker": "彥君",
-    "text": "他是為了 儲存最大的位能",
+    "text": "他是為了事先儲存最大的位能",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 198.38,
-    "end": 246.18,
+    "start": 216.98,
+    "end": 268.56,
     "speaker": "彥君",
-    "text": "$\\text{起跳} \\rightarrow \\text{儲存最大位能}$",
+    "text": "④ $\\text{起跳} \\rightarrow \\text{儲存最大位能}$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "④ $\\text{起跳} \\rightarrow \\text{儲存最大位能}$"
+    ]
   },
   {
-    "start": 202.53,
-    "end": 205.87,
+    "start": 221.03,
+    "end": 225.14,
     "speaker": "曉臻",
-    "text": "碰 球被往下砸了",
+    "text": "碰 羽毛球被狠狠往下砸了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 206.07,
-    "end": 209.03,
+    "start": 225.34,
+    "end": 228.76,
     "speaker": "曉臻",
-    "text": "速度 簡直像一顆子彈",
+    "text": "那個速度簡直就像一顆子彈",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 209.23,
-    "end": 212.65,
+    "start": 228.96,
+    "end": 232.66,
     "speaker": "彥君",
-    "text": "殺球的軌跡 是直線往下",
+    "text": "殺球的軌跡是直線往下衝刺",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 212.85,
-    "end": 216.29,
+    "start": 232.86,
+    "end": 236.74,
     "speaker": "彥君",
-    "text": "高度 在一瞬間急速下降",
+    "text": "高度在一瞬間產生了急速下降",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 216.49,
-    "end": 219.33,
+    "start": 236.94,
+    "end": 240.14,
     "speaker": "曉臻",
-    "text": "所以 龐大的重力位能",
+    "text": "所以剛才龐大的重力位能",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 219.53,
-    "end": 222.78,
+    "start": 240.34,
+    "end": 243.94,
     "speaker": "曉臻",
-    "text": "在一瞬間 全部變成動能了",
+    "text": "在一瞬間全部變成攻擊動能了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 222.98,
-    "end": 225.36,
+    "start": 244.14,
+    "end": 248.93,
     "speaker": "彥君",
-    "text": "完全正確",
+    "text": "助教完全正確 觀念太棒了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 225.56,
-    "end": 228.78,
+    "start": 249.13,
+    "end": 252.83,
     "speaker": "彥君",
-    "text": "狠狠地 砸向對手場地",
+    "text": "狠狠地把球砸向對手的場地",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 228.98,
-    "end": 246.18,
+    "start": 253.03,
+    "end": 268.56,
     "speaker": "彥君",
-    "text": "$\\text{殺球} \\rightarrow \\text{位能急降換動能}$",
+    "text": "⑤ $\\text{殺球} \\rightarrow \\text{位能急降換動能}$",
     "is_pinned": true,
-    "pin_level": 2
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "⑤ $\\text{殺球} \\rightarrow \\text{位能急降換動能}$"
+    ]
   },
   {
-    "start": 233.73,
-    "end": 236.98,
+    "start": 257.7,
+    "end": 261.7,
     "speaker": "曉臻",
-    "text": "漂亮 壓線得分",
+    "text": "漂亮 這球精準壓線得分",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 237.18,
-    "end": 239.87,
+    "start": 261.9,
+    "end": 265.36,
     "speaker": "曉臻",
-    "text": "這球 實在太精彩了",
+    "text": "這記殺球實在是太精彩了啦",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 240.07,
-    "end": 242.98,
+    "start": 268.56,
+    "end": 272.6,
     "speaker": "彥君",
-    "text": "給你們 3 秒鐘歡呼",
+    "text": "戰士們 現在我們用實際數字",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 246.18,
-    "end": 249.53,
+    "start": 272.8,
+    "end": 276.67,
     "speaker": "彥君",
-    "text": "戰士們 我們用數字",
+    "text": "來回放一次剛才那記精彩殺球",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 249.73,
-    "end": 253.07,
-    "speaker": "彥君",
-    "text": "來回放一次 剛才的殺球",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 253.27,
-    "end": 256.81,
+    "start": 276.87,
+    "end": 280.24,
     "speaker": "曉臻",
-    "text": "老師 要用 VAR 嗎",
+    "text": "老師 我們要啟用 VAR 嗎",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 257.01,
-    "end": 261.82,
+    "start": 280.44,
+    "end": 285.66,
     "speaker": "彥君",
-    "text": "沒錯 物理重播輔助判決",
+    "text": "沒錯 啟動物理重播輔助判決",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 262.02,
-    "end": 265.46,
+    "start": 285.86,
+    "end": 289.97,
     "speaker": "彥君",
-    "text": "假設 剛剛那顆高遠球",
+    "text": "假設剛剛那顆超高的防守長球",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 265.66,
-    "end": 268.42,
+    "start": 290.17,
+    "end": 293.56,
     "speaker": "彥君",
-    "text": "離開球拍的 瞬間",
+    "text": "在它離開球拍的那一個瞬間",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 268.62,
-    "end": 271.7,
+    "start": 293.76,
+    "end": 297.18,
     "speaker": "彥君",
-    "text": "它的動能 是 100 焦耳",
+    "text": "它的動能剛好是 $100\\text{ J}$",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$100\\text{ J}$"
+    ]
   },
   {
-    "start": 271.9,
-    "end": 274.96,
+    "start": 297.38,
+    "end": 300.77,
     "speaker": "彥君",
-    "text": "位能 我們當作 0 焦耳",
+    "text": "而位能我們把它當作 $0\\text{ J}$",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$0\\text{ J}$"
+    ]
   },
   {
-    "start": 275.16,
-    "end": 318.25,
+    "start": 300.97,
+    "end": 344.09,
     "speaker": "彥君",
-    "text": "$\\text{擊出瞬間} \\rightarrow \\text{總和 } 100\\text{J}$",
+    "text": "① $\\text{擊出瞬間} \\rightarrow \\text{總和 } 100\\text{ J}$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "① $\\text{擊出瞬間} \\rightarrow \\text{總和 } 100\\text{ J}$"
+    ]
   },
   {
-    "start": 279.52,
-    "end": 282.41,
+    "start": 305.3,
+    "end": 308.67,
     "speaker": "曉臻",
-    "text": "所以 它的力學能總和",
+    "text": "這樣加起來它的力學能總和",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 282.61,
-    "end": 284.97,
+    "start": 308.87,
+    "end": 311.83,
     "speaker": "曉臻",
-    "text": "就是 100 焦耳囉",
+    "text": "就會固定是 $100\\text{ J}$ 囉",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$100\\text{ J}$"
+    ]
   },
   {
-    "start": 285.17,
-    "end": 289.62,
+    "start": 312.03,
+    "end": 316.79,
     "speaker": "彥君",
-    "text": "沒錯 接著球往上飛",
+    "text": "沒錯 接著球繼續往上飛",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 289.82,
-    "end": 292.42,
+    "start": 316.99,
+    "end": 320.36,
     "speaker": "彥君",
-    "text": "飛到了 最高點",
+    "text": "終於飛到了軌跡的最高點",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 292.62,
-    "end": 296.06,
+    "start": 320.56,
+    "end": 323.98,
     "speaker": "曉臻",
-    "text": "速度最慢 動能變成 0 了",
+    "text": "那裡速度最慢動能變成 $0$ 了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$0$"
+    ]
   },
   {
-    "start": 296.26,
-    "end": 299.12,
+    "start": 324.18,
+    "end": 327.5,
     "speaker": "彥君",
-    "text": "那消失的 100 焦耳呢",
+    "text": "那消失的 $100\\text{ J}$ 跑去哪了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$100\\text{ J}$"
+    ]
   },
   {
-    "start": 299.32,
-    "end": 302.26,
+    "start": 327.7,
+    "end": 331.33,
     "speaker": "曉臻",
-    "text": "全部 跑去變成位能了",
+    "text": "當然全部跑去變成重力位能了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 302.46,
-    "end": 306.98,
+    "start": 331.53,
+    "end": 336.31,
     "speaker": "彥君",
-    "text": "非常好 總和還是 100",
+    "text": "非常好 這樣總和還是 $100$",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$100$"
+    ]
   },
   {
-    "start": 307.18,
-    "end": 318.25,
+    "start": 336.51,
+    "end": 344.09,
     "speaker": "彥君",
-    "text": "$\\text{最高點} \\rightarrow \\text{位能 } 100\\text{J}$",
+    "text": "② $\\text{最高點} \\rightarrow \\text{位能 } 100\\text{ J}$",
     "is_pinned": true,
-    "pin_level": 2
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "② $\\text{最高點} \\rightarrow \\text{位能 } 100\\text{ J}$"
+    ]
   },
   {
-    "start": 311.63,
-    "end": 315.05,
+    "start": 344.09,
+    "end": 348.63,
     "speaker": "彥君",
-    "text": "戰士們 最愛考的來了",
+    "text": "戰士們注意 最愛考的來了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 318.25,
-    "end": 321.33,
+    "start": 348.83,
+    "end": 352.54,
     "speaker": "彥君",
-    "text": "如果球 掉到一半的高度",
+    "text": "如果這顆球剛好掉到一半高度",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 321.53,
-    "end": 325.71,
+    "start": 352.74,
+    "end": 357.35,
     "speaker": "彥君",
-    "text": "一半喔 能量變多少",
+    "text": "聽好是一半喔 能量變多少",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 325.91,
-    "end": 328.18,
+    "start": 357.55,
+    "end": 361.06,
     "speaker": "曉臻",
-    "text": "高度 剩下一半",
+    "text": "因為離地面的高度只剩下一半",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 328.38,
-    "end": 331.55,
+    "start": 361.26,
+    "end": 364.44,
     "speaker": "曉臻",
-    "text": "代表 位能只剩下 50 焦耳",
+    "text": "代表位能只剩下 $50\\text{ J}$",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$50\\text{ J}$"
+    ]
   },
   {
-    "start": 331.75,
-    "end": 335.62,
+    "start": 364.64,
+    "end": 369.71,
     "speaker": "彥君",
-    "text": "漂亮 那動能呢",
+    "text": "漂亮 那物體的動能會是多少",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 335.82,
-    "end": 338.64,
+    "start": 369.91,
+    "end": 373.62,
     "speaker": "曉臻",
-    "text": "總和 必須是 100 焦耳",
+    "text": "因為力學能總和必須是 $100\\text{ J}$",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$100\\text{ J}$"
+    ]
   },
   {
-    "start": 338.84,
-    "end": 341.82,
+    "start": 373.82,
+    "end": 377.5,
     "speaker": "曉臻",
-    "text": "所以 動能也是 50 焦耳",
+    "text": "所以動能剛好也是 $50\\text{ J}$ 耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$50\\text{ J}$"
+    ]
   },
   {
-    "start": 342.02,
-    "end": 344.36,
+    "start": 377.7,
+    "end": 382.6,
     "speaker": "彥君",
-    "text": "完全命中",
+    "text": "完全命中 計算非常精準",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 344.56,
-    "end": 347.35,
+    "start": 382.8,
+    "end": 386.55,
     "speaker": "彥君",
-    "text": "能量 各佔了一半",
+    "text": "動能跟位能這時候各佔了一半",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 347.55,
-    "end": 9999.0,
+    "start": 386.75,
+    "end": 402.78,
     "speaker": "彥君",
-    "text": "$\\text{高度一半} \\rightarrow \\text{動能 } 50, \\text{位能 } 50$",
+    "text": "③ $\\text{高度一半} \\rightarrow \\text{動能 } 50\\text{ J}, \\text{位能 } 50\\text{ J}$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "③ $\\text{高度一半} \\rightarrow \\text{動能 } 50\\text{ J}, \\text{位能 } 50\\text{ J}$"
+    ]
   },
   {
-    "start": 352.34,
-    "end": 356.02,
+    "start": 391.45,
+    "end": 395.75,
     "speaker": "曉臻",
-    "text": "哇 一邊看羽球比賽",
+    "text": "哇 這樣一邊看羽球比賽轉播",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 356.22,
-    "end": 359.26,
+    "start": 395.95,
+    "end": 399.58,
     "speaker": "曉臻",
-    "text": "一邊 把計算題給秒殺了",
+    "text": "一邊就把計算題給輕鬆秒殺了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 359.46,
-    "end": 362.46,
+    "start": 402.78,
+    "end": 408.0,
     "speaker": "彥君",
-    "text": "只要 抓緊總和不變",
+    "text": "沒錯 只要抓緊總和不變原則",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 362.66,
-    "end": 366.18,
+    "start": 408.2,
+    "end": 411.95,
     "speaker": "彥君",
-    "text": "幾分之幾 都能輕鬆算出來",
+    "text": "掉到幾分之幾都能輕鬆算出來",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 366.38,
-    "end": 369.46,
+    "start": 412.15,
+    "end": 415.86,
     "speaker": "彥君",
-    "text": "任何考題 都難不倒你",
+    "text": "任何考題陷阱都絕對難不倒你",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 369.66,
-    "end": 372.64,
+    "start": 416.06,
+    "end": 419.52,
     "speaker": "曉臻",
-    "text": "這場 君臻盃羽球大賽",
+    "text": "這場第一屆君臻盃羽球大賽",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 372.84,
-    "end": 375.27,
+    "start": 419.72,
+    "end": 422.94,
     "speaker": "曉臻",
-    "text": "真的 是太熱血了",
+    "text": "實在是太熱血太好看了啦",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 375.47,
-    "end": 378.98,
+    "start": 423.14,
+    "end": 427.9,
     "speaker": "彥君",
-    "text": "戰士們 帶著這股氣勢",
+    "text": "戰士們 帶著這股必勝氣勢",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 379.18,
-    "end": 382.55,
+    "start": 428.1,
+    "end": 432.02,
     "speaker": "彥君",
-    "text": "把會考 當作最後的殺球",
+    "text": "把會考當作最後一記致勝殺球",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 382.75,
-    "end": 385.62,
+    "start": 432.22,
+    "end": 436.0,
     "speaker": "彥君",
-    "text": "狠狠地 拿下滿分吧",
+    "text": "狠狠地在考場上拿下滿分吧",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 385.82,
-    "end": 389.26,
+    "start": 436.2,
+    "end": 440.36,
     "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
+    "text": "觀念全通了 秒殺考題沒問題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 389.46,
-    "end": 392.06,
+    "start": 440.56,
+    "end": 443.64,
     "speaker": "彥君",
-    "text": "我是彥君老師",
+    "text": "我是賽評彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 392.26,
-    "end": 394.59,
+    "start": 443.84,
+    "end": 446.73,
     "speaker": "曉臻",
-    "text": "我是曉臻助教",
+    "text": "我是轉播員曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 394.79,
-    "end": 398.23,
+    "start": 446.93,
+    "end": 450.37,
     "speaker": "合聲",
     "text": "動位轉換 總和不變",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 398.43,
-    "end": 401.97,
+    "start": 450.57,
+    "end": 454.1,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
