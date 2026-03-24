@@ -1,212 +1,618 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 5.07,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 咬緊牙關撐過這個階段",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.86,
+    "start": 5.27,
+    "end": 9.05,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的會考戰士們 我是彥君老師"
+    "text": "未來的你一定會感謝現在的自己",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.86,
-    "end": 11.39,
+    "start": 9.25,
+    "end": 12.45,
     "speaker": "彥君",
-    "text": "今天來到 第六十七集"
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$A$"
+    ]
   },
   {
-    "start": 11.39,
-    "end": 14.36,
+    "start": 12.65,
+    "end": 16.11,
     "speaker": "彥君",
-    "text": "重量百分濃度"
+    "text": "恭喜大家來到第六十七集囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 14.36,
-    "end": 17.86,
+    "start": 16.31,
+    "end": 19.82,
+    "speaker": "彥君",
+    "text": "戰士們好 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.02,
+    "end": 23.32,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教"
+    "text": "大家好啊 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 17.86,
-    "end": 23.33,
+    "start": 23.52,
+    "end": 27.3,
+    "speaker": "彥君",
+    "text": "這張投影片打上了三顆大星號",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 27.5,
+    "end": 30.96,
+    "speaker": "彥君",
+    "text": "它是理化計算的超級大魔王喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 31.16,
+    "end": 34.98,
+    "speaker": "彥君",
+    "text": "也就是重量百分濃度的計算題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 35.18,
+    "end": 38.72,
     "speaker": "曉臻",
-    "text": "老師 講義上的公式 第一個分母寫 溶液重量"
+    "text": "老師講義上的公式到底背哪個",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 23.33,
-    "end": 27.57,
+    "start": 38.92,
+    "end": 42.1,
     "speaker": "曉臻",
-    "text": "第二個分母寫 溶質＋溶劑"
+    "text": "第一個分母寫著溶液的重量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.57,
-    "end": 30.23,
+    "start": 42.3,
+    "end": 45.54,
     "speaker": "曉臻",
-    "text": "到底要背哪一個啊"
+    "text": "第二個分母寫溶質加溶劑",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 30.23,
-    "end": 35.39,
-    "speaker": "彥君",
-    "text": "我們用大家最愛喝的 「糖水」 來想 一秒鐘就懂了"
-  },
-  {
-    "start": 35.39,
-    "end": 39.39,
-    "speaker": "彥君",
-    "text": "被溶化掉的糖 叫做 溶質"
-  },
-  {
-    "start": 39.39,
-    "end": 43.76,
-    "speaker": "彥君",
-    "text": "用來溶化別人的水 叫做 溶劑"
-  },
-  {
-    "start": 43.76,
-    "end": 49.25,
-    "speaker": "彥君",
-    "text": "糖加上水 整杯泡好的糖水 就叫做 溶液"
-  },
-  {
-    "start": 49.25,
-    "end": 54.74,
+    "start": 45.74,
+    "end": 49.11,
     "speaker": "曉臻",
-    "text": "喔 所以 溶質 加上 溶劑 就等於 溶液"
+    "text": "這兩個公式到底要背哪一個啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 54.74,
-    "end": 59.61,
+    "start": 49.31,
+    "end": 52.94,
     "speaker": "彥君",
-    "text": "就是把 糖的重量 除以 「整杯糖水」 的重量"
+    "text": "戰士們其實不用背仔細聽我說",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 59.61,
-    "end": 63.73,
+    "start": 53.14,
+    "end": 56.75,
     "speaker": "彥君",
-    "text": "我們來看 會考最愛考的 死亡陷阱"
+    "text": "我們用大家最愛喝的糖水來想",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 63.73,
-    "end": 69.15,
+    "start": 56.95,
+    "end": 60.49,
     "speaker": "彥君",
-    "text": "題目說 把 二十克的糖 丟進 八十克的水裡"
+    "text": "保證你們一秒鐘就能夠聽懂了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 69.15,
-    "end": 75.51,
+    "start": 60.69,
+    "end": 71.16,
     "speaker": "彥君",
-    "text": "很多同學 會直接把 二十 除以 八十 算出來等於 百分之二十五"
+    "text": "被溶化掉的糖就叫做溶質",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
   },
   {
-    "start": 75.51,
-    "end": 79.73,
+    "start": 64.42,
+    "end": 67.96,
     "speaker": "彥君",
-    "text": "這樣寫 就直接 謝謝再聯絡了"
+    "text": "被溶化掉的糖就叫做溶質",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 79.73,
-    "end": 83.44,
+    "start": 71.16,
+    "end": 81.51,
+    "speaker": "彥君",
+    "text": "用來溶化別人的水叫溶劑",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 74.85,
+    "end": 78.31,
+    "speaker": "彥君",
+    "text": "用來溶化別人的水叫溶劑",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 81.51,
+    "end": 95.82,
+    "speaker": "彥君",
+    "text": "糖加上水整杯泡好叫溶液",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 85.27,
+    "end": 89.14,
+    "speaker": "彥君",
+    "text": "糖加上水整杯泡好的這杯糖水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 89.34,
+    "end": 92.62,
+    "speaker": "彥君",
+    "text": "它的總稱呼就叫做溶液喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 95.82,
+    "end": 99.71,
     "speaker": "曉臻",
-    "text": "啊 陷阱就在分母"
+    "text": "喔 所以溶質加上溶劑",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 83.44,
-    "end": 88.7,
+    "start": 99.91,
+    "end": 103.16,
     "speaker": "曉臻",
-    "text": "分母不能只放水 必須放 「整杯糖水」 對不對"
+    "text": "兩個加起來就會等於溶液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 88.7,
-    "end": 96.9,
+    "start": 103.36,
+    "end": 108.38,
     "speaker": "彥君",
-    "text": "完全正確 分母必須是 糖加上水 也就是 二十加八十 等於一百"
+    "text": "沒錯 所以公式永遠只有一個",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 96.9,
-    "end": 100.9,
+    "start": 108.58,
+    "end": 112.31,
     "speaker": "彥君",
-    "text": "所以濃度 應該是 20÷100"
+    "text": "就是把那顆糖本身的重量數字",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 100.9,
-    "end": 104.57,
+    "start": 112.51,
+    "end": 116.24,
     "speaker": "彥君",
-    "text": "正確答案 是 20%"
+    "text": "除以整杯糖水加起來的總重量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 104.57,
-    "end": 109.94,
+    "start": 116.44,
+    "end": 120.26,
+    "speaker": "彥君",
+    "text": "我們來看會考最愛考的死亡陷阱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 120.46,
+    "end": 124.29,
+    "speaker": "彥君",
+    "text": "題目說把二十克的糖給丟進去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 124.49,
+    "end": 127.98,
+    "speaker": "彥君",
+    "text": "裝著八十克純水的燒杯裡面喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 128.18,
+    "end": 132.02,
+    "speaker": "彥君",
+    "text": "很多同學會直接把二十除八十",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 132.22,
+    "end": 136.05,
+    "speaker": "彥君",
+    "text": "算出來等於百分之二十五濃度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 136.25,
+    "end": 139.83,
+    "speaker": "彥君",
+    "text": "這樣寫就直接謝謝再聯絡了喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 140.03,
+    "end": 144.5,
     "speaker": "曉臻",
-    "text": "一、 糖是 溶質 水是 溶劑 糖水是 溶液"
+    "text": "啊 陷阱就是藏在分母裡面啦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 109.94,
-    "end": 115.17,
+    "start": 144.7,
+    "end": 148.53,
     "speaker": "曉臻",
-    "text": "二、 濃度的分母 一定要放 「溶質 加上 溶劑」"
+    "text": "分母不能只放水必須放整杯糖水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 115.17,
-    "end": 119.46,
-    "speaker": "曉臻",
-    "text": "三、 千萬不能 直接除以水的重量"
-  },
-  {
-    "start": 119.46,
-    "end": 124.55,
+    "start": 148.73,
+    "end": 154.11,
     "speaker": "彥君",
-    "text": "如果我有一杯 10% 的鹽水 總共 一百克"
+    "text": "完全正確 分母必須是糖加上水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 124.55,
-    "end": 130.35,
+    "start": 154.31,
+    "end": 157.94,
     "speaker": "彥君",
-    "text": "請問裡面 鹽巴 有幾克 水 有幾克"
+    "text": "也就是二十加八十等於一百克",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 130.35,
-    "end": 136.16,
-    "speaker": "曉臻",
-    "text": "一百克裡面 鹽巴佔了 百分之十 所以 鹽巴是 十克"
-  },
-  {
-    "start": 136.16,
-    "end": 140.69,
-    "speaker": "曉臻",
-    "text": "剩下的一百 減去十 就是 九十克的水"
-  },
-  {
-    "start": 140.69,
-    "end": 147.4,
+    "start": 158.14,
+    "end": 172.76,
     "speaker": "彥君",
-    "text": "漂亮 觀念非常清楚 反向推算 也難不倒你"
+    "text": "分母必須放糖加水的總重量",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
   },
   {
-    "start": 147.4,
-    "end": 150.3,
+    "start": 161.95,
+    "end": 165.66,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "所以濃度應該是 $20 \\div 100$",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$20 \\div 100$"
+    ]
   },
   {
-    "start": 150.3,
-    "end": 152.94,
+    "start": 165.86,
+    "end": 169.56,
+    "speaker": "彥君",
+    "text": "正確答案是 $20\\%$ 濃度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$20\\%$"
+    ]
+  },
+  {
+    "start": 172.76,
+    "end": 176.46,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "戰士們 快速複習必考重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 152.94,
-    "end": 156.61,
+    "start": 176.66,
+    "end": 213.02,
+    "speaker": "曉臻",
+    "text": "一、 糖是溶質水是溶劑",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 180.18,
+    "end": 183.74,
+    "speaker": "曉臻",
+    "text": "第一點 糖是溶質水是溶劑",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 183.94,
+    "end": 187.46,
+    "speaker": "曉臻",
+    "text": "泡出來的整杯糖水就是溶液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 187.66,
+    "end": 213.02,
+    "speaker": "曉臻",
+    "text": "二、 分母必放溶質加溶劑",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 191.25,
+    "end": 194.86,
+    "speaker": "曉臻",
+    "text": "第二點 濃度的分母一定要放",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 195.06,
+    "end": 198.16,
+    "speaker": "曉臻",
+    "text": "溶質加上溶劑的總重量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 198.36,
+    "end": 213.02,
+    "speaker": "曉臻",
+    "text": "三、 千萬不能直接除以水重量",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 202.41,
+    "end": 205.99,
+    "speaker": "曉臻",
+    "text": "第三點 計算時千萬不能夠",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 206.19,
+    "end": 209.82,
+    "speaker": "曉臻",
+    "text": "直接除以純水的重量會算錯喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 213.02,
+    "end": 216.54,
+    "speaker": "彥君",
+    "text": "戰士們閉上眼想一想這題喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 216.74,
+    "end": 220.34,
+    "speaker": "彥君",
+    "text": "如果我有一杯 $10\\%$ 的鹽水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$10\\%$"
+    ]
+  },
+  {
+    "start": 220.54,
+    "end": 224.13,
+    "speaker": "彥君",
+    "text": "它的總重量剛好是一百公克",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 224.33,
+    "end": 227.82,
+    "speaker": "彥君",
+    "text": "請問裡面鹽巴和水各幾克呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 228.02,
+    "end": 231.6,
+    "speaker": "曉臻",
+    "text": "一百克裡面鹽巴佔了百分之十",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 231.8,
+    "end": 235.53,
+    "speaker": "曉臻",
+    "text": "所以鹽巴的重量剛好是十公克",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 235.73,
+    "end": 239.29,
+    "speaker": "曉臻",
+    "text": "剩下的一百克去減掉十克鹽巴",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 239.49,
+    "end": 242.9,
+    "speaker": "曉臻",
+    "text": "就是九十公克純水的重量啦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 243.1,
+    "end": 248.1,
+    "speaker": "彥君",
+    "text": "漂亮 觀念非常清楚且正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 248.3,
+    "end": 251.91,
+    "speaker": "彥君",
+    "text": "反向推算也完全難不倒你們喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 252.11,
+    "end": 255.38,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 255.58,
+    "end": 259.07,
+    "speaker": "彥君",
+    "text": "戰士們 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 259.27,
+    "end": 262.57,
+    "speaker": "曉臻",
+    "text": "大家好啊 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 262.77,
+    "end": 266.14,
     "speaker": "合聲",
-    "text": "溶質在上 全部在下"
+    "text": "溶質在上 全部在下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 156.61,
-    "end": 160.64,
+    "start": 266.34,
+    "end": 270.06,
     "speaker": "合聲",
-    "text": "保持戰鬥力 繼續向前衝"
+    "text": "保持戰鬥力 繼續向前衝",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
