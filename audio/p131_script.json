@@ -1,442 +1,528 @@
 [
   {
     "start": 0.0,
-    "end": 3.25,
+    "end": 5.34,
     "speaker": "彥君",
-    "text": "戰士們 歡迎來到",
+    "text": "戰士們 歡迎來到第一百三十一集",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.45,
-    "end": 6.19,
+    "start": 5.54,
+    "end": 9.62,
     "speaker": "彥君",
-    "text": "第 131 集",
+    "text": "就像是擁有強大磁力的磁鐵兩極",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.39,
-    "end": 9.28,
+    "start": 9.82,
+    "end": 13.82,
     "speaker": "彥君",
-    "text": "就像 磁鐵的兩極",
+    "text": "只要你們朝著目標的志向夠堅定",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 9.48,
-    "end": 12.61,
+    "start": 14.02,
+    "end": 18.03,
     "speaker": "彥君",
-    "text": "只要 你的志向夠堅定",
+    "text": "絕對就能夠吸引所有的成功機會",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 12.81,
-    "end": 15.96,
+    "start": 18.23,
+    "end": 21.62,
     "speaker": "彥君",
-    "text": "就能 吸引所有的機會",
+    "text": "各位衝刺 $A^{++}$ 的戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$A^{++}$"
+    ]
   },
   {
-    "start": 16.16,
-    "end": 18.76,
-    "speaker": "彥君",
-    "text": "我是彥君老師",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 18.96,
-    "end": 20.7,
-    "speaker": "曉臻",
-    "text": "大家好",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 20.9,
-    "end": 23.23,
-    "speaker": "曉臻",
-    "text": "我是曉臻助教",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 23.43,
-    "end": 25.89,
-    "speaker": "彥君",
-    "text": "戰士們注意",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 26.09,
-    "end": 29.0,
-    "speaker": "彥君",
-    "text": "電磁學 最終章來了",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 29.2,
-    "end": 32.23,
-    "speaker": "曉臻",
-    "text": "老師 第一點磁力線",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 32.43,
-    "end": 34.84,
-    "speaker": "曉臻",
-    "text": "到底是 N 到 S 嗎",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 35.04,
-    "end": 39.68,
-    "speaker": "彥君",
-    "text": "記住 磁鐵外部 N 到 S",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 39.88,
-    "end": 42.84,
-    "speaker": "彥君",
-    "text": "內部 則是 S 回到 N",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 43.04,
-    "end": 46.0,
-    "speaker": "彥君",
-    "text": "它們 可是封閉的曲線喔",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 46.2,
-    "end": 56.91,
-    "speaker": "彥君",
-    "text": "$\\text{外部 } N \\rightarrow S, \\text{ 內部 } S \\rightarrow N$",
-    "is_pinned": true,
-    "pin_level": 1
-  },
-  {
-    "start": 50.66,
-    "end": 53.71,
-    "speaker": "彥君",
-    "text": "給你們 3 秒鐘想像",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 56.91,
-    "end": 59.87,
-    "speaker": "曉臻",
-    "text": "那第二點 安培右手定律",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 60.07,
-    "end": 63.44,
-    "speaker": "曉臻",
-    "text": "到底是 比讚 還是抓東西",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 63.64,
-    "end": 66.12,
-    "speaker": "彥君",
-    "text": "兩種都可以",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 66.32,
-    "end": 70.58,
-    "speaker": "彥君",
-    "text": "直導線比讚 大拇指是 $I$",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 70.78,
-    "end": 75.1,
-    "speaker": "彥君",
-    "text": "線圈用抓的 大拇指是 $B$",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 75.3,
-    "end": 87.98,
-    "speaker": "彥君",
-    "text": "[$\\text{大拇指} \\rightarrow \\text{直的",
-    "is_pinned": true,
-    "pin_level": 1
-  },
-  {
-    "start": 81.46,
-    "end": 84.78,
-    "speaker": "彥君",
-    "text": "戰士們 伸出右手",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 87.98,
-    "end": 91.02,
-    "speaker": "曉臻",
-    "text": "第三點 右手開掌定則",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 91.22,
-    "end": 94.58,
-    "speaker": "曉臻",
-    "text": "四根手指 又要變磁場了",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 94.78,
-    "end": 99.42,
-    "speaker": "彥君",
-    "text": "沒錯 這是算受力方向",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 99.62,
-    "end": 103.26,
-    "speaker": "彥君",
-    "text": "大拇指電流 四指磁場",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 103.46,
-    "end": 106.49,
-    "speaker": "曉臻",
-    "text": "那 掌心推出去的方向呢",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 106.69,
-    "end": 109.31,
-    "speaker": "彥君",
-    "text": "就是 受力方向 $F$",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 109.51,
-    "end": 113.41,
-    "speaker": "彥君",
-    "text": "記住 必須三者互相垂直",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 113.61,
-    "end": 124.7,
-    "speaker": "彥君",
-    "text": "$\\text{拇指 } I, \\text{ 四指 } B, \\text{ 掌心 } F$",
-    "is_pinned": true,
-    "pin_level": 1
-  },
-  {
-    "start": 118.54,
-    "end": 121.5,
-    "speaker": "彥君",
-    "text": "給你們 3 秒鐘拍手",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 124.7,
-    "end": 127.81,
-    "speaker": "曉臻",
-    "text": "老師 最後一點最難",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 128.01,
-    "end": 130.51,
-    "speaker": "曉臻",
-    "text": "什麼 是感應電流",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 130.71,
-    "end": 133.89,
-    "speaker": "彥君",
-    "text": "這是 懶惰的最高境界",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 134.09,
-    "end": 137.14,
-    "speaker": "彥君",
-    "text": "磁場 只要發生變化",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 137.34,
-    "end": 140.95,
-    "speaker": "彥君",
-    "text": "導線 就會產生電流來抵抗",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 141.15,
-    "end": 144.4,
-    "speaker": "曉臻",
-    "text": "老師 講義寫得好複雜",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 144.6,
-    "end": 147.2,
-    "speaker": "曉臻",
-    "text": "有沒有 簡單的口訣",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 147.4,
-    "end": 151.7,
-    "speaker": "彥君",
-    "text": "當然有 記住這句話",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 151.9,
-    "end": 155.2,
-    "speaker": "彥君",
-    "text": "磁鐵要來 我就推開",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 155.4,
-    "end": 158.74,
-    "speaker": "彥君",
-    "text": "磁鐵要走 我就拉住",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 158.94,
-    "end": 162.22,
-    "speaker": "曉臻",
-    "text": "哇 這根本就是",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 162.42,
-    "end": 165.28,
-    "speaker": "曉臻",
-    "text": "欲擒故縱的 戀愛大師",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 165.48,
-    "end": 170.26,
-    "speaker": "彥君",
-    "text": "沒錯 產生磁場去抵抗",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 170.46,
-    "end": 173.21,
-    "speaker": "彥君",
-    "text": "這就是 冷次定律",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 173.41,
-    "end": 9999.0,
-    "speaker": "彥君",
-    "text": "$\\text{磁場變} \\rightarrow \\text{產生感應電流抵抗}$",
-    "is_pinned": true,
-    "pin_level": 1
-  },
-  {
-    "start": 178.18,
-    "end": 182.67,
-    "speaker": "彥君",
-    "text": "磁場變化的愈快 感應電流就愈強",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 182.87,
-    "end": 186.48,
-    "speaker": "曉臻",
-    "text": "磁場不變 感應電流就歸0",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 186.68,
-    "end": 190.12,
-    "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 190.32,
-    "end": 192.92,
+    "start": 21.82,
+    "end": 24.42,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 193.12,
-    "end": 195.46,
+    "start": 24.62,
+    "end": 27.82,
+    "speaker": "曉臻",
+    "text": "大家好 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 28.02,
+    "end": 31.68,
+    "speaker": "彥君",
+    "text": "戰士們請把注意力集中過來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 31.88,
+    "end": 35.34,
+    "speaker": "彥君",
+    "text": "電磁學最終章的大魔王來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 35.54,
+    "end": 38.62,
+    "speaker": "曉臻",
+    "text": "老師講義第一點的磁力線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 38.82,
+    "end": 42.38,
+    "speaker": "曉臻",
+    "text": "它到底是從 $N$ 極走到 $S$ 極嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$N$",
+      "$S$"
+    ]
+  },
+  {
+    "start": 42.58,
+    "end": 47.56,
+    "speaker": "彥君",
+    "text": "記住 在磁鐵外部是 $N$ 到 $S$",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$N$",
+      "$S$"
+    ]
+  },
+  {
+    "start": 47.76,
+    "end": 51.34,
+    "speaker": "彥君",
+    "text": "但在內部則是從 $S$ 回流到 $N$",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$S$",
+      "$N$"
+    ]
+  },
+  {
+    "start": 51.54,
+    "end": 55.37,
+    "speaker": "彥君",
+    "text": "它們可是一圈圈完美的封閉曲線喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 55.57,
+    "end": 67.55,
+    "speaker": "彥君",
+    "text": "① $\\text{外部 } N \\rightarrow S, \\text{ 內部 } S \\rightarrow N$",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "① $\\text{外部 } N \\rightarrow S, \\text{ 內部 } S \\rightarrow N$"
+    ]
+  },
+  {
+    "start": 60.1,
+    "end": 64.35,
+    "speaker": "彥君",
+    "text": "戰士們 給你們三秒鐘想像畫面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 67.55,
+    "end": 70.61,
+    "speaker": "曉臻",
+    "text": "那第二點的安培右手定律",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 70.81,
+    "end": 74.8,
+    "speaker": "曉臻",
+    "text": "手勢到底是比讚 還是用手抓啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 75.0,
+    "end": 79.59,
+    "speaker": "彥君",
+    "text": "兩種都可以 聽好口訣了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 79.79,
+    "end": 84.19,
+    "speaker": "彥君",
+    "text": "長直導線用比讚的 大拇指是電流 $I$",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$I$"
+    ]
+  },
+  {
+    "start": 84.39,
+    "end": 88.82,
+    "speaker": "彥君",
+    "text": "線圈改成用手抓 大拇指變磁場 $B$",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$B$"
+    ]
+  },
+  {
+    "start": 89.02,
+    "end": 100.98,
+    "speaker": "彥君",
+    "text": "② $\\text{大拇指} \\rightarrow \\text{直的方向 (電流或磁場)}$",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "② $\\text{大拇指} \\rightarrow \\text{直的方向 (電流或磁場)}$"
+    ]
+  },
+  {
+    "start": 93.64,
+    "end": 97.78,
+    "speaker": "彥君",
+    "text": "戰士們 趕快伸出你的黃金右手",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 100.98,
+    "end": 104.46,
+    "speaker": "曉臻",
+    "text": "老師第三點的右手開掌定則",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 104.66,
+    "end": 108.7,
+    "speaker": "曉臻",
+    "text": "四根手指頭 怎麼又要變成磁場了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 108.9,
+    "end": 114.1,
+    "speaker": "彥君",
+    "text": "沒錯 因為這是用來計算受力的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 114.3,
+    "end": 118.67,
+    "speaker": "彥君",
+    "text": "大拇指是電流 伸直的四指是磁場",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 118.87,
+    "end": 122.26,
+    "speaker": "曉臻",
+    "text": "那掌心用力推出去的方向呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 122.46,
+    "end": 126.02,
+    "speaker": "彥君",
+    "text": "那個就是導線的受力方向 $F$",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$F$"
+    ]
+  },
+  {
+    "start": 126.22,
+    "end": 130.6,
+    "speaker": "彥君",
+    "text": "記住 必須是三者互相垂直的狀態",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 130.8,
+    "end": 142.16,
+    "speaker": "彥君",
+    "text": "③ $\\text{拇指 } I, \\text{ 四指 } B, \\text{ 掌心 } F$",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "③ $\\text{拇指 } I, \\text{ 四指 } B, \\text{ 掌心 } F$"
+    ]
+  },
+  {
+    "start": 135.42,
+    "end": 138.96,
+    "speaker": "彥君",
+    "text": "給你們三秒鐘用力拍拍手",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 142.16,
+    "end": 146.32,
+    "speaker": "曉臻",
+    "text": "老師 最後一點冷次定律最難懂了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 146.52,
+    "end": 150.03,
+    "speaker": "曉臻",
+    "text": "到底什麼東西叫做感應電流啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 150.23,
+    "end": 153.84,
+    "speaker": "彥君",
+    "text": "這是物理界懶惰的最高境界",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 154.04,
+    "end": 158.01,
+    "speaker": "彥君",
+    "text": "只要環境的磁場發生了任何變化",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 158.21,
+    "end": 162.18,
+    "speaker": "彥君",
+    "text": "導線就會產生電流來拼命抵抗",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 162.38,
+    "end": 166.22,
+    "speaker": "曉臻",
+    "text": "老師講義上這段話寫得好複雜喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 166.42,
+    "end": 170.01,
+    "speaker": "曉臻",
+    "text": "有沒有更簡單好記的必殺口訣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 170.21,
+    "end": 175.02,
+    "speaker": "彥君",
+    "text": "當然有 戰士們記住這句話",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 175.22,
+    "end": 178.78,
+    "speaker": "彥君",
+    "text": "磁鐵要來 我就用力推開",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 178.98,
+    "end": 182.68,
+    "speaker": "彥君",
+    "text": "磁鐵要走 我就死命拉住",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 182.88,
+    "end": 187.02,
+    "speaker": "曉臻",
+    "text": "哇 這根本就是欲擒故縱嘛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 187.22,
+    "end": 190.8,
+    "speaker": "曉臻",
+    "text": "簡直是戀愛大師的頂級招式耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 191.0,
+    "end": 196.77,
+    "speaker": "彥君",
+    "text": "沒錯 產生新磁場去抵抗原本的改變",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 196.97,
+    "end": 200.41,
+    "speaker": "彥君",
+    "text": "這就是大名鼎鼎的冷次定律",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 200.61,
+    "end": 222.75,
+    "speaker": "彥君",
+    "text": "④ $\\text{磁場變} \\rightarrow \\text{產生感應電流抵抗}$",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "④ $\\text{磁場變} \\rightarrow \\text{產生感應電流抵抗}$"
+    ]
+  },
+  {
+    "start": 205.23,
+    "end": 209.8,
+    "speaker": "彥君",
+    "text": "磁場變化愈快 感應電流就會愈強",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 210.0,
+    "end": 214.33,
+    "speaker": "曉臻",
+    "text": "磁場如果不變 感應電流就直接歸 $0$",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$0$"
+    ]
+  },
+  {
+    "start": 214.53,
+    "end": 219.55,
+    "speaker": "彥君",
+    "text": "漂亮 陷阱完全被你給識破了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 222.75,
+    "end": 226.91,
+    "speaker": "彥君",
+    "text": "觀念全通了 秒殺考題沒問題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 227.11,
+    "end": 229.71,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 229.91,
+    "end": 232.25,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 195.66,
-    "end": 198.95,
+    "start": 232.45,
+    "end": 235.74,
     "speaker": "合聲",
     "text": "右手三變 電磁通殺",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 199.15,
-    "end": 202.69,
+    "start": 235.94,
+    "end": 239.48,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
