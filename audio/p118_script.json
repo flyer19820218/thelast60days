@@ -5,7 +5,8 @@
     "speaker": "彥君",
     "text": "戰士們 歡迎來到",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 3.45,
@@ -13,7 +14,8 @@
     "speaker": "彥君",
     "text": "第 118 集",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 6.27,
@@ -21,7 +23,8 @@
     "speaker": "彥君",
     "text": "遇到人生的彎道 不要害怕",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 10.1,
@@ -29,7 +32,8 @@
     "speaker": "彥君",
     "text": "只要找到 你的向心力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 13.34,
@@ -37,7 +41,8 @@
     "speaker": "彥君",
     "text": "就能 穩穩地轉彎",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 16.33,
@@ -45,7 +50,8 @@
     "speaker": "彥君",
     "text": "絕對不會 飛出軌道",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 19.49,
@@ -53,7 +59,8 @@
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 22.29,
@@ -61,7 +68,8 @@
     "speaker": "曉臻",
     "text": "大家好",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 24.22,
@@ -69,342 +77,370 @@
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 26.76,
-    "end": 29.22,
-    "speaker": "彥君",
-    "text": "戰士們注意",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 29.42,
-    "end": 32.3,
+    "end": 29.65,
     "speaker": "彥君",
     "text": "今天要來 轉圈圈了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 32.5,
-    "end": 35.46,
+    "start": 29.85,
+    "end": 32.81,
     "speaker": "曉臻",
     "text": "老師 講義第一點說",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 35.66,
-    "end": 38.77,
+    "start": 33.01,
+    "end": 36.11,
     "speaker": "曉臻",
     "text": "只要轉彎 就需要向心力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 38.97,
-    "end": 43.46,
+    "start": 36.31,
+    "end": 40.81,
     "speaker": "彥君",
     "text": "沒錯 看看左邊的圓",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 43.66,
-    "end": 46.55,
+    "start": 41.01,
+    "end": 43.9,
     "speaker": "彥君",
     "text": "不管球 走到哪裡",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 46.75,
-    "end": 49.76,
+    "start": 44.1,
+    "end": 47.1,
     "speaker": "彥君",
     "text": "力量永遠 指向圓心",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 49.96,
-    "end": 84.52,
+    "start": 47.3,
+    "end": 78.54,
     "speaker": "彥君",
     "text": "$\\text{轉彎} \\rightarrow \\text{需要向心力}$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "$\\text{轉彎} \\rightarrow \\text{需要向心力}$"
+    ]
   },
   {
-    "start": 53.91,
-    "end": 56.61,
+    "start": 51.26,
+    "end": 53.95,
     "speaker": "曉臻",
     "text": "可是 講義第四點說",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 56.81,
-    "end": 59.74,
+    "start": 54.15,
+    "end": 57.09,
     "speaker": "曉臻",
     "text": "向心力 竟然不作功耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 59.94,
-    "end": 62.86,
+    "start": 57.29,
+    "end": 60.2,
     "speaker": "彥君",
     "text": "助教 觀察力太強了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 63.06,
-    "end": 66.16,
+    "start": 60.4,
+    "end": 63.5,
     "speaker": "彥君",
     "text": "看看 球的速度箭頭",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 66.36,
-    "end": 69.51,
+    "start": 63.7,
+    "end": 66.86,
     "speaker": "彥君",
     "text": "永遠跟 向心力垂直",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 69.71,
-    "end": 73.25,
+    "start": 67.06,
+    "end": 70.59,
     "speaker": "彥君",
     "text": "互相垂直 就是不作功",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 73.45,
-    "end": 84.52,
+    "start": 70.79,
+    "end": 78.54,
     "speaker": "彥君",
     "text": "$\\text{向心力} \\rightarrow \\text{垂直不作功}$",
     "is_pinned": true,
-    "pin_level": 2
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "$\\text{向心力} \\rightarrow \\text{垂直不作功}$"
+    ]
   },
   {
-    "start": 78.19,
-    "end": 81.32,
-    "speaker": "彥君",
-    "text": "給你們 3 秒鐘畫直角",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 84.52,
-    "end": 87.67,
+    "start": 78.54,
+    "end": 81.69,
     "speaker": "曉臻",
     "text": "老師 下面有一行字",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 87.87,
-    "end": 90.69,
+    "start": 81.89,
+    "end": 84.7,
     "speaker": "曉臻",
     "text": "如果 繩子突然斷掉呢",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 90.89,
-    "end": 93.63,
+    "start": 84.9,
+    "end": 87.65,
     "speaker": "彥君",
     "text": "這是 必考的陷阱",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 93.83,
-    "end": 97.1,
+    "start": 87.85,
+    "end": 91.12,
     "speaker": "彥君",
     "text": "很多人以為 球會往外飛",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 97.3,
-    "end": 100.38,
+    "start": 91.32,
+    "end": 94.4,
     "speaker": "彥君",
     "text": "其實 向心力一消失",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 100.58,
-    "end": 103.93,
+    "start": 94.6,
+    "end": 97.94,
     "speaker": "彥君",
     "text": "球就會 順著原本的速度",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 104.13,
-    "end": 107.4,
+    "start": 98.14,
+    "end": 101.42,
     "speaker": "彥君",
     "text": "沿著 切線方向飛出去",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 107.6,
-    "end": 110.85,
+    "start": 101.62,
+    "end": 104.86,
     "speaker": "彥君",
     "text": "這就是 我們學過的慣性",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 111.05,
-    "end": 122.38,
+    "start": 105.06,
+    "end": 112.98,
     "speaker": "彥君",
     "text": "$\\text{失去向心力} \\rightarrow \\text{切線飛出}$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "$\\text{失去向心力} \\rightarrow \\text{切線飛出}$"
+    ]
   },
   {
-    "start": 115.96,
-    "end": 119.18,
-    "speaker": "彥君",
-    "text": "戰士們 趕快抄寫",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 122.38,
-    "end": 125.32,
+    "start": 112.98,
+    "end": 115.91,
     "speaker": "曉臻",
     "text": "最後 右邊有一台車子",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 125.52,
-    "end": 128.24,
+    "start": 116.11,
+    "end": 118.83,
     "speaker": "曉臻",
     "text": "它在 斜坡上轉彎耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.44,
-    "end": 133.15,
+    "start": 119.03,
+    "end": 123.74,
     "speaker": "彥君",
     "text": "沒錯 這是經典選擇題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 133.35,
-    "end": 136.48,
+    "start": 123.94,
+    "end": 127.07,
     "speaker": "彥君",
     "text": "甲乙丙丁 四個箭頭",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 136.68,
-    "end": 139.47,
+    "start": 127.27,
+    "end": 130.06,
     "speaker": "彥君",
     "text": "哪一個 是向心力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 139.67,
-    "end": 142.42,
+    "start": 130.26,
+    "end": 133.01,
     "speaker": "曉臻",
     "text": "向心力 要指向圓心",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 142.62,
-    "end": 145.96,
+    "start": 133.21,
+    "end": 136.55,
     "speaker": "曉臻",
     "text": "車子 是在水平面上繞圈圈",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 146.16,
-    "end": 149.31,
+    "start": 136.75,
+    "end": 139.9,
     "speaker": "曉臻",
     "text": "所以 圓心在水平的左邊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 149.51,
-    "end": 153.77,
+    "start": 140.1,
+    "end": 144.36,
     "speaker": "彥君",
     "text": "答對了 答案就是乙",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 153.97,
-    "end": 157.19,
+    "start": 144.56,
+    "end": 147.78,
     "speaker": "彥君",
     "text": "絕對不是 順著斜坡的丙喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 157.39,
+    "start": 147.98,
     "end": 9999.0,
     "speaker": "彥君",
     "text": "$\\text{水平轉彎} \\rightarrow \\text{向心力為水平}$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "$\\text{水平轉彎} \\rightarrow \\text{向心力為水平}$"
+    ]
   },
   {
-    "start": 162.06,
-    "end": 165.5,
+    "start": 152.66,
+    "end": 156.1,
     "speaker": "彥君",
     "text": "觀念通了 秒殺考題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 165.7,
-    "end": 168.3,
+    "start": 156.3,
+    "end": 158.9,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 168.5,
-    "end": 170.84,
+    "start": 159.1,
+    "end": 161.43,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 171.04,
-    "end": 174.46,
+    "start": 161.63,
+    "end": 165.05,
     "speaker": "合聲",
     "text": "轉彎向心 斷裂切線",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 174.66,
-    "end": 178.19,
+    "start": 165.25,
+    "end": 168.78,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
