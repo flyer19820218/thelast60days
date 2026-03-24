@@ -1,482 +1,560 @@
 [
   {
     "start": 0.0,
-    "end": 1.98,
+    "end": 4.35,
     "speaker": "彥君",
-    "text": "哈囉",
+    "text": "各位拚盡全力、絕不放棄的戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.18,
-    "end": 5.74,
-    "speaker": "彥君",
-    "text": "各位即將衝A的會考戰士們",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 5.94,
-    "end": 8.54,
+    "start": 4.55,
+    "end": 7.15,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 8.74,
-    "end": 11.91,
-    "speaker": "彥君",
-    "text": "今天來到 第九十五集",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 12.11,
-    "end": 13.85,
+    "start": 7.35,
+    "end": 9.64,
     "speaker": "曉臻",
-    "text": "大家好",
+    "text": "戰士們大家好",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 14.05,
-    "end": 16.38,
+    "start": 9.84,
+    "end": 12.18,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.58,
-    "end": 19.04,
+    "start": 12.38,
+    "end": 15.67,
     "speaker": "彥君",
-    "text": "戰士們注意",
+    "text": "歡迎來到第九十五集",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.24,
-    "end": 22.18,
+    "start": 15.87,
+    "end": 19.91,
     "speaker": "彥君",
-    "text": "這集要講 可逆反應",
+    "text": "戰士們注意這集要講可逆反應",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.38,
-    "end": 25.17,
+    "start": 20.11,
+    "end": 23.19,
     "speaker": "曉臻",
-    "text": "老師 上面寫著",
+    "text": "老師講義上面寫著",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 25.37,
-    "end": 27.94,
+    "start": 23.39,
+    "end": 26.38,
     "speaker": "曉臻",
-    "text": "平衡時 顏色不變",
+    "text": "反應平衡時顏色不變",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 28.14,
-    "end": 30.74,
+    "start": 26.58,
+    "end": 29.73,
     "speaker": "曉臻",
-    "text": "難道 反應停下來了",
+    "text": "難道反應已經停下來了嗎",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 30.94,
-    "end": 33.71,
+    "start": 29.93,
+    "end": 33.61,
     "speaker": "彥君",
-    "text": "這是 最大的陷阱",
+    "text": "戰士們這是最大的陷阱",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 33.91,
-    "end": 36.87,
+    "start": 33.81,
+    "end": 37.06,
     "speaker": "彥君",
-    "text": "過去跟回來的 速度",
+    "text": "過去跟回來的反應速度",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 37.07,
-    "end": 39.89,
+    "start": 37.26,
+    "end": 40.6,
     "speaker": "彥君",
-    "text": "變成 一模一樣快",
+    "text": "其實是變成一模一樣快",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 40.09,
-    "end": 43.34,
+    "start": 40.8,
+    "end": 44.29,
     "speaker": "彥君",
-    "text": "反應 其實還在進行",
+    "text": "化學反應其實還在進行喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 43.54,
-    "end": 46.4,
+    "start": 44.49,
+    "end": 47.35,
     "speaker": "彥君",
-    "text": "來看 上面第一題",
+    "text": "來看上面第一題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 46.6,
-    "end": 49.66,
+    "start": 47.55,
+    "end": 50.61,
     "speaker": "彥君",
-    "text": "戰士們 眼睛看上面",
+    "text": "戰士們眼睛看上面",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 49.86,
-    "end": 52.36,
+    "start": 50.81,
+    "end": 53.77,
     "speaker": "曉臻",
-    "text": "鉻酸根 加氫離子",
+    "text": "是鉻酸根加上氫離子",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 52.56,
-    "end": 55.62,
+    "start": 53.97,
+    "end": 59.28,
     "speaker": "彥君",
-    "text": "如果我們 增加氫離子",
+    "text": "沒錯我們先把方程式寫在黑板上",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 55.82,
-    "end": 58.94,
+    "start": 59.48,
+    "end": 100.54,
     "speaker": "彥君",
-    "text": "左邊的濃度 就會變大",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 59.14,
-    "end": 62.1,
-    "speaker": "曉臻",
-    "text": "哪邊變濃 就往另一邊",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 62.3,
-    "end": 64.86,
-    "speaker": "曉臻",
-    "text": "傾斜過去 對不對",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 65.06,
-    "end": 69.36,
-    "speaker": "彥君",
-    "text": "沒錯 擠不下的時候",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 69.56,
-    "end": 72.57,
-    "speaker": "彥君",
-    "text": "反應 就會向右邊跑",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 72.77,
-    "end": 84.25,
-    "speaker": "彥君",
-    "text": "$\\text{第一題：左邊變濃} \\rightarrow \\text{向右傾斜}$",
+    "text": "$$2CrO_4^{2-} + 2H^+ \\rightleftharpoons Cr_2O_7^{2-} + H_2O$$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "$$2CrO_4^{2-} + 2H^+ \\rightleftharpoons Cr_2O_7^{2-} + H_2O$$"
+    ]
   },
   {
-    "start": 78.06,
-    "end": 81.05,
+    "start": 64.49,
+    "end": 67.86,
     "speaker": "彥君",
-    "text": "給你們 3 秒鐘抄寫",
+    "text": "如果我們不斷增加氫離子",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 84.25,
-    "end": 87.21,
+    "start": 68.06,
+    "end": 71.18,
     "speaker": "彥君",
-    "text": "接著看 下面第二題",
+    "text": "左邊的濃度就會變大",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 87.41,
-    "end": 90.01,
-    "speaker": "彥君",
-    "text": "眼睛 往下移動喔",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 90.21,
-    "end": 93.26,
+    "start": 71.38,
+    "end": 73.86,
     "speaker": "曉臻",
-    "text": "老師 右邊寫著熱耶",
+    "text": "就像蹺蹺板一樣",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 93.46,
-    "end": 96.4,
-    "speaker": "彥君",
-    "text": "這代表 往右是放熱",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 96.6,
-    "end": 99.49,
-    "speaker": "彥君",
-    "text": "如果我們 把溫度升高",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 99.69,
-    "end": 102.84,
-    "speaker": "彥君",
-    "text": "系統會 想把熱消耗掉",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 103.04,
-    "end": 105.62,
+    "start": 74.06,
+    "end": 77.02,
     "speaker": "曉臻",
-    "text": "所以 就會往左邊",
+    "text": "哪邊變濃就往另一邊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 105.82,
-    "end": 108.61,
+    "start": 77.22,
+    "end": 80.11,
     "speaker": "曉臻",
-    "text": "吸熱的 方向退回去",
+    "text": "直接傾斜過去對不對",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 108.81,
-    "end": 111.19,
+    "start": 80.31,
+    "end": 85.36,
     "speaker": "彥君",
-    "text": "完全正確",
+    "text": "沒錯左邊太擠塞不下的時候",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 111.39,
-    "end": 123.02,
+    "start": 85.56,
+    "end": 88.93,
     "speaker": "彥君",
-    "text": "$\\text{第二題：溫度上升} \\rightarrow \\text{向左移動}$",
+    "text": "反應就會自動向右邊跑",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 89.13,
+    "end": 100.54,
+    "speaker": "彥君",
+    "text": "第一題：左邊變濃 $$\\rightarrow$$ 向右傾斜",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "第一題：左邊變濃 $$\\rightarrow$$ 向右傾斜"
+    ]
   },
   {
-    "start": 116.83,
-    "end": 119.82,
+    "start": 94.38,
+    "end": 97.34,
     "speaker": "彥君",
-    "text": "給你們 3 秒鐘抄寫",
+    "text": "給你們三秒鐘抄寫",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 123.02,
-    "end": 126.22,
+    "start": 100.54,
+    "end": 103.5,
     "speaker": "彥君",
-    "text": "戰士們 陷阱來了",
+    "text": "接著看下面第二題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 126.42,
-    "end": 129.33,
+    "start": 103.7,
+    "end": 106.66,
     "speaker": "彥君",
-    "text": "講義括號裡 寫著什麼",
+    "text": "眼睛跟著往下移動喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 129.53,
-    "end": 132.08,
+    "start": 106.86,
+    "end": 110.63,
     "speaker": "曉臻",
-    "text": "寫著 放熱也變快",
+    "text": "老師反應式的右邊寫著熱耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 132.28,
-    "end": 136.56,
+    "start": 110.83,
+    "end": 114.27,
     "speaker": "彥君",
-    "text": "沒錯 只要溫度升高",
+    "text": "這代表往右邊是放熱反應",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 136.76,
-    "end": 139.94,
+    "start": 114.47,
+    "end": 117.65,
     "speaker": "彥君",
-    "text": "不管是 吸熱還是放熱",
+    "text": "如果我們把整體溫度升高",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 140.14,
-    "end": 143.24,
+    "start": 117.85,
+    "end": 121.38,
     "speaker": "彥君",
-    "text": "速度 通通都會變快",
+    "text": "系統會想把多餘的熱消耗掉",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 143.44,
-    "end": 146.71,
+    "start": 121.58,
+    "end": 125.62,
     "speaker": "曉臻",
-    "text": "咦 兩邊都變快",
+    "text": "喔所以反應就會往左邊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 146.91,
-    "end": 149.73,
+    "start": 125.82,
+    "end": 128.95,
     "speaker": "曉臻",
-    "text": "那為什麼 會往左邊跑",
+    "text": "朝著吸熱的方向退回去",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 149.93,
-    "end": 152.96,
+    "start": 129.15,
+    "end": 131.87,
     "speaker": "彥君",
-    "text": "因為 吸熱那邊變快的",
+    "text": "觀念完全正確",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 153.16,
-    "end": 155.66,
+    "start": 132.07,
+    "end": 143.67,
     "speaker": "彥君",
-    "text": "程度 比較多啊",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "第二題：溫度上升 $$\\rightarrow$$ 向左移動",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "第二題：溫度上升 $$\\rightarrow$$ 向左移動"
+    ]
   },
   {
-    "start": 155.86,
-    "end": 158.9,
+    "start": 137.51,
+    "end": 140.47,
     "speaker": "彥君",
-    "text": "千萬 不要被題目騙了",
+    "text": "給你們三秒鐘抄寫",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 159.1,
-    "end": 162.51,
+    "start": 143.67,
+    "end": 147.16,
+    "speaker": "彥君",
+    "text": "戰士們終極陷阱來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 147.36,
+    "end": 150.54,
+    "speaker": "彥君",
+    "text": "講義括號裡面寫著什麼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 150.74,
+    "end": 153.65,
     "speaker": "曉臻",
-    "text": "哇 這觀念太神了",
+    "text": "寫著放熱反應也變快",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 162.71,
-    "end": 165.6,
+    "start": 153.85,
+    "end": 158.25,
+    "speaker": "彥君",
+    "text": "沒錯只要溫度一升高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 158.45,
+    "end": 161.62,
+    "speaker": "彥君",
+    "text": "不管是吸熱還是放熱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 161.82,
+    "end": 165.26,
+    "speaker": "彥君",
+    "text": "反應速度通通都會變快",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 165.46,
+    "end": 169.19,
     "speaker": "曉臻",
-    "text": "老師 最下面還有",
+    "text": "咦既然兩邊都變快了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 165.8,
-    "end": 168.52,
+    "start": 169.39,
+    "end": 172.59,
     "speaker": "曉臻",
-    "text": "催化劑 不影響平衡",
+    "text": "那為什麼最後會往左邊跑",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 168.72,
-    "end": 171.3,
+    "start": 172.79,
+    "end": 176.21,
     "speaker": "彥君",
-    "text": "因為 催化劑",
+    "text": "因為吸熱那邊變快的程度",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 171.5,
-    "end": 174.77,
+    "start": 176.41,
+    "end": 179.27,
     "speaker": "彥君",
-    "text": "會讓過去 跟回來的速度",
+    "text": "比放熱還要多很多啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 174.97,
-    "end": 177.69,
+    "start": 179.47,
+    "end": 182.74,
     "speaker": "彥君",
-    "text": "兩邊 一起變快了",
+    "text": "千萬不要被大考題目騙了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 177.89,
-    "end": 180.97,
+    "start": 182.94,
+    "end": 186.74,
+    "speaker": "曉臻",
+    "text": "哇這觀念實在太神了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 186.94,
+    "end": 190.29,
+    "speaker": "曉臻",
+    "text": "老師最下面還有一行",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 190.49,
+    "end": 193.21,
+    "speaker": "曉臻",
+    "text": "催化劑不影響平衡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 193.41,
+    "end": 196.51,
     "speaker": "彥君",
-    "text": "所以 平衡不會移動",
+    "text": "因為加入催化劑之後",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 181.17,
-    "end": 184.61,
+    "start": 196.71,
+    "end": 199.67,
     "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
+    "text": "過去跟回來的速度",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 184.81,
-    "end": 187.41,
+    "start": 199.87,
+    "end": 203.26,
+    "speaker": "彥君",
+    "text": "是兩邊一起等比例變快了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 203.46,
+    "end": 207.12,
+    "speaker": "彥君",
+    "text": "所以平衡位置絕對不會移動",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 207.32,
+    "end": 211.19,
+    "speaker": "彥君",
+    "text": "觀念一旦通透考題直接秒殺",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 211.39,
+    "end": 213.99,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 187.61,
-    "end": 189.94,
+    "start": 214.19,
+    "end": 216.53,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 190.14,
-    "end": 193.61,
+    "start": 216.73,
+    "end": 220.19,
     "speaker": "合聲",
-    "text": "濃度破壞 反向逃開",
+    "text": "濃度破壞反向逃開",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 193.81,
-    "end": 197.34,
+    "start": 220.39,
+    "end": 223.93,
     "speaker": "合聲",
-    "text": "戰士們 我們頂峰相見",
+    "text": "戰士們我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
