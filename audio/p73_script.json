@@ -1,210 +1,448 @@
 [
   {
     "start": 0.0,
-    "end": 4.08,
+    "end": 4.98,
     "speaker": "彥君",
-    "text": "哈囉 各位衝 A 的會考戰士們",
+    "text": "戰士們 堅持到最後就是贏家",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 4.58,
-    "end": 9.86,
+    "start": 5.18,
+    "end": 8.95,
     "speaker": "彥君",
-    "text": "我是彥君老師 今天來到 第七十三集",
+    "text": "每一滴汗水都在為夢想鋪路",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 10.36,
-    "end": 13.36,
+    "start": 9.15,
+    "end": 12.71,
+    "speaker": "彥君",
+    "text": "各位衝刺 $A^{++}$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$A^{++}$"
+    ]
+  },
+  {
+    "start": 12.91,
+    "end": 16.38,
+    "speaker": "彥君",
+    "text": "恭喜大家來到第七十三集囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 16.58,
+    "end": 20.09,
+    "speaker": "彥君",
+    "text": "戰士們好 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.29,
+    "end": 23.58,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教",
+    "text": "大家好啊 我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 13.86,
-    "end": 18.18,
+    "start": 23.78,
+    "end": 27.27,
     "speaker": "曉臻",
-    "text": "老師 今天要講 兩顆星的 回聲大魔王",
+    "text": "老師今天要講兩顆星大魔王",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.68,
-    "end": 24.25,
-    "speaker": "彥君",
-    "text": "沒錯 戰士們記得 回聲跟原本的聲音",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 24.75,
-    "end": 29.09,
-    "speaker": "彥君",
-    "text": "只有 振幅跟方向 不同 其他都不會變",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 29.59,
-    "end": 34.13,
+    "start": 27.47,
+    "end": 30.89,
     "speaker": "曉臻",
-    "text": "講義上說 至少要 十七公尺 才聽得到回聲",
+    "text": "也就是理化必考的回聲觀念",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 34.63,
-    "end": 38.11,
-    "speaker": "曉臻",
-    "text": "這個 十七公尺 是怎麼算出來的呀",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 38.61,
-    "end": 42.86,
+    "start": 31.09,
+    "end": 35.99,
     "speaker": "彥君",
-    "text": "人耳要分辨回聲 至少需要 零點一秒",
+    "text": "沒錯 戰士們請務必要記住",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 43.36,
-    "end": 47.58,
+    "start": 36.19,
+    "end": 39.78,
     "speaker": "彥君",
-    "text": "聲音秒速 三百四十 乘以 零點一秒",
+    "text": "回聲跟原本發出去的聲音啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 48.08,
-    "end": 51.94,
+    "start": 39.98,
+    "end": 43.73,
     "speaker": "彥君",
-    "text": "代表聲音來回 總共走了 三十四公尺",
+    "text": "只有振幅跟方向是不一樣的",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 52.44,
-    "end": 56.31,
+    "start": 43.93,
+    "end": 47.7,
     "speaker": "彥君",
-    "text": "除以二 單趟距離 就是十七公尺啦",
+    "text": "其他的條件通通都不會改變",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 56.81,
-    "end": 9999.0,
+    "start": 47.9,
+    "end": 160.77,
     "speaker": "彥君",
-    "text": "\\text{單趟} = \\frac{340m/s \\times 0.1s}{2} = 17m",
+    "text": "① 回聲與原聲僅振幅與方向不同",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "① 回聲與原聲僅振幅(服)與方向不同"
+    ]
   },
   {
-    "start": 60.12,
-    "end": 65.2,
+    "start": 52.48,
+    "end": 56.09,
     "speaker": "曉臻",
-    "text": "哇 來回除以二 這個推導真的太清楚了",
+    "text": "老師講義上說至少十七公尺",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 65.7,
-    "end": 70.0,
-    "speaker": "彥君",
-    "text": "接下來看 超聲波 頻率超過 兩萬赫茲",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 70.5,
-    "end": 74.75,
-    "speaker": "彥君",
-    "text": "因為人類 聽不到 所以有很多 神奇應用喔",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 75.25,
-    "end": 79.88,
+    "start": 56.29,
+    "end": 59.61,
     "speaker": "曉臻",
-    "text": "像是 判斷水深、 倒車雷達 還有超音波掃描",
+    "text": "才聽得到自己的回聲出現耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 80.38,
-    "end": 86.84,
-    "speaker": "彥君",
-    "text": "沒錯 還有蝙蝠飛行 洗眼鏡的 超音波清潔",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 87.34,
-    "end": 91.54,
+    "start": 59.81,
+    "end": 63.1,
     "speaker": "曉臻",
-    "text": "老師 那如果想 避免回聲 干擾怎麼辦",
+    "text": "這個十七公尺怎麼算出來的",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 92.04,
-    "end": 97.58,
+    "start": 63.3,
+    "end": 67.06,
     "speaker": "彥君",
-    "text": "很簡單 只要用 柔軟而且 不平整的材質",
+    "text": "戰士們仔細聽好這經典計算",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 98.08,
-    "end": 102.23,
+    "start": 67.26,
+    "end": 70.82,
     "speaker": "彥君",
-    "text": "就能把聲音 吸收或打散 避免回聲囉",
+    "text": "人類耳朵要分辨出回聲的話",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 102.73,
-    "end": 107.2,
+    "start": 71.02,
+    "end": 74.55,
+    "speaker": "彥君",
+    "text": "中間至少需要零點一秒時間",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 74.75,
+    "end": 78.48,
+    "speaker": "彥君",
+    "text": "聲音秒速三百四十乘零點一",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 78.68,
+    "end": 82.38,
+    "speaker": "彥君",
+    "text": "代表聲音來回走三十四公尺",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 82.58,
+    "end": 86.17,
+    "speaker": "彥君",
+    "text": "再除以二單趟就是十七公尺",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 86.37,
+    "end": 160.77,
+    "speaker": "彥君",
+    "text": "② $\\text{單趟} = \\frac{340\\text{m/s} \\times 0.1\\text{s}}{2} = 17\\text{m}$",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "② $\\text{單趟} = \\frac{340\\text{m/s} \\times 0.1\\text{s}}{2} = 17\\text{m}$"
+    ]
+  },
+  {
+    "start": 90.34,
+    "end": 94.74,
     "speaker": "曉臻",
-    "text": "懂了 柔軟不平整 就能消滅回聲",
+    "text": "哇 來回除以二推導太清楚了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 107.7,
-    "end": 112.11,
+    "start": 94.94,
+    "end": 98.74,
     "speaker": "彥君",
-    "text": "觀念全通了 我是彥君老師",
+    "text": "接下來看超聲波的必考重點",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 112.61,
-    "end": 114.75,
+    "start": 98.94,
+    "end": 102.36,
+    "speaker": "彥君",
+    "text": "它的頻率超過了兩萬赫茲喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 102.56,
+    "end": 105.88,
+    "speaker": "彥君",
+    "text": "因為這種聲音人類聽不到啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 106.08,
+    "end": 109.45,
+    "speaker": "彥君",
+    "text": "所以它有很多的神奇應用喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 109.65,
+    "end": 160.77,
+    "speaker": "彥君",
+    "text": "③ 超聲波頻率超過兩萬赫茲",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "③ 超聲波頻率超過兩萬赫茲(茲)"
+    ]
+  },
+  {
+    "start": 113.82,
+    "end": 117.3,
     "speaker": "曉臻",
-    "text": "我是曉臻助教",
+    "text": "像是漁船判斷海底的水深啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 115.25,
-    "end": 118.18,
+    "start": 117.5,
+    "end": 120.92,
+    "speaker": "曉臻",
+    "text": "倒車雷達還有超音波的掃描",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 121.12,
+    "end": 126.12,
+    "speaker": "彥君",
+    "text": "沒錯 還有蝙蝠晚上的飛行",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 126.32,
+    "end": 129.86,
+    "speaker": "彥君",
+    "text": "跟洗眼鏡的超音波清潔機喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 130.06,
+    "end": 133.47,
+    "speaker": "曉臻",
+    "text": "老師那如果想要避免掉回聲",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 133.67,
+    "end": 137.09,
+    "speaker": "曉臻",
+    "text": "怕被回聲干擾到底該怎麼辦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 137.29,
+    "end": 142.24,
+    "speaker": "彥君",
+    "text": "很簡單 只要使用柔軟材質",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 142.44,
+    "end": 145.95,
+    "speaker": "彥君",
+    "text": "或者是表面不平整的牆壁啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 146.15,
+    "end": 149.86,
+    "speaker": "彥君",
+    "text": "就能夠把聲音吸收或打散掉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 150.06,
+    "end": 153.5,
+    "speaker": "彥君",
+    "text": "這樣就能完美避免掉回聲囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 153.7,
+    "end": 160.77,
+    "speaker": "彥君",
+    "text": "④ 柔軟不平整材質可避免回聲",
+    "is_pinned": true,
+    "pin_level": 4,
+    "commands": [
+      "釘選",
+      "④ 柔軟不平整材質可避免回聲"
+    ]
+  },
+  {
+    "start": 160.77,
+    "end": 164.81,
+    "speaker": "曉臻",
+    "text": "我懂了 柔軟不平整的材質",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 165.01,
+    "end": 168.3,
+    "speaker": "曉臻",
+    "text": "就能夠完美地消滅掉回聲啦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 168.5,
+    "end": 172.4,
+    "speaker": "彥君",
+    "text": "觀念全通了秒殺考題沒問題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 172.6,
+    "end": 175.87,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 176.07,
+    "end": 179.56,
+    "speaker": "彥君",
+    "text": "戰士們 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 179.76,
+    "end": 183.06,
+    "speaker": "曉臻",
+    "text": "大家好啊 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 183.26,
+    "end": 186.38,
     "speaker": "合聲",
     "text": "來回除二 柔軟吸音",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 118.68,
-    "end": 122.01,
+    "start": 186.58,
+    "end": 190.12,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
