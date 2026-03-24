@@ -1,362 +1,412 @@
 [
   {
     "start": 0.0,
-    "end": 3.25,
+    "end": 5.34,
     "speaker": "彥君",
-    "text": "戰士們 歡迎來到",
+    "text": "戰士們 歡迎來到第一百二十二集",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.45,
-    "end": 6.17,
+    "start": 5.54,
+    "end": 9.31,
     "speaker": "彥君",
-    "text": "第 122 集",
+    "text": "讀書絕對沒有不勞而獲的捷徑",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.37,
-    "end": 9.88,
+    "start": 9.51,
+    "end": 13.1,
     "speaker": "彥君",
-    "text": "讀書 沒有不勞而獲的捷徑",
+    "text": "就像物理學裡的簡單機械一樣",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 10.08,
-    "end": 13.38,
+    "start": 13.3,
+    "end": 17.05,
     "speaker": "彥君",
-    "text": "就像 物理學的簡單機械",
+    "text": "想要省力氣就必須要多花時間",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 13.58,
-    "end": 17.09,
+    "start": 17.25,
+    "end": 20.52,
     "speaker": "彥君",
-    "text": "想省力 就要多花時間",
+    "text": "但只要肯腳踏實地去努力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 17.29,
-    "end": 20.06,
+    "start": 20.72,
+    "end": 24.54,
     "speaker": "彥君",
-    "text": "但只要 腳踏實地",
+    "text": "每一分汗水都絕對不會白費的",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 20.26,
-    "end": 23.55,
+    "start": 24.74,
+    "end": 28.45,
     "speaker": "彥君",
-    "text": "每一分努力 都不會白費",
+    "text": "各位準備衝向 $A^{++}$ 的戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$A^{++}$"
+    ]
   },
   {
-    "start": 23.75,
-    "end": 26.35,
-    "speaker": "彥君",
-    "text": "我是彥君老師",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 26.55,
-    "end": 28.29,
-    "speaker": "曉臻",
-    "text": "大家好",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 28.49,
-    "end": 30.82,
-    "speaker": "曉臻",
-    "text": "我是曉臻助教",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 31.02,
-    "end": 33.48,
-    "speaker": "彥君",
-    "text": "戰士們注意",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 33.68,
-    "end": 36.81,
-    "speaker": "彥君",
-    "text": "簡單機械 原理最重要",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 37.01,
-    "end": 40.5,
-    "speaker": "曉臻",
-    "text": "老師 上面紅色的字寫著",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 40.7,
-    "end": 43.63,
-    "speaker": "曉臻",
-    "text": "想要省力 就得費時耶",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 43.83,
-    "end": 48.3,
-    "speaker": "彥君",
-    "text": "沒錯 這是宇宙鐵則",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 48.5,
-    "end": 51.8,
-    "speaker": "彥君",
-    "text": "世界上 沒有白吃的午餐",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 52.0,
-    "end": 55.32,
-    "speaker": "彥君",
-    "text": "機械 絕對不可能「省功」",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 55.52,
-    "end": 91.62,
-    "speaker": "彥君",
-    "text": "$\\text{機械鐵則} \\rightarrow \\text{絕對不省功}$",
-    "is_pinned": true,
-    "pin_level": 1
-  },
-  {
-    "start": 59.9,
-    "end": 63.15,
-    "speaker": "曉臻",
-    "text": "也就是說 力量變小了",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 63.35,
-    "end": 66.14,
-    "speaker": "曉臻",
-    "text": "距離 就要拉得更長囉",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 66.34,
-    "end": 71.13,
-    "speaker": "彥君",
-    "text": "漂亮 看看中間的動滑輪",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 71.33,
-    "end": 74.5,
-    "speaker": "彥君",
-    "text": "它可以 幫你省下一半的力",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 74.7,
-    "end": 77.23,
-    "speaker": "彥君",
-    "text": "但是 你的繩子",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 77.43,
-    "end": 80.42,
-    "speaker": "彥君",
-    "text": "必須要 拉兩倍的長度",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 80.62,
-    "end": 91.62,
-    "speaker": "彥君",
-    "text": "$\\text{動滑輪} \\rightarrow \\text{省一半力, 多兩倍距}$",
-    "is_pinned": true,
-    "pin_level": 2
-  },
-  {
-    "start": 85.48,
-    "end": 88.42,
-    "speaker": "彥君",
-    "text": "給你們 3 秒鐘思考",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 91.62,
-    "end": 94.62,
-    "speaker": "曉臻",
-    "text": "那旁邊的 輪軸跟斜面呢",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 94.82,
-    "end": 97.86,
-    "speaker": "彥君",
-    "text": "原理 完全一模一樣",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 98.06,
-    "end": 101.69,
-    "speaker": "彥君",
-    "text": "轉動大圈的輪 比較省力",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 101.89,
-    "end": 105.76,
-    "speaker": "彥君",
-    "text": "斜坡越平緩 推起來越輕鬆",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 105.96,
-    "end": 108.56,
-    "speaker": "曉臻",
-    "text": "可是 斜坡越平緩",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 108.76,
-    "end": 111.38,
-    "speaker": "曉臻",
-    "text": "就要走 越遠的路耶",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 111.58,
-    "end": 116.37,
-    "speaker": "彥君",
-    "text": "沒錯 這就是省力必費時",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 116.57,
-    "end": 119.5,
-    "speaker": "彥君",
-    "text": "還有 右下角的螺絲釘",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 119.7,
-    "end": 122.57,
-    "speaker": "彥君",
-    "text": "仔細看 它的螺紋",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 122.77,
-    "end": 126.26,
-    "speaker": "彥君",
-    "text": "其實 就是捲起來的斜面",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 126.46,
-    "end": 9999.0,
-    "speaker": "彥君",
-    "text": "$\\text{螺旋} \\rightarrow \\text{變形的斜面}$",
-    "is_pinned": true,
-    "pin_level": 1
-  },
-  {
-    "start": 130.67,
-    "end": 134.52,
-    "speaker": "曉臻",
-    "text": "哇 原來這些生活工具",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 134.72,
-    "end": 137.8,
-    "speaker": "曉臻",
-    "text": "全部 都是在玩代價交換",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 138.0,
-    "end": 141.78,
-    "speaker": "彥君",
-    "text": "記住 原理比死背更重要",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 141.98,
-    "end": 145.42,
-    "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 145.62,
-    "end": 148.22,
+    "start": 28.65,
+    "end": 31.25,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 148.42,
-    "end": 150.75,
+    "start": 31.45,
+    "end": 34.74,
+    "speaker": "曉臻",
+    "text": "大家好啊 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 34.94,
+    "end": 38.6,
+    "speaker": "彥君",
+    "text": "戰士們請把注意力集中過來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 38.8,
+    "end": 42.41,
+    "speaker": "彥君",
+    "text": "簡單機械的鐵則觀念最重要",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 42.61,
+    "end": 46.05,
+    "speaker": "曉臻",
+    "text": "老師講義上面紅色的字寫著",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 46.25,
+    "end": 49.69,
+    "speaker": "曉臻",
+    "text": "想要省力的話就得要費時耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 49.89,
+    "end": 54.98,
+    "speaker": "彥君",
+    "text": "沒錯 這是理學上的宇宙鐵則",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 55.18,
+    "end": 58.65,
+    "speaker": "彥君",
+    "text": "這個世界上沒有白吃的午餐",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 58.85,
+    "end": 62.22,
+    "speaker": "彥君",
+    "text": "機械絕對不可能幫你省功喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 62.42,
+    "end": 97.44,
+    "speaker": "彥君",
+    "text": "① $\\text{機械鐵則} \\rightarrow \\text{絕對不省功}$",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "① $\\text{機械鐵則} \\rightarrow \\text{絕對不省功}$"
+    ]
+  },
+  {
+    "start": 66.3,
+    "end": 70.0,
+    "speaker": "曉臻",
+    "text": "也就是說如果你施的力量變小了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 70.2,
+    "end": 73.64,
+    "speaker": "曉臻",
+    "text": "拉的距離就要跟著拉得更長囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 73.84,
+    "end": 79.06,
+    "speaker": "彥君",
+    "text": "漂亮 看看中間的動滑輪圖形",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 79.26,
+    "end": 82.62,
+    "speaker": "彥君",
+    "text": "它可以幫你省下一半的施力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 82.82,
+    "end": 86.34,
+    "speaker": "彥君",
+    "text": "但是你手上握著的那條繩子",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 86.54,
+    "end": 89.93,
+    "speaker": "彥君",
+    "text": "必須要往上拉兩倍的長度喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 90.13,
+    "end": 97.44,
+    "speaker": "彥君",
+    "text": "② $\\text{動滑輪} \\rightarrow \\text{省一半力， 多兩倍距}$",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "② $\\text{動滑輪} \\rightarrow \\text{省一半力， 多兩倍距}$"
+    ]
+  },
+  {
+    "start": 97.44,
+    "end": 101.07,
+    "speaker": "曉臻",
+    "text": "老師那旁邊畫的輪軸跟斜面呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 101.27,
+    "end": 104.95,
+    "speaker": "彥君",
+    "text": "它們的物理原理完全一模一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 105.15,
+    "end": 108.71,
+    "speaker": "彥君",
+    "text": "轉動大圈的輪就會比較省力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 108.91,
+    "end": 112.66,
+    "speaker": "彥君",
+    "text": "斜坡越平緩推起來就越輕鬆",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 112.86,
+    "end": 116.47,
+    "speaker": "曉臻",
+    "text": "可是斜坡如果造得越平緩的話",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 116.67,
+    "end": 119.97,
+    "speaker": "曉臻",
+    "text": "我們就要走越長越遠的路耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 120.17,
+    "end": 125.38,
+    "speaker": "彥君",
+    "text": "沒錯 這就是所謂的省力必費時",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 125.58,
+    "end": 149.04,
+    "speaker": "彥君",
+    "text": "③ $\\text{輪與平緩斜面} \\rightarrow \\text{省力但費時}$",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "③ $\\text{輪與平緩斜面} \\rightarrow \\text{省力但費時}$"
+    ]
+  },
+  {
+    "start": 130.35,
+    "end": 134.18,
+    "speaker": "彥君",
+    "text": "接著看看右下角的螺絲釘圖案",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 134.38,
+    "end": 138.01,
+    "speaker": "彥君",
+    "text": "戰士們仔細去觀察它的螺紋",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 138.21,
+    "end": 141.62,
+    "speaker": "彥君",
+    "text": "其實它就是捲起來的斜面喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 141.82,
+    "end": 149.04,
+    "speaker": "彥君",
+    "text": "④ $\\text{螺旋} \\rightarrow \\text{變形的斜面}$",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "④ $\\text{螺旋} \\rightarrow \\text{變形的斜面}$"
+    ]
+  },
+  {
+    "start": 149.04,
+    "end": 153.54,
+    "speaker": "曉臻",
+    "text": "哇 原來生活中這些常見工具",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 153.74,
+    "end": 157.3,
+    "speaker": "曉臻",
+    "text": "全部都是在玩物理的代價交換",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 157.5,
+    "end": 161.82,
+    "speaker": "彥君",
+    "text": "記住 懂原理絕對比死背更重要",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 162.02,
+    "end": 166.18,
+    "speaker": "彥君",
+    "text": "觀念全通了 秒殺考題沒問題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 166.38,
+    "end": 168.98,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 169.18,
+    "end": 171.52,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 150.95,
-    "end": 154.42,
+    "start": 171.72,
+    "end": 175.18,
     "speaker": "合聲",
     "text": "省力費時 作功不變",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 154.62,
-    "end": 158.15,
+    "start": 175.38,
+    "end": 178.92,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
