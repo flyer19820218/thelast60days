@@ -1,290 +1,555 @@
 [
   {
     "start": 0.0,
-    "end": 4.08,
+    "end": 4.81,
     "speaker": "彥君",
-    "text": "哈囉 各位衝 A 的會考戰士們",
+    "text": "戰士們 光明就在不遠的前方",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 4.58,
-    "end": 9.84,
+    "start": 5.01,
+    "end": 8.59,
     "speaker": "彥君",
-    "text": "我做彥君老師 今天來到 第七十四集",
+    "text": "只要順著光走就能看見希望",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 10.34,
-    "end": 13.34,
+    "start": 8.79,
+    "end": 12.35,
+    "speaker": "彥君",
+    "text": "各位衝刺 $A^{++}$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$A^{++}$"
+    ]
+  },
+  {
+    "start": 12.55,
+    "end": 15.97,
+    "speaker": "彥君",
+    "text": "恭喜大家來到第七十四集囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 16.17,
+    "end": 19.68,
+    "speaker": "彥君",
+    "text": "戰士們好 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 19.88,
+    "end": 23.18,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教",
+    "text": "大家好啊 我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 13.84,
-    "end": 17.77,
+    "start": 23.38,
+    "end": 26.91,
     "speaker": "曉臻",
-    "text": "老師 終於進入 光學的基本單元了",
+    "text": "老師終於進入光學基本單元",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.27,
-    "end": 22.78,
+    "start": 27.11,
+    "end": 30.84,
     "speaker": "彥君",
-    "text": "光的傳播 是直線前進的 所以稱為光線",
+    "text": "戰士們光學基礎就在這張圖",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 23.28,
-    "end": 27.72,
+    "start": 31.04,
+    "end": 34.74,
+    "speaker": "彥君",
+    "text": "光的傳播絕對是直線前進的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 34.94,
+    "end": 38.72,
+    "speaker": "彥君",
+    "text": "所以我們常常稱呼它為光線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 38.92,
+    "end": 42.22,
     "speaker": "曉臻",
-    "text": "因為光走直線 擋住的地方 就會變成影子",
+    "text": "因為光走直線被擋住的地方",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 28.22,
-    "end": 33.72,
-    "speaker": "彥君",
-    "text": "沒錯 影子是光 直線前進的 最好證明",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 34.22,
-    "end": 38.59,
+    "start": 42.42,
+    "end": 45.83,
     "speaker": "曉臻",
-    "text": "右邊那棵大樹 就是經典的 針孔成像對吧",
+    "text": "就會產生黑黑的影子出來了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 39.09,
-    "end": 44.46,
+    "start": 46.03,
+    "end": 51.08,
     "speaker": "彥君",
-    "text": "是的 記住大原則 一個小洞 一個像",
+    "text": "沒錯 影子就是光直線前進",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 44.96,
-    "end": 49.33,
+    "start": 51.28,
+    "end": 54.72,
+    "speaker": "彥君",
+    "text": "在自然界裡面最好的證明喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 54.92,
+    "end": 58.43,
     "speaker": "曉臻",
-    "text": "所以講義的空格 三個小洞 就是三個像",
+    "text": "右邊那棵大樹就是非常經典",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 49.83,
-    "end": 55.11,
-    "speaker": "彥君",
-    "text": "舉一反三喔 這裡老師要補充一個考點",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 55.61,
-    "end": 60.08,
-    "speaker": "彥君",
-    "text": "大家有沒有注意過 太陽天在 大樹底下",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 60.58,
-    "end": 63.91,
-    "speaker": "彥君",
-    "text": "常常看到很多 圓形的白點",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 64.41,
-    "end": 67.7,
+    "start": 58.63,
+    "end": 61.88,
     "speaker": "曉臻",
-    "text": "有啊以前都以為 只是光斑",
+    "text": "考試愛考的針孔成像對吧",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 68.2,
-    "end": 72.09,
+    "start": 62.08,
+    "end": 67.15,
     "speaker": "彥君",
-    "text": "其實那每一個圓點 都是太陽的像喔",
+    "text": "是的 記住光學的一個大原則",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 72.59,
-    "end": 75.66,
+    "start": 67.35,
+    "end": 70.84,
     "speaker": "彥君",
-    "text": "因為樹葉間的 每個小縫隙",
+    "text": "只要有一個小洞就會有一個像",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 76.16,
-    "end": 79.98,
-    "speaker": "彥君",
-    "text": "都可以看成 一個針孔 每個小洞",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 80.48,
-    "end": 84.53,
-    "speaker": "彥君",
-    "text": "都是一個針孔成像 所以有幾個洞",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 85.03,
-    "end": 89.4,
-    "speaker": "彥君",
-    "text": "就會看到幾個圓點 也就是 幾個太陽的像",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 89.9,
-    "end": 94.48,
+    "start": 71.04,
+    "end": 74.31,
     "speaker": "曉臻",
-    "text": "哇 洞多像多 這個連結 太厲害了",
+    "text": "所以講義的空格如果三個洞",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 94.98,
-    "end": 97.94,
-    "speaker": "彥君",
-    "text": "那把洞 挖得很大 怎麼辦",
+    "start": 74.51,
+    "end": 78.02,
+    "speaker": "曉臻",
+    "text": "照理說就會產生三個像出來",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 78.22,
+    "end": 83.18,
+    "speaker": "彥君",
+    "text": "舉一反三喔 老師補充大考點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 83.38,
+    "end": 86.89,
+    "speaker": "彥君",
+    "text": "大家有沒有注意過大太陽天",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 87.09,
+    "end": 90.65,
+    "speaker": "彥君",
+    "text": "在大樹底下的陰影處地面上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 90.85,
+    "end": 94.53,
+    "speaker": "彥君",
+    "text": "常常看到很多圓形的亮白點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 94.73,
+    "end": 98.24,
+    "speaker": "曉臻",
+    "text": "有啊以前都以為只是光斑耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 98.44,
-    "end": 102.61,
+    "end": 101.83,
+    "speaker": "彥君",
+    "text": "其實那每一個圓形的亮白點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 102.03,
+    "end": 105.35,
+    "speaker": "彥君",
+    "text": "全部都是大太陽的成像喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 105.55,
+    "end": 108.97,
+    "speaker": "彥君",
+    "text": "因為樹葉之間的每個小縫隙",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 109.17,
+    "end": 112.75,
+    "speaker": "彥君",
+    "text": "都可以看成是一個小小針孔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 112.95,
+    "end": 116.66,
+    "speaker": "彥君",
+    "text": "每個小洞都是一個針孔成像",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 116.86,
+    "end": 120.39,
+    "speaker": "彥君",
+    "text": "所以上面有幾個樹葉的縫隙",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 120.59,
+    "end": 124.25,
+    "speaker": "彥君",
+    "text": "底下就會看到幾個圓形亮點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 124.45,
+    "end": 127.79,
+    "speaker": "彥君",
+    "text": "也就是出現幾個太陽的像喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 127.99,
+    "end": 132.32,
     "speaker": "曉臻",
-    "text": "洞變大 光線重疊 就會變成 模糊的像了",
+    "text": "哇 洞多像多這連結太厲害了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 103.11,
-    "end": 107.38,
+    "start": 132.52,
+    "end": 135.67,
     "speaker": "彥君",
-    "text": "非常好 我們把空格答案 釘在畫面上",
+    "text": "那如果我們把洞挖得很大呢",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 107.88,
-    "end": 112.37,
-    "speaker": "彥君",
-    "text": "} 3 \\text]",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 112.87,
-    "end": 116.71,
-    "speaker": "彥君",
-    "text": "針孔成像所成的像 一定是",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 117.21,
-    "end": 120.6,
-    "speaker": "彥君",
-    "text": "「上下顛倒、左右相反」的",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 121.1,
-    "end": 124.22,
+    "start": 135.87,
+    "end": 139.53,
     "speaker": "曉臻",
-    "text": "原本上下左右 都是顛倒的啊",
+    "text": "洞變大光線重疊就會變模糊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 124.72,
-    "end": 128.24,
+    "start": 139.73,
+    "end": 143.1,
     "speaker": "曉臻",
-    "text": "記起來了 針孔上下 顛倒顛倒",
+    "text": "所以就會變成模糊不清的像",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.74,
-    "end": 135.06,
+    "start": 143.3,
+    "end": 147.1,
     "speaker": "彥君",
-    "text": "沒錯 接著看左下角 反射定律 永遠都會成立",
+    "text": "非常好我們把空格答案釘上",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 135.56,
-    "end": 139.56,
-    "speaker": "曉臻",
-    "text": "入射角 等於反射角 也就是 i 等於 r 嗎",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 140.06,
-    "end": 145.46,
+    "start": 147.3,
+    "end": 207.26,
     "speaker": "彥君",
-    "text": "沒錯 要注意角度 是和中間法線 的夾角喔",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "① 填空： $3$ 個像、模糊的像",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "① 填空： $3$ 個像、模糊的像"
+    ]
   },
   {
-    "start": 145.96,
-    "end": 151.56,
-    "speaker": "曉臻",
-    "text": "哇 這集光學基礎 補充考點後 更好懂了",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 152.06,
-    "end": 156.47,
+    "start": 151.44,
+    "end": 155.07,
     "speaker": "彥君",
-    "text": "觀念全通了 我是彥君老師",
+    "text": "這裡有個超級重點寫進筆記",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 156.97,
-    "end": 159.11,
+    "start": 155.27,
+    "end": 159.0,
+    "speaker": "彥君",
+    "text": "針孔成像所產生出來的成像",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 159.2,
+    "end": 162.78,
+    "speaker": "彥君",
+    "text": "它一定是上下顛倒左右相反",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 162.98,
+    "end": 207.26,
+    "speaker": "彥君",
+    "text": "② 針孔成像必為上下顛倒左右相反",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "② 針孔成像必為上下顛倒左右相反"
+    ]
+  },
+  {
+    "start": 167.34,
+    "end": 170.76,
     "speaker": "曉臻",
-    "text": "我是曉臻助教",
+    "text": "原來上下左右全部都顛倒啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 159.61,
-    "end": 162.75,
+    "start": 170.96,
+    "end": 174.35,
+    "speaker": "曉臻",
+    "text": "記起來了針孔就是顛倒顛倒",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 174.55,
+    "end": 179.6,
+    "speaker": "彥君",
+    "text": "沒錯 接著看左下角的圖形",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 179.8,
+    "end": 183.46,
+    "speaker": "彥君",
+    "text": "反射定律在任何表面都成立",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 183.66,
+    "end": 186.98,
+    "speaker": "曉臻",
+    "text": "入射角等於反射角這個定律",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 187.18,
+    "end": 190.4,
+    "speaker": "曉臻",
+    "text": "也就是 $i=r$ 對不對啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$i=r$"
+    ]
+  },
+  {
+    "start": 190.6,
+    "end": 195.67,
+    "speaker": "彥君",
+    "text": "沒錯 戰士們特別注意角度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 195.87,
+    "end": 199.6,
+    "speaker": "彥君",
+    "text": "必須是和中間那條法線夾角",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 199.8,
+    "end": 207.26,
+    "speaker": "彥君",
+    "text": "③ 反射定律： $\\angle i = \\angle r$ (與法線夾角)",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "③ 反射定律： $\\angle i = \\angle r$ (與法線夾角)"
+    ]
+  },
+  {
+    "start": 207.26,
+    "end": 211.7,
+    "speaker": "曉臻",
+    "text": "哇 這集光學基礎補充考點後",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 211.9,
+    "end": 215.25,
+    "speaker": "曉臻",
+    "text": "整個觀念變得超級好懂了耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 215.45,
+    "end": 219.34,
+    "speaker": "彥君",
+    "text": "觀念全通了秒殺考題沒問題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 219.54,
+    "end": 222.82,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 223.02,
+    "end": 226.5,
+    "speaker": "彥君",
+    "text": "戰士們 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 226.7,
+    "end": 230.0,
+    "speaker": "曉臻",
+    "text": "大家好啊 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 230.2,
+    "end": 233.54,
     "speaker": "合聲",
     "text": "針孔顛倒 洞多像多",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 163.25,
-    "end": 166.59,
+    "start": 233.74,
+    "end": 237.28,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
