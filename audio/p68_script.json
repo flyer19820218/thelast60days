@@ -1,230 +1,690 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 5.22,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 接近終點更要穩住步伐",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.86,
+    "start": 5.42,
+    "end": 9.12,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的會考戰士們 我是彥君老師"
+    "text": "堅持到底的你一定會大放異彩",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.86,
-    "end": 11.34,
+    "start": 9.32,
+    "end": 12.52,
     "speaker": "彥君",
-    "text": "今天來到 第六十八集"
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$A$"
+    ]
   },
   {
-    "start": 11.34,
-    "end": 14.6,
+    "start": 12.72,
+    "end": 16.14,
     "speaker": "彥君",
-    "text": "溶解度 與 飽和溶液"
+    "text": "恭喜大家來到第六十八集囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 14.6,
-    "end": 18.1,
+    "start": 16.34,
+    "end": 19.85,
+    "speaker": "彥君",
+    "text": "戰士們好 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.05,
+    "end": 23.34,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教"
+    "text": "大家好啊 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.1,
-    "end": 23.02,
-    "speaker": "曉臻",
-    "text": "老師 這張圖上的 「溶解度」 跟 「溶解量」"
-  },
-  {
-    "start": 23.02,
-    "end": 27.81,
-    "speaker": "曉臻",
-    "text": "學生每次考試 都搞混 到底差在哪裡啊"
-  },
-  {
-    "start": 27.81,
-    "end": 32.37,
+    "start": 23.54,
+    "end": 27.44,
     "speaker": "彥君",
-    "text": "溶解「度」 指的是 胃口的 最大極限"
+    "text": "準備迎戰理化三顆星的大魔王",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 32.37,
-    "end": 38.32,
+    "start": 27.64,
+    "end": 31.03,
     "speaker": "彥君",
-    "text": "標準是 每 一百克的純水 「最多」 可以吃下 幾克的 溶質"
+    "text": "溶解度與飽和溶液的觀念",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 38.32,
-    "end": 43.35,
+    "start": 31.23,
+    "end": 34.46,
+    "speaker": "曉臻",
+    "text": "老師這張圖上寫的溶解度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 34.66,
+    "end": 37.95,
+    "speaker": "曉臻",
+    "text": "還有另一個名詞叫做溶解量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 38.15,
+    "end": 41.74,
+    "speaker": "曉臻",
+    "text": "學生每次考試都容易搞混掉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 41.94,
+    "end": 45.33,
+    "speaker": "曉臻",
+    "text": "這兩個名詞到底差在哪裡啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 45.53,
+    "end": 49.18,
     "speaker": "彥君",
-    "text": "而 溶解「量」 則是你肚子裡 「實際」 吃進去的量"
+    "text": "戰士們用大胃王吃便當來想",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 43.35,
-    "end": 49.37,
-    "speaker": "曉臻",
-    "text": "喔 所以「度」 是極限 「量」 是實際吃多少"
-  },
-  {
-    "start": 49.37,
-    "end": 54.98,
-    "speaker": "曉臻",
-    "text": "就像我最多 可以吃五個便當 但我現在 肚子裡只有 兩個"
-  },
-  {
-    "start": 54.98,
-    "end": 61.32,
+    "start": 49.38,
+    "end": 71.02,
     "speaker": "彥君",
-    "text": "沒錯 你的溶解度 是五 但溶解量 只有二"
+    "text": "溶解度指的是胃口的最大極限",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
   },
   {
-    "start": 61.32,
-    "end": 66.5,
+    "start": 53.26,
+    "end": 56.58,
     "speaker": "彥君",
-    "text": "既然還沒吃飽 這就叫做 「未飽和 溶液」"
+    "text": "溶解度指的就是你的胃口",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 66.5,
-    "end": 72.54,
-    "speaker": "曉臻",
-    "text": "了解 那講義上說 溫度越高 溶解度 越大"
-  },
-  {
-    "start": 72.54,
-    "end": 77.36,
-    "speaker": "曉臻",
-    "text": "就像天氣冷 胃口差 天氣熱 胃口大開對吧"
-  },
-  {
-    "start": 77.36,
-    "end": 82.49,
+    "start": 56.78,
+    "end": 60.39,
     "speaker": "彥君",
-    "text": "完全正確 但要注意 兩個怪胎"
+    "text": "能夠吃下東西的最大極限喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 82.49,
-    "end": 88.42,
+    "start": 60.59,
+    "end": 64.1,
     "speaker": "彥君",
-    "text": "「氣體」 和 NaOH 它們剛好相反 越熱 越吃不下"
+    "text": "標準是每滿一百克的純水中",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 88.42,
-    "end": 94.17,
+    "start": 64.3,
+    "end": 67.82,
     "speaker": "彥君",
-    "text": "就像你把 可樂加熱 裡面的 二氧化碳氣體 就全跑光了"
+    "text": "最多可以吃下幾克的溶質",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 94.17,
-    "end": 99.57,
-    "speaker": "曉臻",
-    "text": "啊 熱可樂 真的沒氣 這例子太好記了"
-  },
-  {
-    "start": 99.57,
-    "end": 103.84,
-    "speaker": "曉臻",
-    "text": "那最後一個 飽和濃度 是什麼意思"
-  },
-  {
-    "start": 103.84,
-    "end": 108.25,
+    "start": 71.02,
+    "end": 85.2,
     "speaker": "彥君",
-    "text": "只要大家都 「吃飽了」 達到飽和"
+    "text": "溶解量是實際吃進去的總數量",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
   },
   {
-    "start": 108.25,
-    "end": 114.46,
+    "start": 75.04,
+    "end": 78.5,
     "speaker": "彥君",
-    "text": "不管你是 一小杯 還是 一大桶 它們的濃度 都是一模一樣的"
+    "text": "而溶解量則是你肚子裡面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 114.46,
-    "end": 120.46,
+    "start": 78.7,
+    "end": 82.0,
     "speaker": "彥君",
-    "text": "就像同一鍋 滷肉飯 盛小碗 跟 大碗 吃起來 一樣鹹"
+    "text": "實際吃進去的溶質數量喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 120.46,
-    "end": 125.64,
+    "start": 85.2,
+    "end": 89.38,
     "speaker": "曉臻",
-    "text": "一、 溶解度 是極限 溶解量 是實際裝多少"
+    "text": "喔 所以度是吃東西的極限",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 125.64,
-    "end": 129.38,
+    "start": 89.58,
+    "end": 93.07,
     "speaker": "曉臻",
-    "text": "二、 溫度越高 胃口越大"
+    "text": "量則是肚子裡實際吃下多少",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 129.38,
-    "end": 133.38,
+    "start": 93.27,
+    "end": 96.5,
     "speaker": "曉臻",
-    "text": "氣體 跟 NaOH 越熱越不溶"
+    "text": "就像我最多可以吃五個便當",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 133.38,
-    "end": 138.25,
+    "start": 96.7,
+    "end": 100.06,
     "speaker": "曉臻",
-    "text": "四、 只要飽和 同溫下的 濃度 就相同"
+    "text": "但我現在肚子裡面只有兩個",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 138.25,
-    "end": 143.26,
+    "start": 100.26,
+    "end": 105.26,
     "speaker": "彥君",
-    "text": "一杯已經 飽和的糖水 底下還有 沉澱的糖"
+    "text": "沒錯 妳的溶解度極限是五",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 143.26,
-    "end": 147.94,
+    "start": 105.46,
+    "end": 108.88,
     "speaker": "彥君",
-    "text": "如果我再 倒入十克的糖 溶解度 會改變嗎"
+    "text": "但是妳目前的溶解量只有二",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 147.94,
-    "end": 150.93,
-    "speaker": "曉臻",
-    "text": "溶解度 是胃口極限"
-  },
-  {
-    "start": 150.93,
-    "end": 156.11,
-    "speaker": "曉臻",
-    "text": "已經吃飽了 再塞再多的糖 胃口也不會變大"
-  },
-  {
-    "start": 156.11,
-    "end": 158.94,
-    "speaker": "曉臻",
-    "text": "所以 溶解度 不變"
-  },
-  {
-    "start": 158.94,
-    "end": 163.62,
+    "start": 109.08,
+    "end": 112.76,
     "speaker": "彥君",
-    "text": "漂亮 觀念完全破關"
+    "text": "既然肚子還沒吃飽達到極限",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 163.62,
-    "end": 166.52,
+    "start": 112.96,
+    "end": 116.62,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "這狀態就叫做未飽和溶液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 166.52,
-    "end": 169.15,
+    "start": 116.82,
+    "end": 121.05,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "了解 那講義上面有特別說",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 169.15,
-    "end": 172.92,
+    "start": 121.25,
+    "end": 124.62,
+    "speaker": "曉臻",
+    "text": "溫度越高的話溶解度會越大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 124.82,
+    "end": 127.97,
+    "speaker": "曉臻",
+    "text": "就像天氣熱胃口大開對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 128.17,
+    "end": 132.88,
+    "speaker": "彥君",
+    "text": "完全正確 但是要注意怪胎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 133.08,
+    "end": 155.22,
+    "speaker": "彥君",
+    "text": "氣體和氫氧化鈉越熱越吃不下",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 137.18,
+    "end": 140.76,
+    "speaker": "彥君",
+    "text": "氣體和 $\\text{NaOH}$ 兩種物質",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$\\text{NaOH}$"
+    ]
+  },
+  {
+    "start": 140.96,
+    "end": 144.57,
+    "speaker": "彥君",
+    "text": "它們剛好相反越熱越吃不下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 144.77,
+    "end": 148.23,
+    "speaker": "彥君",
+    "text": "就像你把冰可樂拿去加熱後",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 148.43,
+    "end": 152.02,
+    "speaker": "彥君",
+    "text": "裡面的二氧化碳氣體全跑光",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 155.22,
+    "end": 159.42,
+    "speaker": "曉臻",
+    "text": "啊 熱的可樂喝起來真的沒氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 159.62,
+    "end": 163.11,
+    "speaker": "曉臻",
+    "text": "這個經典例子真的是太好記了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 163.31,
+    "end": 166.63,
+    "speaker": "曉臻",
+    "text": "那最後一個飽和濃度是什麼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 166.83,
+    "end": 170.54,
+    "speaker": "彥君",
+    "text": "只要大家都吃飽了達到飽和",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 170.74,
+    "end": 192.9,
+    "speaker": "彥君",
+    "text": "達到飽和狀態同溫下濃度相同",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 174.78,
+    "end": 178.34,
+    "speaker": "彥君",
+    "text": "不管你是一小杯還是一大桶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 178.54,
+    "end": 181.96,
+    "speaker": "彥君",
+    "text": "它們算出來的濃度一模一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 182.16,
+    "end": 185.65,
+    "speaker": "彥君",
+    "text": "就像同一鍋煮出來的滷肉飯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 185.85,
+    "end": 189.7,
+    "speaker": "彥君",
+    "text": "盛小碗跟大碗吃起來一樣鹹",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 192.9,
+    "end": 196.6,
+    "speaker": "曉臻",
+    "text": "戰士們 快速複習必考重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 196.8,
+    "end": 242.26,
+    "speaker": "曉臻",
+    "text": "一、 溶解度是極限溶解量是實際",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 201.04,
+    "end": 204.5,
+    "speaker": "曉臻",
+    "text": "第一 溶解度是胃口的極限",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 204.7,
+    "end": 208.05,
+    "speaker": "曉臻",
+    "text": "溶解量是實際裝進去多少",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 208.25,
+    "end": 242.26,
+    "speaker": "曉臻",
+    "text": "二、 通常溫度越高胃口就會越大",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 212.37,
+    "end": 215.88,
+    "speaker": "曉臻",
+    "text": "第二 溫度越高胃口就越大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 216.08,
+    "end": 242.26,
+    "speaker": "曉臻",
+    "text": "三、 氣體跟氫氧化鈉越熱越不溶",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 220.3,
+    "end": 223.95,
+    "speaker": "曉臻",
+    "text": "第三 氣體跟 $\\text{NaOH}$ 例外",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$\\text{NaOH}$"
+    ]
+  },
+  {
+    "start": 224.15,
+    "end": 227.4,
+    "speaker": "曉臻",
+    "text": "溫度越高反而越熱越不溶喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 227.6,
+    "end": 242.26,
+    "speaker": "曉臻",
+    "text": "四、 只要飽和同溫下濃度就相同",
+    "is_pinned": true,
+    "pin_level": 4,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 231.84,
+    "end": 235.35,
+    "speaker": "曉臻",
+    "text": "第四 只要達到飽和的狀態",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 235.55,
+    "end": 239.06,
+    "speaker": "曉臻",
+    "text": "同溫度下的濃度就完全相同",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 242.26,
+    "end": 245.78,
+    "speaker": "彥君",
+    "text": "戰士們閉上眼想一想這題喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 245.98,
+    "end": 249.49,
+    "speaker": "彥君",
+    "text": "一杯已經達到飽和的糖水裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 249.69,
+    "end": 253.25,
+    "speaker": "彥君",
+    "text": "底下還有未溶解沉澱的糖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 253.45,
+    "end": 256.79,
+    "speaker": "彥君",
+    "text": "如果我再倒入十公克的糖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 256.99,
+    "end": 260.31,
+    "speaker": "彥君",
+    "text": "請問這杯溶解度會改變嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 260.51,
+    "end": 263.71,
+    "speaker": "曉臻",
+    "text": "溶解度是胃口的最大極限",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 263.91,
+    "end": 267.45,
+    "speaker": "曉臻",
+    "text": "既然吃飽了再塞再多的糖進去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 267.65,
+    "end": 271.04,
+    "speaker": "曉臻",
+    "text": "胃口極限也不會跟著變大啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 271.24,
+    "end": 274.44,
+    "speaker": "曉臻",
+    "text": "所以答案是溶解度不變的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 274.64,
+    "end": 279.38,
+    "speaker": "彥君",
+    "text": "漂亮 觀念完全破關得分喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 279.58,
+    "end": 282.85,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 283.05,
+    "end": 286.54,
+    "speaker": "彥君",
+    "text": "戰士們 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 286.74,
+    "end": 290.03,
+    "speaker": "曉臻",
+    "text": "大家好啊 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 290.23,
+    "end": 293.7,
     "speaker": "合聲",
-    "text": "度是極限 量看表現"
+    "text": "度是極限 量看表現",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 172.92,
-    "end": 176.75,
+    "start": 293.9,
+    "end": 297.43,
     "speaker": "合聲",
-    "text": "戰士們 我們頂峰相見"
+    "text": "戰士們 我們頂峰相見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
