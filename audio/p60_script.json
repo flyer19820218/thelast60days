@@ -1,296 +1,524 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 4.4,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們辛苦了 準備好了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.86,
+    "start": 4.6,
+    "end": 7.8,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的會考戰士們 我是彥君老師"
+    "text": "各位衝刺 A 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.86,
-    "end": 11.51,
+    "start": 8.0,
+    "end": 11.34,
     "speaker": "彥君",
-    "text": "恭喜大家 來到第六十集啦"
+    "text": "恭喜大家來到第六十集啦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.51,
-    "end": 15.18,
+    "start": 11.54,
+    "end": 15.06,
     "speaker": "彥君",
-    "text": "實驗室安全 與 儀器使用"
+    "text": "戰士們好 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 15.18,
-    "end": 18.68,
+    "start": 15.26,
+    "end": 18.55,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教"
+    "text": "大家好啊 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.68,
-    "end": 23.02,
+    "start": 18.75,
+    "end": 22.17,
+    "speaker": "彥君",
+    "text": "戰士們請特別注意聽好囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 22.37,
+    "end": 25.76,
+    "speaker": "彥君",
+    "text": "這是理化絕對的必考題型",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 25.96,
+    "end": 29.45,
+    "speaker": "彥君",
+    "text": "實驗室安全與儀器的使用",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 29.65,
+    "end": 32.78,
     "speaker": "曉臻",
-    "text": "老師 第一點說 不可以發生的行為"
+    "text": "老師第一點說不可以發生",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 23.02,
-    "end": 26.35,
+    "start": 32.98,
+    "end": 36.18,
     "speaker": "曉臻",
-    "text": "實驗室裡 到底不能幹嘛"
+    "text": "實驗室裡面到底不能幹嘛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 26.35,
-    "end": 30.18,
+    "start": 36.38,
+    "end": 39.62,
     "speaker": "彥君",
-    "text": "[戰士們 用膝蓋想也知道]"
+    "text": "戰士們用膝蓋想也知道啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 30.18,
-    "end": 34.21,
+    "start": 39.82,
+    "end": 43.38,
     "speaker": "彥君",
-    "text": "絕對不能 吃東西、 喝飲料"
+    "text": "絕對不能吃東西喝杯飲料",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 34.21,
-    "end": 37.16,
+    "start": 43.58,
+    "end": 47.17,
     "speaker": "彥君",
-    "text": "還有 奔跑打鬧"
+    "text": "還有在裡面瘋狂奔跑打鬧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 37.16,
-    "end": 41.52,
+    "start": 47.37,
+    "end": 50.78,
     "speaker": "曉臻",
-    "text": "這太簡單了 那儀器使用呢"
+    "text": "這太簡單啦 那儀器使用呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 41.52,
-    "end": 44.62,
+    "start": 50.98,
+    "end": 54.26,
     "speaker": "彥君",
-    "text": "幾個大地雷 要避開"
+    "text": "幾個致命的大地雷要避開",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 44.62,
-    "end": 47.78,
+    "start": 54.46,
+    "end": 57.61,
     "speaker": "彥君",
-    "text": "滴管 絕對不能 倒拿"
+    "text": "滴管絕對不能夠倒著拿",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 47.78,
-    "end": 50.97,
+    "start": 57.81,
+    "end": 61.1,
     "speaker": "彥君",
-    "text": "液體會 流進膠頭"
+    "text": "裡面的液體會流進膠頭裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 50.97,
-    "end": 55.0,
+    "start": 61.3,
+    "end": 64.86,
     "speaker": "彥君",
-    "text": "酒精燈 絕對不能 用嘴巴吹熄"
+    "text": "酒精燈絕對不能用嘴吹熄",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 55.0,
-    "end": 61.18,
+    "start": 65.06,
+    "end": 68.43,
     "speaker": "彥君",
-    "text": "要用蓋子 蓋住也不能拿去幫別的酒精燈點火"
+    "text": "要用蓋子蓋住才可以熄滅",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 61.18,
-    "end": 66.05,
+    "start": 68.63,
+    "end": 71.93,
     "speaker": "彥君",
-    "text": "加熱試管的時候 管口 絕對不能 對著人"
+    "text": "也不可以拿去幫別人點火",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 66.05,
-    "end": 70.25,
+    "start": 72.13,
+    "end": 75.69,
+    "speaker": "彥君",
+    "text": "加熱試管的時候特別注意",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 75.89,
+    "end": 78.99,
+    "speaker": "彥君",
+    "text": "管口絕對不可以對著人喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 82.19,
+    "end": 85.75,
     "speaker": "曉臻",
-    "text": "老師 那第三點 稀釋強酸"
+    "text": "老師 那第三點稀釋強酸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 70.25,
-    "end": 73.15,
+    "start": 85.95,
+    "end": 89.13,
     "speaker": "曉臻",
-    "text": "為什麼 這麼常考啊"
-  },
-  {
-    "start": 73.15,
-    "end": 76.72,
-    "speaker": "彥君",
-    "text": "因為 弄錯順序 會出人命啊"
-  },
-  {
-    "start": 76.72,
-    "end": 79.43,
-    "speaker": "彥君",
-    "text": "「酸入水」"
-  },
-  {
-    "start": 79.43,
-    "end": 82.9,
-    "speaker": "彥君",
-    "text": "一定要把 強酸 沿著玻棒"
-  },
-  {
-    "start": 82.9,
-    "end": 85.76,
-    "speaker": "彥君",
-    "text": "慢慢倒入 水中"
-  },
-  {
-    "start": 85.76,
-    "end": 89.33,
-    "speaker": "彥君",
-    "text": "絕對不能 把水 加進酸裡"
+    "text": "為什麼會這麼常考出來啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 89.33,
-    "end": 92.78,
+    "end": 92.55,
     "speaker": "彥君",
-    "text": "不然會 沸騰 噴濺出來"
+    "text": "因為弄錯順序會出人命啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 92.78,
-    "end": 96.06,
-    "speaker": "曉臻",
-    "text": "哇 好危險"
-  },
-  {
-    "start": 96.06,
-    "end": 100.67,
-    "speaker": "曉臻",
-    "text": "老師 那最後面的 三大變因 填空題"
-  },
-  {
-    "start": 100.67,
-    "end": 104.62,
-    "speaker": "曉臻",
-    "text": "第一個 實驗的目的 是什麼變因"
-  },
-  {
-    "start": 104.62,
-    "end": 108.48,
+    "start": 92.75,
+    "end": 96.34,
     "speaker": "彥君",
-    "text": "第一個 是我們 故意改變的 條件"
+    "text": "請記住口訣酸加入水裡面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 108.48,
-    "end": 111.48,
+    "start": 96.54,
+    "end": 99.86,
     "speaker": "彥君",
-    "text": "叫做 操縱變因"
+    "text": "一定要把強酸沿著玻璃棒",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 111.48,
-    "end": 115.03,
-    "speaker": "曉臻",
-    "text": "那第二個 實驗的結果呢"
-  },
-  {
-    "start": 115.03,
-    "end": 118.22,
+    "start": 100.06,
+    "end": 103.54,
     "speaker": "彥君",
-    "text": "結果會 跟著改變"
+    "text": "非常緩慢地倒入純水裡面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 118.22,
-    "end": 121.12,
+    "start": 103.74,
+    "end": 107.26,
     "speaker": "彥君",
-    "text": "這叫 應變變因"
+    "text": "絕對不能把水加進酸裡面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 121.12,
-    "end": 125.22,
-    "speaker": "曉臻",
-    "text": "那第三個 其他不能變的 條件呢"
-  },
-  {
-    "start": 125.22,
-    "end": 128.69,
+    "start": 107.46,
+    "end": 110.94,
     "speaker": "彥君",
-    "text": "那些 要保持一模一樣的"
+    "text": "不然強酸會沸騰噴濺出來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.69,
-    "end": 131.66,
+    "start": 114.14,
+    "end": 118.09,
+    "speaker": "曉臻",
+    "text": "哇 聽起來真的好危險喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 118.29,
+    "end": 121.68,
+    "speaker": "曉臻",
+    "text": "老師那最後面三大變因題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 121.88,
+    "end": 124.86,
+    "speaker": "曉臻",
+    "text": "第一個實驗的目的是什麼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 125.06,
+    "end": 128.31,
     "speaker": "彥君",
-    "text": "叫做 控制變因"
+    "text": "第一個是我們故意改變的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 131.66,
-    "end": 135.91,
-    "speaker": "曉臻",
-    "text": "一、 酒精燈 用蓋的 滴管 不倒拿"
-  },
-  {
-    "start": 135.91,
-    "end": 138.71,
-    "speaker": "曉臻",
-    "text": "只能 酸加入水中"
-  },
-  {
-    "start": 138.71,
-    "end": 142.04,
-    "speaker": "曉臻",
-    "text": "操縱、 應變、 控制"
-  },
-  {
-    "start": 142.04,
-    "end": 145.06,
+    "start": 128.51,
+    "end": 131.83,
     "speaker": "彥君",
-    "text": "如果我們想知道"
+    "text": "條件就叫做操縱的變因",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 145.06,
-    "end": 150.0,
+    "start": 135.03,
+    "end": 138.21,
+    "speaker": "曉臻",
+    "text": "那第二個實驗的最終結果",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 138.41,
+    "end": 142.02,
     "speaker": "彥君",
-    "text": "「日照時間」 會不會影響 「植物生長高度」"
+    "text": "結果會跟著條件一起改變",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 150.0,
-    "end": 153.94,
+    "start": 142.22,
+    "end": 145.37,
     "speaker": "彥君",
-    "text": "請問 「日照時間」 是什麼變因"
+    "text": "這個就叫做應變的變因",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 153.94,
-    "end": 157.27,
+    "start": 148.57,
+    "end": 151.6,
     "speaker": "曉臻",
-    "text": "這是我們 故意改變的 條件"
+    "text": "那第三個不能變的條件呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 157.27,
-    "end": 159.98,
-    "speaker": "曉臻",
-    "text": "當然是 操縱變因"
-  },
-  {
-    "start": 159.98,
-    "end": 164.82,
+    "start": 151.8,
+    "end": 155.22,
     "speaker": "彥君",
-    "text": "漂亮 實驗邏輯 一百分"
+    "text": "那些必須保持一模一樣的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 164.82,
-    "end": 167.72,
+    "start": 155.42,
+    "end": 158.76,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "就全部都叫做控制變因喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 167.72,
-    "end": 170.36,
+    "start": 161.96,
+    "end": 165.45,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "戰士們 快速複習必考點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 170.36,
-    "end": 173.71,
+    "start": 165.65,
+    "end": 168.87,
     "speaker": "曉臻",
-    "text": "酸加水中 變因搞通"
+    "text": "第一 酒精燈必須用蓋的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 173.71,
-    "end": 177.43,
+    "start": 169.07,
+    "end": 172.58,
     "speaker": "曉臻",
-    "text": "保持戰鬥力 繼續向前衝"
+    "text": "第二 稀釋強酸要酸入水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 172.78,
+    "end": 176.32,
+    "speaker": "曉臻",
+    "text": "第三 分操縱應變和控制",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 176.52,
+    "end": 179.67,
+    "speaker": "彥君",
+    "text": "戰士們閉上眼想一想喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 179.87,
+    "end": 183.0,
+    "speaker": "彥君",
+    "text": "如果我們今天想要知道",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 183.2,
+    "end": 186.62,
+    "speaker": "彥君",
+    "text": "日照時間會不會去影響到",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 186.82,
+    "end": 190.33,
+    "speaker": "彥君",
+    "text": "植物最後生長出來的高度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 190.53,
+    "end": 193.9,
+    "speaker": "彥君",
+    "text": "請問日照時間是什麼變因",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 194.1,
+    "end": 197.13,
+    "speaker": "曉臻",
+    "text": "這是我們故意改變的條件",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 197.33,
+    "end": 200.38,
+    "speaker": "曉臻",
+    "text": "當然它就是操縱變因啦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 200.58,
+    "end": 205.13,
+    "speaker": "彥君",
+    "text": "漂亮 實驗邏輯一百分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 205.33,
+    "end": 208.6,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 208.8,
+    "end": 212.29,
+    "speaker": "彥君",
+    "text": "戰士們 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 212.49,
+    "end": 215.78,
+    "speaker": "曉臻",
+    "text": "大家好啊 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 215.98,
+    "end": 219.33,
+    "speaker": "合聲",
+    "text": "酸加水中 變因搞通",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 219.53,
+    "end": 223.26,
+    "speaker": "合聲",
+    "text": "保持戰鬥力 繼續向前衝",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
