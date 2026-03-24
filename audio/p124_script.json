@@ -1,466 +1,526 @@
 [
   {
     "start": 0.0,
-    "end": 3.25,
+    "end": 5.46,
     "speaker": "彥君",
-    "text": "戰士們 歡迎來到",
+    "text": "戰士們 歡迎來到第一百二十四集",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.45,
-    "end": 6.14,
+    "start": 5.66,
+    "end": 9.17,
     "speaker": "彥君",
-    "text": "第 124 集",
+    "text": "準備會考就像是在接電路",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.34,
-    "end": 9.23,
+    "start": 9.37,
+    "end": 12.9,
     "speaker": "彥君",
-    "text": "讀書 就像接電路",
+    "text": "半途而廢就是在製造斷路",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 9.43,
-    "end": 12.44,
+    "start": 13.1,
+    "end": 16.81,
     "speaker": "彥君",
-    "text": "半途而廢 就是斷路",
+    "text": "投機取巧就像是危險的短路",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 12.64,
-    "end": 15.91,
+    "start": 17.01,
+    "end": 20.35,
     "speaker": "彥君",
-    "text": "投機取巧 就像是短路",
+    "text": "只有腳踏實地接通觀念",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.11,
-    "end": 19.46,
+    "start": 20.55,
+    "end": 23.87,
     "speaker": "彥君",
-    "text": "只有腳踏實地 接通觀念",
+    "text": "才能形成通路點亮成績",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.66,
-    "end": 22.98,
+    "start": 24.07,
+    "end": 27.46,
     "speaker": "彥君",
-    "text": "才能形成通路 點亮成績",
+    "text": "各位衝刺 $A^{++}$ 的戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$A^{++}$"
+    ]
   },
   {
-    "start": 23.18,
-    "end": 25.78,
+    "start": 27.66,
+    "end": 30.26,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 25.98,
-    "end": 27.71,
+    "start": 30.46,
+    "end": 33.66,
     "speaker": "曉臻",
-    "text": "大家好",
+    "text": "大家好 我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.91,
-    "end": 30.25,
+    "start": 33.86,
+    "end": 37.52,
+    "speaker": "彥君",
+    "text": "戰士們請把注意力集中過來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 37.72,
+    "end": 41.3,
+    "speaker": "彥君",
+    "text": "基礎電學必考名詞都在這",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 41.5,
+    "end": 44.7,
     "speaker": "曉臻",
-    "text": "我是曉臻助教",
+    "text": "老師這個基本電荷的數字",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 30.45,
-    "end": 32.9,
-    "speaker": "彥君",
-    "text": "戰士們注意",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 33.1,
-    "end": 36.18,
-    "speaker": "彥君",
-    "text": "基礎電學 必考名詞",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 36.38,
-    "end": 39.58,
+    "start": 44.9,
+    "end": 47.65,
     "speaker": "曉臻",
-    "text": "老師 第一個基本電荷",
+    "text": "怎麼會長得這麼醜啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 39.78,
-    "end": 42.41,
-    "speaker": "曉臻",
-    "text": "數字 怎麼這麼醜啊",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 42.61,
-    "end": 45.69,
+    "start": 47.85,
+    "end": 51.0,
     "speaker": "彥君",
-    "text": "因為 電子超級無敵小",
+    "text": "因為電子超級無敵小啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 45.89,
-    "end": 48.75,
+    "start": 51.2,
+    "end": 54.42,
     "speaker": "彥君",
-    "text": "帶電量 就是這麼少",
+    "text": "帶的電量就是這麼稀少",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 48.95,
-    "end": 52.39,
+    "start": 54.62,
+    "end": 58.11,
     "speaker": "彥君",
-    "text": "記住 這是最小單位",
+    "text": "記住這是電量的最小單位",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 52.59,
-    "end": 55.72,
+    "start": 58.31,
+    "end": 61.44,
     "speaker": "彥君",
-    "text": "絕對不會有 半顆電子",
+    "text": "絕對不會有半顆電子",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 55.92,
-    "end": 67.81,
+    "start": 61.64,
+    "end": 69.7,
     "speaker": "彥君",
-    "text": "$\\text{基本電荷} \\rightarrow 1.6 \\times 10^{-19}\\text{C}$",
+    "text": "① $\\text{基本電荷} = 1.6 \\times 10^{-19}\\text{ C}$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "① $\\text{基本電荷} = 1.6 \\times 10^{-19}\\text{ C}$"
+    ]
   },
   {
-    "start": 61.65,
-    "end": 64.61,
-    "speaker": "彥君",
-    "text": "給你們 3 秒鐘記憶",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 67.81,
-    "end": 70.53,
+    "start": 69.7,
+    "end": 72.92,
     "speaker": "曉臻",
-    "text": "第二點 庫侖靜電力",
+    "text": "老師第二點的庫侖靜電力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 70.73,
-    "end": 73.42,
+    "start": 73.12,
+    "end": 76.18,
     "speaker": "曉臻",
-    "text": "講義上 怎麼沒寫完",
+    "text": "講義上怎麼好像沒寫完",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 73.62,
-    "end": 76.75,
+    "start": 76.38,
+    "end": 79.84,
     "speaker": "彥君",
-    "text": "因為 會考不愛考計算",
+    "text": "因為會考現在不愛考計算",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 76.95,
-    "end": 80.03,
+    "start": 80.04,
+    "end": 83.46,
     "speaker": "彥君",
-    "text": "你只要想著 萬有引力",
+    "text": "想著以前學過的萬有引力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 80.23,
-    "end": 83.53,
+    "start": 83.66,
+    "end": 86.83,
     "speaker": "彥君",
-    "text": "電量越大 吸得越緊",
+    "text": "電量越大就會吸得越緊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 83.73,
-    "end": 87.0,
+    "start": 87.03,
+    "end": 90.11,
     "speaker": "彥君",
-    "text": "距離越遠 力量越弱",
+    "text": "距離越遠力量就越弱喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 87.2,
-    "end": 99.47,
+    "start": 90.31,
+    "end": 102.51,
     "speaker": "彥君",
-    "text": "$\\text{庫侖力} \\rightarrow \\text{電量正比, 距離平方反比}$",
+    "text": "② $\\text{庫侖力} \\rightarrow \\text{電量正比， 距離平方反比}$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "② $\\text{庫侖力} \\rightarrow \\text{電量正比， 距離平方反比}$"
+    ]
   },
   {
-    "start": 93.05,
-    "end": 96.27,
+    "start": 95.42,
+    "end": 99.31,
     "speaker": "彥君",
-    "text": "戰士們 趕快抄寫",
+    "text": "戰士們 趕快把它抄寫下來",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 99.47,
-    "end": 102.38,
+    "start": 102.51,
+    "end": 105.76,
     "speaker": "曉臻",
-    "text": "最後 是下面的三個圖",
+    "text": "最後是講義下面的三個圖",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 102.58,
-    "end": 105.35,
+    "start": 105.96,
+    "end": 108.92,
     "speaker": "曉臻",
-    "text": "燈泡 到底會不會亮啊",
+    "text": "燈泡到底會不會發光啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 105.55,
-    "end": 108.99,
+    "start": 109.12,
+    "end": 112.66,
     "speaker": "彥君",
-    "text": "先看 中間和右邊的圖",
+    "text": "先看中間和右邊的圖形",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 109.19,
-    "end": 112.27,
+    "start": 112.86,
+    "end": 116.22,
     "speaker": "彥君",
-    "text": "中間的開關 翹起來了",
+    "text": "中間那張圖開關翹起來了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 112.47,
-    "end": 115.5,
+    "start": 116.42,
+    "end": 119.46,
     "speaker": "曉臻",
-    "text": "路斷掉了 電過不去",
+    "text": "路斷掉了電子就過不去",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 115.7,
-    "end": 118.95,
+    "start": 119.66,
+    "end": 122.95,
     "speaker": "曉臻",
-    "text": "所以是斷路 燈泡不亮",
+    "text": "所以是斷路燈泡絕對不亮",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 119.15,
-    "end": 123.36,
+    "start": 123.15,
+    "end": 127.53,
     "speaker": "彥君",
-    "text": "沒錯 那右邊的圖呢",
+    "text": "沒錯 那右邊的圖形呢",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 123.56,
-    "end": 126.86,
+    "start": 127.73,
+    "end": 130.9,
     "speaker": "曉臻",
-    "text": "線有接好 順利繞一圈",
+    "text": "電線接好順利繞了一大圈",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 127.06,
-    "end": 130.11,
+    "start": 131.1,
+    "end": 134.45,
     "speaker": "曉臻",
-    "text": "所以是通路 發光了",
+    "text": "所以這是正常的通路發光了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 130.31,
-    "end": 134.71,
+    "start": 134.65,
+    "end": 139.22,
     "speaker": "彥君",
-    "text": "漂亮 最恐怖的陷阱",
+    "text": "漂亮 最恐怖的大陷阱",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 134.91,
-    "end": 138.18,
+    "start": 139.42,
+    "end": 142.93,
     "speaker": "彥君",
-    "text": "是最左邊 那張短路圖",
+    "text": "就是最左邊那張短路圖形",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 138.38,
-    "end": 141.37,
+    "start": 143.13,
+    "end": 146.33,
     "speaker": "曉臻",
-    "text": "燈泡旁邊 多了一條電線",
+    "text": "燈泡旁邊多了一條電線耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 141.57,
-    "end": 145.08,
+    "start": 146.53,
+    "end": 150.11,
     "speaker": "彥君",
-    "text": "記住 電子就像車子",
+    "text": "戰士們電子就像是車子一樣",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 145.28,
-    "end": 148.89,
+    "start": 150.31,
+    "end": 153.87,
     "speaker": "彥君",
-    "text": "燈泡那一段電路 像台灣的馬路",
+    "text": "燈泡那段路就像台灣爛馬路",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 149.09,
-    "end": 152.91,
+    "start": 154.07,
+    "end": 157.44,
     "speaker": "彥君",
-    "text": "每天修修補補 非常難開",
+    "text": "每天修修補補非常難開",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 153.11,
-    "end": 156.07,
+    "start": 157.64,
+    "end": 160.89,
     "speaker": "曉臻",
-    "text": "所以 正常車速都很慢",
+    "text": "所以正常車速都會變很慢",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 156.27,
-    "end": 160.0,
+    "start": 161.09,
+    "end": 164.53,
     "speaker": "彥君",
-    "text": "但短路 像一條高速公路",
+    "text": "但短路就像一條高速公路",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 160.2,
-    "end": 163.33,
+    "start": 164.73,
+    "end": 168.05,
     "speaker": "彥君",
-    "text": "沒坑洞、 沒紅綠燈",
+    "text": "沒坑洞完全沒有紅綠燈",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 163.53,
-    "end": 166.99,
+    "start": 168.25,
+    "end": 171.69,
     "speaker": "彥君",
-    "text": "所有的電子 瘋狂飆車",
+    "text": "所有的電子瘋狂地加速飆車",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 167.19,
-    "end": 171.26,
+    "start": 171.89,
+    "end": 175.95,
     "speaker": "曉臻",
     "text": "哇 電車全跑去高速公路",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 171.46,
-    "end": 174.08,
+    "start": 176.15,
+    "end": 179.14,
     "speaker": "曉臻",
-    "text": "沒人要走 爛馬路了",
+    "text": "沒人要走那條爛馬路了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 174.28,
-    "end": 178.7,
+    "start": 179.34,
+    "end": 184.17,
     "speaker": "彥君",
-    "text": "沒錯 所以燈泡不亮",
+    "text": "沒錯 所以燈泡完全不亮",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 178.9,
-    "end": 181.94,
+    "start": 184.37,
+    "end": 187.88,
     "speaker": "彥君",
-    "text": "而且 因為飆速太快",
+    "text": "而且因為飆車速度超級快",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 182.14,
-    "end": 185.58,
+    "start": 188.08,
+    "end": 191.42,
     "speaker": "彥君",
-    "text": "電流爆衝 很容易起火",
+    "text": "電流大爆衝很容易起火",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 185.78,
-    "end": 9999.0,
+    "start": 191.62,
+    "end": 199.44,
     "speaker": "彥君",
-    "text": "$\\text{短路} \\rightarrow \\text{電流抄捷徑, 燈泡不亮}$",
+    "text": "③ $\\text{短路} \\rightarrow \\text{電流抄捷徑， 燈泡不亮}$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "③ $\\text{短路} \\rightarrow \\text{電流抄捷徑， 燈泡不亮}$"
+    ]
   },
   {
-    "start": 191.58,
-    "end": 195.02,
+    "start": 199.44,
+    "end": 203.6,
     "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
+    "text": "觀念全通了 秒殺考題沒問題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 195.22,
-    "end": 197.82,
+    "start": 203.8,
+    "end": 207.07,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 207.27,
+    "end": 209.87,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 198.02,
-    "end": 200.35,
+    "start": 210.07,
+    "end": 212.41,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 200.55,
-    "end": 203.99,
+    "start": 212.61,
+    "end": 216.05,
     "speaker": "合聲",
     "text": "馬路難走 飆速短路",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 204.19,
-    "end": 207.73,
+    "start": 216.25,
+    "end": 219.78,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
