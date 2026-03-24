@@ -1,498 +1,479 @@
 [
   {
     "start": 0.0,
-    "end": 1.98,
+    "end": 3.9,
     "speaker": "彥君",
-    "text": "哈囉",
+    "text": "各位準備衝刺理化滿分的戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.18,
-    "end": 5.45,
-    "speaker": "彥君",
-    "text": "各位即將衝 A 的",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 5.65,
-    "end": 8.1,
-    "speaker": "彥君",
-    "text": "會考戰士們",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 8.3,
-    "end": 10.9,
+    "start": 4.1,
+    "end": 6.7,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.1,
-    "end": 14.35,
-    "speaker": "彥君",
-    "text": "今天來到 第八十三集",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 14.55,
-    "end": 16.29,
+    "start": 6.9,
+    "end": 9.18,
     "speaker": "曉臻",
-    "text": "大家好",
+    "text": "戰士們大家好",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.49,
-    "end": 18.82,
+    "start": 9.38,
+    "end": 11.72,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.02,
-    "end": 21.62,
+    "start": 11.92,
+    "end": 17.64,
+    "speaker": "彥君",
+    "text": "歡迎來到第八十三集物質加熱曲線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 17.84,
+    "end": 21.47,
     "speaker": "曉臻",
-    "text": "老師 這張圖",
+    "text": "老師講義上的這張階梯圖",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 21.82,
-    "end": 24.35,
+    "start": 21.67,
+    "end": 25.14,
     "speaker": "曉臻",
-    "text": "階梯 爬來爬去的",
+    "text": "爬來爬去的到底是什麼意思啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 24.55,
-    "end": 26.86,
+    "start": 25.34,
+    "end": 28.63,
+    "speaker": "彥君",
+    "text": "戰士們注意看這張圖表",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 28.83,
+    "end": 32.61,
+    "speaker": "彥君",
+    "text": "這是物質加熱時的溫度時間圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 32.81,
+    "end": 36.58,
+    "speaker": "彥君",
+    "text": "仔細看圖有兩段平平的線喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 36.78,
+    "end": 41.21,
     "speaker": "曉臻",
-    "text": "是什麼 意思啊",
+    "text": "對耶為什麼明明一直有在加熱",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.06,
-    "end": 30.12,
-    "speaker": "彥君",
-    "text": "戰士們 注意看",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 30.32,
-    "end": 32.66,
-    "speaker": "彥君",
-    "text": "這是物質",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 32.86,
-    "end": 35.72,
-    "speaker": "彥君",
-    "text": "加熱時的 溫度變化",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 35.92,
-    "end": 38.23,
-    "speaker": "彥君",
-    "text": "仔細看圖",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 38.43,
-    "end": 41.25,
-    "speaker": "彥君",
-    "text": "有兩段 平平的線",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 41.45,
-    "end": 44.53,
+    "start": 41.41,
+    "end": 44.56,
     "speaker": "曉臻",
-    "text": "對耶 為什麼",
+    "text": "它的溫度卻停住不動了呢",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 44.73,
-    "end": 47.23,
-    "speaker": "曉臻",
-    "text": "明明一直 在加熱",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 47.43,
-    "end": 49.89,
-    "speaker": "曉臻",
-    "text": "溫度卻 停住了呢",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 50.09,
-    "end": 52.88,
+    "start": 44.76,
+    "end": 48.73,
     "speaker": "彥君",
-    "text": "這就是 必考重點",
+    "text": "戰士們這就是超級必考重點",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 53.08,
-    "end": 55.75,
+    "start": 48.93,
+    "end": 51.89,
     "speaker": "彥君",
-    "text": "因為 吸進來的熱",
+    "text": "因為它吸進來的熱量",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 55.95,
-    "end": 58.67,
+    "start": 52.09,
+    "end": 55.34,
     "speaker": "彥君",
-    "text": "拿去 改變狀態了",
+    "text": "全部都拿去改變狀態了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 58.87,
-    "end": 61.42,
+    "start": 55.54,
+    "end": 58.95,
     "speaker": "彥君",
-    "text": "沒有拿去 升溫",
+    "text": "完全沒有多餘的熱拿去升溫",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 61.62,
-    "end": 9999.0,
+    "start": 59.15,
+    "end": 140.26,
     "speaker": "彥君",
-    "text": "\\text{狀態改變} \\rightarrow \\text{溫度不變}",
+    "text": "狀態改變 $$\\rightarrow$$ 溫度不變",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "狀態改變 $$\\rightarrow$$ 溫度不變"
+    ]
   },
   {
-    "start": 65.72,
+    "start": 63.25,
     "end": 67.7,
     "speaker": "曉臻",
-    "text": "改變狀態",
+    "text": "改變狀態是指融化跟沸騰嗎",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 67.9,
-    "end": 70.66,
+    "end": 73.02,
+    "speaker": "彥君",
+    "text": "沒錯像下面第一段平坦的線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 73.22,
+    "end": 76.82,
+    "speaker": "彥君",
+    "text": "代表冰塊正在慢慢變成水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 77.02,
+    "end": 80.8,
+    "speaker": "彥君",
+    "text": "這時候的狀態叫做固液共存",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 81.0,
+    "end": 84.87,
+    "speaker": "彥君",
+    "text": "戰士們注意經典會考題來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 85.07,
+    "end": 88.92,
+    "speaker": "彥君",
+    "text": "想像一杯水裡面如果浮著冰塊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 89.12,
+    "end": 92.58,
+    "speaker": "彥君",
+    "text": "請問這杯水現在是幾度C",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 92.78,
+    "end": 97.09,
     "speaker": "曉臻",
-    "text": "是指 融化跟沸騰嗎",
+    "text": "浮著冰塊那就是固液共存啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 70.86,
-    "end": 75.43,
-    "speaker": "彥君",
-    "text": "沒錯 像第一段平線",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 75.63,
-    "end": 78.64,
-    "speaker": "彥君",
-    "text": "冰塊 正在變成水",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 78.84,
-    "end": 81.97,
-    "speaker": "彥君",
-    "text": "這時候 是固液共存",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 82.17,
-    "end": 84.62,
-    "speaker": "彥君",
-    "text": "戰士們注意",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 84.82,
-    "end": 87.62,
-    "speaker": "彥君",
-    "text": "經典會考題 來了",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 87.82,
-    "end": 90.3,
-    "speaker": "彥君",
-    "text": "一杯水 裡面",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 90.5,
-    "end": 93.17,
-    "speaker": "彥君",
-    "text": "如果 浮著冰塊",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 93.37,
-    "end": 95.3,
-    "speaker": "彥君",
-    "text": "請問 是幾度Ｃ",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 95.5,
-    "end": 97.5,
+    "start": 97.29,
+    "end": 99.86,
     "speaker": "曉臻",
-    "text": "浮著冰塊",
+    "text": "所以絕對是零度",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 97.7,
-    "end": 100.32,
-    "speaker": "曉臻",
-    "text": "那就是 固液共存啊",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 100.52,
-    "end": 103.1,
-    "speaker": "曉臻",
-    "text": "所以 絕對是零度",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 103.3,
-    "end": 105.68,
+    "start": 100.06,
+    "end": 102.45,
     "speaker": "彥君",
     "text": "完全正確",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 105.88,
-    "end": 108.65,
+    "start": 102.65,
+    "end": 106.5,
     "speaker": "彥君",
-    "text": "只要 還有冰塊在",
+    "text": "只要裡面還有任何一小塊冰塊在",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 108.85,
-    "end": 111.62,
+    "start": 106.7,
+    "end": 109.9,
     "speaker": "彥君",
-    "text": "溫度 永遠是零度",
+    "text": "它的溫度永遠卡在零度",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 111.82,
-    "end": 9999.0,
+    "start": 110.1,
+    "end": 140.26,
     "speaker": "彥君",
-    "text": "\\text{冰水共存} \\rightarrow 0^{\\circ}\\text{C}",
+    "text": "冰水共存 $$\\rightarrow 0^\\circ C$$",
     "is_pinned": true,
-    "pin_level": 2
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "冰水共存 $$\\rightarrow 0^\\circ C$$"
+    ]
   },
   {
-    "start": 115.72,
-    "end": 118.7,
+    "start": 114.0,
+    "end": 118.02,
     "speaker": "曉臻",
-    "text": "哇 這個陷阱",
+    "text": "哇這個超經典的生活陷阱",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 118.9,
-    "end": 121.36,
+    "start": 118.22,
+    "end": 121.39,
     "speaker": "曉臻",
-    "text": "真的 很容易被騙",
+    "text": "真的很容易被考題騙到耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 121.56,
-    "end": 124.28,
+    "start": 121.59,
+    "end": 124.6,
     "speaker": "曉臻",
-    "text": "那上面 第二段平線",
+    "text": "那上面第二段平平的線",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 124.48,
-    "end": 127.03,
+    "start": 124.8,
+    "end": 128.36,
     "speaker": "曉臻",
-    "text": "就是 一百度沸騰囉",
+    "text": "就是一百度沸騰變成水蒸氣囉",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 127.23,
-    "end": 131.42,
+    "start": 128.56,
+    "end": 133.44,
     "speaker": "彥君",
-    "text": "對 那是 液氣共存",
+    "text": "對那個階段叫做液氣共存",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 131.62,
-    "end": 134.7,
+    "start": 133.64,
+    "end": 137.06,
     "speaker": "彥君",
-    "text": "水 正在變成水蒸氣",
+    "text": "水正在努力變成水蒸氣",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 134.9,
-    "end": 137.83,
+    "start": 140.26,
+    "end": 143.89,
     "speaker": "曉臻",
-    "text": "老師 左邊還有寫",
+    "text": "老師這張圖的左邊還有寫",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 138.03,
-    "end": 140.61,
+    "start": 144.09,
+    "end": 146.66,
     "speaker": "曉臻",
-    "text": "純物質 和混合物",
+    "text": "純物質和混合物",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 140.81,
-    "end": 143.24,
+    "start": 146.86,
+    "end": 150.23,
     "speaker": "曉臻",
-    "text": "這要 怎麼看出來",
+    "text": "這要怎麼從圖表上看出來啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 143.44,
-    "end": 145.97,
+    "start": 150.43,
+    "end": 154.18,
     "speaker": "彥君",
-    "text": "找平線 就對了",
+    "text": "訣竅很簡單找平線就對了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 146.17,
-    "end": 148.72,
+    "start": 154.38,
+    "end": 158.4,
     "speaker": "彥君",
-    "text": "只有 純物質",
+    "text": "只有純物質才有固定的熔點",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 148.92,
-    "end": 151.78,
+    "start": 158.6,
+    "end": 161.39,
     "speaker": "彥君",
-    "text": "才有 固定的熔點",
+    "text": "還有固定的沸點",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 151.98,
-    "end": 154.78,
+    "start": 161.59,
+    "end": 185.14,
     "speaker": "彥君",
-    "text": "還有 固定的沸點",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 154.98,
-    "end": 9999.0,
-    "speaker": "彥君",
-    "text": "\\text{純物質} \\rightarrow \\text{固定熔沸點}",
+    "text": "純物質 $$\\rightarrow$$ 固定熔沸點",
     "is_pinned": true,
-    "pin_level": 3
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "純物質 $$\\rightarrow$$ 固定熔沸點"
+    ]
   },
   {
-    "start": 158.93,
-    "end": 162.37,
+    "start": 165.54,
+    "end": 169.06,
     "speaker": "曉臻",
-    "text": "喔 如果是混合物",
+    "text": "喔所以我徹底懂了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 162.57,
-    "end": 165.22,
+    "start": 169.26,
+    "end": 171.93,
     "speaker": "曉臻",
-    "text": "線就會 歪歪斜斜的",
+    "text": "如果是混合物加熱",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 165.42,
-    "end": 167.87,
+    "start": 172.13,
+    "end": 175.11,
+    "speaker": "曉臻",
+    "text": "它的線就會歪歪斜斜的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 175.31,
+    "end": 177.77,
     "speaker": "彥君",
-    "text": "助教 一百分",
+    "text": "助教一百分",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 168.07,
-    "end": 171.51,
+    "start": 177.97,
+    "end": 181.94,
     "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
+    "text": "觀念一旦通了就能秒殺考題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 171.71,
-    "end": 174.31,
+    "start": 185.14,
+    "end": 187.74,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 174.51,
-    "end": 176.85,
+    "start": 187.94,
+    "end": 190.27,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 177.05,
-    "end": 180.46,
+    "start": 190.47,
+    "end": 193.89,
     "speaker": "合聲",
-    "text": "狀態改變 溫度不變",
+    "text": "狀態改變溫度不變",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 180.66,
-    "end": 184.2,
+    "start": 194.09,
+    "end": 197.62,
     "speaker": "合聲",
-    "text": "戰士們 我們頂峰相見",
+    "text": "戰士們我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
