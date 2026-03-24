@@ -1,402 +1,476 @@
 [
   {
     "start": 0.0,
-    "end": 3.25,
+    "end": 2.12,
     "speaker": "彥君",
-    "text": "戰士們 歡迎來到",
+    "text": "戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.45,
-    "end": 6.12,
+    "start": 2.32,
+    "end": 5.9,
     "speaker": "彥君",
-    "text": "第 127 集",
+    "text": "歡迎來到第一百二十七集",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.32,
-    "end": 9.38,
+    "start": 6.1,
+    "end": 9.45,
     "speaker": "彥君",
-    "text": "人生 就像一塊磁鐵",
+    "text": "人生就像是一塊大磁鐵",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 9.58,
-    "end": 12.54,
+    "start": 9.65,
+    "end": 12.97,
     "speaker": "彥君",
-    "text": "只要 你的核心不變",
+    "text": "只要你內在的核心不改變",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 12.74,
-    "end": 15.77,
+    "start": 13.17,
+    "end": 16.2,
     "speaker": "彥君",
-    "text": "就能 吸引對的人事物",
+    "text": "就能吸引對的人事物",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 15.97,
-    "end": 18.57,
+    "start": 16.4,
+    "end": 19.79,
     "speaker": "彥君",
-    "text": "我是彥君老師",
+    "text": "各位衝刺 $A^{++}$ 的戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$A^{++}$"
+    ]
   },
   {
-    "start": 18.77,
-    "end": 20.5,
-    "speaker": "曉臻",
-    "text": "大家好",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 20.7,
-    "end": 23.04,
-    "speaker": "曉臻",
-    "text": "我是曉臻助教",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 23.24,
-    "end": 25.7,
-    "speaker": "彥君",
-    "text": "戰士們注意",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 25.9,
-    "end": 28.71,
-    "speaker": "彥君",
-    "text": "磁場 基本功來了",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 28.91,
-    "end": 31.73,
-    "speaker": "曉臻",
-    "text": "老師 所有的金屬",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 31.93,
-    "end": 34.43,
-    "speaker": "曉臻",
-    "text": "都能 變成磁鐵嗎",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 34.63,
-    "end": 38.79,
-    "speaker": "彥君",
-    "text": "不行喔 只有這三種",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 38.99,
-    "end": 42.07,
-    "speaker": "彥君",
-    "text": "鐵、 鈷、 鎳",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 42.27,
-    "end": 45.4,
-    "speaker": "彥君",
-    "text": "它們 才是磁化三劍客",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 45.6,
-    "end": 62.9,
-    "speaker": "彥君",
-    "text": "$\\text{磁化三劍客} \\rightarrow \\text{鐵、 鈷、 鎳}$",
-    "is_pinned": true,
-    "pin_level": 1
-  },
-  {
-    "start": 50.99,
-    "end": 53.5,
-    "speaker": "曉臻",
-    "text": "那黃金 或鋁罐呢",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 53.7,
-    "end": 56.54,
-    "speaker": "彥君",
-    "text": "完全 不會被磁化喔",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 56.74,
-    "end": 59.7,
-    "speaker": "彥君",
-    "text": "給你們 3 秒鐘記憶",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 62.9,
-    "end": 65.98,
-    "speaker": "曉臻",
-    "text": "老師 磁鐵的磁力線",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 66.18,
-    "end": 68.99,
-    "speaker": "曉臻",
-    "text": "為什麼 都是從Ｎ出發",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 69.19,
-    "end": 71.98,
-    "speaker": "彥君",
-    "text": "因為 物理學定義",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 72.18,
-    "end": 75.02,
-    "speaker": "彥君",
-    "text": "Ｎ極 所指的方向",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 75.22,
-    "end": 77.99,
-    "speaker": "彥君",
-    "text": "就是 磁場的方向",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 78.19,
-    "end": 110.98,
-    "speaker": "彥君",
-    "text": "$\\text{Ｎ極方向} \\rightarrow \\text{磁場方向}$",
-    "is_pinned": true,
-    "pin_level": 1
-  },
-  {
-    "start": 82.48,
-    "end": 85.15,
-    "speaker": "曉臻",
-    "text": "圖上 越靠近磁極",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 85.35,
-    "end": 87.93,
-    "speaker": "曉臻",
-    "text": "線 畫得越密集耶",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 88.13,
-    "end": 92.98,
-    "speaker": "彥君",
-    "text": "沒錯 越密代表磁場越強",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 93.18,
-    "end": 96.1,
-    "speaker": "彥君",
-    "text": "而且 每一點的切線",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 96.3,
-    "end": 99.4,
-    "speaker": "彥君",
-    "text": "就是 該點的磁場方向",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 99.6,
-    "end": 110.98,
-    "speaker": "彥君",
-    "text": "$\\text{密則強， 切線為方向}$",
-    "is_pinned": true,
-    "pin_level": 2
-  },
-  {
-    "start": 104.56,
-    "end": 107.78,
-    "speaker": "彥君",
-    "text": "戰士們 趕快抄寫",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 110.98,
-    "end": 113.8,
-    "speaker": "曉臻",
-    "text": "老師 來看右邊",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 114.0,
-    "end": 116.86,
-    "speaker": "曉臻",
-    "text": "地球 也是一顆大磁鐵",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 117.06,
-    "end": 119.74,
-    "speaker": "曉臻",
-    "text": "但 為什麼地磁北極",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 119.94,
-    "end": 122.61,
-    "speaker": "曉臻",
-    "text": "畫在 地理南極旁邊",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 122.81,
-    "end": 125.94,
-    "speaker": "彥君",
-    "text": "這是 必考的最強陷阱",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 126.14,
-    "end": 128.86,
-    "speaker": "彥君",
-    "text": "地理 北極的附近",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 129.06,
-    "end": 132.14,
-    "speaker": "彥君",
-    "text": "其實 是磁鐵的Ｓ極",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 132.34,
-    "end": 135.7,
-    "speaker": "曉臻",
-    "text": "喔 因為異性相吸",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 135.9,
-    "end": 138.26,
-    "speaker": "曉臻",
-    "text": "指北針 的Ｎ極",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 138.46,
-    "end": 141.33,
-    "speaker": "曉臻",
-    "text": "才會 被地理北極吸引",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 141.53,
-    "end": 146.1,
-    "speaker": "彥君",
-    "text": "聰明 所以地磁北極",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 146.3,
-    "end": 149.38,
-    "speaker": "彥君",
-    "text": "其實 是在地理南極喔",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 149.58,
-    "end": 9999.0,
-    "speaker": "彥君",
-    "text": "$\\text{地理北極} \\approx \\text{地磁Ｓ極}$",
-    "is_pinned": true,
-    "pin_level": 1
-  },
-  {
-    "start": 154.2,
-    "end": 157.64,
-    "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 157.84,
-    "end": 160.44,
+    "start": 19.99,
+    "end": 22.59,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 160.64,
-    "end": 162.98,
+    "start": 22.79,
+    "end": 25.99,
+    "speaker": "曉臻",
+    "text": "大家好 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 26.19,
+    "end": 29.85,
+    "speaker": "彥君",
+    "text": "戰士們請把注意力集中過來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 30.05,
+    "end": 33.39,
+    "speaker": "彥君",
+    "text": "磁場的基礎必考觀念來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 33.59,
+    "end": 36.82,
+    "speaker": "曉臻",
+    "text": "老師這世界上所有的金屬",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 37.02,
+    "end": 40.34,
+    "speaker": "曉臻",
+    "text": "難道通通都能變成磁鐵嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 40.54,
+    "end": 44.98,
+    "speaker": "彥君",
+    "text": "絕對不行喔 只有這三種",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 45.18,
+    "end": 49.13,
+    "speaker": "彥君",
+    "text": "也就是鐵、 鈷、 鎳這三個",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 49.33,
+    "end": 52.89,
+    "speaker": "彥君",
+    "text": "它們才是真正的磁化三劍客",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 53.09,
+    "end": 67.51,
+    "speaker": "彥君",
+    "text": "① $\\text{磁化三劍客} \\rightarrow \\text{鐵、鈷、鎳}$",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "① $\\text{磁化三劍客} \\rightarrow \\text{鐵、鈷、鎳}$"
+    ]
+  },
+  {
+    "start": 57.28,
+    "end": 60.67,
+    "speaker": "曉臻",
+    "text": "那價值連城的黃金或鋁罐呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 60.87,
+    "end": 64.31,
+    "speaker": "彥君",
+    "text": "它們完全不會被磁鐵吸引喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 67.51,
+    "end": 70.81,
+    "speaker": "曉臻",
+    "text": "老師這張磁鐵的磁力線圖",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 71.01,
+    "end": 74.21,
+    "speaker": "曉臻",
+    "text": "為什麼都是從 $N$ 極出發啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$N$"
+    ]
+  },
+  {
+    "start": 74.41,
+    "end": 77.68,
+    "speaker": "彥君",
+    "text": "因為這是物理學上的定義",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 77.88,
+    "end": 81.3,
+    "speaker": "彥君",
+    "text": "只要是 $N$ 極所指向的方向",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$N$"
+    ]
+  },
+  {
+    "start": 81.5,
+    "end": 84.89,
+    "speaker": "彥君",
+    "text": "就是那個位置的磁場方向",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 85.09,
+    "end": 121.0,
+    "speaker": "彥君",
+    "text": "② $N \\text{ 極方向} \\rightarrow \\text{磁場方向}$",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "② $N \\text{ 極方向} \\rightarrow \\text{磁場方向}$"
+    ]
+  },
+  {
+    "start": 89.3,
+    "end": 92.74,
+    "speaker": "曉臻",
+    "text": "圖上越靠近兩邊磁極的地方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 92.94,
+    "end": 96.29,
+    "speaker": "曉臻",
+    "text": "磁力線被畫得越來越密集耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 96.49,
+    "end": 101.42,
+    "speaker": "彥君",
+    "text": "沒錯 越密代表著磁場越強",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 101.62,
+    "end": 105.1,
+    "speaker": "彥君",
+    "text": "而且曲線上每一點的切線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 105.3,
+    "end": 108.77,
+    "speaker": "彥君",
+    "text": "就是該點的真實磁場方向",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 108.97,
+    "end": 121.0,
+    "speaker": "彥君",
+    "text": "③ $\\text{線密則強， 切線為方向}$",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "③ $\\text{線密則強， 切線為方向}$"
+    ]
+  },
+  {
+    "start": 113.9,
+    "end": 117.8,
+    "speaker": "彥君",
+    "text": "戰士們 趕快把它抄寫下來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 121.0,
+    "end": 124.39,
+    "speaker": "曉臻",
+    "text": "老師 接著我們來看右邊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 124.59,
+    "end": 127.98,
+    "speaker": "曉臻",
+    "text": "原來地球也是一顆大磁鐵啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 128.18,
+    "end": 131.41,
+    "speaker": "曉臻",
+    "text": "但為什麼圖上的地磁北極",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 131.61,
+    "end": 134.78,
+    "speaker": "曉臻",
+    "text": "竟然畫在地理南極旁邊啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 134.98,
+    "end": 138.59,
+    "speaker": "彥君",
+    "text": "戰士們這是必考的最強陷阱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 138.79,
+    "end": 141.97,
+    "speaker": "彥君",
+    "text": "在我們地理北極的附近",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 142.17,
+    "end": 145.75,
+    "speaker": "彥君",
+    "text": "其實是巨大磁鐵的 $S$ 極",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$S$"
+    ]
+  },
+  {
+    "start": 145.95,
+    "end": 149.87,
+    "speaker": "曉臻",
+    "text": "喔 因為異性磁極會相吸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 150.07,
+    "end": 153.15,
+    "speaker": "曉臻",
+    "text": "我們手上指北針的 $N$ 極",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$N$"
+    ]
+  },
+  {
+    "start": 153.35,
+    "end": 156.77,
+    "speaker": "曉臻",
+    "text": "才會被地理北極給吸引過去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 156.97,
+    "end": 162.02,
+    "speaker": "彥君",
+    "text": "聰明 所以所謂的地磁北極",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 162.22,
+    "end": 165.42,
+    "speaker": "彥君",
+    "text": "其實是位在地理的南極喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 165.62,
+    "end": 173.38,
+    "speaker": "彥君",
+    "text": "④ $\\text{地理北極} \\approx \\text{地磁 } S \\text{ 極}$",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "④ $\\text{地理北極} \\approx \\text{地磁 } S \\text{ 極}$"
+    ]
+  },
+  {
+    "start": 173.38,
+    "end": 177.54,
+    "speaker": "彥君",
+    "text": "觀念全通了 秒殺考題沒問題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 177.74,
+    "end": 181.02,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 181.22,
+    "end": 183.82,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 184.02,
+    "end": 186.35,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 163.18,
-    "end": 166.62,
+    "start": 186.55,
+    "end": 189.85,
     "speaker": "合聲",
-    "text": "鐵鈷鎳三 Ｎ極指北",
+    "text": "鐵鈷鎳三 $N$極指北",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$N$"
+    ]
   },
   {
-    "start": 166.82,
-    "end": 170.35,
+    "start": 190.05,
+    "end": 193.58,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
