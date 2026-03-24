@@ -1,272 +1,648 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 4.98,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 距離夢想又更近一步囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.86,
+    "start": 5.18,
+    "end": 8.93,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的會考戰士們 我是彥君老師"
+    "text": "每天的堅持都是未來的養分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.86,
-    "end": 11.46,
+    "start": 9.13,
+    "end": 12.33,
     "speaker": "彥君",
-    "text": "今天來到 第六十四集"
+    "text": "各位衝刺 $A$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$A$"
+    ]
   },
   {
-    "start": 11.46,
-    "end": 16.54,
+    "start": 12.53,
+    "end": 15.99,
     "speaker": "彥君",
-    "text": "這張圖 是理化「氣體製造」的 絕對必考題"
+    "text": "恭喜大家來到第六十四集囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.54,
-    "end": 20.04,
+    "start": 16.19,
+    "end": 19.7,
+    "speaker": "彥君",
+    "text": "戰士們好 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 19.9,
+    "end": 23.2,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教"
+    "text": "大家好啊 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 20.04,
-    "end": 24.6,
+    "start": 23.4,
+    "end": 27.06,
+    "speaker": "彥君",
+    "text": "這是理化氣體製造必考題型",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 27.26,
+    "end": 31.01,
     "speaker": "曉臻",
-    "text": "老師 空氣裡面 最多的是 氮氣對吧"
+    "text": "老師空氣裡面最多的是氮氣吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 24.6,
-    "end": 29.95,
+    "start": 31.21,
+    "end": 35.13,
     "speaker": "彥君",
-    "text": "沒錯 氮氣的性質 非常穩定"
+    "text": "沒錯因為氮氣性質非常地穩定",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 29.95,
-    "end": 35.66,
+    "start": 35.33,
+    "end": 38.98,
     "speaker": "彥君",
-    "text": "所以我們吃的 洋芋片 太空包裝裡面 灌的就是氮氣"
+    "text": "所以我們常吃的洋芋片零食",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 35.66,
-    "end": 40.79,
+    "start": 39.18,
+    "end": 42.91,
     "speaker": "彥君",
-    "text": "而溫度極低的 液態氮 還可以拿來 做醫學冷凍"
+    "text": "太空包裝裡面灌的就是氮氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 40.79,
-    "end": 43.62,
+    "start": 43.11,
+    "end": 46.65,
+    "speaker": "彥君",
+    "text": "溫度極低極冷的液態氮氣體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 46.85,
+    "end": 50.53,
+    "speaker": "彥君",
+    "text": "還可以拿來做醫學冷凍治療",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 50.73,
+    "end": 57.49,
+    "speaker": "彥君",
+    "text": "氮氣性質穩定裝在太空包裝",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 57.49,
+    "end": 60.5,
     "speaker": "曉臻",
-    "text": "那下面寫的 氬氣 呢"
+    "text": "老師那下面寫的氬氣呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 43.62,
-    "end": 47.62,
+    "start": 60.7,
+    "end": 64.33,
     "speaker": "彥君",
-    "text": "氬氣 是空氣中 第三多的氣體"
+    "text": "氬氣是空氣中第三多氣體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 47.62,
-    "end": 53.38,
+    "start": 64.53,
+    "end": 68.28,
     "speaker": "彥君",
-    "text": "它也是 惰性氣體 常常用來 作為金屬焊接的 保護氣"
+    "text": "它本身也是一種惰性的氣體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 53.38,
-    "end": 58.75,
+    "start": 68.48,
+    "end": 72.26,
+    "speaker": "彥君",
+    "text": "常常用來作為金屬焊接保護",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 72.46,
+    "end": 79.22,
+    "speaker": "彥君",
+    "text": "氬氣是惰性金屬焊接保護",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 79.22,
+    "end": 83.23,
     "speaker": "曉臻",
-    "text": "了解 那重點來了 氧氣 跟 二氧化碳"
+    "text": "了解 那重點終於要來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 58.75,
-    "end": 62.85,
+    "start": 83.43,
+    "end": 87.04,
     "speaker": "曉臻",
-    "text": "講義上的反應式 到底要填什麼"
+    "text": "製造氧氣以及二氧化碳氣體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 62.85,
-    "end": 67.02,
-    "speaker": "彥君",
-    "text": "製造氧氣 我們是用 雙氧水"
-  },
-  {
-    "start": 67.02,
-    "end": 70.95,
-    "speaker": "彥君",
-    "text": "加上當作催化劑的 MnO₂"
-  },
-  {
-    "start": 70.95,
-    "end": 76.23,
-    "speaker": "彥君",
-    "text": "氧氣有 助燃性 可以讓快熄滅的線香 重新燃燒"
-  },
-  {
-    "start": 76.23,
-    "end": 79.9,
+    "start": 87.24,
+    "end": 90.49,
     "speaker": "曉臻",
-    "text": "那圖上這個 複雜的實驗裝置"
+    "text": "講義上的反應式到底填什麼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 79.9,
-    "end": 84.81,
-    "speaker": "曉臻",
-    "text": "裡面有水槽跟漏斗 是在製造 什麼氣體啊"
-  },
-  {
-    "start": 84.81,
-    "end": 88.31,
+    "start": 90.69,
+    "end": 94.25,
     "speaker": "彥君",
-    "text": "這個是在製造 二氧化碳"
+    "text": "戰士們請把筆記本準備好囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 88.31,
-    "end": 92.8,
+    "start": 94.45,
+    "end": 98.15,
     "speaker": "彥君",
-    "text": "我們把 稀鹽酸 從 薊頭漏斗 倒進去"
+    "text": "製造氧氣我們是使用雙氧水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 92.8,
-    "end": 97.74,
+    "start": 98.35,
+    "end": 101.98,
     "speaker": "彥君",
-    "text": "跟底下白色的 CaCO₃ 產生化學反應"
+    "text": "加上當作催化劑的 $\\text{MnO}_2$",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$\\text{MnO}_2$"
+    ]
   },
   {
-    "start": 97.74,
-    "end": 101.48,
-    "speaker": "曉臻",
-    "text": "老師 那個 薊頭漏斗的 管口"
-  },
-  {
-    "start": 101.48,
-    "end": 105.12,
-    "speaker": "曉臻",
-    "text": "為什麼 一定要插進 液體裡面啊"
-  },
-  {
-    "start": 105.12,
-    "end": 108.86,
+    "start": 102.18,
+    "end": 105.77,
     "speaker": "彥君",
-    "text": "漏斗底部 如果沒有在 液面下"
+    "text": "因為氧氣本身具有著助燃性",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 108.86,
-    "end": 114.21,
+    "start": 105.97,
+    "end": 109.6,
     "speaker": "彥君",
-    "text": "辛苦做出來的 二氧化碳 就會直接 從漏斗 跑掉啦"
+    "text": "能讓快熄滅的線香重新燃燒",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 114.21,
-    "end": 119.22,
-    "speaker": "曉臻",
-    "text": "哇 原來如此 那做出來的氣體"
-  },
-  {
-    "start": 119.22,
-    "end": 123.01,
-    "speaker": "曉臻",
-    "text": "為什麼要 吐泡泡在水裡收集"
-  },
-  {
-    "start": 123.01,
-    "end": 126.39,
+    "start": 109.8,
+    "end": 116.75,
     "speaker": "彥君",
-    "text": "這叫做 排水集氣法"
+    "text": "雙氧水加二氧化猛可製氧氣",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
   },
   {
-    "start": 126.39,
-    "end": 130.94,
+    "start": 116.75,
+    "end": 120.12,
+    "speaker": "曉臻",
+    "text": "那圖上這個複雜的實驗裝置",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 120.32,
+    "end": 123.69,
+    "speaker": "曉臻",
+    "text": "裡面有水槽跟漏斗在做什麼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 123.89,
+    "end": 127.62,
     "speaker": "彥君",
-    "text": "因為這樣 最容易觀察 氣體有沒有 收集滿"
+    "text": "這個裝置是在製造二氧化碳",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 130.94,
-    "end": 135.26,
-    "speaker": "曉臻",
-    "text": "那最後要怎麼 檢驗 是不是二氧化碳"
-  },
-  {
-    "start": 135.26,
-    "end": 138.47,
+    "start": 127.82,
+    "end": 131.47,
     "speaker": "彥君",
-    "text": "通入 澄清石灰水"
+    "text": "我們把稀鹽酸這種化學液體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 138.47,
-    "end": 144.2,
+    "start": 131.67,
+    "end": 135.04,
     "speaker": "彥君",
-    "text": "如果產生 白色的 混濁沉澱 就代表是 二氧化碳 沒錯"
+    "text": "從薊頭漏斗上方倒進去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 144.2,
-    "end": 148.28,
-    "speaker": "曉臻",
-    "text": "一、 氮氣穩定 裝在 太空包裝"
-  },
-  {
-    "start": 148.28,
-    "end": 151.49,
-    "speaker": "曉臻",
-    "text": "雙氧水 加上 二氧化錳"
-  },
-  {
-    "start": 151.49,
-    "end": 154.73,
-    "speaker": "曉臻",
-    "text": "稀鹽酸 加上 大理石"
-  },
-  {
-    "start": 154.73,
-    "end": 158.13,
-    "speaker": "曉臻",
-    "text": "薊頭漏斗 必須在液面下"
-  },
-  {
-    "start": 158.13,
-    "end": 163.38,
+    "start": 135.24,
+    "end": 138.37,
     "speaker": "彥君",
-    "text": "收集氧氣 和 二氧化碳 都可以用 排水集氣法 嗎"
+    "text": "跟底部白色的 $\\text{CaCO}_3$",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$\\text{CaCO}_3$"
+    ]
   },
   {
-    "start": 163.38,
-    "end": 168.16,
-    "speaker": "曉臻",
-    "text": "可以的 雖然二氧化碳 微溶於水"
-  },
-  {
-    "start": 168.16,
-    "end": 173.96,
-    "speaker": "曉臻",
-    "text": "但因為 排水法 太容易觀察了 所以 兩個氣體都可以用"
-  },
-  {
-    "start": 173.96,
-    "end": 178.8,
+    "start": 138.57,
+    "end": 142.2,
     "speaker": "彥君",
-    "text": "漂亮 實驗觀念 一百分"
+    "text": "讓它們在裡面產生化學反應",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 178.8,
-    "end": 181.7,
-    "speaker": "彥君",
-    "text": "我是彥君老師"
-  },
-  {
-    "start": 181.7,
-    "end": 184.34,
+    "start": 142.4,
+    "end": 145.5,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "老師那個薊頭漏斗的管口",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 184.34,
-    "end": 188.01,
+    "start": 145.7,
+    "end": 149.0,
+    "speaker": "曉臻",
+    "text": "為什麼一定要插進液體裡面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 149.2,
+    "end": 152.59,
+    "speaker": "彥君",
+    "text": "戰士們這個是超級大陷阱喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 152.79,
+    "end": 156.23,
+    "speaker": "彥君",
+    "text": "漏斗底部如果沒有在液面下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 156.43,
+    "end": 159.92,
+    "speaker": "彥君",
+    "text": "辛苦製造出來的二氧化碳啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 160.12,
+    "end": 163.61,
+    "speaker": "彥君",
+    "text": "就會直接從漏斗上方跑掉啦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 163.81,
+    "end": 170.45,
+    "speaker": "彥君",
+    "text": "薊頭漏斗管口必在液面下",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 170.45,
+    "end": 174.66,
+    "speaker": "曉臻",
+    "text": "哇原來如此 做出來的氣體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 174.86,
+    "end": 178.34,
+    "speaker": "曉臻",
+    "text": "為什麼要吐泡泡在水裡收集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 178.54,
+    "end": 182.32,
+    "speaker": "彥君",
+    "text": "這種收集法叫做排水集氣法",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 182.52,
+    "end": 186.13,
+    "speaker": "彥君",
+    "text": "因為這樣做其實最容易觀察",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 186.33,
+    "end": 189.79,
+    "speaker": "彥君",
+    "text": "氣體到底有沒有被收集滿喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 189.99,
+    "end": 193.5,
+    "speaker": "曉臻",
+    "text": "那最後要怎麼去檢驗出氣體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 193.7,
+    "end": 197.05,
+    "speaker": "曉臻",
+    "text": "到底是不是二氧化碳氣體呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 197.25,
+    "end": 200.81,
+    "speaker": "彥君",
+    "text": "把氣體通入到澄清石灰水裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 201.01,
+    "end": 204.57,
+    "speaker": "彥君",
+    "text": "如果產生白色混濁的沉澱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 204.77,
+    "end": 208.28,
+    "speaker": "彥君",
+    "text": "就代表它是二氧化碳沒有錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 208.48,
+    "end": 215.55,
+    "speaker": "彥君",
+    "text": "二氧化碳使澄清石灰水混濁",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 215.55,
+    "end": 219.26,
+    "speaker": "曉臻",
+    "text": "戰士們 快速複習必考重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 219.46,
+    "end": 222.99,
+    "speaker": "曉臻",
+    "text": "第一 氮氣穩定裝太空包裝",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 223.19,
+    "end": 226.87,
+    "speaker": "曉臻",
+    "text": "第二 雙氧水製氧氣可助燃",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 227.07,
+    "end": 230.73,
+    "speaker": "曉臻",
+    "text": "第三 稀鹽酸加大理石製碳",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 230.93,
+    "end": 234.58,
+    "speaker": "曉臻",
+    "text": "第四 漏斗管口必須液面下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 234.78,
+    "end": 238.3,
+    "speaker": "彥君",
+    "text": "戰士們閉上眼想一想這題喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 238.5,
+    "end": 242.34,
+    "speaker": "彥君",
+    "text": "收集氧氣還有二氧化碳氣體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 242.54,
+    "end": 246.01,
+    "speaker": "彥君",
+    "text": "都可以使用排水集氣法來做嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 246.21,
+    "end": 250.18,
+    "speaker": "曉臻",
+    "text": "可以的 雖然碳微溶於水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 250.38,
+    "end": 253.82,
+    "speaker": "曉臻",
+    "text": "但因為排水法真的太好觀察",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 254.02,
+    "end": 257.36,
+    "speaker": "曉臻",
+    "text": "所以這兩個氣體通通都可以",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 257.56,
+    "end": 262.25,
+    "speaker": "彥君",
+    "text": "漂亮 實驗的觀念一百分喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 262.45,
+    "end": 265.72,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 265.92,
+    "end": 269.41,
+    "speaker": "彥君",
+    "text": "戰士們 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 269.61,
+    "end": 272.9,
+    "speaker": "曉臻",
+    "text": "大家好啊 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 273.1,
+    "end": 276.47,
     "speaker": "合聲",
-    "text": "氧氣助燃 大理加酸"
+    "text": "氧氣助燃 大理加酸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 188.01,
-    "end": 192.4,
+    "start": 276.67,
+    "end": 280.62,
     "speaker": "合聲",
-    "text": "距離會考 又近一步 我們明天見"
+    "text": "距離會考又近一步 明天見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
