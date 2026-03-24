@@ -1,362 +1,470 @@
 [
   {
     "start": 0.0,
-    "end": 1.98,
+    "end": 3.9,
     "speaker": "彥君",
-    "text": "哈囉",
+    "text": "戰士們 挺住",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.18,
-    "end": 5.45,
+    "start": 4.1,
+    "end": 7.7,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的",
+    "text": "剩下的路我們一起把它走完",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 5.65,
-    "end": 8.1,
+    "start": 7.9,
+    "end": 11.37,
     "speaker": "彥君",
-    "text": "會考戰士們",
+    "text": "每一分努力都會在考場開花",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 8.3,
-    "end": 10.9,
+    "start": 11.57,
+    "end": 15.27,
     "speaker": "彥君",
-    "text": "我是彥君老師",
+    "text": "各位準備衝向 $A^{++}$ 的戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$A^{++}$"
+    ]
   },
   {
-    "start": 11.1,
-    "end": 14.35,
+    "start": 15.47,
+    "end": 18.89,
     "speaker": "彥君",
-    "text": "今天來到 第七十七集",
+    "text": "歡迎來到第七十七集",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 14.55,
-    "end": 16.29,
-    "speaker": "曉臻",
-    "text": "大家好",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 16.49,
-    "end": 18.82,
-    "speaker": "曉臻",
-    "text": "我是曉臻助教",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 19.02,
-    "end": 21.82,
-    "speaker": "曉臻",
-    "text": "老師 今天的圖",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 22.02,
-    "end": 24.88,
-    "speaker": "曉臻",
-    "text": "是不同形狀的 透鏡耶",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 25.08,
-    "end": 29.26,
-    "speaker": "彥君",
-    "text": "沒錯 判斷透鏡",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 29.46,
-    "end": 32.21,
-    "speaker": "彥君",
-    "text": "有一個 最強秘訣",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 32.41,
-    "end": 34.86,
-    "speaker": "彥君",
-    "text": "戰士們注意， ",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 35.06,
-    "end": 37.64,
-    "speaker": "彥君",
-    "text": "摸中間 就對了！",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 37.84,
-    "end": 40.63,
-    "speaker": "彥君",
-    "text": "只要 中間比較厚",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 40.83,
-    "end": 43.5,
-    "speaker": "彥君",
-    "text": "旁邊 比較薄",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 43.7,
-    "end": 46.42,
-    "speaker": "彥君",
-    "text": "它就是 凸透鏡",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 46.62,
-    "end": 49.85,
-    "speaker": "曉臻",
-    "text": "喔 所以左邊的",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 50.05,
-    "end": 53.08,
-    "speaker": "曉臻",
-    "text": "雙凸、 平凸、 凹凸",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 53.28,
-    "end": 55.98,
-    "speaker": "曉臻",
-    "text": "通通都是 凸透鏡嗎",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 56.18,
-    "end": 58.56,
-    "speaker": "彥君",
-    "text": "完全正確",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 58.76,
-    "end": 61.29,
-    "speaker": "彥君",
-    "text": "它們的 功能是",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 61.49,
-    "end": 64.4,
-    "speaker": "彥君",
-    "text": "把光線 集中起來",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 64.6,
-    "end": 9999.0,
-    "speaker": "彥君",
-    "text": "\\text{凸透鏡} \\rightarrow \\text{集中光線}",
-    "is_pinned": true,
-    "pin_level": 1
-  },
-  {
-    "start": 68.36,
-    "end": 70.31,
-    "speaker": "曉臻",
-    "text": "那右邊的",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 70.51,
-    "end": 73.57,
-    "speaker": "曉臻",
-    "text": "雙凹、 凸凹、 平凹",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 73.77,
-    "end": 75.96,
-    "speaker": "曉臻",
-    "text": "中間 比較薄",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 76.16,
-    "end": 78.45,
-    "speaker": "曉臻",
-    "text": "都是 凹透鏡囉",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 78.65,
-    "end": 82.66,
-    "speaker": "彥君",
-    "text": "沒錯 凹透鏡",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 82.86,
-    "end": 86.02,
-    "speaker": "彥君",
-    "text": "會讓光線 發散出去",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 86.22,
-    "end": 89.18,
-    "speaker": "曉臻",
-    "text": "老師 上面的空格",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 89.38,
-    "end": 91.74,
-    "speaker": "曉臻",
-    "text": "近視眼鏡 那裡",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 91.94,
-    "end": 94.37,
-    "speaker": "曉臻",
-    "text": "要填 什麼光線啊",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 94.57,
-    "end": 97.46,
-    "speaker": "彥君",
-    "text": "既然它是 凹透鏡",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 97.66,
-    "end": 100.59,
-    "speaker": "彥君",
-    "text": "當然就是 填發散囉",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 100.79,
-    "end": 9999.0,
-    "speaker": "彥君",
-    "text": "\\text{凹透鏡} \\rightarrow \\text{發散光線}",
-    "is_pinned": true,
-    "pin_level": 2
-  },
-  {
-    "start": 104.46,
-    "end": 106.79,
-    "speaker": "曉臻",
-    "text": "原來 近視眼鏡",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 106.99,
-    "end": 109.33,
-    "speaker": "曉臻",
-    "text": "就是 凹透鏡啊",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 109.53,
-    "end": 113.33,
-    "speaker": "彥君",
-    "text": "對 近視的人",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 113.53,
-    "end": 116.3,
-    "speaker": "彥君",
-    "text": "光線太早 集中了",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 116.5,
-    "end": 119.43,
-    "speaker": "彥君",
-    "text": "所以要用 凹透鏡",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 119.63,
-    "end": 122.5,
-    "speaker": "彥君",
-    "text": "把光線 發散一點",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 122.7,
-    "end": 125.3,
+    "start": 19.09,
+    "end": 21.69,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 125.5,
-    "end": 127.83,
+    "start": 21.89,
+    "end": 25.09,
+    "speaker": "曉臻",
+    "text": "大家好 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 25.29,
+    "end": 27.96,
+    "speaker": "曉臻",
+    "text": "老師今天的圖面上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 28.16,
+    "end": 31.38,
+    "speaker": "曉臻",
+    "text": "有好多不同形狀的透鏡耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 31.58,
+    "end": 34.59,
+    "speaker": "曉臻",
+    "text": "這些到底要怎麼去區分啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 34.79,
+    "end": 39.19,
+    "speaker": "彥君",
+    "text": "戰士們 拿出螢光筆",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 39.39,
+    "end": 42.23,
+    "speaker": "彥君",
+    "text": "判斷透鏡形狀",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 42.43,
+    "end": 45.7,
+    "speaker": "彥君",
+    "text": "有一個史上最強的秘訣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 45.9,
+    "end": 49.25,
+    "speaker": "彥君",
+    "text": "聽好了 摸中間就對了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 49.45,
+    "end": 53.44,
+    "speaker": "曉臻",
+    "text": "摸中間 老師這什麼意思",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 53.64,
+    "end": 56.91,
+    "speaker": "彥君",
+    "text": "只要中間摸起來比較厚",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 57.11,
+    "end": 60.38,
+    "speaker": "彥君",
+    "text": "而旁邊摸起來比較薄",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 60.58,
+    "end": 64.02,
+    "speaker": "彥君",
+    "text": "它在光學上就是凸透鏡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 64.22,
+    "end": 68.05,
+    "speaker": "曉臻",
+    "text": "喔 所以圖面上左邊的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 68.25,
+    "end": 71.57,
+    "speaker": "曉臻",
+    "text": "雙凸、 平凸或者是凹凸",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 71.77,
+    "end": 74.9,
+    "speaker": "曉臻",
+    "text": "通通都是凸透鏡的一種嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 75.1,
+    "end": 79.45,
+    "speaker": "彥君",
+    "text": "完全正確 觀念很棒",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 79.65,
+    "end": 82.73,
+    "speaker": "彥君",
+    "text": "它們在光學上的功能",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 82.93,
+    "end": 86.49,
+    "speaker": "彥君",
+    "text": "就是負責把光線集中起來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 86.69,
+    "end": 168.37,
+    "speaker": "彥君",
+    "text": "① $\\text{凸透鏡} \\rightarrow \\text{集中光線}$",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 89.13,
+    "end": 91.73,
+    "speaker": "曉臻",
+    "text": "那右邊寫的這幾種",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 91.93,
+    "end": 94.94,
+    "speaker": "曉臻",
+    "text": "雙凹、 凸凹還有平凹",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 95.14,
+    "end": 98.53,
+    "speaker": "曉臻",
+    "text": "它們的中間看起來比較薄耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 98.73,
+    "end": 101.78,
+    "speaker": "曉臻",
+    "text": "難道通通都是凹透鏡囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 101.98,
+    "end": 106.48,
+    "speaker": "彥君",
+    "text": "沒錯 既然是凹透鏡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 106.68,
+    "end": 110.12,
+    "speaker": "彥君",
+    "text": "它的功能就是發散光線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 110.32,
+    "end": 113.54,
+    "speaker": "彥君",
+    "text": "讓光線往外彈射出去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 113.74,
+    "end": 168.37,
+    "speaker": "彥君",
+    "text": "② $\\text{凹透鏡} \\rightarrow \\text{發散光線}$",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 116.18,
+    "end": 119.29,
+    "speaker": "曉臻",
+    "text": "老師那講義上面的空格",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 119.49,
+    "end": 122.52,
+    "speaker": "曉臻",
+    "text": "近視眼鏡後面的功能欄",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 122.72,
+    "end": 125.97,
+    "speaker": "曉臻",
+    "text": "到底要填入什麼樣的光線啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 126.17,
+    "end": 129.63,
+    "speaker": "彥君",
+    "text": "既然近視眼鏡是凹透鏡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 129.83,
+    "end": 132.46,
+    "speaker": "彥君",
+    "text": "戰士們動動腦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 132.66,
+    "end": 135.93,
+    "speaker": "彥君",
+    "text": "這裡當然就是填發散囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 136.13,
+    "end": 138.99,
+    "speaker": "曉臻",
+    "text": "原來我們戴的近視眼鏡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 139.19,
+    "end": 142.58,
+    "speaker": "曉臻",
+    "text": "通通都是凹透鏡做出來的啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 142.78,
+    "end": 146.82,
+    "speaker": "彥君",
+    "text": "對 因為近視的人",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 147.02,
+    "end": 150.61,
+    "speaker": "彥君",
+    "text": "進入眼睛的光線太早集中了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 150.81,
+    "end": 154.13,
+    "speaker": "彥君",
+    "text": "所以我們必須利用凹透鏡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 154.33,
+    "end": 157.96,
+    "speaker": "彥君",
+    "text": "先把光線稍微發散一點點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 158.16,
+    "end": 161.53,
+    "speaker": "彥君",
+    "text": "才能精準投射在視網膜喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 161.73,
+    "end": 168.37,
+    "speaker": "彥君",
+    "text": "凸聚凹散， 中間來判！",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "凸聚凹散， 中間來判！"
+    ]
+  },
+  {
+    "start": 168.37,
+    "end": 170.97,
+    "speaker": "彥君",
+    "text": "我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 171.17,
+    "end": 173.5,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 128.03,
-    "end": 131.47,
+    "start": 173.7,
+    "end": 177.14,
     "speaker": "合聲",
     "text": "凸聚凹散 中間來判",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 131.67,
-    "end": 135.21,
+    "start": 177.34,
+    "end": 180.88,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
