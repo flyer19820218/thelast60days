@@ -1,370 +1,709 @@
 [
   {
     "start": 0.0,
-    "end": 1.98,
+    "end": 4.02,
     "speaker": "彥君",
-    "text": "哈囉",
+    "text": "各位準備在會考大放異彩的戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.18,
-    "end": 5.45,
-    "speaker": "彥君",
-    "text": "各位即將衝 A 的",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 5.65,
-    "end": 8.1,
-    "speaker": "彥君",
-    "text": "會考戰士們",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 8.3,
-    "end": 10.9,
+    "start": 4.22,
+    "end": 6.82,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.1,
-    "end": 14.26,
-    "speaker": "彥君",
-    "text": "今天來到 第八十一集",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 14.46,
-    "end": 16.19,
+    "start": 7.02,
+    "end": 9.3,
     "speaker": "曉臻",
-    "text": "大家好",
+    "text": "戰士們大家好",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.39,
-    "end": 18.73,
+    "start": 9.5,
+    "end": 11.84,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.93,
-    "end": 21.5,
+    "start": 12.04,
+    "end": 15.26,
+    "speaker": "彥君",
+    "text": "歡迎來到第八十二集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 15.46,
+    "end": 20.22,
+    "speaker": "彥君",
+    "text": "戰士們注意這集是超佛心的送分題單元",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.42,
+    "end": 24.73,
     "speaker": "曉臻",
-    "text": "老師 這張表",
+    "text": "太棒了老師第一個問題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 21.7,
-    "end": 24.3,
+    "start": 24.93,
+    "end": 28.44,
     "speaker": "曉臻",
-    "text": "星號打得 滿滿的耶",
+    "text": "我們為什麼會看到東西的顏色啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 24.5,
-    "end": 26.91,
+    "start": 28.64,
+    "end": 31.05,
+    "speaker": "彥君",
+    "text": "觀念很簡單",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 31.25,
+    "end": 34.3,
+    "speaker": "彥君",
+    "text": "因為物體反射了光線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 34.5,
+    "end": 37.63,
+    "speaker": "彥君",
+    "text": "直接打進你的視網膜裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 37.83,
+    "end": 42.76,
     "speaker": "曉臻",
-    "text": "真的要 全部背嗎",
+    "text": "原來如此難怪關燈就什麼都看不見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.11,
-    "end": 29.23,
+    "start": 42.96,
+    "end": 46.18,
     "speaker": "彥君",
-    "text": "戰士們， ",
+    "text": "接著我們來看顏色的秘密",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 29.43,
-    "end": 32.03,
+    "start": 46.38,
+    "end": 49.44,
     "speaker": "彥君",
-    "text": "千萬 不要死背！",
+    "text": "白色會反射所有的光",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 32.23,
-    "end": 34.93,
+    "start": 49.64,
+    "end": 54.09,
     "speaker": "彥君",
-    "text": "我們用 找規律的",
+    "text": "所以夏天穿白衣服比較不容易吸熱",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 35.13,
-    "end": 37.49,
-    "speaker": "彥君",
-    "text": "速度最快",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 37.69,
-    "end": 40.6,
-    "speaker": "彥君",
-    "text": "先看 右邊的性質",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 40.8,
-    "end": 43.28,
-    "speaker": "彥君",
-    "text": "只要是 實像",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 43.48,
-    "end": 45.72,
-    "speaker": "彥君",
-    "text": "一定配什麼",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 45.92,
-    "end": 48.02,
+    "start": 54.29,
+    "end": 58.54,
     "speaker": "曉臻",
-    "text": "一定配 倒立",
+    "text": "喔那黑色就剛好相反對吧",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 48.22,
-    "end": 52.18,
-    "speaker": "彥君",
-    "text": "沒錯 那虛像呢",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 52.38,
-    "end": 54.94,
+    "start": 58.74,
+    "end": 61.44,
     "speaker": "曉臻",
-    "text": "虛像 一定配 正立",
+    "text": "黑色吸收所有的光",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 55.14,
-    "end": 57.93,
-    "speaker": "彥君",
-    "text": "這就是 第一個規律！",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 58.13,
-    "end": 61.62,
-    "speaker": "彥君",
-    "text": "實像必倒 虛像必正",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 61.82,
-    "end": 65.06,
+    "start": 61.64,
+    "end": 64.86,
     "speaker": "曉臻",
-    "text": "哇 這樣就省了",
+    "text": "容易吸熱也容易散熱",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 65.26,
-    "end": 67.72,
-    "speaker": "曉臻",
-    "text": "好多 記憶容量了",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 67.92,
-    "end": 70.71,
+    "start": 65.06,
+    "end": 69.63,
     "speaker": "彥君",
-    "text": "接著看 凸透鏡",
+    "text": "沒錯觀念非常清楚",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 70.91,
-    "end": 73.82,
+    "start": 69.83,
+    "end": 263.97,
     "speaker": "彥君",
-    "text": "什麼時候 會一樣大",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "白色全反射，黑色全吸收",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "白色全反射，黑色全吸收"
+    ]
   },
   {
-    "start": 74.02,
-    "end": 75.71,
+    "start": 74.53,
+    "end": 78.59,
     "speaker": "曉臻",
-    "text": "放在",
+    "text": "老師那最下面寫的 $$RGB$$ 是什麼",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$$RGB$$"
+    ]
   },
   {
-    "start": 75.91,
-    "end": 78.44,
+    "start": 78.79,
+    "end": 81.8,
+    "speaker": "彥君",
+    "text": "那可是光的三原色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 82.0,
+    "end": 85.68,
+    "speaker": "彥君",
+    "text": "分別是紅光、綠光和藍光",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 85.88,
+    "end": 89.44,
+    "speaker": "彥君",
+    "text": "它們三個如果全部加在一起",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 89.64,
+    "end": 92.5,
+    "speaker": "彥君",
+    "text": "就會變成白色的光",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 92.7,
+    "end": 263.97,
+    "speaker": "彥君",
+    "text": "光的三原色：紅、綠、藍，疊加為白光",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "光的三原色：紅、綠、藍，疊加為白光"
+    ]
+  },
+  {
+    "start": 97.5,
+    "end": 101.49,
     "speaker": "曉臻",
-    "text": "2f 的時候",
+    "text": "哇跟水彩完全不一樣耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 78.64,
-    "end": 80.71,
+    "start": 101.69,
+    "end": 104.31,
+    "speaker": "曉臻",
+    "text": "水彩是越加越黑",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 104.51,
+    "end": 108.24,
+    "speaker": "彥君",
+    "text": "沒錯光是越加越亮的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 108.44,
+    "end": 110.87,
+    "speaker": "彥君",
+    "text": "戰士們注意了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 111.07,
+    "end": 114.03,
+    "speaker": "彥君",
+    "text": "剛剛學完顏色與光",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 114.23,
+    "end": 117.55,
+    "speaker": "彥君",
+    "text": "我們立刻來場隨堂測驗",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 117.75,
+    "end": 122.56,
+    "speaker": "曉臻",
+    "text": "沒問題隨堂測驗我準備好了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 122.76,
+    "end": 125.14,
+    "speaker": "彥君",
+    "text": "想像一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 125.34,
+    "end": 129.5,
+    "speaker": "彥君",
+    "text": "老師今天穿了一雙超帥的紅色球鞋",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 129.7,
+    "end": 133.43,
+    "speaker": "彥君",
+    "text": "第一題用白光照這雙鞋",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 133.63,
+    "end": 136.21,
+    "speaker": "彥君",
+    "text": "它是什麼顏色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 136.41,
+    "end": 139.2,
+    "speaker": "曉臻",
+    "text": "白光裡面什麼光都有",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 139.4,
+    "end": 142.55,
+    "speaker": "曉臻",
+    "text": "紅色球鞋只會反射紅光",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 142.75,
+    "end": 145.9,
+    "speaker": "曉臻",
+    "text": "所以看起來當然是紅色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 146.1,
+    "end": 148.18,
     "speaker": "彥君",
     "text": "答對了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 80.91,
-    "end": 84.28,
+    "start": 148.38,
+    "end": 152.13,
     "speaker": "彥君",
-    "text": "2f 是大小的分界",
+    "text": "那第二題如果用純紅光照呢",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 84.48,
-    "end": 87.15,
-    "speaker": "彥君",
-    "text": "放得 比兩倍遠",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 87.35,
-    "end": 89.76,
-    "speaker": "彥君",
-    "text": "像就 縮小",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 89.96,
-    "end": 92.63,
-    "speaker": "彥君",
-    "text": "放得 比兩倍近",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 92.83,
-    "end": 95.19,
-    "speaker": "彥君",
-    "text": "像就 放大",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 95.39,
-    "end": 97.22,
+    "start": 152.33,
+    "end": 154.81,
     "speaker": "曉臻",
-    "text": "那 f 呢",
+    "text": "當然還是紅色啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 97.42,
-    "end": 100.46,
-    "speaker": "彥君",
-    "text": "f 是虛實的分界",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 100.66,
-    "end": 103.4,
-    "speaker": "彥君",
-    "text": "衝進 焦點之內",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 103.6,
-    "end": 106.27,
-    "speaker": "彥君",
-    "text": "就會變成 虛像了",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 106.47,
-    "end": 109.14,
+    "start": 155.01,
+    "end": 157.97,
     "speaker": "曉臻",
-    "text": "所以 凹透鏡最乖",
+    "text": "它最喜歡反射紅光了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 109.34,
-    "end": 111.42,
-    "speaker": "曉臻",
-    "text": "永遠都是",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 111.62,
-    "end": 113.93,
-    "speaker": "曉臻",
-    "text": "正立縮小 虛像",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 114.13,
-    "end": 118.38,
+    "start": 158.17,
+    "end": 162.06,
     "speaker": "彥君",
-    "text": "完美 助教全都會了",
+    "text": "很好第三題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 118.58,
-    "end": 121.18,
+    "start": 162.26,
+    "end": 165.13,
+    "speaker": "彥君",
+    "text": "換成純藍光照射呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 165.33,
+    "end": 168.43,
+    "speaker": "曉臻",
+    "text": "紅色球鞋不會反射藍光",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 168.63,
+    "end": 171.3,
+    "speaker": "曉臻",
+    "text": "藍光直接被吸收了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 171.5,
+    "end": 175.69,
+    "speaker": "曉臻",
+    "text": "沒有光反射出來看起來就是黑色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 175.89,
+    "end": 178.27,
+    "speaker": "彥君",
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 178.47,
+    "end": 182.34,
+    "speaker": "彥君",
+    "text": "那第四題換成純綠光照射呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 182.54,
+    "end": 186.15,
+    "speaker": "曉臻",
+    "text": "陷阱騙不到我跟藍光一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 186.35,
+    "end": 190.34,
+    "speaker": "曉臻",
+    "text": "綠光也會被吸收所以還是黑色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 190.54,
+    "end": 194.13,
+    "speaker": "彥君",
+    "text": "戰士們終極魔王題來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 194.33,
+    "end": 198.01,
+    "speaker": "彥君",
+    "text": "第五題如果用黃光照射呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 198.21,
+    "end": 202.51,
+    "speaker": "曉臻",
+    "text": "黃光吸收黃光變成黑色嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 202.71,
+    "end": 206.99,
+    "speaker": "彥君",
+    "text": "錯仔細回想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 207.19,
+    "end": 209.86,
+    "speaker": "彥君",
+    "text": "黃光是怎麼來的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 210.06,
+    "end": 213.22,
+    "speaker": "曉臻",
+    "text": "啊我想起來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 213.42,
+    "end": 215.97,
+    "speaker": "曉臻",
+    "text": "根據光的三原色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 216.17,
+    "end": 219.8,
+    "speaker": "曉臻",
+    "text": "紅光加上綠光就會變成黃光",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 220.0,
+    "end": 222.1,
+    "speaker": "彥君",
+    "text": "沒錯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 222.3,
+    "end": 263.97,
+    "speaker": "彥君",
+    "text": "紅光 $$+$$ 綠光 $$\\rightarrow$$ 黃光",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "紅光 $$+$$ 綠光 $$\\rightarrow$$ 黃光"
+    ]
+  },
+  {
+    "start": 226.49,
+    "end": 229.33,
+    "speaker": "彥君",
+    "text": "所以黃光裡面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 229.53,
+    "end": 232.54,
+    "speaker": "彥君",
+    "text": "其實偷偷藏著紅光",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 232.74,
+    "end": 234.78,
+    "speaker": "曉臻",
+    "text": "我徹底懂了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 234.98,
+    "end": 238.21,
+    "speaker": "曉臻",
+    "text": "球鞋會吸收黃光裡的綠光",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 238.41,
+    "end": 241.75,
+    "speaker": "曉臻",
+    "text": "但是會把紅光給反射出來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 241.95,
+    "end": 246.02,
+    "speaker": "曉臻",
+    "text": "所以在黃光下球鞋還是紅色的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 246.22,
+    "end": 248.77,
+    "speaker": "彥君",
+    "text": "助教太聰明了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 248.97,
+    "end": 263.97,
+    "speaker": "彥君",
+    "text": "黃光照紅鞋：吸收綠光，反射紅光，呈紅色",
+    "is_pinned": true,
+    "pin_level": 4,
+    "commands": [
+      "釘選",
+      "黃光照紅鞋：吸收綠光，反射紅光，呈紅色"
+    ]
+  },
+  {
+    "start": 254.67,
+    "end": 257.75,
+    "speaker": "彥君",
+    "text": "只要破解黃光的秘密",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 257.95,
+    "end": 260.77,
+    "speaker": "彥君",
+    "text": "會考絕對拿滿分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 263.97,
+    "end": 266.57,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 121.38,
-    "end": 123.72,
+    "start": 266.77,
+    "end": 269.1,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 123.92,
-    "end": 127.22,
+    "start": 269.3,
+    "end": 272.79,
     "speaker": "合聲",
-    "text": "一焦虛實 兩倍大小",
+    "text": "黃光藏紅遇紅則紅",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 127.42,
-    "end": 130.95,
+    "start": 272.99,
+    "end": 276.53,
     "speaker": "合聲",
-    "text": "戰士們 我們頂峰相見",
+    "text": "戰士們我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
