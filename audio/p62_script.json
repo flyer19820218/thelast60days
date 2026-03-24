@@ -1,242 +1,696 @@
 [
   {
     "start": 0.0,
-    "end": 2.3,
+    "end": 4.69,
     "speaker": "彥君",
-    "text": "哈囉"
+    "text": "戰士們 讀書覺得累的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.3,
-    "end": 7.86,
+    "start": 4.89,
+    "end": 8.28,
     "speaker": "彥君",
-    "text": "各位即將衝 A 的會考戰士們 我是彥君老師"
+    "text": "想想你們努力奮鬥的背影",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.86,
-    "end": 11.44,
+    "start": 8.48,
+    "end": 11.97,
     "speaker": "彥君",
-    "text": "今天來到 第六十二集"
+    "text": "每一滴汗水絕對不會白費",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 11.44,
-    "end": 14.82,
+    "start": 12.17,
+    "end": 15.37,
     "speaker": "彥君",
-    "text": "密度的比較 與 圖形"
+    "text": "各位衝刺 A 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 14.82,
-    "end": 18.32,
+    "start": 15.57,
+    "end": 19.08,
+    "speaker": "彥君",
+    "text": "恭喜大家來到第六十二集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 19.28,
+    "end": 22.79,
+    "speaker": "彥君",
+    "text": "戰士們好 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 22.99,
+    "end": 26.29,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教"
+    "text": "大家好啊 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.32,
-    "end": 23.28,
+    "start": 26.49,
+    "end": 29.95,
+    "speaker": "彥君",
+    "text": "今天我們要來聊必考觀念",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 30.15,
+    "end": 33.57,
+    "speaker": "彥君",
+    "text": "密度的比較以及圖形判斷",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 33.77,
+    "end": 37.02,
     "speaker": "曉臻",
-    "text": "老師 講義上寫著 公式 D=M/V"
+    "text": "老師講義上面寫著的公式",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 23.28,
-    "end": 28.2,
+    "start": 37.22,
+    "end": 40.32,
     "speaker": "曉臻",
-    "text": "以前都要 狂算數學 現在會考 還考計算嗎"
+    "text": "$D=\\frac{M}{V}$ 是什麼啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$D=\\frac{M}{V}$"
+    ]
   },
   {
-    "start": 28.2,
-    "end": 34.62,
-    "speaker": "彥君",
-    "text": "現在會考 幾乎不考 複雜計算了 考的是「觀念」"
-  },
-  {
-    "start": 34.62,
-    "end": 38.99,
-    "speaker": "彥君",
-    "text": "密度 就是看東西 「塞得多緊密」"
-  },
-  {
-    "start": 38.99,
-    "end": 46.3,
-    "speaker": "彥君",
-    "text": "舉個例子 一公斤的鐵塊 和 一公斤的棉花 誰比較重"
-  },
-  {
-    "start": 46.3,
-    "end": 51.72,
+    "start": 40.52,
+    "end": 43.84,
     "speaker": "曉臻",
-    "text": "陷阱題 都是一公斤 當然一樣重啊"
+    "text": "以前都要在旁邊狂算數學",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 51.72,
-    "end": 58.18,
-    "speaker": "彥君",
-    "text": "沒錯 但是一公斤的鐵塊 體積只有一點點"
-  },
-  {
-    "start": 58.18,
-    "end": 61.94,
-    "speaker": "彥君",
-    "text": "一公斤的棉花 卻要一大包"
-  },
-  {
-    "start": 61.94,
-    "end": 67.36,
-    "speaker": "彥君",
-    "text": "這代表 鐵塊塞得 非常緊密 它的密度 就比較大"
-  },
-  {
-    "start": 67.36,
-    "end": 73.81,
+    "start": 44.04,
+    "end": 47.26,
     "speaker": "曉臻",
-    "text": "原來如此 那講義上 第二點說 密度大的 會沉在底部"
+    "text": "現在的會考還會考計算嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 73.81,
-    "end": 77.67,
+    "start": 47.46,
+    "end": 50.95,
+    "speaker": "彥君",
+    "text": "戰士們放下手邊的計算紙",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 51.15,
+    "end": 54.54,
+    "speaker": "彥君",
+    "text": "現在幾乎不考複雜計算了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 54.74,
+    "end": 58.02,
+    "speaker": "彥君",
+    "text": "會考考的全部都是觀念喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 58.22,
+    "end": 61.61,
+    "speaker": "彥君",
+    "text": "密度就是看這個東西裡面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 61.81,
+    "end": 65.1,
+    "speaker": "彥君",
+    "text": "到底被塞得有多麼的緊密",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 65.3,
+    "end": 68.53,
+    "speaker": "彥君",
+    "text": "舉個例子一公斤的鐵塊啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 68.73,
+    "end": 72.1,
+    "speaker": "彥君",
+    "text": "和一公斤棉花誰比較重",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 72.3,
+    "end": 76.38,
     "speaker": "曉臻",
-    "text": "為什麼 特別舉例 4℃ 的 水啊"
+    "text": "陷阱題 都是一公斤重量",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 77.67,
-    "end": 83.5,
-    "speaker": "彥君",
-    "text": "因為水 在 4℃ 的時候 體積最小、 密度是最大的"
-  },
-  {
-    "start": 83.5,
-    "end": 90.74,
-    "speaker": "彥君",
-    "text": "所以在 結冰的湖泊裡 最冷、 密度最大的 4℃ 的水 會沉在最底下"
-  },
-  {
-    "start": 90.74,
-    "end": 94.94,
-    "speaker": "彥君",
-    "text": "湖底的魚蝦 才能在冬天 活下來喔"
-  },
-  {
-    "start": 94.94,
-    "end": 98.03,
+    "start": 76.58,
+    "end": 79.71,
     "speaker": "曉臻",
-    "text": "哇 大自然真奇妙"
+    "text": "它們量起來當然一樣重啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 98.03,
-    "end": 105.71,
+    "start": 79.91,
+    "end": 83.38,
+    "speaker": "彥君",
+    "text": "沒錯但是一公斤的鐵塊呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 83.58,
+    "end": 86.92,
+    "speaker": "彥君",
+    "text": "它的體積就只有一點點大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 87.12,
+    "end": 90.34,
+    "speaker": "彥君",
+    "text": "一公斤的棉花卻要一大包",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 90.54,
+    "end": 94.1,
+    "speaker": "彥君",
+    "text": "這代表鐵塊塞得非常緊密",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 94.3,
+    "end": 97.7,
+    "speaker": "彥君",
+    "text": "所以鐵塊的密度就比較大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 97.9,
+    "end": 101.86,
     "speaker": "曉臻",
-    "text": "那右邊 那個圖表 該怎麼看 黑色、 藍色、 黃色 三條斜線耶"
+    "text": "原來如此 那講義第二點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 105.71,
-    "end": 109.38,
-    "speaker": "彥君",
-    "text": "「畫一條 直線 切下去」"
-  },
-  {
-    "start": 109.38,
-    "end": 114.77,
-    "speaker": "彥君",
-    "text": "我們找一個 相同的體積 畫一條直線 往上對上去"
-  },
-  {
-    "start": 114.77,
-    "end": 120.53,
-    "speaker": "彥君",
-    "text": "你會發現 碰到黑線的 質量最大 也就是 最重"
-  },
-  {
-    "start": 120.53,
-    "end": 126.12,
-    "speaker": "彥君",
-    "text": "所以 黑線的密度 最大 就像是 鐵塊"
-  },
-  {
-    "start": 126.12,
-    "end": 132.69,
-    "speaker": "彥君",
-    "text": "黃線的 質量最小 密度最小 就像是 保麗龍"
-  },
-  {
-    "start": 132.69,
-    "end": 137.41,
+    "start": 102.06,
+    "end": 105.02,
     "speaker": "曉臻",
-    "text": "老師 那如果 同一條斜線上的 兩個點呢"
+    "text": "說密度大的會沉在底部",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 137.41,
-    "end": 141.66,
-    "speaker": "彥君",
-    "text": "只要在 同一條 通過原點的 斜線上"
-  },
-  {
-    "start": 141.66,
-    "end": 148.16,
-    "speaker": "彥君",
-    "text": "它們的密度 就一模一樣 代表是 「同一種物質」"
-  },
-  {
-    "start": 148.16,
-    "end": 152.95,
-    "speaker": "彥君",
-    "text": "只是 一個是小鐵釘 另一個是 大鐵塊 而已"
-  },
-  {
-    "start": 152.95,
-    "end": 159.62,
+    "start": 105.22,
+    "end": 108.88,
     "speaker": "曉臻",
-    "text": "一、 密度就是 塞得多緊密 同樣體積 越重密度越大"
+    "text": "為什麼特別舉例 4°C 水",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 159.62,
-    "end": 165.5,
-    "speaker": "曉臻",
-    "text": "二、 密度大的 往下沉 4℃ 的水 密度最大"
-  },
-  {
-    "start": 165.5,
-    "end": 169.57,
-    "speaker": "曉臻",
-    "text": "同一條斜線 就是同一種物質"
-  },
-  {
-    "start": 169.57,
-    "end": 174.22,
+    "start": 109.08,
+    "end": 112.5,
     "speaker": "彥君",
-    "text": "喝湯的時候 為什麼 油 都浮在 湯的上面"
+    "text": "這個例子真的是超級經典",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 174.22,
-    "end": 180.03,
-    "speaker": "曉臻",
-    "text": "因為油的密度 比水還要小 所以會浮起來"
-  },
-  {
-    "start": 180.03,
-    "end": 184.82,
+    "start": 112.7,
+    "end": 116.21,
     "speaker": "彥君",
-    "text": "漂亮 觀念完全命中"
+    "text": "因為水在 4°C 的時候呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 184.82,
-    "end": 187.72,
+    "start": 116.41,
+    "end": 119.87,
     "speaker": "彥君",
-    "text": "我是彥君老師"
+    "text": "體積最小而且密度是最大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 187.72,
-    "end": 190.36,
+    "start": 120.07,
+    "end": 127.07,
+    "speaker": "彥君",
+    "text": "水在 4°C 時密度是最大",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 127.07,
+    "end": 130.54,
+    "speaker": "彥君",
+    "text": "所以在結冰的湖泊裡面啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 130.74,
+    "end": 134.13,
+    "speaker": "彥君",
+    "text": "密度最大的 4°C 的水呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 134.33,
+    "end": 137.89,
+    "speaker": "彥君",
+    "text": "全部都會沉在湖的最底下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 138.09,
+    "end": 141.62,
+    "speaker": "彥君",
+    "text": "湖底魚蝦才能在冬天活著",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 141.82,
+    "end": 145.1,
     "speaker": "曉臻",
-    "text": "我是曉臻助教"
+    "text": "哇大自然真的是很奇妙耶",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 190.36,
-    "end": 194.15,
+    "start": 145.3,
+    "end": 148.4,
+    "speaker": "曉臻",
+    "text": "那右邊那個圖表該怎麼看",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 148.6,
+    "end": 151.97,
+    "speaker": "曉臻",
+    "text": "有黑色藍色跟黃色三條線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 152.17,
+    "end": 155.37,
+    "speaker": "彥君",
+    "text": "看這種圖有一個必殺技喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 155.57,
+    "end": 159.13,
+    "speaker": "彥君",
+    "text": "找相同體積畫直線切下去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 159.33,
+    "end": 166.11,
+    "speaker": "彥君",
+    "text": "找相同體積畫直線切下去",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 166.11,
+    "end": 169.6,
+    "speaker": "彥君",
+    "text": "你會發現碰到黑線的點呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 169.8,
+    "end": 173.29,
+    "speaker": "彥君",
+    "text": "它的質量最大也就是最重",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 173.49,
+    "end": 176.88,
+    "speaker": "彥君",
+    "text": "所以黑線的密度是最大的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 177.08,
+    "end": 180.45,
+    "speaker": "彥君",
+    "text": "這條線就像是鐵塊一樣喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 180.65,
+    "end": 184.14,
+    "speaker": "彥君",
+    "text": "黃線質量最小所以密度小",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 184.34,
+    "end": 187.7,
+    "speaker": "彥君",
+    "text": "就像是超輕的保麗龍一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 187.9,
+    "end": 191.13,
+    "speaker": "曉臻",
+    "text": "老師那如果同一條斜線上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 191.33,
+    "end": 194.38,
+    "speaker": "曉臻",
+    "text": "出現了兩個不同的點點呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 194.58,
+    "end": 198.1,
+    "speaker": "彥君",
+    "text": "只要同一條通過原點斜線",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 198.3,
+    "end": 201.66,
+    "speaker": "彥君",
+    "text": "它們算出來密度一模一樣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 201.86,
+    "end": 205.3,
+    "speaker": "彥君",
+    "text": "這代表它們是同一種物質",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 205.5,
+    "end": 212.43,
+    "speaker": "彥君",
+    "text": "同一條斜線就是同一種物質",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選"
+    ]
+  },
+  {
+    "start": 212.43,
+    "end": 215.75,
+    "speaker": "彥君",
+    "text": "只是其中一個是小鐵釘",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 215.95,
+    "end": 219.3,
+    "speaker": "彥君",
+    "text": "另外一個是巨大鐵塊而已",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 219.5,
+    "end": 222.98,
+    "speaker": "曉臻",
+    "text": "戰士們 快速複習必考點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 223.18,
+    "end": 226.65,
+    "speaker": "曉臻",
+    "text": "第一 密度就是塞多麼緊密",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 226.85,
+    "end": 229.88,
+    "speaker": "曉臻",
+    "text": "同體積越重密度就越大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 230.08,
+    "end": 233.42,
+    "speaker": "曉臻",
+    "text": "第二 密度大往下沉到底",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 233.62,
+    "end": 237.23,
+    "speaker": "曉臻",
+    "text": "4°C 的水密度是最大的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 237.43,
+    "end": 240.82,
+    "speaker": "曉臻",
+    "text": "第三 圖表同一條斜線上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 241.02,
+    "end": 244.27,
+    "speaker": "曉臻",
+    "text": "代表它們就是同一種物質",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 244.47,
+    "end": 247.62,
+    "speaker": "彥君",
+    "text": "戰士們閉上眼想一想喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 247.82,
+    "end": 251.02,
+    "speaker": "彥君",
+    "text": "我們在喝湯的時候為什麼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 251.22,
+    "end": 254.33,
+    "speaker": "彥君",
+    "text": "油都會浮在湯的最上面呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 254.53,
+    "end": 257.66,
+    "speaker": "曉臻",
+    "text": "因為油的密度比水還要小",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 257.86,
+    "end": 261.08,
+    "speaker": "曉臻",
+    "text": "所以油當然就會浮起來啦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 261.28,
+    "end": 265.73,
+    "speaker": "彥君",
+    "text": "漂亮 觀念完全命中了喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 265.93,
+    "end": 269.2,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 269.4,
+    "end": 272.89,
+    "speaker": "彥君",
+    "text": "戰士們 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 273.09,
+    "end": 276.38,
+    "speaker": "曉臻",
+    "text": "大家好啊 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 276.58,
+    "end": 280.07,
     "speaker": "合聲",
-    "text": "同一斜線 材質不變"
+    "text": "同一斜線 材質不變",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 194.15,
-    "end": 198.18,
+    "start": 280.27,
+    "end": 283.74,
     "speaker": "合聲",
-    "text": "自然科 Ａ加加 絕對沒問題"
+    "text": "自然科 $A^{++}$ 絕對沒問題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$A^{++}$"
+    ]
   }
 ]
