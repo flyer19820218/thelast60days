@@ -1,730 +1,863 @@
 [
   {
     "start": 0.0,
-    "end": 1.98,
+    "end": 4.9,
     "speaker": "彥君",
-    "text": "哈囉",
+    "text": "各位即將衝刺滿分、絕不放棄的會考戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 2.18,
-    "end": 5.74,
-    "speaker": "彥君",
-    "text": "各位即將衝A的會考戰士們",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 5.94,
-    "end": 8.54,
+    "start": 5.1,
+    "end": 7.7,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 8.74,
-    "end": 11.91,
-    "speaker": "彥君",
-    "text": "今天來到 第九十四集",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 12.11,
-    "end": 13.85,
+    "start": 7.9,
+    "end": 10.19,
     "speaker": "曉臻",
-    "text": "大家好",
+    "text": "戰士們大家好",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 14.05,
-    "end": 16.38,
+    "start": 10.39,
+    "end": 12.73,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.58,
-    "end": 19.04,
+    "start": 12.93,
+    "end": 16.22,
     "speaker": "彥君",
-    "text": "戰士們注意",
+    "text": "歡迎來到第九十四集",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.24,
-    "end": 22.44,
+    "start": 16.42,
+    "end": 20.75,
     "speaker": "彥君",
-    "text": "這一集 絕對是送分題",
+    "text": "戰士們注意這一集絕對是送分題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.64,
-    "end": 25.55,
+    "start": 20.95,
+    "end": 23.86,
     "speaker": "彥君",
-    "text": "只要 聽懂生活例子",
+    "text": "只要聽懂生活例子",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 25.75,
-    "end": 28.86,
+    "start": 24.06,
+    "end": 27.17,
     "speaker": "彥君",
-    "text": "閉著眼睛 都能拿滿分",
+    "text": "閉著眼睛都能拿滿分",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 29.06,
-    "end": 31.85,
+    "start": 27.37,
+    "end": 30.45,
     "speaker": "曉臻",
-    "text": "老師 上面寫著",
+    "text": "老師講義上面寫著",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 32.05,
-    "end": 34.82,
+    "start": 30.65,
+    "end": 33.51,
     "speaker": "曉臻",
-    "text": "碰撞學說 兩個條件",
+    "text": "碰撞學說的兩個條件",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 35.02,
-    "end": 39.44,
+    "start": 33.71,
+    "end": 38.47,
     "speaker": "彥君",
-    "text": "沒錯 就像打撞球",
+    "text": "沒錯這就像打撞球一樣",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 39.64,
-    "end": 42.5,
+    "start": 38.67,
+    "end": 41.54,
     "speaker": "彥君",
-    "text": "你的 力道要夠大",
+    "text": "你的力道要夠大",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 42.7,
-    "end": 45.64,
+    "start": 41.74,
+    "end": 45.06,
     "speaker": "彥君",
-    "text": "撞擊的 角度還要對",
+    "text": "撞擊的角度還要完全對",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 45.84,
-    "end": 48.87,
+    "start": 45.26,
+    "end": 48.62,
     "speaker": "彥君",
-    "text": "這樣 才會發生反應",
+    "text": "這樣才會真正發生反應",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 49.07,
-    "end": 51.86,
+    "start": 48.82,
+    "end": 107.88,
+    "speaker": "彥君",
+    "text": "碰撞學說：能量足夠、方向正確",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "碰撞學說：能量足夠、方向正確"
+    ]
+  },
+  {
+    "start": 54.12,
+    "end": 57.1,
     "speaker": "曉臻",
-    "text": "那下面 五個影響因素",
+    "text": "那下面這五個影響因素",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 52.06,
-    "end": 54.38,
+    "start": 57.3,
+    "end": 59.95,
     "speaker": "曉臻",
-    "text": "第一個 物質本性",
+    "text": "第一個物質本性",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 54.58,
-    "end": 57.68,
+    "start": 60.15,
+    "end": 63.26,
     "speaker": "彥君",
-    "text": "這是 物質天生的個性",
+    "text": "這是物質天生的個性",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 57.88,
-    "end": 61.13,
+    "start": 63.46,
+    "end": 66.97,
     "speaker": "彥君",
-    "text": "像鉀 碰到水會爆炸",
+    "text": "像鉀碰到水會劇烈爆炸",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 61.33,
-    "end": 64.17,
+    "start": 67.17,
+    "end": 70.08,
     "speaker": "彥君",
-    "text": "鐵 卻是慢慢生鏽",
+    "text": "鐵卻是慢慢地生鏽",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 64.37,
-    "end": 66.8,
+    "start": 70.28,
+    "end": 73.86,
     "speaker": "曉臻",
-    "text": "還有 什麼例子嗎",
+    "text": "老師還有什麼生活例子嗎",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 67.0,
-    "end": 69.89,
+    "start": 74.06,
+    "end": 77.14,
     "speaker": "彥君",
-    "text": "像是 煙火裡的火藥",
+    "text": "像是煙火裡面的火藥",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 70.09,
-    "end": 72.9,
+    "start": 77.34,
+    "end": 80.3,
     "speaker": "彥君",
-    "text": "一點火 就瞬間爆發",
+    "text": "一點火就瞬間大爆發",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 73.1,
-    "end": 76.16,
+    "start": 80.5,
+    "end": 83.75,
     "speaker": "彥君",
-    "text": "但 暖暖包裡的鐵粉",
+    "text": "但暖暖包裡面的鐵粉",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 76.36,
-    "end": 79.56,
+    "start": 83.95,
+    "end": 87.15,
     "speaker": "彥君",
-    "text": "卻是 慢慢發熱一整天",
+    "text": "卻是慢慢發熱一整天",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 79.76,
-    "end": 83.39,
+    "start": 87.35,
+    "end": 90.98,
     "speaker": "曉臻",
-    "text": "喔 還有古蹟的銅屋頂",
+    "text": "喔還有古蹟的銅屋頂",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 83.59,
-    "end": 86.6,
+    "start": 91.18,
+    "end": 94.19,
     "speaker": "曉臻",
-    "text": "要好幾年 才會變綠色",
+    "text": "要好幾年才會變綠色",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 86.8,
-    "end": 89.54,
+    "start": 94.39,
+    "end": 97.33,
     "speaker": "彥君",
-    "text": "但如果 把鈉切開",
+    "text": "但如果把一塊鈉切開",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 89.74,
-    "end": 92.82,
+    "start": 97.53,
+    "end": 100.94,
     "speaker": "彥君",
-    "text": "幾秒鐘 表面就變暗了",
+    "text": "幾秒鐘表面就氧化變暗了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 93.02,
-    "end": 95.91,
+    "start": 101.14,
+    "end": 104.68,
     "speaker": "彥君",
-    "text": "這就是 本性的差異",
+    "text": "這就是天生本性的巨大差異",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 96.11,
-    "end": 98.98,
+    "start": 107.88,
+    "end": 110.74,
     "speaker": "曉臻",
-    "text": "第二個 因素是表面積",
+    "text": "第二個因素是表面積",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 99.18,
-    "end": 101.73,
+    "start": 110.94,
+    "end": 113.86,
     "speaker": "曉臻",
-    "text": "就像 糖粉比方糖",
+    "text": "就像糖粉絕對比方糖",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 101.93,
-    "end": 104.24,
+    "start": 114.06,
+    "end": 116.7,
     "speaker": "曉臻",
-    "text": "溶得 更快對吧",
+    "text": "溶得還要更快對吧",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 104.44,
-    "end": 108.67,
-    "speaker": "彥君",
-    "text": "沒錯 接觸面越大",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 108.87,
-    "end": 111.81,
-    "speaker": "彥君",
-    "text": "碰撞的 機會就越多",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 112.01,
-    "end": 114.94,
-    "speaker": "彥君",
-    "text": "烤肉的時候 劈柴",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 115.14,
-    "end": 118.34,
-    "speaker": "彥君",
-    "text": "木片 絕對比整根原木",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 118.54,
+    "start": 116.9,
     "end": 121.14,
     "speaker": "彥君",
-    "text": "還要 容易生火",
+    "text": "沒錯接觸面越大",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 121.34,
-    "end": 123.7,
+    "end": 124.7,
+    "speaker": "彥君",
+    "text": "互相碰撞的機會就越多",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 124.9,
+    "end": 155.66,
+    "speaker": "彥君",
+    "text": "表面積越大，反應速率越快",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "表面積越大，反應速率越快"
+    ]
+  },
+  {
+    "start": 129.24,
+    "end": 132.32,
+    "speaker": "彥君",
+    "text": "我們烤肉的時候劈柴",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 132.52,
+    "end": 136.18,
+    "speaker": "彥君",
+    "text": "碎木片絕對比整根大原木",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 136.38,
+    "end": 139.31,
+    "speaker": "彥君",
+    "text": "還要容易點燃生火",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 139.51,
+    "end": 142.57,
     "speaker": "曉臻",
-    "text": "難怪 醫生都說",
+    "text": "難怪醫生都會特別交代",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 123.9,
-    "end": 126.82,
+    "start": 142.77,
+    "end": 145.68,
     "speaker": "曉臻",
-    "text": "胃藥 咬碎吃會更快好",
+    "text": "胃藥咬碎吃會更快好",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 127.02,
-    "end": 130.07,
+    "start": 145.88,
+    "end": 148.94,
     "speaker": "彥君",
-    "text": "因為 咬碎增加表面積",
+    "text": "因為咬碎增加表面積",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 130.27,
-    "end": 133.33,
+    "start": 149.14,
+    "end": 152.46,
     "speaker": "彥君",
-    "text": "中和胃酸 的速度就快",
+    "text": "中和胃酸的速度就變快",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 133.53,
-    "end": 136.58,
+    "start": 155.66,
+    "end": 159.07,
     "speaker": "曉臻",
-    "text": "那第三個 濃度跟壓力呢",
+    "text": "那第三個濃度跟壓力呢",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 136.78,
-    "end": 139.7,
+    "start": 159.27,
+    "end": 162.66,
     "speaker": "彥君",
-    "text": "房間裡 人擠得越多",
+    "text": "想像房間裡人擠得越多",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 139.9,
-    "end": 143.07,
+    "start": 162.86,
+    "end": 166.04,
     "speaker": "彥君",
-    "text": "越容易 互相撞在一起",
+    "text": "越容易互相撞在一起",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 143.27,
-    "end": 146.21,
+    "start": 166.24,
+    "end": 201.18,
     "speaker": "彥君",
-    "text": "例如 洗廁所的時候",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "濃度壓力越大，碰撞機會越多",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "濃度壓力越大，碰撞機會越多"
+    ]
   },
   {
-    "start": 146.41,
-    "end": 149.61,
+    "start": 170.89,
+    "end": 174.16,
     "speaker": "彥君",
-    "text": "濃鹽酸 冒泡超級快",
+    "text": "例如我們洗廁所的時候",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 149.81,
-    "end": 153.01,
+    "start": 174.36,
+    "end": 177.92,
     "speaker": "彥君",
-    "text": "稀鹽酸 就慢慢咬污垢",
+    "text": "濃鹽酸冒泡的速度超級快",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 153.21,
-    "end": 155.95,
+    "start": 178.12,
+    "end": 181.63,
+    "speaker": "彥君",
+    "text": "稀鹽酸就只能慢慢咬污垢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 181.83,
+    "end": 184.77,
     "speaker": "曉臻",
-    "text": "如果是 氣體的壓力呢",
+    "text": "那如果是氣體的壓力呢",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 156.15,
-    "end": 159.16,
+    "start": 184.97,
+    "end": 187.98,
     "speaker": "彥君",
-    "text": "仙女棒 在空氣中燒",
+    "text": "仙女棒在空氣中燒",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 159.36,
-    "end": 162.25,
+    "start": 188.18,
+    "end": 191.09,
     "speaker": "彥君",
-    "text": "亮度 只有普通亮",
+    "text": "亮度只有普通的亮",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 162.45,
-    "end": 165.62,
+    "start": 191.29,
+    "end": 194.66,
     "speaker": "彥君",
-    "text": "但如果 丟進純氧瓶裡",
+    "text": "但如果丟進純氧瓶裡面",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 165.82,
-    "end": 168.95,
+    "start": 194.86,
+    "end": 197.98,
     "speaker": "彥君",
-    "text": "濃度極高 就會爆閃亮",
+    "text": "濃度極高就會爆閃亮",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 169.15,
-    "end": 172.21,
+    "start": 201.18,
+    "end": 204.65,
     "speaker": "曉臻",
-    "text": "老師 第五個催化劑",
+    "text": "老師第五個因素催化劑",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 172.41,
-    "end": 174.98,
+    "start": 204.85,
+    "end": 207.59,
     "speaker": "曉臻",
-    "text": "空格 到底要填什麼",
+    "text": "空格到底要填什麼啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 175.18,
-    "end": 178.38,
+    "start": 207.79,
+    "end": 211.14,
     "speaker": "彥君",
-    "text": "催化劑 最偉大的功能",
+    "text": "戰士們準備畫重點了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 178.58,
-    "end": 181.38,
+    "start": 211.34,
+    "end": 214.54,
     "speaker": "彥君",
-    "text": "就是 降低活化能",
+    "text": "催化劑最偉大的功能",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 181.58,
-    "end": 9999.0,
+    "start": 214.74,
+    "end": 217.53,
+    "speaker": "彥君",
+    "text": "就是降低活化能",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 217.73,
+    "end": 261.18,
     "speaker": "彥君",
     "text": "催化劑：降低活化能、質量不變",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "催化劑：降低活化能、質量不變"
+    ]
   },
   {
-    "start": 186.75,
-    "end": 189.23,
+    "start": 223.02,
+    "end": 225.84,
     "speaker": "曉臻",
-    "text": "什麼是 活化能啊",
+    "text": "到底什麼是活化能啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 189.43,
-    "end": 192.49,
+    "start": 226.04,
+    "end": 229.1,
     "speaker": "彥君",
-    "text": "它就像 一座很高的大山",
+    "text": "它就像一座很高的大山",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 192.69,
-    "end": 196.15,
+    "start": 229.3,
+    "end": 233.02,
     "speaker": "彥君",
-    "text": "催化劑 就是幫你開隧道",
+    "text": "催化劑就是幫你開一條隧道",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 196.35,
-    "end": 199.19,
+    "start": 233.22,
+    "end": 236.38,
     "speaker": "彥君",
-    "text": "讓你 抄捷徑過去",
+    "text": "讓你直接抄捷徑過去",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 199.39,
-    "end": 202.09,
+    "start": 236.58,
+    "end": 239.51,
     "speaker": "彥君",
-    "text": "所以 反應變快了",
+    "text": "所以反應就變快了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 202.29,
-    "end": 204.94,
+    "start": 239.71,
+    "end": 242.74,
     "speaker": "曉臻",
-    "text": "那它 會被消耗掉嗎",
+    "text": "那它用完會被消耗掉嗎",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 205.14,
-    "end": 209.49,
+    "start": 242.94,
+    "end": 247.7,
     "speaker": "彥君",
-    "text": "絕對不會 質量不變",
+    "text": "絕對不會質量完全不變",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 209.69,
-    "end": 212.55,
+    "start": 247.9,
+    "end": 250.94,
     "speaker": "彥君",
-    "text": "而且 它有專一性",
+    "text": "而且它還有專一性",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 212.75,
-    "end": 215.86,
+    "start": 251.14,
+    "end": 254.58,
     "speaker": "彥君",
-    "text": "唾液 只能分解澱粉",
+    "text": "就像唾液只能分解澱粉",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 216.06,
-    "end": 218.82,
+    "start": 254.78,
+    "end": 257.98,
     "speaker": "彥君",
-    "text": "對蛋白質 就沒輒",
+    "text": "對蛋白質就完全沒轍",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 219.02,
-    "end": 221.7,
+    "start": 261.18,
+    "end": 263.82,
     "speaker": "曉臻",
-    "text": "最後 右邊那個圖標",
+    "text": "最後右邊那個圖表",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 221.9,
-    "end": 224.93,
+    "start": 264.02,
+    "end": 267.2,
     "speaker": "曉臻",
-    "text": "溫度曲線 往上衝好快",
+    "text": "溫度曲線往上衝得好快",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 225.13,
-    "end": 228.35,
+    "start": 267.4,
+    "end": 270.91,
     "speaker": "彥君",
-    "text": "戰士們 畫三顆星",
+    "text": "戰士們這題畫三顆星",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 228.55,
-    "end": 231.51,
+    "start": 271.11,
+    "end": 274.55,
     "speaker": "彥君",
-    "text": "增加 速率殺手鐧",
+    "text": "增加速率的終極殺手鐧",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 231.71,
-    "end": 234.46,
+    "start": 274.75,
+    "end": 277.5,
     "speaker": "彥君",
-    "text": "絕對 就是加熱",
+    "text": "絕對就是加熱",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 234.66,
-    "end": 237.57,
+    "start": 277.7,
+    "end": 326.07,
     "speaker": "彥君",
-    "text": "溫度 只要上升一點",
-    "is_pinned": false,
-    "pin_level": 0
+    "text": "溫度上升，速率指數狂飆",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "溫度上升，速率指數狂飆"
+    ]
   },
   {
-    "start": 237.77,
-    "end": 240.85,
+    "start": 282.15,
+    "end": 285.35,
     "speaker": "彥君",
-    "text": "速率 就會指數狂飆",
+    "text": "溫度只要稍微上升一點",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 241.05,
-    "end": 243.55,
+    "start": 285.55,
+    "end": 288.63,
+    "speaker": "彥君",
+    "text": "速率就會指數狂飆",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 288.83,
+    "end": 291.67,
     "speaker": "曉臻",
-    "text": "難怪 夏天的便當",
+    "text": "難怪夏天的中午便當",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 243.75,
-    "end": 246.57,
+    "start": 291.87,
+    "end": 294.86,
     "speaker": "曉臻",
-    "text": "一個下午 就酸掉壞了",
+    "text": "放一個下午就酸掉壞了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 246.77,
-    "end": 251.0,
+    "start": 295.06,
+    "end": 299.29,
     "speaker": "彥君",
-    "text": "沒錯 所以我們要",
+    "text": "沒錯所以我們要",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 251.2,
-    "end": 254.42,
+    "start": 299.49,
+    "end": 302.93,
     "speaker": "彥君",
-    "text": "把食物 放進冰箱冷凍",
+    "text": "把食物放進冰箱去冷凍",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 254.62,
-    "end": 257.78,
+    "start": 303.13,
+    "end": 306.52,
     "speaker": "彥君",
-    "text": "降溫 就能減緩腐敗",
+    "text": "降溫就能大大減緩腐敗",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 257.98,
-    "end": 260.62,
+    "start": 306.72,
+    "end": 309.92,
     "speaker": "曉臻",
-    "text": "還有 我們感冒發燒",
+    "text": "還有我們感冒發燒的時候",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 260.82,
-    "end": 263.28,
+    "start": 310.12,
+    "end": 312.58,
     "speaker": "曉臻",
-    "text": "只要 體溫一變高",
+    "text": "只要體溫一變高",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 263.48,
-    "end": 266.73,
+    "start": 312.78,
+    "end": 316.02,
     "speaker": "曉臻",
-    "text": "心跳呼吸 也會跟著變快",
+    "text": "心跳呼吸也會跟著變快",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 266.93,
-    "end": 269.96,
+    "start": 316.22,
+    "end": 319.3,
     "speaker": "彥君",
-    "text": "這就是 生理反應變快",
+    "text": "這就是生理反應變快了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 270.16,
-    "end": 273.05,
+    "start": 319.5,
+    "end": 322.87,
     "speaker": "彥君",
-    "text": "溫度 真的決定一切",
+    "text": "溫度真的決定一切",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 273.25,
-    "end": 276.69,
+    "start": 326.07,
+    "end": 329.94,
     "speaker": "彥君",
-    "text": "觀念通了 秒殺考題",
+    "text": "觀念一旦通透考題直接秒殺",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 276.89,
-    "end": 279.49,
+    "start": 330.14,
+    "end": 332.74,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 279.69,
-    "end": 282.02,
+    "start": 332.94,
+    "end": 335.28,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 282.22,
-    "end": 285.57,
+    "start": 335.48,
+    "end": 338.82,
     "speaker": "合聲",
-    "text": "開鑿隧道 加熱狂飆",
+    "text": "開鑿隧道加熱狂飆",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 285.77,
-    "end": 289.3,
+    "start": 339.02,
+    "end": 342.56,
     "speaker": "合聲",
-    "text": "戰士們 我們頂峰相見",
+    "text": "戰士們我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
