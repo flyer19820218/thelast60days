@@ -1,346 +1,615 @@
 [
   {
     "start": 0.0,
-    "end": 4.08,
+    "end": 4.98,
     "speaker": "彥君",
-    "text": "哈囉 各位衝 A 的會考戰士們",
+    "text": "戰士們 穩住腳步繼續向前衝",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 4.58,
-    "end": 9.81,
+    "start": 5.18,
+    "end": 8.76,
     "speaker": "彥君",
-    "text": "我是彥君老師 今天來到 第七十二集",
+    "text": "勝利的果實就在不遠的前方",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 10.31,
-    "end": 13.31,
+    "start": 8.96,
+    "end": 12.52,
+    "speaker": "彥君",
+    "text": "各位衝刺 $A^{++}$ 級的戰士們",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$A^{++}$"
+    ]
+  },
+  {
+    "start": 12.72,
+    "end": 16.18,
+    "speaker": "彥君",
+    "text": "恭喜大家來到第七十二集囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 16.38,
+    "end": 19.9,
+    "speaker": "彥君",
+    "text": "戰士們好 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 20.1,
+    "end": 23.39,
     "speaker": "曉臻",
-    "text": "大家好 我是曉臻助教",
+    "text": "大家好啊 我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 13.81,
-    "end": 17.68,
+    "start": 23.59,
+    "end": 27.15,
     "speaker": "曉臻",
-    "text": "老師 講義上寫的 聲音三大要素",
+    "text": "老師講義上寫聲音三大要素",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.18,
-    "end": 22.38,
+    "start": 27.35,
+    "end": 30.91,
     "speaker": "曉臻",
-    "text": "響度、 音調和音色 到底該怎麼分啊",
+    "text": "響度、 音調還有所謂的音色",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 22.88,
-    "end": 27.05,
-    "speaker": "彥君",
-    "text": "第一個響度 就是聲音的 實質音量大小",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 27.55,
-    "end": 31.85,
-    "speaker": "彥君",
-    "text": "聲音的響度 是由波的 振幅 來決定的",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 32.35,
-    "end": 36.67,
+    "start": 31.11,
+    "end": 34.41,
     "speaker": "曉臻",
-    "text": "喔 所以平常說的 分貝 或是 音量",
+    "text": "這三個考試到底該怎麼分啊",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 37.17,
-    "end": 40.74,
+    "start": 34.61,
+    "end": 38.31,
+    "speaker": "彥君",
+    "text": "戰士們這題不計算全是觀念",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 38.51,
+    "end": 41.93,
+    "speaker": "彥君",
+    "text": "第一個響度就是聲音的大小",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 42.13,
+    "end": 45.62,
+    "speaker": "彥君",
+    "text": "也就是實質的音量大小意思",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 45.82,
+    "end": 49.47,
+    "speaker": "彥君",
+    "text": "聲音的響度完全是由這波的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 49.67,
+    "end": 53.21,
+    "speaker": "彥君",
+    "text": "振動幅度也就是振幅決定",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 53.41,
+    "end": 225.24,
+    "speaker": "彥君",
+    "text": "① 響度看振幅： 聲音的大小",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "① 響度看振幅： 聲音的大小"
+    ]
+  },
+  {
+    "start": 57.36,
+    "end": 61.54,
     "speaker": "曉臻",
-    "text": "其實就是在講 聲音的響度 對不對",
+    "text": "喔 所以平常所說的分貝數",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 41.24,
-    "end": 46.28,
-    "speaker": "彥君",
-    "text": "完全正確 接著看 第二個要素 音調",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 46.78,
-    "end": 50.86,
-    "speaker": "彥君",
-    "text": "音調是聲音的高低 它要看聲音的 頻率",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 51.36,
-    "end": 55.4,
+    "start": 61.74,
+    "end": 65.04,
     "speaker": "曉臻",
-    "text": "講義寫 發聲體如果 輕薄短小 還有細緊",
+    "text": "或者是我們常說的音量大小",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 55.9,
-    "end": 60.0,
+    "start": 65.24,
+    "end": 68.68,
     "speaker": "曉臻",
-    "text": "頻率就會比較高 聲音也比較尖銳對吧",
+    "text": "其實就是在講聲音的響度囉",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 60.5,
-    "end": 65.95,
+    "start": 68.88,
+    "end": 73.83,
     "speaker": "彥君",
-    "text": "沒錯 這裡老師要補充 一個會考大魔王",
+    "text": "完全正確 接著看第二要素",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 66.45,
-    "end": 70.22,
+    "start": 74.03,
+    "end": 77.57,
     "speaker": "彥君",
-    "text": "你們有沒有玩過 敲擊水杯 當作樂器",
+    "text": "第二個要素就是所謂的音調",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 70.72,
-    "end": 73.96,
+    "start": 77.77,
+    "end": 81.3,
+    "speaker": "彥君",
+    "text": "音調是聲音聽起來的高或低",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 81.5,
+    "end": 84.85,
+    "speaker": "彥君",
+    "text": "它要看發聲體振動的頻率喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 85.05,
+    "end": 225.24,
+    "speaker": "彥君",
+    "text": "② 音調看頻率： 聲音的高低",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "② 音調看頻率： 聲音的高低"
+    ]
+  },
+  {
+    "start": 89.02,
+    "end": 92.58,
     "speaker": "曉臻",
-    "text": "有啊 水裝得越滿",
+    "text": "講義寫發聲體如果輕薄短小",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 74.46,
-    "end": 77.84,
+    "start": 92.78,
+    "end": 96.15,
     "speaker": "曉臻",
-    "text": "敲出來的聲音 就會越低沉",
+    "text": "還有材質比較細緊的時候呢",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 78.34,
-    "end": 82.4,
-    "speaker": "彥君",
-    "text": "對 因為敲擊的時候",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 82.9,
-    "end": 86.59,
-    "speaker": "彥君",
-    "text": "振動的主體 是水和玻璃杯",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 87.09,
-    "end": 90.64,
-    "speaker": "彥君",
-    "text": "水越多越重 振動就越慢",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 91.14,
-    "end": 94.67,
-    "speaker": "彥君",
-    "text": "頻率變小 音調當然就低啦",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 95.17,
-    "end": 99.16,
+    "start": 96.35,
+    "end": 99.72,
     "speaker": "曉臻",
-    "text": "那如果用嘴巴 對著玻璃瓶口吹氣呢",
+    "text": "頻率比較高聲音也比較尖銳",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 99.66,
-    "end": 103.81,
+    "start": 99.92,
+    "end": 104.78,
+    "speaker": "彥君",
+    "text": "沒錯 這裡老師要特別補充",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 104.98,
+    "end": 108.46,
+    "speaker": "彥君",
+    "text": "一個會考極度愛考的大魔王",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 108.66,
+    "end": 112.27,
+    "speaker": "彥君",
+    "text": "你們有沒有玩過敲擊玻璃杯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 112.47,
+    "end": 115.96,
+    "speaker": "彥君",
+    "text": "裝著水把它當作樂器來敲擊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 116.16,
+    "end": 120.27,
     "speaker": "曉臻",
-    "text": "聽說水裝越多 吹出來聲音反而越高",
+    "text": "有啊 水如果裝得越滿的話",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 104.31,
-    "end": 108.65,
-    "speaker": "彥君",
-    "text": "沒錯 因為吹氣的時候",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 109.15,
-    "end": 113.11,
-    "speaker": "彥君",
-    "text": "真正振動的 是瓶子裡的空氣柱",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 113.61,
-    "end": 117.14,
-    "speaker": "彥君",
-    "text": "水裝得越多 空氣柱就越短",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 117.64,
-    "end": 121.14,
-    "speaker": "彥君",
-    "text": "短的空氣柱 振動快 頻率高",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 121.64,
-    "end": 124.67,
-    "speaker": "彥君",
-    "text": "音調自然 就會跟著變高",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 125.17,
-    "end": 129.32,
+    "start": 120.47,
+    "end": 124.01,
     "speaker": "曉臻",
-    "text": "哇 就像用飲水機 裝水的時候",
+    "text": "敲出來的聲音就會越低沉耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 129.82,
-    "end": 132.41,
+    "start": 124.21,
+    "end": 128.85,
+    "speaker": "彥君",
+    "text": "對 因為我們在敲擊的時候",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 129.05,
+    "end": 132.9,
+    "speaker": "彥君",
+    "text": "真正振動主體是水和玻璃杯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 133.1,
+    "end": 136.8,
+    "speaker": "彥君",
+    "text": "水裝越多越重振動就越緩慢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 137.0,
+    "end": 140.63,
+    "speaker": "彥君",
+    "text": "頻率變小音調當然就變低啦",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 140.83,
+    "end": 225.24,
+    "speaker": "彥君",
+    "text": "► 敲擊水杯： 水越多音調越低",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "► 敲擊水杯： 水越多音調越低"
+    ]
+  },
+  {
+    "start": 144.76,
+    "end": 148.03,
     "speaker": "曉臻",
-    "text": "聽到的聲音 越來越高",
+    "text": "那如果改用嘴巴對著玻璃瓶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 132.91,
-    "end": 135.72,
+    "start": 148.23,
+    "end": 151.6,
     "speaker": "曉臻",
-    "text": "就是因為 空氣柱變短了",
+    "text": "對著它的瓶口用力去吹氣呢",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 136.22,
-    "end": 141.4,
-    "speaker": "彥君",
-    "text": "完全命中會考核心 觀念超級清楚",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 141.9,
-    "end": 146.18,
-    "speaker": "彥君",
-    "text": "最後一個音色 則是 聲音的專屬特色",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 146.68,
-    "end": 149.68,
-    "speaker": "彥君",
-    "text": "音色是由 波形決定的",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 150.18,
-    "end": 153.75,
-    "speaker": "彥君",
-    "text": "就算一樣大聲、 一樣高音的 Do",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 154.25,
-    "end": 157.9,
-    "speaker": "彥君",
-    "text": "鋼琴跟吉他 聽起來還是不一樣",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 158.4,
-    "end": 161.11,
-    "speaker": "彥君",
-    "text": "這就是 波形不同",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 161.61,
-    "end": 166.1,
+    "start": 151.8,
+    "end": 155.34,
     "speaker": "曉臻",
-    "text": "哇 響度看振幅 音調看頻率",
+    "text": "聽說水裝越多吹出聲音越高",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 166.6,
-    "end": 170.66,
-    "speaker": "曉臻",
-    "text": "音色看波形 還學會了 裝水的高低音",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 171.16,
-    "end": 175.57,
+    "start": 155.54,
+    "end": 160.32,
     "speaker": "彥君",
-    "text": "觀念全通了 我是彥君老師",
+    "text": "沒錯 因為用嘴巴吹氣時候",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 176.07,
-    "end": 178.21,
+    "start": 160.52,
+    "end": 164.13,
+    "speaker": "彥君",
+    "text": "真正振動的是瓶裡的空氣柱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 164.33,
+    "end": 167.7,
+    "speaker": "彥君",
+    "text": "水裝得越多空氣柱就越短喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 167.9,
+    "end": 171.46,
+    "speaker": "彥君",
+    "text": "短的空氣柱振動快頻率就高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 171.66,
+    "end": 175.02,
+    "speaker": "彥君",
+    "text": "音調自然就會跟著變高了啊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 175.22,
+    "end": 225.24,
+    "speaker": "彥君",
+    "text": "► 吹氣水杯： 水越多音調越高",
+    "is_pinned": true,
+    "pin_level": 4,
+    "commands": [
+      "釘選",
+      "► 吹氣水杯： 水越多音調越高"
+    ]
+  },
+  {
+    "start": 179.2,
+    "end": 183.43,
     "speaker": "曉臻",
-    "text": "我是曉臻助教",
+    "text": "哇 就像用飲水機裝水時候",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 178.71,
-    "end": 182.28,
+    "start": 183.63,
+    "end": 186.9,
+    "speaker": "曉臻",
+    "text": "聽到的聲音會變得越來越高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 187.1,
+    "end": 190.45,
+    "speaker": "曉臻",
+    "text": "就是因為空氣柱變短了對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 190.65,
+    "end": 195.55,
+    "speaker": "彥君",
+    "text": "完全命中核心 觀念超清楚",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 195.75,
+    "end": 199.31,
+    "speaker": "彥君",
+    "text": "最後一個音色是聲音的特色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 199.51,
+    "end": 203.19,
+    "speaker": "彥君",
+    "text": "音色完全是由波形來決定的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 203.39,
+    "end": 206.88,
+    "speaker": "彥君",
+    "text": "就算是一樣大聲一樣高音的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 207.08,
+    "end": 210.5,
+    "speaker": "彥君",
+    "text": "鋼琴還有吉他彈出來的 $\\text{Do}$",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "$\\text{Do}$"
+    ]
+  },
+  {
+    "start": 210.7,
+    "end": 214.18,
+    "speaker": "彥君",
+    "text": "聽起來還是會完全不一樣喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 214.38,
+    "end": 217.87,
+    "speaker": "彥君",
+    "text": "這就是因為它們的波形不同",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 218.07,
+    "end": 225.24,
+    "speaker": "彥君",
+    "text": "③ 音色看波形： 聲音的特色",
+    "is_pinned": true,
+    "pin_level": 5,
+    "commands": [
+      "釘選",
+      "③ 音色看波形： 聲音的特色"
+    ]
+  },
+  {
+    "start": 225.24,
+    "end": 229.57,
+    "speaker": "曉臻",
+    "text": "哇 響度看振幅音調看頻率",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 229.77,
+    "end": 233.21,
+    "speaker": "曉臻",
+    "text": "音色看波形觀念實在太神了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 233.41,
+    "end": 236.63,
+    "speaker": "曉臻",
+    "text": "還學會了裝水的高低音陷阱",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 236.83,
+    "end": 240.73,
+    "speaker": "彥君",
+    "text": "觀念全通了秒殺考題沒問題",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 240.93,
+    "end": 244.2,
+    "speaker": "彥君",
+    "text": "帶著這份底氣迎戰會考吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 244.4,
+    "end": 247.89,
+    "speaker": "彥君",
+    "text": "戰士們 我是彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 248.09,
+    "end": 251.38,
+    "speaker": "曉臻",
+    "text": "大家好啊 我是曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 251.58,
+    "end": 255.36,
     "speaker": "合聲",
     "text": "響度看振幅 音調看頻率",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 182.78,
-    "end": 186.12,
+    "start": 255.56,
+    "end": 259.1,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
