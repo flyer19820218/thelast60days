@@ -1,458 +1,520 @@
 [
   {
     "start": 0.0,
-    "end": 3.25,
+    "end": 5.43,
     "speaker": "彥君",
-    "text": "戰士們 歡迎來到",
+    "text": "戰士們 歡迎來到第一百三十三集",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.45,
-    "end": 6.26,
+    "start": 5.63,
+    "end": 9.41,
     "speaker": "彥君",
-    "text": "第 133 集",
+    "text": "真正的強者不是擁有多少能量",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.46,
-    "end": 8.99,
+    "start": 9.61,
+    "end": 12.93,
     "speaker": "彥君",
-    "text": "真正的 強者",
+    "text": "而是能把這些龐大的能量",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 9.19,
-    "end": 12.1,
+    "start": 13.13,
+    "end": 16.74,
     "speaker": "彥君",
-    "text": "不是 擁有多少能量",
+    "text": "轉化成改變整個世界的動力",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 12.3,
-    "end": 14.88,
+    "start": 16.94,
+    "end": 20.33,
     "speaker": "彥君",
-    "text": "而是 能把能量",
+    "text": "各位衝刺 $A^{++}$ 的戰士們",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": [
+      "$A^{++}$"
+    ]
   },
   {
-    "start": 15.08,
-    "end": 18.42,
-    "speaker": "彥君",
-    "text": "轉化成 改變世界的動力",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 18.62,
-    "end": 21.22,
+    "start": 20.53,
+    "end": 23.13,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 21.42,
-    "end": 23.16,
+    "start": 23.33,
+    "end": 26.53,
     "speaker": "曉臻",
-    "text": "大家好",
+    "text": "大家好 我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 23.36,
-    "end": 25.7,
+    "start": 26.73,
+    "end": 30.38,
+    "speaker": "彥君",
+    "text": "戰士們請把注意力集中過來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 30.58,
+    "end": 33.86,
+    "speaker": "彥君",
+    "text": "必考的電解三大魔王來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 34.06,
+    "end": 37.3,
     "speaker": "曉臻",
-    "text": "我是曉臻助教",
+    "text": "老師講義上面畫的這張圖",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 25.9,
-    "end": 28.76,
-    "speaker": "彥君",
-    "text": "電解 三大魔王來了",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 28.96,
-    "end": 31.82,
+    "start": 37.5,
+    "end": 40.68,
     "speaker": "曉臻",
-    "text": "老師 講義上的圖",
+    "text": "旁邊的泡泡畫得好精美喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 32.02,
-    "end": 34.65,
-    "speaker": "曉臻",
-    "text": "泡泡 畫得好精美喔",
-    "is_pinned": false,
-    "pin_level": 0
-  },
-  {
-    "start": 34.85,
-    "end": 39.39,
+    "start": 40.88,
+    "end": 45.74,
     "speaker": "彥君",
-    "text": "沒錯 記住 電子的心法",
+    "text": "沒錯 記住電子流動的心法",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 39.59,
-    "end": 43.32,
+    "start": 45.94,
+    "end": 50.26,
     "speaker": "彥君",
-    "text": "負極端 得到電子 還原",
+    "text": "負極端負責得到電子 叫做還原",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 43.52,
-    "end": 47.25,
+    "start": 50.46,
+    "end": 54.74,
     "speaker": "彥君",
-    "text": "正極端 失去電子 氧化",
+    "text": "正極端負責失去電子 叫做氧化",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 47.45,
-    "end": 57.58,
+    "start": 54.94,
+    "end": 65.75,
     "speaker": "彥君",
-    "text": "$\\text{負得還原， 正失氧化}$",
+    "text": "① $\\text{負得還原， 正失氧化}$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "① $\\text{負得還原， 正失氧化}$"
+    ]
   },
   {
-    "start": 51.38,
-    "end": 54.38,
+    "start": 58.7,
+    "end": 62.55,
     "speaker": "彥君",
-    "text": "給你們 3 秒鐘記牢",
+    "text": "戰士們 給你們三秒鐘記牢它",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 57.58,
-    "end": 60.76,
+    "start": 65.75,
+    "end": 68.93,
     "speaker": "曉臻",
-    "text": "老師 來看左邊第一杯",
+    "text": "老師我們來看左邊第一杯",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 60.96,
-    "end": 63.63,
+    "start": 69.13,
+    "end": 72.28,
     "speaker": "曉臻",
-    "text": "這是 電解水 實驗嗎",
+    "text": "這是理化的電解水實驗嗎",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 63.83,
-    "end": 68.3,
+    "start": 72.48,
+    "end": 77.43,
     "speaker": "彥君",
-    "text": "沒錯 兩邊 都有泡泡",
+    "text": "沒錯 兩邊的試管都有泡泡",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 68.5,
-    "end": 71.85,
+    "start": 77.63,
+    "end": 81.02,
     "speaker": "彥君",
-    "text": "記住 補教界最強口訣",
+    "text": "記住補教界的最強口訣",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 72.05,
-    "end": 74.38,
+    "start": 81.22,
+    "end": 83.97,
     "speaker": "彥君",
-    "text": "負氫正氧",
+    "text": "叫做負氫正氧",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 74.58,
-    "end": 78.1,
+    "start": 84.17,
+    "end": 87.87,
     "speaker": "曉臻",
-    "text": "喔 負極 產生氫氣",
+    "text": "喔 負極會產生氫氣",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 78.3,
-    "end": 80.78,
+    "start": 88.07,
+    "end": 91.27,
     "speaker": "曉臻",
-    "text": "正極 產生氧氣",
+    "text": "正極則是會產生氧氣耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 80.98,
-    "end": 83.72,
+    "start": 91.47,
+    "end": 94.67,
     "speaker": "彥君",
-    "text": "體積 則是 2 比 1",
+    "text": "而且體積剛好是 $2$ 比 $1$ 喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 83.92,
-    "end": 93.79,
+    "start": 94.87,
+    "end": 105.75,
     "speaker": "彥君",
-    "text": "$\\text{負氫正氧， 氫二氧一}$",
+    "text": "② $\\text{負氫正氧， 氫 } 2 \\text{ 氧 } 1$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "② $\\text{負氫正氧， 氫 } 2 \\text{ 氧 } 1$"
+    ]
   },
   {
-    "start": 87.54,
-    "end": 90.59,
+    "start": 98.3,
+    "end": 102.55,
     "speaker": "彥君",
-    "text": "給你們 3 秒鐘想像",
+    "text": "戰士們 給你們三秒鐘想像畫面",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 93.79,
-    "end": 96.58,
+    "start": 105.75,
+    "end": 108.95,
     "speaker": "曉臻",
-    "text": "老師 中間那杯",
+    "text": "老師 那中間的那一杯",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 96.78,
-    "end": 99.72,
+    "start": 109.15,
+    "end": 112.4,
     "speaker": "曉臻",
-    "text": "是電解 硫酸銅溶液耶",
+    "text": "是電解硫酸銅的水溶液耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 99.92,
-    "end": 102.81,
+    "start": 112.6,
+    "end": 115.85,
     "speaker": "彥君",
-    "text": "而且 電極是碳棒",
+    "text": "而且使用的電極是碳棒喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 103.01,
-    "end": 105.46,
+    "start": 116.05,
+    "end": 119.08,
     "speaker": "曉臻",
-    "text": "負極 有紅色的銅",
+    "text": "負極有紅色的銅跑出來",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 105.66,
-    "end": 108.0,
+    "start": 119.28,
+    "end": 122.58,
     "speaker": "曉臻",
-    "text": "正極 也有泡泡",
+    "text": "正極竟然也有產生泡泡耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 108.2,
-    "end": 111.62,
+    "start": 122.78,
+    "end": 126.48,
     "speaker": "彥君",
-    "text": "紅色 就是銅離子還原",
+    "text": "紅色就是銅離子發生還原",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 111.82,
-    "end": 114.94,
+    "start": 126.68,
+    "end": 129.9,
     "speaker": "彥君",
-    "text": "正極 則是產生氧氣",
+    "text": "正極則是產生了氧氣",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 115.14,
-    "end": 117.94,
+    "start": 130.1,
+    "end": 133.26,
     "speaker": "曉臻",
-    "text": "因為 碳棒不參與反應",
+    "text": "因為碳棒本身不參與反應",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 118.14,
-    "end": 121.05,
+    "start": 133.46,
+    "end": 136.68,
     "speaker": "曉臻",
-    "text": "所以 只能拆水來產氧",
+    "text": "所以只能拆解水來產氧囉",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 121.25,
-    "end": 125.86,
+    "start": 136.88,
+    "end": 141.76,
     "speaker": "彥君",
-    "text": "漂亮 此時 藍色會變淡喔",
+    "text": "漂亮 此時藍色的水會變淡喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 126.06,
-    "end": 136.73,
+    "start": 141.96,
+    "end": 153.27,
     "speaker": "彥君",
-    "text": "$\\text{電解硫酸銅} \\rightarrow \\text{負銅正氧}$",
+    "text": "③ $\\text{電解硫酸銅} \\rightarrow \\text{負銅正氧}$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "③ $\\text{電解硫酸銅} \\rightarrow \\text{負銅正氧}$"
+    ]
   },
   {
-    "start": 130.3,
-    "end": 133.53,
+    "start": 145.98,
+    "end": 150.07,
     "speaker": "彥君",
-    "text": "戰士們 來看電鍍",
+    "text": "戰士們 接著來看電鍍大魔王",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 136.73,
-    "end": 139.5,
+    "start": 153.27,
+    "end": 156.33,
     "speaker": "曉臻",
-    "text": "最右邊 這杯最重要",
+    "text": "最右邊這一杯超級重要",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 139.7,
-    "end": 142.27,
+    "start": 156.53,
+    "end": 159.7,
     "speaker": "曉臻",
-    "text": "兩邊 都是銅片耶",
+    "text": "左右兩邊用的都是銅片耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 142.47,
-    "end": 145.62,
+    "start": 159.9,
+    "end": 163.18,
     "speaker": "彥君",
-    "text": "這是 為了要把銅鍍上去",
+    "text": "這是為了要把銅給鍍上去",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 145.82,
-    "end": 149.02,
+    "start": 163.38,
+    "end": 167.32,
     "speaker": "曉臻",
-    "text": "老師 電鍍口訣是什麼",
+    "text": "老師 那電鍍的必殺口訣是什麼",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 149.22,
-    "end": 151.46,
+    "start": 167.52,
+    "end": 170.46,
     "speaker": "彥君",
-    "text": "負被 正欲",
+    "text": "記住了 負被正欲",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 151.66,
-    "end": 153.9,
+    "start": 170.66,
+    "end": 173.35,
     "speaker": "曉臻",
-    "text": "負極 接被鍍物",
+    "text": "負極要接被鍍的物品",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 154.1,
-    "end": 156.58,
+    "start": 173.55,
+    "end": 176.3,
     "speaker": "曉臻",
-    "text": "正極 接欲鍍金屬",
+    "text": "正極要接欲鍍的金屬",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 156.78,
-    "end": 161.3,
+    "start": 176.5,
+    "end": 181.42,
     "speaker": "彥君",
-    "text": "沒錯 正極 溶解變瘦",
+    "text": "沒錯 正極的金屬溶解變瘦",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 161.5,
-    "end": 164.25,
+    "start": 181.62,
+    "end": 185.09,
     "speaker": "彥君",
-    "text": "負極 長肉變胖",
+    "text": "負極的物品就會長肉變胖喔",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 164.45,
+    "start": 185.29,
     "end": 9999.0,
     "speaker": "彥君",
-    "text": "$\\text{負被正欲， 負長正溶}$",
+    "text": "④ $\\text{負被正欲， 負長正溶(容)}$",
     "is_pinned": true,
-    "pin_level": 1
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "④ $\\text{負被正欲， 負長正溶(容)}$"
+    ]
   },
   {
-    "start": 168.09,
-    "end": 171.55,
+    "start": 188.83,
+    "end": 192.87,
     "speaker": "曉臻",
-    "text": "哇 這樣 藍色濃度",
+    "text": "哇 這樣水溶液的藍色濃度",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 171.75,
-    "end": 174.16,
+    "start": 193.07,
+    "end": 196.25,
     "speaker": "曉臻",
-    "text": "就不會 改變了耶",
+    "text": "就不會發生任何改變了耶",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 174.36,
-    "end": 179.6,
+    "start": 196.45,
+    "end": 202.38,
     "speaker": "彥君",
-    "text": "沒錯 觀念通了 秒殺考題",
+    "text": "沒錯 觀念全通了 秒殺考題沒問題",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 179.8,
-    "end": 182.64,
+    "start": 202.58,
+    "end": 206.19,
     "speaker": "彥君",
-    "text": "答案 釘在黑板上",
+    "text": "答案已經全部釘在黑板上了",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 182.84,
-    "end": 185.44,
+    "start": 206.39,
+    "end": 208.99,
     "speaker": "彥君",
     "text": "我是彥君老師",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 185.64,
-    "end": 187.98,
+    "start": 209.19,
+    "end": 211.53,
     "speaker": "曉臻",
     "text": "我是曉臻助教",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 188.18,
-    "end": 191.62,
+    "start": 211.73,
+    "end": 215.17,
     "speaker": "合聲",
     "text": "負得還原 正失氧化",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 191.82,
-    "end": 195.35,
+    "start": 215.37,
+    "end": 218.9,
     "speaker": "合聲",
     "text": "戰士們 我們頂峰相見",
     "is_pinned": false,
-    "pin_level": 0
+    "pin_level": 0,
+    "commands": []
   }
 ]
