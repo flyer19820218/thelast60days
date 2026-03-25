@@ -48,7 +48,7 @@
     "start": 19.11,
     "end": 23.32,
     "speaker": "曉臻",
-    "text": "老師講義第一行寫著「碳定為 $$12$$」",
+    "text": "老師講義第一行寫著「碳定為 $12$」",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -120,18 +120,18 @@
     "start": 54.83,
     "end": 60.22,
     "speaker": "彥君",
-    "text": "葡萄糖的化學式是 $$C_6H_{12}O_6$$",
+    "text": "葡萄糖的化學式是 $C_6H_{12}O_6$",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
-      "$$C_6H_{12}O_6$$"
+      "$C_6H_{12}O_6$"
     ]
   },
   {
     "start": 60.42,
     "end": 64.62,
     "speaker": "彥君",
-    "text": "碳是 $$12$$氫是 $$1$$氧則是 $$16$$",
+    "text": "碳是 $12$氫是 $1$氧則是 $16$",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -149,30 +149,30 @@
     "start": 67.74,
     "end": 71.26,
     "speaker": "曉臻",
-    "text": "$$12 \\times 6$$加上 $$1 \\times 12$$",
+    "text": "$12 \\times 6$加上 $1 \\times 12$",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
-      "$$12 \\times 6$$",
-      "$$1 \\times 12$$"
+      "$12 \\times 6$",
+      "$1 \\times 12$"
     ]
   },
   {
     "start": 71.46,
     "end": 74.18,
     "speaker": "曉臻",
-    "text": "最後再加 $$16 \\times 6$$",
+    "text": "最後再加 $16 \\times 6$",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
-      "$$16 \\times 6$$"
+      "$16 \\times 6$"
     ]
   },
   {
     "start": 74.38,
     "end": 78.18,
     "speaker": "曉臻",
-    "text": "全部加起來總共是 $$180$$",
+    "text": "全部加起來總共是 $180$",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -190,12 +190,12 @@
     "start": 80.94,
     "end": 200.2,
     "speaker": "彥君",
-    "text": "$$C_6H_{12}O_6 \\rightarrow 180$$",
+    "text": "$C_6H_{12}O_6 \\rightarrow 180$",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "$$C_6H_{12}O_6 \\rightarrow 180$$"
+      "$C_6H_{12}O_6 \\rightarrow 180$"
     ]
   },
   {
@@ -220,11 +220,11 @@
     "start": 93.15,
     "end": 97.96,
     "speaker": "曉臻",
-    "text": "講義上寫 $$1$$ 莫耳是 $$6 \\times 10^{23}$$ 個",
+    "text": "講義上寫 $1$ 莫耳是 $6 \\times 10^{23}$ 個",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
-      "$$6 \\times 10^{23}$$"
+      "$6 \\times 10^{23}$"
     ]
   },
   {
@@ -249,7 +249,7 @@
     "start": 107.91,
     "end": 112.19,
     "speaker": "彥君",
-    "text": "一打是 $$12$$ 個而 $$1$$ 莫耳就是這麼多個",
+    "text": "一打是 $12$ 個而 $1$ 莫耳就是這麼多個",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -285,7 +285,7 @@
     "start": 126.12,
     "end": 131.62,
     "speaker": "彥君",
-    "text": "只要湊齊 $$1$$ 莫耳的數量原子量就可以直接變成功克",
+    "text": "只要湊齊 $1$ 莫耳的數量原子量就可以直接變成功克",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -294,19 +294,19 @@
     "start": 131.82,
     "end": 200.2,
     "speaker": "彥君",
-    "text": "$$1$$ 莫耳質量 $$=$$ 原子量加公克",
+    "text": "$1$ 莫耳質量 $=$ 原子量加公克",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "$$1$$ 莫耳質量 $$=$$ 原子量加公克"
+      "$1$ 莫耳質量 $=$ 原子量加公克"
     ]
   },
   {
     "start": 136.42,
     "end": 141.98,
     "speaker": "曉臻",
-    "text": "喔我徹底懂了碳的原子量是 $$12$$",
+    "text": "喔我徹底懂了碳的原子量是 $12$",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -315,7 +315,7 @@
     "start": 142.18,
     "end": 146.26,
     "speaker": "曉臻",
-    "text": "所以 $$1$$ 莫耳的碳剛好就是 $$12$$ 克",
+    "text": "所以 $1$ 莫耳的碳剛好就是 $12$ 克",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -333,7 +333,7 @@
     "start": 149.05,
     "end": 153.35,
     "speaker": "彥君",
-    "text": "那最後一個空格$$1$$ 莫耳的氧氣是幾克",
+    "text": "那最後一個空格$1$ 莫耳的氧氣是幾克",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -342,7 +342,7 @@
     "start": 153.55,
     "end": 158.07,
     "speaker": "曉臻",
-    "text": "這太簡單了氧的原子量是 $$16$$",
+    "text": "這太簡單了氧的原子量是 $16$",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -351,7 +351,7 @@
     "start": 158.27,
     "end": 161.93,
     "speaker": "曉臻",
-    "text": "所以 $$1$$ 莫耳的氧氣就是 $$16$$ 克",
+    "text": "所以 $1$ 莫耳的氧氣就是 $16$ 克",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -378,11 +378,11 @@
     "start": 170.34,
     "end": 173.5,
     "speaker": "彥君",
-    "text": "氧氣的化學式是 $$O_2$$ 喔",
+    "text": "氧氣的化學式是 $O_2$ 喔",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
-      "$$O_2$$"
+      "$O_2$"
     ]
   },
   {
@@ -398,18 +398,18 @@
     "start": 179.42,
     "end": 183.25,
     "speaker": "曉臻",
-    "text": "所以應該是 $$16 \\times 2 = 32$$",
+    "text": "所以應該是 $16 \\times 2 = 32$",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
-      "$$16 \\times 2 = 32$$"
+      "$16 \\times 2 = 32$"
     ]
   },
   {
     "start": 183.45,
     "end": 186.46,
     "speaker": "曉臻",
-    "text": "正確答案是 $$32$$ 克",
+    "text": "正確答案是 $32$ 克",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -427,12 +427,12 @@
     "start": 192.67,
     "end": 200.2,
     "speaker": "彥君",
-    "text": "氧氣 $$O_2 \\rightarrow 32$$ 克",
+    "text": "氧氣 $O_2 \\rightarrow 32$ 克",
     "is_pinned": true,
     "pin_level": 3,
     "commands": [
       "釘選",
-      "氧氣 $$O_2 \\rightarrow 32$$ 克"
+      "氧氣 $O_2 \\rightarrow 32$ 克"
     ]
   },
   {
