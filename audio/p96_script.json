@@ -737,11 +737,11 @@
     "start": 307.06,
     "end": 310.84,
     "speaker": "彥君",
-    "text": "酸類有 $$COOH$$",
+    "text": "酸類有 $COOH$",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
-      "$$COOH$$"
+      "$COOH$"
     ]
   },
   {
@@ -831,12 +831,12 @@
     "start": 349.2,
     "end": 439.98,
     "speaker": "彥君",
-    "text": "有機酸 $$+$$ 醇 $$\\rightarrow$$ 酯 $$+$$ 水",
+    "text": "有機酸 $+$ 醇 $\\rightarrow$ 酯 $+$ 水",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "有機酸 $$+$$ 醇 $$\\rightarrow$$ 酯 $$+$$ 水"
+      "有機酸 $+$ 醇 $\\rightarrow$ 酯 $+$ 水"
     ]
   },
   {
