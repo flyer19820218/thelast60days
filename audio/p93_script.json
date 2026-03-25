@@ -75,11 +75,11 @@
     "start": 26.79,
     "end": 29.75,
     "speaker": "曉臻",
-    "text": "寫著 $$XCO_3$$ 加上酸",
+    "text": "寫著 $XCO_3$ 加上酸",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
-      "$$XCO_3$$"
+      "$XCO_3$"
     ]
   },
   {
@@ -131,12 +131,12 @@
     "start": 45.63,
     "end": 68.31,
     "speaker": "彥君",
-    "text": "$$XCO_3 + H^+ \\rightarrow CO_2 + H_2O$$",
+    "text": "$XCO_3 + H^+ \\rightarrow CO_2 + H_2O$",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "$$XCO_3 + H^+ \\rightarrow CO_2 + H_2O$$"
+      "$XCO_3 + H^+ \\rightarrow CO_2 + H_2O$"
     ]
   },
   {
@@ -242,12 +242,12 @@
     "start": 87.99,
     "end": 110.51,
     "speaker": "彥君",
-    "text": "$$M + H^+ \\rightarrow H_2$$",
+    "text": "$M + H^+ \\rightarrow H_2$",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "$$M + H^+ \\rightarrow H_2$$"
+      "$M + H^+ \\rightarrow H_2$"
     ]
   },
   {
@@ -353,12 +353,12 @@
     "start": 135.13,
     "end": 146.2,
     "speaker": "彥君",
-    "text": "酸 $$+$$ 鹼 $$\\rightarrow$$ 鹽 $$+$$ 水 $$+$$ 熱",
+    "text": "酸 $+$ 鹼 $\\rightarrow$ 鹽 $+$ 水 $+$ 熱",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "酸 $$+$$ 鹼 $$\\rightarrow$$ 鹽 $$+$$ 水 $$+$$ 熱"
+      "酸 $+$ 鹼 $\\rightarrow$ 鹽 $+$ 水 $+$ 熱"
     ]
   },
   {
