@@ -219,7 +219,7 @@
     "start": 93.22,
     "end": 97.54,
     "speaker": "曉臻",
-    "text": "反應前加起來$$6+1+2+32$$",
+    "text": "反應前加起來6 + 1 + 2 + 32",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -228,7 +228,7 @@
     "start": 97.74,
     "end": 100.51,
     "speaker": "曉臻",
-    "text": "總共是 $$41$$ 公克",
+    "text": "總共是 41 公克",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -237,7 +237,7 @@
     "start": 100.71,
     "end": 107.15,
     "speaker": "彥君",
-    "text": "沒錯所以反應後全部加起來也要是 $$41$$",
+    "text": "沒錯所以反應後全部加起來也要是 41",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -246,7 +246,7 @@
     "start": 107.35,
     "end": 112.09,
     "speaker": "曉臻",
-    "text": "可是後面三個加起來$$25+2+14$$",
+    "text": "可是後面三個加起來25 + 2 + 14",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -255,7 +255,7 @@
     "start": 112.29,
     "end": 115.34,
     "speaker": "曉臻",
-    "text": "已經剛好是 $$41$$ 了耶",
+    "text": "已經剛好是 41 了耶",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -264,7 +264,7 @@
     "start": 115.54,
     "end": 123.06,
     "speaker": "彥君",
-    "text": "漂亮所以甲的問號就是 $$0$$代表它全部用光了",
+    "text": "漂亮所以甲的問號就是 0代表它全部用光了",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -273,7 +273,7 @@
     "start": 123.26,
     "end": 127.3,
     "speaker": "曉臻",
-    "text": "老師那丙反應前後都是 $$2$$ 耶",
+    "text": "老師那丙反應前後都是 2 耶",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -336,19 +336,19 @@
     "start": 152.44,
     "end": 192.17,
     "speaker": "彥君",
-    "text": "$$H_2 + O_2 \\rightarrow H_2O$$",
+    "text": "$H_2 + O_2 \\rightarrow H_2O$",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "$$H_2 + O_2 \\rightarrow H_2O$$"
+      "$H_2 + O_2 \\rightarrow H_2O$"
     ]
   },
   {
     "start": 156.2,
     "end": 161.08,
     "speaker": "曉臻",
-    "text": "老師左邊有 $$2$$ 個氧右邊卻只有 $$1$$ 個氧耶",
+    "text": "老師左邊有 2 個氧右邊卻只有 1 個氧耶",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -357,7 +357,7 @@
     "start": 161.28,
     "end": 165.66,
     "speaker": "彥君",
-    "text": "所以我們要在水的前面補上係數 $$2$$",
+    "text": "所以我們要在水的前面補上係數 2",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -366,19 +366,19 @@
     "start": 165.86,
     "end": 192.17,
     "speaker": "彥君",
-    "text": "$$H_2 + O_2 \\rightarrow 2H_2O$$",
+    "text": "$H_2 + O_2 \\rightarrow 2H_2O$",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "$$H_2 + O_2 \\rightarrow 2H_2O$$"
+      "$H_2 + O_2 \\rightarrow 2H_2O$"
     ]
   },
   {
     "start": 169.33,
     "end": 173.18,
     "speaker": "曉臻",
-    "text": "可是這樣右邊就變成 $$4$$ 個氫了",
+    "text": "可是這樣右邊就變成 4 個氫了",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -387,7 +387,7 @@
     "start": 173.38,
     "end": 179.22,
     "speaker": "彥君",
-    "text": "很好所以左邊的氫氣也要補上係數 $$2$$",
+    "text": "很好所以左邊的氫氣也要補上係數 2",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -396,12 +396,12 @@
     "start": 179.42,
     "end": 192.17,
     "speaker": "彥君",
-    "text": "$$2H_2 + O_2 \\rightarrow 2H_2O$$",
+    "text": "$2H_2 + O_2 \\rightarrow 2H_2O$",
     "is_pinned": true,
     "pin_level": 3,
     "commands": [
       "釘選",
-      "$$2H_2 + O_2 \\rightarrow 2H_2O$$"
+      "$2H_2 + O_2 \\rightarrow 2H_2O$"
     ]
   },
   {
@@ -435,19 +435,19 @@
     "start": 198.66,
     "end": 231.71,
     "speaker": "彥君",
-    "text": "$$N_2 + H_2 \\rightarrow NH_3$$",
+    "text": "$N_2 + H_2 \\rightarrow NH_3$",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "$$N_2 + H_2 \\rightarrow NH_3$$"
+      "$N_2 + H_2 \\rightarrow NH_3$"
     ]
   },
   {
     "start": 202.46,
     "end": 206.05,
     "speaker": "曉臻",
-    "text": "左邊有 $$2$$ 個氮右邊只有 $$1$$ 個",
+    "text": "左邊有 2 個氮右邊只有 1 個",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -456,7 +456,7 @@
     "start": 206.25,
     "end": 210.07,
     "speaker": "彥君",
-    "text": "沒錯所以氨氣前面寫 $$2$$",
+    "text": "沒錯所以氨氣前面寫 2",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -465,19 +465,19 @@
     "start": 210.27,
     "end": 231.71,
     "speaker": "彥君",
-    "text": "$$N_2 + H_2 \\rightarrow 2NH_3$$",
+    "text": "$N_2 + H_2 \\rightarrow 2NH_3$",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "$$N_2 + H_2 \\rightarrow 2NH_3$$"
+      "$N_2 + H_2 \\rightarrow 2NH_3$"
     ]
   },
   {
     "start": 213.74,
     "end": 216.78,
     "speaker": "曉臻",
-    "text": "這樣右邊就會有 $$6$$ 個氫",
+    "text": "這樣右邊就會有 6 個氫",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -486,7 +486,7 @@
     "start": 216.98,
     "end": 221.52,
     "speaker": "彥君",
-    "text": "左邊氫氣前面寫 $$3$$因為 $$3 \\times 2 = 6$$",
+    "text": "左邊氫氣前面寫 3因為 $3 \\times 2 = 6$",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -495,12 +495,12 @@
     "start": 221.72,
     "end": 231.71,
     "speaker": "彥君",
-    "text": "$$N_2 + 3H_2 \\rightarrow 2NH_3$$",
+    "text": "$N_2 + 3H_2 \\rightarrow 2NH_3$",
     "is_pinned": true,
     "pin_level": 3,
     "commands": [
       "釘選",
-      "$$N_2 + 3H_2 \\rightarrow 2NH_3$$"
+      "$N_2 + 3H_2 \\rightarrow 2NH_3$"
     ]
   },
   {
@@ -534,19 +534,19 @@
     "start": 240.48,
     "end": 274.62,
     "speaker": "彥君",
-    "text": "$$CH_4 + O_2 \\rightarrow CO_2 + H_2O$$",
+    "text": "$CH_4 + O_2 \\rightarrow CO_2 + H_2O$",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "$$CH_4 + O_2 \\rightarrow CO_2 + H_2O$$"
+      "$CH_4 + O_2 \\rightarrow CO_2 + H_2O$"
     ]
   },
   {
     "start": 245.01,
     "end": 248.74,
     "speaker": "曉臻",
-    "text": "我看到了左邊有 $$4$$ 個氫",
+    "text": "我看到了左邊有 4 個氫",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -555,7 +555,7 @@
     "start": 248.94,
     "end": 252.28,
     "speaker": "彥君",
-    "text": "所以我們在水的前面寫 $$2$$",
+    "text": "所以我們在水的前面寫 2",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -564,19 +564,19 @@
     "start": 252.48,
     "end": 274.62,
     "speaker": "彥君",
-    "text": "$$CH_4 + O_2 \\rightarrow CO_2 + 2H_2O$$",
+    "text": "$CH_4 + O_2 \\rightarrow CO_2 + 2H_2O$",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "$$CH_4 + O_2 \\rightarrow CO_2 + 2H_2O$$"
+      "$CH_4 + O_2 \\rightarrow CO_2 + 2H_2O$"
     ]
   },
   {
     "start": 256.0,
     "end": 259.9,
     "speaker": "曉臻",
-    "text": "這樣右邊加起來總共有 $$4$$ 個氧",
+    "text": "這樣右邊加起來總共有 4 個氧",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -585,7 +585,7 @@
     "start": 260.1,
     "end": 264.23,
     "speaker": "彥君",
-    "text": "所以左邊的氧氣前面也要寫 $$2$$",
+    "text": "所以左邊的氧氣前面也要寫 2",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
@@ -594,12 +594,12 @@
     "start": 264.43,
     "end": 274.62,
     "speaker": "彥君",
-    "text": "$$CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O$$",
+    "text": "$CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O$",
     "is_pinned": true,
     "pin_level": 3,
     "commands": [
       "釘選",
-      "$$CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O$$"
+      "$CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O$"
     ]
   },
   {
