@@ -165,9 +165,9 @@ if df is not None and not df.empty:
         safe_script_data = json.dumps(script_data)
 
 # ==========================================
-# 【編號 5】HTML 骨架與 CSS 樣式
+# 【編號 5】HTML 骨架與 CSS 樣式 (rf 字串修復 SyntaxWarning)
 # ==========================================
-        full_html = f"""
+        full_html = rf"""
         <!DOCTYPE html>
         <html>
         <head>
@@ -201,7 +201,7 @@ if df is not None and not df.empty:
             .subtitle-stage {{ position: absolute; bottom: 8%; width: 100%; display: flex; flex-direction: column; padding: 0 clamp(15px, 4vw, 40px); box-sizing: border-box; z-index: 10; pointer-events: none; }}
             .bubble {{ 
                 max-width: 90%; padding: clamp(10px, 2.5vmin, 30px); border-radius: 20px; box-shadow: 0 8px 30px rgba(0,0,0,0.08); 
-                font-size: {bubble_fs}; line-height: 1.5; opacity: 0; transition: all 0.1s ease; font-weight: bold; 
+                font-size: {bubble_fs}; line-height: 1.5; opacity: 0; transition: all 0.15s ease; font-weight: bold; 
             }}
             
             .yanjun {{ align-self: flex-start; background-color: rgba(227, 242, 253, 0.95); color: #0d47a1; border: 1px solid rgba(187, 222, 251, 0.5); border-bottom-left-radius: 2px; }}
@@ -264,7 +264,6 @@ if df is not None and not df.empty:
                 const bubble = document.getElementById('bubble');
                 const msg = document.getElementById('msg');
                 
-                // 🚀 JS 記憶黑科技：跨越換頁記住連播狀態
                 let isAutoPlay = false;
                 try {{ isAutoPlay = localStorage.getItem('yt_autoplay') === 'true'; }} catch(e) {{}}
                 
@@ -335,61 +334,76 @@ if df is not None and not df.empty:
                         }}
                     }}
 
-                    // 🎯 處理主字幕 (✨ V20 語音同步動態打字機版 ✨)
+                    // 🎯 處理主字幕 (恢復為瞬間顯示，因為字幕沒人在用打字機的！)
                     if (mainSub) {{
                         let avatar = mainSub.speaker === '彥君' ? '👨‍🏫 ' : (mainSub.speaker === '曉臻' ? '👩‍🔬 ' : '🎙️ ');
                         let bClass = mainSub.speaker === '彥君' ? 'yanjun' : (mainSub.speaker === '曉臻' ? 'xiaozhen' : 'chorus');
                         let rawText = avatar + mainSub.text;
                         
-                        // 檢查這句話有沒有包含 LaTeX 公式符號 '$'
-                        let hasMath = rawText.includes('$');
-
-                        if (hasMath) {{
-                            // 🛡️ 保護模式：有公式，直接整句渲染，不套用打字機
-                            if (lastMsgHash !== rawText) {{
-                                msg.innerHTML = renderTextWithMath(rawText);
-                                bubble.className = "bubble " + bClass;
-                                bubble.style.opacity = 1;
-                                lastMsgHash = rawText;
-                            }}
-                        }} else {{
-                            // 🚀 打字機模式：計算語音進度百分比
-                            let duration = mainSub.end - mainSub.start;
-                            if (duration <= 0) duration = 0.1; // 預防除以0
-                            
-                            let progress = (t - mainSub.start) / duration;
-                            if (progress < 0) progress = 0;
-                            if (progress > 1) progress = 1;
-                            
-                            // 依照進度，算出現在該顯示幾個字
-                            let charsToShow = Math.floor(progress * rawText.length);
-                            
-                            // 保底讓大頭貼先顯示出來
-                            if (charsToShow < avatar.length) charsToShow = avatar.length;
-                            
-                            msg.innerHTML = rawText.substring(0, charsToShow);
+                        if (lastMsgHash !== rawText) {{
+                            msg.innerHTML = renderTextWithMath(rawText);
                             bubble.className = "bubble " + bClass;
                             bubble.style.opacity = 1;
-                            lastMsgHash = "typing..."; // 標記打字中，不鎖定 hash
+                            lastMsgHash = rawText;
                         }}
                     }} else {{
                         if (lastMsgHash !== "") {{ bubble.style.opacity = 0; lastMsgHash = ""; }}
                     }}
 
-                    // 🎯 處理釘選黑板
+                    // 🎯 處理釘選黑板 (✨ 釘選專屬的完美同步打字機 ✨)
                     activePins.forEach(pin => {{
                         const pinId = 'pin-' + Math.floor(pin.start * 10);
-                        if (!document.getElementById(pinId)) {{
-                            const d = document.createElement('div');
+                        let d = document.getElementById(pinId);
+                        
+                        // 1. 如果黑板還沒建立，先建一個空的 DOM
+                        if (!d) {{
+                            d = document.createElement('div');
                             d.id = pinId;
                             d.className = 'board-item';
-                            d.innerHTML = renderTextWithMath(pin.text);
                             boardStage.appendChild(d);
+                        }}
+                        
+                        // 2. 如果已經打字完畢，就不再消耗運算資源
+                        if (d.getAttribute('data-done') === 'true') return;
+
+                        let hasMath = pin.text.includes('$');
+
+                        if (hasMath) {{
+                            // 🛡️ 保護模式：遇到公式，瞬間完整顯示，保證不破版
+                            d.innerHTML = renderTextWithMath(pin.text);
+                            d.setAttribute('data-done', 'true');
+                        }} else {{
+                            // 🚀 打字機模式：完全咬合語音節奏
+                            let duration = pin.end - pin.start;
+                            if (duration <= 0) duration = 0.1; 
+                            
+                            let progress = (t - pin.start) / duration;
+                            
+                            // 💡 Bug 修復：只要語音進度達到 98% 或時間超過，強制 100%，確保最後一個字不消失
+                            if (progress >= 0.98 || t >= pin.end) progress = 1; 
+                            if (progress < 0) progress = 0;
+                            
+                            // 💡 Bug 修復：使用 Math.ceil 無條件進位，確保字數算得精準
+                            let charsToShow = Math.ceil(progress * pin.text.length);
+                            let currentText = pin.text.substring(0, charsToShow);
+                            
+                            // 只在字數有增加時才去動 HTML，讓畫面更順暢
+                            let lastChars = parseInt(d.getAttribute('data-chars') || '0');
+                            if (charsToShow !== lastChars || progress === 1) {{
+                                d.innerHTML = currentText;
+                                d.setAttribute('data-chars', charsToShow);
+                                
+                                // 如果進度滿了，標記為已完成
+                                if (progress === 1) d.setAttribute('data-done', 'true');
+                            }}
                         }}
                     }});
 
+                    // 🧹 清除過期的釘選 (拔除那些已經不在 activePins 裡的 DOM)
                     Array.from(boardStage.children).forEach(child => {{
-                        if (!activePins.some(p => 'pin-' + Math.floor(p.start * 10) === child.id)) boardStage.removeChild(child);
+                        if (!activePins.some(p => 'pin-' + Math.floor(p.start * 10) === child.id)) {{
+                            boardStage.removeChild(child);
+                        }}
                     }});
                 }};
                 
