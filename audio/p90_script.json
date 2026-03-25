@@ -390,12 +390,12 @@
     "start": 154.66,
     "end": 167.58,
     "speaker": "彥君",
-    "text": "$$Cu + CO_2 \\rightarrow$$ 不反應",
+    "text": "$Cu + CO_2 \\rightarrow$不反應",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "$$Cu + CO_2 \\rightarrow$$ 不反應"
+      "$Cu + CO_2 \\rightarrow$不反應"
     ]
   },
   {
