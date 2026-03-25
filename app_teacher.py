@@ -11,7 +11,7 @@ import json
 # ==========================================
 # 【編號 1】頁面設定與 RWD 響應式 CSS (四格滿版 + 翩翩體)
 # ==========================================
-st.set_page_config(page_title="會考自然-V20旗艦測試版", page_icon="🚀", layout="wide")
+st.set_page_config(page_title="會考自然-ai教學", page_icon="📚", layout="wide")
 
 st.markdown("""
     <style>
@@ -19,7 +19,7 @@ st.markdown("""
     #MainMenu, header, footer {visibility: hidden;}
     .stApp { background-color: #ffffff; }
     
-    /* 🚀 呼叫蘋果內建字體咒語 */
+    /* 🚀 呼叫蘋果內建「翩翩體」咒語 */
     html, body, [class*="css"], p, span, div, b, button, select, input {
         font-family: 'HanziPenTC-W5', 'HanziPenTC-W3', 'HanziPen TC', 'HanziPenSC-W5', 'HanziPenSC-W3', 'HanziPen SC', '翩翩體-繁', '翩翩體-簡', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
@@ -42,7 +42,7 @@ st.markdown("""
     }
     ul[data-baseweb="menu"] li { font-size: 16px !important; padding: 10px !important; }
     
-    /* 🚀 全局隱藏 Python 端的 Streamlit 幽靈按鈕 */
+    /* 🚀 全局隱藏 Python 端的 Streamlit 按鈕 */
     div[data-testid="stButton"] { 
         display: none !important; 
         height: 0px !important; 
@@ -50,7 +50,7 @@ st.markdown("""
         padding: 0px !important; 
     }
 
-    /* 📺 大螢幕/iPad 適配 */
+    /* 📺 大螢幕適配 (電腦/大電視) */
     @media (min-width: 1024px) {
         .block-container { padding-left: 2rem !important; padding-right: 2rem !important; } 
         div[data-baseweb="select"] { font-size: 24px !important; }
@@ -106,7 +106,7 @@ if df is not None and not df.empty:
     group_labels = [f"進度 {i*group_size + 1} ~ {min((i+1)*group_size, total_items)}" for i in range(num_groups)]
     current_group_idx = st.session_state.page_idx // group_size
 
-    # 🚀 上方控制列變成極度寬敞的「完美 4 欄」 (去除醜陋翻頁按鈕)
+    # 🚀 上方控制列變成極度寬敞的「完美 4 欄」
     c_group, c_unit, c_speed, c_size = st.columns([1.5, 2.0, 1.0, 1.5])
     
     with c_group:
@@ -137,6 +137,7 @@ if df is not None and not df.empty:
             "80吋電視霸氣 (大)": "clamp(32px, 5vw, 100px)",
             "電腦標準教學 (中)": "clamp(24px, 3.5vw, 65px)",
             "手機專用小螢幕 (小)": "clamp(18px, 5vmin, 36px)"
+            
         }
         bubble_fs = size_options[st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")]
 
@@ -164,7 +165,7 @@ if df is not None and not df.empty:
         safe_script_data = json.dumps(script_data)
 
 # ==========================================
-# 【編號 5】HTML 骨架與 CSS 樣式 (終極版 LaTeX 引擎 + 打字機引擎)
+# 【編號 5】HTML 骨架與 CSS 樣式
 # ==========================================
         full_html = f"""
         <!DOCTYPE html>
@@ -307,7 +308,7 @@ if df is not None and not df.empty:
 
                 aud.onloadedmetadata = () => {{ document.getElementById('dur').innerText = fmt(aud.duration); sk.max = aud.duration; }};
                 
-                // 🌟 LaTeX 解析引擎
+                // 🌟 新增一個強大的 LaTeX 解析函數
                 function renderTextWithMath(text) {{
                     let html = text.replace(/\$\$([^\$]+)\$\$/g, function(match, mathCode) {{
                         try {{ return katex.renderToString(mathCode, {{displayMode: true, throwOnError: false}}); }}
