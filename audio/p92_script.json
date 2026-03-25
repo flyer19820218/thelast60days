@@ -111,24 +111,24 @@
     "start": 35.98,
     "end": 79.61,
     "speaker": "彥君",
-    "text": "$$CO_3^{2-}$$",
+    "text": "$CO_3^{2-}$",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "$$CO_3^{2-}$$"
+      "$CO_3^{2-}$"
     ]
   },
   {
     "start": 39.3,
     "end": 79.61,
     "speaker": "彥君",
-    "text": "$$SO_4^{2-}$$",
+    "text": "$SO_4^{2-}$",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "$$SO_4^{2-}$$"
+      "$SO_4^{2-}$"
     ]
   },
   {
@@ -153,22 +153,22 @@
     "start": 50.2,
     "end": 52.85,
     "speaker": "彥君",
-    "text": "像是 $$SO_3^{2}$$",
+    "text": "像是 $SO_3^{2}$",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
-      "$$SO_3^{2-}$$"
+      "$SO_3^{2-}$"
     ]
   },
   {
     "start": 53.05,
     "end": 55.65,
     "speaker": "彥君",
-    "text": "還有 $$NO_2^$$",
+    "text": "還有 $NO_2^$",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
-      "$$NO_2^-$$"
+      "$NO_2^-$"
     ]
   },
   {
@@ -184,22 +184,22 @@
     "start": 60.71,
     "end": 63.96,
     "speaker": "曉臻",
-    "text": "喔還有 $$OH^$$",
+    "text": "喔還有 $OH^$",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
-      "$$OH^-$$"
+      "$OH^-$"
     ]
   },
   {
     "start": 64.16,
     "end": 66.11,
     "speaker": "曉臻",
-    "text": "跟 $$CH_3COO^$$",
+    "text": "跟 $CH_3COO^$",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
-      "$$CH_3COO^-$$"
+      "$CH_3COO^-$"
     ]
   },
   {
@@ -215,11 +215,11 @@
     "start": 69.26,
     "end": 72.17,
     "speaker": "曉臻",
-    "text": "這個好記就是 $$NH_4^+$$根)",
+    "text": "這個好記就是 $NH_4^+$根)",
     "is_pinned": false,
     "pin_level": 0,
     "commands": [
-      "$$NH_4^+$$"
+      "$NH_4^+$"
     ]
   },
   {
@@ -289,12 +289,12 @@
     "start": 99.26,
     "end": 114.83,
     "speaker": "彥君",
-    "text": "電中性：正電總量 $$=$$ 負電總量",
+    "text": "電中性：正電總量 $=$ 負電總量",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "電中性：正電總量 $$=$$ 負電總量"
+      "電中性：正電總量 $=$ 負電總量"
     ]
   },
   {
@@ -328,12 +328,12 @@
     "start": 114.83,
     "end": 147.33,
     "speaker": "彥君",
-    "text": "$$MgCl_2 \\rightarrow Mg^{2+} + 2Cl^-$$",
+    "text": "$MgCl_2 \\rightarrow Mg^{2+} + 2Cl^-$",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "$$MgCl_2 \\rightarrow Mg^{2+} + 2Cl^-$$"
+      "$MgCl_2 \\rightarrow Mg^{2+} + 2Cl^-$"
     ]
   },
   {
@@ -421,12 +421,12 @@
     "start": 151.14,
     "end": 192.73,
     "speaker": "彥君",
-    "text": "$$Na_2SO_4 \\rightarrow 2Na^+ + SO_4^{2-}$$",
+    "text": "$Na_2SO_4 \\rightarrow 2Na^+ + SO_4^{2-}$",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "$$Na_2SO_4 \\rightarrow 2Na^+ + SO_4^{2-}$$"
+      "$Na_2SO_4 \\rightarrow 2Na^+ + SO_4^{2-}$"
     ]
   },
   {
