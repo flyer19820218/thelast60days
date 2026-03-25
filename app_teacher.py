@@ -11,7 +11,7 @@ import json
 # ==========================================
 # 【編號 1】頁面設定與 RWD 響應式 CSS (四格滿版 + 翩翩體)
 # ==========================================
-st.set_page_config(page_title="會考自然-旗艦教學版", page_icon="📚", layout="wide")
+st.set_page_config(page_title="會考自然-V20旗艦測試版", page_icon="🚀", layout="wide")
 
 st.markdown("""
     <style>
@@ -19,7 +19,7 @@ st.markdown("""
     #MainMenu, header, footer {visibility: hidden;}
     .stApp { background-color: #ffffff; }
     
-    /* 🚀 呼叫蘋果內建「翩翩體」咒語 */
+    /* 🚀 呼叫蘋果內建字體咒語 */
     html, body, [class*="css"], p, span, div, b, button, select, input {
         font-family: 'HanziPenTC-W5', 'HanziPenTC-W3', 'HanziPen TC', 'HanziPenSC-W5', 'HanziPenSC-W3', 'HanziPen SC', '翩翩體-繁', '翩翩體-簡', 'PingFang TC', 'Microsoft JhengHei', sans-serif !important;
     }
@@ -42,7 +42,7 @@ st.markdown("""
     }
     ul[data-baseweb="menu"] li { font-size: 16px !important; padding: 10px !important; }
     
-    /* 🚀 全局隱藏 Python 端的 Streamlit 按鈕 */
+    /* 🚀 全局隱藏 Python 端的 Streamlit 幽靈按鈕 */
     div[data-testid="stButton"] { 
         display: none !important; 
         height: 0px !important; 
@@ -137,7 +137,6 @@ if df is not None and not df.empty:
             "80吋電視霸氣 (大)": "clamp(32px, 5vw, 100px)",
             "電腦標準教學 (中)": "clamp(24px, 3.5vw, 65px)",
             "手機專用小螢幕 (小)": "clamp(18px, 5vmin, 36px)"
-            
         }
         bubble_fs = size_options[st.selectbox("字幕大小", list(size_options.keys()), index=0, label_visibility="collapsed")]
 
@@ -165,7 +164,7 @@ if df is not None and not df.empty:
         safe_script_data = json.dumps(script_data)
 
 # ==========================================
-# 【編號 5】HTML 骨架與 CSS 樣式 (終極版 LaTeX 解析引擎)
+# 【編號 5】HTML 骨架與 CSS 樣式 (終極版 LaTeX 引擎 + 打字機引擎)
 # ==========================================
         full_html = f"""
         <!DOCTYPE html>
@@ -201,14 +200,14 @@ if df is not None and not df.empty:
             .subtitle-stage {{ position: absolute; bottom: 8%; width: 100%; display: flex; flex-direction: column; padding: 0 clamp(15px, 4vw, 40px); box-sizing: border-box; z-index: 10; pointer-events: none; }}
             .bubble {{ 
                 max-width: 90%; padding: clamp(10px, 2.5vmin, 30px); border-radius: 20px; box-shadow: 0 8px 30px rgba(0,0,0,0.08); 
-                font-size: {bubble_fs}; line-height: 1.5; opacity: 0; transition: all 0.15s ease; font-weight: bold; 
+                font-size: {bubble_fs}; line-height: 1.5; opacity: 0; transition: all 0.1s ease; font-weight: bold; 
             }}
             
             .yanjun {{ align-self: flex-start; background-color: rgba(227, 242, 253, 0.95); color: #0d47a1; border: 1px solid rgba(187, 222, 251, 0.5); border-bottom-left-radius: 2px; }}
             .xiaozhen {{ align-self: flex-end; background-color: rgba(254, 242, 242, 0.95); color: #991b1b; border: 1px solid rgba(254, 202, 202, 0.5); border-bottom-right-radius: 2px; }}
             .chorus {{ align-self: center; background: linear-gradient(135deg, #fff9c4 0%, #fde68a 100%); color: #92400e; border: 1px solid #f59e0b; border-radius: 20px; text-align: center; }}
 
-            /* 🎯 釘選黑板區塊 (無特效，瞬發直給) */
+            /* 🎯 釘選黑板區塊 */
             .board-stage {{
                 position: absolute; bottom: calc(8% + {bubble_fs} * 2.8); width: 100%; display: flex; flex-direction: column; gap: 8px;
                 padding: 0 clamp(15px, 4vw, 40px); box-sizing: border-box; z-index: 5; pointer-events: none;
@@ -308,7 +307,7 @@ if df is not None and not df.empty:
 
                 aud.onloadedmetadata = () => {{ document.getElementById('dur').innerText = fmt(aud.duration); sk.max = aud.duration; }};
                 
-                // 🌟 新增一個強大的 LaTeX 解析函數 (支援 $$置中公式$$ 與 $行內公式$)
+                // 🌟 LaTeX 解析引擎
                 function renderTextWithMath(text) {{
                     let html = text.replace(/\$\$([^\$]+)\$\$/g, function(match, mathCode) {{
                         try {{ return katex.renderToString(mathCode, {{displayMode: true, throwOnError: false}}); }}
@@ -335,20 +334,42 @@ if df is not None and not df.empty:
                         }}
                     }}
 
-                    // 🎯 處理主字幕
+                    // 🎯 處理主字幕 (✨ V20 語音同步動態打字機版 ✨)
                     if (mainSub) {{
                         let avatar = mainSub.speaker === '彥君' ? '👨‍🏫 ' : (mainSub.speaker === '曉臻' ? '👩‍🔬 ' : '🎙️ ');
                         let bClass = mainSub.speaker === '彥君' ? 'yanjun' : (mainSub.speaker === '曉臻' ? 'xiaozhen' : 'chorus');
-                        let currentHash = avatar + mainSub.text;
+                        let rawText = avatar + mainSub.text;
                         
-                        if (lastMsgHash !== currentHash) {{
-                            let rawText = avatar + mainSub.text;
-                            // 🚀 核心改動：丟進解析引擎，完美支援 LaTeX
-                            msg.innerHTML = renderTextWithMath(rawText);
+                        // 檢查這句話有沒有包含 LaTeX 公式符號 '$'
+                        let hasMath = rawText.includes('$');
+
+                        if (hasMath) {{
+                            // 🛡️ 保護模式：有公式，直接整句渲染，不套用打字機
+                            if (lastMsgHash !== rawText) {{
+                                msg.innerHTML = renderTextWithMath(rawText);
+                                bubble.className = "bubble " + bClass;
+                                bubble.style.opacity = 1;
+                                lastMsgHash = rawText;
+                            }}
+                        }} else {{
+                            // 🚀 打字機模式：計算語音進度百分比
+                            let duration = mainSub.end - mainSub.start;
+                            if (duration <= 0) duration = 0.1; // 預防除以0
                             
+                            let progress = (t - mainSub.start) / duration;
+                            if (progress < 0) progress = 0;
+                            if (progress > 1) progress = 1;
+                            
+                            // 依照進度，算出現在該顯示幾個字
+                            let charsToShow = Math.floor(progress * rawText.length);
+                            
+                            // 保底讓大頭貼先顯示出來
+                            if (charsToShow < avatar.length) charsToShow = avatar.length;
+                            
+                            msg.innerHTML = rawText.substring(0, charsToShow);
                             bubble.className = "bubble " + bClass;
                             bubble.style.opacity = 1;
-                            lastMsgHash = currentHash;
+                            lastMsgHash = "typing..."; // 標記打字中，不鎖定 hash
                         }}
                     }} else {{
                         if (lastMsgHash !== "") {{ bubble.style.opacity = 0; lastMsgHash = ""; }}
@@ -361,10 +382,7 @@ if df is not None and not df.empty:
                             const d = document.createElement('div');
                             d.id = pinId;
                             d.className = 'board-item';
-                            
-                            // 🚀 黑板區一樣丟進解析引擎
                             d.innerHTML = renderTextWithMath(pin.text);
-                            
                             boardStage.appendChild(d);
                         }}
                     }});
