@@ -156,12 +156,12 @@
     "start": 59.48,
     "end": 100.54,
     "speaker": "彥君",
-    "text": "$$2CrO_4^{2-} + 2H^+ \\rightleftharpoons Cr_2O_7^{2-} + H_2O$$",
+    "text": "$2CrO_4^{2-} + 2H^+ \\rightleftharpoons Cr_2O_7^{2-} + H_2O$",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "$$2CrO_4^{2-} + 2H^+ \\rightleftharpoons Cr_2O_7^{2-} + H_2O$$"
+      "$2CrO_4^{2-} + 2H^+ \\rightleftharpoons Cr_2O_7^{2-} + H_2O$"
     ]
   },
   {
@@ -231,12 +231,12 @@
     "start": 89.13,
     "end": 100.54,
     "speaker": "彥君",
-    "text": "第一題：左邊變濃 $$\\rightarrow$$ 向右傾斜",
+    "text": "第一題：左邊變濃 $\\rightarrow$ 向右傾斜",
     "is_pinned": true,
     "pin_level": 2,
     "commands": [
       "釘選",
-      "第一題：左邊變濃 $$\\rightarrow$$ 向右傾斜"
+      "第一題：左邊變濃 $\\rightarrow$ 向右傾斜"
     ]
   },
   {
@@ -333,12 +333,12 @@
     "start": 132.07,
     "end": 143.67,
     "speaker": "彥君",
-    "text": "第二題：溫度上升 $$\\rightarrow$$ 向左移動",
+    "text": "第二題：溫度上升 $\\rightarrow$ 向左移動",
     "is_pinned": true,
     "pin_level": 1,
     "commands": [
       "釘選",
-      "第二題：溫度上升 $$\\rightarrow$$ 向左移動"
+      "第二題：溫度上升 $\\rightarrow$ 向左移動"
     ]
   },
   {
