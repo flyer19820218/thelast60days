@@ -484,7 +484,7 @@
   },
   {
     "start": 174.27,
-    "end": 229.24,
+    "end": 229.19,
     "speaker": "彥君",
     "text": "分解者→有機物變無機物",
     "is_pinned": true,
@@ -622,7 +622,7 @@
   },
   {
     "start": 219.58,
-    "end": 222.62,
+    "end": 222.57,
     "speaker": "彥君",
     "text": "卡在 有機物的狀態",
     "is_pinned": false,
@@ -630,8 +630,8 @@
     "commands": []
   },
   {
-    "start": 222.82,
-    "end": 226.04,
+    "start": 222.77,
+    "end": 225.99,
     "speaker": "彥君",
     "text": "整個生態系 就轉不動了",
     "is_pinned": false,
@@ -639,8 +639,8 @@
     "commands": []
   },
   {
-    "start": 229.24,
-    "end": 231.0,
+    "start": 229.19,
+    "end": 230.95,
     "speaker": "曉臻",
     "text": "戰士們",
     "is_pinned": false,
@@ -648,8 +648,8 @@
     "commands": []
   },
   {
-    "start": 231.2,
-    "end": 233.9,
+    "start": 231.15,
+    "end": 233.85,
     "speaker": "曉臻",
     "text": "最後 我們 快速分辨",
     "is_pinned": false,
@@ -657,8 +657,8 @@
     "commands": []
   },
   {
-    "start": 234.1,
-    "end": 236.89,
+    "start": 234.05,
+    "end": 236.84,
     "speaker": "曉臻",
     "text": "消費者 包含 清除者",
     "is_pinned": false,
@@ -666,8 +666,8 @@
     "commands": []
   },
   {
-    "start": 237.09,
-    "end": 240.34,
+    "start": 237.04,
+    "end": 240.29,
     "speaker": "曉臻",
     "text": "是吃東西 排出有機廢物",
     "is_pinned": false,
@@ -675,8 +675,8 @@
     "commands": []
   },
   {
-    "start": 240.54,
-    "end": 243.66,
+    "start": 240.49,
+    "end": 243.62,
     "speaker": "曉臻",
     "text": "分解者 則是 拆解有機物",
     "is_pinned": false,
@@ -684,8 +684,8 @@
     "commands": []
   },
   {
-    "start": 243.86,
-    "end": 246.73,
+    "start": 243.82,
+    "end": 246.68,
     "speaker": "曉臻",
     "text": "變回 最小的 無機分子",
     "is_pinned": false,
@@ -693,8 +693,8 @@
     "commands": []
   },
   {
-    "start": 246.93,
-    "end": 249.19,
+    "start": 246.88,
+    "end": 249.17,
     "speaker": "曉臻",
     "text": "歸還給 大自然",
     "is_pinned": false,
@@ -702,8 +702,8 @@
     "commands": []
   },
   {
-    "start": 249.39,
-    "end": 252.71,
+    "start": 249.37,
+    "end": 252.69,
     "speaker": "彥君",
     "text": "戰士們 隨堂測驗",
     "is_pinned": false,
@@ -711,8 +711,8 @@
     "commands": []
   },
   {
-    "start": 252.91,
-    "end": 255.66,
+    "start": 252.89,
+    "end": 255.63,
     "speaker": "彥君",
     "text": "森林裡的 糞金龜",
     "is_pinned": false,
@@ -720,8 +720,8 @@
     "commands": []
   },
   {
-    "start": 255.86,
-    "end": 259.15,
+    "start": 255.83,
+    "end": 259.13,
     "speaker": "彥君",
     "text": "它是 消費者 還是 分解者",
     "is_pinned": false,
@@ -729,8 +729,8 @@
     "commands": []
   },
   {
-    "start": 259.35,
-    "end": 262.07,
+    "start": 259.33,
+    "end": 262.05,
     "speaker": "曉臻",
     "text": "糞金龜 是吃糞便的",
     "is_pinned": false,
@@ -738,8 +738,8 @@
     "commands": []
   },
   {
-    "start": 262.27,
-    "end": 264.85,
+    "start": 262.25,
+    "end": 264.82,
     "speaker": "曉臻",
     "text": "有吃 就是消費者",
     "is_pinned": false,
@@ -747,8 +747,8 @@
     "commands": []
   },
   {
-    "start": 265.05,
-    "end": 268.32,
+    "start": 265.02,
+    "end": 268.3,
     "speaker": "彥君",
     "text": "觀念 通了 人生就通",
     "is_pinned": false,
@@ -756,8 +756,8 @@
     "commands": []
   },
   {
-    "start": 268.52,
-    "end": 271.38,
+    "start": 268.5,
+    "end": 271.36,
     "speaker": "彥君",
     "text": "答案 釘在黑板上",
     "is_pinned": false,
@@ -765,7 +765,7 @@
     "commands": []
   },
   {
-    "start": 271.58,
+    "start": 271.56,
     "end": 9999.0,
     "speaker": "彥君",
     "text": "糞金龜 (有吃動作)→消費者",
@@ -777,8 +777,8 @@
     ]
   },
   {
-    "start": 275.97,
-    "end": 278.57,
+    "start": 275.94,
+    "end": 278.54,
     "speaker": "彥君",
     "text": "我是 彥君老師",
     "is_pinned": false,
@@ -786,8 +786,8 @@
     "commands": []
   },
   {
-    "start": 278.77,
-    "end": 281.1,
+    "start": 278.74,
+    "end": 281.08,
     "speaker": "曉臻",
     "text": "我是 曉臻助教",
     "is_pinned": false,
@@ -795,8 +795,8 @@
     "commands": []
   },
   {
-    "start": 281.3,
-    "end": 284.79,
+    "start": 281.28,
+    "end": 284.77,
     "speaker": "合聲",
     "text": "拆解難題 衝刺 A 級",
     "is_pinned": false,
@@ -804,8 +804,8 @@
     "commands": []
   },
   {
-    "start": 284.99,
-    "end": 288.29,
+    "start": 284.97,
+    "end": 288.26,
     "speaker": "合聲",
     "text": "戰士們 我們明天見",
     "is_pinned": false,
