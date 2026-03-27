@@ -1124,25 +1124,25 @@
   },
   {
     "start": 386.78,
-    "end": 389.31,
+    "end": 390.51,
     "speaker": "曉臻",
-    "text": "答案 是 食道",
+    "text": "答案  如果只負責運送的話是食道",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 389.51,
-    "end": 391.32,
+    "start": 390.71,
+    "end": 394.73,
     "speaker": "曉臻",
-    "text": "跟 大腸",
+    "text": "但是如果兩個都有的話則是大腸喔",
     "is_pinned": false,
     "pin_level": 0,
     "commands": []
   },
   {
-    "start": 391.52,
-    "end": 394.79,
+    "start": 394.93,
+    "end": 398.2,
     "speaker": "彥君",
     "text": "觀念通了 人生就通",
     "is_pinned": false,
@@ -1150,8 +1150,8 @@
     "commands": []
   },
   {
-    "start": 394.99,
-    "end": 397.59,
+    "start": 398.4,
+    "end": 401.0,
     "speaker": "彥君",
     "text": "我是 彥君老師",
     "is_pinned": false,
@@ -1159,8 +1159,8 @@
     "commands": []
   },
   {
-    "start": 397.79,
-    "end": 400.13,
+    "start": 401.2,
+    "end": 403.54,
     "speaker": "曉臻",
     "text": "我是 曉臻助教",
     "is_pinned": false,
@@ -1168,8 +1168,8 @@
     "commands": []
   },
   {
-    "start": 400.33,
-    "end": 403.72,
+    "start": 403.74,
+    "end": 407.13,
     "speaker": "合聲",
     "text": "消化難題 徹底吸收",
     "is_pinned": false,
@@ -1177,8 +1177,8 @@
     "commands": []
   },
   {
-    "start": 403.92,
-    "end": 407.22,
+    "start": 407.33,
+    "end": 410.62,
     "speaker": "合聲",
     "text": "戰士們 我們明天見",
     "is_pinned": false,
