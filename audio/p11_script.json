@@ -1,488 +1,735 @@
 [
   {
     "start": 0.0,
-    "end": 4.22,
+    "end": 3.92,
     "speaker": "彥君",
-    "text": "戰士們 血液外送員的旅程"
+    "text": "戰士們 血液外送員的旅程",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 4.22,
-    "end": 6.86,
+    "start": 4.12,
+    "end": 6.46,
     "speaker": "彥君",
-    "text": "還沒結束"
+    "text": "還沒結束",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 6.86,
-    "end": 10.19,
+    "start": 6.66,
+    "end": 9.69,
     "speaker": "彥君",
-    "text": "剛才的 補給站 邏輯"
+    "text": "剛才的 補給站 邏輯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 10.19,
-    "end": 13.09,
+    "start": 9.89,
+    "end": 12.49,
     "speaker": "彥君",
-    "text": "大家 都吸收了嗎"
+    "text": "大家 都吸收了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 13.09,
-    "end": 16.23,
+    "start": 12.69,
+    "end": 15.53,
     "speaker": "彥君",
-    "text": "今天 我們要進攻"
+    "text": "今天 我們要進攻",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 16.23,
-    "end": 19.58,
+    "start": 15.73,
+    "end": 18.78,
     "speaker": "彥君",
-    "text": "最後 三個 神祕站點"
+    "text": "最後 三個 神祕站點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 19.58,
-    "end": 23.01,
+    "start": 18.98,
+    "end": 22.11,
     "speaker": "彥君",
-    "text": "歡迎來到 第十一集"
+    "text": "歡迎來到 第十一集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 23.01,
-    "end": 25.91,
+    "start": 22.31,
+    "end": 24.91,
     "speaker": "彥君",
-    "text": "我是 彥君老師"
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 25.91,
-    "end": 27.95,
+    "start": 25.11,
+    "end": 26.85,
     "speaker": "曉臻",
-    "text": "大家好"
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 27.95,
-    "end": 30.58,
+    "start": 27.05,
+    "end": 29.38,
     "speaker": "曉臻",
-    "text": "我是 曉臻助教"
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 30.58,
-    "end": 34.68,
+    "start": 29.58,
+    "end": 33.38,
     "speaker": "彥君",
-    "text": "分別是 肺部、 肝臟 與 腎臟"
+    "text": "分別是 肺部、 肝臟 與 腎臟",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 34.68,
-    "end": 38.62,
+    "start": 33.58,
+    "end": 37.22,
     "speaker": "曉臻",
-    "text": "老師 這三站 功能完全不同"
+    "text": "老師 這三站 功能完全不同",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 38.62,
-    "end": 41.44,
+    "start": 37.42,
+    "end": 39.94,
     "speaker": "曉臻",
-    "text": "外送員 去這幾站"
+    "text": "外送員 去這幾站",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 41.44,
-    "end": 44.18,
+    "start": 40.14,
+    "end": 42.58,
     "speaker": "曉臻",
-    "text": "也是為了 換貨 嗎"
+    "text": "也是為了 換貨 嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 44.18,
-    "end": 48.85,
+    "start": 42.78,
+    "end": 47.15,
     "speaker": "彥君",
-    "text": "沒錯 我們 先看肺部"
+    "text": "沒錯 我們 先看肺部",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 48.85,
-    "end": 52.71,
+    "start": 47.35,
+    "end": 50.91,
     "speaker": "彥君",
-    "text": "戰士們 這是 全身唯一"
+    "text": "戰士們 這是 全身唯一",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 52.71,
-    "end": 56.28,
+    "start": 51.11,
+    "end": 54.38,
     "speaker": "彥君",
-    "text": "讓血液 起死回生 的地方"
+    "text": "讓血液 起死回生 的地方",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 56.28,
-    "end": 59.26,
+    "start": 54.58,
+    "end": 57.26,
     "speaker": "彥君",
-    "text": "外送員 去肺部"
+    "text": "外送員 去肺部",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 59.26,
-    "end": 63.52,
+    "start": 57.46,
+    "end": 61.42,
     "speaker": "彥君",
-    "text": "是為了 卸下廢氣、 載滿氧氣"
+    "text": "是為了 卸下廢氣、 載滿氧氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 63.52,
-    "end": 67.05,
+    "start": 61.62,
+    "end": 64.85,
     "speaker": "彥君",
-    "text": "所以 進去時 是缺氧血"
+    "text": "所以 進去時 是缺氧血",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 67.05,
-    "end": 69.9,
+    "start": 65.05,
+    "end": 67.6,
     "speaker": "彥君",
-    "text": "出來後 變成了"
+    "text": "出來後 變成了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 69.9,
-    "end": 72.8,
+    "start": 67.8,
+    "end": 70.4,
     "speaker": "彥君",
-    "text": "鮮紅的 動脈血"
+    "text": "鮮紅的 動脈血",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 72.8,
-    "end": 75.56,
+    "start": 70.6,
+    "end": 73.06,
     "speaker": "彥君",
-    "text": "但是 要小心喔"
+    "text": "但是 要小心喔",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 75.56,
-    "end": 78.34,
+    "start": 73.26,
+    "end": 75.74,
     "speaker": "彥君",
-    "text": "它是 肺靜脈"
+    "text": "它是 肺靜脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 78.34,
-    "end": 82.1,
+    "start": 75.94,
+    "end": 79.4,
     "speaker": "彥君",
-    "text": "此時 二氧化碳 全台最低"
+    "text": "此時 二氧化碳 全台最低",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 82.1,
-    "end": 85.41,
+    "start": 79.6,
+    "end": 82.61,
     "speaker": "彥君",
-    "text": "氧氣 則是 全台最高"
+    "text": "氧氣 則是 全台最高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 85.41,
-    "end": 93.06,
+    "start": 82.81,
+    "end": 105.27,
     "speaker": "彥君",
-    "text": "出來氧氣最高、二氧化碳最低]"
+    "text": "肺部： 出來氧氣最高、二氧化碳最低",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "肺部： 出來氧氣最高、二氧化碳最低"
+    ]
   },
   {
-    "start": 93.06,
-    "end": 96.7,
+    "start": 88.25,
+    "end": 91.59,
     "speaker": "曉臻",
-    "text": "哦 所以 只有肺部"
+    "text": "哦 所以 只有肺部",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 96.7,
-    "end": 99.63,
+    "start": 91.79,
+    "end": 94.42,
     "speaker": "曉臻",
-    "text": "是 二氧化碳 減少"
+    "text": "是 二氧化碳 減少",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 99.63,
-    "end": 103.25,
+    "start": 94.62,
+    "end": 97.94,
     "speaker": "曉臻",
-    "text": "其他站 都是 二氧化碳 增加"
+    "text": "其他站 都是 二氧化碳 增加",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 103.25,
-    "end": 105.14,
+    "start": 98.14,
+    "end": 99.73,
     "speaker": "曉臻",
-    "text": "對吧"
+    "text": "對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 105.14,
-    "end": 107.58,
+    "start": 99.93,
+    "end": 102.07,
     "speaker": "彥君",
-    "text": "聰明"
+    "text": "聰明",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 107.58,
-    "end": 113.34,
+    "start": 105.27,
+    "end": 108.04,
     "speaker": "彥君",
-    "text": "[給你們 3 秒鐘消化] [清空釘選]"
+    "text": "接下來 看肝臟",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 113.34,
-    "end": 116.41,
+    "start": 108.24,
+    "end": 111.73,
     "speaker": "彥君",
-    "text": "接下來 看肝臟"
+    "text": "肝臟是 身體的 化學加工廠",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 116.41,
-    "end": 120.2,
+    "start": 111.93,
+    "end": 115.03,
     "speaker": "彥君",
-    "text": "肝臟是 身體的 化學加工廠"
+    "text": "我們 剛從 小腸領到的 氨",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "氨"
+    ]
   },
   {
-    "start": 120.2,
-    "end": 124.22,
+    "start": 115.23,
+    "end": 118.41,
     "speaker": "彥君",
-    "text": "我們 剛從 小腸領到的 [氨]"
+    "text": "會被送到 肝臟 轉化",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 124.22,
-    "end": 127.7,
+    "start": 118.61,
+    "end": 121.95,
     "speaker": "彥君",
-    "text": "會被送到 肝臟 轉化"
+    "text": "轉化成 比較沒毒的 尿素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 127.7,
-    "end": 131.34,
+    "start": 122.15,
+    "end": 125.59,
     "speaker": "彥君",
-    "text": "轉化成 比較沒毒的 尿素"
+    "text": "所以 從肝臟 出來的血液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 131.34,
-    "end": 135.08,
+    "start": 125.79,
+    "end": 128.34,
     "speaker": "彥君",
-    "text": "所以 從肝臟 出來的血液"
+    "text": "有一個 大重點",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 135.08,
-    "end": 138.3,
+    "start": 128.54,
+    "end": 131.46,
     "speaker": "彥君",
-    "text": "尿素的濃度 會變高"
+    "text": "尿素的濃度 會變高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 138.3,
-    "end": 146.14,
+    "start": 131.66,
+    "end": 140.05,
     "speaker": "彥君",
-    "text": "將氨轉為尿素出來尿素變高]"
+    "text": "肝臟： 將氨轉為尿素-出來尿素變高",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "肝臟： 將氨轉為尿素-出來尿素變高"
+    ]
   },
   {
-    "start": 146.14,
-    "end": 148.9,
-    "speaker": "彥君",
-    "text": "[清空釘選]"
-  },
-  {
-    "start": 148.9,
-    "end": 151.34,
+    "start": 140.05,
+    "end": 142.19,
     "speaker": "曉臻",
-    "text": "那 最後一站"
+    "text": "那 最後一站",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 151.34,
-    "end": 153.45,
+    "start": 142.39,
+    "end": 144.2,
     "speaker": "曉臻",
-    "text": "腎臟 呢"
+    "text": "腎臟 呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 153.45,
-    "end": 156.88,
+    "start": 144.4,
+    "end": 147.53,
     "speaker": "彥君",
-    "text": "腎臟 是 廢水處理廠"
+    "text": "腎臟 是 廢水處理廠",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 156.88,
-    "end": 160.54,
+    "start": 147.73,
+    "end": 151.1,
     "speaker": "彥君",
-    "text": "外送員 把在 肝臟領到的"
+    "text": "外送員 把在 肝臟領到的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 160.54,
-    "end": 164.0,
+    "start": 151.3,
+    "end": 154.45,
     "speaker": "彥君",
-    "text": "尿素 送到這裡"
+    "text": "尿素 送到這裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 164.0,
-    "end": 166.58,
+    "start": 154.65,
+    "end": 156.94,
     "speaker": "彥君",
-    "text": "透過 過濾"
+    "text": "透過 過濾",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 166.58,
-    "end": 169.51,
+    "start": 157.14,
+    "end": 159.76,
     "speaker": "彥君",
-    "text": "變成 尿液排出"
+    "text": "變成 尿液排出",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 169.51,
-    "end": 173.25,
+    "start": 159.96,
+    "end": 163.4,
     "speaker": "彥君",
-    "text": "所以 從腎臟 出來的血液"
+    "text": "所以 從腎臟 出來的血液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 173.25,
-    "end": 176.27,
+    "start": 163.6,
+    "end": 166.32,
     "speaker": "彥君",
-    "text": "尿素 全台最低"
+    "text": "尿素 全台最低",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 176.27,
-    "end": 183.25,
+    "start": 166.52,
+    "end": 174.5,
     "speaker": "彥君",
-    "text": "過濾尿素出來尿素最低]"
+    "text": "腎臟： 過濾尿素-出來尿素最低",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "腎臟： 過濾尿素-出來尿素最低"
+    ]
   },
   {
-    "start": 183.25,
-    "end": 188.93,
+    "start": 174.5,
+    "end": 177.3,
+    "speaker": "曉臻",
+    "text": "老師 我整理一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 177.5,
+    "end": 179.69,
+    "speaker": "曉臻",
+    "text": "肺部 洗氧氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 179.89,
+    "end": 182.01,
+    "speaker": "曉臻",
+    "text": "肝臟 造尿素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 182.21,
+    "end": 184.42,
+    "speaker": "曉臻",
+    "text": "腎臟 丟尿素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 184.62,
+    "end": 188.16,
+    "speaker": "曉臻",
+    "text": "戰士們 大魔王 總複習來了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 188.36,
+    "end": 190.53,
+    "speaker": "曉臻",
+    "text": "第一 肺部",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 190.73,
+    "end": 193.4,
+    "speaker": "曉臻",
+    "text": "出來的血 氧氣最高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 193.6,
+    "end": 195.91,
+    "speaker": "曉臻",
+    "text": "二氧化碳 最低",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 196.11,
+    "end": 198.35,
+    "speaker": "曉臻",
+    "text": "第二 肝臟",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 198.55,
+    "end": 200.79,
+    "speaker": "曉臻",
+    "text": "把氨 變成尿素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "氨"
+    ]
+  },
+  {
+    "start": 200.99,
+    "end": 204.0,
+    "speaker": "曉臻",
+    "text": "所以 出來的血 尿素變高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 204.2,
+    "end": 206.54,
+    "speaker": "曉臻",
+    "text": "第三 腎臟",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 206.74,
+    "end": 208.66,
+    "speaker": "曉臻",
+    "text": "過濾尿素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 208.86,
+    "end": 211.92,
+    "speaker": "曉臻",
+    "text": "所以 出來的血 尿素最低",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 212.12,
+    "end": 215.32,
     "speaker": "彥君",
-    "text": "[給你們 3 秒鐘筆記] [清空釘選]"
+    "text": "戰士們 閉上眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 188.93,
-    "end": 192.02,
-    "speaker": "曉臻",
-    "text": "老師 我整理一下"
-  },
-  {
-    "start": 192.02,
-    "end": 194.52,
-    "speaker": "曉臻",
-    "text": "肺部 洗氧氣"
-  },
-  {
-    "start": 194.52,
-    "end": 196.94,
-    "speaker": "曉臻",
-    "text": "肝臟 造尿素"
-  },
-  {
-    "start": 196.94,
-    "end": 199.45,
-    "speaker": "曉臻",
-    "text": "腎臟 丟尿素"
-  },
-  {
-    "start": 199.45,
-    "end": 203.29,
-    "speaker": "曉臻",
-    "text": "戰士們 大魔王 總複習來了"
-  },
-  {
-    "start": 203.29,
-    "end": 205.76,
-    "speaker": "曉臻",
-    "text": "第一 肺部"
-  },
-  {
-    "start": 205.76,
-    "end": 208.73,
-    "speaker": "曉臻",
-    "text": "出來的血 氧氣最高"
-  },
-  {
-    "start": 208.73,
-    "end": 211.34,
-    "speaker": "曉臻",
-    "text": "二氧化碳 最低"
-  },
-  {
-    "start": 211.34,
-    "end": 213.88,
-    "speaker": "曉臻",
-    "text": "第二 肝臟"
-  },
-  {
-    "start": 213.88,
-    "end": 216.88,
-    "speaker": "曉臻",
-    "text": "把[氨] 變成尿素"
-  },
-  {
-    "start": 216.88,
-    "end": 220.18,
-    "speaker": "曉臻",
-    "text": "所以 出來的血 尿素變高"
-  },
-  {
-    "start": 220.18,
-    "end": 222.82,
-    "speaker": "曉臻",
-    "text": "第三 腎臟"
-  },
-  {
-    "start": 222.82,
-    "end": 225.05,
-    "speaker": "曉臻",
-    "text": "過濾尿素"
-  },
-  {
-    "start": 225.05,
-    "end": 228.4,
-    "speaker": "曉臻",
-    "text": "所以 出來的血 尿素最低"
-  },
-  {
-    "start": 228.4,
-    "end": 231.9,
+    "start": 215.52,
+    "end": 217.71,
     "speaker": "彥君",
-    "text": "戰士們 閉上眼睛"
+    "text": "想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 231.9,
-    "end": 234.76,
+    "start": 217.91,
+    "end": 220.46,
     "speaker": "彥君",
-    "text": "如果 考試問你"
+    "text": "如果 考試問你",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 234.76,
-    "end": 238.3,
+    "start": 220.66,
+    "end": 223.91,
     "speaker": "彥君",
-    "text": "哪一個 器官出來的血液"
+    "text": "哪一個 器官出來的血液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 238.3,
-    "end": 242.14,
+    "start": 224.11,
+    "end": 227.65,
     "speaker": "彥君",
-    "text": "尿素的濃度 是全台灣最低的"
+    "text": "尿素的濃度 是全台灣最低的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 242.14,
-    "end": 244.51,
+    "start": 227.85,
+    "end": 229.92,
     "speaker": "曉臻",
-    "text": "答案是 腎臟"
+    "text": "答案是 腎臟",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 244.51,
-    "end": 247.65,
+    "start": 230.12,
+    "end": 232.96,
     "speaker": "曉臻",
-    "text": "因為它 剛把 尿素丟掉"
+    "text": "因為它 剛把 尿素丟掉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 247.65,
-    "end": 250.0,
+    "start": 233.16,
+    "end": 235.21,
     "speaker": "彥君",
-    "text": "漂亮"
+    "text": "漂亮",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 250.0,
-    "end": 253.16,
+    "start": 235.41,
+    "end": 238.27,
     "speaker": "彥君",
-    "text": "這 五大站點的 邏輯"
+    "text": "這 五大站點的 邏輯",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 253.16,
-    "end": 256.06,
+    "start": 238.47,
+    "end": 241.07,
     "speaker": "彥君",
-    "text": "你已經 全拿了"
+    "text": "你已經 全拿了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 256.06,
-    "end": 259.64,
+    "start": 241.27,
+    "end": 244.54,
     "speaker": "彥君",
-    "text": "觀念通了 人生就通"
+    "text": "觀念通了 人生就通",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 259.64,
-    "end": 262.54,
+    "start": 244.74,
+    "end": 247.34,
     "speaker": "彥君",
-    "text": "我是 彥君老師"
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 262.54,
-    "end": 265.17,
+    "start": 247.54,
+    "end": 249.88,
     "speaker": "曉臻",
-    "text": "我是 曉臻助教"
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 265.17,
-    "end": 268.53,
-    "speaker": "曉臻",
-    "text": "邏輯通透 生物神準"
+    "start": 250.08,
+    "end": 253.54,
+    "speaker": "合聲",
+    "text": "邏輯通透 生物神準",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 268.53,
-    "end": 272.15,
-    "speaker": "曉臻",
-    "text": "戰士們 下張投影片見"
+    "start": 253.74,
+    "end": 257.38,
+    "speaker": "合聲",
+    "text": "戰士們 下張投影片見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
