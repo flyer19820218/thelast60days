@@ -1,1076 +1,1630 @@
 [
   {
     "start": 0.0,
-    "end": 3.45,
+    "end": 3.15,
     "speaker": "彥君",
-    "text": "戰士們 準備好了嗎"
+    "text": "戰士們 準備好了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 3.45,
-    "end": 7.02,
+    "start": 3.35,
+    "end": 6.62,
     "speaker": "彥君",
-    "text": "這是 生物科的 最終魔王"
+    "text": "這是 生物科的 最終魔王",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 7.02,
-    "end": 10.88,
+    "start": 6.82,
+    "end": 10.38,
     "speaker": "彥君",
-    "text": "資訊量 堪稱 全課本之冠"
+    "text": "資訊量 堪稱 全課本之冠",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 10.88,
-    "end": 15.32,
+    "start": 10.58,
+    "end": 14.72,
     "speaker": "彥君",
-    "text": "血液、 血管、 心臟 與 淋巴"
+    "text": "血液、 血管、 心臟 與 淋巴",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 15.32,
-    "end": 18.51,
+    "start": 14.92,
+    "end": 17.81,
     "speaker": "彥君",
-    "text": "準備好 徹底貫通 了嗎"
+    "text": "準備好 徹底貫通 了嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 18.51,
-    "end": 21.98,
+    "start": 18.01,
+    "end": 21.18,
     "speaker": "彥君",
-    "text": "歡迎來到 第十二集"
+    "text": "歡迎來到 第十二集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 21.98,
-    "end": 24.88,
+    "start": 21.38,
+    "end": 23.98,
     "speaker": "彥君",
-    "text": "我是 彥君老師"
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 24.88,
-    "end": 26.92,
+    "start": 24.18,
+    "end": 25.92,
     "speaker": "曉臻",
-    "text": "大家好"
+    "text": "大家好",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 26.92,
-    "end": 29.56,
+    "start": 26.12,
+    "end": 28.46,
     "speaker": "曉臻",
-    "text": "我是 曉臻助教"
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 29.56,
-    "end": 32.5,
+    "start": 28.66,
+    "end": 31.3,
     "speaker": "曉臻",
-    "text": "老師 我們先從"
+    "text": "老師 我們先從",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 32.5,
-    "end": 35.86,
+    "start": 31.5,
+    "end": 34.56,
     "speaker": "曉臻",
-    "text": "血液的成分 開始拆解吧"
+    "text": "血液的成分 開始拆解吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 35.86,
-    "end": 40.9,
+    "start": 34.76,
+    "end": 39.5,
     "speaker": "彥君",
-    "text": "沒錯 血液 分成兩大塊"
+    "text": "沒錯 血液 分成兩大塊",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 40.9,
-    "end": 43.92,
+    "start": 39.7,
+    "end": 42.42,
     "speaker": "彥君",
-    "text": "血漿 與 血球"
+    "text": "血漿 與 血球",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 43.92,
-    "end": 47.54,
+    "start": 42.62,
+    "end": 45.94,
     "speaker": "彥君",
-    "text": "血漿 佔了 百分之五十五"
+    "text": "血漿 佔了 百分之五十五",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 47.54,
-    "end": 50.75,
+    "start": 46.14,
+    "end": 49.05,
     "speaker": "彥君",
-    "text": "大部分 都是水分"
+    "text": "大部分 都是水分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 50.75,
-    "end": 53.96,
+    "start": 49.25,
+    "end": 52.16,
     "speaker": "彥君",
-    "text": "任務是 運送養分"
+    "text": "任務是 運送養分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 53.96,
-    "end": 57.15,
+    "start": 52.36,
+    "end": 55.25,
     "speaker": "彥君",
-    "text": "廢物 跟 二氧化碳"
+    "text": "廢物 跟 二氧化碳",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 57.15,
-    "end": 61.58,
+    "start": 55.45,
+    "end": 58.84,
     "speaker": "曉臻",
-    "text": "老師 聽說 [激素] 跟抗體"
+    "text": "老師 聽說 激素 跟抗體",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "激素"
+    ]
   },
   {
-    "start": 61.58,
-    "end": 64.2,
+    "start": 59.04,
+    "end": 61.35,
     "speaker": "曉臻",
-    "text": "也是 它運送的"
+    "text": "也是 它運送的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 64.2,
-    "end": 69.38,
+    "start": 61.55,
+    "end": 66.07,
     "speaker": "彥君",
-    "text": "沒錯 [激素] 坐在血漿"
+    "text": "沒錯 激素 坐在血漿",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "激素"
+    ]
   },
   {
-    "start": 69.38,
-    "end": 72.64,
+    "start": 66.27,
+    "end": 69.23,
     "speaker": "彥君",
-    "text": "高速公路 到達全身"
+    "text": "高速公路 到達全身",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 72.64,
-    "end": 76.26,
+    "start": 69.43,
+    "end": 72.75,
     "speaker": "彥君",
-    "text": "抗體 也溶在 血漿裡面"
+    "text": "抗體 也溶在 血漿裡面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 76.26,
-    "end": 87.84,
+    "start": 72.95,
+    "end": 173.35,
     "speaker": "彥君",
-    "text": "[釘選] [血漿運送水、養分、廢物、激素、抗體]"
+    "text": "血漿-運送水、養分、廢物、激素、抗體",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "血漿-運送水、養分、廢物、激素、抗體"
+    ]
   },
   {
-    "start": 87.84,
-    "end": 91.03,
+    "start": 79.14,
+    "end": 82.02,
     "speaker": "曉臻",
-    "text": "接著看 沉澱在下方的"
+    "text": "接著看 沉澱在下方的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 91.03,
-    "end": 93.5,
+    "start": 82.22,
+    "end": 84.39,
     "speaker": "曉臻",
-    "text": "三種血球"
+    "text": "三種血球",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 93.5,
-    "end": 96.98,
+    "start": 84.59,
+    "end": 87.77,
     "speaker": "彥君",
-    "text": "第一種 紅血球"
+    "text": "第一種 紅血球",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 96.98,
-    "end": 100.91,
+    "start": 87.97,
+    "end": 91.6,
     "speaker": "彥君",
-    "text": "數量最多 像 雙凹圓盤"
+    "text": "數量最多 像 雙凹圓盤",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 100.91,
+    "start": 91.8,
+    "end": 94.35,
+    "speaker": "彥君",
+    "text": "含有 血紅素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 94.55,
+    "end": 97.73,
+    "speaker": "彥君",
+    "text": "專門負責 運送氧氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 97.93,
+    "end": 100.38,
+    "speaker": "曉臻",
+    "text": "老師 為什麼",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 100.58,
     "end": 103.76,
-    "speaker": "彥君",
-    "text": "含有 血紅素"
-  },
-  {
-    "start": 103.76,
-    "end": 107.24,
-    "speaker": "彥君",
-    "text": "專門負責 運送氧氣"
-  },
-  {
-    "start": 107.24,
-    "end": 109.99,
     "speaker": "曉臻",
-    "text": "老師 為什麼"
+    "text": "成熟的 紅血球 沒細胞核",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 109.99,
-    "end": 113.47,
+    "start": 103.96,
+    "end": 106.85,
+    "speaker": "彥君",
+    "text": "為了 載 更多氧氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 107.05,
+    "end": 109.91,
+    "speaker": "彥君",
+    "text": "它把 細胞核 丟掉了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 110.11,
+    "end": 112.78,
     "speaker": "曉臻",
-    "text": "成熟的 紅血球 沒細胞核"
+    "text": "那 如果住在 高山上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 113.47,
-    "end": 116.66,
-    "speaker": "彥君",
-    "text": "為了 載 更多氧氣"
-  },
-  {
-    "start": 116.66,
-    "end": 119.82,
-    "speaker": "彥君",
-    "text": "它把 細胞核 丟掉了"
-  },
-  {
-    "start": 119.82,
-    "end": 122.79,
+    "start": 112.98,
+    "end": 115.49,
     "speaker": "曉臻",
-    "text": "那 如果住在 高山上"
+    "text": "紅血球 會變多嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 122.79,
-    "end": 125.6,
+    "start": 115.69,
+    "end": 120.33,
+    "speaker": "彥君",
+    "text": "會的 為了 搶奪 稀薄氧氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 120.53,
+    "end": 123.42,
+    "speaker": "彥君",
+    "text": "身體會 生產更多",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 123.62,
+    "end": 173.35,
+    "speaker": "彥君",
+    "text": "紅血球-無核-運送氧氣",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "紅血球-無核-運送氧氣"
+    ]
+  },
+  {
+    "start": 128.29,
+    "end": 130.84,
     "speaker": "曉臻",
-    "text": "紅血球 會變多嗎"
+    "text": "第二種 是 白血球",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 125.6,
-    "end": 130.54,
-    "speaker": "彥君",
-    "text": "會的 為了 搶奪 稀薄氧氣"
-  },
-  {
-    "start": 130.54,
-    "end": 133.72,
-    "speaker": "彥君",
-    "text": "身體會 生產更多"
-  },
-  {
-    "start": 133.72,
-    "end": 141.78,
-    "speaker": "彥君",
-    "text": "[釘選] [紅血球無核運送氧氣]"
-  },
-  {
-    "start": 141.78,
-    "end": 144.64,
+    "start": 131.04,
+    "end": 133.71,
     "speaker": "曉臻",
-    "text": "第二種 是 白血球"
+    "text": "它比 紅血球 大很多",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 144.64,
-    "end": 147.61,
+    "start": 133.91,
+    "end": 137.02,
+    "speaker": "彥君",
+    "text": "白血球 是 身體警察",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 137.22,
+    "end": 140.51,
+    "speaker": "彥君",
+    "text": "有核 而且能變形",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 140.71,
+    "end": 143.74,
+    "speaker": "彥君",
+    "text": "它會 穿過 微血管壁",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 143.94,
+    "end": 146.83,
+    "speaker": "彥君",
+    "text": "去把 細菌 吞噬掉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 147.03,
+    "end": 149.75,
     "speaker": "曉臻",
-    "text": "它比 紅血球 大很多"
+    "text": "如果 身體 正在發炎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 147.61,
-    "end": 151.01,
-    "speaker": "彥君",
-    "text": "白血球 是 身體警察"
-  },
-  {
-    "start": 151.01,
-    "end": 154.61,
-    "speaker": "彥君",
-    "text": "有核 而且能變形"
-  },
-  {
-    "start": 154.61,
-    "end": 157.94,
-    "speaker": "彥君",
-    "text": "它會 穿過 微血管壁"
-  },
-  {
-    "start": 157.94,
-    "end": 161.13,
-    "speaker": "彥君",
-    "text": "去把 細菌 吞噬掉"
-  },
-  {
-    "start": 161.13,
-    "end": 164.15,
+    "start": 149.95,
+    "end": 152.91,
     "speaker": "曉臻",
-    "text": "如果 身體 正在發炎"
+    "text": "白血球 數量 就會飆高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 164.15,
-    "end": 167.41,
+    "start": 153.11,
+    "end": 156.0,
+    "speaker": "彥君",
+    "text": "第三種 是 血小板",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 156.2,
+    "end": 158.97,
+    "speaker": "彥君",
+    "text": "它是 體積最小的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 159.17,
+    "end": 161.5,
+    "speaker": "彥君",
+    "text": "它沒有核",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 161.7,
+    "end": 164.74,
+    "speaker": "彥君",
+    "text": "任務 就是 凝固止血",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 164.94,
+    "end": 173.35,
+    "speaker": "彥君",
+    "text": "白血球-有核-吞噬;血小板-無核-凝血",
+    "is_pinned": true,
+    "pin_level": 3,
+    "commands": [
+      "釘選",
+      "白血球-有核-吞噬;血小板-無核-凝血"
+    ]
+  },
+  {
+    "start": 173.35,
+    "end": 175.47,
     "speaker": "曉臻",
-    "text": "白血球 數量 就會飆高"
+    "text": "了解了成分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 167.41,
-    "end": 170.6,
-    "speaker": "彥君",
-    "text": "第三種 是 血小板"
-  },
-  {
-    "start": 170.6,
-    "end": 173.66,
-    "speaker": "彥君",
-    "text": "它是 體積最小的"
-  },
-  {
-    "start": 173.66,
-    "end": 176.3,
-    "speaker": "彥君",
-    "text": "它沒有核"
-  },
-  {
-    "start": 176.3,
-    "end": 179.63,
-    "speaker": "彥君",
-    "text": "任務 就是 凝固止血"
-  },
-  {
-    "start": 179.63,
-    "end": 190.52,
-    "speaker": "彥君",
-    "text": "[釘選] [白血球有核吞噬;血小板無核凝血]"
-  },
-  {
-    "start": 190.52,
-    "end": 196.14,
-    "speaker": "彥君",
-    "text": "[給你們 3 秒鐘記憶] [清空釘選]"
-  },
-  {
-    "start": 196.14,
-    "end": 198.56,
+    "start": 175.67,
+    "end": 178.39,
     "speaker": "曉臻",
-    "text": "了解了成分"
+    "text": "接著來看 心臟結構",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 178.59,
+    "end": 182.34,
+    "speaker": "彥君",
+    "text": "戰士們 心法 只有四個字",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 182.54,
+    "end": 185.77,
+    "speaker": "彥君",
+    "text": "房接室 室接動",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 185.97,
+    "end": 189.29,
+    "speaker": "彥君",
+    "text": "血液 永遠 從心房進來",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 189.49,
+    "end": 192.38,
+    "speaker": "彥君",
+    "text": "交給心室 噴出去",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 192.58,
+    "end": 195.18,
+    "speaker": "曉臻",
+    "text": "老師 那圖上",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 195.38,
+    "end": 198.36,
+    "speaker": "曉臻",
+    "text": "紅色跟藍色的血 怎麼分",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 198.56,
-    "end": 201.58,
+    "end": 202.74,
+    "speaker": "彥君",
+    "text": "記住 含氧量高的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 202.94,
+    "end": 206.65,
+    "speaker": "彥君",
+    "text": "叫 充氧血 圖上畫紅色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 206.85,
+    "end": 209.28,
+    "speaker": "彥君",
+    "text": "含氧量低的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 209.48,
+    "end": 213.06,
+    "speaker": "彥君",
+    "text": "叫 缺氧血 圖上畫藍色",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 213.26,
+    "end": 216.37,
     "speaker": "曉臻",
-    "text": "接著來看 心臟結構"
+    "text": "心臟裡面 是不是有隔間",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 201.58,
-    "end": 205.63,
-    "speaker": "彥君",
-    "text": "戰士們 心法 只有四個字"
-  },
-  {
-    "start": 205.63,
-    "end": 209.15,
-    "speaker": "彥君",
-    "text": "房接室 室接動"
-  },
-  {
-    "start": 209.15,
-    "end": 212.77,
-    "speaker": "彥君",
-    "text": "血液 永遠 從心房進來"
-  },
-  {
-    "start": 212.77,
-    "end": 215.96,
-    "speaker": "彥君",
-    "text": "交給心室 噴出去"
-  },
-  {
-    "start": 215.96,
-    "end": 218.86,
+    "start": 216.57,
+    "end": 219.22,
     "speaker": "曉臻",
-    "text": "老師 那圖上"
+    "text": "防止 它們混在一起",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 218.86,
-    "end": 222.14,
+    "start": 219.42,
+    "end": 223.98,
+    "speaker": "彥君",
+    "text": "沒錯 左心房 左心室",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 224.18,
+    "end": 227.07,
+    "speaker": "彥君",
+    "text": "永遠 流著 充氧血",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 227.27,
+    "end": 230.06,
+    "speaker": "彥君",
+    "text": "右心房 右心室",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 230.26,
+    "end": 233.15,
+    "speaker": "彥君",
+    "text": "永遠 流著 缺氧血",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 233.35,
+    "end": 296.23,
+    "speaker": "彥君",
+    "text": "左心-充氧血-紅;右心-缺氧血-藍",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "左心-充氧血-紅;右心-缺氧血-藍"
+    ]
+  },
+  {
+    "start": 239.56,
+    "end": 242.62,
     "speaker": "曉臻",
-    "text": "紅色跟藍色的血 怎麼分"
+    "text": "老師 為什麼 左心室",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 222.14,
-    "end": 226.63,
-    "speaker": "彥君",
-    "text": "記住 含氧量高的"
-  },
-  {
-    "start": 226.63,
-    "end": 230.63,
-    "speaker": "彥君",
-    "text": "叫 充氧血 圖上畫紅色"
-  },
-  {
-    "start": 230.63,
-    "end": 233.36,
-    "speaker": "彥君",
-    "text": "含氧量低的"
-  },
-  {
-    "start": 233.36,
-    "end": 237.25,
-    "speaker": "彥君",
-    "text": "叫 缺氧血 圖上畫藍色"
-  },
-  {
-    "start": 237.25,
-    "end": 240.65,
+    "start": 242.82,
+    "end": 245.13,
     "speaker": "曉臻",
-    "text": "心臟裡面 是不是有隔間"
+    "text": "它的壁 特別厚",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 240.65,
-    "end": 243.6,
+    "start": 245.33,
+    "end": 248.05,
+    "speaker": "彥君",
+    "text": "因為 它要負責",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 248.25,
+    "end": 251.9,
+    "speaker": "彥君",
+    "text": "把血 噴向全身 壓力最大",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 252.1,
+    "end": 254.9,
     "speaker": "曉臻",
-    "text": "防止 它們混在一起"
+    "text": "老師 心臟裡面",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 243.6,
-    "end": 248.47,
-    "speaker": "彥君",
-    "text": "沒錯 左心房 左心室"
-  },
-  {
-    "start": 248.47,
-    "end": 251.66,
-    "speaker": "彥君",
-    "text": "永遠 流著 充氧血"
-  },
-  {
-    "start": 251.66,
-    "end": 254.75,
-    "speaker": "彥君",
-    "text": "右心房 右心室"
-  },
-  {
-    "start": 254.75,
-    "end": 257.94,
-    "speaker": "彥君",
-    "text": "永遠 流著 缺氧血"
-  },
-  {
-    "start": 257.94,
-    "end": 269.33,
-    "speaker": "彥君",
-    "text": "[釘選] [左心充氧血紅;右心缺氧血藍]"
-  },
-  {
-    "start": 269.33,
-    "end": 272.69,
+    "start": 255.1,
+    "end": 257.41,
     "speaker": "曉臻",
-    "text": "老師 為什麼 左心室"
+    "text": "還有 瓣膜 對吧",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "瓣膜"
+    ]
   },
   {
-    "start": 272.69,
-    "end": 275.3,
+    "start": 257.61,
+    "end": 262.25,
+    "speaker": "彥君",
+    "text": "是的 房室之間 有瓣膜",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "瓣膜"
+    ]
+  },
+  {
+    "start": 262.45,
+    "end": 265.17,
+    "speaker": "彥君",
+    "text": "室動之間 也有",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 265.37,
+    "end": 267.99,
+    "speaker": "彥君",
+    "text": "瓣膜 關閉的聲音",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "瓣膜"
+    ]
+  },
+  {
+    "start": 268.19,
+    "end": 271.1,
+    "speaker": "彥君",
+    "text": "就是 我們 聽到的心音",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 271.3,
+    "end": 273.45,
     "speaker": "曉臻",
-    "text": "它的壁 特別厚"
+    "text": "戰士們記住",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 275.3,
-    "end": 278.32,
-    "speaker": "彥君",
-    "text": "因為 它要負責"
-  },
-  {
-    "start": 278.32,
-    "end": 282.28,
-    "speaker": "彥君",
-    "text": "把血 噴向全身 壓力最大"
-  },
-  {
-    "start": 282.28,
-    "end": 285.37,
+    "start": 273.65,
+    "end": 276.68,
     "speaker": "曉臻",
-    "text": "老師 心臟裡面"
+    "text": "全身 有三個地方 有瓣膜",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "瓣膜"
+    ]
   },
   {
-    "start": 285.37,
-    "end": 288.65,
+    "start": 276.88,
+    "end": 280.2,
     "speaker": "曉臻",
-    "text": "還有 [瓣膜] 對吧"
+    "text": "第一是心臟 第二是靜脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 288.65,
-    "end": 294.17,
-    "speaker": "彥君",
-    "text": "是的 房室之間 有[瓣膜]"
-  },
-  {
-    "start": 294.17,
-    "end": 297.19,
-    "speaker": "彥君",
-    "text": "室動之間 也有"
-  },
-  {
-    "start": 297.19,
-    "end": 300.42,
-    "speaker": "彥君",
-    "text": "[瓣膜] 關閉的聲音"
-  },
-  {
-    "start": 300.42,
-    "end": 303.64,
-    "speaker": "彥君",
-    "text": "就是 我們 聽到的心音"
-  },
-  {
-    "start": 303.64,
-    "end": 306.08,
+    "start": 280.4,
+    "end": 282.69,
     "speaker": "曉臻",
-    "text": "戰士們記住"
+    "text": "第三是 淋巴管",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 306.08,
-    "end": 310.16,
+    "start": 282.89,
+    "end": 285.82,
+    "speaker": "彥君",
+    "text": "這三個地方 壓力小",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 286.02,
+    "end": 288.74,
+    "speaker": "彥君",
+    "text": "都需要 瓣膜 守門",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "瓣膜"
+    ]
+  },
+  {
+    "start": 288.94,
+    "end": 296.23,
+    "speaker": "彥君",
+    "text": "瓣膜位置： 心臟、靜脈、淋巴管",
+    "is_pinned": true,
+    "pin_level": 2,
+    "commands": [
+      "釘選",
+      "瓣膜位置： 心臟、靜脈、淋巴管"
+    ]
+  },
+  {
+    "start": 296.23,
+    "end": 298.3,
     "speaker": "曉臻",
-    "text": "全身 有三個地方 有[瓣膜]"
+    "text": "接著我們看",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 310.16,
-    "end": 313.78,
+    "start": 298.5,
+    "end": 301.27,
     "speaker": "曉臻",
-    "text": "第一是心臟 第二是靜脈"
+    "text": "兩大血液循環 的路徑",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 313.78,
-    "end": 316.36,
+    "start": 301.47,
+    "end": 304.12,
+    "speaker": "彥君",
+    "text": "先看 體循環",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 304.32,
+    "end": 307.86,
+    "speaker": "彥君",
+    "text": "左心室出發 流充氧血",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 308.06,
+    "end": 310.3,
+    "speaker": "彥君",
+    "text": "到 主動脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 310.5,
+    "end": 313.55,
+    "speaker": "彥君",
+    "text": "再到 全身組織 交換",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 313.75,
+    "end": 316.23,
+    "speaker": "彥君",
+    "text": "氧氣 被拿走",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 316.43,
+    "end": 319.87,
+    "speaker": "彥君",
+    "text": "出來 變成藍色的 缺氧血",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 320.07,
+    "end": 322.94,
+    "speaker": "彥君",
+    "text": "最後 經由 大靜脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 323.14,
+    "end": 325.76,
+    "speaker": "彥君",
+    "text": "回到 右心房",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 325.96,
+    "end": 328.42,
     "speaker": "曉臻",
-    "text": "第三是 淋巴管"
+    "text": "那 接力賽 下半場",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 316.36,
-    "end": 319.6,
-    "speaker": "彥君",
-    "text": "這三個地方 壓力小"
-  },
-  {
-    "start": 319.6,
-    "end": 323.41,
-    "speaker": "彥君",
-    "text": "都需要 [瓣膜] 守門"
-  },
-  {
-    "start": 323.41,
-    "end": 329.91,
-    "speaker": "彥君",
-    "text": "心臟、靜脈、淋巴管]"
-  },
-  {
-    "start": 329.91,
-    "end": 332.67,
-    "speaker": "彥君",
-    "text": "[清空釘選]"
-  },
-  {
-    "start": 332.67,
-    "end": 335.04,
+    "start": 328.62,
+    "end": 330.95,
     "speaker": "曉臻",
-    "text": "接著我們看"
+    "text": "就是 肺循環囉",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 335.04,
-    "end": 338.11,
+    "start": 331.15,
+    "end": 335.29,
+    "speaker": "彥君",
+    "text": "沒錯 右心室出發",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 335.49,
+    "end": 338.45,
+    "speaker": "彥君",
+    "text": "流缺氧血 到 肺動脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 338.65,
+    "end": 342.95,
+    "speaker": "彥君",
+    "text": "注意 肺動脈 是唯一",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 343.15,
+    "end": 345.82,
+    "speaker": "彥君",
+    "text": "流缺氧血 的動脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 346.02,
+    "end": 348.67,
+    "speaker": "彥君",
+    "text": "到肺部 換完氣",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 348.87,
+    "end": 351.93,
+    "speaker": "彥君",
+    "text": "變回 紅色的 充氧血",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 352.13,
+    "end": 354.68,
+    "speaker": "彥君",
+    "text": "經由 肺靜脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 354.88,
+    "end": 357.53,
+    "speaker": "彥君",
+    "text": "回到 左心房",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 357.73,
+    "end": 365.35,
+    "speaker": "彥君",
+    "text": "肺動脈-缺氧血;肺靜脈-充氧血",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "肺動脈-缺氧血;肺靜脈-充氧血"
+    ]
+  },
+  {
+    "start": 365.35,
+    "end": 368.0,
     "speaker": "曉臻",
-    "text": "兩大血液循環 的路徑"
+    "text": "老師 那剩下的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 338.11,
-    "end": 341.06,
-    "speaker": "彥君",
-    "text": "先看 體循環"
-  },
-  {
-    "start": 341.06,
-    "end": 344.89,
-    "speaker": "彥君",
-    "text": "左心室出發 流充氧血"
-  },
-  {
-    "start": 344.89,
-    "end": 347.43,
-    "speaker": "彥君",
-    "text": "到 主動脈"
-  },
-  {
-    "start": 347.43,
-    "end": 350.79,
-    "speaker": "彥君",
-    "text": "再到 全身組織 交換"
-  },
-  {
-    "start": 350.79,
-    "end": 353.57,
-    "speaker": "彥君",
-    "text": "氧氣 被拿走"
-  },
-  {
-    "start": 353.57,
-    "end": 357.31,
-    "speaker": "彥君",
-    "text": "出來 變成藍色的 缺氧血"
-  },
-  {
-    "start": 357.31,
-    "end": 360.47,
-    "speaker": "彥君",
-    "text": "最後 經由 大靜脈"
-  },
-  {
-    "start": 360.47,
-    "end": 363.4,
-    "speaker": "彥君",
-    "text": "回到 右心房"
-  },
-  {
-    "start": 363.4,
-    "end": 366.15,
+    "start": 368.2,
+    "end": 370.7,
     "speaker": "曉臻",
-    "text": "那 接力賽 下半場"
+    "text": "淋巴循環 怎麼跑",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 366.15,
-    "end": 368.79,
+    "start": 370.9,
+    "end": 373.98,
+    "speaker": "彥君",
+    "text": "組織液 進入淋巴管",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 374.18,
+    "end": 376.57,
+    "speaker": "彥君",
+    "text": "就稱作 淋巴",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 376.77,
+    "end": 379.75,
+    "speaker": "彥君",
+    "text": "經過 淋巴結 過濾後",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 379.95,
+    "end": 382.5,
+    "speaker": "彥君",
+    "text": "會 慢慢匯集",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 382.7,
+    "end": 385.23,
     "speaker": "曉臻",
-    "text": "就是 肺循環囉"
+    "text": "淋巴結 就像哨所",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 368.79,
-    "end": 373.22,
-    "speaker": "彥君",
-    "text": "沒錯 右心室出發"
+    "start": 385.43,
+    "end": 388.18,
+    "speaker": "曉臻",
+    "text": "會攔截 並殺死病毒",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 373.22,
-    "end": 376.48,
-    "speaker": "彥君",
-    "text": "流缺氧血 到 肺動脈"
+    "start": 388.38,
+    "end": 390.71,
+    "speaker": "曉臻",
+    "text": "戰士們 最常問",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 376.48,
-    "end": 381.09,
-    "speaker": "彥君",
-    "text": "注意 肺動脈 是唯一"
+    "start": 390.91,
+    "end": 393.66,
+    "speaker": "曉臻",
+    "text": "淋巴 最後 回去哪裡",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 381.09,
-    "end": 384.06,
+    "start": 393.86,
+    "end": 397.97,
     "speaker": "彥君",
-    "text": "流缺氧血 的動脈"
+    "text": "記住 淋巴系統",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 384.06,
-    "end": 387.01,
+    "start": 398.17,
+    "end": 401.9,
     "speaker": "彥君",
-    "text": "到肺部 換完氣"
+    "text": "只有 一種方向 是單向的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 387.01,
-    "end": 390.36,
+    "start": 402.1,
+    "end": 404.62,
     "speaker": "彥君",
-    "text": "變回 紅色的 充氧血"
+    "text": "它從 組織出發",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 390.36,
-    "end": 393.22,
+    "start": 404.82,
+    "end": 407.62,
     "speaker": "彥君",
-    "text": "經由 肺靜脈"
-  },
-  {
-    "start": 393.22,
-    "end": 396.16,
-    "speaker": "彥君",
-    "text": "回到 左心房"
-  },
-  {
-    "start": 396.16,
-    "end": 405.06,
-    "speaker": "彥君",
-    "text": "[釘選] [肺動脈缺氧血;肺靜脈充氧血]"
-  },
-  {
-    "start": 405.06,
-    "end": 407.82,
-    "speaker": "彥君",
-    "text": "[清空釘選]"
+    "text": "最後 匯入 大靜脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 407.82,
-    "end": 410.77,
+    "end": 410.63,
+    "speaker": "彥君",
+    "text": "回到 血液循環",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 410.83,
+    "end": 418.46,
+    "speaker": "彥君",
+    "text": "淋巴系統-單向回收進入大靜脈",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "淋巴系統-單向回收進入大靜脈"
+    ]
+  },
+  {
+    "start": 418.46,
+    "end": 420.94,
     "speaker": "曉臻",
-    "text": "老師 那剩下的"
+    "text": "老師 這頁的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 410.77,
-    "end": 413.57,
+    "start": 421.14,
+    "end": 424.0,
     "speaker": "曉臻",
-    "text": "淋巴循環 怎麼跑"
+    "text": "血管比較 也非常愛考",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 413.57,
-    "end": 416.95,
+    "start": 424.2,
+    "end": 427.45,
     "speaker": "彥君",
-    "text": "組織液 進入淋巴管"
+    "text": "沒錯 先比 壓力",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 416.95,
-    "end": 419.64,
+    "start": 427.65,
+    "end": 430.56,
     "speaker": "彥君",
-    "text": "就稱作 淋巴"
+    "text": "動脈 大於 微血管",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 419.64,
-    "end": 422.92,
+    "start": 430.76,
+    "end": 433.7,
     "speaker": "彥君",
-    "text": "經過 淋巴結 過濾後"
+    "text": "微血管 大於 靜脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 422.92,
-    "end": 425.77,
+    "start": 433.9,
+    "end": 436.5,
     "speaker": "彥君",
-    "text": "會 慢慢匯集"
+    "text": "再比 血流速度",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 425.77,
-    "end": 428.6,
+    "start": 436.7,
+    "end": 440.21,
+    "speaker": "彥君",
+    "text": "動脈 最快 微血管 最慢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 440.41,
+    "end": 442.91,
+    "speaker": "彥君",
+    "text": "微血管 最慢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 443.11,
+    "end": 446.38,
+    "speaker": "彥君",
+    "text": "是為了 進行物質交換",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 446.58,
+    "end": 448.9,
     "speaker": "曉臻",
-    "text": "淋巴結 就像哨所"
+    "text": "那 管壁厚度 呢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 428.6,
-    "end": 431.64,
+    "start": 449.1,
+    "end": 451.62,
     "speaker": "曉臻",
-    "text": "會攔截 並殺死病毒"
+    "text": "動脈 厚而有彈性",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 431.64,
-    "end": 434.69,
+    "start": 451.82,
+    "end": 455.07,
     "speaker": "曉臻",
-    "text": "淋巴 最後 回去哪裡"
+    "text": "靜脈次之 微血管最薄",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 434.69,
-    "end": 439.1,
+    "start": 455.27,
+    "end": 457.66,
     "speaker": "彥君",
-    "text": "記住 淋巴系統"
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 439.1,
-    "end": 443.13,
+    "start": 457.86,
+    "end": 460.98,
     "speaker": "彥君",
-    "text": "只有 一種方向 是單向的"
+    "text": "動脈 測得到 脈搏跳動",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 443.13,
-    "end": 445.96,
+    "start": 461.18,
+    "end": 464.29,
     "speaker": "彥君",
-    "text": "它從 組織出發"
+    "text": "微血管 滲出 組織液",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 445.96,
-    "end": 449.05,
+    "start": 464.49,
+    "end": 474.34,
     "speaker": "彥君",
-    "text": "最後 匯入 大靜脈"
+    "text": "血壓： 動> 微 >靜 ;流速： 動> 靜> 微",
+    "is_pinned": true,
+    "pin_level": 1,
+    "commands": [
+      "釘選",
+      "血壓： 動> 微 >靜 ;流速： 動> 靜> 微"
+    ]
   },
   {
-    "start": 449.05,
-    "end": 452.16,
-    "speaker": "彥君",
-    "text": "回到 血液循環"
-  },
-  {
-    "start": 452.16,
-    "end": 460.13,
-    "speaker": "彥君",
-    "text": "[釘選] [淋巴系統單向回收進入大靜脈]"
-  },
-  {
-    "start": 460.13,
-    "end": 462.88,
-    "speaker": "彥君",
-    "text": "[清空釘選]"
-  },
-  {
-    "start": 462.88,
-    "end": 465.66,
+    "start": 474.34,
+    "end": 477.38,
     "speaker": "曉臻",
-    "text": "老師 這頁的"
+    "text": "戰士們 終極複習",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 465.66,
-    "end": 468.83,
+    "start": 477.58,
+    "end": 480.92,
     "speaker": "曉臻",
-    "text": "血管比較 也非常愛考"
+    "text": "第一 血漿 運水 養分 激素",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "激素"
+    ]
   },
   {
-    "start": 468.83,
-    "end": 472.38,
-    "speaker": "彥君",
-    "text": "沒錯 先比 壓力"
-  },
-  {
-    "start": 472.38,
-    "end": 475.59,
-    "speaker": "彥君",
-    "text": "動脈 大於 微血管"
-  },
-  {
-    "start": 475.59,
-    "end": 478.82,
-    "speaker": "彥君",
-    "text": "微血管 大於 靜脈"
-  },
-  {
-    "start": 478.82,
-    "end": 481.72,
-    "speaker": "彥君",
-    "text": "再比 血流速度"
-  },
-  {
-    "start": 481.72,
-    "end": 485.54,
-    "speaker": "彥君",
-    "text": "動脈 最快 微血管 最慢"
-  },
-  {
-    "start": 485.54,
-    "end": 488.34,
-    "speaker": "彥君",
-    "text": "微血管 最慢"
-  },
-  {
-    "start": 488.34,
-    "end": 491.91,
-    "speaker": "彥君",
-    "text": "是為了 進行物質交換"
-  },
-  {
-    "start": 491.91,
-    "end": 494.52,
+    "start": 481.12,
+    "end": 485.14,
     "speaker": "曉臻",
-    "text": "那 管壁厚度 呢"
+    "text": "第二 紅運氧 白吞噬 血小板止血",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 494.52,
-    "end": 497.35,
+    "start": 485.34,
+    "end": 489.11,
     "speaker": "曉臻",
-    "text": "動脈 厚而有彈性"
+    "text": "第三 心臟 靜脈 淋巴管 有瓣膜",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "瓣膜"
+    ]
   },
   {
-    "start": 497.35,
-    "end": 500.9,
+    "start": 489.31,
+    "end": 492.99,
     "speaker": "曉臻",
-    "text": "靜脈次之 微血管最薄"
+    "text": "第四 淋巴 單向回收 回靜脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 500.9,
-    "end": 503.58,
-    "speaker": "彥君",
-    "text": "完全正確"
+    "start": 493.19,
+    "end": 496.08,
+    "speaker": "曉臻",
+    "text": "第五 動脈 血壓最高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 496.28,
+    "end": 499.55,
+    "speaker": "曉臻",
+    "text": "第六 微血管 流速最慢",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 499.75,
+    "end": 503.38,
+    "speaker": "曉臻",
+    "text": "第七 肺動脈 流藍色缺氧血",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
     "start": 503.58,
-    "end": 507.01,
+    "end": 506.78,
     "speaker": "彥君",
-    "text": "動脈 測得到 脈搏跳動"
+    "text": "戰士們 閉上眼睛",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 507.01,
-    "end": 510.42,
+    "start": 506.98,
+    "end": 509.18,
     "speaker": "彥君",
-    "text": "微血管 滲出 組織液"
+    "text": "想一下",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 510.42,
-    "end": 517.83,
+    "start": 509.38,
+    "end": 512.67,
     "speaker": "彥君",
-    "text": "動> 靜> 微]"
+    "text": "如果藥丸 掉進 左心室",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 517.83,
-    "end": 520.58,
+    "start": 512.87,
+    "end": 515.38,
     "speaker": "彥君",
-    "text": "[清空釘選]"
+    "text": "會先看到肺嗎",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 520.58,
-    "end": 523.92,
+    "start": 515.58,
+    "end": 519.26,
     "speaker": "曉臻",
-    "text": "戰士們 終極複習"
+    "text": "不行 要先跑 體循環",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 523.92,
-    "end": 528.28,
+    "start": 519.46,
+    "end": 522.2,
     "speaker": "曉臻",
-    "text": "第一 血漿 運水 養分 [激素]"
+    "text": "回右心 再去肺",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 528.28,
-    "end": 532.6,
-    "speaker": "曉臻",
-    "text": "第二 紅運氧 白吞噬 血小板止血"
-  },
-  {
-    "start": 532.6,
-    "end": 537.42,
-    "speaker": "曉臻",
-    "text": "第三 心臟 靜脈 淋巴管 有[瓣膜]"
-  },
-  {
-    "start": 537.42,
-    "end": 541.4,
-    "speaker": "曉臻",
-    "text": "第四 淋巴 單向回收 回靜脈"
-  },
-  {
-    "start": 541.4,
-    "end": 544.58,
-    "speaker": "曉臻",
-    "text": "第五 動脈 血壓最高"
-  },
-  {
-    "start": 544.58,
-    "end": 548.16,
-    "speaker": "曉臻",
-    "text": "第六 微血管 流速最慢"
-  },
-  {
-    "start": 548.16,
-    "end": 552.09,
-    "speaker": "曉臻",
-    "text": "第七 肺動脈 流藍色缺氧血"
-  },
-  {
-    "start": 552.09,
-    "end": 555.59,
+    "start": 522.4,
+    "end": 525.14,
     "speaker": "彥君",
-    "text": "戰士們 閉上眼睛"
+    "text": "如果 你的腳受傷了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 555.59,
-    "end": 559.18,
+    "start": 525.34,
+    "end": 527.94,
     "speaker": "彥君",
-    "text": "如果藥丸 掉進 左心室"
+    "text": "淋巴 會怎麼跑",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 559.18,
-    "end": 561.99,
-    "speaker": "彥君",
-    "text": "會先看到肺嗎"
-  },
-  {
-    "start": 561.99,
-    "end": 565.97,
+    "start": 528.14,
+    "end": 530.65,
     "speaker": "曉臻",
-    "text": "不行 要先跑 體循環"
+    "text": "會經過 鼠蹊部的",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 565.97,
-    "end": 569.01,
+    "start": 530.85,
+    "end": 533.04,
     "speaker": "曉臻",
-    "text": "回右心 再去肺"
+    "text": "淋巴結過濾",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 569.01,
-    "end": 572.06,
-    "speaker": "彥君",
-    "text": "如果 你的腳受傷了"
-  },
-  {
-    "start": 572.06,
-    "end": 574.96,
-    "speaker": "彥君",
-    "text": "淋巴 會怎麼跑"
-  },
-  {
-    "start": 574.96,
-    "end": 577.76,
+    "start": 533.24,
+    "end": 535.36,
     "speaker": "曉臻",
-    "text": "會經過 鼠蹊部的"
+    "text": "再 回到靜脈",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 577.76,
-    "end": 580.25,
+    "start": 535.56,
+    "end": 538.45,
+    "speaker": "彥君",
+    "text": "如果 靜脈瓣膜 壞掉了",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": [
+      "瓣膜"
+    ]
+  },
+  {
+    "start": 538.65,
+    "end": 541.25,
+    "speaker": "彥君",
+    "text": "會發生 什麼事",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 541.45,
+    "end": 543.95,
     "speaker": "曉臻",
-    "text": "淋巴結過濾"
+    "text": "血液 會倒流堆積",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 580.25,
-    "end": 582.67,
+    "start": 544.15,
+    "end": 546.42,
     "speaker": "曉臻",
-    "text": "再 回到靜脈"
+    "text": "變成 靜脈曲張",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 582.67,
-    "end": 586.63,
+    "start": 546.62,
+    "end": 551.21,
     "speaker": "彥君",
-    "text": "如果 靜脈[瓣膜] 壞掉了"
+    "text": "漂亮 最後 加一個細節",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 586.63,
-    "end": 589.53,
+    "start": 551.41,
+    "end": 554.49,
     "speaker": "彥君",
-    "text": "會發生 什麼事"
+    "text": "動脈血 是指 含氧量高",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 589.53,
-    "end": 592.33,
+    "start": 554.69,
+    "end": 557.72,
+    "speaker": "彥君",
+    "text": "靜脈血 是 含氧量低",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 557.92,
+    "end": 561.41,
+    "speaker": "彥君",
+    "text": "所以 肺動脈 流的是缺氧血",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 561.61,
+    "end": 564.74,
+    "speaker": "彥君",
+    "text": "肺靜脈 流的是充氧血",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
+  },
+  {
+    "start": 564.94,
+    "end": 567.78,
     "speaker": "曉臻",
-    "text": "血液 會倒流堆積"
+    "text": "這招 真的 很容易被騙",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 592.33,
-    "end": 594.9,
+    "start": 567.98,
+    "end": 570.41,
     "speaker": "曉臻",
-    "text": "變成 靜脈曲張"
+    "text": "戰士們 要看清楚",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 594.9,
-    "end": 599.79,
+    "start": 570.61,
+    "end": 572.99,
     "speaker": "彥君",
-    "text": "漂亮 最後 加一個細節"
+    "text": "完全正確",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 599.79,
-    "end": 603.17,
+    "start": 573.19,
+    "end": 576.46,
     "speaker": "彥君",
-    "text": "動脈血 是指 含氧量高"
+    "text": "觀念通了 人生就通",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 603.17,
-    "end": 606.5,
+    "start": 576.66,
+    "end": 579.26,
     "speaker": "彥君",
-    "text": "靜脈血 是 含氧量低"
+    "text": "我是 彥君老師",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 606.5,
-    "end": 610.26,
-    "speaker": "彥君",
-    "text": "所以 肺動脈 流的是靜脈血"
-  },
-  {
-    "start": 610.26,
-    "end": 613.6,
-    "speaker": "彥君",
-    "text": "肺靜脈 流的是動脈血"
-  },
-  {
-    "start": 613.6,
-    "end": 616.74,
+    "start": 579.46,
+    "end": 581.8,
     "speaker": "曉臻",
-    "text": "這招 真的 很容易被騙"
+    "text": "我是 曉臻助教",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 616.74,
-    "end": 619.47,
-    "speaker": "曉臻",
-    "text": "戰士們 要看清楚"
+    "start": 582.0,
+    "end": 585.22,
+    "speaker": "合聲",
+    "text": "邏輯全通 考場巔峰",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   },
   {
-    "start": 619.47,
-    "end": 622.15,
-    "speaker": "彥君",
-    "text": "完全正確"
-  },
-  {
-    "start": 622.15,
-    "end": 625.72,
-    "speaker": "彥君",
-    "text": "觀念通了 人生就通"
-  },
-  {
-    "start": 625.72,
-    "end": 628.62,
-    "speaker": "彥君",
-    "text": "我是 彥君老師"
-  },
-  {
-    "start": 628.62,
-    "end": 631.26,
-    "speaker": "曉臻",
-    "text": "我是 曉臻助教"
-  },
-  {
-    "start": 631.26,
-    "end": 634.66,
-    "speaker": "曉臻",
-    "text": "邏輯全通 考場巔峰"
-  },
-  {
-    "start": 634.66,
-    "end": 637.85,
-    "speaker": "曉臻",
-    "text": "戰士們 下一關見"
+    "start": 585.42,
+    "end": 588.72,
+    "speaker": "合聲",
+    "text": "戰士們 下一關見",
+    "is_pinned": false,
+    "pin_level": 0,
+    "commands": []
   }
 ]
